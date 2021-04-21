@@ -1,0 +1,229 @@
+%PDF-1.3
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 4 0 R>>
+endobj
+4 0 obj
+<</Length 1522>>
+stream
+2 J
+0.57 w
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (Voulez vous un pointeur pour déboguer ?) Tj ET Q
+0.57 w
+BT /F2 26.00 Tf ET
+q 0.502 g BT 118.24 656.92 Td (The REBOL Documentation) Tj ET Q
+q 0.502 g BT 243.04 631.41 Td (Project) Tj ET Q
+BT /F1 8.00 Tf ET
+q 0.502 g BT 224.74 616.97 Td (-- FR - Documentation REBOL - Divers --) Tj ET Q
+0.85 w
+BT /F2 20.00 Tf ET
+q 0.502 g BT 73.70 423.45 Td (Divers) Tj ET Q
+BT /F3 22.00 Tf ET
+297.64 436.54 m 297.64 413.86 l S q 0.000 g BT 300.47 418.60 Td (Voulez vous un) Tj ET Q
+297.64 413.86 m 297.64 391.18 l S q 0.000 g BT 300.47 395.92 Td (pointeur pour) Tj ET Q
+297.64 391.18 m 297.64 368.50 l S q 0.000 g BT 300.47 373.24 Td (déboguer ?) Tj ET Q
+297.64 368.50 m 297.64 345.83 l S 
+BT /F4 16.00 Tf ET
+297.64 345.83 m 297.64 328.82 l S q 0.000 g BT 409.15 332.52 Td (Philippe Le Goff ) Tj ET Q
+BT /F4 12.00 Tf ET
+297.64 328.82 m 297.64 311.81 l S q 0.000 g BT 308.59 316.72 Td (Première publication : 9 mai 2006, et mis en) Tj ET Q
+297.64 311.81 m 297.64 294.80 l S q 0.000 g BT 394.92 299.71 Td (ligne le  mardi 9 mai 2006) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 73.70 253.54 Td (Résumé :) Tj ET 73.70 252.54 45.01 -0.50 re f Q
+BT /F4 8.00 Tf ET
+q 0.000 g BT 73.70 239.96 Td (La traduction de l'article 11 du blog Rebol 3.0 au sujet du déboguage.) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 1/2) Tj ET Q
+
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 6 0 R>>
+endobj
+6 0 obj
+<</Length 4733>>
+stream
+2 J
+0.85 w
+BT /F4 8.00 Tf ET
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (Voulez vous un pointeur pour déboguer ?) Tj ET Q
+BT /F4 8.00 Tf ET
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 780.78 Td ( ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 76.48 780.78 Td (Carl Sassenrath, CTO REBOL Technologies 12-Apr-2006 16:46 GMT Article #0011) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 766.61 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 752.43 Td (Cet article concerne d'entre vous qui veulent plus de contrôle pour déboguer, pour créer des IDEs,) Tj ET Q
+q 0.000 g BT 73.70 738.26 Td (etc.  Voulez vous un pointeur de déboguage dans le mécanisme de gestion des erreurs ?) Tj ET Q
+q 0.000 g BT 73.70 724.09 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 709.91 Td (De quoi s'agit-il ?  En REBOL 2, lorsqu'une erreur se produit, la pile retourne immédiatement au ) Tj ET Q
+q 0.000 g BT 73.70 695.74 Td (précédent état pré-déterminé de l'interpréteur, et tous les états entre l'erreur et l'endroit de la capture) Tj ET Q
+q 0.000 g BT 73.70 681.57 Td (de l'erreur \("catch"\) sont effacés.  Du fait de cela, il n'y a pas de moyens d'examiner les arguments) Tj ET Q
+q 0.000 g BT 73.70 667.39 Td (de la fonction courante, de remonter la liste \(backtrace\) de fonctions, etc..) Tj ET Q
+q 0.000 g BT 73.70 653.22 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 639.05 Td (Avec REBOL 3, nous pouvons ajouter un pointeur \(debug hook\) de déboguage qui vous permettra) Tj ET Q
+q 0.000 g BT 73.70 624.87 Td (de récupérer l'erreur interne, retardant le « throw » sur la pile, et permettant à du code spécialisé) Tj ET Q
+q 0.000 g BT 73.70 610.70 Td (d'accéder à la pile de l'interpréteur.) Tj ET Q
+q 0.000 g BT 73.70 596.53 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 582.35 Td (\(Notez que ceci n'a rien d'extraordinaire pour la plupart des interpréteurs. En fait, ce qui est curieux,) Tj ET Q
+q 0.000 g BT 73.70 568.18 Td (c'est que nous avons fait ainsi avec REBOL sans le fournir.\)) Tj ET Q
+q 0.000 g BT 73.70 554.01 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 539.83 Td (La pile manipule le contexte des fonctions, le bloc des arguments de la fonction, les références de) Tj ET Q
+q 0.000 g BT 73.70 525.66 Td (mots \(pour les fonctions nommées, ou celles appelées via un path\), la référence précédente des) Tj ET Q
+q 0.000 g BT 73.70 511.49 Td (fonctions \(pour les libérer\), et les traitements temporaires. Ce sont tous des datatypes REBOL) Tj ET Q
+q 0.000 g BT 73.70 497.32 Td (valides, de sorte que vous pourriez en théorie  accéder à la pile elle-même comme à un bloc.  De la) Tj ET Q
+q 0.000 g BT 73.70 483.14 Td (sorte, un IDE utilisant le mode débogage pourrait afficher toutes informations pertinentes, pour les) Tj ET Q
+q 0.000 g BT 73.70 468.97 Td (programmeurs qui voudraient les voir durant une session de déboguage.) Tj ET Q
+q 0.000 g BT 73.70 454.80 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 440.62 Td (Bien sûr, nous devons aussi être prudents dans la manière d'accéder à cette information, afin qu'elle) Tj ET Q
+q 0.000 g BT 73.70 426.45 Td (soit correctement extraite, pour éviter des problèmes de compatibilité futurs, peut être devrions-nous) Tj ET Q
+q 0.000 g BT 73.70 412.28 Td (étendre le format de la pile.  C'est une grosse préoccupation dont nous devons nous occuper. De) Tj ET Q
+q 0.000 g BT 73.70 398.10 Td (plus, nous devrons faire attention aux cas d'erreurs qui placent la pile dans un état interrogeable, tels) Tj ET Q
+q 0.000 g BT 73.70 383.93 Td (que les cas d'erreurs "not enough memory" ou "corruption" \(qui ne devrait pas se produire\).) Tj ET Q
+q 0.000 g BT 73.70 369.76 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 355.58 Td (Note :) Tj ET Q
+q 0.000 g BT 100.38 355.58 Td (  Je voudrais ajouter qu'il peut y avoir quelques problèmes de sécurité dans l'exécution, reliés) Tj ET Q
+q 0.000 g BT 73.70 341.41 Td (à de tels pointeurs de déboguage \(comme effectuer une recherche sur la pile pour des clés de) Tj ET Q
+q 0.000 g BT 73.70 327.24 Td (cryptage, etc.\), de sorte  que cette caractéristique va induire un niveau de sécurité spécifique à la) Tj ET Q
+q 0.000 g BT 73.70 313.06 Td (fonction ) Tj ET Q
+q 0.000 g BT 111.50 313.06 Td (secure) Tj ET Q
+q 0.000 g BT 141.51 313.06 Td ( pour les sessions de déboguage.) Tj ET Q
+q 0.000 g BT 73.70 298.89 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 284.72 Td (Il est trop tôt pour connaître précisément les détails ici, mais la sécurité est une priorité très) Tj ET Q
+q 0.000 g BT 73.70 270.54 Td (importante.) Tj ET Q
+q 0.000 g BT 73.70 256.37 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 242.20 Td (\(Traduction : Philippe Le Goff\)) Tj ET Q
+BT /F6 8.00 Tf ET
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 2/2) Tj ET Q
+
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R ]
+/Count 2
+/MediaBox [0 0 595.28 841.89]
+>>
+endobj
+7 0 obj
+<</Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+8 0 obj
+<</Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+9 0 obj
+<</Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+10 0 obj
+<</Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+11 0 obj
+<</Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+12 0 obj
+<</Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+/F6 12 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+13 0 obj
+<<
+/Producer (FPDF 1.53)
+/Title (Voulez vous un pointeur pour déboguer ?)
+/Subject (Divers)
+/Author (Philippe Le Goff )
+/Keywords (DOCUMENTATION)
+/Creator (The REBOL Documentation Project)
+/CreationDate (D:20060528210045)
+>>
+endobj
+14 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 15
+0000000000 65535 f 
+0000006790 00000 n 
+0000007476 00000 n 
+0000000009 00000 n 
+0000000222 00000 n 
+0000001794 00000 n 
+0000002007 00000 n 
+0000006883 00000 n 
+0000006979 00000 n 
+0000007073 00000 n 
+0000007170 00000 n 
+0000007269 00000 n 
+0000007371 00000 n 
+0000007633 00000 n 
+0000007874 00000 n 
+trailer
+<<
+/Size 15
+/Root 14 0 R
+/Info 13 0 R
+>>
+startxref
+7978
+%%EOF

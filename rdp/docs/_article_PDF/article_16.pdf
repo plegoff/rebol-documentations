@@ -1,0 +1,542 @@
+%PDF-1.3
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 4 0 R>>
+endobj
+4 0 obj
+<</Length 1826>>
+stream
+2 J
+0.57 w
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (Créer un exécutable qui accepte des paramètres) Tj ET Q
+0.57 w
+BT /F2 26.00 Tf ET
+q 0.502 g BT 118.24 656.92 Td (The REBOL Documentation) Tj ET Q
+q 0.502 g BT 243.04 631.41 Td (Project) Tj ET Q
+BT /F1 8.00 Tf ET
+q 0.502 g BT 201.17 616.97 Td (-- FR - Documentation REBOL - Articles Techniques --) Tj ET Q
+0.85 w
+BT /F2 20.00 Tf ET
+q 0.502 g BT 73.70 423.45 Td (Articles) Tj ET Q
+q 0.502 g BT 73.70 397.94 Td (Techniques) Tj ET Q
+BT /F3 22.00 Tf ET
+297.64 411.02 m 297.64 388.35 l S q 0.000 g BT 300.47 393.09 Td (Créer un exécutable) Tj ET Q
+297.64 388.35 m 297.64 365.67 l S q 0.000 g BT 300.47 370.41 Td (qui accepte des) Tj ET Q
+297.64 365.67 m 297.64 342.99 l S q 0.000 g BT 300.47 347.73 Td (paramètres) Tj ET Q
+297.64 342.99 m 297.64 320.32 l S 
+BT /F4 16.00 Tf ET
+297.64 320.32 m 297.64 303.31 l S q 0.000 g BT 402.04 307.01 Td (Christophe Genser) Tj ET Q
+BT /F4 12.00 Tf ET
+297.64 303.31 m 297.64 286.30 l S q 0.000 g BT 307.92 291.20 Td (Première publication : 7 juin 2001, et mis en) Tj ET Q
+297.64 286.30 m 297.64 269.29 l S q 0.000 g BT 350.94 274.20 Td (ligne le  vendredi 3 novembre 2006) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 73.70 228.02 Td (Résumé :) Tj ET 73.70 227.02 45.01 -0.50 re f Q
+BT /F4 8.00 Tf ET
+q 0.000 g BT 73.70 214.45 Td (Christophe Genser présente différents aspects de la conception d'un script Rebol/Command utilisant des paramètres transmis par la ligne de) Tj ET Q
+q 0.000 g BT 73.70 200.28 Td (commande. Il étudie particulièrement les problèmes posés par l'encapsulation d'un script avec Rebol/Runtime.) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 1/5) Tj ET Q
+
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [93.54 774.61 146.89 764.61] /Border [0 0 0] /A <</S /URI /URI (#1)>>>><</Type /Annot /Subtype /Link /Rect [93.54 760.43 308.06 750.43] /Border [0 0 0] /A <</S /URI /URI (#2)>>>><</Type /Annot /Subtype /Link /Rect [93.54 746.26 256.92 736.26] /Border [0 0 0] /A <</S /URI /URI (#3)>>>><</Type /Annot /Subtype /Link /Rect [93.54 732.09 261.65 722.09] /Border [0 0 0] /A <</S /URI /URI (#4)>>>><</Type /Annot /Subtype /Link /Rect [93.54 717.91 152.47 707.91] /Border [0 0 0] /A <</S /URI /URI (#5)>>>><</Type /Annot /Subtype /Link /Rect [93.54 703.74 228.60 693.74] /Border [0 0 0] /A <</S /URI /URI (#6)>>>><</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 6 0 R>>
+endobj
+6 0 obj
+<</Length 6946>>
+stream
+2 J
+0.85 w
+BT /F4 8.00 Tf ET
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (Créer un exécutable qui accepte des paramètres) Tj ET Q
+BT /F4 8.00 Tf ET
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 780.78 Td (  ) Tj ET Q
+q 0.000 g BT 93.54 780.78 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 766.61 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 766.61 Td (1 Historique) Tj ET 93.54 765.61 53.35 -0.50 re f Q
+q 0.000 g BT 146.89 766.61 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 752.43 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 752.43 Td (2 Comment relayer des paramètres à un script ?) Tj ET 93.54 751.43 214.52 -0.50 re f Q
+q 0.000 g BT 308.06 752.43 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 738.26 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 738.26 Td (3 Comment utiliser ces paramètres ?) Tj ET 93.54 737.26 163.38 -0.50 re f Q
+q 0.000 g BT 256.92 738.26 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 724.09 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 724.09 Td (4 Exemple de définition d'une syntaxe) Tj ET 93.54 723.09 168.11 -0.50 re f Q
+q 0.000 g BT 261.65 724.09 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 709.91 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 709.91 Td (5 Peaufinage) Tj ET 93.54 708.91 58.93 -0.50 re f Q
+q 0.000 g BT 152.47 709.91 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 695.74 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 695.74 Td (6 Encapsulation avec Runtime) Tj ET 93.54 694.74 135.06 -0.50 re f Q
+q 0.000 g BT 228.60 695.74 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 667.39 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 73.70 623.67 Td (1 Historique) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 610.70 Td ( ) Tj ET Q
+q 0.000 g BT 76.48 610.70 Td ( ) Tj ET Q
+q 0.000 g BT 79.26 610.70 Td ( 					) Tj ET Q
+q 0.000 g BT 95.94 610.70 Td ( ) Tj ET Q
+q 0.000 g BT 98.72 610.70 Td ( ) Tj ET Q
+q 0.000 g BT 101.50 610.70 Td ( ) Tj ET Q
+q 0.000 g BT 104.28 610.70 Td ( ) Tj ET Q
+q 0.000 g BT 107.06 610.70 Td ( ) Tj ET Q
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F5 8.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F5 8.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F5 8.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F5 8.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F5 8.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F5 8.00 Tf ET
+1.000 1.000 0.000 rg
+84.69 620.79 52.98 -14.17 re B q 0.000 g BT 87.52 611.30 Td ( Date ) Tj ET Q
+BT /F1 8.00 Tf ET
+1.000 g
+BT /F5 8.00 Tf ET
+1.000 1.000 0.000 rg
+137.67 620.79 40.07 -14.17 re B q 0.000 g BT 140.51 611.30 Td (Version ) Tj ET Q
+BT /F1 8.00 Tf ET
+1.000 g
+BT /F5 8.00 Tf ET
+1.000 1.000 0.000 rg
+177.74 620.79 127.66 -14.17 re B q 0.000 g BT 180.58 611.30 Td (Commentaires ) Tj ET Q
+BT /F1 8.00 Tf ET
+1.000 g
+BT /F5 8.00 Tf ET
+1.000 1.000 0.000 rg
+305.40 620.79 77.86 -14.17 re B q 0.000 g BT 308.23 611.30 Td (Auteur ) Tj ET Q
+BT /F1 8.00 Tf ET
+1.000 g
+BT /F5 8.00 Tf ET
+1.000 1.000 0.000 rg
+383.26 620.79 127.33 -14.17 re B q 0.000 g BT 386.10 611.30 Td (Email ) Tj ET Q
+BT /F1 8.00 Tf ET
+1.000 g
+0.902 0.902 0.902 rg
+84.69 606.61 52.98 -14.17 re B q 0.000 g BT 87.52 597.13 Td ( 7/06/2001 ) Tj ET Q
+137.67 606.61 40.07 -14.17 re B q 0.000 g BT 140.51 597.13 Td (1.0.0 ) Tj ET Q
+177.74 606.61 127.66 -14.17 re B q 0.000 g BT 180.58 597.13 Td (Article initial ) Tj ET Q
+305.40 606.61 77.86 -14.17 re B q 0.000 g BT 308.23 597.13 Td (Christophe Genser ) Tj ET Q
+84.69 592.44 52.98 -14.17 re S q 0.000 g BT 87.52 582.95 Td ( 31/10/2006 ) Tj ET Q
+137.67 592.44 40.07 -14.17 re S q 0.000 g BT 140.51 582.95 Td (1.1.0 ) Tj ET Q
+177.74 592.44 127.66 -14.17 re S q 0.000 g BT 180.58 582.95 Td (Conversion au format MakeDoc2 ) Tj ET Q
+305.40 592.44 77.86 -14.17 re S q 0.000 g BT 308.23 582.95 Td (Karim El Founas ) Tj ET Q
+383.26 592.44 127.33 -14.17 re S q 0.000 g BT 386.10 582.95 Td (karim.elfounas@easybraine.com ) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 568.18 Td ( ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 524.46 Td (2 Comment relayer des paramètres à un script ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 511.49 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 497.32 Td (Prenons les choses dans l'ordre et commençons par le début.) Tj ET Q
+q 0.000 g BT 70.87 483.14 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 468.97 Td (Il se trouve que Rebol peut lancer un script avec des paramètres \(taper usage en commandes pour en) Tj ET Q
+q 0.000 g BT 70.87 454.80 Td (savoir un peu plus\). Ainsi,  on peut exécuter un script avec la commande suivante tapée dans le) Tj ET Q
+q 0.000 g BT 70.87 440.62 Td (Shell :) Tj ET Q
+q 0.000 g BT 70.87 426.45 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 412.88 Td ( rebolcmd.exe -s script.r param1 param2 param3) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 398.10 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 383.93 Td (Le -s demande à Rebol de ne plus tenir aucun compte de la sécurité. Dans notre cas, cela évitera à) Tj ET Q
+q 0.000 g BT 70.87 369.76 Td (l'utilisateur néophyte  d'avoir à répondre à des questions \(en anglais\) dont il ne connaît pas la) Tj ET Q
+q 0.000 g BT 70.87 355.58 Td (réponse. Reste à récupérer les autres paramètres  pour pouvoir les traiter. Ces paramètres se logent) Tj ET Q
+q 0.000 g BT 70.87 341.41 Td (dans system/options/args, sous forme de chaînes de caractères.) Tj ET Q
+q 0.000 g BT 70.87 327.24 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 313.66 Td ( >> Arguments : copy system/options/arg) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 299.49 Td ( == [ "param1" "param2" "param3" ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 284.72 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 270.54 Td (Note : si on appelle rebolcmd sans préciser de script, Rebol nous annonce que param1 ne peut pas) Tj ET Q
+q 0.000 g BT 70.87 256.37 Td (être évalué. Si on veut  vraiment introduire un param1, la solution que j'ai employé consiste à) Tj ET Q
+q 0.000 g BT 70.87 242.20 Td (commencer par un param0 qui peut être n'importe  quoi et dont on ne tient pas compte, pas plus qu'on) Tj ET Q
+q 0.000 g BT 70.87 228.02 Td (ne tient compte du l'indication de sa non évaluation.) Tj ET Q
+q 0.000 g BT 70.87 213.85 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 170.13 Td (3 Comment utiliser ces paramètres ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 157.16 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 142.98 Td (L'idée \(mais est-ce la seule et surtout est-ce la meilleure ?\) a été d'analyser par un dialecte le bloc des) Tj ET Q
+q 0.000 g BT 70.87 128.81 Td (paramètres avec la  commande parse. Un dialecte ne peut réfléchir que sur des types word !. Il faut) Tj ET Q
+q 0.000 g BT 70.87 114.64 Td (donc avant tout transformer notre bloc de chaînes de caractères en bloc de mots :) Tj ET Q
+q 0.000 g BT 70.87 100.46 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 2/5) Tj ET Q
+
+endstream
+endobj
+7 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 8 0 R>>
+endobj
+8 0 obj
+<</Length 4393>>
+stream
+2 J
+0.85 w
+BT /F2 8.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 70.87 819.05 Td (Créer un exécutable qui accepte des paramètres) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 795.55 Td ( >> param: []) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 781.38 Td ( == []) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 767.21 Td ( >> foreach arg arguments [ append param to-word arg ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 753.03 Td ( == [ param1 param2 param3 ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 738.26 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 724.09 Td (Il faut ensuite, dans le script, définir un dialecte et analyser le bloc de paramètres. Cela donne donc le) Tj ET Q
+q 0.000 g BT 70.87 709.91 Td (scrip suivant :) Tj ET Q
+q 0.000 g BT 70.87 695.74 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 682.17 Td ( Rebol []) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 667.99 Td ( ; Récupération des arguments) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 653.82 Td (   Param: []) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 639.65 Td (   Arguments: copy system/options/arg) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 625.47 Td (   foreach arg arguments [ append param to-word arg ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 611.30 Td ( ; Dialecte) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 597.13 Td (   syntaxe: [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 582.95 Td (      any [ ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 568.78 Td (   ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 554.61 Td ( ; Application du dialecte) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 540.43 Td (   parse param syntaxe) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 525.66 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 481.94 Td (4 Exemple de définition d'une syntaxe) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 468.97 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 454.80 Td (Imaginons que nous ayons besoin de donner comme arguments à notre exécutable un numéro sous) Tj ET Q
+q 0.000 g BT 70.87 440.62 Td (la forme d'un entier compris entre 1 et 5  et un nom de fichier qui n'est rien d'autre qu'une chaîne de) Tj ET Q
+q 0.000 g BT 70.87 426.45 Td (caractères. Pour localiser le numéro, nous le ferons précédé du mot num. Le nom de fichier sera ) Tj ET Q
+q 0.000 g BT 70.87 412.28 Td (spécifié par le mot fic. Le script se lancera ainsi en tapant dans le Shell :) Tj ET Q
+q 0.000 g BT 70.87 398.10 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 384.53 Td ( rebolcmd.exe -s script.r n 3 fic monfichier) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 369.76 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 355.58 Td (Ou, ce qui revient au même :) Tj ET Q
+q 0.000 g BT 70.87 341.41 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 327.84 Td ( rebolcmd.exe -s script.r fic monfichier n 3) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 313.06 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 298.89 Td (Le dialecte doit donc détecter les mots fic et n, et mémoriser les mots qui les suivent. Voici le script qui) Tj ET Q
+q 0.000 g BT 70.87 284.72 Td (correspond :) Tj ET Q
+q 0.000 g BT 70.87 270.54 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 256.97 Td ( Syntaxe [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 242.80 Td (      Any [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 228.62 Td (           'fic set argf word! \( \) |) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 214.45 Td (           'n set argn word! \( \)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 200.28 Td (      ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 186.10 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 171.33 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 157.16 Td (La règle sera fausse si l'un des mots fic ou n est rencontré sans être suivi d'un autre, ou si elle) Tj ET Q
+q 0.000 g BT 70.87 142.98 Td (présente un mot non reconnu qui n'est pas précédé de fic ou n.) Tj ET Q
+q 0.000 g BT 70.87 128.81 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 114.64 Td (Reste à faire faire au script ce que l'on désire qu'il fasse avec ces paramètres : affecter à la variable) Tj ET Q
+q 0.000 g BT 70.87 100.46 Td (num, de type integer !, la valeur qui suit n à  condition qu'elle soit comprise entre 1 et 5, et affecter à la) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 3/5) Tj ET Q
+
+endstream
+endobj
+9 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 10 0 R>>
+endobj
+10 0 obj
+<</Length 4416>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (Créer un exécutable qui accepte des paramètres) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td (variable fichier, de type file !, le nom correspondant au mot qui suit fic.  Remarquons au passage) Tj ET Q
+q 0.000 g BT 70.87 780.78 Td (qu'un mot ne peut pas être converti en entier directement. On peut biaiser en le passant en chaîne de) Tj ET Q
+q 0.000 g BT 70.87 766.61 Td (caractères auparavant.) Tj ET Q
+q 0.000 g BT 70.87 752.43 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 738.26 Td (A l'occasion, une gestion d'erreur permet de vérifier si n est suivi d'autre chose qu'un d'un entier. Cela) Tj ET Q
+q 0.000 g BT 70.87 724.09 Td (donne :) Tj ET Q
+q 0.000 g BT 70.87 709.91 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 696.34 Td ( Syntaxe [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 682.17 Td (      Any [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 667.99 Td (           'fic set argf word! \( fichier: to-file argf \) |) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 653.82 Td (           'n set argn word! \() Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 639.65 Td (                if error? try [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 625.47 Td (                     num: to-integer to-string argn) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 611.30 Td (                     if any [ \( num ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 243.67 611.30 Td ( 5 \) ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 597.13 Td (                          [ traitement si erreur de fourchette ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 582.95 Td (                ] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 568.78 Td (                          traitement si erreur de type) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 554.61 Td (                ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 540.43 Td (           \)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 526.26 Td (      ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 512.09 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 497.32 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 453.60 Td (5 Peaufinage) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 440.62 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 426.45 Td (En dernier ajustement, nous pouvons vérifier si la règle définie est correctement suivie avant de) Tj ET Q
+q 0.000 g BT 70.87 412.28 Td (passer à autre chose. Le script final donnerait ceci :) Tj ET Q
+q 0.000 g BT 70.87 398.10 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 384.53 Td ( Rebol []) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 370.36 Td ( ; Récupération des arguments) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 356.18 Td ( Param: []) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 342.01 Td ( Arguments: copy system/options/arg) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 327.84 Td ( foreach arg arguments [ append param to-word arg ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 313.66 Td ( ; Dialecte) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 299.49 Td ( syntaxe: [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 285.32 Td (      any [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 271.14 Td (           'fic set argf word! \( fichier: to-file argf \) |) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 256.97 Td (           'n set argn word! \() Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 242.80 Td (              if error? try [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 228.62 Td (                 num: to-integer to-string argn) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 214.45 Td (                 if any [ \( num ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 224.47 214.45 Td ( 5 \) ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 200.28 Td (                     [ traitement si erreur de fourchette ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 186.10 Td (                 ] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 171.93 Td (                     traitement si erreur de type) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 157.76 Td (                 ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 143.58 Td (              \)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 129.41 Td (      ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 115.24 Td ( ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 101.06 Td ( ; Application du dialecte) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 4/5) Tj ET Q
+
+endstream
+endobj
+11 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 12 0 R>>
+endobj
+12 0 obj
+<</Length 2528>>
+stream
+2 J
+0.85 w
+BT /F2 8.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 70.87 819.05 Td (Créer un exécutable qui accepte des paramètres) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 795.55 Td ( either \( parse param syntaxe \) [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 781.38 Td (      traitement normal) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 767.21 Td ( ] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 753.03 Td (      traitement si erreur de syntaxe) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 738.86 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 724.09 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 680.37 Td (6 Encapsulation avec Runtime) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 667.39 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 653.22 Td (La méthode la plus pratique \(à mon avis\), consiste à copier le script dans le répertoire où se trouve) Tj ET Q
+q 0.000 g BT 70.87 639.05 Td (Runtime \(cmdencap.exe\), et lancer celui-ci. A sa demande, taper le nom du script Rebol \(script.r\), puis) Tj ET Q
+q 0.000 g BT 70.87 624.87 Td (le nom souhaité pour l'exécutable \(script.exe\). Une fois celui-ci placé sur une autre station, dépourvue) Tj ET Q
+q 0.000 g BT 70.87 610.70 Td (de Rebol, un fichier network.txt doit être placé dans le même répertoire que script.exe. Un fichier vide) Tj ET Q
+q 0.000 g BT 70.87 596.53 Td (convient. Le document setup.html livré avec Runtime fournit quelques explications à ce sujet.) Tj ET Q
+q 0.000 g BT 70.87 582.35 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 568.18 Td (On peut maintenant lancer ce programme à partir du Shell ou d'un batch en tapant :) Tj ET Q
+q 0.000 g BT 70.87 554.01 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 540.43 Td ( script.exe -s arg n 3 fic monfichier) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 525.66 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 511.49 Td (Comme lorsqu'on lance Rebol Command sans préciser de script, le premier paramètre relayé n'est) Tj ET Q
+q 0.000 g BT 70.87 497.32 Td (pas évalué \(ne me demandez pas pourquoi\). Le mot arg \(ou n'importe quel autre\) est donc mis ici) Tj ET Q
+q 0.000 g BT 70.87 483.14 Td (pour que ce soit lui qui ne soit pas évalué.) Tj ET Q
+q 0.000 g BT 70.87 468.97 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 454.80 Td (Et maintenant, il n'y a plus qu'à diffuser.) Tj ET Q
+BT /F6 8.00 Tf ET
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 5/5) Tj ET Q
+
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R 7 0 R 9 0 R 11 0 R ]
+/Count 5
+/MediaBox [0 0 595.28 841.89]
+>>
+endobj
+13 0 obj
+<</Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+14 0 obj
+<</Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+15 0 obj
+<</Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+16 0 obj
+<</Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+17 0 obj
+<</Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+18 0 obj
+<</Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 13 0 R
+/F2 14 0 R
+/F3 15 0 R
+/F4 16 0 R
+/F5 17 0 R
+/F6 18 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+19 0 obj
+<<
+/Producer (FPDF 1.53)
+/Title (Créer un exécutable qui accepte des paramètres)
+/Subject (Articles Techniques)
+/Author (Christophe Genser)
+/Keywords (DOCUMENTATION)
+/Creator (The REBOL Documentation Project)
+/CreationDate (D:20061108182709)
+>>
+endobj
+20 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 21
+0000000000 65535 f 
+0000022080 00000 n 
+0000022788 00000 n 
+0000000009 00000 n 
+0000000222 00000 n 
+0000002098 00000 n 
+0000002953 00000 n 
+0000009949 00000 n 
+0000010162 00000 n 
+0000014605 00000 n 
+0000014819 00000 n 
+0000019286 00000 n 
+0000019501 00000 n 
+0000022192 00000 n 
+0000022289 00000 n 
+0000022384 00000 n 
+0000022482 00000 n 
+0000022581 00000 n 
+0000022683 00000 n 
+0000022948 00000 n 
+0000023209 00000 n 
+trailer
+<<
+/Size 21
+/Root 20 0 R
+/Info 19 0 R
+>>
+startxref
+23313
+%%EOF

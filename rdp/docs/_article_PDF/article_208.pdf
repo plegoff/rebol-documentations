@@ -1,0 +1,282 @@
+%PDF-1.3
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 4 0 R>>
+endobj
+4 0 obj
+<</Length 1458>>
+stream
+2 J
+0.57 w
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (Make Function ! doit changer) Tj ET Q
+0.57 w
+BT /F2 26.00 Tf ET
+q 0.502 g BT 118.24 656.92 Td (The REBOL Documentation) Tj ET Q
+q 0.502 g BT 243.04 631.41 Td (Project) Tj ET Q
+BT /F1 8.00 Tf ET
+q 0.502 g BT 224.74 616.97 Td (-- FR - Documentation REBOL - Divers --) Tj ET Q
+0.85 w
+BT /F2 20.00 Tf ET
+q 0.502 g BT 73.70 423.45 Td (Divers) Tj ET Q
+BT /F3 22.00 Tf ET
+297.64 436.54 m 297.64 413.86 l S q 0.000 g BT 300.47 418.60 Td (Make Function ! doit) Tj ET Q
+297.64 413.86 m 297.64 391.18 l S q 0.000 g BT 300.47 395.92 Td (changer) Tj ET Q
+297.64 391.18 m 297.64 368.50 l S 
+BT /F4 16.00 Tf ET
+297.64 368.50 m 297.64 351.50 l S q 0.000 g BT 409.15 355.20 Td (Philippe Le Goff ) Tj ET Q
+BT /F4 12.00 Tf ET
+297.64 351.50 m 297.64 334.49 l S q 0.000 g BT 312.92 339.39 Td (Première publication : 28 avril 2006, et mis) Tj ET Q
+297.64 334.49 m 297.64 317.48 l S q 0.000 g BT 356.60 322.38 Td (en ligne le  vendredi 28 avril 2006) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 73.70 253.54 Td (Résumé :) Tj ET 73.70 252.54 45.01 -0.50 re f Q
+BT /F4 8.00 Tf ET
+q 0.000 g BT 73.70 239.96 Td (La traduction du post 3 sur Rebol 3.0, et le changement que devrait connaitre make function !) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 1/2) Tj ET Q
+
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 6 0 R>>
+endobj
+6 0 obj
+<</Length 5823>>
+stream
+2 J
+0.85 w
+BT /F4 8.00 Tf ET
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (Make Function ! doit changer) Tj ET Q
+BT /F4 8.00 Tf ET
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 780.78 Td ( ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 76.48 780.78 Td (Carl Sassenrath, CTO REBOL Technologies  8-Apr-2006 22:39 GMT Article #0003) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 766.61 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 752.43 Td (Il existe une contradiction, depuis longtemps, dans l'implémentation de la fonction ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 437.45 752.43 Td (make) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 463.02 752.43 Td ( sous) Tj ET Q
+q 0.000 g BT 73.70 738.26 Td (REBOL, qui sera modifiée dans REBOL 3.0. \(Mais, cela n'aura que peu d'effet sur la plupart des) Tj ET Q
+q 0.000 g BT 73.70 724.09 Td (programmes.\)) Tj ET Q
+q 0.000 g BT 73.70 709.91 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 695.74 Td (Si j'interroge REBOL à propos de la fonction ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 272.37 695.74 Td (make) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 297.94 695.74 Td (, il répond quelque chose comme cela :) Tj ET Q
+q 0.000 g BT 73.70 681.57 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.70 667.99 Td (         >> ? make) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 653.82 Td (         USAGE:) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 639.65 Td (           MAKE type spec) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 625.47 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 611.30 Td (         DESCRIPTION:) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 597.13 Td (           Constructs and returns a new value.) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 582.95 Td (           MAKE is an action value.) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 568.78 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 554.61 Td (         ARGUMENTS:) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 540.43 Td (           type -- The datatype or example value. \(Type: any-type\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 526.26 Td (           spec -- The attributes of the new value. \(Type: any-type\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 512.09 Td ( ) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 497.32 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 483.14 Td (Donc, si ceci est exact, comment la ligne ci-dessous peut elle être valide ?) Tj ET Q
+q 0.000 g BT 73.70 468.97 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.70 455.40 Td (         f: make function! [a] [print a]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 440.62 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 426.45 Td (Dans cet exemple, ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 159.29 426.45 Td (make) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 184.86 426.45 Td ( prend ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 215.99 426.45 Td (trois) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 234.88 426.45 Td ( arguments, mais la description de la fonction  mentionne) Tj ET Q
+q 0.000 g BT 73.70 412.28 Td (uniquement deux arguments : ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 208.77 412.28 Td (type) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 227.67 412.28 Td ( et ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 241.57 412.28 Td (spec) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 262.69 412.28 Td (.) Tj ET Q
+q 0.000 g BT 73.70 398.10 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 383.93 Td (Ceci va être changé dans REBOL 3.0. Voici pourquoi :) Tj ET Q
+q 0.000 g BT 73.70 369.76 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 355.58 Td ( 1. Un programme doit pouvoir s'appuyer avec précision sur les caractéristiques d'interface de) Tj ET Q
+q 0.000 g BT 73.70 341.41 Td (fonction.   C'est important non seulement pour des choses comme des outils de déboguage,   mais) Tj ET Q
+q 0.000 g BT 73.70 327.24 Td (également pour la réflexion appropriée \(du code vers des données qui renvoient du code\).) Tj ET Q
+q 0.000 g BT 73.70 313.06 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 298.89 Td ( 2. L'ancienne approche nécessitait un hack dans l'implémentation de l'évaluation de REBOL   pour) Tj ET Q
+q 0.000 g BT 73.70 284.72 Td ("faire marcher" l'argument supplémentaire. Effacer cela simplifierait le code et augmenterait la  ) Tj ET Q
+q 0.000 g BT 73.70 270.54 Td (rapidité de REBOL.) Tj ET Q
+q 0.000 g BT 73.70 256.37 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 242.20 Td (La nouvelle forme de la fonction ) Tj ET Q
+q 0.000 g BT 218.22 242.20 Td (make) Tj ET Q
+q 0.000 g BT 242.67 242.20 Td ( sera :) Tj ET Q
+q 0.000 g BT 73.70 228.02 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.70 214.45 Td (         f: make function! [[a] [print a]]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 199.68 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 185.50 Td (Cela sera cohérent avec la spécification de l'interface de la fonction.) Tj ET Q
+q 0.000 g BT 73.70 171.33 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 157.16 Td (Comment ceci va-t-il affecter la compatibilité ? Très peu.  La plupart des programmes n'utilisent pas) Tj ET Q
+q 0.000 g BT 73.70 142.98 Td (cette forme de création de fonction ; ils utilisent  les fonctions comme ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 381.61 142.98 Td (func) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 402.72 142.98 Td (, ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 408.28 142.98 Td (function) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 447.72 142.98 Td (, ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 453.28 142.98 Td (does) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 476.62 142.98 Td (, ou ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 496.08 142.98 Td (has) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 513.31 142.98 Td (.) Tj ET Q
+q 0.000 g BT 73.70 128.81 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 114.64 Td (\(Traduction : Philippe Le Goff\)) Tj ET Q
+BT /F6 8.00 Tf ET
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 2/2) Tj ET Q
+
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R ]
+/Count 2
+/MediaBox [0 0 595.28 841.89]
+>>
+endobj
+7 0 obj
+<</Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+8 0 obj
+<</Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+9 0 obj
+<</Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+10 0 obj
+<</Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+11 0 obj
+<</Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+12 0 obj
+<</Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+/F6 12 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+13 0 obj
+<<
+/Producer (FPDF 1.53)
+/Title (Make Function ! doit changer)
+/Subject (Divers)
+/Author (Philippe Le Goff )
+/Keywords (DOCUMENTATION)
+/Creator (The REBOL Documentation Project)
+/CreationDate (D:20060501201309)
+>>
+endobj
+14 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 15
+0000000000 65535 f 
+0000007816 00000 n 
+0000008502 00000 n 
+0000000009 00000 n 
+0000000222 00000 n 
+0000001730 00000 n 
+0000001943 00000 n 
+0000007909 00000 n 
+0000008005 00000 n 
+0000008099 00000 n 
+0000008196 00000 n 
+0000008295 00000 n 
+0000008397 00000 n 
+0000008659 00000 n 
+0000008889 00000 n 
+trailer
+<<
+/Size 15
+/Root 14 0 R
+/Info 13 0 R
+>>
+startxref
+8993
+%%EOF

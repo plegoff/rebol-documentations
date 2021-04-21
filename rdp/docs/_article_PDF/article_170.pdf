@@ -1,0 +1,1952 @@
+%PDF-1.3
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 4 0 R>>
+endobj
+4 0 obj
+<</Length 1786>>
+stream
+2 J
+0.57 w
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (Interfacer Rebol et les bibliothèques dynamiques) Tj ET Q
+0.57 w
+BT /F2 26.00 Tf ET
+q 0.502 g BT 118.24 656.92 Td (The REBOL Documentation) Tj ET Q
+q 0.502 g BT 243.04 631.41 Td (Project) Tj ET Q
+BT /F1 8.00 Tf ET
+q 0.502 g BT 201.17 616.97 Td (-- FR - Documentation REBOL - Articles Techniques --) Tj ET Q
+0.85 w
+BT /F2 20.00 Tf ET
+q 0.502 g BT 73.70 423.45 Td (Articles) Tj ET Q
+q 0.502 g BT 73.70 397.94 Td (Techniques) Tj ET Q
+BT /F3 22.00 Tf ET
+297.64 411.02 m 297.64 388.35 l S q 0.000 g BT 300.47 393.09 Td (Interfacer Rebol et les) Tj ET Q
+297.64 388.35 m 297.64 365.67 l S q 0.000 g BT 300.47 370.41 Td (bibliothèques) Tj ET Q
+297.64 365.67 m 297.64 342.99 l S q 0.000 g BT 300.47 347.73 Td (dynamiques) Tj ET Q
+297.64 342.99 m 297.64 320.32 l S 
+BT /F4 16.00 Tf ET
+297.64 320.32 m 297.64 303.31 l S q 0.000 g BT 479.80 307.01 Td (Bouba) Tj ET Q
+BT /F4 12.00 Tf ET
+297.64 303.31 m 297.64 286.30 l S q 0.000 g BT 312.91 291.20 Td (Première publication : 8 juillet 2005, et mis) Tj ET Q
+297.64 286.30 m 297.64 269.29 l S q 0.000 g BT 356.59 274.20 Td (en ligne le  vendredi 8 juillet 2005) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 73.70 228.02 Td (Résumé :) Tj ET 73.70 227.02 45.01 -0.50 re f Q
+BT /F4 8.00 Tf ET
+q 0.000 g BT 73.70 214.45 Td (Cet article a pour but de faire quelques rappels et de construire un exemple d'interface entre ) Tj ET Q
+BT /F3 8.00 Tf ET
+q 0.000 g BT 368.84 214.45 Td (Rebol) Tj ET Q
+BT /F4 8.00 Tf ET
+q 0.000 g BT 388.84 214.45 Td ( et les bibliothèques dynamiques.) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 1/19) Tj ET Q
+
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [351.55 278.54 419.37 268.54] /Border [0 0 0] /A <</S /URI /URI (http://www.rebol.com/docs/library.html#section-4.4)>>>><</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 6 0 R>>
+endobj
+6 0 obj
+<</Length 6942>>
+stream
+2 J
+0.85 w
+BT /F4 8.00 Tf ET
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (Interfacer Rebol et les bibliothèques dynamiques) Tj ET Q
+BT /F4 8.00 Tf ET
+BT /F1 10.00 Tf ET
+BT /F5 14.00 Tf ET
+q 0.000 g BT 73.70 751.23 Td (Historique du document) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 738.26 Td ( ) Tj ET Q
+q 0.000 g BT 76.48 738.26 Td ( ) Tj ET Q
+q 0.000 g BT 79.26 738.26 Td ( 					) Tj ET Q
+q 0.000 g BT 95.94 738.26 Td ( ) Tj ET Q
+q 0.000 g BT 98.72 738.26 Td ( ) Tj ET Q
+q 0.000 g BT 101.50 738.26 Td ( ) Tj ET Q
+q 0.000 g BT 104.28 738.26 Td ( ) Tj ET Q
+q 0.000 g BT 107.06 738.26 Td ( ) Tj ET Q
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F5 8.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F5 8.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F5 8.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F5 8.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F5 8.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F1 7.00 Tf ET
+BT /F5 7.00 Tf ET
+BT /F1 7.00 Tf ET
+BT /F5 7.00 Tf ET
+BT /F1 7.00 Tf ET
+BT /F5 7.00 Tf ET
+BT /F1 7.00 Tf ET
+BT /F5 7.00 Tf ET
+BT /F1 7.00 Tf ET
+BT /F5 7.00 Tf ET
+BT /F1 7.00 Tf ET
+BT /F1 6.00 Tf ET
+BT /F5 6.00 Tf ET
+BT /F1 6.00 Tf ET
+BT /F5 6.00 Tf ET
+BT /F1 6.00 Tf ET
+BT /F5 6.00 Tf ET
+BT /F1 6.00 Tf ET
+BT /F5 6.00 Tf ET
+BT /F1 6.00 Tf ET
+BT /F5 6.00 Tf ET
+BT /F1 6.00 Tf ET
+BT /F5 6.00 Tf ET
+1.000 1.000 0.000 rg
+97.15 748.35 65.53 -14.17 re B q 0.000 g BT 99.98 739.46 Td ( Date ) Tj ET Q
+BT /F1 6.00 Tf ET
+1.000 g
+BT /F5 6.00 Tf ET
+1.000 1.000 0.000 rg
+162.68 748.35 33.85 -14.17 re B q 0.000 g BT 165.51 739.46 Td ( Version ) Tj ET Q
+BT /F1 6.00 Tf ET
+1.000 g
+BT /F5 6.00 Tf ET
+1.000 1.000 0.000 rg
+196.52 748.35 80.19 -14.17 re B q 0.000 g BT 199.36 739.46 Td ( Commentaires ) Tj ET Q
+BT /F1 6.00 Tf ET
+1.000 g
+BT /F5 6.00 Tf ET
+1.000 1.000 0.000 rg
+276.72 748.35 83.54 -14.17 re B q 0.000 g BT 279.55 739.46 Td ( Auteur ) Tj ET Q
+BT /F1 6.00 Tf ET
+1.000 g
+BT /F5 6.00 Tf ET
+1.000 1.000 0.000 rg
+360.26 748.35 137.88 -14.17 re B q 0.000 g BT 363.09 739.46 Td ( Email ) Tj ET Q
+BT /F1 6.00 Tf ET
+1.000 g
+0.902 0.902 0.902 rg
+97.15 734.17 65.53 -14.17 re B q 0.000 g BT 99.98 725.29 Td ( mardi 30 juin 2005 ) Tj ET Q
+162.68 734.17 33.85 -14.17 re B q 0.000 g BT 165.51 725.29 Td ( 0.0.1 ) Tj ET Q
+196.52 734.17 80.19 -14.17 re B q 0.000 g BT 199.36 725.29 Td ( Version initiale ) Tj ET Q
+276.72 734.17 83.54 -14.17 re B q 0.000 g BT 279.55 725.29 Td ( J.C.A Miranda [aka Bouba] ) Tj ET Q
+360.26 734.17 137.88 -14.17 re B q 0.000 g BT 363.09 725.29 Td ( jca&mdash;miranda&mdash;gmail&mdash;com ) Tj ET Q
+97.15 720.00 65.53 -14.17 re S q 0.000 g BT 99.98 711.11 Td ( mardi 05 juillet 2005 ) Tj ET Q
+162.68 720.00 33.85 -14.17 re S q 0.000 g BT 165.51 711.11 Td ( 0.0.2 ) Tj ET Q
+196.52 720.00 80.19 -14.17 re S q 0.000 g BT 199.36 711.11 Td ( Premier jet de corrections ) Tj ET Q
+276.72 720.00 83.54 -14.17 re S q 0.000 g BT 279.55 711.11 Td ( J.C.A Miranda [aka Bouba] ) Tj ET Q
+360.26 720.00 137.88 -14.17 re S q 0.000 g BT 363.09 711.11 Td ( jca&mdash;miranda&mdash;gmail&mdash;com ) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 695.74 Td (    ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 652.02 Td (Introduction) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 639.05 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 624.87 Td (Cet article ne se veut absolument pas exhaustif sur le sujet, et prend comme parti pris :) Tj ET Q
+q 0.000 g BT 79.04 596.53 Td (•) Tj ET Q
+q 0.000 g BT 90.71 596.53 Td (que vous êtes familier avec le C,) Tj ET Q
+q 0.000 g BT 79.04 582.35 Td (•) Tj ET Q
+q 0.000 g BT 90.71 582.35 Td (que vous avez déjà lu la documentation disponible en ligne sur le site de ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 414.21 582.35 Td (Rebol Technologies) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 509.23 582.35 Td (.) Tj ET Q
+q 0.000 g BT 70.87 554.01 Td (Pour illustrer le propos \(en tout cas en partie\), nous développerons un lecteur de fichier audio sans) Tj ET Q
+q 0.000 g BT 70.87 539.83 Td (prétention dans la deuxième partie de l'article.  Avis aux amateurs qui veulent s'essayer à en faire un) Tj ET Q
+q 0.000 g BT 70.87 525.66 Td (produit fini, le code est fourni absolument libre de droit. :\)) Tj ET Q
+q 0.000 g BT 70.87 511.49 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 483.14 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 454.80 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 440.62 Td (Les exemples ont été compilés et testés avec succès sous Linux \(Rebol/View 1.2.47\). ) Tj ET Q
+q 0.000 g BT 70.87 426.45 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 382.73 Td (Règles et rappels) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 369.76 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 355.58 Td (Commençons la partie un peu rébarbative par quelques trucs et astuces qui peuvent toujours servir. ) Tj ET Q
+q 0.000 g BT 70.87 341.41 Td (Si vous en connaissez d'autres, n'hésitez pas à les envoyer, ils seront les bienvenus. :\)) Tj ET Q
+q 0.000 g BT 70.87 327.24 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 313.06 Td (Le type integer!) Tj ET Q
+q 0.000 g BT 70.87 298.89 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 284.72 Td (Ce paragraphe pour souligner une remarque importante dans la documentation de Rebol) Tj ET Q
+q 0.000 g BT 70.87 270.54 Td (Technologies. Dans le paragraphe concernant les pointeurs C \() Tj ET Q
+q 0.000 0.000 1.000 rg BT 351.55 270.54 Td (paragraphe 4.4) Tj ET 351.55 269.54 67.82 -0.50 re f Q
+q 0.000 g BT 419.37 270.54 Td (\), il est dit :) Tj ET Q
+q 0.000 g BT 70.87 256.37 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 242.80 Td ( "For return values, use long instead of void*") Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 228.02 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 213.85 Td (Le type ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 106.45 213.85 Td (integer!) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 143.12 213.85 Td ( peut donc être substitué à un pointeur lors de la création de vos interfaces.) Tj ET Q
+q 0.000 g BT 70.87 199.68 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 185.50 Td (Cette propriété s'avère très utile dans le cas où :) Tj ET Q
+q 0.000 g BT 79.04 157.16 Td (•) Tj ET Q
+q 0.000 g BT 90.71 157.16 Td (une interface directe de votre fonction n'est pas possible \(par exemple, si la routine que vous) Tj ET Q
+q 0.000 g BT 90.71 142.98 Td (définissez vous retourne une structure dont la taille ne vous est connu qu'au retour de l'appel\).) Tj ET Q
+q 0.000 g BT 79.04 128.81 Td (•) Tj ET Q
+q 0.000 g BT 90.71 128.81 Td (le pointeur qui est retourné référence une structure opaque \(un exemple-type : le pointeur sur la) Tj ET Q
+q 0.000 g BT 90.71 114.64 Td (structure définissant le morceau a jouer dans l'exemple que nous développerons plus loin\).) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 2/19) Tj ET Q
+
+endstream
+endobj
+7 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 8 0 R>>
+endobj
+8 0 obj
+<</Length 4623>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (Interfacer Rebol et les bibliothèques dynamiques) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td (Le type decimal!) Tj ET Q
+q 0.000 g BT 70.87 780.78 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 766.61 Td (Le type ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 106.45 766.61 Td (decimal!) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 147.02 766.61 Td ( a la particularité d'être converti en flottant au format IEEE.) Tj ET Q
+q 0.000 g BT 405.72 766.61 Td ( En utilisant une ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 479.65 766.61 Td (struct!) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 752.43 Td (ont peut écrire facilement une fonction de conversion :) Tj ET Q
+q 0.000 g BT 70.87 738.26 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 724.69 Td ( to-ieee: func [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 710.51 Td (     "Conversion en float standard IEEE d'un decimal! Rebol") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 696.34 Td (     arg [decimal!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 682.17 Td (     /double "Conversion en type double") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 667.99 Td ( ][) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 653.82 Td (     third make struct! compose/deep [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 639.65 Td (         f [\(either double ['double]['float]\)]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 625.47 Td (     ] reduce [arg]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 611.30 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 596.53 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 582.35 Td (Pensez-y si vous devez échanger des données binaires contenant des valeurs flottantes.) Tj ET Q
+q 0.000 g BT 70.87 568.18 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 554.01 Td (Le type struct !) Tj ET Q
+q 0.000 g BT 70.87 539.83 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 525.66 Td (Comme indiqué dans la documentation, le type ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 282.08 525.66 Td (struct!) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 313.19 525.66 Td ( permet de définir une passerelle entre les) Tj ET Q
+q 0.000 g BT 70.87 511.49 Td (struct C et ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 119.22 511.49 Td (Rebol) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 147.00 511.49 Td (. Comme dans l'exemple qui suit :) Tj ET Q
+q 0.000 g BT 70.87 497.32 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 483.74 Td ( Code C :) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 469.57 Td ( struct {) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 455.40 Td (   int  x;) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 441.22 Td (   int  y;) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 427.05 Td (   char point_desc[20];) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 412.88 Td ( }Point;) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 398.10 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 383.93 Td (qui donne :) Tj ET Q
+q 0.000 g BT 70.87 369.76 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 356.18 Td ( Code Rebol :) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 342.01 Td ( point: make struct! [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 327.84 Td (     x          [integer!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 313.66 Td (     y          [integer!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 299.49 Td (     point-desc [string!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 285.32 Td ( ] none ; initialisation par défaut de la structure) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 270.54 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 256.37 Td (Jusqu'ici, rien d'inconnu !) Tj ET Q
+q 0.000 g BT 70.87 242.20 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 228.02 Td (Mais, le type ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 129.78 228.02 Td (struct!) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 160.89 228.02 Td ( a d'autres utilisations qui peuvent s'avérer très intéressantes. Essayons d'en voir) Tj ET Q
+q 0.000 g BT 70.87 213.85 Td (certaines.) Tj ET Q
+q 0.000 g BT 70.87 199.68 Td ( ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 70.87 185.50 Td (Définition de pointeurs) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 171.33 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 157.16 Td (Imaginons la fonction C suivante :) Tj ET Q
+q 0.000 g BT 70.87 142.98 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 129.41 Td ( void dummy_func\(int x , int * y\) {) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 115.24 Td (   *y = x;) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 101.06 Td ( }) Tj ET Q
+BT /F1 10.00 Tf ET
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 3/19) Tj ET Q
+
+endstream
+endobj
+9 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 10 0 R>>
+endobj
+10 0 obj
+<</Length 5360>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (Interfacer Rebol et les bibliothèques dynamiques) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 780.78 Td (Comment traduire le pointeur sur entier ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 247.60 780.78 Td (y) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 252.60 780.78 Td ( en ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 269.28 780.78 Td (Rebol) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 297.06 780.78 Td ( ?) Tj ET Q
+q 0.000 g BT 70.87 766.61 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 752.43 Td (Si nous prions pour que Saint Rebol nous fasse le travail en lui donnant comme prototype :) Tj ET Q
+q 0.000 g BT 70.87 738.26 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 724.69 Td ( dummy-func: make routine! [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 710.51 Td (     x [integer!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 696.34 Td (     y [integer!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 682.17 Td ( ] dummy-lib "dummy_func") Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 667.39 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 653.22 Td (Voilà ce qui se passe lorsque nous tentons d'utiliser notre fonction révolutionnaire \(Tracing sous) Tj ET Q
+q 0.000 g BT 70.87 639.05 Td (Linux\) :) Tj ET Q
+q 0.000 g BT 70.87 624.87 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 611.30 Td ( >> dummy-lib: load/library %dummy_lib.so) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 597.13 Td ( >> dummy-func: make routine! [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 582.95 Td ( [          x [integer!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 568.78 Td ( [          y [integer!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 554.61 Td ( [      ] dummy-lib "dummy_func") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 540.43 Td ( >> ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 526.26 Td ( >> a: make integer! none) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 512.09 Td ( == 0) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 497.92 Td ( >> dummy-func 3 a) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 483.14 Td (zsh : segmentation fault rebol/view47 &mdash;secure allow) Tj ET Q
+q 0.000 g BT 70.87 468.97 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 454.80 Td (A priori, loin du résultat que nous espérions. :\() Tj ET Q
+q 0.000 g BT 70.87 440.62 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 426.45 Td (En fait, ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 104.78 426.45 Td (Rebol) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 132.56 426.45 Td ( a considéré que l'entier passé en tant que paramètre ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 371.82 426.45 Td (y) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 376.82 426.45 Td ( était le pointeur \(Cf plus haut\).) Tj ET Q
+q 0.000 g BT 70.87 412.28 Td (Malheureusement, nous n'avons pas alloué l'espace nécessaire au stockage d'un entier à l'adresse 0) Tj ET Q
+q 0.000 g BT 70.87 398.10 Td (\(ce qui aurait de toute façon été un peu difficile !\).) Tj ET Q
+q 0.000 g BT 70.87 383.93 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 369.76 Td (Heureusement, le type ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 174.25 369.76 Td (struct!) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 205.36 369.76 Td ( peut nous aider à résoudre ce problème.) Tj ET Q
+q 0.000 g BT 70.87 355.58 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 341.41 Td (Une struct C n'étant qu'une interprétation d'une zone mémoire, nous pouvons imaginer que la) Tj ET Q
+q 0.000 g BT 70.87 327.24 Td (représentation suivante peut résoudre notre problème :) Tj ET Q
+q 0.000 g BT 70.87 313.06 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 299.49 Td ( int-ptr: make struct! [value [integer!]] none) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 284.72 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 270.54 Td (Redéfinissons donc notre ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 186.48 270.54 Td (routine!) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 223.70 270.54 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 226.48 270.54 Td (Rebol) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 254.26 270.54 Td ( avec cette modification.) Tj ET Q
+q 0.000 g BT 70.87 256.37 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 242.80 Td ( dummy-func: make routine! compose/deep/only [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 228.62 Td (     x [integer!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 214.45 Td (     y [struct! \(first int-ptr\)]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 200.28 Td ( ] dummy-lib "dummy_func") Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 185.50 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 157.16 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 128.81 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 114.64 Td (L'utilisation de compose/deep/only nous permet ici d'éviter de réécrire la structure ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 434.28 114.64 Td (int-ptr) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 459.84 114.64 Td (.) Tj ET Q
+q 0.000 g BT 462.62 114.64 Td (  En faisant) Tj ET Q
+q 0.000 g BT 70.87 100.46 Td (appel à ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 106.45 100.46 Td (first int-ptr) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 150.90 100.46 Td (, nous récupérons la spécification de la structure.) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 4/19) Tj ET Q
+
+endstream
+endobj
+11 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [303.75 391.93 406.02 381.93] /Border [0 0 0] /A <</S /URI /URI (http://compkarori.com/vanilla/display/peek_and_poke.r&calendar-year=2003&calendar-month=11)>>>><</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 12 0 R>>
+endobj
+12 0 obj
+<</Length 4390>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (Interfacer Rebol et les bibliothèques dynamiques) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 780.78 Td (Une bonne habitude dès lors que vous faites appel à des structures récurrentes dans votre code. ) Tj ET Q
+q 0.000 g BT 70.87 766.61 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 752.43 Td (Et maintenant, essayons donc notre nouvelle fonction inutile :) Tj ET Q
+q 0.000 g BT 70.87 738.26 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 724.69 Td ( >> int-ptr: make struct! [value [integer!]] none ; initialisation à NULL.) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 710.51 Td ( >> ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 696.34 Td ( >> dummy-lib: load/library %dummy_lib.so                                  ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 682.17 Td ( >> dummy-func: make routine! compose/deep/only [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 667.99 Td ( [      x [integer!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 653.82 Td ( [      y [struct! \(first int-ptr\)]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 639.65 Td ( [  ] dummy-lib "dummy_func") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 625.47 Td ( >> ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 611.30 Td ( >> a: make struct! int-ptr none                                           ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 597.13 Td ( >> ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 582.95 Td ( >> dummy-func 4 a) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 568.78 Td ( >> ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 554.61 Td ( >> a/value      ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 540.43 Td ( == 4) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 525.66 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 511.49 Td (Cela fonctionne !) Tj ET Q
+q 0.000 g BT 145.91 511.49 Td ( Nous voilà donc avec un moyen simple de définir des pointeurs tout en allouant) Tj ET Q
+q 0.000 g BT 70.87 497.32 Td (l'espace nécessaire au stockage de la valeur. :\)) Tj ET Q
+q 0.000 g BT 70.87 483.14 Td ( ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 70.87 468.97 Td (La fonction get-mem ? de Ladislav Mecir) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 454.80 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 426.45 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 398.10 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 383.93 Td (Vous trouverez les fonctions de Ladislav sur le site : ) Tj ET Q
+q 0.000 0.000 1.000 rg BT 303.75 383.93 Td (RIT - peek_and_poke.r) Tj ET 303.75 382.93 102.27 -0.50 re f Q
+q 0.000 g BT 406.02 383.93 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 369.76 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 355.58 Td (Cette fonction est un petit bijou, merci à lui ! :\)\) Vous vous demandez ce qu'elle permet ?) Tj ET Q
+q 0.000 g BT 70.87 341.41 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 327.24 Td (Regardons donc son code pour tenter de comprendre son utilité :) Tj ET Q
+q 0.000 g BT 70.87 313.06 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 299.49 Td ( get-mem?: function [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 285.32 Td (     {get the byte from a memory address}) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 271.14 Td (     address [integer!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 256.97 Td (     /nts {a null-terminated string}) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 242.80 Td (     /part {a binary with a specified length}) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 228.62 Td (     length [integer!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 214.45 Td ( ] [m] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 200.28 Td (     address: make struct! [i [integer!]] reduce [address]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 186.10 Td (     if nts [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 171.93 Td (         m: make struct! [s [string!]] none) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 157.76 Td (         change third m third address) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 143.58 Td (         return m/s) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 129.41 Td (     ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 115.24 Td (     if part [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 101.06 Td (         m: head insert/dup copy [] [. [char!]] length) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 5/19) Tj ET Q
+
+endstream
+endobj
+13 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 14 0 R>>
+endobj
+14 0 obj
+<</Length 5021>>
+stream
+2 J
+0.85 w
+BT /F2 8.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 70.87 819.05 Td (Interfacer Rebol et les bibliothèques dynamiques) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 795.55 Td (         m: make struct! compose/deep [bin [struct! \(reduce [m]\)]] none) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 781.38 Td (         change third m third address) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 767.21 Td (         return to string! third m/bin) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 753.03 Td (     ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 738.86 Td (     m: make struct! [c [struct! [chr [char!]]]] none) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 724.69 Td (     change third m third address) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 710.51 Td (     m/c/chr) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 696.34 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 681.57 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 667.39 Td (Personne ne s'est perdu ?) Tj ET Q
+q 0.000 g BT 187.29 667.39 Td ( L'opération magique de cette fonction est la ligne) Tj ET Q
+q 0.000 g BT 70.87 653.22 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 639.65 Td ( change third m third address) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 624.87 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 610.70 Td (qui permet de changer l'initialisation de la ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 256.75 610.70 Td (struct!) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 287.86 610.70 Td ( pour que l'adresse pointée soit celle que nous avons) Tj ET Q
+q 0.000 g BT 70.87 596.53 Td (fourni en paramètre. Il est ainsi possible d'analyser le contenu de la memoire à cette adresse, à vos) Tj ET Q
+q 0.000 g BT 70.87 582.35 Td (risques et perils comme le dit Ladislav lui-même. :\)) Tj ET Q
+q 0.000 g BT 70.87 568.18 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 554.01 Td (Voyons maintenant son fonctionnement par l'exemple. Considérons te type et la fonction C suivante :) Tj ET Q
+q 0.000 g BT 70.87 539.83 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 526.26 Td ( typedef struct type_t{) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 512.09 Td (       int len;) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 497.92 Td (       char * arr;) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 483.74 Td ( }Type_t;) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 469.57 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 455.40 Td ( Type_t * allocate_byte_array\(void\);) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 440.62 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 426.45 Td (Comment obtenir le contenu de la zone mémoire contenant le tableau alloué par la fonction C alors) Tj ET Q
+q 0.000 g BT 70.87 412.28 Td (que l'on ne connait pas sa taille à l'avance ?) Tj ET Q
+q 0.000 g BT 265.91 412.28 Td ( La fonction ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 320.39 412.28 Td (get-mem ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 368.18 412.28 Td ( peut nous y aider.) Tj ET Q
+q 0.000 g BT 70.87 398.10 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 383.93 Td (Considérons dans un premier temps le tableau comme un ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 330.42 383.93 Td (integer!) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 367.09 383.93 Td ( sans nous intéresser à la zone) Tj ET Q
+q 0.000 g BT 70.87 369.76 Td (pointée.) Tj ET Q
+q 0.000 g BT 70.87 355.58 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 342.01 Td ( type-t: make struct! [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 327.84 Td (     len [integer!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 313.66 Td (     arr [integer!] ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 299.49 Td ( ] none) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 284.72 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 270.54 Td (nous pouvons donc définir notre ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 215.95 270.54 Td (routine!) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 253.17 270.54 Td ( en utilisant cette structure :) Tj ET Q
+q 0.000 g BT 70.87 256.37 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 242.80 Td ( allocate-byte-array: make routine! compose/deep/only [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 228.62 Td (     return: [struct! \(first type-t\)]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 214.45 Td ( ] my-lib "allocate_byte_array") Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 199.68 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 185.50 Td (Et maintenant, utilisons la fonction de Ladislav pour récupérer notre tableau :) Tj ET Q
+q 0.000 g BT 70.87 171.33 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 157.76 Td ( >> result: allocate-byte-array ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 143.58 Td ( >> ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 129.41 Td ( >> ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 115.24 Td ( >> probe result) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 101.06 Td ( make struct! [) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 6/19) Tj ET Q
+
+endstream
+endobj
+15 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 16 0 R>>
+endobj
+16 0 obj
+<</Length 4283>>
+stream
+2 J
+0.85 w
+BT /F2 8.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 70.87 819.05 Td (Interfacer Rebol et les bibliothèques dynamiques) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 795.55 Td (     len [integer!] ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 781.38 Td (     arr [integer!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 767.21 Td ( ] [256 139123696]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 753.03 Td ( >> ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 738.86 Td ( >> ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 724.69 Td ( >> print to-binary get-mem?/part result/arr result/len) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 710.51 Td ( #{) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 696.34 Td ( 000102030405060708090A0B0C0D0E0F101112131415161718191A1B1C1D1E1F) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 682.17 Td ( 202122232425262728292A2B2C2D2E2F303132333435363738393A3B3C3D3E3F) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 667.99 Td ( 404142434445464748494A4B4C4D4E4F505152535455565758595A5B5C5D5E5F) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 653.82 Td ( 606162636465666768696A6B6C6D6E6F707172737475767778797A7B7C7D7E7F) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 639.65 Td ( 808182838485868788898A8B8C8D8E8F909192939495969798999A9B9C9D9E9F) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 625.47 Td ( A0A1A2A3A4A5A6A7A8A9AAABACADAEAFB0B1B2B3B4B5B6B7B8B9BABBBCBDBEBF) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 611.30 Td ( C0C1C2C3C4C5C6C7C8C9CACBCCCDCECFD0D1D2D3D4D5D6D7D8D9DADBDCDDDEDF) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 597.13 Td ( E0E1E2E3E4E5E6E7E8E9EAEBECEDEEEFF0F1F2F3F4F5F6F7F8F9FAFBFCFDFEFF) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 582.95 Td ( }) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 568.78 Td ( >>) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 554.01 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 525.66 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 497.32 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 483.14 Td (Voici la fonction utilisée pour faire le test.) Tj ET Q
+q 0.000 g BT 252.06 483.14 Td ( Elle fournit certes une table de taille fixe pour éviter un code) Tj ET Q
+q 0.000 g BT 70.87 468.97 Td (inutilement complexe, mais elle illustre tout de même le propos.) Tj ET Q
+q 0.000 g BT 70.87 454.80 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 440.62 Td (Après tout, si vous n'aviez que le prototype, auriez-vous fait la supposition que la table faisait 256) Tj ET Q
+q 0.000 g BT 70.87 426.45 Td (octets ?) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 412.88 Td ( #include ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 398.70 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 384.53 Td ( typedef struct type_t{) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 370.36 Td (       int len;) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 356.18 Td (       char * arr;) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 342.01 Td ( }Type_t;) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 327.84 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 313.66 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 299.49 Td ( Type_t * allocate_byte_array\(void\) { ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 285.32 Td (   Type_t * ret;) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 271.14 Td (   int i;) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 256.97 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 242.80 Td (   if \(NULL == \(ret = malloc\(sizeof\(Type_t\)\)\)\) {) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 228.62 Td (     exit\(-1\);) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 214.45 Td (   }) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 200.28 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 186.10 Td (   ret->len = 256;) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 171.93 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 157.76 Td (   if \(NULL == \(ret->arr = malloc\(ret->len\)\)\) {) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 143.58 Td (     exit\(-1\);) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 129.41 Td (   }) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 115.24 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 101.06 Td (   for \(i = 0 ; i ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 157.27 101.06 Td (len ; i++\) {) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 7/19) Tj ET Q
+
+endstream
+endobj
+17 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 18 0 R>>
+endobj
+18 0 obj
+<</Length 4828>>
+stream
+2 J
+0.85 w
+BT /F2 8.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 70.87 819.05 Td (Interfacer Rebol et les bibliothèques dynamiques) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 795.55 Td (     ret->arr[i] = i;) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 781.38 Td (   }) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 767.21 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 753.03 Td (   return ret;) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 738.86 Td ( }) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 724.09 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 709.91 Td (En toute rigueur, il faudrait définir une fonction pour libérer la mémoire allouée.) Tj ET Q
+q 0.000 g BT 70.87 695.74 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 681.57 Td (Comme il ne s'agit pas du propos de cet exemple, elle est volontairement omise. ) Tj ET Q
+q 0.000 g BT 70.87 667.39 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 653.22 Td (Le type binary !) Tj ET Q
+q 0.000 g BT 70.87 639.05 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 624.87 Td (Oui, je sais, il n'est pas référencé dans la documentation fournie par ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 374.59 624.87 Td (RT) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 387.92 624.87 Td (, mais pourtant on peut) Tj ET Q
+q 0.000 g BT 70.87 610.70 Td (l'utiliser dans une interface avec le C !) Tj ET Q
+q 0.000 g BT 238.96 610.70 Td ( A quoi peut-il bien servir vous demandez-vous ?) Tj ET Q
+q 0.000 g BT 70.87 596.53 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 582.35 Td (Prenons le cas d'une fonction que ceux qui connaissent openGL ont déjà dû voir :) Tj ET Q
+q 0.000 g BT 70.87 568.18 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 554.61 Td ( GLAPI void GLAPIENTRY glColor3bv\( const GLbyte *v \);) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 525.66 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 497.32 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 483.14 Td (Ne prêtez pas attention aux macros GLAPI et GLAPIENTRY, elles ne nous intéressent pas dans le) Tj ET Q
+q 0.000 g BT 70.87 468.97 Td (cadre de cet exemple. :\) ) Tj ET Q
+q 0.000 g BT 70.87 454.80 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 440.62 Td (Cette fonction prend comme paramètre un tableau de 3 octets ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 348.79 440.62 Td (v) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 353.79 440.62 Td ( représentant une couleur RGB. Bien) Tj ET Q
+q 0.000 g BT 70.87 426.45 Td (sûr, on pourrait penser à utiliser une ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 233.72 426.45 Td (struct!) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 264.83 426.45 Td ( ce qui donnerait ceci :) Tj ET Q
+q 0.000 g BT 70.87 412.28 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 398.70 Td ( v: make struct! [r [char!] g [char!] b [char!]] none) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 383.93 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 369.76 Td (notre routine :) Tj ET Q
+q 0.000 g BT 70.87 355.58 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 342.01 Td ( gl-color-3bv: make routine! compose/deep/only [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 327.84 Td (     v [struct! \(v\)]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 313.66 Td ( ] libgl "glColor3bv") Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 298.89 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 284.72 Td (et un exemple d'utilisation :) Tj ET Q
+q 0.000 g BT 70.87 270.54 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 256.97 Td ( c-red: make struct! v reduce [to-char red/1 to-char red/2 to-char red/3]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 242.80 Td ( gl-color-3bv c-red) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 228.02 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 213.85 Td (ce qui somme toute conviendrait parfaitement !) Tj ET Q
+q 0.000 g BT 70.87 199.68 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 185.50 Td (Oui, mais sachant que dans le cas d'openGL, il existe la même fonction gérant une couleur à 4) Tj ET Q
+q 0.000 g BT 70.87 171.33 Td (composantes \(en ajoutant le canal alpha\), on s'apercoit bien vite que l'on multiplie les definitions de ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 157.16 Td (struct!) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 101.98 157.16 Td (, pas très léger pour du Rebol !) Tj ET Q
+q 0.000 g BT 70.87 142.98 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 128.81 Td (De plus, il serait agréable de pouvoir utiliser uniquement des ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 341.54 128.81 Td (tuple!) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 368.76 128.81 Td ( dans notre script pour gérer des) Tj ET Q
+q 0.000 g BT 70.87 114.64 Td (couleurs, après tout, ils sont là pour ça ! :\)) Tj ET Q
+q 0.000 g BT 70.87 100.46 Td ( ) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 8/19) Tj ET Q
+
+endstream
+endobj
+19 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [89.21 122.64 153.66 112.64] /Border [0 0 0] /A <</S /URI /URI (http://www.libsdl.org)>>>><</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 20 0 R>>
+endobj
+20 0 obj
+<</Length 5725>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (Interfacer Rebol et les bibliothèques dynamiques) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td (Le type ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 106.45 794.95 Td (binary!) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 139.79 794.95 Td ( va pouvoir nous aider à simplifier tout ça. En effet, le type ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 399.36 794.95 Td (tuple!) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 426.58 794.95 Td ( a une propriété) Tj ET Q
+q 0.000 g BT 70.87 780.78 Td (intéressante losqu'on le convertit en ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 232.86 780.78 Td (binary!) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 266.20 780.78 Td ( :) Tj ET Q
+q 0.000 g BT 70.87 766.61 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 753.03 Td ( >> to-binary 1.2.3.4) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 738.86 Td ( == #{01020304}) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 724.09 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 709.91 Td (On dirait un tableau d'octet ! Vous voyez ou je veux en venir ? :o\)) Tj ET Q
+q 0.000 g BT 359.60 709.91 Td ( Réécrivons donc notre fonction :) Tj ET Q
+q 0.000 g BT 70.87 695.74 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 682.17 Td ( gl-color-3bv: make routine! [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 667.99 Td (     v [binary!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 653.82 Td ( ] libgl "glColor3bv") Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 639.05 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 624.87 Td (Et notre exemple devient :) Tj ET Q
+q 0.000 g BT 70.87 610.70 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 597.13 Td ( gl-color-3bv to-binary red) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 582.35 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 568.18 Td (A vous de choisir ce qui vous semble le mieux ! Personnellement, je préfère la deuxième définition,) Tj ET Q
+q 0.000 g BT 70.87 554.01 Td (mais à chacun ses goûts. :o\) ) Tj ET Q
+q 0.000 g BT 70.87 539.83 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 511.49 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 497.32 Td (A noter que le type ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 157.59 497.32 Td (tuple!) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 184.81 497.32 Td ( n'est pas le seul ayant cette propriété, les ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 374.04 497.32 Td (block!) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 403.49 497.32 Td ( d'entiers également. Par) Tj ET Q
+q 0.000 g BT 70.87 483.14 Td (contre, les éléments d'un ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 184.50 483.14 Td (block!) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 213.95 483.14 Td ( n'étant pas limités à un octet comme les ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 397.05 483.14 Td (tuple!) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 424.27 483.14 Td (, seul l'octet de poids) Tj ET Q
+q 0.000 g BT 70.87 468.97 Td (faible est gardé lors de la conversion en binaire.) Tj ET Q
+q 0.000 g BT 283.19 468.97 Td ( Amusez-vous bien ! :\) ) Tj ET Q
+q 0.000 g BT 70.87 454.80 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 440.62 Td (Entracte) Tj ET Q
+q 0.000 g BT 70.87 426.45 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 412.28 Td (Voilà pour ce qui est de faire le tour des trucs et astuces. Si vous en avez d'autres, n'hésitez pas, ils) Tj ET Q
+q 0.000 g BT 70.87 398.10 Td (pourront sûrement servir à d'autres.) Tj ET Q
+q 0.000 g BT 70.87 383.93 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 340.21 Td (Un exemple d'utilisation : un player audio.) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 327.24 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 313.06 Td (Bien, maintenant que tout le monde a enfin senti les effets de son aspirine, nous allons pouvoir) Tj ET Q
+q 0.000 g BT 70.87 298.89 Td (continuer de manière plus légère cette excursion dans le monde des ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 376.57 298.89 Td (struct!) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 407.68 298.89 Td ( et des ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 440.48 298.89 Td (routine!) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 477.70 298.89 Td (.) Tj ET Q
+q 0.000 g BT 70.87 284.72 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 270.54 Td (Pour cela, nous allons construire un lecteur audio sans prétention basé sur la bibliothèque SDL_mixer.) Tj ET Q
+q 0.000 g BT 70.87 256.37 Td (Celle-ci est portée sur les principales plate-forme que supporte ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 351.53 256.37 Td (Rebol) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 379.31 256.37 Td (, donc tout le monde devrait) Tj ET Q
+q 0.000 g BT 70.87 242.20 Td (pouvoir jeter son WinAmp, Xmms et autres RythmBox pour utiliser le fruit de son travail, ou) Tj ET Q
+q 0.000 g BT 70.87 228.02 Td (presque ! :o\)) Tj ET Q
+q 0.000 g BT 70.87 213.85 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 199.68 Td (Un très rapide tour d'horizon de SDL) Tj ET Q
+q 0.000 g BT 70.87 185.50 Td ( ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 70.87 171.33 Td (SDL : qu'est ce que c'est ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 157.16 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 142.98 Td (SDL est une bibliothèque multimédia multi-plateforme qui permet l'accès aux claviers, souris, joystick,) Tj ET Q
+q 0.000 g BT 70.87 128.81 Td (périphériques audio et vidéo \(2D/3D\). Vous trouverez plus d'informations sur SDL et ses petits sur le) Tj ET Q
+q 0.000 g BT 70.87 114.64 Td (site ) Tj ET Q
+q 0.000 0.000 1.000 rg BT 89.21 114.64 Td (www.libsdl.org) Tj ET 89.21 113.64 64.45 -0.50 re f Q
+q 0.000 g BT 70.87 100.46 Td ( ) Tj ET Q
+BT /F6 10.00 Tf ET
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 9/19) Tj ET Q
+
+endstream
+endobj
+21 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [90.71 746.26 110.16 736.26] /Border [0 0 0] /A <</S /URI /URI (http://www.libsdl.org/download-1.2.php)>>>><</Type /Annot /Subtype /Link /Rect [90.71 732.09 140.16 722.09] /Border [0 0 0] /A <</S /URI /URI (http://www.libsdl.org/projects/SDL_mixer/)>>>><</Type /Annot /Subtype /Link /Rect [90.71 717.91 122.39 707.91] /Border [0 0 0] /A <</S /URI /URI (http://www.icculus.org/smpeg/)>>>><</Type /Annot /Subtype /Link /Rect [90.71 703.74 140.73 693.74] /Border [0 0 0] /A <</S /URI /URI (http://www.vorbis.com/download.psp)>>>><</Type /Annot /Subtype /Link /Rect [480.16 632.87 506.28 622.87] /Border [0 0 0] /A <</S /URI /URI (http://www.pygame.org/ftp/win32-dependencies.zip)>>>><</Type /Annot /Subtype /Link /Rect [70.87 618.70 109.77 608.70] /Border [0 0 0] /A <</S /URI /URI (http://www.pygame.org/ftp/win32-dependencies.zip)>>>><</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 22 0 R>>
+endobj
+22 0 obj
+<</Length 4912>>
+stream
+2 J
+0.85 w
+BT /F6 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 70.87 819.05 Td (Interfacer Rebol et les bibliothèques dynamiques) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 70.87 794.95 Td (De quoi avons-nous besoin ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 780.78 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 766.61 Td (Pour les besoins de notre application, nous aurons besoin des bibliothèques suivantes :) Tj ET Q
+q 0.000 g BT 79.04 738.26 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 90.71 738.26 Td (SDL) Tj ET 90.71 737.26 19.45 -0.50 re f Q
+q 0.000 g BT 79.04 724.09 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 90.71 724.09 Td (SDL_mixer) Tj ET 90.71 723.09 49.45 -0.50 re f Q
+q 0.000 g BT 79.04 709.91 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 90.71 709.91 Td (Smpeg) Tj ET 90.71 708.91 31.68 -0.50 re f Q
+q 0.000 g BT 79.04 695.74 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 90.71 695.74 Td (Ogg/Vorbis) Tj ET 90.71 694.74 50.02 -0.50 re f Q
+q 0.000 g BT 70.87 667.39 Td (Les deux dernières ne seront pas chargés par notre script mais sont indispensables si l'on veut lire) Tj ET Q
+q 0.000 g BT 70.87 653.22 Td (respectivement des MP3 et des fichiers Ogg. Leur chargement est géré par SDL_mixer.) Tj ET Q
+q 0.000 g BT 70.87 639.05 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 624.87 Td (Pour les utilisateurs de Windows, l'ensemble des bibliothèques compilées est disponible sur ) Tj ET Q
+q 0.000 0.000 1.000 rg BT 480.16 624.87 Td (le site) Tj ET 480.16 623.87 26.12 -0.50 re f Q
+q 0.000 0.000 1.000 rg BT 70.87 610.70 Td (PyGame) Tj ET 70.87 609.70 38.90 -0.50 re f Q
+q 0.000 g BT 109.77 610.70 Td ( \(oui je sais, Python c'est maaaal ! Mais là, le serpent nous aide ! :op\).) Tj ET Q
+q 0.000 g BT 70.87 596.53 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 582.35 Td (Les specifications de notre player) Tj ET Q
+q 0.000 g BT 70.87 568.18 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 554.01 Td (Le player restera volontairement simple, il doit permettre :) Tj ET Q
+q 0.000 g BT 79.04 525.66 Td (•) Tj ET Q
+q 0.000 g BT 90.71 525.66 Td (d'initialiser l'audio,) Tj ET Q
+q 0.000 g BT 79.04 511.49 Td (•) Tj ET Q
+q 0.000 g BT 90.71 511.49 Td (d'obtenir la configuration obtenue,) Tj ET Q
+q 0.000 g BT 79.04 497.32 Td (•) Tj ET Q
+q 0.000 g BT 90.71 497.32 Td (de lire un fichier audio,) Tj ET Q
+q 0.000 g BT 79.04 483.14 Td (•) Tj ET Q
+q 0.000 g BT 90.71 483.14 Td (d'arrêter la lecture,) Tj ET Q
+q 0.000 g BT 79.04 468.97 Td (•) Tj ET Q
+q 0.000 g BT 90.71 468.97 Td (de faire une pause/reprendre la lecture,) Tj ET Q
+q 0.000 g BT 79.04 454.80 Td (•) Tj ET Q
+q 0.000 g BT 90.71 454.80 Td (de contrôler le volume,) Tj ET Q
+q 0.000 g BT 79.04 440.62 Td (•) Tj ET Q
+q 0.000 g BT 90.71 440.62 Td (de quitter "proprement".) Tj ET Q
+q 0.000 g BT 70.87 412.28 Td (Création du wrapper Rebol) Tj ET Q
+q 0.000 g BT 70.87 398.10 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 383.93 Td (Etape essentielle à notre travail, il faut jeter un coup d'oeil au\(x\) fichier\(s\) d'include. Je ne saurais trop) Tj ET Q
+q 0.000 g BT 70.87 369.76 Td (conseiller de regarder également les documentations associées, histoire que je ne me sente pas trop) Tj ET Q
+q 0.000 g BT 70.87 355.58 Td (seul ! :\)) Tj ET Q
+q 0.000 g BT 70.87 341.41 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 327.24 Td (Dans notre exemple, deux fichiers d'include sont à analyser :) Tj ET Q
+q 0.000 g BT 79.04 298.89 Td (•) Tj ET Q
+q 0.000 g BT 90.71 298.89 Td (SDL.h qui regroupe les fonctions communes à tout applicatif utilisant SDL,) Tj ET Q
+q 0.000 g BT 79.04 284.72 Td (•) Tj ET Q
+q 0.000 g BT 90.71 284.72 Td (SDL_mixer.h qui regroupe les fonctions audios qui nous interessent.) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 70.87 256.37 Td (SDL.h) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 242.20 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 228.02 Td (Dans ce fichier, nous trouvons les fonctions nécessaires à l'intialisation et à la fermeture du système) Tj ET Q
+q 0.000 g BT 70.87 213.85 Td (SDL :) Tj ET Q
+q 0.000 g BT 70.87 199.68 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 186.10 Td ( /* This function loads the SDL dynamically linked library and initializes ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 171.93 Td (  * the subsystems specified by 'flags' \(and those satisfying dependencies\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 157.76 Td (  * Unless the SDL_INIT_NOPARACHUTE flag is set, it will install cleanup) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 143.58 Td (  * signal handlers for some commonly ignored fatal signals \(like SIGSEGV\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 129.41 Td (  */) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 115.24 Td ( extern DECLSPEC int SDLCALL SDL_Init\(Uint32 flags\);) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 101.06 Td ( ) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 501.28 45.79 Td (Page 10/19) Tj ET Q
+
+endstream
+endobj
+23 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 24 0 R>>
+endobj
+24 0 obj
+<</Length 4585>>
+stream
+2 J
+0.85 w
+BT /F2 8.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 70.87 819.05 Td (Interfacer Rebol et les bibliothèques dynamiques) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 795.55 Td ( /* This function cleans up all initialized subsystems and unloads the) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 781.38 Td (  * dynamically linked library.  You should call it upon all exit conditions.) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 767.21 Td (  */) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 753.03 Td ( extern DECLSPEC void SDLCALL SDL_Quit\(void\);) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 724.09 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 695.74 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 681.57 Td (Les macros DECLSPEC et SDLCALL ne doivent pas vous inquiéter, elles servent uniquement à) Tj ET Q
+q 0.000 g BT 70.87 667.39 Td (assurer la portabilité du code. Si vous voulez plus de détails sur ces macros, jetez un oeil au fichier) Tj ET Q
+q 0.000 g BT 70.87 653.22 Td (begin_code.h qui se trouvent parmi les include SDL. ) Tj ET Q
+q 0.000 g BT 70.87 639.05 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 624.87 Td (Dans ce fichier, sont également déclarés un certain nombre de "constantes" qui servent à calculer le) Tj ET Q
+q 0.000 g BT 70.87 610.70 Td (paramètre ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 119.22 610.70 Td (flags) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 140.34 610.70 Td ( de SDL_init, une seule nous intéresse dans notre cas :) Tj ET Q
+q 0.000 g BT 70.87 596.53 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 582.95 Td ( #define SDL_INIT_AUDIO 0x00000010) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 568.18 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 554.01 Td (Nous pouvons d'ores et déjà définir les bases de notre wrapper :) Tj ET Q
+q 0.000 g BT 70.87 539.83 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 526.26 Td ( sdl: context [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 512.09 Td (     libsdl: compose [main \(load/library %/usr/lib/libSDL.so\)]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 497.92 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 483.74 Td (     c-sdl: context [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 469.57 Td (         ;; constants) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 455.40 Td (         INIT_AUDIO: to-integer #{00000010}) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 441.22 Td (         protect 'SDL_INIT_AUDIO) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 427.05 Td ( ;; functions) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 412.88 Td ( init: make routine! [flags [int] return: [int]] libsdl/main "SDL_Init") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 398.70 Td ( quit: make routine! [] libsdl/main "SDL_Quit") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 384.53 Td ( get-error: make routine! [return: [string!]] libsdl/main "SDL_GetError") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 370.36 Td ( ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 356.18 Td ( INIT_AUDIO: get in c-sdl 'INIT_AUDIO) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 342.01 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 327.84 Td ( init: func [flags [integer! block!] /local value] [ ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 313.66 Td (     value: 0) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 299.49 Td (     foreach flag compose [\(flags\)] [value: or~ value flag]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 285.32 Td (     if 0 ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 118.87 285.32 Td ( c-sdl/init value [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 271.14 Td (         make error! "SDL initialization problem!") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 256.97 Td (     ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 242.80 Td ( ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 228.62 Td ( quit: does [ ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 214.45 Td (     c-sdl/quit) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 200.28 Td (     foreach [name lib] libsdl [free lib]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 186.10 Td ( ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 171.93 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 157.76 Td ( get-error: does [make error! c-sdl/get-error]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 143.58 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 128.81 Td ( ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 70.87 114.64 Td (SDL_mixer.h) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 100.46 Td ( ) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 501.28 45.79 Td (Page 11/19) Tj ET Q
+
+endstream
+endobj
+25 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 26 0 R>>
+endobj
+26 0 obj
+<</Length 4949>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (Interfacer Rebol et les bibliothèques dynamiques) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td (Pour l'instant, notre wrapper bien qu'utilisable ne fait pas grand chose, passons à l'include qui nous) Tj ET Q
+q 0.000 g BT 70.87 780.78 Td (permettra de faire un peu de musique.) Tj ET Q
+q 0.000 g BT 70.87 766.61 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 752.43 Td (Nous n'utiliserons pas les capacités de mixage de la librairie SDL_mixer, donc concentrons-nous sur) Tj ET Q
+q 0.000 g BT 70.87 738.26 Td (les types et les routines liées à la gestion d'un morceau de musique.) Tj ET Q
+q 0.000 g BT 70.87 724.09 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 709.91 Td (Commençons par les constantes et les types :) Tj ET Q
+q 0.000 g BT 70.87 695.74 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 682.17 Td ( /* Good default values for a PC soundcard */) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 667.99 Td ( #define MIX_DEFAULT_FREQUENCY 22050) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 653.82 Td ( #if SDL_BYTEORDER == SDL_LIL_ENDIAN) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 639.65 Td ( #define MIX_DEFAULT_FORMAT    AUDIO_S16LSB) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 625.47 Td ( #else) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 611.30 Td ( #define MIX_DEFAULT_FORMAT    AUDIO_S16MSB) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 597.13 Td ( #endif) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 582.95 Td ( #define MIX_DEFAULT_CHANNELS  2) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 568.78 Td ( #define MIX_MAX_VOLUME                128     /* Volume of a chunk */) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 554.01 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 539.83 Td (Ce groupe de "constantes" définit des valeurs par défaut pour la fréquence, le format et le nombre de) Tj ET Q
+q 0.000 g BT 70.87 525.66 Td (canaux à utiliser lors de l'ouverture de l'audio.) Tj ET Q
+q 0.000 g BT 70.87 511.49 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 497.32 Td (Comme nous pouvons le voir, MIX_DEFAULT_FORMAT est une redéfinition, on trouve les valeurs) Tj ET Q
+q 0.000 g BT 70.87 483.14 Td (utilisées dans l'include SDL_audio.h :) Tj ET Q
+q 0.000 g BT 70.87 468.97 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 455.40 Td ( #define AUDIO_S16LSB  0x8010  /* Signed 16-bit samples */) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 441.22 Td ( #define AUDIO_S16MSB  0x9010  /* As above, but big-endian byte order */) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 426.45 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 412.28 Td (On s'aperçoit que le format est dépendant du "byte order" de la machine. Il nous faudra en tenir) Tj ET Q
+q 0.000 g BT 70.87 398.10 Td (compte lors de notre construction de l'interface Rebol pour maintenir la portabilité.) Tj ET Q
+q 0.000 g BT 70.87 383.93 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 370.36 Td ( typedef enum {) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 356.18 Td (   MUS_NONE,) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 342.01 Td (   MUS_CMD,) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 327.84 Td (   MUS_WAV,) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 313.66 Td (   MUS_MOD,) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 299.49 Td (   MUS_MID,) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 285.32 Td (   MUS_OGG,) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 271.14 Td (   MUS_MP3) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 256.97 Td ( } Mix_MusicType;) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 242.20 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 228.02 Td (Ce type énuméré défini le type du morceau joué, il nous servira à fournir cette information dans) Tj ET Q
+q 0.000 g BT 70.87 213.85 Td (l'interface. Aucune valeur initiale n'est spécifiée, donc MUS_NONE vaut 0.) Tj ET Q
+q 0.000 g BT 70.87 199.68 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 186.10 Td ( /* The internal format for a music chunk interpreted via mikmod */) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 171.93 Td ( typedef struct _Mix_Music Mix_Music;) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 157.16 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 142.98 Td (Ce type sert à stocker les informations d'un morceau, la structure ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 361.78 142.98 Td (_Mix_Music) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 414.56 142.98 Td ( nous est inconnue.) Tj ET Q
+q 0.000 g BT 501.28 142.98 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 128.81 Td (Nous pourrons donc utiliser un ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 209.26 128.81 Td (integer!) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 245.93 128.81 Td ( pour représenter les données de ce type.) Tj ET Q
+q 0.000 g BT 70.87 114.64 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 100.46 Td (Passons aux fonctions nécessaires à notre player.) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 501.28 45.79 Td (Page 12/19) Tj ET Q
+
+endstream
+endobj
+27 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 28 0 R>>
+endobj
+28 0 obj
+<</Length 5920>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (Interfacer Rebol et les bibliothèques dynamiques) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 781.38 Td ( extern DECLSPEC int SDLCALL Mix_OpenAudio\(int frequency, Uint16 format, int channels,) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 767.21 Td (                                                       int chunksize\);) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 753.03 Td ( extern DECLSPEC int SDLCALL Mix_QuerySpec\(int *frequency,Uint16 *format,int *channels\);) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 738.86 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 724.69 Td ( extern DECLSPEC Mix_Music * SDLCALL Mix_LoadMUS\(const char *file\);) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 710.51 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 696.34 Td ( extern DECLSPEC void SDLCALL Mix_FreeMusic\(Mix_Music *music\);) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 682.17 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 667.99 Td ( extern DECLSPEC Mix_MusicType SDLCALL Mix_GetMusicType\(const Mix_Music *music\);) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 653.82 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 639.65 Td ( extern DECLSPEC int SDLCALL Mix_PlayMusic\(Mix_Music *music, int loops\);) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 625.47 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 611.30 Td ( extern DECLSPEC int SDLCALL Mix_VolumeMusic\(int volume\);) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 597.13 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 582.95 Td ( extern DECLSPEC void SDLCALL Mix_PauseMusic\(void\);) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 568.78 Td ( extern DECLSPEC void SDLCALL Mix_ResumeMusic\(void\);) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 554.61 Td ( extern DECLSPEC int SDLCALL Mix_PausedMusic\(void\);) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 540.43 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 526.26 Td ( extern DECLSPEC int SDLCALL Mix_PlayingMusic\(void\);) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 512.09 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 497.92 Td ( extern DECLSPEC void SDLCALL Mix_CloseAudio\(void\);) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 483.14 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 468.97 Td (Que font-elles ?) Tj ET Q
+q 0.000 g BT 70.87 454.80 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 440.62 Td (Mix_OpenAudio) Tj ET Q
+q 0.000 g BT 142.01 440.62 Td ( : ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 150.35 440.62 Td (Cette fonction permet l'ouverture du système audio par le mixer.) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 426.45 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 412.28 Td (Mix_QuerySpec) Tj ET Q
+q 0.000 g BT 142.00 412.28 Td ( : ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 150.34 412.28 Td (Cette fonction permet de connaître les paramètres avec lesquels le système audio a) Tj ET Q
+q 0.000 g BT 70.87 398.10 Td (effectivement été initialisé. Ces valeurs peuvent être différentes des paramètres que vous avez) Tj ET Q
+q 0.000 g BT 70.87 383.93 Td (demandé lors de l'ouverture en fonction des capacités de votre système.) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 369.76 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 355.58 Td (Mix_LoadMUS) Tj ET Q
+q 0.000 g BT 136.44 355.58 Td ( : ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 144.78 355.58 Td (Cette fonction permet de charger le fichier sonore à jouer, elle nous retourne un) Tj ET Q
+q 0.000 g BT 70.87 341.41 Td (pointeur sur la structure opaque ) Tj ET Q
+q 0.000 g BT 214.83 341.41 Td (Mix_Music) Tj ET Q
+q 0.000 g BT 262.05 341.41 Td (.) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 327.24 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 313.06 Td (Mix_FreeMusic) Tj ET Q
+q 0.000 g BT 138.65 313.06 Td ( : ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 146.99 313.06 Td (Cette fonction nous permet de demander à SDL_mixer de libérer la mémoire allouée) Tj ET Q
+q 0.000 g BT 70.87 298.89 Td (pour le morceau, indispensable si vous ne voulez pas que votre mémoire soit envahie par les résidus) Tj ET Q
+q 0.000 g BT 70.87 284.72 Td (de votre derniere séance de détente musicale.) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 270.54 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 256.37 Td (Mix_GetMusicType) Tj ET Q
+q 0.000 g BT 156.44 256.37 Td ( : ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 164.78 256.37 Td (Cette fonction nous permet de déterminer le type du fichier sonore manipulé au) Tj ET Q
+q 0.000 g BT 70.87 242.20 Td (moment de son appel. S'agit-il d'un MP3, d'un WAV standard ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 228.02 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 213.85 Td (Mix_PlayMusic) Tj ET Q
+q 0.000 g BT 137.54 213.85 Td ( : ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 145.88 213.85 Td (Cette fonction, un peu indispensable pour notre player, permet de jouer le morceau) Tj ET Q
+q 0.000 g BT 70.87 199.68 Td (préalablement chargé.) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 185.50 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 171.33 Td (Mix_VolumeMusic) Tj ET Q
+q 0.000 g BT 151.99 171.33 Td ( : ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 160.33 171.33 Td (Cette fonction nous sera indispensable pour éviter de réveiller les voisins, en nous) Tj ET Q
+q 0.000 g BT 70.87 157.16 Td (permettant de contrôler le volume.) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 142.98 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 128.81 Td (Mix_PauseMusic/ Mix_ResumeMusic/ Mix_PausedMusic) Tj ET Q
+q 0.000 g BT 323.14 128.81 Td ( : ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 331.48 128.81 Td (Cet ensemble de fonctions nous permettra) Tj ET Q
+q 0.000 g BT 70.87 114.64 Td (d'interrompre/de reprendre/de savoir si nous avons interrompu la lecture de notre fichier.) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 100.46 Td ( ) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 501.28 45.79 Td (Page 13/19) Tj ET Q
+
+endstream
+endobj
+29 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 30 0 R>>
+endobj
+30 0 obj
+<</Length 4713>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (Interfacer Rebol et les bibliothèques dynamiques) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td (Mix_PlayingMusic) Tj ET Q
+q 0.000 g BT 150.88 794.95 Td ( : ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 159.22 794.95 Td (Cette fonction nous permet de savoir si nous sommes en cours de lecture d'un) Tj ET Q
+q 0.000 g BT 70.87 780.78 Td (fichier et nous permettra de détecter la fin d'un morceau.) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 766.61 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 752.43 Td (Mix_CloseAudio) Tj ET Q
+q 0.000 g BT 143.11 752.43 Td ( : ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 151.45 752.43 Td (Et enfin, cette fonction nous permettra de quitter proprement notre application en) Tj ET Q
+q 0.000 g BT 70.87 738.26 Td (évitant de polluer le système audio de notre machine.) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 724.09 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 709.91 Td (Bien !) Tj ET Q
+q 0.000 g BT 96.44 709.91 Td ( En nous souvenant de ce qui a été dit dans la partie précédente \(oui, je sais c'est dur !\), on peut) Tj ET Q
+q 0.000 g BT 70.87 695.74 Td (sans trop de difficultés enrichir notre contexte SDL :) Tj ET Q
+q 0.000 g BT 70.87 681.57 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 667.99 Td ( int-ptr: make struct! [value [integer!]] none ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 653.82 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 639.65 Td ( sdl: context [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 625.47 Td (     libsdl: compose [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 611.30 Td (         main  \(load/library %/usr/lib/libSDL.so\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 597.13 Td (         mixer \(load/library %/usr/lib/libSDL_mixer.so\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 582.95 Td (     ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 568.78 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 554.61 Td (     c-sdl: context [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 540.43 Td (         ;; constants) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 526.26 Td (         INIT_AUDIO: to-integer #{00000010}) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 512.09 Td (         protect 'SDL_INIT_AUDIO) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 497.92 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 483.74 Td (         ;; functions) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 469.57 Td (         init: make routine! [flags [int] return: [int]] libsdl/main "SDL_Init") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 455.40 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 441.22 Td (         quit: make routine! [] libsdl/main "SDL_Quit") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 427.05 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 412.88 Td (         get-error: make routine! [return: [string!]] libsdl/main "SDL_GetError") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 398.70 Td (     ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 384.53 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 370.36 Td (     INIT_AUDIO: get in c-sdl 'INIT_AUDIO) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 356.18 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 342.01 Td (     init: func [flags [integer! block!] /local value] [ ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 327.84 Td (         value: 0) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 313.66 Td (         foreach flag compose [\(flags\)] [value: or~ value flag]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 299.49 Td (         if 0 ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 138.07 299.49 Td ( c-sdl/init value [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 285.32 Td (             get-error) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 271.14 Td (         ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 256.97 Td (     ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 242.80 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 228.62 Td (     quit: does [ ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 214.45 Td (         c-sdl/quit) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 200.28 Td (         foreach [name lib] libsdl [free lib]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 186.10 Td (     ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 171.93 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 157.76 Td (     get-error: does [make error! c-sdl/get-error]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 143.58 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 129.41 Td (     mixer: context [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 115.24 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 101.06 Td (         c-mixer: context [) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 501.28 45.79 Td (Page 14/19) Tj ET Q
+
+endstream
+endobj
+31 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 32 0 R>>
+endobj
+32 0 obj
+<</Length 4627>>
+stream
+2 J
+0.85 w
+BT /F2 8.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 70.87 819.05 Td (Interfacer Rebol et les bibliothèques dynamiques) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 795.55 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 781.38 Td (             MIX_DEFAULT_FREQUENCY: 22050 ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 767.21 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 753.03 Td (             AUDIO_U8: to-integer 16#{0008}    ;; Unsigned 8-bit samples ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 738.86 Td (             AUDIO_S8: to-integer 16#{8008}    ;; Signed 8-bit samples ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 724.69 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 710.51 Td (             set [AUDIO_U16SYS AUDIO_S16SYS] switch get-modes system/ports/system 'endian) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 696.34 Td (compose/deep [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 682.17 Td (                 little [[\(to-integer 16#{0010}\) \(to-integer 16#{8010}\)]]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 667.99 Td (                 big    [[\(to-integer 16#{1010}\) \(to-integer 16#{9010}\)]]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 653.82 Td (             ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 639.65 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 625.47 Td (             MIX_DEFAULT_FORMAT: AUDIO_S16SYS) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 611.30 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 597.13 Td (             MIX_DEFAULT_CHANNELS: 2) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 582.95 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 568.78 Td (             MIX_MAX_VOLUME: 128) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 554.61 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 540.43 Td (             Music-type: [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 526.26 Td (                 0 NONE) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 512.09 Td (                 1 CMD) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 497.92 Td (                 2 WAV) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 483.74 Td (                 3 MOD) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 469.57 Td (                 4 MIDI) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 455.40 Td (                 5 OGG) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 441.22 Td (                 6 MP3) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 427.05 Td (             ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 412.88 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 398.70 Td (             open-audio: make routine! [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 384.53 Td (                 frequency  [integer!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 370.36 Td (                 format     [integer!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 356.18 Td (                 channels   [integer!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 342.01 Td (                 chunk-size [integer!] ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 327.84 Td (                 return:    [integer!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 313.66 Td (             ] libsdl/mixer "Mix_OpenAudio") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 299.49 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 285.32 Td (             query-spec: make routine! compose/deep/only [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 271.14 Td (                 frequency [struct! \(first int-ptr\)]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 256.97 Td (                 format    [struct! \(first int-ptr\)]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 242.80 Td (                 channels  [struct! \(first int-ptr\)]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 228.62 Td (                 return: [integer!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 214.45 Td (             ] libsdl/mixer "Mix_QuerySpec") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 200.28 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 186.10 Td (             load-music: make routine! [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 171.93 Td (                 file    [string!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 157.76 Td (                 return: [integer!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 143.58 Td (             ] libsdl/mixer "Mix_LoadMUS") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 129.41 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 115.24 Td (             free-music: make routine! [music [integer!]] libsdl/mixer "Mix_FreeMusic") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 101.06 Td ( ) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 501.28 45.79 Td (Page 15/19) Tj ET Q
+
+endstream
+endobj
+33 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 34 0 R>>
+endobj
+34 0 obj
+<</Length 4895>>
+stream
+2 J
+0.85 w
+BT /F2 8.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 70.87 819.05 Td (Interfacer Rebol et les bibliothèques dynamiques) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 795.55 Td (             get-music-type: make routine! [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 781.38 Td (                 music [integer!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 767.21 Td (                 return: [integer!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 753.03 Td (             ] libsdl/mixer "Mix_GetMusicType") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 738.86 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 724.69 Td (             play-music: make routine! [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 710.51 Td (                 music [integer!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 696.34 Td (                 loops [integer!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 682.17 Td (                 return: [integer!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 667.99 Td (             ] libsdl/mixer "Mix_PlayMusic") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 653.82 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 639.65 Td (             halt-music: make routine! [return: [integer!]] libsdl/mixer "Mix_HaltMusic") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 625.47 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 611.30 Td (             volume-music: make routine! [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 597.13 Td (                 volume [integer!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 582.95 Td (                 return: [integer!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 568.78 Td (             ] libsdl/mixer "Mix_VolumeMusic") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 554.61 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 540.43 Td (             pause-music: make routine! [] libsdl/mixer "Mix_PauseMusic") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 526.26 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 512.09 Td (             resume-music: make routine! [] libsdl/mixer "Mix_ResumeMusic") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 497.92 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 483.74 Td (             paused-music: make routine! [return: [integer!]] libsdl/mixer "Mix_PausedMusic") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 469.57 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 455.40 Td (             playing-music: make routine! [return: [integer!]] libsdl/mixer "Mix_PlayingMusic") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 441.22 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 427.05 Td (             close-audio: make routine! [] libsdl/mixer "Mix_CloseAudio") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 412.88 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 398.70 Td (         ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 384.53 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 370.36 Td (         MIX_DEFAULT_FREQUENCY: get in c-mixer 'MIX_DEFAULT_FREQUENCY) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 356.18 Td (         MIX_DEFAULT_FORMAT:    get in c-mixer 'MIX_DEFAULT_FORMAT) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 342.01 Td (         MIX_DEFAULT_CHANNELS:  get in c-mixer 'MIX_DEFAULT_CHANNELS) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 327.84 Td (         MIX_MAX_VOLUME:        get in c-mixer 'MIX_MAX_VOLUME) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 313.66 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 299.49 Td (         open-audio: func [frequency format channels chunk-size] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 285.32 Td (             if 0 ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 157.27 285.32 Td ( c-mixer/open-audio frequency format channels chunk-size [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 271.14 Td (                 get-error) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 256.97 Td (             ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 242.80 Td (         ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 228.62 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 214.45 Td (         query-spec: has [frequency format channels] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 200.28 Td (             frequency: make struct! int-ptr none) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 186.10 Td (             format: make struct! int-ptr none) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 171.93 Td (             channels: make struct! int-ptr none) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 157.76 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 143.58 Td (             c-mixer/query-spec frequency format channels) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 129.41 Td (             reduce [frequency/value format/value channels/value]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 115.24 Td (         ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 101.06 Td ( ) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 501.28 45.79 Td (Page 16/19) Tj ET Q
+
+endstream
+endobj
+35 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 36 0 R>>
+endobj
+36 0 obj
+<</Length 4270>>
+stream
+2 J
+0.85 w
+BT /F2 8.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 70.87 819.05 Td (Interfacer Rebol et les bibliothèques dynamiques) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 795.55 Td (         load-music: func [file [file!]] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 781.38 Td (             c-mixer/load-music to-local-file file) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 767.21 Td (         ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 753.03 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 738.86 Td (         get-music-type: func [music [integer!]] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 724.69 Td (             select c-mixer/Music-type c-mixer/get-music-type music) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 710.51 Td (         ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 696.34 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 682.17 Td (         play-music:           get in c-mixer 'play-music) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 667.99 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 653.82 Td (         halt-music:           get in c-mixer 'halt-music) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 639.65 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 625.47 Td (         free-music:           get in c-mixer 'free-music) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 611.30 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 597.13 Td (         volume-music:         get in c-mixer 'volume-music) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 582.95 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 568.78 Td (         pause-music:          get in c-mixer 'pause-music) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 554.61 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 540.43 Td (         resume-music:         get in c-mixer 'resume-music) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 526.26 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 512.09 Td (         paused-music:         get in c-mixer 'paused-music) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 497.92 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 483.74 Td (         playing-music:        get in c-mixer 'playing-music) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 469.57 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 455.40 Td (         close-audio:          get in c-mixer 'close-audio) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 441.22 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 427.05 Td (     ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 412.88 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 398.70 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 383.93 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 369.76 Td (Bien, maintenant, nous pouvons construire notre application en utilisant notre bébé. :\)) Tj ET Q
+q 0.000 g BT 70.87 355.58 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 342.01 Td ( music-fmt-filt: ["*.mp3" "*.ogg" "*.wav" "*.mod" "*.mid"]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 327.84 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 313.66 Td ( mms-quit: does [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 299.49 Td (         sdl/mixer/close-audio) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 285.32 Td (         sdl/quit) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 271.14 Td ( ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 256.97 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 242.80 Td ( free-music: does [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 228.62 Td (     sdl/mixer/free-music song) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 214.45 Td (     song: make none! none) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 200.28 Td ( ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 186.10 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 171.93 Td ( init: does [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 157.76 Td (     sdl/init sdl/INIT_AUDIO) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 143.58 Td (     sdl/mixer/open-audio 44100 sdl/mixer/MIX_DEFAULT_FORMAT sdl/mixer/MIX_DEFAULT_CHANNELS) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 129.41 Td ( 4096) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 115.24 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 101.06 Td (     song: make none! none) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 501.28 45.79 Td (Page 17/19) Tj ET Q
+
+endstream
+endobj
+37 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 38 0 R>>
+endobj
+38 0 obj
+<</Length 4096>>
+stream
+2 J
+0.85 w
+BT /F2 8.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 70.87 819.05 Td (Interfacer Rebol et les bibliothèques dynamiques) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 795.55 Td (     song?: false) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 781.38 Td ( volume-ctl/data: 128) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 767.21 Td ( show volume-ctl) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 753.03 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 738.86 Td ( status/text: "Stopped" show status) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 724.69 Td ( main/effect: [gradient 1x1 255.255.255 160.160.160]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 710.51 Td ( ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 696.34 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 682.17 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 667.99 Td ( mstyles: stylize/master [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 653.82 Td ( mbtn: btn 40 ivory) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 639.65 Td ( sep:  box 280x2 black) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 625.47 Td ( ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 611.30 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 597.13 Td ( main: layout [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 582.95 Td ( styles mstyles ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 568.78 Td ( h1 "audio player" black rate 0:0:1 feel [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 554.61 Td (     engage: func [f a e] [ ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 540.43 Td (         if all [a = 'time song? 0 = sdl/mixer/playing-music] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 526.26 Td (             song?: false ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 512.09 Td (             status/text: "Stopped" show status) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 497.92 Td (         ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 483.74 Td (     ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 469.57 Td ( ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 455.40 Td ( sep) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 441.22 Td ( across ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 427.05 Td ( mbtn "select" [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 412.88 Td (     if song [free-music] ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 398.70 Td (     if song: request-file/filter music-fmt-filt [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 384.53 Td (         song: sdl/mixer/load-music first song) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 370.36 Td (         type/text: mold sdl/mixer/get-music-type song  ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 356.18 Td (         show type) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 342.01 Td (     ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 327.84 Td ( ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 313.66 Td ( mbtn "play"  [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 299.49 Td (     if song [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 285.32 Td (         sdl/mixer/play-music song 0) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 271.14 Td (         status/text: "Playing" show status) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 256.97 Td (         song?: true) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 242.80 Td (     ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 228.62 Td ( ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 214.45 Td ( mbtn "pause" [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 200.28 Td (     either 0 = sdl/mixer/paused-music [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 186.10 Td (         sdl/mixer/pause-music) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 171.93 Td (         status/text: "Paused" show status) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 157.76 Td (     ][) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 143.58 Td (         sdl/mixer/resume-music) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 129.41 Td (         status/text: "Playing" show status) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 115.24 Td (     ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 101.06 Td ( ]) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 501.28 45.79 Td (Page 18/19) Tj ET Q
+
+endstream
+endobj
+39 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 40 0 R>>
+endobj
+40 0 obj
+<</Length 3699>>
+stream
+2 J
+0.85 w
+BT /F2 8.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 70.87 819.05 Td (Interfacer Rebol et les bibliothèques dynamiques) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 795.55 Td ( mbtn "stop"  [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 781.38 Td (     sdl/mixer/halt-music song?: false) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 767.21 Td (     status/text: "Stopped" show status) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 753.03 Td ( ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 738.86 Td ( mbtn "halt"  [free-music mms-quit quit] ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 724.69 Td ( mbtn "info"  [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 710.51 Td (     mixer-info: sdl/mixer/query-spec ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 696.34 Td (     view/new info-win: layout [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 682.17 Td (         across) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 667.99 Td (         label black 80 "frequency" info 80 mold first  mixer-info return) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 653.82 Td (         label black 80 "format"    info 80 mold second mixer-info return) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 639.65 Td (         label black 80 "channels"  info 80 mold third  mixer-info return) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 625.47 Td (         btn 170 ivory "Close" [unview]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 611.30 Td (     ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 597.13 Td (     info-win/effect: [gradient 1x1 255.255.255 160.160.160]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 582.95 Td (     show info-win) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 568.78 Td ( ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 554.61 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 540.43 Td ( return sep return) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 526.26 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 512.09 Td ( label black "volume") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 497.92 Td ( volume-ctl: scroller 150x15 [volume: to-integer multiply volume-ctl/data 128) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 483.74 Td (sdl/mixer/volume-music volume]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 469.57 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 455.40 Td ( return sep return) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 441.22 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 427.05 Td ( type: info 130x25 status: info 130x25) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 412.88 Td ( ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 398.70 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 384.53 Td ( init) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 370.36 Td ( view main) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 355.58 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 341.41 Td (A vous de jouer maintenant ! :\)) Tj ET Q
+q 0.000 g BT 70.87 327.24 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 283.52 Td (Conclusion) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 270.54 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 256.37 Td (Nous voilà arrivé au bout.) Tj ET Q
+q 0.000 g BT 184.25 256.37 Td ( J'espère que cette lecture vous aura servi et vous permettra d'enrichir ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 242.20 Td (Rebol) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 98.65 242.20 Td ( et d'en faire profiter tous vos amis codeurs de par le monde, en attendant l'interface plugin) Tj ET Q
+q 0.000 g BT 70.87 228.02 Td (promise par Carl ! :\)) Tj ET Q
+q 0.000 g BT 70.87 213.85 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 199.68 Td (Amusez-vous bien !) Tj ET Q
+BT /F6 8.00 Tf ET
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 501.28 45.79 Td (Page 19/19) Tj ET Q
+
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R 27 0 R 29 0 R 31 0 R 33 0 R 35 0 R 37 0 R 39 0 R ]
+/Count 19
+/MediaBox [0 0 595.28 841.89]
+>>
+endobj
+41 0 obj
+<</Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+42 0 obj
+<</Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+43 0 obj
+<</Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+44 0 obj
+<</Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+45 0 obj
+<</Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+46 0 obj
+<</Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 41 0 R
+/F2 42 0 R
+/F3 43 0 R
+/F4 44 0 R
+/F5 45 0 R
+/F6 46 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+47 0 obj
+<<
+/Producer (FPDF 1.53)
+/Title (Interfacer Rebol et les bibliothèques dynamiques)
+/Subject (Articles Techniques)
+/Author (Bouba)
+/Keywords (DOCUMENTATION, C, wrapper, external lib, struct)
+/Creator (The REBOL Documentation Project)
+/CreationDate (D:20051220192409)
+>>
+endobj
+48 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 49
+0000000000 65535 f 
+0000096024 00000 n 
+0000096831 00000 n 
+0000000009 00000 n 
+0000000222 00000 n 
+0000002058 00000 n 
+0000002427 00000 n 
+0000009419 00000 n 
+0000009632 00000 n 
+0000014305 00000 n 
+0000014519 00000 n 
+0000019930 00000 n 
+0000020341 00000 n 
+0000024782 00000 n 
+0000024997 00000 n 
+0000030069 00000 n 
+0000030284 00000 n 
+0000034618 00000 n 
+0000034833 00000 n 
+0000039712 00000 n 
+0000040053 00000 n 
+0000045829 00000 n 
+0000046913 00000 n 
+0000051876 00000 n 
+0000052091 00000 n 
+0000056727 00000 n 
+0000056942 00000 n 
+0000061942 00000 n 
+0000062157 00000 n 
+0000068128 00000 n 
+0000068343 00000 n 
+0000073107 00000 n 
+0000073322 00000 n 
+0000078000 00000 n 
+0000078215 00000 n 
+0000083161 00000 n 
+0000083376 00000 n 
+0000087697 00000 n 
+0000087912 00000 n 
+0000092059 00000 n 
+0000092274 00000 n 
+0000096235 00000 n 
+0000096332 00000 n 
+0000096427 00000 n 
+0000096525 00000 n 
+0000096624 00000 n 
+0000096726 00000 n 
+0000096991 00000 n 
+0000097276 00000 n 
+trailer
+<<
+/Size 49
+/Root 48 0 R
+/Info 47 0 R
+>>
+startxref
+97380
+%%EOF

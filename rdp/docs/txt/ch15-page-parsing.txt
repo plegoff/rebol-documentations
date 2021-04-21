@@ -1,0 +1,1299 @@
+Chapitre 15 - Le Parsing
+
+	Ce document est la traduction française du chapitre 10 du User Guide de REBOL/Core.,
+	qui concerne le Parsing.
+	Traducteur: Philippe Le Goff
+	
+
+
+=== Historique
+
+\table
+
+Date
+
+Version
+
+Commentaires
+
+Auteur
+
+Email
+
+=row
+
+5 avril 2005 10:37
+
+1.0.0
+
+Traduction initiale et relecture 
+
+Philippe Le Goff
+
+lp--legoff--free--fr
+
+
+/table
+
+<hr>
+
+
+===Introduction
+
+Le parsing segmente une suite de caractères ou de valeurs en plus petits élements.
+Il peut être utilisé pour reconnaître des caractères ou des valeurs qui apparaissent 
+dans un ordre spécifique.<br />
+En plus de fournir une approche aisée et puissante des expressions régulières, <br />
+et de la recherche de motifs, le parsing vous permet de créer votre propre dialecte <br />
+pour un usage spécifique.
+
+La fonction <b>parse</b> se présente sous <u>la forme générale</u> :<br />
+
+	parse series rules
+
+Le premier argument fourni, <b>series</b>, est ce qui va être parsé, et peut être 
+une chaîne de caractères ou un bloc. 
+
+Si l'argument est un chaîne, celle-ci est parsée <u>caractére par caractére</u>.
+
+Si l'argument est un bloc, il est parsé par <u>valeur</u>.
+
+Le second argument, <b>rules</b>, indique comment l'argument "series" est parsée.
+
+L'argument <b>rules</b> peut être une chaîne de types simples à parser, ou un bloc pour 
+un parsing plus sophistiqué.
+
+La fonction <b>parse</b> accepte deux raffinements : <b>/all</b> et <b>/case</b> . <br />
+
+Le rafinement <b>/all</b> permet de parser tous les caractères à l'intérieur d'une chaîne,
+incluant tous les délimiteurs , comme l'espace, le caractère de tabulation, 
+celui de nouvelle ligne, la virgule, et le point-virgule.
+
+
+Le raffinement <b>/case</b> autorise le parsing d'une chaîne avec prise en compte de la 
+casse de la chaîne (majuscule/minuscule).<br />
+
+Quand <b>/case</b> n'est pas spécifié, les majuscules et les minuscules sont traitées sans distinction.
+
+===Parsing simple
+
+--- Cas usuel 
+
+Une forme simple du parsing est le splitting (segmentation) de chaînes :
+
+	parse string none
+
+La fonction <b>parse</b> segmente l'argument (la chaîne de caractères) en input en un bloc 
+composé de plusieurs chaînes, coupant chaque chaîne partout où est rencontré 
+un délimiteur comme l'espace, la tabulation, le caractère de nouvelle ligne (newline), la virgule,
+et le point-virgule. <br />
+
+Un argument "none" fourni à la fonction <b>parse</b> lui indique qu'<b>aucun</b> autre 
+de ces délimiteurs n'est accepté. 
+
+<u>Par exemple</u> :
+
+	probe parse "The trip will take 21 days" none
+	["The" "trip" "will" "take" "21" "days"]
+
+De la même manière,
+
+	probe parse "here there,everywhere; ok" none
+	["here" "there" "everywhere" "ok"]
+
+Dans l'exemple ci-dessus, les virgules et points-virgules ont été otés des chaînes 
+résultantes.
+
+
+
+
+--- D'autres délimiteurs
+
+Vous pouvez spécifier d'autres délimiteurs dans l'argument "rules", 
+qui peuvent être combinés avec les délimiteurs standards (<b>espace, tabulation, virgule, newline, point virgule</b>).
+
+Par exemple, le code suivant effectue un parsing d'un numéro de téléphone, en ayant ajouté 
+un tiret "-" aux délimiteurs :
+
+	probe parse "707-467-8000" "-"
+	["707" "467" "8000"]
+
+Le code ci-dessous ajoute le symbole <b>égal (=)</b> et les guillemets <b>(")</b> aux délimiteurs :
+
+	probe parse <IMG SRC="test.gif" WIDTH="123">  {="}
+	["IMG" "SRC" "test.gif" "WIDTH" "123"]
+
+	
+	
+---Pour n'avoir aucun des délimiteurs standards 
+
+Pour ne pas utiliser les délimiteurs standards du parsing, il faut utiliser le raffinement <b>/all</b>.
+Avec le raffinement <b>/all</b>, seuls les délimiteurs passés dans l'argument <b>rules</b> sont utilisés.
+
+Ci-dessous, l'exemple montre le parsing d'une chaîne basé sur les vigules uniquement; 
+les autres délimiteurs sont ignorés. <br />
+Ainsi les espaces à l'intérieur des chaînes ne sont pas enlevés :
+
+	probe parse/all "Harry, 1011 Main St., Ukiah" ","
+	["Harry" " 1011 Main St." " Ukiah"]
+
+Vous pouvez parser des chaînes de caractères qui contiennent des caractères "null" comme 
+séparateurs (comme pour certains types de fichiers):
+
+	parse/all nulled-string "^(null)"
+
+
+===Régles de Grammaire 
+
+La fonction <b>parse</b> peut accepter des régles de grammaire écrites dans un dialecte de REBOL.
+
+Les dialectes sont des sous-langages de REBOL qui utilisent les mêmes formes lexicales 
+pour tous les types de données, mais permettent un ordonnancement différent des valeurs 
+au sein d'un bloc.
+
+Au sein du dialecte, la grammaire et le vocabulaire de REBOL sont modifiés pour être rendre 
+similaires en structure à la forme BNF (Backus-Naur- Form) bien connue, qui est souvent utilisée 
+pour spécifier des régles de grammaires, des protocoles réseau, des formats d'en-tête, etc.
+
+
+Pour définir une régle, on utilise un bloc indiquant l'ordre des entrées.
+
+Par exemple, si vous souhaitez parser une chaîne et renvoyer les caractères  "the phone", 
+vous pouvez utiliser la régle :
+
+	parse string ["the phone"]
+
+--- Alternatives 
+	
+Pour permettre un nombre indéfini d'espaces ou aucun espace entre les mots (soit 0 ou plus), 
+écrivez la régle ainsi :
+
+	parse string ["the" "phone"]
+
+Il est possible d'alterner des régles avec une bar vertical  (|). <br />
+
+<u>Par exemple</u> :
+
+	["the" "phone" | "a" "radio"]
+
+accepte des chaînes de caractéres qui contiennent l'une ou l'autre des chaînes suivantes :
+
+	the phone
+	a radio
+
+Une régle peut contenir des blocs qui sont traités comme des sous-régles. <br />
+
+Le code suivant :
+
+	[ ["a" | "the"] ["phone" | "radio"] ]
+
+acceptent des chaînes de caractères qui contiennent l'une ou l'autre des chaînes suivantes :
+
+	a phone
+	a radio
+	the phone
+	the radio
+
+Afin d'améliorer la lisibilité, il est judicieux d'écrire des sous-régles 
+comme des blocs à part et de leur donner un nom caractéristique :
+
+	article: ["a" | "the"]
+	moyen-de-com: ["phone" | "radio"]
+	parse string [article moyen-de-com]
+
+
+---Nombre variables d'occurences
+
+En plus de rechercher une instance unique d'une chaîne, vous pouvez fournir 
+un nombre ou une plage de nombres correspondant au nombre d'occurrences possibles d'un motif.
+
+L'exemple suivant illustre cela : 
+
+	[3 "a" 2 "b"]
+
+qui acceptera n'importe quelle chaîne de caractères du genre :
+
+	aaabb
+
+L'exemple suivant montre l'usage d'une plage de nombres :
+
+	[1 3 "a" "b"]
+
+acceptera des chaînes de caractères correspondant à l'une ou l'autre des possibilités suivantes :
+
+	ab aab aaab
+
+Le point de départ d'une plage de nombres peut être 0 (zero), indiquant que celui-ci est optionnel.
+
+	[0 3 "a" "b"]
+
+acceptera des chaînes de caractères du genre :
+
+	b ab aab aaab
+
+---some et any
+
+Il est possible d'utiliser le mot <b>some</b> pour spécifier que un ou plusieurs caractères doivent 
+être recherchés.
+Sur le même principe, il est possible d'utiliser le mot <b>any</b> pour spécifier que 
+ou plusieurs caractères doivent être cherchés. <br />
+
+Par exemple, <b>some</b> est utilisé dans le code suivant :
+
+	[some "a" "b"]
+
+qui accepte des chaînes contenant une ou plusieurs occurrences <br />
+des caractères a ou b :
+
+	ab aab aaab aaaab
+
+L'exemple suivant montre l'usage de <b>any</b> :
+
+	[any "a" "b"]
+
+Ici seront acceptées les chaînes de caractères contenant zero ou plusieurs 
+caractères a ou b :
+
+	b ab aab aaab aaaab
+
+Les mots <b>some</b> et <b>any</b> peuvent aussi être utilisés sur des blocs.
+
+<u>Par exemple</u> :
+
+	[some ["a" | "b"]]
+
+accepte des chaînes de caractères contenant <b>n'importe quelle</b> combinaison 
+des caractères a et b.<br />
+
+Une autre manière d'exprimer qu'un caractère est optionnel est 
+de fournir dans les alternatives de choix le mot <b>none</b> :
+
+	["a" | "b" | none]
+
+Cet exemple indique que les chaînes acceptées peuvent contenir a ou b ou <b>none</b> .
+Le mot <b>none</b> est un moyen pratique pour spécifier des modéles  ("patterns") optionnels  ou 
+pour gérer les cas d'erreur lorsqu'aucun modéle ou motif ne concorde.
+
+
+
+===Saut de caractères (Skipping Input)
+
+Les mots  <b>skip</b>, <b>to</b>, et <b>thru</b> permettent de se déplacer dans les entrées.
+
+<b>Skip</b> peut être utilisé pour sauter un caractère, ou en conjugaison avec la fonction <b>repeat</b> 
+pour sauter plusieurs caractères :
+
+	["a" skip "b"]
+	["a" 10 skip "b"]
+	["a" 1 10 skip "b"]
+
+Pour aller à un caractère spécifique, utilisez <b>to</b> :
+
+	["a" to "b"]
+
+L'exemple précédent fait commencer le parsing au caractère "a" 
+et le termine à "b" mais <b><u>sans inclure</u></b> "b".
+
+Pour inclure le caractère "b" dans le parsing, utiliser <b>thru</b> :
+
+	["a" thru "b"]
+
+Cet exemple fait commencer le parsing au caractère "a", le termine à "b", mais celui-ci est 
+à présent <b><u>inclus</u></b> dans le parsing .
+
+La régle suivante permet par exemple de sélectionner le titre 
+d'une page html et l'affiche : 
+
+	page: read http://www.REBOL.com/
+	parse page [thru <title>  copy text to </title> ]
+	print text
+	REBOL Technologies
+
+Le premier <b>thru</b> trouve la balise "&#60;title&#62; " et va immédiatement après.
+Ensuite, le chaîne en input est copiée dans une variable appelée "<b>text</b>",
+jusqu'à ce que la balise (tag) "&#60;/title&#62; " soit atteinte (mais sans la dépasser sinon, 
+la balise serait inclus dans la variable "text").
+
+
+=== Recherches par types de données
+
+Durant le parsing sur des chaînes de caractères, les types de données 
+et les mots peuvent être utilisés pour être croisés avec les caractères de la chaîne en input :
+
+\table
+        
+Type de correspondance
+
+Description
+
+=row
+
+"abc"
+
+correspondance avec la chaîne compléte
+
+=row
+
+&#35;"c"
+
+correspondance avec un caractère unique 
+
+=row
+
+tag (&lt;u&gt;, &lt;br /&gt;,...)
+
+correspondance avec une balise
+
+=row
+
+end
+
+correspondance avec la fin de l'entrée
+
+=row
+
+(bitset) ensemble de caractères
+
+correspondance avec n'importe quel 
+caractére dans ceux proposés 
+
+/table
+
+
+Pour utiliser ces mots (à l'exception de <b>bitset</b>, qui est expliqué plus loin) 
+dans une seule régle, il suffit d'écrire :
+
+	[<B>  ["excellent" | "incredible"] #"!" </B>  end]
+
+Cet exemple va parser les chaînes de caractères :
+
+	<B> excellent! </B>  
+	<B> incredible! </B>  
+
+Le mot <b>end</b> spécifie que plus rien ne suit dans le flux d'entrée.
+L'entrée a été complétement parsée. Ceci est optionnel et 
+selon que la valeur de retour de la fonction d'analyse nécessite d'être vérifiée. 
+(Voir le chapître sur l'Evaluation ci-dessous, pour plus d'information.)
+
+Le type de données "<b>bitset</b>" nécessite plus d'explications.<br />
+Les "<b>bitset</b>" sont utilisés pour définir de façon efficace des ensembles, des jeux de caractères.
+La fonction <b>charset</b> vous permet de définir des caractères uniques ou encore un ensemble de
+caractères.
+
+Par exemple, la ligne :
+
+	digit: charset "0123456789"
+
+définira un jeu de caractères contenant des chiffres.
+
+Il est alors possible de définir des régles comme : 
+
+	[3 digit "-" 3 digit "-" 4 digit]
+
+qui vont parser des numéros de téléphones du genre :
+
+	707-467-8000
+
+Pour accepter un nombre quelconque de chiffres, il est possible 
+d'écrire une régle :
+
+	digits: [some digit]
+
+Un jeu de caractères peut aussi spécifier une plage de caractères. 
+
+Par exemple, le bitset "digit" précédent peut être ré-écrit ainsi : 
+
+	digit: charset [#"0" - #"9"]
+
+Bien sûr, il est possible de combiner des caractères spécifiques et des plages  
+de caractères :
+
+	the-set: charset ["+-." #"0" - #"9"]
+
+Pour compléter ces notions, voici la description des caractères alphanumériques :
+
+	alphanum: charset [#"0" - #"9" #"A" - #"Z" #"a" - #"z"]
+
+	
+Ces jeux de caractères peuvent être modifiés avec 
+les fonctions <b>insert</b> et <b>remove</b>, ou encore être créés avec des combinaisons 
+de caractères via les fonctions <b>union</b> et <b>intersect</b>. 
+
+La ligne suivante recopie l'ensemble de caractères "digit" et lui ajoute le 
+caractère "." :
+
+	digit-dot: insert copy digit "."
+
+Ci-dessous, la définition de plusieurs jeux de caractères 
+utiles pour le parsing :
+
+	digit: charset [#"0" - #"9"]
+	alpha: charset [#"A" - #"Z" #"a" - #"z"]
+	alphanum: union alpha digit
+
+
+=== Récursivité des Régles 
+
+Voici un exemple de régles qui vont analyser  
+des expressions mathématiques et donner une priorité aux 
+opérateurs arithmétiques utilisés :
+
+
+	expr:    [term ["+" | "-"] expr | term]
+	term:    [factor ["*" | "/"] term | factor]
+	factor:  [primary "**" factor | primary]
+	primary: [some digit | "(" expr ")"]
+	digit:   charset "0123456789"
+
+A présent, nous pouvons analyser n'importe quel type d'expressions 
+mathématiques. <br />
+Les exemples suivants renvoient "<b>true</b>", indiquant que les expressions fournies 
+sont valides :
+
+	probe parse "1 + 2 * ( 3 - 2 ) / 4" expr
+	true
+	probe parse "4/5+3**2-(5*6+1)" expr
+	true
+
+Remarquez que certaines de ces régles font référence à elles-mêmes.
+
+Par exemple, la régle <b>expr</b> inclut <b>expr</b> .<br />
+C'est une technique utile pour définir des répétitions et des combinaisons 
+de régles. La régle est récursive, elle fait référence à elle-même.
+
+Quand des régles récursives sont utilisées, il faut faire attention 
+afin d'éviter une récursivité sans fin.
+
+<u>Par exemple</u> :
+
+	expr: [expr ["+" | "-"] term]
+
+va créer une boucle infinie parce que la première chose que la régle "<b>expr</b>" fait 
+est d'utiliser encore "<b>expr</b>"  .
+
+
+
+=== Evaluation
+
+Normalement, vous analysez une chaîne en vue de produire un résultat.<br />
+
+Vous pouvez faire plus que vérifier la conformité de la chaîne, 
+vous voulez faire quelque chose <b>pendant</b> qu'elle est analysée.
+
+Par exemple, vous pouvez vouloir sélectionner des morceaux de diverses parties 
+de la chaîne en input, créer des blocs de valeurs reliées entre elles, ou calculer une valeur.
+
+
+--- Valeur retournée par la fonction <b>parse</b>
+
+Les exemples dans les précedents chapîtres ont montré 
+comment parser des chaînes, mais aucun résultat n'était produit. 
+
+La valeur retournée par l'analyse permet de vérifier qu'une chaîne a la grammaire, et la structure indiquée;  
+elle indique le succès ou non de l'analyse.
+
+Les exemples suivants illustrent cela :
+
+	probe parse "a b c" ["a" "b" "c"]
+	true
+	probe parse "a b" ["a" "c"]
+	false
+
+La fonction <b>parse</b> renvoie "true" seulement si elle atteint la fin de la chaîne de 
+caractères fournie en argument (input).<br />
+
+Une correspondance infructeuse entre la régle et la chaîne stoppe l'analyse de celle-ci. 
+
+Si l'analyse dépasse les valeurs à rechercher 
+avant atteindre la fin de la série, elle ne traverse pas la série et retourne "false".
+
+	probe parse "a b c d" ["a" "b" "c"]
+	false
+	probe parse "a b c d" [to "b" thru "d"]
+	true
+	probe parse "a b c d" [to "b" to end]
+	true
+
+
+--- Expressions dans les règles
+
+Au sein d'une régle, vous pouvez inclure une expression REBOL 
+qui sera à évaluer, lorsque l'analyse atteindra ce point dans la régle.<br />
+
+Des parenthéses sont utilisées pour indiquer de telles expressions :
+
+	string: "there is a phone in this sentence"
+	probe parse string [
+	    to "a"
+	    to "phone" (print "found phone")
+	    to end
+	]
+	found phone
+	true
+
+L'exemple ci-dessus effectue un parsing de la chaîne "string"  et affiche 
+le message "found phone" à la fin de l'analyse.
+Si la chaîne ou le mot "phone" n'existe pas, ou que l'analyse ne peut être faite,
+l'expression n'est pas évaluée.
+
+Les expressions à évaluer peuvent apparaître n'importe où 
+à l'intérieur d'une régle, et plusieurs expressions peut exister dans différentes 
+parties d'une régle.<br />
+
+Par exemple, le code suivant affichera différentes réponses selon ce qui aura 
+été trouvé dans la chaîne en input (en entrée) :
+
+
+	string: "there is a phone in this sentence"
+	parse string [
+	    "a" | "the"
+	    to "phone" (print "answer") |
+	    to "radio" (print "listen") |
+	    to "tv"    (print "watch")
+	]
+	answer
+	string: "there is the radio on the shelf"
+	
+	parse string [
+	    "a" | "the"
+	    to "phone" (print "answer") |
+	    to "radio" (print "listen") |
+	    to "tv"    (print "watch")
+	]
+	listen
+
+
+
+Voici un exemple qui comptabilise le nombre de fois où  
+la balise &#60;pre&#62;  apparait dans une page HTML :
+
+	count: 0
+	page: read http://www.REBOL.com/docs/dictionary.html
+	parse page [any [thru <pre>  (count: count + 1)]]
+	print count
+	777
+
+
+--- Copie de l'entrée
+
+L'action la plus commune réalisée avec parse est de récupérer des 
+parties de la chaîne en cours d'analyse.
+Ceci peut être effectué avec le mot <b>copy</b> suivi du nom de la variable 
+vers laquelle vous voulez copier le morceau de chaîne. <br />
+
+
+L'exemple suivant montre le parsing d'un titre de page Web :
+
+	parse page [thru <title>  copy text to </title> ]
+	print text
+	REBOL/Core Dictionary
+
+
+La régle utilisée dans cet exemple permet de se déplacer dans la chaîne en input jusqu'à trouver 
+la balise &#60;title&#62; .<br />
+A partir de ce point, une copie du flux de caractères en entrée est faite 
+dans la variable "text". La copie continue jusqu'à ce que la balise  &#60;title&#62;  
+soit trouvée.
+<br />
+
+La copie peut aussi être réalisée avec des blocs entiers de régles.<br />
+
+Par exemple :
+
+	[copy heading ["H" ["1" | "2" | "3"]]
+
+Ici, la variable "heading" contient les chaînes  H1, H2, ou
+H3.
+
+Ceci fonctionne aussi pour de grandes régles multi-blocs.
+
+--- Indexation de l'entrée
+
+L'action <b>copy</b> effectue une copie du morceau de chaîne trouvé, 
+mais ce n'est pas toujours souhaitable. <br />
+Dans certains cas, il est plus judicieux de sauver dans une variable la position courante dans le 
+flux en input . 
+
+<u>NOTE</u> : <br />
+Le mot <b>copy</b> utilisé dans le parsing  est différent de la fonction <b>copy</b> rencontrée dans 
+les expressions REBOL. <br />
+Le parsing utilise un dialecte de REBOL, et le mot <b>copy</b> y a un sens différent au sein 
+de celui-ci.
+
+Dans l'exemple suivant, la variable "begin" pointe vers une position de référence dans la page en input, 
+juste après  &#60;title&#62; . <br />
+
+La variable "ending", elle, fait référence dans la page à une position juste avant &#60;/title&#62;.<br />
+Ces variables peuvent être manipulées comme elles le seraient avec n'importe quelle autre série.
+
+	page: read http://www.REBOL.com/docs/dictionary.html
+	parse page [
+	    thru <title>  begin: to </title>  ending:
+	    (change/part begin "Word Reference Guide" ending)
+	]
+
+Vous pouvez constater que le parsing ci-dessus a réellement changé le contenu du titre,
+<i>in situ</i> du contenu de la variable "page". 
+
+	parse page [thru <title>  copy text to </title> ]
+	print text
+	Word Reference Guide
+
+Voici un autre exemple permettant d'indexer la position 
+de chaque balise &#60;table&#62;dans un fichier HTML :
+
+	page: read http://www.REBOL.com/index.html
+	tables: make block! 20
+	parse page [
+	    any [to "<table" mark: thru ">"
+	        (append tables index? mark)
+	    ]
+	]
+
+Le bloc "tables" contient à présent la position de chaque balise :
+
+	foreach table tables [
+	    print ["table found at index:" table]
+	]
+	table found at index: 836
+	table found at index: 2076
+	table found at index: 3747
+	table found at index: 3815
+	table found at index: 4027
+	table found at index: 4415
+	table found at index: 6050
+	table found at index: 6556
+	table found at index: 7229
+	table found at index: 8268
+
+<u>NOTE</u> :  <br />
+La position courante dans le flux d'entrée peut aussi être 
+modifiée. Le chapître suivant explique comment réaliser cela.
+
+
+
+---Modification de la chaîne :
+
+A présent qu'il est possible d'obtenir une position 
+dans la chaîne en input, vous pouvez aussi utiliser d'autres fonctions 
+relatives aux séries, comme <b>insert</b>, <b>remove</b>, et <b>change</b>.
+
+
+Pour écrire un script qui remplace tous les points d'interrogation (?) 
+par des points d'exclamation, vous pouvez écrire :
+
+	str: "Où est la dinde?  Avez-vous vu la dinde?"
+	parse str [some [to "?" mark: (change mark "!") skip]]
+	print form str
+	Où est la dinde !  Avez-vous vu la dinde !
+
+Le mot <b>skip</b> en fin de régle avance d'un caractère le flux en entrée, 
+jusqu'au caractère suivant (ce n'est pas nécessaire dans ce cas, mais c'est une bonne pratique).
+
+Un autre exemple, pour insérer l'heure courante chaque fois que le mot "time" 
+apparaît dans un texte : 
+
+	str: "at this time, I'd like to see the time change"
+	parse str [
+	    some [to "time"
+	        mark:
+	        (remove/part mark 4  mark: insert mark now/time)
+	        :mark
+	    ]
+	]
+	print str
+	at this 14:42:12, I'd like to see the 14:42:12 change
+
+Attention au mot <b>:mark</b> utilisé ci-dessus. <br />
+Il décale l'index de l'input à une nouvelle position. 
+
+La fonction <b>insert</b> retourne la nouvelle position juste après le point d'insertion de 
+l'heure courante. Le mot <b>:mark</b> est utilisé pour positionner l'index de l'input à cet endroit.
+
+--- Utilisation d'objets
+
+Lors d'une analyse grammaticale importante, à partir d'un ensemble de règles, des variables sont définies  
+pour rendre cette grammaire plus lisible.
+Cependant, les variables utilisées appartiennent au contexte global et peuvent être source de
+conflit ou de confusion avec d'autres variables ayant le même nom quelque part ailleurs 
+dans le programme.
+
+La solution pour régler ce problème est <b>d'utiiser un objet</b> pour rendre toutes les 
+régles de grammaire <b>locale au contexte de cet objet</b>.
+
+<u>Par exemple</u> :
+
+	tag-parser: make object! [
+	    tags: make block! 100
+	    text: make string! 8000
+	    html-code: [
+	        copy tag ["<" thru "> "] (append tags tag) |
+	        copy txt to "<" (append text txt)
+	    ]
+	    parse-tags: func [site [url!]] [
+	        clear tags clear text
+	        parse read site [to "<;" some html-code]
+	        foreach tag tags [print tag]
+	        print text
+	    ]
+	]
+	tag-parser/parse-tags http://www.REBOL.com
+
+
+--- Debuggage
+
+Une fois les régles écrites, plusieurs tests de débuggage sont souvent nécessaires.
+
+En particulier, vous voudrez sans doute savoir jusqu'où vous avez été dans le parsing  d'une règle.  
+La fonction <b>trace</b> peut être employée pour observer l'évolution d'une opération d'analyse, 
+mais elle peut produire des milliers de lignes, qu'il sera difficile de passer en revue.
+
+Une meilleure façon de débugger est d'introduire des expressions de débuggage dans les 
+régles de parsing.
+
+Par exemple, pour débugger la régle :
+
+	[to "<IMG" "SRC" "=" filename ">"]
+
+Ici, l'insertion de  la fonction <b>print</b> au plus proche des parties à surveiller 
+vous permettra de suivre l'évolution du parsing au travers de la régle :
+
+	[to "<IMG" (print 1) "SRC" "=" (print 2)
+	    filename (print 3) ">"]
+
+Cet exemple affichera : 1, 2, puis 3 lorsque la régle sera exécutée.
+
+Une autre approche est d'afficher une partie de la chaîne en input durant 
+le parsing : 
+
+	[
+	   to "<IMG" here: (print here)
+	   "SRC" "=" here: (print here)
+	    filename here: (print here) ">"
+	]
+
+Si cette méthode est réguliérement utilisée, vous pouvez créer ... une régle 
+pour cela :
+
+here: [where: (print where)]
+
+	[
+	   to "<IMG" here
+	   "SRC" "=" here
+	    filename here ">"
+	]
+
+La fonction <b>copy</b> peut aussi être utiisée pour indiquer 
+quelles sous-chaînes ont été analysées pendant que la règle était active.
+
+=== Jongler avec les espaces
+
+La fonction <b>parse</b> ignore en principe tous les espaces blancs existants
+entre les motifs à chercher.
+
+Par exemple, la régle :
+
+	["a" "b" "c"]
+
+acceptent les chaînes qui correspondent à:
+
+	abc
+	a bc
+	ab c
+	a b c
+	a  b  c
+
+ou autres combinaisons avec des espaces .
+
+
+Pour imposer une convention spécifique pour les espaces, utilisez <b>parse</b> avec 
+la raffinement <b>/all</b>. Dans l'exemple précédent, l'usage de ce raffinement 
+conduirait le parsing à avoir la seule correspondance :  <b>(abc)</b>.
+
+	parse/all "abc" ["a" "b" "c"]
+
+La spécifiaction du raffinement <b>/all</b> force chaque caractère (en incluant les délimiteurs 
+standards comme l'espace, la tabulation, la virgule, le point virgule, le retour à la ligne) a être 
+manipulés par la régle fournie.
+
+
+Pour utiliser des caractères d'espacements dans vos régles, créez un jeu de caractères qui définit 
+les caractères valides comme : 
+
+	spacer: charset reduce [tab newline #" "]
+
+Si vous voulez un seul caractère d'espacement entre chaque lettre, écrivez :
+
+	["a" spacer "b" spacer "c"]
+
+Pour permettre de multiples espacements, il est possible d'écrire :
+
+	spaces: [some spacer]
+	["a" spaces "b" spaces "c"]
+
+Pour des régles plus sophistiquées, créez un ensemble de caractéres 
+qui vous laisse scanner la chaîne en entrée jusqu'à trouver un caractère "espace" :
+
+	
+	non-space: complement spacer
+	to-space: [some non-space | end]
+	words: make block! 20
+	parse/all text [
+	    some [copy word to-space (append words word) spacer]
+	]
+
+L'exemple ci-dessus construit un bloc de mots (<b>words</b>) à partir de la chaîne "text" fournie en input.
+
+La fonction <b>complement</b> inverse le jeu de caractères. <br />
+A présent, la variable "non-space" contient tout, excepté les caractères d'espacement définis précédemment.
+
+La régle "to-space" accepte un ou plusieurs caractères différents du caractère 
+"espace" ou la fin du flux d'entrée.<br />
+La régle principale attend un mot, copie le mot jusqu'à trouver un espace, ajoute le mot au bloc "words",
+puis saute le caractère "espace", et recommence avec le mot suivant.
+
+
+
+
+
+=== Parsing de blocs et Dialectes
+
+Il est possible de parser des blocs de la même manière que des chaînes.
+Un ensemble de régles spécifie l'ordre dans lequel les valeurs sont attendues.
+
+Cependant, à la différence du parsing des chaînes de caractères, le parsing de blocs 
+ne s'effectue pas via les caractères ou les délimiteurs standard. <br /> 
+L'analyse des blocs est faite au niveau de la valeur, 
+ce qui facilite la spécification des règles de grammaire et rend les traitements beaucoup plus rapides.
+
+Le parsing de blocs est la manière la plus simple pour créer des <b>dialectes REBOL</b>.
+
+Les <b>dialectes</b> sont des sous-langages de REBOL qui utilisent les mêmes formes lexicales pour 
+tous les types de données, mais permettent un ordonnancement différent des valeurs au sein d'un bloc.
+
+L'ordre des valeurs n'a pas besoin d'être conforme à l'ordre normalement requis pour les arguments
+de fonctions REBOL.  
+
+<b>Les dialectes fournissent un moyen très puissant pour parser des expressions  
+et cela dans des domaines spécifiques d'utilisation. </b>
+
+Par exemple, les propres régles du parseur sont définies comme un dialecte.
+
+--- Correspondance de mots
+
+Lors de l'analyse d'un bloc, pour avoir une correspondance avec un mot REBOL, il faut le spécifier  
+comme un mot littéral :
+
+'name
+'when
+'empty
+
+
+--- Correspondance avec des types de données 
+
+Vous pouvez avoir une correspondance avec la valeur de n'importe quel type de données 
+en indiquant le mot REBOL du datatype.
+
+Voir ci-dessous.
+
+\table 
+        
+Type de données du mot
+
+Description
+
+=row
+
+string!
+
+correspondance avec n'importe chaîne entre guillemets
+
+=row
+
+time!
+
+correspondance avec valeurs de type time
+
+=row
+
+date!
+
+correspondance avec valeurs de type  date
+
+=row
+
+tuple!
+
+correspondance avec valeurs de type  tuple
+
+/table
+
+
+<u>NOTE</u> : <br />
+Attention à ne pas oublier le "!" qui fait partie du nom, sinon une erreur sera générée.
+
+--- Caractéres non autorisés 
+
+Les opérations d'analyse permises pour les blocs sont celles qui traitent des caractères spécifiques.  
+Par exemple, une correspondance ne peut pas être établie 
+avec la première lettre d'un mot ou d'une chaîne, ni avec les caractères d'espacement 
+ou newline.
+
+--- Exemples de Dialectes
+
+Quelques courts exemples peuvent aider à illustrer 
+le parsing de blocs :
+
+	block: [when 10:30]
+	print parse block ['when 10:30]
+	print parse block ['when time!]
+	parse block ['when set time time! (print time)]
+
+A noter qu'un mot spécifique peut être testé en utilisant son équivalent littéral (literal word) 
+dans la régle (comme pour 'when dans l'exemple). <br />
+Un type de données peut être testé dans la régle plutôt qu'une valeur, par exemple dans 
+les lignes ci-dessus contenant "time!". 
+
+De plus, une variable peut être définie à une valeur avec le mot <b>set</b>.
+
+Comme avec des chaînes de caractères, des alternatives dans les régles peuvent 
+être spécifiées lorsqu'on effectue le parsing de bloc :
+
+	rule: [some [
+	    'when set time time! |
+	    'where set place string! |
+	    'who set persons [word! | block!]
+	]]
+
+Ces régles permettent de rentrer des informations dans n'importe quel ordre :
+
+	parse [
+	    who Fred
+	    where "Downtown Center"
+	    when 9:30
+	] rule
+	print [time place persons]
+
+Cet exemple pourrait employer une affectation classique de variable, mais 
+il illustre comment rendre possible un ordonnancement variable dans le bloc en input.
+
+
+Ici, un autre exemple qui évalue le résultat du parsing :
+
+	rule: [
+	    set count integer!
+	    set str string!
+	    (loop count [print str])
+	]
+	parse [3 "great job"] rule
+	parse [3 "hut" 1 "hike"] [some rule]
+
+Et finalement, un exemple un peu plus sophistiqué :
+
+	rule: [
+	    set action ['buy | 'sell]
+	    set number integer!
+	    'shares 'at
+	    set price money!
+	    (either action = 'sell [
+	            print ["income" price * number]
+	            total: total + (price * number)
+	        ][
+	            print ["cost" price * number]
+	            total: total - (price * number)
+	        ]
+	    )
+	]
+	
+	total: 0
+	parse [sell 100 shares at $123.45] rule
+	print ["total:" total]
+	
+	total: 0
+	parse [
+	    sell 300 shares at $89.08
+	    buy  100 shares at $120.45
+	    sell 400 shares at $270.89
+	] [some rule]
+	print ["total:" total]
+
+
+--- Parsing de sous-blocs
+
+Lors du parsing d'un bloc, si un sous-bloc est trouvé, il est habituellement traité comme une uniqe valeur  
+de type block!. <br />
+Pour parser un sous-bloc, vous devez invoquer le parseur de façon récursive sur celui-ci.
+
+Le mot <b>into</b> autorise cette capacité de récursivité.<br />
+Cela suppose au sein du bloc en input que la valeur suivante à parser soit un sous-bloc .
+C'est comme si le type de données block! était fourni. Si cette valeur suivante à parser n'est 
+pas un bloc, le parsing échoue et <b>into</b> cherche des alternatives ou quitte l'analyse par la régle.<br />
+
+Si la valeur à manipuler est bien un bloc, la régle fournie au parseur qui suit immédiatement le mot <b>into</b> 
+est utilisée pour commencer le parsing du sous-bloc.
+
+Cette régle est traitée comme une régle secondaire.
+
+	rule: [date! into [string! time!]]
+	data: [10-Jan-2000 ["Ukiah" 10:30]]
+	print parse data rule
+
+Toutes les opérations usuelles du parseur peuvent être appliquées à 'into.
+
+	rule: [
+	    set date date!
+	    set info into [string! time!]]
+	]
+	data: [10-Jan-2000 ["Ukiah" 10:30]]
+	print parse data rule
+	
+	print info
+	
+	rule: [date! copy items 2 into [string! time!]]
+	data: [10-Jan-2000 ["Ukiah" 10:30] ["Rome" 2:45]]
+	print parse data rule
+	
+	probe items
+
+
+=== Résumé des possibilités de Parsing
+
+
+--- Formes Générales
+
+\table
+        
+Opérateur
+
+Description
+
+=row
+
+|
+
+alternative dans une régle
+
+=row
+
+[block]
+
+sous-régle
+
+=row
+
+(paren)
+
+évalue une expression REBOL 
+
+/table
+
+--- Quantificateurs
+
+
+\table
+        
+Opérateur
+
+Description
+
+=row
+
+none
+
+aucune correspondance
+
+=row
+
+opt
+
+zero ou une fois
+
+=row
+
+some
+
+une ou plusieurs fois
+
+=row
+
+any
+
+zero ou plusieurs fois
+
+=row
+
+12
+
+répéte le modéle 12 fois
+
+=row
+
+1 12
+
+répéte le modéle 1 à 12 fois
+
+=row
+
+0 12
+
+répéte le modéle 0 à 12 fois
+
+/table
+
+
+
+--- Saut de valeurs
+
+
+\table
+
+Opérateur
+
+Description
+
+=row
+
+skip
+
+saute un caractère  (ou plusieurs si <b>repeat</b>  est utilisée avec <b>skip</b>)
+
+=row
+
+to
+
+avance dans la chaîne en input (le flux) à une valeur ou un type de donnée (datatype)
+
+=row
+
+thru
+
+avance dans la chaîne en input jusqu'à une valeur ou un type de donnée (datatype)
+
+/table
+
+
+
+--- Récupérer des valeurs
+
+\table
+        
+Opérateur
+
+Description
+
+=row
+
+set
+
+attribue la valeur suivante à une variable<br />
+(set time time!)
+
+=row
+
+copy
+
+copie la correspondance suivante dans une variable  
+
+/table
+
+
+
+--- Utiliser des Mots
+
+
+\table
+        
+Opérateur
+
+Description
+
+=row
+
+word
+
+valeur d'un mot 
+
+=row
+
+word:
+
+marque la position actuelle dans la série en input
+
+=row
+
+&#166;word
+
+Définit la position courante de la série en input 
+
+=row
+
+'word
+
+Correspondance littérale avec le mot  (parsing d'un bloc)
+
+/table
+
+
+
+--- Correspondance de valeurs (Parsing de bloc uniquement)
+
+
+\table
+        
+Opérateur
+
+Description
+
+=row
+
+"fred"
+
+Correspondance avec la chaîne  "fred"
+
+=row
+
+%data
+
+Correspondance avce le nom du fichier  %data
+
+=row
+
+10:30
+
+Correspondance avec l'heure  10:30
+
+=row
+
+1.2.3
+
+Correspondance avec le tuple 1.2.3
+
+/table 
+
+
+
+--- Mots et types de Données (Datatypes)
+
+
+\table
+
+Mot
+
+Description
+
+=row
+
+type!
+
+correspondance avec n'importe quel datatype comme celui fourni (type) 
+
+/table
+
+
+
+
+
+<center>Updated 17-Mar-2005 - Copyright REBOL Technologies - Formatted with MakeDoc2
+<br />
+Traduit par Philippe Le Goff</center>
+

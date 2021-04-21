@@ -1,0 +1,295 @@
+%PDF-1.3
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 4 0 R>>
+endobj
+4 0 obj
+<</Length 1443>>
+stream
+2 J
+0.57 w
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (Les erreurs désarmées, la fonction "cause") Tj ET Q
+0.57 w
+BT /F2 26.00 Tf ET
+q 0.502 g BT 118.24 656.92 Td (The REBOL Documentation) Tj ET Q
+q 0.502 g BT 243.04 631.41 Td (Project) Tj ET Q
+BT /F1 8.00 Tf ET
+q 0.502 g BT 224.74 616.97 Td (-- FR - Documentation REBOL - Divers --) Tj ET Q
+0.85 w
+BT /F2 20.00 Tf ET
+q 0.502 g BT 73.70 423.45 Td (Divers) Tj ET Q
+BT /F3 22.00 Tf ET
+297.64 436.54 m 297.64 413.86 l S q 0.000 g BT 300.47 418.60 Td (Les erreurs désarmées,) Tj ET Q
+297.64 413.86 m 297.64 391.18 l S q 0.000 g BT 300.47 395.92 Td (la fonction "cause") Tj ET Q
+297.64 391.18 m 297.64 368.50 l S 
+BT /F4 16.00 Tf ET
+297.64 368.50 m 297.64 351.50 l S q 0.000 g BT 409.15 355.20 Td (Philippe Le Goff ) Tj ET Q
+BT /F4 12.00 Tf ET
+297.64 351.50 m 297.64 334.49 l S q 0.000 g BT 308.59 339.39 Td (Première publication : 4 mai 2006, et mis en) Tj ET Q
+297.64 334.49 m 297.64 317.48 l S q 0.000 g BT 398.91 322.38 Td (ligne le  jeudi 4 mai 2006) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 73.70 253.54 Td (Résumé :) Tj ET 73.70 252.54 45.01 -0.50 re f Q
+BT /F4 8.00 Tf ET
+q 0.000 g BT 73.70 239.96 Td (La traduction du blog 7 de Rebol 3.0, sur la fonction cause) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 1/3) Tj ET Q
+
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 6 0 R>>
+endobj
+6 0 obj
+<</Length 6026>>
+stream
+2 J
+0.85 w
+BT /F4 8.00 Tf ET
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (Les erreurs désarmées, la fonction "cause") Tj ET Q
+BT /F4 8.00 Tf ET
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 780.78 Td ( ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 76.48 780.78 Td (Carl Sassenrath, CTO REBOL Technologies 9-Apr-2006 19:13 GMT Article #0007) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 766.61 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 752.43 Td (En REBOL 3.0, les valeurs d'erreur sont désarmées \(disarmed\) par défaut.) Tj ET Q
+q 0.000 g BT 73.70 738.26 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 724.09 Td (Les versions précédentes de REBOL utilisaient les erreurs "à chaud".  Cependant, vous deviez) Tj ET Q
+q 0.000 g BT 73.70 709.91 Td (traiter ces valeurs d'erreur de façon spécifique, ou elles déclenchaient  automatiquement la gestion) Tj ET Q
+q 0.000 g BT 73.70 695.74 Td (d'erreur.  Ce comportement avait été implémenté à l'origine pour éviter que les erreurs se propagent) Tj ET Q
+q 0.000 g BT 73.70 681.57 Td (trop loin de  leurs origines \(le principe était de préserver autant que possible la localisation d'une) Tj ET Q
+q 0.000 g BT 73.70 667.39 Td (erreur\).) Tj ET Q
+q 0.000 g BT 73.70 653.22 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 639.05 Td (Ces erreurs "à chaud" finissaient par être réduites à néant, et l'intérêt de pouvoir localiser une erreur ) Tj ET Q
+q 0.000 g BT 73.70 624.87 Td (était compensé par la difficulté de gérer les valeurs d'erreur en général. \(Voir les articles de  Ladislav) Tj ET Q
+q 0.000 g BT 73.70 610.70 Td (Mecir qui a écrit d'excellentes notes sur ce sujet\). C'était très souvent vraiment épineux.) Tj ET Q
+q 0.000 g BT 73.70 596.53 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 582.35 Td (Avec ceci à l'esprit, sachez que REBOL 3.0 supprimera les erreurs à chaud.) Tj ET Q
+q 0.000 g BT 73.70 568.18 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 554.01 Td (Les valeurs d'erreurs \(objets\) sont désarmées par défaut, et peuvent être traitées de la même) Tj ET Q
+q 0.000 g BT 73.70 539.83 Td (manière que  tous les autres objets. Les fonctions comme ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 332.15 539.83 Td (try) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 344.93 539.83 Td ( peuvent être utilisées pour  capturer) Tj ET Q
+q 0.000 g BT 73.70 525.66 Td (les erreurs et les traiter comme des valeurs normales.) Tj ET Q
+q 0.000 g BT 73.70 511.49 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 497.32 Td (Dans les cas où il est nécessaire de ré-armer une erreur, et de forcer son retour dans l'état "à) Tj ET Q
+q 0.000 g BT 73.70 483.14 Td (chaud",  la fonction ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 161.19 483.14 Td (cause) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 189.54 483.14 Td ( a été ajoutée. Vous "provoquez" la reconsidération de l'erreur pour être) Tj ET Q
+q 0.000 g BT 73.70 468.97 Td (traitée. \(voir la description de Ladislav sur "fire".\)) Tj ET Q
+q 0.000 g BT 73.70 454.80 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 440.62 Td (Voici un simple exemple de manipulation d'une erreur spécifique :) Tj ET Q
+q 0.000 g BT 73.70 426.45 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.70 412.88 Td (         result: try [... do something ...]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 398.70 Td (         if all [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 384.53 Td (                 error? result) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 370.36 Td (                 result/id = 'zero-divide) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 356.18 Td (         ] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 342.01 Td (                 cause result) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 327.84 Td (         ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 313.06 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 298.89 Td (L'exemple évalue un bloc et capture toutes les erreurs. Le résultat \(erreur ou non\) est stocké dans  le) Tj ET Q
+q 0.000 g BT 73.70 284.72 Td (mot ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 93.15 284.72 Td (result) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 117.60 284.72 Td (. Le code vérifie si l'erreur est celle d'une division par zéro \(zero-divide\), et si oui, renvoie ) Tj ET Q
+q 0.000 g BT 73.70 270.54 Td (l'erreur à un niveau de traitement supérieur \(non montré\). Remarquez que ) Tj ET Q
+q 0.000 g BT 404.08 270.54 Td (disarm) Tj ET Q
+q 0.000 g BT 434.08 270.54 Td ( n'est pas utilisée.) Tj ET Q
+q 0.000 g BT 73.70 256.37 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 242.20 Td (Pour la compatibilité avec REBOL 2.0, la fonction ) Tj ET Q
+q 0.000 g BT 294.91 242.20 Td (disarm) Tj ET Q
+q 0.000 g BT 324.91 242.20 Td ( sera encore fournie, mais elle ne fait plus) Tj ET Q
+q 0.000 g BT 73.70 228.02 Td (grand chose. \(renvoie l'objet error comme un object ! plutôt que comme une error !, c'est tout.\)) Tj ET Q
+q 0.000 g BT 73.70 213.85 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 73.70 199.68 Td (Notes pour les experts :) Tj ET Q
+q 0.000 g BT 73.70 185.50 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 171.33 Td (En interne, la fonction ) Tj ET Q
+q 0.000 g BT 181.50 171.33 Td (cause) Tj ET Q
+q 0.000 g BT 209.85 171.33 Td ( provoque un "stack throw" \(un long saut en C\) qui est très) Tj ET Q
+q 0.000 g BT 73.70 157.16 Td (rapide, mais  des parties importantes du contexte d'exécution sont perdues dans ce) Tj ET Q
+q 0.000 g BT 73.70 142.98 Td (processus.) Tj ET Q
+q 0.000 g BT 73.70 128.81 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 114.64 Td (Par comparaison, les fonctions REBOL ) Tj ET Q
+q 0.000 g BT 262.64 114.64 Td (break) Tj ET Q
+q 0.000 g BT 289.32 114.64 Td (, ) Tj ET Q
+q 0.000 g BT 294.88 114.64 Td (return) Tj ET Q
+q 0.000 g BT 323.77 114.64 Td (, et ) Tj ET Q
+q 0.000 g BT 341.00 114.64 Td (throw) Tj ET Q
+q 0.000 g BT 368.22 114.64 Td ( libèrent la pile d'une manière) Tj ET Q
+q 0.000 g BT 73.70 100.46 Td (ordonnée, ce qui permet de rendre possible des options de déboguage durant le processus. ) Tj ET Q
+BT /F1 10.00 Tf ET
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 2/3) Tj ET Q
+
+endstream
+endobj
+7 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 8 0 R>>
+endobj
+8 0 obj
+<</Length 614>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 73.70 819.05 Td (Les erreurs désarmées, la fonction "cause") Tj ET Q
+q 0.000 g BT 73.70 794.95 Td ( ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 73.70 780.78 Td (Plus d'informations sur la gestion des erreurs,bientôt.) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 766.61 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 752.43 Td (\(Traduction : Philippe Le Goff\)) Tj ET Q
+BT /F6 8.00 Tf ET
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 3/3) Tj ET Q
+
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R 7 0 R ]
+/Count 3
+/MediaBox [0 0 595.28 841.89]
+>>
+endobj
+9 0 obj
+<</Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+10 0 obj
+<</Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+11 0 obj
+<</Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+12 0 obj
+<</Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+13 0 obj
+<</Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+14 0 obj
+<</Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 9 0 R
+/F2 10 0 R
+/F3 11 0 R
+/F4 12 0 R
+/F5 13 0 R
+/F6 14 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+15 0 obj
+<<
+/Producer (FPDF 1.53)
+/Title (Les erreurs désarmées, la fonction "cause")
+/Subject (Divers)
+/Author (Philippe Le Goff )
+/Keywords (DOCUMENTATION)
+/Creator (The REBOL Documentation Project)
+/CreationDate (D:20060520224219)
+>>
+endobj
+16 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 17
+0000000000 65535 f 
+0000008880 00000 n 
+0000009574 00000 n 
+0000000009 00000 n 
+0000000222 00000 n 
+0000001715 00000 n 
+0000001928 00000 n 
+0000008004 00000 n 
+0000008217 00000 n 
+0000008979 00000 n 
+0000009075 00000 n 
+0000009170 00000 n 
+0000009268 00000 n 
+0000009367 00000 n 
+0000009469 00000 n 
+0000009733 00000 n 
+0000009977 00000 n 
+trailer
+<<
+/Size 17
+/Root 16 0 R
+/Info 15 0 R
+>>
+startxref
+10081
+%%EOF

@@ -1,0 +1,287 @@
+%PDF-1.3
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 4 0 R>>
+endobj
+4 0 obj
+<</Length 1463>>
+stream
+2 J
+0.57 w
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (Des fonctions "fragiles") Tj ET Q
+0.57 w
+BT /F2 26.00 Tf ET
+q 0.502 g BT 118.24 656.92 Td (The REBOL Documentation) Tj ET Q
+q 0.502 g BT 243.04 631.41 Td (Project) Tj ET Q
+BT /F1 8.00 Tf ET
+q 0.502 g BT 224.74 616.97 Td (-- FR - Documentation REBOL - Divers --) Tj ET Q
+0.85 w
+BT /F2 20.00 Tf ET
+q 0.502 g BT 73.70 423.45 Td (Divers) Tj ET Q
+BT /F3 22.00 Tf ET
+297.64 436.54 m 297.64 413.86 l S q 0.000 g BT 300.47 418.60 Td (Des fonctions) Tj ET Q
+297.64 413.86 m 297.64 391.18 l S q 0.000 g BT 300.47 395.92 Td ("fragiles") Tj ET Q
+297.64 391.18 m 297.64 368.50 l S 
+BT /F4 16.00 Tf ET
+297.64 368.50 m 297.64 351.50 l S q 0.000 g BT 409.15 355.20 Td (Philippe Le Goff ) Tj ET Q
+BT /F4 12.00 Tf ET
+297.64 351.50 m 297.64 334.49 l S q 0.000 g BT 307.92 339.39 Td (Première publication : 8 juin 2006, et mis en) Tj ET Q
+297.64 334.49 m 297.64 317.48 l S q 0.000 g BT 398.24 322.38 Td (ligne le  jeudi 8 juin 2006) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 73.70 253.54 Td (Résumé :) Tj ET 73.70 252.54 45.01 -0.50 re f Q
+BT /F4 8.00 Tf ET
+q 0.000 g BT 73.70 239.96 Td (Traduction de l'article 25 du blog REBOl 3.0 sur les modules et les risques liés au fonctionnement des fonctions.) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 1/3) Tj ET Q
+
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 6 0 R>>
+endobj
+6 0 obj
+<</Length 5195>>
+stream
+2 J
+0.85 w
+BT /F4 8.00 Tf ET
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (Des fonctions "fragiles") Tj ET Q
+BT /F4 8.00 Tf ET
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 780.78 Td ( ) Tj ET Q
+q 0.000 g BT 76.48 780.78 Td (Des fonctions "fragiles") Tj ET Q
+q 0.000 g BT 73.70 766.61 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 752.43 Td (NdT. Il aurait fallu traduire : des fonctions "percées" ou "trouées". Je n'aimais pas trop. J'ai préféré) Tj ET Q
+q 0.000 g BT 73.70 738.26 Td (utiliser le terme "fragiles" qui rend mieux l'esprit du post.) Tj ET Q
+q 0.000 g BT 73.70 724.09 Td ( ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 73.70 709.91 Td (Carl Sassenrath, CTO REBOL Technologies  8-May-2006 23:46 GMT  Article #0025) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 695.74 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 681.57 Td (Par défaut, toutes les fonctions définies par un utilisateur renvoient la dernière valeur évaluée.  Par) Tj ET Q
+q 0.000 g BT 73.70 667.39 Td (exemple, vous pouvez écrire :) Tj ET Q
+q 0.000 g BT 73.70 653.22 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 639.05 Td ( 	add3 : func [a b c] [a + b + c] ) Tj ET Q
+q 0.000 g BT 73.70 624.87 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 610.70 Td (C'est un raccourci pour :) Tj ET Q
+q 0.000 g BT 73.70 596.53 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 582.35 Td ( 	add3 : func [a b c] [return a + b + c] ) Tj ET Q
+q 0.000 g BT 73.70 568.18 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 554.01 Td (\(Et ne pas utiliser ) Tj ET Q
+q 0.000 g BT 153.73 554.01 Td (return) Tj ET Q
+q 0.000 g BT 179.85 554.01 Td (, c'est aussi plus rapide\)) Tj ET Q
+q 0.000 g BT 73.70 539.83 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 525.66 Td (Cependant, REBOL 3.0 va ajouter des modules, et les modules auront la possibilité de masquer) Tj ET Q
+q 0.000 g BT 73.70 511.49 Td (leurs mots et leurs données internes. Ceci est fait pour des raisons de sécurité, mais aussi pour) Tj ET Q
+q 0.000 g BT 73.70 497.32 Td (permettre d'améliorer la capacité d'abstraction lors de la programmation. Par exemple, vous pourrez) Tj ET Q
+q 0.000 g BT 73.70 483.14 Td (utiliser un module qui traitent les mots de passe \(que vous ne voulez pas montrer ou voir atteindre\).) Tj ET Q
+q 0.000 g BT 73.70 468.97 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 454.80 Td (Le problème est que si un programmeur ne fait pas attention, le fonctionnement standard de ) Tj ET Q
+q 0.000 g BT 484.47 454.80 Td (return) Tj ET Q
+q 0.000 g BT 73.70 440.62 Td (ci-dessus pourra créer des fonctions "fragiles", qui peuvent accidentellement renvoyer des données) Tj ET Q
+q 0.000 g BT 73.70 426.45 Td (internes importantes.) Tj ET Q
+q 0.000 g BT 73.70 412.28 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 398.10 Td (Voici une simple illustration dans le cas d'un module :) Tj ET Q
+q 0.000 g BT 73.70 383.93 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 369.76 Td ( 	passwords : [] ; une liste privée de passwords) Tj ET Q
+q 0.000 g BT 73.70 355.58 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 341.41 Td (	add-password : func [new-pass] [ 		append passwords new-pass 	] ) Tj ET Q
+q 0.000 g BT 73.70 327.24 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 313.06 Td (La fonction ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 125.40 313.06 Td (add-passwords) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 193.20 313.06 Td ( est exportée, et la liste ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 298.81 313.06 Td (passwords) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 346.60 313.06 Td ( ne l'est pas. Par malheur, le) Tj ET Q
+q 0.000 g BT 73.70 298.89 Td (programmeur n'a pas fait attention, et la fonction ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 290.72 298.89 Td (add-passwords) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 358.52 298.89 Td ( se termine en retournant la liste) Tj ET Q
+q 0.000 g BT 73.70 284.72 Td (entière de mots de passe comme résultat ! Pas super.) Tj ET Q
+q 0.000 g BT 73.70 270.54 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 256.37 Td (Une solution simple consisterait en :) Tj ET Q
+q 0.000 g BT 73.70 242.20 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 228.02 Td ( 	add-password : func [new-pass] [ 	 append passwords new-pass 	 none ; ou, vous pouvez utiliser) Tj ET Q
+q 0.000 g BT 73.70 213.85 Td ("exit" aussi 	] ) Tj ET Q
+q 0.000 g BT 73.70 199.68 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 185.50 Td (mais, certains programmeurs devront se souvenir \(ou savoir\) qu'il faut faire ainsi.) Tj ET Q
+q 0.000 g BT 73.70 171.33 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 157.16 Td (Donc, nous nous demandons : quelle est la bonne solution à ce probléme ?  Devons-nous renforcer) Tj ET Q
+q 0.000 g BT 73.70 142.98 Td (le modèle pour un fonctionnement spécifique \(ex. les blocs des fonctions devraient  toujours utiliser ) Tj ET Q
+q 0.000 g BT 73.70 128.81 Td (return) Tj ET Q
+q 0.000 g BT 99.82 128.81 Td ( ou ) Tj ET Q
+q 0.000 g BT 116.50 128.81 Td (exit) Tj ET Q
+q 0.000 g BT 132.06 128.81 Td (\) ou devons-nous développer une sorte d'attribut optionnel \(peut-être  à l'intérieur de la) Tj ET Q
+q 0.000 g BT 73.70 114.64 Td (spécification du module\) pour essayer d'éviter cette situation ?) Tj ET Q
+q 0.000 g BT 73.70 100.46 Td ( ) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 2/3) Tj ET Q
+
+endstream
+endobj
+7 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 8 0 R>>
+endobj
+8 0 obj
+<</Length 974>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 73.70 819.05 Td (Des fonctions "fragiles") Tj ET Q
+q 0.000 g BT 73.70 794.95 Td (Bien sûr, nous ne pouvons changer le fonctionnement par défaut de ) Tj ET Q
+q 0.000 g BT 377.21 794.95 Td (return) Tj ET Q
+q 0.000 g BT 403.33 794.95 Td ( \(comme montré dans le) Tj ET Q
+q 0.000 g BT 73.70 780.78 Td (premier exemple\), car cela impacterait trop de code. Mais, je pense que nous avons d'autres options,) Tj ET Q
+q 0.000 g BT 73.70 766.61 Td (et je suis certain que certaines n'ont pas été envisagées  pour l'instant. Faites-moi entendre vos) Tj ET Q
+q 0.000 g BT 73.70 752.43 Td (idées là-dessus.) Tj ET Q
+q 0.000 g BT 73.70 738.26 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 724.09 Td (\(Traduction : Philippe Le Goff\)) Tj ET Q
+BT /F6 8.00 Tf ET
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 3/3) Tj ET Q
+
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R 7 0 R ]
+/Count 3
+/MediaBox [0 0 595.28 841.89]
+>>
+endobj
+9 0 obj
+<</Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+10 0 obj
+<</Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+11 0 obj
+<</Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+12 0 obj
+<</Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+13 0 obj
+<</Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+14 0 obj
+<</Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 9 0 R
+/F2 10 0 R
+/F3 11 0 R
+/F4 12 0 R
+/F5 13 0 R
+/F6 14 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+15 0 obj
+<<
+/Producer (FPDF 1.53)
+/Title (Des fonctions "fragiles")
+/Subject (Divers)
+/Author (Philippe Le Goff )
+/Keywords (DOCUMENTATION)
+/Creator (The REBOL Documentation Project)
+/CreationDate (D:20060622120046)
+>>
+endobj
+16 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 17
+0000000000 65535 f 
+0000008429 00000 n 
+0000009123 00000 n 
+0000000009 00000 n 
+0000000222 00000 n 
+0000001735 00000 n 
+0000001948 00000 n 
+0000007193 00000 n 
+0000007406 00000 n 
+0000008528 00000 n 
+0000008624 00000 n 
+0000008719 00000 n 
+0000008817 00000 n 
+0000008916 00000 n 
+0000009018 00000 n 
+0000009282 00000 n 
+0000009508 00000 n 
+trailer
+<<
+/Size 17
+/Root 16 0 R
+/Info 15 0 R
+>>
+startxref
+9612
+%%EOF

@@ -1,0 +1,2402 @@
+%PDF-1.3
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 4 0 R>>
+endobj
+4 0 obj
+<</Length 1599>>
+stream
+2 J
+0.57 w
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (Manuel de l'utilisateur - Chapitre 2 - Les Opérations) Tj ET Q
+0.57 w
+BT /F2 26.00 Tf ET
+q 0.502 g BT 118.24 656.92 Td (The REBOL Documentation) Tj ET Q
+q 0.502 g BT 243.04 631.41 Td (Project) Tj ET Q
+BT /F1 8.00 Tf ET
+q 0.502 g BT 220.96 616.97 Td (-- FR - Documentation REBOL - Manuels --) Tj ET Q
+0.85 w
+BT /F2 20.00 Tf ET
+q 0.502 g BT 73.70 423.45 Td (Manuels) Tj ET Q
+BT /F3 22.00 Tf ET
+297.64 436.54 m 297.64 413.86 l S q 0.000 g BT 300.47 418.60 Td (Manuel de l'utilisateur) Tj ET Q
+297.64 413.86 m 297.64 391.18 l S q 0.000 g BT 300.47 395.92 Td (- Chapitre 2 - Les) Tj ET Q
+297.64 391.18 m 297.64 368.50 l S q 0.000 g BT 300.47 373.24 Td (Opérations) Tj ET Q
+297.64 368.50 m 297.64 345.83 l S 
+BT /F4 16.00 Tf ET
+297.64 345.83 m 297.64 328.82 l S q 0.000 g BT 409.15 332.52 Td (Philippe Le Goff ) Tj ET Q
+BT /F4 12.00 Tf ET
+297.64 328.82 m 297.64 311.81 l S q 0.000 g BT 307.92 316.72 Td (Première publication : 5 juin 2005, et mis en) Tj ET Q
+297.64 311.81 m 297.64 294.80 l S q 0.000 g BT 375.59 299.71 Td (ligne le  dimanche 5 juin 2005) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 73.70 253.54 Td (Résumé :) Tj ET 73.70 252.54 45.01 -0.50 re f Q
+BT /F4 8.00 Tf ET
+q 0.000 g BT 73.70 239.96 Td (Ce document est la traduction française du Chapitre 2 du User Guide de REBOL/Core, qui concerne les Opérations.) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 1/22) Tj ET Q
+
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 6 0 R>>
+endobj
+6 0 obj
+<</Length 5819>>
+stream
+2 J
+0.85 w
+BT /F4 8.00 Tf ET
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (Manuel de l'utilisateur - Chapitre 2 - Les Opérations) Tj ET Q
+BT /F4 8.00 Tf ET
+BT /F5 10.00 Tf ET
+q 0.000 g BT 73.70 780.78 Td ( Ce document est la traduction française du Chapitre 2 du User Guide de REBOL/Core, qui) Tj ET Q
+q 0.000 g BT 73.70 766.61 Td (concerne les Opérations.) Tj ET Q
+q 0.000 g BT 73.70 752.43 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 738.26 Td (Traducteur : Philippe Le Goff) Tj ET Q
+BT /F1 10.00 Tf ET
+BT /F5 14.00 Tf ET
+q 0.000 g BT 73.70 646.35 Td (Historique de la Traduction) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 633.38 Td ( ) Tj ET Q
+q 0.000 g BT 76.48 633.38 Td ( ) Tj ET Q
+q 0.000 g BT 79.26 633.38 Td ( 					) Tj ET Q
+q 0.000 g BT 95.94 633.38 Td ( ) Tj ET Q
+q 0.000 g BT 98.72 633.38 Td ( ) Tj ET Q
+q 0.000 g BT 101.50 633.38 Td ( ) Tj ET Q
+q 0.000 g BT 104.28 633.38 Td ( ) Tj ET Q
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+1.000 1.000 0.000 rg
+72.04 643.46 83.05 -14.17 re B q 0.000 g BT 74.87 633.68 Td ( Date ) Tj ET Q
+BT /F1 9.00 Tf ET
+1.000 g
+BT /F5 9.00 Tf ET
+1.000 1.000 0.000 rg
+155.09 643.46 44.02 -14.17 re B q 0.000 g BT 157.92 633.68 Td (Version ) Tj ET Q
+BT /F1 9.00 Tf ET
+1.000 g
+BT /F5 9.00 Tf ET
+1.000 1.000 0.000 rg
+199.10 643.46 81.53 -14.17 re B q 0.000 g BT 201.94 633.68 Td (Commentaires ) Tj ET Q
+BT /F1 9.00 Tf ET
+1.000 g
+BT /F5 9.00 Tf ET
+1.000 1.000 0.000 rg
+280.63 643.46 75.04 -14.17 re B q 0.000 g BT 283.47 633.68 Td (Auteur ) Tj ET Q
+BT /F1 9.00 Tf ET
+1.000 g
+BT /F5 9.00 Tf ET
+1.000 1.000 0.000 rg
+355.67 643.46 167.57 -14.17 re B q 0.000 g BT 358.51 633.68 Td (Email ) Tj ET Q
+BT /F1 9.00 Tf ET
+1.000 g
+0.902 0.902 0.902 rg
+72.04 629.29 83.05 -14.17 re B q 0.000 g BT 74.87 619.50 Td ( 3 mai 2005 17:46 ) Tj ET Q
+155.09 629.29 44.02 -14.17 re B q 0.000 g BT 157.92 619.50 Td (1.0.0 ) Tj ET Q
+199.10 629.29 81.53 -14.17 re B q 0.000 g BT 201.94 619.50 Td (Traduction initiale ) Tj ET Q
+280.63 629.29 75.04 -14.17 re B q 0.000 g BT 283.47 619.50 Td (Philippe Le Goff ) Tj ET Q
+355.67 629.29 167.57 -14.17 re B q 0.000 g BT 358.51 619.50 Td (lp&mdash;legoff&mdash;free&mdash;fr ) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 605.03 Td ( ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 561.31 Td (Installation de REBOL) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 548.34 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 534.17 Td (L'installation de REBOL prend seulement quelques secondes et est très facile,  non intrusive, et non) Tj ET Q
+q 0.000 g BT 70.87 519.99 Td (perturbante !) Tj ET Q
+q 0.000 g BT 70.87 505.82 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 491.65 Td (Pour REBOL/Core, la seule procédure d'installation consiste à décompresser les fichiers  de la) Tj ET Q
+q 0.000 g BT 70.87 477.47 Td (distribution, et à les placer dans n'importe quel répertoire sur votre ordinateur.) Tj ET Q
+q 0.000 g BT 70.87 463.30 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 449.13 Td (Pour d'autres produits REBOL, l'installation peut nécessiter de fournir  des informations) Tj ET Q
+q 0.000 g BT 70.87 434.95 Td (complémentaires, comme l'endroit où mettre les fichiers.) Tj ET Q
+q 0.000 g BT 70.87 420.78 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 406.61 Td (Voir les notes spécifiques à la version choisie.) Tj ET Q
+q 0.000 g BT 70.87 392.43 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 378.26 Td (Les fichiers de la distribution) Tj ET Q
+q 0.000 g BT 70.87 364.09 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 349.91 Td (REBOL/Core comprend dans sa distribution de base les fichiers :) Tj ET Q
+q 0.000 g BT 70.87 335.74 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 321.57 Td (rebol \(.exe\)) Tj ET Q
+q 0.000 g BT 121.44 321.57 Td ( : ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 129.78 321.57 Td (un programme exécutable qui démarre la console REBOL.) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 307.39 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 293.22 Td (rebol.r) Tj ET Q
+q 0.000 g BT 99.21 293.22 Td ( : ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 107.55 293.22 Td (un fichier exécuté au lancement de REBOL \(mais non nécessaire à son fonctionnement\)) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 279.05 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 264.87 Td (setup.html) Tj ET Q
+q 0.000 g BT 117.00 264.87 Td ( : ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 125.34 264.87 Td (des informations concernant l'installation et la mise en place.) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 250.70 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 236.53 Td (changes.html) Tj ET Q
+q 0.000 g BT 130.34 236.53 Td ( : ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 138.68 236.53 Td (les modifications relatives aux versions récentes.) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 222.35 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 208.18 Td (license.txt) Tj ET Q
+q 0.000 g BT 115.33 208.18 Td ( : ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 123.67 208.18 Td (la license REBOL.) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 194.01 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 179.83 Td (D'autres fichiers peuvent être fournis, selon le type de produit  et la version de REBOL.) Tj ET Q
+q 0.000 g BT 70.87 165.66 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 151.49 Td (Variable d'environnement : HOME) Tj ET Q
+q 0.000 g BT 70.87 137.32 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 123.14 Td (Bien que cela ne soit pas nécessaire, si votre système d'exploitation utilise la  variable) Tj ET Q
+q 0.000 g BT 70.87 108.97 Td (d'environnement HOME, REBOL l'utilisera pour localiser ses fichiers  de démarrage.) Tj ET Q
+q 0.000 g BT 70.87 94.80 Td ( ) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 2/22) Tj ET Q
+
+endstream
+endobj
+7 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 8 0 R>>
+endobj
+8 0 obj
+<</Length 5692>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (Manuel de l'utilisateur - Chapitre 2 - Les Opérations) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td (Pour beaucoup de systèmes d'exploitation comme UNIX, ou Linux, la variable HOME est  positionnée) Tj ET Q
+q 0.000 g BT 70.87 780.78 Td (par défaut \(de sorte que vous n'avez pas à vous en préoccupez\).) Tj ET Q
+q 0.000 g BT 70.87 766.61 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 752.43 Td (Paramétrage du Réseau) Tj ET Q
+q 0.000 g BT 70.87 738.26 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 724.09 Td (La première fois que vous utilisez REBOL, des informations vous sont demandées  concernant le) Tj ET Q
+q 0.000 g BT 70.87 709.91 Td (réseau. Ces informations sont optionnelles. Certains protocoles,  comme le SMTP \(email\) ou le FTP,) Tj ET Q
+q 0.000 g BT 70.87 695.74 Td (nécessitent une adresse email ou un nom de serveur SMTP. De plus, si vous êtes derrière un) Tj ET Q
+q 0.000 g BT 70.87 681.57 Td (pare-feu \(firewall\) ou si vous utilisez un serveur  de proxy, vous aurez à donner des informations) Tj ET Q
+q 0.000 g BT 70.87 667.39 Td (spécifiques pour accèder à Internet.) Tj ET Q
+q 0.000 g BT 70.87 653.22 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 639.05 Td (Pour paramètrer le réseau :) Tj ET Q
+q 0.000 g BT 79.04 610.70 Td (•) Tj ET Q
+q 0.000 g BT 90.71 610.70 Td (Saisir votre adresse email. Par exemple, nom@exemple.com.) Tj ET Q
+q 0.000 g BT 79.04 596.53 Td (•) Tj ET Q
+q 0.000 g BT 90.71 596.53 Td (Saisir le nom de votre serveur SMTP. Par exemple : mail.exemple.com.  Utilisez le nom usuel de) Tj ET Q
+q 0.000 g BT 90.71 582.35 Td (votre serveur SMTP. Si vous n'êtes pas sûr du nom du serveur,  contactez votre administrateur) Tj ET Q
+q 0.000 g BT 90.71 568.18 Td (réseau ou votre fournisseur d'accès à Internet pour  le nom de votre serveur de mail.) Tj ET Q
+q 0.000 g BT 79.04 554.01 Td (•) Tj ET Q
+q 0.000 g BT 90.71 554.01 Td (Indiquez si vous utilisez un serveur de proxy. Si vous êtes directement connecté  à Internet avec) Tj ET Q
+q 0.000 g BT 90.71 539.83 Td (un modem ou Ethernet, saisissez N \(non\). Si vous passez par un  proxy ou un pare-feu \(firewall\),) Tj ET Q
+q 0.000 g BT 90.71 525.66 Td (fournissez les informations demandées dans les  paramétrages de Proxy et du Pare-feu, comme) Tj ET Q
+q 0.000 g BT 90.71 511.49 Td (ci-dessous.) Tj ET Q
+q 0.000 g BT 70.87 483.14 Td (Une fois que vous aurez répondu aux questions posées, REBOL créera un fichier  ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 437.16 483.14 Td (user.r) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 464.95 483.14 Td ( et écrira) Tj ET Q
+q 0.000 g BT 70.87 468.97 Td (dedans les paramétres Réseau. Vous pouvez changer ces  paramétrages à n'importe quel moment en) Tj ET Q
+q 0.000 g BT 70.87 454.80 Td (éditant le fichier ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 143.68 454.80 Td (user.r) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 171.47 454.80 Td (.) Tj ET Q
+q 0.000 g BT 70.87 440.62 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 426.45 Td (Paramétrages du Proxy et d'un Pare-feu) Tj ET Q
+q 0.000 g BT 70.87 412.28 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 398.10 Td (Des serveurs de proxy ou des firewalls sont couramment utilisés par les entreprises  ou les) Tj ET Q
+q 0.000 g BT 70.87 383.93 Td (organisations pour sécuriser les accès depuis et vers Internet. Afin que REBOL puisse accèder à) Tj ET Q
+q 0.000 g BT 70.87 369.76 Td (Internet via ces systèmes, vous devrez fournir  quelques informations :) Tj ET Q
+q 0.000 g BT 70.87 355.58 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 341.41 Td (Quand REBOL demande si vous utilisez un serveur de proxy, répondez Y \(yes\).) Tj ET Q
+q 0.000 g BT 70.87 327.24 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 313.06 Td (Saisissez le nom de votre serveur de proxy \(host\). Il s'agit du serveur ou du pare-feu  sur votre) Tj ET Q
+q 0.000 g BT 70.87 298.89 Td (réseau, qui est utilisé pour cela. Saisissez le numéro du port utilisé par le serveur de proxy pour ses) Tj ET Q
+q 0.000 g BT 70.87 284.72 Td (requêtes. Typiquement, c'est le port 1080, mais cela peut varier.) Tj ET Q
+q 0.000 g BT 70.87 270.54 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 256.37 Td (Si vous ne connaissez pas le numéro du port, regardez les paramètres de votre  navigateur Web, ou) Tj ET Q
+q 0.000 g BT 70.87 242.20 Td (demandez-le à votre administrateur réseau.) Tj ET Q
+q 0.000 g BT 70.87 228.02 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 213.85 Td (REBOL est configuré par défaut pour utiliser le protocole de proxy SOCKS.  Vous pouvez indiquer un) Tj ET Q
+q 0.000 g BT 70.87 199.68 Td (autre type en éditant le fichier ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 204.83 199.68 Td (user.r) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 232.62 199.68 Td ( ou en  fournissant à la fonction ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 374.37 199.68 Td (set-net) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 407.15 199.68 Td ( les informations exactes) Tj ET Q
+q 0.000 g BT 70.87 185.50 Td (sur le type  de proxy utilisé. Les types suivants sont supportés :) Tj ET Q
+q 0.000 g BT 70.87 171.33 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 157.76 Td ( socks   - utilise la dernière version de SOCKS \(5\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 143.58 Td ( socks5  - utilise un proxy socks5 ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 129.41 Td ( socks4  - utilise un proxy socks4) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 115.24 Td ( generic - le proxy générique CERN ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 101.06 Td ( none    - pas de proxy) Tj ET Q
+BT /F1 10.00 Tf ET
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 3/22) Tj ET Q
+
+endstream
+endobj
+9 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 10 0 R>>
+endobj
+10 0 obj
+<</Length 5430>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (Manuel de l'utilisateur - Chapitre 2 - Les Opérations) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 780.78 Td (Ces paramétres sont fournies en tant que sixième argument de la fonction  ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 404.36 780.78 Td (set-net) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 437.14 780.78 Td (, qui est appelée) Tj ET Q
+q 0.000 g BT 70.87 766.61 Td (pour le fichier ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 133.67 766.61 Td (user.r) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 161.46 766.61 Td (.) Tj ET Q
+q 0.000 g BT 70.87 752.43 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 738.26 Td (Pour plus d'information sur la modification des caractéristiques du proxy dans  le fichier ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 459.04 738.26 Td (user.r) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 486.83 738.26 Td (, voir le) Tj ET Q
+q 0.000 g BT 70.87 724.09 Td (chapitre sur les protocoles Réseau.) Tj ET Q
+q 0.000 g BT 70.87 709.91 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 695.74 Td (Contrat de license) Tj ET Q
+q 0.000 g BT 70.87 681.57 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 667.39 Td (Le contrat de license REBOL pour un utilisateur, que vous acceptez en téléchargeant  ou en installant) Tj ET Q
+q 0.000 g BT 70.87 653.22 Td (REBOL, peut être consulté à n'importe quel moment à partir  de la console REBOL, en y saisissant le) Tj ET Q
+q 0.000 g BT 70.87 639.05 Td (mot ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 90.32 639.05 Td (license) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 124.23 639.05 Td (.) Tj ET Q
+q 0.000 g BT 70.87 624.87 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 581.15 Td (Le démarrage de REBOL) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 568.18 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 554.01 Td (REBOL fonctionne sur une large variété de plate-formes. REBOL se démarre comme  d'autres) Tj ET Q
+q 0.000 g BT 70.87 539.83 Td (applications de votre système. Selon les spécificités  de votre système d'exploitation, REBOL peut) Tj ET Q
+q 0.000 g BT 70.87 525.66 Td (être lancé selon l'une ou n'importe  laquelle des possibilités suivantes : une icône, une ligne de) Tj ET Q
+q 0.000 g BT 70.87 511.49 Td (commande , une autre  application.) Tj ET Q
+q 0.000 g BT 70.87 497.32 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 483.14 Td (A partir d'une icône) Tj ET Q
+q 0.000 g BT 70.87 468.97 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 454.80 Td (REBOL peut être lancé en double-cliquant sur l'icône du programme REBOL, ou un fichier  ayant) Tj ET Q
+q 0.000 g BT 70.87 440.62 Td (l'extension ") Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 124.13 440.62 Td (.r) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 130.80 440.62 Td (" ou une icône de raccourci REBOL.) Tj ET Q
+q 0.000 g BT 70.87 426.45 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 412.28 Td (Si vous double-cliquez sur l'icône du programme, REBOL s'initialise, affiche la  console et attend une) Tj ET Q
+q 0.000 g BT 70.87 398.10 Td (saisie en ligne de commande.) Tj ET Q
+q 0.000 g BT 70.87 383.93 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 369.76 Td (Si vous voulez exécuter REBOL via un script, vous pouvez également procéder ainsi :) Tj ET Q
+q 0.000 g BT 79.04 341.41 Td (•) Tj ET Q
+q 0.000 g BT 90.71 341.41 Td (glisser le script sur l'icône du programme) Tj ET Q
+q 0.000 g BT 79.04 327.24 Td (•) Tj ET Q
+q 0.000 g BT 90.71 327.24 Td (ou associer le fichier avec l'exécutable REBOL) Tj ET Q
+q 0.000 g BT 79.04 313.06 Td (•) Tj ET Q
+q 0.000 g BT 90.71 313.06 Td (ou créer un raccourci ou un alias avec les informations concernant l'exécutable  le script.) Tj ET Q
+q 0.000 g BT 70.87 284.72 Td (Voir le manuel de votre système d'exploitation pour plus d'information.) Tj ET Q
+q 0.000 g BT 70.87 270.54 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 256.37 Td (A partir de la ligne de commande) Tj ET Q
+q 0.000 g BT 70.87 242.20 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 228.02 Td (Depuis la ligne de commande \(le shell\), allez dans le répertoire qui contient le  fichier ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 449.35 228.02 Td (rebol.exe) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 493.26 228.02 Td ( \(ou) Tj ET Q
+q 0.000 g BT 70.87 213.85 Td (rebol pour les systèmes autres que Windows\), et saisissez  ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 335.96 213.85 Td (rebol) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 360.41 213.85 Td ( ou ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 377.09 213.85 Td (./rebol) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 407.10 213.85 Td (.) Tj ET Q
+q 0.000 g BT 70.87 199.68 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 185.50 Td (Sur certains systèmes d'exploitation, tels qu'UNIX, vous pouvez créer des alias  de commandes qui) Tj ET Q
+q 0.000 g BT 70.87 171.33 Td (sont susceptibles d'exécuter REBOL avec un jeu d'arguments  et de fichiers. De plus, UNIX vous) Tj ET Q
+q 0.000 g BT 70.87 157.16 Td (permet de créer des scripts shell qui incluent  un chemin comme :) Tj ET Q
+q 0.000 g BT 70.87 142.98 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 129.41 Td ( !#/path/to/rebol) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 114.64 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 100.46 Td (au tout début du fichier. Quand vous tapez le nom d'un fichier à la ligne de  commande, UNIX lancera) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 4/22) Tj ET Q
+
+endstream
+endobj
+11 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 12 0 R>>
+endobj
+12 0 obj
+<</Length 5131>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (Manuel de l'utilisateur - Chapitre 2 - Les Opérations) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td (REBOL pour exécuter le script.) Tj ET Q
+q 0.000 g BT 70.87 780.78 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 766.61 Td (Depuis une autre application) Tj ET Q
+q 0.000 g BT 70.87 752.43 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 738.26 Td (Pour écrire et débugger des scripts REBOL, il est possible de configurer votre  éditeur de texte préféré) Tj ET Q
+q 0.000 g BT 70.87 724.09 Td (pour qu'il exécute REBOL avec votre script courant  passé en argument. Chaque éditeur de texte) Tj ET Q
+q 0.000 g BT 70.87 709.91 Td (procéde différemment.) Tj ET Q
+q 0.000 g BT 70.87 695.74 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 681.57 Td (Par exemple, dans l'éditeur CodeWright de Premia, vous pouvez utiliser les options  de l'interpréteur) Tj ET Q
+q 0.000 g BT 70.87 667.39 Td (du langage pour configurer l'usage de REBOL. De sorte que vous  n'aurez plus qu'à presser une) Tj ET Q
+q 0.000 g BT 70.87 653.22 Td (simple combinaison de touches pour que votre  script en cours soit sauvegardé, puis évalué par) Tj ET Q
+q 0.000 g BT 70.87 639.05 Td (l'interpréteur REBOL.) Tj ET Q
+q 0.000 g BT 70.87 624.87 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 610.70 Td (Problèmes de sécurité) Tj ET Q
+q 0.000 g BT 70.87 596.53 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 582.35 Td (Par défaut, le niveau de sécurité est configuré pour éviter que des scripts  modifient des répertoires ou) Tj ET Q
+q 0.000 g BT 70.87 568.18 Td (des fichiers.) Tj ET Q
+q 0.000 g BT 70.87 554.01 Td ( ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 70.87 539.83 Td (Sécurité des ports) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 525.66 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 511.49 Td (La fonction ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 122.57 511.49 Td (secure) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 154.81 511.49 Td ( autorise une grande flexibilité dans la gestion et le  contrôle des aspects de) Tj ET Q
+q 0.000 g BT 70.87 497.32 Td (REBOL relatifs à la sécurité. La configuration courante  de la sécurité est retournée comme résultat de) Tj ET Q
+q 0.000 g BT 70.87 483.14 Td (la fonction ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 119.23 483.14 Td (secure) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 151.47 483.14 Td (.) Tj ET Q
+q 0.000 g BT 70.87 468.97 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 454.80 Td (Les paramètres de sécurité utilisent un dialecte REBOL, qui est, un langage à  l'intérieur du langage.) Tj ET Q
+q 0.000 g BT 70.87 440.62 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 426.45 Td (Le dialecte normal consiste en un bloc de paires de valeurs.  La première valeur de la paire spécifie) Tj ET Q
+q 0.000 g BT 70.87 412.28 Td (ce qui doit être sécurisé :) Tj ET Q
+q 0.000 g BT 70.87 398.10 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 383.93 Td (file) Tj ET Q
+q 0.000 g BT 83.65 383.93 Td ( : ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 91.99 383.93 Td (concerne la sécurité des fichiers) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 369.76 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 355.58 Td (net) Tj ET Q
+q 0.000 g BT 84.77 355.58 Td ( : ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 93.11 355.58 Td (concerne la sécurité du réseau) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 341.41 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 313.06 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 298.89 Td (NdT) Tj ET 70.87 297.89 19.44 -0.50 re f Q
+q 0.000 g BT 90.31 298.89 Td ( : ) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 284.72 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 270.54 Td (A noter que suivant les versions de REBOL, sont aussi possibles les  mots : ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 409.35 270.54 Td (library) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 439.92 270.54 Td ( \(pour l'accès aux) Tj ET Q
+q 0.000 g BT 70.87 256.37 Td (librairies dynamiques\), ou ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 187.57 256.37 Td (shell) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 210.36 256.37 Td ( \(pour l'accès  au shell du système d'exploitation\). ) Tj ET Q
+q 0.000 g BT 70.87 242.20 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 228.02 Td (Fournir un nom de fichier ou de répertoire vous permet de déterminer des niveaux de  sécurité plus) Tj ET Q
+q 0.000 g BT 70.87 213.85 Td (fins, pour ce fichier spécifique ou ce répertoire.) Tj ET Q
+q 0.000 g BT 70.87 199.68 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 185.50 Td (La seconde valeur de la paire caractérise le niveau de sécurité. Ce peut être soit un mot ou un bloc de) Tj ET Q
+q 0.000 g BT 70.87 171.33 Td (mots pour un niveau de sécurité.) Tj ET Q
+q 0.000 g BT 70.87 157.16 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 142.98 Td (Les mots possibles sont :) Tj ET Q
+q 0.000 g BT 70.87 128.81 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 114.64 Td (allow) Tj ET Q
+q 0.000 g BT 93.65 114.64 Td ( : ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 101.99 114.64 Td (un accès sans aucune restriction) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 100.46 Td ( ) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 5/22) Tj ET Q
+
+endstream
+endobj
+13 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 14 0 R>>
+endobj
+14 0 obj
+<</Length 4948>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (Manuel de l'utilisateur - Chapitre 2 - Les Opérations) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td (ask) Tj ET Q
+q 0.000 g BT 86.43 794.95 Td ( : ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 94.77 794.95 Td (demander la permission en cas de tentative d'accès.) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 780.78 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 766.61 Td (throw) Tj ET Q
+q 0.000 g BT 95.32 766.61 Td ( : ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 103.66 766.61 Td (renvoie une erreur en cas de tentative d'accès.) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 752.43 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 738.26 Td (quit) Tj ET Q
+q 0.000 g BT 86.99 738.26 Td ( : ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 95.33 738.26 Td (fermeture de la session REBOL en cours, en cas de tentative d'accès.) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 724.09 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 709.91 Td (Par exemple, pour autoriser tous les accès réseau, mais fermer la session REBOL  en cas de) Tj ET Q
+q 0.000 g BT 70.87 695.74 Td (tentative d'accès aux fichiers :) Tj ET Q
+q 0.000 g BT 70.87 681.57 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 667.99 Td ( secure [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 653.82 Td (     net allow ; les accès réseaux sont autorisés) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 639.65 Td (     file quit ; cloture de la session REBOL si accès sur des fichiers) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 625.47 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 610.70 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 596.53 Td (Si un bloc est utilisé plutôt qu'un mot pour la sécurité, il doit contenir des paires  type de niveau de) Tj ET Q
+q 0.000 g BT 70.87 582.35 Td (sécurité - type d'accès.) Tj ET Q
+q 0.000 g BT 70.87 568.18 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 554.01 Td (Ceci vous permet de détailler finement la sécurité que vous désirez. Les types possibles  d'accès) Tj ET Q
+q 0.000 g BT 70.87 539.83 Td (sont :) Tj ET Q
+q 0.000 g BT 70.87 525.66 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 511.49 Td (read) Tj ET Q
+q 0.000 g BT 90.88 511.49 Td ( : ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 99.22 511.49 Td (contrôle l'accès en lecture) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 497.32 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 483.14 Td (write) Tj ET Q
+q 0.000 g BT 91.98 483.14 Td ( : ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 100.32 483.14 Td (contrôle de l'accès en écriture, et les modifications \(effacement, changement de nom\)) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 468.97 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 454.80 Td (all) Tj ET Q
+q 0.000 g BT 80.87 454.80 Td ( : ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 89.21 454.80 Td (contrôle complet) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 440.62 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 426.45 Td (Les paires sont analysées dans l'ordre où elles apparaissent, de sorte que les paires  définies à la fin) Tj ET Q
+q 0.000 g BT 70.87 412.28 Td (du bloc peuvent avoir pour effet de modifier la sécurité de celles définies  au début. Il est possible) Tj ET Q
+q 0.000 g BT 70.87 398.10 Td (ainsi de définir un type d'accès sans explicitement définir tous les autres.) Tj ET Q
+q 0.000 g BT 70.87 383.93 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 369.76 Td (Par exemple :) Tj ET Q
+q 0.000 g BT 70.87 355.58 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 342.01 Td ( secure [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 327.84 Td (     net allow) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 313.66 Td (     file [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 299.49 Td (     ask all) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 285.32 Td (     allow read) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 271.14 Td (     ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 256.97 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 242.20 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 228.02 Td (Les définitions précédentes du niveau de sécurité invite à demander l'autorisation  de l'utilisateur pour) Tj ET Q
+q 0.000 g BT 70.87 213.85 Td (toutes les opérations sur les fichiers, sauf pour la lecture,  qui est autorisée. Cette façon de faire peut) Tj ET Q
+q 0.000 g BT 70.87 199.68 Td (aussi être utilisée pour des  fichiers ou des répertoires particuliers. Par exemple :) Tj ET Q
+q 0.000 g BT 70.87 185.50 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 171.93 Td ( secure [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 157.76 Td (     net allow) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 143.58 Td (     file quit) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 129.41 Td (     %source/ [ask read]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 115.24 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 100.46 Td ( ) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 6/22) Tj ET Q
+
+endstream
+endobj
+15 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 16 0 R>>
+endobj
+16 0 obj
+<</Length 6352>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (Manuel de l'utilisateur - Chapitre 2 - Les Opérations) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td (Ici, l'utilisateur est alerté si une tentative d'accès est faite  sur le répertoire ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 399.83 794.95 Td (%source/) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 441.51 794.95 Td (. Sinon, et par) Tj ET Q
+q 0.000 g BT 70.87 780.78 Td (défaut, c'est la fermeture de  la session REBOL \() Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 287.32 780.78 Td (quit) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 305.65 780.78 Td (\).) Tj ET Q
+q 0.000 g BT 70.87 766.61 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 752.43 Td (Il existe un cas particulier pour lequel la fonction ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 286.52 752.43 Td (secure) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 318.76 752.43 Td (  prend un seul mot en argument, ce mot étant) Tj ET Q
+q 0.000 g BT 70.87 738.26 Td (l'une des actions possibles de sécurité.  Dans ce cas, le niveau de sécurité pour ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 427.39 738.26 Td (la partie réseau ) Tj ET Q
+BT /F7 10.00 Tf ET
+q 0.000 g BT 499.09 738.26 Td (et) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 70.87 724.09 Td (l'accès aux fichiers) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 154.47 724.09 Td ( est  globalement affecté par cette action :) Tj ET Q
+q 0.000 g BT 70.87 709.91 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 696.34 Td ( secure quit) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 681.57 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 667.39 Td (La fonction ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 122.57 667.39 Td (secure) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 154.81 667.39 Td ( accepte aussi l'argument ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 270.66 667.39 Td (none) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 294.55 667.39 Td (, ce qui définit un accès sans  aucune restriction) Tj ET Q
+q 0.000 g BT 70.87 653.22 Td (\(identique aux possibilités offertes par ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 241.50 653.22 Td (allow) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 266.51 653.22 Td (\).) Tj ET Q
+q 0.000 g BT 70.87 639.05 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 625.47 Td ( secure none) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 610.70 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 596.53 Td (Le niveau de sécurité est maintenant :) Tj ET Q
+q 0.000 g BT 70.87 582.35 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 568.78 Td ( secure [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 554.61 Td (     net allow) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 540.43 Td (     file [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 526.26 Td (     ask all) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 512.09 Td (     allow read) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 497.92 Td (     ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 483.74 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 468.97 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 454.80 Td (Si aucune restriction de sécurité n'est spécifiée, que ce soit pour le réseau  ou pour l'accès aux) Tj ET Q
+q 0.000 g BT 70.87 440.62 Td (fichiers, le fonctionnement par défaut est : ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 259.30 440.62 Td (ask) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 275.98 440.62 Td (, c'est à dire  interroger l'utilisateur pour savoir que faire.) Tj ET Q
+q 0.000 g BT 70.87 426.45 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 412.28 Td (Le paramétrage courant ne pourra pas être modifié si une erreur se produit durant l'analyse  de) Tj ET Q
+q 0.000 g BT 70.87 398.10 Td (l'argument, le bloc définissant la sécurité.) Tj ET Q
+q 0.000 g BT 70.87 383.93 Td ( ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 70.87 369.76 Td (Précédents paramétres de sécurité) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 355.58 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 341.41 Td (La fonction ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 122.57 341.41 Td (secure) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 154.81 341.41 Td ( renvoie les paramétrages  précédents de sécurité, avant qu'un nouveau) Tj ET Q
+q 0.000 g BT 70.87 327.24 Td (paramétrage ne soit défini.  Il s'agit d'un bloc de paramétres pour le réseau et le système de fichiers,) Tj ET Q
+q 0.000 g BT 70.87 313.06 Td (suivi  éventuellement de ceux propres à un fichier ou un répertoire. Le mot ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 402.69 313.06 Td (query) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 429.92 313.06 Td ( peut  être utilisé) Tj ET Q
+q 0.000 g BT 70.87 298.89 Td (pour obtenir les paramètres de sécurité sans les modifer) Tj ET Q
+q 0.000 g BT 70.87 284.72 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 271.14 Td ( current-security: secure query) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 256.37 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 242.20 Td (Vous pouvez modifier le niveau courant de sécurité en récupérant les paramètres courants,  puis en) Tj ET Q
+q 0.000 g BT 70.87 228.02 Td (les modifiant, et enfin en fournissant les nouvelles valeurs à la fonction ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 386.02 228.02 Td (secure) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 418.26 228.02 Td (.) Tj ET Q
+q 0.000 g BT 70.87 213.85 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 199.68 Td (Abaisser le niveau de sécurité déclenche une demande envers l'utilisateur, pour validation.  Une) Tj ET Q
+q 0.000 g BT 70.87 185.50 Td (exception cependant existe quand la session REBOL est en mode ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 367.14 185.50 Td (quiet) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 388.82 185.50 Td (, avec dans  ce cas \(baisse de) Tj ET Q
+q 0.000 g BT 70.87 171.33 Td (la sécurité\), la fermeture de la session.) Tj ET Q
+q 0.000 g BT 70.87 157.16 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 142.98 Td (Aucune demande de confirmation n'est  faite à l'utilisateur dans le cas où le niveau de sécurité) Tj ET Q
+q 0.000 g BT 70.87 128.81 Td (s'accroît. Notez que les requêtes concernant  la sécurité incluent maintenant une option pour) Tj ET Q
+q 0.000 g BT 70.87 114.64 Td (permettre un accès total  pour le reste du traitement des scripts.) Tj ET Q
+q 0.000 g BT 70.87 100.46 Td ( ) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 7/22) Tj ET Q
+
+endstream
+endobj
+17 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 18 0 R>>
+endobj
+18 0 obj
+<</Length 4996>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (Manuel de l'utilisateur - Chapitre 2 - Les Opérations) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td (Quand REBOL est exécuté à partir de la ligne de commande \(shell\), l'argument ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 424.60 794.95 Td (-s) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 433.49 794.95 Td ( est  équivalent à :) Tj ET Q
+q 0.000 g BT 70.87 780.78 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 767.21 Td ( secure allow) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 752.43 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 738.26 Td (et l'argument ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 131.14 738.26 Td (+s) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 142.54 738.26 Td ( est équivalent à :) Tj ET Q
+q 0.000 g BT 70.87 724.09 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 710.51 Td ( secure quit) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 695.74 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 681.57 Td (Vous pouvez utilisez aussi l'argument ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 240.07 681.57 Td (&mdash;secure) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 315.09 681.57 Td ( avec l'un des types de niveaux de sécurité ) Tj ET Q
+q 0.000 g BT 70.87 667.39 Td (pour les accès réseau et fichiers :) Tj ET Q
+q 0.000 g BT 70.87 653.22 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 639.65 Td ( rebol --secure throw) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 624.87 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 610.70 Td (Arguments du programme) Tj ET Q
+q 0.000 g BT 70.87 596.53 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 582.35 Td (Il existe plusieurs arguments pouvant être spécifiés en ligne de commande, ou dans  un script batch,) Tj ET Q
+q 0.000 g BT 70.87 568.18 Td (ou dans les propriété d'un raccourci.) Tj ET Q
+q 0.000 g BT 70.87 554.01 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 539.83 Td (Pour voir les arguments et les options possibles pour n'importe quelle version du  langage REBOL,) Tj ET Q
+q 0.000 g BT 70.87 525.66 Td (saisissez la commande ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 177.01 525.66 Td (usage) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 205.91 525.66 Td ( à l'invite de la console, pour obtenir :) Tj ET Q
+q 0.000 g BT 70.87 511.49 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 497.92 Td ( The command line usage is:) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 483.74 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 469.57 Td (     REBOL ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 123.67 469.57 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 128.47 469.57 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 455.40 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 441.22 Td ( All fields are optional. Supported options are:) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 427.05 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 412.88 Td (     --cgi \(-c\)       Check for CGI input) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 398.70 Td (     --do expr        Evaluate expression) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 384.53 Td (     --help \(-?\)      Display this usage information) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 370.36 Td (     --nowindow \(-w\)  Do not open a window) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 356.18 Td (     --noinstall \(-i\) Do not install \(View\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 342.01 Td (     --quiet \(-q\)     Don't print banners) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 327.84 Td (     --reinstall \(+i\) Force an install \(View\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 313.66 Td (     --script file    Explicitly specify script) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 299.49 Td (     --secure level   Set security level:) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 285.32 Td (                      \(allow ask throw quit\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 271.14 Td (     --trace \(-t\)     Enable trace mode) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 256.97 Td (     --uninstall \(-u\) Uninstall REBOL \(View\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 242.80 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 228.62 Td ( Other command line options:) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 214.45 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 200.28 Td (     +q               Force not quiet \(View\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 186.10 Td (     -s               No security) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 171.93 Td (     +s               Full security) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 157.76 Td (     -- args          Provide args without script) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 143.58 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 129.41 Td ( Examples:) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 115.24 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 101.06 Td (     REBOL script.r) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 8/22) Tj ET Q
+
+endstream
+endobj
+19 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 20 0 R>>
+endobj
+20 0 obj
+<</Length 5044>>
+stream
+2 J
+0.85 w
+BT /F2 8.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 70.87 819.05 Td (Manuel de l'utilisateur - Chapitre 2 - Les Opérations) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 795.55 Td (     REBOL script.r 10:30 test@domain.dom) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 781.38 Td (     REBOL script.r --do "verbose: true") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 767.21 Td (     REBOL --cgi -s) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 753.03 Td (     REBOL --cgi --secure throw --script cgi.r "debug: true") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 738.86 Td (     REBOL --secure none) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 724.09 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 709.91 Td (Le format de la ligne de commande est :) Tj ET Q
+q 0.000 g BT 70.87 695.74 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 682.17 Td ( REBOL options script arguments) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 667.39 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 653.22 Td (avec :) Tj ET Q
+q 0.000 g BT 70.87 639.05 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 624.87 Td (options) Tj ET Q
+q 0.000 g BT 103.11 624.87 Td ( : ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 111.45 624.87 Td (une ou plusieurs options du programme. Voir "Spécifier des options" ci-dessous pour plus de) Tj ET Q
+q 0.000 g BT 70.87 610.70 Td (détails.) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 596.53 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 582.35 Td (script) Tj ET Q
+q 0.000 g BT 94.76 582.35 Td ( : ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 103.10 582.35 Td (le nom du fichier du script que vous voulez exécutez. Si le nom contient des espaces, il doit) Tj ET Q
+q 0.000 g BT 70.87 568.18 Td (être entouré de guillemets.) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 554.01 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 539.83 Td (arguments) Tj ET Q
+q 0.000 g BT 118.11 539.83 Td ( : ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 126.45 539.83 Td (les arguments passés au script sous forme de chaîne de caractère. Ces arguments) Tj ET Q
+q 0.000 g BT 70.87 525.66 Td (peuvent être récupérés depuis le script.) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 511.49 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 497.32 Td (Tous les arguments ci-dessus sont optionnels, et n'importe quelle combinaison est  autorisée. ) Tj ET Q
+q 0.000 g BT 70.87 483.14 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 454.80 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 440.62 Td (Icônes / raccourcis :) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 426.45 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 412.28 Td (Pour certains sytèmes d'exploitation, comme Windows, ou AmigaOS, vous pouvez utiliser des ) Tj ET Q
+q 0.000 g BT 70.87 398.10 Td (raccourcis avec des icônes, et définir des propriétés aux raccourcis qui incluent les options) Tj ET Q
+q 0.000 g BT 70.87 383.93 Td (précédentes. Vous pouvez ainsi définir des raccourcis qui exécuteront  directement vos scripts) Tj ET Q
+q 0.000 g BT 70.87 369.76 Td (REBOL avec les bonnes options. ) Tj ET Q
+q 0.000 g BT 70.87 355.58 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 341.41 Td (Fichier script) Tj ET Q
+q 0.000 g BT 70.87 327.24 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 313.06 Td (Typiquement, vous exécutez REBOL en fournissant le nom du fichier correspondant au script  que) Tj ET Q
+q 0.000 g BT 70.87 298.89 Td (vous voulez évaluez. Un seul nom de fichier est autorisé. Par exemple :) Tj ET Q
+q 0.000 g BT 70.87 284.72 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 271.14 Td ( REBOL script.r) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 256.37 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 242.20 Td (Si le nom du fichier contient des espaces, ce nom doit être entouré de guillemets :) Tj ET Q
+q 0.000 g BT 70.87 228.02 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 214.45 Td ( REBOL "mon chemin avec des espaces.r") Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 199.68 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 185.50 Td (Spécifier des options) Tj ET Q
+q 0.000 g BT 70.87 171.33 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 157.16 Td (Les options possibles sont identifiées avec un signe plus \() Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 327.66 157.16 Td (+) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 333.50 157.16 Td (\) ou moins \() Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 386.29 157.16 Td (-) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 389.62 157.16 Td (\), avant un caractère  ou par) Tj ET Q
+q 0.000 g BT 70.87 142.98 Td (un double tiret \() Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 140.35 142.98 Td (&mdash;) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 183.13 142.98 Td (\) avant un mot.) Tj ET Q
+q 0.000 g BT 70.87 128.81 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 114.64 Td (C'est l'usage standard pour définir des options  à un programme pour la plupart des systèmes) Tj ET Q
+q 0.000 g BT 70.87 100.46 Td (d'exploitation.) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 9/22) Tj ET Q
+
+endstream
+endobj
+21 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 22 0 R>>
+endobj
+22 0 obj
+<</Length 4293>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (Manuel de l'utilisateur - Chapitre 2 - Les Opérations) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 780.78 Td (Voici plusieurs exemples d'utilisation.) Tj ET Q
+q 0.000 g BT 70.87 766.61 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 752.43 Td (Pour évaluer un script avec une option, comme l'option -s, qui permet d'exécuter le  script sans) Tj ET Q
+q 0.000 g BT 70.87 738.26 Td (aucune sécurité, saisissez :) Tj ET Q
+q 0.000 g BT 70.87 724.09 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 710.51 Td ( REBOL -s script.r) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 695.74 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 681.57 Td (Pour obtenir des informations sur l'usage de REBOL, tapez :) Tj ET Q
+q 0.000 g BT 70.87 667.39 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 653.82 Td ( REBOL -?) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 639.65 Td ( REBOL --help) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 624.87 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 610.70 Td (Pour exécuter REBOL sans ouvrir une nouvelle fenêtre \(ce qui se produit si vous  avez besoin de) Tj ET Q
+q 0.000 g BT 70.87 596.53 Td (rediriger la sortie vers un fichier ou un serveur\), saisissez :) Tj ET Q
+q 0.000 g BT 70.87 582.35 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 568.78 Td ( REBOL -w) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 554.61 Td ( REBOL --nowindow) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 539.83 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 525.66 Td (Pour prévenir l'affichage des informations de démarrage, ce qui peut être  nécessaire en cas de) Tj ET Q
+q 0.000 g BT 70.87 511.49 Td (redirection vers un fichier ou un server, tapez :) Tj ET Q
+q 0.000 g BT 70.87 497.32 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 483.74 Td ( REBOL -q) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 469.57 Td ( REBOL --quiet) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 454.80 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 440.62 Td (Pour évaluer une expression REBOL depuis la ligne de commande :) Tj ET Q
+q 0.000 g BT 70.87 426.45 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 412.88 Td ( REBOL --do "print 1 + 2") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 398.70 Td ( REBOL --do "verbose: true" script.r) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 383.93 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 369.76 Td (Ceci vous permet d'évaluer un script distant :) Tj ET Q
+q 0.000 g BT 70.87 355.58 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 342.01 Td ( REBOL --do "do http://www.rebol.com/speed.r") Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 327.24 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 313.06 Td (Pour changer le niveau de sécurité de REBOL, tapez :) Tj ET Q
+q 0.000 g BT 70.87 298.89 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 285.32 Td ( REBOL -s script.r) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 271.14 Td ( REBOL --secure none script.r) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 256.37 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 242.20 Td (Pour utilisez des scripts REBOL en mode CGI \(voir la partie sur CGI - Common  Gateway Interface,) Tj ET Q
+q 0.000 g BT 70.87 228.02 Td (dans le chapitre consacré aux protocoles réseaux, pour plus d'infomation\) :) Tj ET Q
+q 0.000 g BT 70.87 213.85 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 200.28 Td ( REBOL -c cgi-script.r) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 186.10 Td ( REBOL --cgi) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 171.33 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 157.16 Td (Des options multiples sont aussi possibles. Les options mono-caractère doivent être spécifiées) Tj ET Q
+q 0.000 g BT 70.87 142.98 Td (ensemble.  Les options utilisant des mots doivent être séparées par des espaces :) Tj ET Q
+q 0.000 g BT 70.87 128.81 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 115.24 Td ( REBOL -cs cgi-script.r) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 101.06 Td ( REBOL --cgi --secure none cgi-script.r) Tj ET Q
+BT /F1 10.00 Tf ET
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 501.28 45.79 Td (Page 10/22) Tj ET Q
+
+endstream
+endobj
+23 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 24 0 R>>
+endobj
+24 0 obj
+<</Length 4516>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (Manuel de l'utilisateur - Chapitre 2 - Les Opérations) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 780.78 Td (L'exemple précédent évalue le script cgi-script.r en mode CGI, sans sécurité. La méthode compacte) Tj ET Q
+q 0.000 g BT 70.87 766.61 Td (est préférable pour divers serveurs Web qui limitent  le nombre d'arguments permis sur la ligne de) Tj ET Q
+q 0.000 g BT 70.87 752.43 Td (commande. \(comme le serveur Web Apache sur Linux\).) Tj ET Q
+q 0.000 g BT 70.87 738.26 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 724.09 Td (Redirection vers un fichier) Tj ET Q
+q 0.000 g BT 70.87 709.91 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 695.74 Td (Sur la plupart des systèmes d'exploitation, il est possible de rediriger l'entrée  et la sortie standard) Tj ET Q
+q 0.000 g BT 70.87 681.57 Td (depuis et vers un fichier. L'exemple :) Tj ET Q
+q 0.000 g BT 70.87 667.39 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 653.82 Td ( rebol -w script.r > output-file) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 639.05 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 624.87 Td (redirige la sortie vers un fichier . Pareillement,) Tj ET Q
+q 0.000 g BT 70.87 610.70 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 597.13 Td ( rebol -w script.r ) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 162.07 596.53 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 582.35 Td (redirige l'entrée depuis un fichier. ) Tj ET Q
+q 0.000 g BT 70.87 568.18 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 539.83 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 525.66 Td (Lors de la redirection des entrées/sorties vers un fichier) Tj ET 70.87 524.66 266.77 -0.50 re f Q
+q 0.000 g BT 337.64 525.66 Td ( ) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 340.42 525.66 Td ( :) Tj ET Q
+q 0.000 g BT 70.87 511.49 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 497.32 Td (Utilisez l'option -w pour éviter d'ouvrir une console REBOL, qui interférerait  avec la redirection) Tj ET Q
+q 0.000 g BT 70.87 483.14 Td (standard des entrées-sorties . ) Tj ET Q
+q 0.000 g BT 70.87 468.97 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 454.80 Td (Arguments des scripts) Tj ET Q
+q 0.000 g BT 70.87 440.62 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 426.45 Td (Tout ce qui est fourni sur la ligne de commande, après le nom d'un fichier script, est  passé à ce script) Tj ET Q
+q 0.000 g BT 70.87 412.28 Td (en tant qu'argument. Ceci permet d'écrire des scripts qui acceptent  directement des arguments) Tj ET Q
+q 0.000 g BT 70.87 398.10 Td (depuis la ligne de commande.) Tj ET Q
+q 0.000 g BT 70.87 383.93 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 369.76 Td (Par exemple, si vous démarrez REBOL avec la ligne :) Tj ET Q
+q 0.000 g BT 70.87 355.58 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 342.01 Td ( REBOL script.r 10:30 test@domain.dom) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 327.24 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 313.06 Td (10:30 et test@domain.com seront pris comme des arguments.) Tj ET Q
+q 0.000 g BT 70.87 298.89 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 284.72 Td (Il y a deux façons d'obtenir les arguments de la ligne de commande. La première  méthode renvoie les) Tj ET Q
+q 0.000 g BT 70.87 270.54 Td (arguments comme un ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 170.35 270.54 Td (bloc) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 190.91 270.54 Td ( de valeurs REBOL :) Tj ET Q
+q 0.000 g BT 70.87 256.37 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 242.80 Td ( probe system/options/args) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 228.62 Td ( ["10:30" "test@domain.dom"]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 213.85 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 199.68 Td (La seconde méthode renvoie les arguments sous la forme d'une ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 357.92 199.68 Td (chaîne) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 389.60 199.68 Td ( :) Tj ET Q
+q 0.000 g BT 70.87 185.50 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 171.93 Td ( probe system/script/args) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 157.76 Td ( "10:30 test@domain.dom") Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 128.81 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 100.46 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 501.28 45.79 Td (Page 11/22) Tj ET Q
+
+endstream
+endobj
+25 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 26 0 R>>
+endobj
+26 0 obj
+<</Length 6324>>
+stream
+2 J
+0.85 w
+BT /F5 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 70.87 819.05 Td (Manuel de l'utilisateur - Chapitre 2 - Les Opérations) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 794.95 Td (Note relative aux versions) Tj ET 70.87 793.95 123.94 -0.50 re f Q
+q 0.000 g BT 194.81 794.95 Td ( :) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 780.78 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 766.61 Td (Les versions précédentes retournaient un bloc de valeurs à partir de ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 375.46 766.61 Td (script/args) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 426.59 766.61 Td (  \(tout comme ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 752.43 Td (options/args) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 130.88 752.43 Td (\).  Il est conseillé de vérifier que votre script manipule le bon type de données  ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 478.82 752.43 Td (args) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 738.26 Td (selon ce qui est indiqué ci-dessus. ) Tj ET Q
+q 0.000 g BT 70.87 724.09 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 709.91 Td (Fichiers de démarrage) Tj ET Q
+q 0.000 g BT 70.87 695.74 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 681.57 Td (Lorsque REBOL démarre, il tente de charger les fichiers ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 322.08 681.57 Td (rebol.r) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 353.20 681.57 Td ( et ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 367.10 681.57 Td (user.r) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 394.89 681.57 Td ( .) Tj ET Q
+q 0.000 g BT 70.87 667.39 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 653.22 Td (Ces fichiers sont optionnels, mais ils peuvent être utilisés pour définir le  paramétrage réseau, des) Tj ET Q
+q 0.000 g BT 70.87 639.05 Td (fonctions usuelles, et pour initialiser des données utilisées  par vos scripts.) Tj ET Q
+q 0.000 g BT 70.87 624.87 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 610.70 Td (Le fichier ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 114.22 610.70 Td (rebol.r) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 145.34 610.70 Td ( manipule des fonctions spéciales ou des extensions pour REBOL,  fournies à part de) Tj ET Q
+q 0.000 g BT 70.87 596.53 Td (la distribution standard. Il est suggéré de ne pas éditer ce fichier ;  en effet, il est écrasé à chaque) Tj ET Q
+q 0.000 g BT 70.87 582.35 Td (nouvelle version de REBOL.) Tj ET Q
+q 0.000 g BT 70.87 568.18 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 554.01 Td (Le fichier ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 114.22 554.01 Td (user.r) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 142.01 554.01 Td ( permet de gérer des préférences utilisateur. Vous pouvez éditer  ce fichier et y) Tj ET Q
+q 0.000 g BT 70.87 539.83 Td (ajouter n'importe quelle définition ou donnée nécessaire à vos besoins.) Tj ET Q
+q 0.000 g BT 70.87 525.66 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 511.49 Td (Sur des systèmes multi-utilisateur, il peut y avoir un fichier ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 330.95 511.49 Td (user.r) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 358.74 511.49 Td ( par utilisateur.  Bien que ce fichier ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 497.32 Td (user.r) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 98.66 497.32 Td ( ne fasse pas partie de la distibution standard, il est  automatiquement généré s'il n'existe pas.) Tj ET Q
+q 0.000 g BT 70.87 483.14 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 468.97 Td (Lorsque REBOL démarre, l'interpréteur vérifie d'abord l'existence des fichiers ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 415.06 468.97 Td (rebol.r) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 446.18 468.97 Td ( et ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 460.08 468.97 Td (user.r) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 487.87 468.97 Td (  dans) Tj ET Q
+q 0.000 g BT 70.87 454.80 Td (le répertoire "home" et, s'ils ne sont pas trouvés là, dans le répertoire courant.) Tj ET Q
+q 0.000 g BT 70.87 440.62 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 426.45 Td (Pour définir un répertoire HOME, vous devez définir une variable d'environnement au niveau du) Tj ET Q
+q 0.000 g BT 70.87 412.28 Td (système,  pour le contexte utilisateur ou script approprié. Notez que certains systèmes, comme UNIX) Tj ET Q
+q 0.000 g BT 70.87 398.10 Td (ou Linux, font parfois déjà cela, de sorte que  cette définition n'est pas nécessaire.) Tj ET Q
+q 0.000 g BT 70.87 383.93 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 369.76 Td (Sur Windows XP, pour définir la variable HOME, vous ajouterez, par exemple :) Tj ET Q
+q 0.000 g BT 70.87 355.58 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 342.01 Td ( set HOME=C:\\REBOL) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 327.24 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 313.06 Td (à votre environnement, via les étapes suivantes :) Tj ET Q
+q 0.000 g BT 79.04 284.72 Td (•) Tj ET Q
+q 0.000 g BT 90.71 284.72 Td (Choisir Panneau de configuration, dans le menu Démarrer, puis Paramètres,) Tj ET Q
+q 0.000 g BT 79.04 270.54 Td (•) Tj ET Q
+q 0.000 g BT 90.71 270.54 Td (Double-cliquez sur l'icône Système puis dans l'onglet Avancé, cliquez sur le bouton  "variables) Tj ET Q
+q 0.000 g BT 90.71 256.37 Td (d'environnement") Tj ET Q
+q 0.000 g BT 79.04 242.20 Td (•) Tj ET Q
+q 0.000 g BT 90.71 242.20 Td (Cliquez sur le bouton Nouveau) Tj ET Q
+q 0.000 g BT 79.04 228.02 Td (•) Tj ET Q
+q 0.000 g BT 90.71 228.02 Td (Saisissez HOME dans le champ "nom de la variable" et "C :\\REBOL" \(ou le chemin où vous avez ) Tj ET Q
+q 0.000 g BT 90.71 213.85 Td (placé l'exécutable REBOL\) dans le champ "valeur de la variable".) Tj ET Q
+q 0.000 g BT 70.87 185.50 Td (Sur les systèmes UNIX, vous pouvez définir le chemin vers REBOL en ajoutant  une ligne, comme) Tj ET Q
+q 0.000 g BT 70.87 171.33 Td (celle qui suit à votre fichier .profile ou .bashrc par exemple :) Tj ET Q
+q 0.000 g BT 70.87 157.16 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 143.58 Td ( set HOME=/usr/bin/rebol) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 128.81 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 114.64 Td (Pour certaines versions de REBOL, le chemin est stocké dans un fichier .rebol situé  dans votre) Tj ET Q
+q 0.000 g BT 70.87 100.46 Td (répertoire personnel \(home directory\).) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 501.28 45.79 Td (Page 12/22) Tj ET Q
+
+endstream
+endobj
+27 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 28 0 R>>
+endobj
+28 0 obj
+<</Length 4690>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (Manuel de l'utilisateur - Chapitre 2 - Les Opérations) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 751.23 Td (Quitter REBOL) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 738.26 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 724.09 Td (A n'importe quel moment, pour quitter REBOL, vous pouvez sélectionner ") Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 399.25 724.09 Td (Quit) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 419.25 724.09 Td ("  dans le menu ") Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 494.72 724.09 Td (File) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 511.95 724.09 Td (") Tj ET Q
+q 0.000 g BT 70.87 709.91 Td (de la console, ou bien en tapant ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 215.41 709.91 Td (quit) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 233.74 709.91 Td ( ou ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 250.42 709.91 Td (q) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 256.53 709.91 Td ( en ligne  de commande.) Tj ET Q
+q 0.000 g BT 70.87 695.74 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 681.57 Td (Vous ouvez également quitter le programme depuis un script :) Tj ET Q
+q 0.000 g BT 70.87 667.39 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 653.82 Td ( if now/time > 12:00 [quit]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 639.05 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 624.87 Td (La console REBOL peut aussi provoquer la fermeture de la session  si une erreur se produit durant le) Tj ET Q
+q 0.000 g BT 70.87 610.70 Td (démarrage. ) Tj ET Q
+q 0.000 g BT 70.87 596.53 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 568.18 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 554.01 Td (Exit) Tj ET 70.87 553.01 18.34 -0.50 re f Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 89.21 554.01 Td ( n'est pas ) Tj ET 89.21 553.01 45.27 -0.50 re f Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 134.48 554.01 Td (Quit) Tj ET 134.48 553.01 20.00 -0.50 re f Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 154.48 554.01 Td ( :) Tj ET Q
+q 0.000 g BT 70.87 539.83 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 525.66 Td (N'utilisez pas le mot ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 162.25 525.66 Td (exit) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 179.48 525.66 Td ( pour sortir de REBOL. Ce mot est utilisé pour forcer la  sortie de fonctions, et) Tj ET Q
+q 0.000 g BT 70.87 511.49 Td (renverra une erreur s'il est utilisé en  ligne de commande depuis la console. ) Tj ET Q
+q 0.000 g BT 70.87 497.32 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 453.60 Td (Usage de la console) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 440.62 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 426.45 Td (Lorsque vous démarrez REBOL/Core, la console s'ouvre pour la saisie et l'affichage.  Si vous) Tj ET Q
+q 0.000 g BT 70.87 412.28 Td (fournissez en argument au programme un script, celui-ci est évalué et vous  voyez l'affichage de la) Tj ET Q
+q 0.000 g BT 70.87 398.10 Td (sortie, pour ce script. Le prompt en input ressemble à :) Tj ET Q
+q 0.000 g BT 70.87 383.93 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 370.36 Td ( >>) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 355.58 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 341.41 Td (Si vous tapez une expression sur la ligne de commande, en validant par la touche "Entrée",  elle est) Tj ET Q
+q 0.000 g BT 70.87 327.24 Td (évaluée et le résultat est retourné avec l'indicateur suivant :) Tj ET Q
+q 0.000 g BT 70.87 313.06 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 299.49 Td ( ==) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 284.72 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 270.54 Td (Par exemple :) Tj ET Q
+q 0.000 g BT 70.87 256.37 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 242.80 Td ( >> 100 + 20) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 228.62 Td ( == 120) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 214.45 Td ( >> now - 7-Dec-1944) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 200.28 Td ( == 20341) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 171.33 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 142.98 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 128.81 Td (Modification du prompt) Tj ET 70.87 127.81 111.11 -0.50 re f Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 181.98 128.81 Td ( :) Tj ET Q
+q 0.000 g BT 70.87 114.64 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 100.46 Td (Les indicateurs du prompt et de réponse peuvent être modifiés. Voir l'Annexe sur  Console pour plus) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 501.28 45.79 Td (Page 13/22) Tj ET Q
+
+endstream
+endobj
+29 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 30 0 R>>
+endobj
+30 0 obj
+<</Length 4696>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (Manuel de l'utilisateur - Chapitre 2 - Les Opérations) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td (d'information. ) Tj ET Q
+q 0.000 g BT 70.87 780.78 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 766.61 Td (La console s'active également lorsqu'une erreur est rencontrée dans un script ou  que la fonction ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 501.57 766.61 Td (halt) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 752.43 Td (est rencontrée dans le script.) Tj ET Q
+q 0.000 g BT 70.87 738.26 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 724.09 Td (Saisie sur plusieurs lignes) Tj ET Q
+q 0.000 g BT 70.87 709.91 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 695.74 Td (Si vous commencez un bloc sur la ligne de commande et que vous ne le  terminez pas, le bloc est) Tj ET Q
+q 0.000 g BT 70.87 681.57 Td ("étendu" sur la ligne suivante. Ceci est indiqué par une  ligne qui commence avec un crochet, suivie) Tj ET Q
+q 0.000 g BT 70.87 667.39 Td (d'une indentation. La ligne sera indentée avec  quatre espaces pour chaque bloc ouvert. Par) Tj ET Q
+q 0.000 g BT 70.87 653.22 Td (exemple :) Tj ET Q
+q 0.000 g BT 70.87 639.05 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 625.47 Td ( loop 10 [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 611.30 Td ( [    print "example") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 597.13 Td ( [    if odd? random 10 [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 582.95 Td ( [        print "here") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 568.78 Td ( [        ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 554.61 Td ( [    ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 539.83 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 525.66 Td (Ceci est aussi valable pour les chaînes de caractères s'étalant sur plusieurs lignes  et comprises entre) Tj ET Q
+q 0.000 g BT 70.87 511.49 Td (accolades.) Tj ET Q
+q 0.000 g BT 70.87 497.32 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 483.74 Td ( Print {This is a long) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 469.57 Td ( {    string that has more) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 455.40 Td ( {    than one line.}) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 440.62 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 426.45 Td (Les crochets et les accolades qui apparaissent au sein de chaînes entre quotes sont  ignorés. Vous) Tj ET Q
+q 0.000 g BT 70.87 412.28 Td (pouvez quitter une saisie en cours à n'importe quel moment en pressant  la touche Echap \(ESC\).) Tj ET Q
+q 0.000 g BT 70.87 398.10 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 383.93 Td (Interruption d'un script) Tj ET Q
+q 0.000 g BT 70.87 369.76 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 355.58 Td (Un script peut être interrompu en pressant la touche Echap \(ou ESC\), qui retourne  immédiatement à) Tj ET Q
+q 0.000 g BT 70.87 341.41 Td (la ligne de commande. Pour certains types d'opérations système ou d'activité réseau, il peut y avoir un) Tj ET Q
+q 0.000 g BT 70.87 327.24 Td ( délai entre l'appui sur Echap et le retour du prompt.) Tj ET Q
+q 0.000 g BT 70.87 313.06 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 298.89 Td (Rappel d'historique) Tj ET Q
+q 0.000 g BT 70.87 284.72 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 270.54 Td (Chaque ligne saisie dans REBOL est mise en mémoire pour être rappelée ultérieurement si) Tj ET Q
+q 0.000 g BT 70.87 256.37 Td (nécessaire.  Les touches "Fléche haut" et "Fléche bas" sont utilisées pour faire défiler la liste des) Tj ET Q
+q 0.000 g BT 70.87 242.20 Td (lignes précédemment  tapées. Par exemple, presser la touche "Fléche haut" une fois rappelle la) Tj ET Q
+q 0.000 g BT 70.87 228.02 Td (précédente ligne tapée à la console.) Tj ET Q
+q 0.000 g BT 70.87 213.85 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 199.68 Td (Les lignes de commande de l'historique peuvent être écrites dans un fichier, en sauvant  le bloc) Tj ET Q
+q 0.000 g BT 70.87 185.50 Td (d'historique. Voir l'Annexe sur Console pour plus d'information.) Tj ET Q
+q 0.000 g BT 70.87 171.33 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 157.16 Td (Compléter automatiquement un mot) Tj ET Q
+q 0.000 g BT 70.87 142.98 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 128.81 Td (Pour améliorer la saisie des mots et noms de fichiers longs, il est possible avec la  console REBOL) Tj ET Q
+q 0.000 g BT 70.87 114.64 Td (que ces mots soient complétés automatiquement. Après la saisie de  quelques lettres du mot, tapez) Tj ET Q
+q 0.000 g BT 70.87 100.46 Td (sur la touche "Tabulation". Si les lettres saisies  permettent d'identifier de manière unique le mot, le) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 501.28 45.79 Td (Page 14/22) Tj ET Q
+
+endstream
+endobj
+31 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 32 0 R>>
+endobj
+32 0 obj
+<</Length 4346>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (Manuel de l'utilisateur - Chapitre 2 - Les Opérations) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td (restant de ce mot est affiché.) Tj ET Q
+q 0.000 g BT 70.87 780.78 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 766.61 Td (Par exemple, si vous saisissez :) Tj ET Q
+q 0.000 g BT 70.87 752.43 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 738.86 Td ( >> sq) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 724.09 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 709.91 Td (puis que vous appuyez sur la touche "Tabulation",) Tj ET Q
+q 0.000 g BT 70.87 695.74 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 682.17 Td ( >> square-root) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 667.39 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 653.22 Td (Si les lettres saisies ne permettent pas d'identifier sans ambiguïté le mot,  vous pouvez appuyer) Tj ET Q
+q 0.000 g BT 70.87 639.05 Td (encore sur la touche "Tabulation" pour obtenir la liste des  choix possibles. Par exemple, saisissez :) Tj ET Q
+q 0.000 g BT 70.87 624.87 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 611.30 Td ( >> so) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 596.53 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 582.35 Td (Puis pressez deux fois de suite sur la touche "Tabulation" pour avoir :) Tj ET Q
+q 0.000 g BT 70.87 568.18 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 554.61 Td ( >> sort source) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 540.43 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 526.26 Td ( so) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 511.49 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 497.32 Td (et vous pourrez saisir le reste du mot, ou suffisamment de lettres pour le caractériser  de manière) Tj ET Q
+q 0.000 g BT 70.87 483.14 Td (unique. L'aide à la saisie fonctionne pour tous les mots, notamment les mots  définis par l'utilisateur.) Tj ET Q
+q 0.000 g BT 70.87 468.97 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 454.80 Td (Elle fonctionne également avec les noms de fichiers, quand ceux-ci  sont précédés du signe "%") Tj ET Q
+q 0.000 g BT 70.87 440.62 Td (\(pourcentage\).) Tj ET Q
+q 0.000 g BT 70.87 426.45 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 412.88 Td ( >> print read %r) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 398.10 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 383.93 Td (L'appui sur la touche "Tabulation" produira l'effet suivant :) Tj ET Q
+q 0.000 g BT 70.87 369.76 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 356.18 Td ( >> print read %rebol.r) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 341.41 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 327.24 Td (selon le contenu de votre répertoire courant.) Tj ET Q
+q 0.000 g BT 70.87 313.06 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 298.89 Td (Indicateur d'activité) Tj ET Q
+q 0.000 g BT 70.87 284.72 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 270.54 Td (Lorsque REBOL attend la fin d'une opération réseau, une indicateur d'activité apparaît  pour indiquer) Tj ET Q
+q 0.000 g BT 70.87 256.37 Td (que quelque chose est en cours. Vous pouvez changer cet indicateur avec votre  propre motif \(mode) Tj ET Q
+q 0.000 g BT 70.87 242.20 Td (caractère\). Voir l'Annexe sur Console pour plus d'information.) Tj ET Q
+q 0.000 g BT 70.87 228.02 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 213.85 Td (Connections Réseau) Tj ET Q
+q 0.000 g BT 70.87 199.68 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 185.50 Td (Lorsqu'une connection réseau s'effectue, un message apparaît dans la console.  Par exemple, si vous) Tj ET Q
+q 0.000 g BT 70.87 171.33 Td (saisissez :) Tj ET Q
+q 0.000 g BT 70.87 157.16 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 143.58 Td ( >> read http://www.rebol.com) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 129.41 Td ( connecting to: www.rebol.com) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 114.64 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 100.46 Td (Si besoin, vous pouvez désactiver cet affichage en utilisant l'option ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 369.04 100.46 Td (quiet) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 392.93 100.46 Td (. Voir l'Annexe sur Console) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 501.28 45.79 Td (Page 15/22) Tj ET Q
+
+endstream
+endobj
+33 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 34 0 R>>
+endobj
+34 0 obj
+<</Length 4913>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (Manuel de l'utilisateur - Chapitre 2 - Les Opérations) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td (pour plus d'information.) Tj ET Q
+q 0.000 g BT 70.87 780.78 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 766.61 Td (Terminal virtuel) Tj ET Q
+q 0.000 g BT 70.87 752.43 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 738.26 Td (La console fournit des possibilités propres à un terminal virtuel, comme le mouvement  du curseur,) Tj ET Q
+q 0.000 g BT 70.87 724.09 Td (son adressage, l'édition de ligne, l'effacement de l'écran, des raccourcis clavier,  et la gestion de la) Tj ET Q
+q 0.000 g BT 70.87 709.91 Td (position du curseur. Le terminal virtuel utilise le code de caractères ANSI. Ceci vous permet d'écrire) Tj ET Q
+q 0.000 g BT 70.87 695.74 Td (des  programmes pour terminaux indépendants des systèmes d'exploitation, comme des éditeurs de ) Tj ET Q
+q 0.000 g BT 70.87 681.57 Td (texte, des clients email, ou des émulateurs telnet. Plus d'information dans  l'Annexe de la Console.) Tj ET Q
+q 0.000 g BT 70.87 667.39 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 623.67 Td (Obtenir de l'aide) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 610.70 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 596.53 Td (Il existe plusieurs sources d'information : l'aide en ligne de REBOL,  la fonction ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 421.51 596.53 Td (source) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 454.30 596.53 Td (, la) Tj ET Q
+q 0.000 g BT 70.87 582.35 Td (documentation sur le site Web de REBOL,  la bibliothèque de scripts REBOL \(library\), la mailing liste,) Tj ET Q
+q 0.000 g BT 70.87 568.18 Td (et les envois de  feedback ou bugs \(Rambo, par exemple\).) Tj ET Q
+q 0.000 g BT 70.87 554.01 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 539.83 Td (L'aide en ligne) Tj ET Q
+q 0.000 g BT 70.87 525.66 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 511.49 Td (La fonction ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 122.57 511.49 Td (help) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 143.13 511.49 Td ( d'aide en ligne constitue un moyen rapide d'obtenir une information  synthétique sur) Tj ET Q
+q 0.000 g BT 70.87 497.32 Td (les mots REBOL. Il y a plusieurs manières d'utiliser ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 300.07 497.32 Td (help) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 320.63 497.32 Td (.) Tj ET Q
+q 0.000 g BT 70.87 483.14 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 468.97 Td (Saisissez ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 115.88 468.97 Td (help) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 136.44 468.97 Td ( ou juste ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 177.02 468.97 Td ( ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 185.91 468.97 Td ( en ligne de commande pour voir un résumé de cette fonction :) Tj ET Q
+q 0.000 g BT 70.87 454.80 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 441.22 Td ( The help function provides a simple way to get) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 427.05 Td ( information about words and values.  To use it) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 412.88 Td ( supply a word or value as its argument:) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 398.70 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 384.53 Td (     help insert) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 370.36 Td (     help find) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 356.18 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 342.01 Td ( To view all words that match a pattern:) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 327.84 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 313.66 Td (     help "path") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 299.49 Td (     help to-) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 285.32 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 271.14 Td ( To view all words of a specified datatype:) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 256.97 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 242.80 Td (     help native!) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 228.62 Td (     help datatype!) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 214.45 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 200.28 Td ( There is also word completion from the command) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 186.10 Td ( line.  Type a few chars and press TAB to complete) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 171.93 Td ( the word.  If nothing happens, there is more than) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 157.76 Td ( one word that matches.  Enough chars are needed) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 143.58 Td ( to uniquely identify the word.) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 129.41 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 115.24 Td ( Other useful functions:) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 101.06 Td ( ) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 501.28 45.79 Td (Page 16/22) Tj ET Q
+
+endstream
+endobj
+35 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 36 0 R>>
+endobj
+36 0 obj
+<</Length 4968>>
+stream
+2 J
+0.85 w
+BT /F2 8.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 70.87 819.05 Td (Manuel de l'utilisateur - Chapitre 2 - Les Opérations) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 795.55 Td (     about - for general info) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 781.38 Td (     usage - for the command line arguments) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 767.21 Td (     license - for the terms of user license) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 753.03 Td (     source func - print source for given function) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 738.86 Td (     upgrade - updates your copy of REBOL) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 724.69 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 710.51 Td ( For more information, see the user guides.) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 695.74 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 681.57 Td (Si vous donnez à ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 150.36 681.57 Td (help) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 170.92 681.57 Td ( un mot comme argument, ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 290.41 681.57 Td (help) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 310.97 681.57 Td ( affichera toute l'information  relative à ce mot.) Tj ET Q
+q 0.000 g BT 70.87 667.39 Td (Par exemple, si vous tapez :) Tj ET Q
+q 0.000 g BT 70.87 653.22 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 639.65 Td ( help insert) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 624.87 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 610.70 Td (vous verrez :) Tj ET Q
+q 0.000 g BT 70.87 596.53 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 582.95 Td ( USAGE:) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 568.78 Td (     INSERT series value /part range /only /dup count) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 554.61 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 540.43 Td ( DESCRIPTION:) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 526.26 Td (      Inserts a value into a series and returns the series after the insert.) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 512.09 Td (      INSERT is an action value.) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 497.92 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 483.74 Td ( ARGUMENTS:) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 469.57 Td (      series -- Series at point to insert \(Type: series port bitset\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 455.40 Td (      value -- The value to insert \(Type: any-type\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 441.22 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 427.05 Td ( REFINEMENTS:) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 412.88 Td (      /part -- Limits to a given length or position.) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 398.70 Td (      range -- \(Type: number series port\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 384.53 Td (      /only -- Inserts a series as a series.) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 370.36 Td (      /dup -- Duplicates the insert a specified number of times.) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 356.18 Td (      count -- \(Type: number\)) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 341.41 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 327.24 Td (La fonction ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 122.57 327.24 Td (help) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 143.13 327.24 Td ( permet aussi de trouver des mots qui contiennent une chaîne de  caractères) Tj ET Q
+q 0.000 g BT 70.87 313.06 Td (spécifiques. Par exemple, pour trouvez tous les mots qui incluent la  chaîne ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 407.69 313.06 Td (path) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 427.15 313.06 Td (, saisissez dans la) Tj ET Q
+q 0.000 g BT 70.87 298.89 Td (console :) Tj ET Q
+q 0.000 g BT 70.87 284.72 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 271.14 Td ( ? "path") Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 256.37 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 242.20 Td (et le résultat devrait être :) Tj ET Q
+q 0.000 g BT 70.87 228.02 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 214.45 Td ( Found these words:) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 200.28 Td (      clean-path     \(function\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 186.10 Td (      lit-path!      \(datatype\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 171.93 Td (      lit-path?      \(action\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 157.76 Td (      path           \(file\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 143.58 Td (      path!          \(datatype\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 129.41 Td (      path-thru      \(function\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 115.24 Td (      path?          \(action\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 101.06 Td (      set-path!      \(datatype\)) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 501.28 45.79 Td (Page 17/22) Tj ET Q
+
+endstream
+endobj
+37 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 38 0 R>>
+endobj
+38 0 obj
+<</Length 4414>>
+stream
+2 J
+0.85 w
+BT /F2 8.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 70.87 819.05 Td (Manuel de l'utilisateur - Chapitre 2 - Les Opérations) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 795.55 Td (      set-path?      \(action\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 781.38 Td (      split-path     \(function\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 767.21 Td (      to-lit-path    \(function\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 753.03 Td (      to-path        \(function\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 738.86 Td (      to-set-path    \(function\)) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 724.09 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 709.91 Td (Vous pouvez également également effectuer des recherches par datatypes, par types  de données.) Tj ET Q
+q 0.000 g BT 70.87 695.74 Td (Par exemple, pour voir la liste de tous les mots qui sont du type ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 354.33 695.74 Td (function !) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 399.88 695.74 Td (,  vous pouvez tapez la) Tj ET Q
+q 0.000 g BT 70.87 681.57 Td (commande :) Tj ET Q
+q 0.000 g BT 70.87 667.39 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 653.82 Td ( ? function!) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 639.05 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 624.87 Td (et le résultat s'affichera :) Tj ET Q
+q 0.000 g BT 70.87 610.70 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 597.13 Td ( Found these words:) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 582.95 Td (      ?              \(function\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 568.78 Td (      ??             \(function\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 554.61 Td (      about          \(function\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 540.43 Td (      alert          \(function\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 526.26 Td (      alter          \(function\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 512.09 Td (      append         \(function\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 497.92 Td (      array          \(function\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 483.74 Td (      ask            \(function\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 469.57 Td ( ...) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 454.80 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 440.62 Td (Pour obtenir une liste de tous les types de données REBOL :) Tj ET Q
+q 0.000 g BT 70.87 426.45 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 412.88 Td ( ? datatype!) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 398.70 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 384.53 Td ( Found these words:) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 370.36 Td (      action!        \(datatype\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 356.18 Td (      any-block!     \(datatype\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 342.01 Td (      any-function!  \(datatype\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 327.84 Td (      any-string!    \(datatype\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 313.66 Td (      any-type!      \(datatype\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 299.49 Td (      any-word!      \(datatype\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 285.32 Td (      binary!        \(datatype\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 271.14 Td (      bitset!        \(datatype\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 256.97 Td (      block!         \(datatype\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 242.80 Td (      char!          \(datatype\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 228.62 Td (      datatype!      \(datatype\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 214.45 Td (      date!          \(datatype\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 200.28 Td (      decimal!       \(datatype\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 186.10 Td (      email!         \(datatype\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 171.93 Td ( ...) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 142.98 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 114.64 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 100.46 Td (En ce qui concerne les Objets) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 213.15 100.46 Td ( :) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 501.28 45.79 Td (Page 18/22) Tj ET Q
+
+endstream
+endobj
+39 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [165.91 278.54 255.39 268.54] /Border [0 0 0] /A <</S /URI /URI (http://www.rebol.com/)>>>><</Type /Annot /Subtype /Link /Rect [70.87 179.33 267.04 169.33] /Border [0 0 0] /A <</S /URI /URI (http://www.REBOL.com/docs/dictionary.html)>>>><</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 40 0 R>>
+endobj
+40 0 obj
+<</Length 5060>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (Manuel de l'utilisateur - Chapitre 2 - Les Opérations) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 780.78 Td (La fonction help ne fournit pas d'aide utile concernant les objets REBOL, par  exemple :) Tj ET Q
+q 0.000 g BT 70.87 766.61 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 753.03 Td ( help system/options/home) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 738.86 Td ( system/options/home is a path.) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 724.09 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 709.91 Td (N'essayez pas de faire :) Tj ET Q
+q 0.000 g BT 70.87 695.74 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 682.17 Td ( help system) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 667.39 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 653.22 Td (car cette opération prend plusieurs minutes, et produit plus d'un mégaoctet de sortie  texte à l'écran. ) Tj ET Q
+q 0.000 g BT 70.87 639.05 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 624.87 Td (Consultation du code source) Tj ET Q
+q 0.000 g BT 70.87 610.70 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 596.53 Td (Les utilisateurs expérimentés peuvent apprendre beaucoup sur certaines fonctions  REBOL) Tj ET Q
+q 0.000 g BT 70.87 582.35 Td (spécifiques, en consultant leur code source. La fonction ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 319.89 582.35 Td (source) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 352.68 582.35 Td ( affiche le  code pour n'importe quelle) Tj ET Q
+q 0.000 g BT 70.87 568.18 Td (fonction REBOL définie. Si vous tapez ceci :) Tj ET Q
+q 0.000 g BT 70.87 554.01 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 540.43 Td ( source join) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 525.66 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 511.49 Td (alors le code ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 130.34 511.49 Td (source) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 163.13 511.49 Td ( de la fonction ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 228.17 511.49 Td (join) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 245.95 511.49 Td ( sera affiché :) Tj ET Q
+q 0.000 g BT 70.87 497.32 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 483.74 Td ( join: func [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 469.57 Td (     "Concatenates values.") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 455.40 Td (     value "Base value") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 441.22 Td (     rest "Value or block of values") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 427.05 Td ( ][) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 412.88 Td (     value: either series? value [copy value] [form value]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 398.70 Td (     repend value rest) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 384.53 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 369.76 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 355.58 Td (Les fonctions pré-définies REBOL comprennent les fonctions mezzanine \(fonctions  internes) Tj ET Q
+q 0.000 g BT 70.87 341.41 Td (implémentées en REBOL\), et des fonctions définies par l'utilisateur.  Les fonctions natives sont des) Tj ET Q
+q 0.000 g BT 70.87 327.24 Td (fonctions internes implémentées en code machine,  et leurs codes source ne peuvent être affichées.) Tj ET Q
+q 0.000 g BT 70.87 313.06 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 298.89 Td (Téléchargement de documentation) Tj ET Q
+q 0.000 g BT 70.87 284.72 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 270.54 Td (Vous disposez sur le ) Tj ET Q
+q 0.000 0.000 1.000 rg BT 165.91 270.54 Td (site Web de REBOL) Tj ET 165.91 269.54 89.48 -0.50 re f Q
+q 0.000 g BT 255.39 270.54 Td ( \(http://www.rebol.com/\) d'un ensemble de  documentations) Tj ET Q
+q 0.000 g BT 70.87 256.37 Td (actualisées.) Tj ET Q
+q 0.000 g BT 70.87 242.20 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 228.02 Td (En supplément de ce manuel, il existe un Dictionnaire REBOL qui couvre tous les  mots pré-définis) Tj ET Q
+q 0.000 g BT 70.87 213.85 Td (existants en REBOL. Si l'aide en ligne ou ce guide ne donnent pas  assez d'information sur un mot) Tj ET Q
+q 0.000 g BT 70.87 199.68 Td (REBOL, regardez dans le dictionnaire pour  une description détaillée.  Le dictionnaire est mis à jour à) Tj ET Q
+q 0.000 g BT 70.87 185.50 Td (chaque version de REBOL et se trouve disponible  sur le site Web : ) Tj ET Q
+q 0.000 0.000 1.000 rg BT 70.87 171.33 Td (http://www.REBOL.com/docs/dictionary.html) Tj ET 70.87 170.33 196.17 -0.50 re f Q
+q 0.000 g BT 70.87 157.16 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 142.98 Td (Bibliothèque de scripts) Tj ET Q
+q 0.000 g BT 70.87 128.81 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 114.64 Td (Le site Web REBOL contient une bibliothèque de scripts avec de nombreux exemples  couvrant une) Tj ET Q
+q 0.000 g BT 70.87 100.46 Td (large variété de sujets. La bibliothèque est divisée en catégories pour  rendre plus facile la recherche) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 501.28 45.79 Td (Page 19/22) Tj ET Q
+
+endstream
+endobj
+41 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 774.61 257.57 764.61] /Border [0 0 0] /A <</S /URI /URI (http://www.REBOL.com/library/library.html)>>>><</Type /Annot /Subtype /Link /Rect [312.63 703.74 425.59 693.74] /Border [0 0 0] /A <</S /URI /URI (rebol-request@rebol.com)>>>><</Type /Annot /Subtype /Link /Rect [264.87 462.80 308.78 452.80] /Border [0 0 0] /A <</S /URI /URI (http://www.rebol.com/feedback.html)>>>><</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 42 0 R>>
+endobj
+42 0 obj
+<</Length 7372>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (Manuel de l'utilisateur - Chapitre 2 - Les Opérations) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td (d'un script spécifique à une fonction donnée.  Vous pouvez également chercher dans la bibliothèque) Tj ET Q
+q 0.000 g BT 70.87 780.78 Td (des scripts qui contiennent un  mot particulier.  La bibliothèque de scripts peut être trouvée sur le site :) Tj ET Q
+q 0.000 0.000 1.000 rg BT 70.87 766.61 Td (http://www.REBOL.com/library/library.html) Tj ET 70.87 765.61 186.70 -0.50 re f Q
+q 0.000 g BT 70.87 752.43 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 738.26 Td (La Mailing liste) Tj ET Q
+q 0.000 g BT 70.87 724.09 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 709.91 Td (Il est possible d'obtenir aussi de l'aide de la communauté des utilisateurs REBOL  en rejoignant la liste) Tj ET Q
+q 0.000 g BT 70.87 695.74 Td (de discussion. Pour vous inscrire, envoyer un email à  ) Tj ET Q
+q 0.000 0.000 1.000 rg BT 312.63 695.74 Td (rebol-request@rebol.com) Tj ET 312.63 694.74 112.96 -0.50 re f Q
+q 0.000 g BT 425.59 695.74 Td ( avec comme sujet) Tj ET Q
+q 0.000 g BT 70.87 681.57 Td (juste  le mot ") Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 131.11 681.57 Td (subscribe) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 178.35 681.57 Td (". Par exemple :) Tj ET Q
+q 0.000 g BT 70.87 667.39 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 653.82 Td ( send rebol-request@rebol.com "subscribe") Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 639.05 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 624.87 Td (Vérifiez au préalable que votre adresse email est bien correctement paramétrée avec  la fonction ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 610.70 Td (set-net) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 103.65 610.70 Td (.) Tj ET Q
+q 0.000 g BT 70.87 596.53 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 582.35 Td (Nous contacter) Tj ET Q
+q 0.000 g BT 70.87 568.18 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 554.01 Td (Nous souhaitons savoir ce que vous pensez ; merci de nous contacter pour :) Tj ET Q
+q 0.000 g BT 79.04 525.66 Td (•) Tj ET Q
+q 0.000 g BT 90.71 525.66 Td (Les rapports concernant les problèmes, bugs, crashs.) Tj ET Q
+q 0.000 g BT 79.04 511.49 Td (•) Tj ET Q
+q 0.000 g BT 90.71 511.49 Td (Nous dire comment vous utilisez REBOL) Tj ET Q
+q 0.000 g BT 79.04 497.32 Td (•) Tj ET Q
+q 0.000 g BT 90.71 497.32 Td (Faire des suggestions) Tj ET Q
+q 0.000 g BT 79.04 483.14 Td (•) Tj ET Q
+q 0.000 g BT 90.71 483.14 Td (Obtenir plus d'informations concernant nos produits) Tj ET Q
+q 0.000 g BT 70.87 454.80 Td (Vous pouvez nous contacter via la page de ) Tj ET Q
+q 0.000 0.000 1.000 rg BT 264.87 454.80 Td (Feedback) Tj ET 264.87 453.80 43.91 -0.50 re f Q
+q 0.000 g BT 308.78 454.80 Td ( sur notre site Web.) Tj ET Q
+q 0.000 g BT 70.87 440.62 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 396.90 Td (Erreurs) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 383.93 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 369.76 Td (Messages d'erreur) Tj ET Q
+q 0.000 g BT 70.87 355.58 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 341.41 Td (Il existe plusieurs types de messages d'erreur au sein de REBOL. Lorsqu'une erreur  se produit, un) Tj ET Q
+q 0.000 g BT 70.87 327.24 Td (message est affiché qui explique de quelle erreur il s'agit, et  approximativement, où elle s'est) Tj ET Q
+q 0.000 g BT 70.87 313.06 Td (produite. Par exemple, si vous saisissez :) Tj ET Q
+q 0.000 g BT 70.87 298.89 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 285.32 Td ( abc) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 271.14 Td ( ** Script Error: abc has no value.) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 256.97 Td ( ** Where: abc) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 242.20 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 228.02 Td (Le type d'erreur est indiqué par les premiers mots du message. Dans l'exemple  ci-dessus, l'erreur est) Tj ET Q
+q 0.000 g BT 70.87 213.85 Td (du type "Script Error". Les erreurs de script sont les plus communes  et se produisent quand vous) Tj ET Q
+q 0.000 g BT 70.87 199.68 Td (utilisez improprement une fonction du langage ou avec  des arguments incorrects. D'autres types) Tj ET Q
+q 0.000 g BT 70.87 185.50 Td (d'erreurs sont décrits dans le tableau ci-dessous sur ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 304.54 185.50 Td (Types d'Erreur) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 374.72 185.50 Td (.) Tj ET Q
+q 0.000 g BT 70.87 171.33 Td ( ) Tj ET Q
+q 0.000 g BT 76.48 171.33 Td ( ) Tj ET Q
+q 0.000 g BT 79.26 171.33 Td ( 					) Tj ET Q
+q 0.000 g BT 95.94 171.33 Td ( ) Tj ET Q
+q 0.000 g BT 98.72 171.33 Td ( ) Tj ET Q
+q 0.000 g BT 101.50 171.33 Td ( ) Tj ET Q
+q 0.000 g BT 104.28 171.33 Td ( ) Tj ET Q
+q 0.000 g BT 107.06 171.33 Td ( ) Tj ET Q
+q 0.000 g BT 109.84 171.33 Td ( ) Tj ET Q
+q 0.000 g BT 112.62 171.33 Td ( ) Tj ET Q
+q 0.000 g BT 115.40 171.33 Td ( ) Tj ET Q
+q 0.000 g BT 118.18 171.33 Td ( ) Tj ET Q
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F5 8.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F5 8.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F1 7.00 Tf ET
+BT /F5 7.00 Tf ET
+BT /F1 7.00 Tf ET
+BT /F5 7.00 Tf ET
+BT /F1 7.00 Tf ET
+BT /F1 6.00 Tf ET
+BT /F5 6.00 Tf ET
+BT /F1 6.00 Tf ET
+BT /F5 6.00 Tf ET
+BT /F1 6.00 Tf ET
+BT /F1 5.00 Tf ET
+BT /F5 5.00 Tf ET
+BT /F1 5.00 Tf ET
+BT /F5 5.00 Tf ET
+BT /F1 5.00 Tf ET
+BT /F1 4.00 Tf ET
+BT /F5 4.00 Tf ET
+BT /F1 4.00 Tf ET
+BT /F5 4.00 Tf ET
+BT /F1 4.00 Tf ET
+BT /F5 4.00 Tf ET
+1.000 1.000 0.000 rg
+107.70 181.42 72.52 -14.17 re B q 0.000 g BT 110.53 173.13 Td ( Type d'erreur ) Tj ET Q
+BT /F1 4.00 Tf ET
+1.000 g
+BT /F5 4.00 Tf ET
+1.000 1.000 0.000 rg
+180.22 181.42 307.37 -14.17 re B q 0.000 g BT 183.05 173.13 Td (Description ) Tj ET Q
+BT /F1 4.00 Tf ET
+1.000 g
+0.902 0.902 0.902 rg
+107.70 167.24 72.52 -14.17 re B q 0.000 g BT 110.53 158.96 Td ( Syntax errors \(Erreur de syntaxe\) ) Tj ET Q
+180.22 167.24 307.37 -14.17 re B q 0.000 g BT 183.05 158.96 Td (Se produit lorsqu'un script contient une valeur invalide, ou un en-tête manquant, ou des crochets, accolades, parenthèses, ou guillemets non appariés. ) Tj ET Q
+107.70 153.07 72.52 -14.17 re S q 0.000 g BT 110.53 144.78 Td ( Math errors \(Erreur Mathématique\) ) Tj ET Q
+180.22 153.07 307.37 -14.17 re S q 0.000 g BT 183.05 144.78 Td (Survient quand un nombre est divisé par zéro ou qu'un dépassement de capacité se produit. ) Tj ET Q
+0.902 0.902 0.902 rg
+107.70 138.90 72.52 -14.17 re B q 0.000 g BT 110.53 130.61 Td ( Access errors \(Erreur d'accés\) ) Tj ET Q
+180.22 138.90 307.37 -14.17 re B q 0.000 g BT 183.05 130.61 Td (Se produit lorsqu'un accés à un fichier, un répertoire ou une opération ne peuvent être réalisés, ou que des restrictions d'accés existent. ) Tj ET Q
+107.70 124.72 72.52 -14.17 re S q 0.000 g BT 110.53 116.44 Td ( Throw errors ) Tj ET Q
+180.22 124.72 307.37 -14.17 re S q 0.000 g BT 183.05 116.44 Td (Survient quand un break, exit, ou un throw est utilisé de façon incorrecte. ) Tj ET Q
+0.902 0.902 0.902 rg
+107.70 110.55 72.52 -14.17 re B q 0.000 g BT 110.53 102.26 Td ( User errors \(Erreurs Utilisateur\) ) Tj ET Q
+180.22 110.55 307.37 -14.17 re B q 0.000 g BT 183.05 102.26 Td (Sont définies par l'utilisateur dans un script. ) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 501.28 45.79 Td (Page 20/22) Tj ET Q
+
+endstream
+endobj
+43 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 264.37 164.23 254.37] /Border [0 0 0] /A <</S /URI /URI (http://www.rebol.com)>>>><</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 44 0 R>>
+endobj
+44 0 obj
+<</Length 4935>>
+stream
+2 J
+0.85 w
+BT /F1 4.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (Manuel de l'utilisateur - Chapitre 2 - Les Opérations) Tj ET Q
+BT /F1 4.00 Tf ET
+107.70 805.04 72.52 -14.17 re S q 0.000 g BT 110.53 796.75 Td ( Internal errors \(Erreurs internes\) ) Tj ET Q
+180.22 805.04 307.37 -14.17 re S q 0.000 g BT 183.05 796.75 Td (Elles surviennent lorsqu'un problème se produit dans l'interpréteur REBOL. Si vous rencontrez l'une de ces erreurs, merci de nous en informer via la page de Feedback. ) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 780.78 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 766.61 Td (La plupart des types d'erreur peuvent être capturées et traitées dans votre script. Voir le chapitre sur) Tj ET Q
+q 0.000 g BT 70.87 752.43 Td (les Expressions, Section "Test de Bloc" pour une description de la fonction ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 403.68 752.43 Td (try) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 416.46 752.43 Td (.) Tj ET Q
+q 0.000 g BT 70.87 738.26 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 724.09 Td (L'Annexe consacrée aux Erreurs inclut aussi des informations utiles concernant les erreurs.) Tj ET Q
+q 0.000 g BT 70.87 709.91 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 695.74 Td (Redirection des erreurs) Tj ET Q
+q 0.000 g BT 70.87 681.57 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 667.39 Td (Quand des erreurs sont rencontrées dans des sessions non interactives, comme celles  en mode CGI) Tj ET Q
+q 0.000 g BT 70.87 653.22 Td (\(-c ou &mdash;cgi\), ou en mode sans fenêtre \(-w ou &mdash;nowindow \), la session  se termine) Tj ET Q
+q 0.000 g BT 70.87 639.05 Td (automatiquement.) Tj ET Q
+q 0.000 g BT 70.87 624.87 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 610.70 Td (Si un script se termine durant son exécution en mode non interactif, il vous est possible de rediriger ) Tj ET Q
+q 0.000 g BT 70.87 596.53 Td (les erreurs rencontrées vers un fichier.) Tj ET Q
+q 0.000 g BT 70.87 582.35 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 568.18 Td (Quand des erreurs sont rencontrées en mode non interactif, comme avec :) Tj ET Q
+q 0.000 g BT 70.87 554.01 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 540.43 Td ( REBOL -cs my_script.r >> my_script.log) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 525.66 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 511.49 Td (Comme pour la plupart des systèmes d'exploitation, ici, la sortie standard est  redirigée vers le fichier ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 70.87 497.32 Td (my_script.log) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 129.77 497.32 Td (.) Tj ET Q
+q 0.000 g BT 70.87 483.14 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 439.42 Td (Mise à jour) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 426.45 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 412.28 Td (Au démarrage, une bannière est affichée qui identifie la version du programme. Les numéros de) Tj ET Q
+q 0.000 g BT 70.87 398.10 Td (version ont le format :) Tj ET Q
+q 0.000 g BT 70.87 383.93 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 370.36 Td ( version.revision.update.platform.variation) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 355.58 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 341.41 Td (Par exemple, le numéro de version :) Tj ET Q
+q 0.000 g BT 70.87 327.24 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 313.66 Td ( 2.3.0.3.1) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 298.89 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 284.72 Td (indique que vous avez une version 2, revision 3, update 0, pour Windows 95/98/NT \(plate-forme) Tj ET Q
+q 0.000 g BT 70.87 270.54 Td (REBOL numéro 3.1\).  Une liste de tous les identifiants des plate-formes est disponible sur ) Tj ET Q
+q 0.000 0.000 1.000 rg BT 70.87 256.37 Td (http://www.rebol.com) Tj ET 70.87 255.37 93.36 -0.50 re f Q
+q 0.000 g BT 164.23 256.37 Td (.) Tj ET Q
+q 0.000 g BT 70.87 242.20 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 228.02 Td (Vous pouvez également obtenir le numéro de votre version en tapant en ligne de commande :) Tj ET Q
+q 0.000 g BT 70.87 213.85 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 200.28 Td ( print system/version) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 185.50 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 171.33 Td (Seule la dernière version est supportée par REBOL Technologies.  Vous pouvez vérifier que vous) Tj ET Q
+q 0.000 g BT 70.87 157.16 Td (avez la dernière version et automatiquement effectuer une  mise à jour si nécessaire.  Pour cela,) Tj ET Q
+q 0.000 g BT 70.87 142.98 Td (vérifiez que vous pouvez vous connecter à Internet, et depuis la console,  saisissez :) Tj ET Q
+q 0.000 g BT 70.87 128.81 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 115.24 Td ( upgrade) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 100.46 Td ( ) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 501.28 45.79 Td (Page 21/22) Tj ET Q
+
+endstream
+endobj
+45 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 46 0 R>>
+endobj
+46 0 obj
+<</Length 1725>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (Manuel de l'utilisateur - Chapitre 2 - Les Opérations) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td (REBOL vous retournera l'un ou l'autre des messages suivants \(par exemple\)  concernant votre) Tj ET Q
+q 0.000 g BT 70.87 780.78 Td (version :) Tj ET Q
+q 0.000 g BT 70.87 766.61 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 753.03 Td ( This copy of Windows 95/98/NT iX86 REBOL/core 2.3.0.3.1) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 738.86 Td ( is currently up to date.) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 724.09 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 709.91 Td (ou :) Tj ET Q
+q 0.000 g BT 70.87 695.74 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 682.17 Td ( This copy of Windows 95/98/NT iX86 REBOL/core 2.1.2.3.1) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 667.99 Td ( is not up to date. Current version is: 2.3.0.3.1.) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 653.82 Td ( Download current version?) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 639.65 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 625.47 Td ( To upgrade to the latest version, type Y \(yes\). Otherwise, type) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 611.30 Td ( N \(no\).) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 596.53 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 582.35 Td (Updated 7-Apr-2005 - Copyright REBOL Technologies - Formatted with MakeDoc2 ) Tj ET Q
+q 0.000 g BT 70.87 568.18 Td (Translated by Philippe Le Goff ) Tj ET Q
+BT /F6 8.00 Tf ET
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 501.28 45.79 Td (Page 22/22) Tj ET Q
+
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R 27 0 R 29 0 R 31 0 R 33 0 R 35 0 R 37 0 R 39 0 R 41 0 R 43 0 R 45 0 R ]
+/Count 22
+/MediaBox [0 0 595.28 841.89]
+>>
+endobj
+47 0 obj
+<</Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+48 0 obj
+<</Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+49 0 obj
+<</Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+50 0 obj
+<</Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+51 0 obj
+<</Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+52 0 obj
+<</Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+53 0 obj
+<</Type /Font
+/BaseFont /Helvetica-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 47 0 R
+/F2 48 0 R
+/F3 49 0 R
+/F4 50 0 R
+/F5 51 0 R
+/F6 52 0 R
+/F7 53 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+54 0 obj
+<<
+/Producer (FPDF 1.53)
+/Title (Manuel de l'utilisateur - Chapitre 2 - Les Opérations)
+/Subject (Manuels)
+/Author (Philippe Le Goff )
+/Keywords (DOCUMENTATION)
+/Creator (The REBOL Documentation Project)
+/CreationDate (D:20051225062204)
+>>
+endobj
+55 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 56
+0000000000 65535 f 
+0000113927 00000 n 
+0000114864 00000 n 
+0000000009 00000 n 
+0000000222 00000 n 
+0000001871 00000 n 
+0000002084 00000 n 
+0000007953 00000 n 
+0000008166 00000 n 
+0000013908 00000 n 
+0000014122 00000 n 
+0000019603 00000 n 
+0000019818 00000 n 
+0000025000 00000 n 
+0000025215 00000 n 
+0000030214 00000 n 
+0000030429 00000 n 
+0000036832 00000 n 
+0000037047 00000 n 
+0000042094 00000 n 
+0000042309 00000 n 
+0000047404 00000 n 
+0000047619 00000 n 
+0000051963 00000 n 
+0000052178 00000 n 
+0000056745 00000 n 
+0000056960 00000 n 
+0000063335 00000 n 
+0000063550 00000 n 
+0000068291 00000 n 
+0000068506 00000 n 
+0000073253 00000 n 
+0000073468 00000 n 
+0000077865 00000 n 
+0000078080 00000 n 
+0000083044 00000 n 
+0000083259 00000 n 
+0000088278 00000 n 
+0000088493 00000 n 
+0000092958 00000 n 
+0000093446 00000 n 
+0000098557 00000 n 
+0000099187 00000 n 
+0000106610 00000 n 
+0000106950 00000 n 
+0000111936 00000 n 
+0000112151 00000 n 
+0000114159 00000 n 
+0000114256 00000 n 
+0000114351 00000 n 
+0000114449 00000 n 
+0000114548 00000 n 
+0000114650 00000 n 
+0000114755 00000 n 
+0000115035 00000 n 
+0000115291 00000 n 
+trailer
+<<
+/Size 56
+/Root 55 0 R
+/Info 54 0 R
+>>
+startxref
+115395
+%%EOF

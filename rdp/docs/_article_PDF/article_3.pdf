@@ -1,0 +1,237 @@
+%PDF-1.3
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 4 0 R>>
+endobj
+4 0 obj
+<</Length 937>>
+stream
+2 J
+0.57 w
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (RDP FAQ) Tj ET Q
+0.57 w
+BT /F2 26.00 Tf ET
+q 0.502 g BT 118.24 656.92 Td (The REBOL Documentation) Tj ET Q
+q 0.502 g BT 243.04 631.41 Td (Project) Tj ET Q
+BT /F1 8.00 Tf ET
+q 0.502 g BT 261.19 616.97 Td (-- FR - Information --) Tj ET Q
+0.85 w
+BT /F2 20.00 Tf ET
+q 0.502 g BT 73.70 423.45 Td (Information) Tj ET Q
+BT /F3 22.00 Tf ET
+297.64 436.54 m 297.64 413.86 l S q 0.000 g BT 300.47 418.60 Td (RDP FAQ) Tj ET Q
+297.64 413.86 m 297.64 391.18 l S 
+BT /F4 16.00 Tf ET
+297.64 391.18 m 297.64 374.17 l S q 0.000 g BT 451.35 377.88 Td (REBOLtof) Tj ET Q
+BT /F4 12.00 Tf ET
+297.64 374.17 m 297.64 357.17 l S q 0.000 g BT 431.58 362.07 Td ( lundi 7 mars 2005) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F5 8.00 Tf ET
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 1/2) Tj ET Q
+
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 683.90 107.60 673.90] /Border [0 0 0] /A <</S /URI /URI (http://www.rebol.com)>>>><</Type /Annot /Subtype /Link /Rect [73.70 655.55 107.60 645.55] /Border [0 0 0] /A <</S /URI /URI (http://www.rebol.com)>>>><</Type /Annot /Subtype /Link /Rect [418.55 471.30 452.45 461.30] /Border [0 0 0] /A <</S /URI /URI (http://www.rebol.com)>>>><</Type /Annot /Subtype /Link /Rect [136.75 386.26 210.37 376.26] /Border [0 0 0] /A <</S /URI /URI (article.php3?id_article=8)>>>><</Type /Annot /Subtype /Link /Rect [215.93 386.26 302.09 376.26] /Border [0 0 0] /A <</S /URI /URI (article.php3?id_article=9)>>>><</Type /Annot /Subtype /Link /Rect [307.65 386.26 328.21 376.26] /Border [0 0 0] /A <</S /URI /URI (article.php3?id_article=13)>>>><</Type /Annot /Subtype /Link /Rect [333.77 386.26 421.03 376.26] /Border [0 0 0] /A <</S /URI /URI (article.php3?id_article=6)>>>><</Type /Annot /Subtype /Link /Rect [110.62 244.53 192.88 234.53] /Border [0 0 0] /A <</S /URI /URI (article.php3?id_article=10)>>>><</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 6 0 R>>
+endobj
+6 0 obj
+<</Length 4930>>
+stream
+2 J
+0.85 w
+BT /F4 12.00 Tf ET
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (RDP FAQ) Tj ET Q
+BT /F4 12.00 Tf ET
+BT /F6 10.00 Tf ET
+q 0.000 g BT 73.70 794.95 Td (Vous trouverez dans ce document les questions les plus couramment posées.) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 746.76 Td ( ) Tj ET Q
+q 0.000 g BT 76.48 746.76 Td (Le REBOL Documentation Project : encore un autre projet ... ?) Tj ET Q
+q 0.000 g BT 73.70 732.59 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 718.42 Td (Ben oui ...) Tj ET Q
+q 0.000 g BT 73.70 704.24 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 690.07 Td (A la petite nuance prêt que l'idée principale de ce projet-ci est d'aider le langage de programmation ) Tj ET Q
+q 0.000 0.000 1.000 rg BT 73.70 675.90 Td (REBOL) Tj ET 73.70 674.90 33.90 -0.50 re f Q
+q 0.000 g BT 107.60 675.90 Td ( de sortir de l'ombre...) Tj ET Q
+q 0.000 g BT 73.70 661.72 Td ( ) Tj ET Q
+q 0.000 0.000 1.000 rg BT 73.70 647.55 Td (REBOL) Tj ET 73.70 646.55 33.90 -0.50 re f Q
+q 0.000 g BT 107.60 647.55 Td ( est un excellent langage, mais il n'existe que peu de documentation disponible. Et celle-ci) Tj ET Q
+q 0.000 g BT 73.70 633.38 Td (est bien souvent dispersée aux quatres coins de la planète dans des sites perso que seuls les initiés) Tj ET Q
+q 0.000 g BT 73.70 619.20 Td (connaissent :-\() Tj ET Q
+q 0.000 g BT 73.70 605.03 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 590.86 Td (Nous avons pour but de répertorier et de référencer ) Tj ET Q
+q 0.000 g BT 304.92 590.86 Td (ici) Tj ET Q
+q 0.000 g BT 314.36 590.86 Td ( ces sites et la documentation qu'ils) Tj ET Q
+q 0.000 g BT 73.70 576.69 Td (contiennent.) Tj ET Q
+q 0.000 g BT 73.70 562.51 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 548.34 Td (Un concept qui reste flou, un tutorial super dont on se rappelle vaguement l'existence mais dont on) Tj ET Q
+q 0.000 g BT 73.70 534.17 Td (ne sait plus où on l'avais vu ? ... Un petit tour sur le site du REBOL Documentation Project, une) Tj ET Q
+q 0.000 g BT 73.70 519.99 Td (recherche à l'aide du moteur de recherche, et hop, c'est trouvé...) Tj ET Q
+q 0.000 g BT 73.70 505.82 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 491.65 Td (Pourquoi inciter les gens à publier de la nouvelle doc sur ce site ?) Tj ET Q
+q 0.000 g BT 73.70 477.47 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 463.30 Td (Nous souhaitons tout d'abord inciter les personnes intéressées à documenter ) Tj ET Q
+q 0.000 0.000 1.000 rg BT 418.55 463.30 Td (REBOL) Tj ET 418.55 462.30 33.90 -0.50 re f Q
+q 0.000 g BT 452.45 463.30 Td (.) Tj ET Q
+q 0.000 g BT 73.70 449.13 Td (L'emplacement où cette documentation est publiée est accessoire.) Tj ET Q
+q 0.000 g BT 73.70 434.95 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 420.78 Td (Cependant, certains hésitent encore... A quoi bon travailler des jours durant à produire un document) Tj ET Q
+q 0.000 g BT 73.70 406.61 Td (de qualité si personne ne le lit ? Ainsi, nous souhaitons aider ces auteurs en fournissant une ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 484.47 406.61 Td (visibilité) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 392.43 Td (à leurs travaux. Et afin de faciliter le travail de rédaction, nous fournissons également un support à) Tj ET Q
+q 0.000 g BT 73.70 378.26 Td (l'effort fourni : ) Tj ET Q
+q 0.000 0.000 1.000 rg BT 136.75 378.26 Td (guide de l'auteur) Tj ET 136.75 377.26 73.62 -0.50 re f Q
+q 0.000 g BT 210.37 378.26 Td (, ) Tj ET Q
+q 0.000 0.000 1.000 rg BT 215.93 378.26 Td (guide du traducteur) Tj ET 215.93 377.26 86.16 -0.50 re f Q
+q 0.000 g BT 302.09 378.26 Td (, ) Tj ET Q
+q 0.000 0.000 1.000 rg BT 307.65 378.26 Td (CVS) Tj ET 307.65 377.26 20.56 -0.50 re f Q
+q 0.000 g BT 328.21 378.26 Td (, ) Tj ET Q
+q 0.000 0.000 1.000 rg BT 333.77 378.26 Td (comité de rédaction) Tj ET 333.77 377.26 87.26 -0.50 re f Q
+q 0.000 g BT 421.03 378.26 Td ( comme aide à la) Tj ET Q
+q 0.000 g BT 73.70 364.09 Td (rédaction et garant de la qualité ...) Tj ET Q
+q 0.000 g BT 73.70 349.91 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 335.74 Td (Je viens de parcourir le site, et je n'ai pas trouvé beaucoup de contenu ...) Tj ET Q
+q 0.000 g BT 73.70 321.57 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 307.39 Td (Notre projet est encore jeune et doit se construire...) Tj ET Q
+q 0.000 g BT 73.70 293.22 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 279.05 Td (C'est pour cela que nous avons besoin de votre aide, même si vous ne souhaitez pas devenir auteur) Tj ET Q
+q 0.000 g BT 73.70 264.87 Td (de documentation.) Tj ET Q
+q 0.000 g BT 73.70 250.70 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 236.53 Td (L'article ) Tj ET Q
+q 0.000 0.000 1.000 rg BT 110.62 236.53 Td (Contribution / Aide) Tj ET 110.62 235.53 82.26 -0.50 re f Q
+q 0.000 g BT 192.88 236.53 Td ( vous indique les domaines dans lequels votre aide sera vraiment fort) Tj ET Q
+q 0.000 g BT 73.70 222.35 Td (appréciée !) Tj ET Q
+BT /F5 8.00 Tf ET
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 2/2) Tj ET Q
+
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R ]
+/Count 2
+/MediaBox [0 0 595.28 841.89]
+>>
+endobj
+7 0 obj
+<</Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+8 0 obj
+<</Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+9 0 obj
+<</Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+10 0 obj
+<</Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+11 0 obj
+<</Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+12 0 obj
+<</Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+/F6 12 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+13 0 obj
+<<
+/Producer (FPDF 1.53)
+/Title (RDP FAQ)
+/Subject (Information)
+/Author (REBOLtof)
+/Keywords (INFO)
+/Creator (The REBOL Documentation Project)
+/CreationDate (D:20051224003951)
+>>
+endobj
+14 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 15
+0000000000 65535 f 
+0000007434 00000 n 
+0000008120 00000 n 
+0000000009 00000 n 
+0000000222 00000 n 
+0000001208 00000 n 
+0000002454 00000 n 
+0000007527 00000 n 
+0000007623 00000 n 
+0000007717 00000 n 
+0000007814 00000 n 
+0000007913 00000 n 
+0000008018 00000 n 
+0000008277 00000 n 
+0000008473 00000 n 
+trailer
+<<
+/Size 15
+/Root 14 0 R
+/Info 13 0 R
+>>
+startxref
+8577
+%%EOF

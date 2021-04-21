@@ -1,0 +1,1829 @@
+%PDF-1.3
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 4 0 R>>
+endobj
+4 0 obj
+<</Length 1611>>
+stream
+2 J
+0.57 w
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (Rebol : le choix ) Tj ET Q
+0.57 w
+BT /F2 26.00 Tf ET
+q 0.502 g BT 118.24 656.92 Td (The REBOL Documentation) Tj ET Q
+q 0.502 g BT 243.04 631.41 Td (Project) Tj ET Q
+BT /F1 8.00 Tf ET
+q 0.502 g BT 201.17 616.97 Td (-- FR - Documentation REBOL - Articles Techniques --) Tj ET Q
+0.85 w
+BT /F2 20.00 Tf ET
+q 0.502 g BT 73.70 423.45 Td (Articles) Tj ET Q
+q 0.502 g BT 73.70 397.94 Td (Techniques) Tj ET Q
+BT /F3 22.00 Tf ET
+297.64 411.02 m 297.64 388.35 l S q 0.000 g BT 300.47 393.09 Td (Rebol : le choix ) Tj ET Q
+297.64 388.35 m 297.64 365.67 l S 
+BT /F4 16.00 Tf ET
+297.64 365.67 m 297.64 348.66 l S q 0.000 g BT 451.35 352.37 Td (REBOLtof) Tj ET Q
+BT /F4 12.00 Tf ET
+297.64 348.66 m 297.64 331.65 l S q 0.000 g BT 306.91 336.56 Td (Première publication : 14 juillet 2002, et mis) Tj ET Q
+297.64 331.65 m 297.64 314.65 l S q 0.000 g BT 361.94 319.55 Td (en ligne le  mercredi 5 avril 2006) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 73.70 228.02 Td (Résumé :) Tj ET 73.70 227.02 45.01 -0.50 re f Q
+BT /F4 8.00 Tf ET
+q 0.000 g BT 73.70 214.45 Td (Christophe Coussement réalise une étude des avantages et inconvénients de Rebol et le positionne ainsi face aux autres langages de) Tj ET Q
+q 0.000 g BT 73.70 200.28 Td (programmation. Un document à lire avec attention si vous hésitez dans le choix d'une technologie pour vos projets.) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 1/13) Tj ET Q
+
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [93.54 627.20 146.89 617.20] /Border [0 0 0] /A <</S /URI /URI (#1)>>>><</Type /Annot /Subtype /Link /Rect [93.54 613.03 140.80 603.03] /Border [0 0 0] /A <</S /URI /URI (#2)>>>><</Type /Annot /Subtype /Link /Rect [113.39 598.86 375.18 588.86] /Border [0 0 0] /A <</S /URI /URI (#2.1)>>>><</Type /Annot /Subtype /Link /Rect [133.23 584.69 345.56 574.69] /Border [0 0 0] /A <</S /URI /URI (#2.1.1)>>>><</Type /Annot /Subtype /Link /Rect [133.23 570.51 264.41 560.51] /Border [0 0 0] /A <</S /URI /URI (#2.1.2)>>>><</Type /Annot /Subtype /Link /Rect [133.23 556.34 233.27 546.34] /Border [0 0 0] /A <</S /URI /URI (#2.1.3)>>>><</Type /Annot /Subtype /Link /Rect [133.23 542.17 250.51 532.17] /Border [0 0 0] /A <</S /URI /URI (#2.1.4)>>>><</Type /Annot /Subtype /Link /Rect [113.39 513.82 217.89 503.82] /Border [0 0 0] /A <</S /URI /URI (#2.2)>>>><</Type /Annot /Subtype /Link /Rect [133.23 499.65 269.40 489.65] /Border [0 0 0] /A <</S /URI /URI (#2.2.5)>>>><</Type /Annot /Subtype /Link /Rect [133.23 485.47 225.50 475.47] /Border [0 0 0] /A <</S /URI /URI (#2.2.6)>>>><</Type /Annot /Subtype /Link /Rect [133.23 471.30 260.50 461.30] /Border [0 0 0] /A <</S /URI /URI (#2.2.7)>>>><</Type /Annot /Subtype /Link /Rect [133.23 457.13 217.72 447.13] /Border [0 0 0] /A <</S /URI /URI (#2.2.8)>>>><</Type /Annot /Subtype /Link /Rect [133.23 442.95 311.12 432.95] /Border [0 0 0] /A <</S /URI /URI (#2.2.9)>>>><</Type /Annot /Subtype /Link /Rect [133.23 428.78 278.84 418.78] /Border [0 0 0] /A <</S /URI /URI (#2.2.10)>>>><</Type /Annot /Subtype /Link /Rect [133.23 414.61 264.41 404.61] /Border [0 0 0] /A <</S /URI /URI (#2.2.11)>>>><</Type /Annot /Subtype /Link /Rect [133.23 400.43 444.49 390.43] /Border [0 0 0] /A <</S /URI /URI (#2.2.12)>>>><</Type /Annot /Subtype /Link /Rect [133.23 386.26 355.79 376.26] /Border [0 0 0] /A <</S /URI /URI (#2.2.13)>>>><</Type /Annot /Subtype /Link /Rect [133.23 372.09 225.48 362.09] /Border [0 0 0] /A <</S /URI /URI (#2.2.14)>>>><</Type /Annot /Subtype /Link /Rect [133.23 357.91 274.41 347.91] /Border [0 0 0] /A <</S /URI /URI (#2.2.15)>>>><</Type /Annot /Subtype /Link /Rect [133.23 343.74 247.18 333.74] /Border [0 0 0] /A <</S /URI /URI (#2.2.16)>>>><</Type /Annot /Subtype /Link /Rect [133.23 329.57 311.06 319.57] /Border [0 0 0] /A <</S /URI /URI (#2.2.17)>>>><</Type /Annot /Subtype /Link /Rect [133.23 315.39 234.94 305.39] /Border [0 0 0] /A <</S /URI /URI (#2.2.18)>>>><</Type /Annot /Subtype /Link /Rect [93.54 272.87 153.01 262.87] /Border [0 0 0] /A <</S /URI /URI (#3)>>>><</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 6 0 R>>
+endobj
+6 0 obj
+<</Length 8388>>
+stream
+2 J
+0.85 w
+BT /F4 8.00 Tf ET
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (Rebol : le choix ) Tj ET Q
+BT /F4 8.00 Tf ET
+BT /F5 10.00 Tf ET
+q 0.000 g BT 73.70 780.78 Td ( Le choix d'un langage pour le développement d'un projet n'est pas toujours facile. Parfois, ce) Tj ET Q
+q 0.000 g BT 73.70 766.61 Td (langage est imposé par des contraintes du management, parfois par des contraintes) Tj ET Q
+q 0.000 g BT 73.70 752.43 Td (fonctionnelles... Et parfois somme-nous libres de choisir.) Tj ET Q
+q 0.000 g BT 73.70 738.26 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 724.09 Td (Ce document a pour objectif de vous exposer les différentes raisons qui nous ont poussé au) Tj ET Q
+q 0.000 g BT 73.70 709.91 Td (choix de REBOL pour le développement d'une application de Testing Psychotechnique pour) Tj ET Q
+q 0.000 g BT 73.70 695.74 Td (le compte de la Défense Belge.) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 647.55 Td (  ) Tj ET Q
+q 0.000 g BT 73.70 633.38 Td ( ) Tj ET Q
+q 0.000 g BT 93.54 633.38 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 619.20 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 619.20 Td (1 Historique) Tj ET 93.54 618.20 53.35 -0.50 re f Q
+q 0.000 g BT 146.89 619.20 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 605.03 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 605.03 Td (2 Langage) Tj ET 93.54 604.03 47.26 -0.50 re f Q
+q 0.000 g BT 140.80 605.03 Td ( ) Tj ET Q
+q 0.000 g BT 98.88 590.86 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 113.39 590.86 Td (2.1 Scripting Language vs System Programming Language) Tj ET 113.39 589.86 261.79 -0.50 re f Q
+q 0.000 g BT 375.18 590.86 Td ( ) Tj ET Q
+q 0.000 g BT 118.72 576.69 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 133.23 576.69 Td (2.1.1 Evolution des langages de programmation) Tj ET 133.23 575.69 212.33 -0.50 re f Q
+q 0.000 g BT 345.56 576.69 Td ( ) Tj ET Q
+q 0.000 g BT 118.72 562.51 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 133.23 562.51 Td (2.1.2 Analyse des différences) Tj ET 133.23 561.51 131.18 -0.50 re f Q
+q 0.000 g BT 264.41 562.51 Td ( ) Tj ET Q
+q 0.000 g BT 118.72 548.34 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 133.23 548.34 Td (2.1.3 Critères de choix) Tj ET 133.23 547.34 100.04 -0.50 re f Q
+q 0.000 g BT 233.27 548.34 Td ( ) Tj ET Q
+q 0.000 g BT 118.72 534.17 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 133.23 534.17 Td (2.1.4 Justification du choix) Tj ET 133.23 533.17 117.28 -0.50 re f Q
+q 0.000 g BT 250.51 534.17 Td ( ) Tj ET Q
+q 0.000 g BT 113.39 519.99 Td ( ) Tj ET Q
+q 0.000 g BT 98.88 505.82 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 113.39 505.82 Td (2.2 Le choix de REBOL) Tj ET 113.39 504.82 104.50 -0.50 re f Q
+q 0.000 g BT 217.89 505.82 Td ( ) Tj ET Q
+q 0.000 g BT 118.72 491.65 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 133.23 491.65 Td (2.2.5 Documentation / Lisibilité) Tj ET 133.23 490.65 136.17 -0.50 re f Q
+q 0.000 g BT 269.40 491.65 Td ( ) Tj ET Q
+q 0.000 g BT 118.72 477.47 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 133.23 477.47 Td (2.2.6 Moins de Code) Tj ET 133.23 476.47 92.27 -0.50 re f Q
+q 0.000 g BT 225.50 477.47 Td ( ) Tj ET Q
+q 0.000 g BT 118.72 463.30 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 133.23 463.30 Td (2.2.7 Flexibilité et Modularité) Tj ET 133.23 462.30 127.27 -0.50 re f Q
+q 0.000 g BT 260.50 463.30 Td ( ) Tj ET Q
+q 0.000 g BT 118.72 449.13 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 133.23 449.13 Td (2.2.8 Orienté Objet) Tj ET 133.23 448.13 84.49 -0.50 re f Q
+q 0.000 g BT 217.72 449.13 Td ( ) Tj ET Q
+q 0.000 g BT 118.72 434.95 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 133.23 434.95 Td (2.2.9 Excellente capacité de deboguage) Tj ET 133.23 433.95 177.89 -0.50 re f Q
+q 0.000 g BT 311.12 434.95 Td ( ) Tj ET Q
+q 0.000 g BT 118.72 420.78 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 133.23 420.78 Td (2.2.10 Compréhension simplifiée) Tj ET 133.23 419.78 145.61 -0.50 re f Q
+q 0.000 g BT 278.84 420.78 Td ( ) Tj ET Q
+q 0.000 g BT 118.72 406.61 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 133.23 406.61 Td (2.2.11 Développement rapide) Tj ET 133.23 405.61 131.18 -0.50 re f Q
+q 0.000 g BT 264.41 406.61 Td ( ) Tj ET Q
+q 0.000 g BT 118.72 392.43 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 133.23 392.43 Td (2.2.12 Possibilité de créer un dialecte propre au domaine du problème) Tj ET 133.23 391.43 311.26 -0.50 re f Q
+q 0.000 g BT 444.49 392.43 Td ( ) Tj ET Q
+q 0.000 g BT 118.72 378.26 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 133.23 378.26 Td (2.2.13 Compatibilité avec l'environnement existant) Tj ET 133.23 377.26 222.56 -0.50 re f Q
+q 0.000 g BT 355.79 378.26 Td ( ) Tj ET Q
+q 0.000 g BT 118.72 364.09 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 133.23 364.09 Td (2.2.14 Multi-Platform) Tj ET 133.23 363.09 92.25 -0.50 re f Q
+q 0.000 g BT 225.48 364.09 Td ( ) Tj ET Q
+q 0.000 g BT 118.72 349.91 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 133.23 349.91 Td (2.2.15 Excellent support et suivi) Tj ET 133.23 348.91 141.18 -0.50 re f Q
+q 0.000 g BT 274.41 349.91 Td ( ) Tj ET Q
+q 0.000 g BT 118.72 335.74 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 133.23 335.74 Td (2.2.16 Facile à apprendre) Tj ET 133.23 334.74 113.95 -0.50 re f Q
+q 0.000 g BT 247.18 335.74 Td ( ) Tj ET Q
+q 0.000 g BT 118.72 321.57 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 133.23 321.57 Td (2.2.17 Investissement préliminaire limité) Tj ET 133.23 320.57 177.83 -0.50 re f Q
+q 0.000 g BT 311.06 321.57 Td ( ) Tj ET Q
+q 0.000 g BT 118.72 307.39 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 133.23 307.39 Td (2.2.18 Small Foot Print) Tj ET 133.23 306.39 101.71 -0.50 re f Q
+q 0.000 g BT 234.94 307.39 Td ( ) Tj ET Q
+q 0.000 g BT 113.39 293.22 Td ( ) Tj ET Q
+q 0.000 g BT 93.54 279.05 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 264.87 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 264.87 Td (3 Références) Tj ET 93.54 263.87 59.47 -0.50 re f Q
+q 0.000 g BT 153.01 264.87 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 236.53 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 73.70 192.81 Td (1 Historique) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 179.83 Td ( ) Tj ET Q
+q 0.000 g BT 76.48 179.83 Td ( ) Tj ET Q
+q 0.000 g BT 79.26 179.83 Td ( 					) Tj ET Q
+q 0.000 g BT 95.94 179.83 Td ( ) Tj ET Q
+q 0.000 g BT 98.72 179.83 Td ( ) Tj ET Q
+q 0.000 g BT 101.50 179.83 Td ( ) Tj ET Q
+q 0.000 g BT 104.28 179.83 Td ( ) Tj ET Q
+q 0.000 g BT 107.06 179.83 Td ( ) Tj ET Q
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+1.000 1.000 0.000 rg
+94.31 189.92 58.53 -14.17 re B q 0.000 g BT 97.15 180.13 Td ( Date ) Tj ET Q
+BT /F1 9.00 Tf ET
+1.000 g
+BT /F5 9.00 Tf ET
+1.000 1.000 0.000 rg
+152.84 189.92 44.02 -14.17 re B q 0.000 g BT 155.67 180.13 Td (Version ) Tj ET Q
+BT /F1 9.00 Tf ET
+1.000 g
+BT /F5 9.00 Tf ET
+1.000 1.000 0.000 rg
+196.85 189.92 82.03 -14.17 re B q 0.000 g BT 199.69 180.13 Td (Commentaires ) Tj ET Q
+BT /F1 9.00 Tf ET
+1.000 g
+BT /F5 9.00 Tf ET
+1.000 1.000 0.000 rg
+278.89 189.92 107.54 -14.17 re B q 0.000 g BT 281.72 180.13 Td (Auteur ) Tj ET Q
+BT /F1 9.00 Tf ET
+1.000 g
+BT /F5 9.00 Tf ET
+1.000 1.000 0.000 rg
+386.43 189.92 114.54 -14.17 re B q 0.000 g BT 389.26 180.13 Td (Email ) Tj ET Q
+BT /F1 9.00 Tf ET
+1.000 g
+0.902 0.902 0.902 rg
+94.31 175.75 58.53 -14.17 re B q 0.000 g BT 97.15 165.96 Td ( 09-jul-2001 ) Tj ET Q
+152.84 175.75 44.02 -14.17 re B q 0.000 g BT 155.67 165.96 Td (0.2.2 ) Tj ET Q
+196.85 175.75 82.03 -14.17 re B q 0.000 g BT 199.69 165.96 Td (publication initiale ) Tj ET Q
+278.89 175.75 107.54 -14.17 re B q 0.000 g BT 281.72 165.96 Td (Christophe Coussement ) Tj ET Q
+386.43 175.75 114.54 -14.17 re B q 0.000 g BT 389.26 165.96 Td (reboltof-at-yahoo-dot-com ) Tj ET Q
+94.31 161.58 58.53 -14.17 re S q 0.000 g BT 97.15 151.79 Td ( 05-apr-06 ) Tj ET Q
+152.84 161.58 44.02 -14.17 re S q 0.000 g BT 155.67 151.79 Td (1.0 ) Tj ET Q
+196.85 161.58 82.03 -14.17 re S q 0.000 g BT 199.69 151.79 Td (remise à jour ) Tj ET Q
+278.89 161.58 107.54 -14.17 re S q 0.000 g BT 281.72 151.79 Td (Christophe Coussement ) Tj ET Q
+386.43 161.58 114.54 -14.17 re S q 0.000 g BT 389.26 151.79 Td (reboltof-at-yahoo-dot-com ) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 137.32 Td ( ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 93.60 Td (2 Langage) Tj ET Q
+BT /F1 10.00 Tf ET
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 2/13) Tj ET Q
+
+endstream
+endobj
+7 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 8 0 R>>
+endobj
+8 0 obj
+<</Length 6668>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (Rebol : le choix ) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td (   ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 751.23 Td (2.1 Scripting Language vs System Programming Language) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 738.26 Td (   ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 694.54 Td (2.1.1 Evolution des langages de programmation) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 681.57 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 667.39 Td (Afin de mieux saisir les différences entre ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 253.16 667.39 Td (Scripting Languages) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 344.32 667.39 Td ( et ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 358.22 667.39 Td (System Programming Languages) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 506.61 667.39 Td (, il) Tj ET Q
+q 0.000 g BT 70.87 653.22 Td (est important de comprendre l'évolution des langages de programmation.) Tj ET Q
+q 0.000 g BT 70.87 639.05 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 624.87 Td (Les premiers ordinateurs étaient programmés en ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 289.84 624.87 Td (Assembly Languages) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 385.44 624.87 Td (, où chaque aspect de la) Tj ET Q
+q 0.000 g BT 70.87 610.70 Td (machine est reflété dans le code. Ainsi, chaque ligne du programme produit exactement une) Tj ET Q
+q 0.000 g BT 70.87 596.53 Td (instruction de la machine, et les programmeurs devaient traiter des problèmes de détails tels que) Tj ET Q
+q 0.000 g BT 70.87 582.35 Td (l'allocation des registres et les séquences d'appel des procédures. Ce type de programme est) Tj ET Q
+q 0.000 g BT 70.87 568.18 Td (évidement fort difficile à écrire, et encore plus difficile à maintenir...) Tj ET Q
+q 0.000 g BT 70.87 554.01 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 539.83 Td (A la fin des années 50, les premiers langages tels que Lisp, Fortran et Algol sont apparus. Ceux-ci) Tj ET Q
+q 0.000 g BT 70.87 525.66 Td (étaient d'un niveau plus élevés que l') Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 233.67 525.66 Td (Assembly Languages) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 329.27 525.66 Td (, car une ligne de code correspondait à) Tj ET Q
+q 0.000 g BT 70.87 511.49 Td (l'exécution de plusieurs instructions de la machine : un compilateur se chargeait de ce travail de) Tj ET Q
+q 0.000 g BT 70.87 497.32 Td ("traduction".) Tj ET Q
+q 0.000 g BT 70.87 483.14 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 468.97 Td (Avec le temps, le niveau d'abstraction des langages de programmation augmentas, permettant) Tj ET Q
+q 0.000 g BT 70.87 454.80 Td (l'évolution jusqu'à des langages comme PL/1, Pascal, C ou C++, et Java. Ces ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 418.19 454.80 Td (System Programming) Tj ET Q
+q 0.000 g BT 70.87 440.62 Td (Languages) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 120.35 440.62 Td ( sont moins performants que des ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 268.75 440.62 Td (Assembly Languages) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 364.35 440.62 Td (, mais permettent une productivité) Tj ET Q
+q 0.000 g BT 70.87 426.45 Td (supérieure car ils cachent au développeur les détails de l'implémentation.) Tj ET Q
+q 0.000 g BT 70.87 412.28 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 398.10 Td (Les ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 89.77 398.10 Td (System Programming Languages) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 238.16 398.10 Td ( diffèrent des ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 298.75 398.10 Td (Assembly Languages) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 394.35 398.10 Td ( sur deux points : ils sont ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 70.87 383.93 Td (higher level) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 122.00 383.93 Td ( et ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 135.90 383.93 Td (strongly typed) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 198.15 383.93 Td (.) Tj ET Q
+q 0.000 g BT 70.87 369.76 Td ( ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 70.87 355.58 Td (Higher level) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 123.66 355.58 Td ( signifie, comme nous l'avons vu, que le programmeur doit produire moins de code pour) Tj ET Q
+q 0.000 g BT 70.87 341.41 Td (obtenir le même résultat. Certaines études montrent ainsi un ratio de 3-6 entre un ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 434.37 341.41 Td (Assembly) Tj ET Q
+q 0.000 g BT 70.87 327.24 Td (Language) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 115.35 327.24 Td ( et le langage C [JONES].) Tj ET Q
+q 0.000 g BT 70.87 313.06 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 298.89 Td (Plus important, B. Boehm [BOEHM] a relevé qu'un programmeur écrit environ le même nombre de) Tj ET Q
+q 0.000 g BT 70.87 284.72 Td (ligne de code par an, indépendamment du langage utilisé. La relation entre productivité et niveau) Tj ET Q
+q 0.000 g BT 70.87 270.54 Td (d'abstraction du langage est ainsi mise en évidence.) Tj ET Q
+q 0.000 g BT 70.87 256.37 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 242.20 Td (La seconde différence mentionnée concerné le degré de typing du langage : ce degré reflète la) Tj ET Q
+q 0.000 g BT 70.87 228.02 Td (mesure dans laquelle la signification de l'information est spécifiée avant son utilisation. Ainsi que dans) Tj ET Q
+q 0.000 g BT 70.87 213.85 Td (un langage ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 123.13 213.85 Td (weakly typed) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 180.93 213.85 Td (, la signification de l'information n'apparaît qu'au moment où elle est utilisée,) Tj ET Q
+q 0.000 g BT 70.87 199.68 Td (le langage ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 119.79 199.68 Td (strongly typed) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 182.04 199.68 Td ( impose au programmeur de déclarer l'utilisation de chaque information, et) Tj ET Q
+q 0.000 g BT 70.87 185.50 Td (empêche toute utilisation de cette information, autre que celle déclarée.) Tj ET Q
+q 0.000 g BT 70.87 171.33 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 157.16 Td (Le typing offre plusieurs avantages : premièrement, il clarifie les grands programmes en spécifiant) Tj ET Q
+q 0.000 g BT 70.87 142.98 Td (comment l'information doit être utilisée. Deuxièmement, les compilateurs sont en mesure d'utiliser ces) Tj ET Q
+q 0.000 g BT 70.87 128.81 Td (spécifications pour détecter certains types d'erreurs. Troisièmement, cela permet aux compilateurs,) Tj ET Q
+q 0.000 g BT 70.87 114.64 Td (sur base des spécifications, de générer un code machine spécialisé, et donc plus performant.) Tj ET Q
+q 0.000 g BT 70.87 100.46 Td ( ) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 3/13) Tj ET Q
+
+endstream
+endobj
+9 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 10 0 R>>
+endobj
+10 0 obj
+<</Length 6082>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (Rebol : le choix ) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td (Les ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 89.77 794.95 Td (Scripting Languages) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 180.93 794.95 Td (, quant à eux, présupposent l'existence de composants écrits dans d'autres) Tj ET Q
+q 0.000 g BT 70.87 780.78 Td (langages : ils sont prévus pour assembler des composants afin de créer une application. C'est ainsi) Tj ET Q
+q 0.000 g BT 70.87 766.61 Td (que les ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 105.89 766.61 Td (Scripting Languages) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 197.05 766.61 Td ( sont parfois appelés des ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 311.00 766.61 Td (Glue Languages) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 384.38 766.61 Td ( ou ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 401.06 766.61 Td (System Integration) Tj ET Q
+q 0.000 g BT 70.87 752.43 Td (Languages) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 120.35 752.43 Td (.) Tj ET Q
+q 0.000 g BT 70.87 738.26 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 724.09 Td (Afin de simplifier cet assemblage, ces langages tendent à être ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 348.78 724.09 Td (typeless) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 385.46 724.09 Td ( : toute information possède le) Tj ET Q
+q 0.000 g BT 70.87 709.91 Td (même comportement et les mêmes caractéristiques afin d'assurer l'interchangeabilité.) Tj ET Q
+q 0.000 g BT 70.87 695.74 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 681.57 Td (La nature ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 115.90 681.57 Td (strongly typed) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 178.15 681.57 Td ( des ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 199.83 681.57 Td (System Programming Languages) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 348.22 681.57 Td ( décourage la réutilisation de) Tj ET Q
+q 0.000 g BT 70.87 667.39 Td (composants \() Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 130.89 667.39 Td (reuse) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 155.90 667.39 Td (\). Le typing encourage plutôt la création d'interfaces incompatibles \(") Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 458.72 667.39 Td (interfaces are) Tj ET Q
+q 0.000 g BT 70.87 653.22 Td (good, more interfaces are better) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 213.16 653.22 Td ("\), ou devenant compatibles après de nombreuses discussions et) Tj ET Q
+q 0.000 g BT 70.87 639.05 Td (coordinations entre les parties intéressés...) Tj ET Q
+q 0.000 g BT 70.87 624.87 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 581.15 Td (2.1.2 Analyse des différences) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 568.18 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 554.01 Td (Afin de mieux saisir les avantages d'un langage ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 284.55 554.01 Td (weakly typed) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 342.35 554.01 Td (, considérons le code REBOL suivant :) Tj ET Q
+q 0.000 g BT 70.87 539.83 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 526.26 Td ( view layout [button "Hello" font [size: 16 name: "times"] [print "hello"]]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 511.49 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 497.32 Td (Cette commande crée une fenêtre contenant un bouton comportant le texte "Hello" en police "times") Tj ET Q
+q 0.000 g BT 70.87 483.14 Td (de taille "16". En appuyant sur le bouton, le texte "hello" est imprimé dans la console. 6 différents) Tj ET Q
+q 0.000 g BT 70.87 468.97 Td (types d'information sont mixés dans une seule ligne : une fonctions \(print\), un style prédéfini \(button\),) Tj ET Q
+q 0.000 g BT 70.87 454.80 Td (des noms de propriétés \(font, size, name\), des propriétés \("Press", 16, "times"\) qui incluent le nom) Tj ET Q
+q 0.000 g BT 70.87 440.62 Td (d'une police \("times"\) et sa taille en points \(16\), et un script REBOL \(print "Hello"\). L'ensemble de cette) Tj ET Q
+q 0.000 g BT 70.87 426.45 Td (information est compacté en une seule expression.) Tj ET Q
+q 0.000 g BT 70.87 412.28 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 398.10 Td (Le même exemple exige 7 lignes de code et trois méthodes dans une implémentation en Java) Tj ET Q
+q 0.000 g BT 70.87 383.93 Td ([OUSTERHOUT1] :) Tj ET Q
+q 0.000 g BT 70.87 369.76 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 356.18 Td ( // Hello button using awt \(jdk 1.0 compatible\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 342.01 Td ( import java.awt.*;) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 327.84 Td ( public class hello extends java.applet.Applet {     ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 313.66 Td (     public Button hello;) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 299.49 Td ( public void init\(\) {) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 285.32 Td (     hello = new Button\(\);) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 271.14 Td (     hello.setFont\(new Font\("Times", Font.PLAIN, 16\)\);) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 256.97 Td (     hello.setLabel\("hello"\);) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 242.80 Td (     this.add\(hello\);) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 228.62 Td ( }) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 214.45 Td ( public boolean handleEvent\(Event event\) {) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 200.28 Td (     if \(event.target == hello && event.id == event.ACTION_EVENT\) {) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 186.10 Td (         System.out.println\("hello"\);) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 171.93 Td (     } else {) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 157.76 Td (         return super.handleEvent\(event\);) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 143.58 Td (     }) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 129.41 Td (     return true;) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 115.24 Td ( }) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 101.06 Td ( public static void main\(String[] args\) {) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 4/13) Tj ET Q
+
+endstream
+endobj
+11 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 12 0 R>>
+endobj
+12 0 obj
+<</Length 4422>>
+stream
+2 J
+0.85 w
+BT /F2 8.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 70.87 819.05 Td (Rebol : le choix ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 795.55 Td (     Frame f = new Frame\("hello Test"\);) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 781.38 Td (     hello win = new hello\(\);) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 767.21 Td (     win.init\(\);) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 753.03 Td (     f.add\("Center", win\);) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 738.86 Td (     f.pack\(\);) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 724.69 Td (     f.show\(\);) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 710.51 Td ( }) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 696.34 Td ( }) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 681.57 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 667.39 Td (En C++ et Microsoft Foundation Classes \(MFC\), plus de 40 lignes de code et plusieurs procèdures) Tj ET Q
+q 0.000 g BT 70.87 653.22 Td (sont exigées. Le simple fait de changer la police de charactères demande plusieures lignes de code) Tj ET Q
+q 0.000 g BT 70.87 639.05 Td (en MFC, la plupart de ces lignes étant la conséquences directe d'un strong typing [OUSTERHOUT1] :) Tj ET Q
+q 0.000 g BT 70.87 624.87 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 611.30 Td ( // buttonDlg.cpp : implementation file) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 597.13 Td ( //) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 582.95 Td ( #include "stdafx.h") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 568.78 Td ( #include "button3.h") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 554.61 Td ( #include "buttonDlg.h") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 540.43 Td ( #ifdef _DEBUG) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 526.26 Td ( #define new DEBUG_NEW) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 512.09 Td ( #undef THIS_FILE) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 497.92 Td ( static char THIS_FILE[] = __FILE__;) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 483.74 Td ( #endif) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 469.57 Td ( #define IDC_INIGO         100) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 455.40 Td ( /////////////////////////////////////////////////////////////////////////////) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 441.22 Td ( // CButtonDlg dialog) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 427.05 Td ( CButtonDlg::CButtonDlg\(CWnd* pParent /*=NULL*/\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 412.88 Td (     : CDialog\(CButtonDlg::IDD, pParent\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 398.70 Td ( {) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 384.53 Td (       m_pFont = NULL;) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 370.36 Td (       m_pButton = NULL;) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 356.18 Td ( //{{AFX_DATA_INIT\(CButtonDlg\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 342.01 Td ( //}}AFX_DATA_INIT) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 327.84 Td ( }) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 313.66 Td ( BEGIN_MESSAGE_MAP\(CButtonDlg, CDialog\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 299.49 Td (     //{{AFX_MSG_MAP\(CButtonDlg\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 285.32 Td (       ON_BN_CLICKED\(IDC_INIGO, OnInigo\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 271.14 Td (     //}}AFX_MSG_MAP) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 256.97 Td ( END_MESSAGE_MAP\(\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 242.80 Td ( /////////////////////////////////////////////////////////////////////////////) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 228.62 Td ( // CButtonDlg message handlers) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 214.45 Td ( /*) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 200.28 Td (  * button .b -text "My name is Inigo Montoya" -font "times 12" \\) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 186.10 Td (  *      -command {tk_messageBox -message "hello"}) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 171.93 Td (  */) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 157.76 Td ( BOOL CButtonDlg::OnInitDialog\(\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 143.58 Td ( {) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 129.41 Td (     /* ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 115.24 Td (      * Create button widget.) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 101.06 Td (      */) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 5/13) Tj ET Q
+
+endstream
+endobj
+13 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 14 0 R>>
+endobj
+14 0 obj
+<</Length 4629>>
+stream
+2 J
+0.85 w
+BT /F2 8.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 70.87 819.05 Td (Rebol : le choix ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 795.55 Td ( CButton *buttonPtr = new CButton\(\);) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 781.38 Td ( char *text = "My name is Inigo Montoya";) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 767.21 Td ( /* ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 753.03 Td (  * Create "times 12" font.) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 738.86 Td (  */) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 724.69 Td ( CFont *fontPtr = new CFont;) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 710.51 Td ( fontPtr->CreateFont\(16, 0, 0, 0, 700, 0, 0, 0, ANSI_CHARSET,) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 696.34 Td ( OUT_DEFAULT_PRECIS, CLIP_DEFAULT_PRECIS, DEFAULT_QUALITY,) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 682.17 Td ( DEFAULT_PITCH|FF_DONTCARE, "Times New Roman"\);) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 667.99 Td ( /*) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 653.82 Td (  * Measure the text to be displayed so we can request the) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 639.65 Td (  * appropriate sized button.  The padding used below are) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 625.47 Td (  * the same ones as the defaults for buttons under Tk.) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 611.30 Td (  */) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 597.13 Td ( CDC *dcPtr = GetDC\(\);) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 582.95 Td ( fontPtr = dcPtr->SelectObject\(fontPtr\);) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 568.78 Td ( CSize size = dcPtr->GetTextExtent\(text, strlen\(text\)\);) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 554.61 Td ( fontPtr = dcPtr->SelectObject\(fontPtr\);) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 540.43 Td ( ReleaseDC\(dcPtr\);) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 526.26 Td ( size.cx  = 9;) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 512.09 Td ( size.cy  = 9;) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 497.92 Td ( /* ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 483.74 Td (  * Create button window with specified text and size.) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 469.57 Td (  * Set the font before displaying the window.) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 455.40 Td (  */) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 441.22 Td ( buttonPtr->Create\(text, WS_CHILD | WS_TABSTOP, ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 427.05 Td (   CRect\(0, 0, size.cx, size.cy\), this, IDC_INIGO\);) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 412.88 Td ( buttonPtr->SetFont\(fontPtr\);) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 398.70 Td ( /* ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 384.53 Td (  * To place button at a specified position without changing) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 370.36 Td (  * its requested size, do the following:) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 356.18 Td (  */) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 342.01 Td ( buttonPtr->SetWindowPos\(NULL, 20, 30, 0, 0, ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 327.84 Td (     SWP_NOSIZE | SWP_NOZORDER | SWP_SHOWWINDOW\);) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 313.66 Td ( /*) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 299.49 Td (  * Remember the CButton and HFONT we created so that when the) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 285.32 Td (  * main window is destroyed, we can release the resources and ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 271.14 Td (  * free the memory we allocated \(when the button HWND is destroyed, ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 256.97 Td (  * MFC will NOT automatically delete the wrapping CButton widget or) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 242.80 Td (  * free the HFONT it's using\).) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 228.62 Td (  */) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 214.45 Td ( m_pButton = buttonPtr;) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 200.28 Td ( m_pFont = fontPtr;) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 186.10 Td ( return TRUE;) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 171.93 Td ( }) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 157.76 Td ( void CButtonDlg::PostNcDestroy\(\) ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 143.58 Td ( {) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 129.41 Td (       delete m_pFont;) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 115.24 Td (       delete m_pButton;) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 101.06 Td ( CDialog::PostNcDestroy\(\);) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 6/13) Tj ET Q
+
+endstream
+endobj
+15 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 16 0 R>>
+endobj
+16 0 obj
+<</Length 6145>>
+stream
+2 J
+0.85 w
+BT /F2 8.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 70.87 819.05 Td (Rebol : le choix ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 795.55 Td ( }) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 781.38 Td ( void CButtonDlg::OnInigo\(\) ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 767.21 Td ( {) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 753.03 Td (     MessageBox\("hello", "", MB_OK | MB_ICONINFORMATION\);) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 738.86 Td ( }) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 724.09 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 709.91 Td (Certains pourraient objecter que la ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 227.05 709.91 Td (typeless nature) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 294.86 709.91 Td ( des ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 316.54 709.91 Td (Scripting Languages) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 407.70 709.91 Td ( pourraient laisser) Tj ET Q
+q 0.000 g BT 70.87 695.74 Td (certaines erreurs non détectées, mais en pratique, ces langages sont autant protégés que les ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 487.20 695.74 Td (System) Tj ET Q
+q 0.000 g BT 70.87 681.57 Td (Programming Languages) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 183.14 681.57 Td (. La différence est que les ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 300.43 681.57 Td (Scripting Languages) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 391.59 681.57 Td ( effectuent leur ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 460.52 681.57 Td (error checking) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 667.39 Td (au dernier moment possible, à savoir quand l'information est utilisée... Le ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 396.81 667.39 Td (strong typing) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 454.06 667.39 Td ( permet de) Tj ET Q
+q 0.000 g BT 70.87 653.22 Td (détecter les erreurs lors de la compilation, et ainsi le coût d'un check lors du run-time est épargné.) Tj ET Q
+q 0.000 g BT 70.87 639.05 Td (Toutefois, le prix à payer pour cette efficacité se retrouve dans les restrictions imposées à l'utilisation) Tj ET Q
+q 0.000 g BT 70.87 624.87 Td (de l'information, ce qui implique concrètement plus de code et moins de flexibilité.) Tj ET Q
+q 0.000 g BT 70.87 610.70 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 596.53 Td (Une autre différence fondamentale entre ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 253.19 596.53 Td (Scripting Languages) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 344.35 596.53 Td ( et ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 358.25 596.53 Td (System Programming Languages) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 506.64 596.53 Td ( et) Tj ET Q
+q 0.000 g BT 70.87 582.35 Td (que les premiers sont généralement interprétés et les derniers, compilés. Les ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 415.45 582.35 Td (Scripting Languages) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 568.18 Td (permettent d'éliminer le temps nécessaire à la compilation et sont plus flexibles car ils permettent le) Tj ET Q
+q 0.000 g BT 70.87 554.01 Td (développement durant le run-time. Les ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 244.84 554.01 Td (Scripting Languages) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 336.00 554.01 Td ( sont cependant moins efficaces que les ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 70.87 539.83 Td (System Programming Languages) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 219.26 539.83 Td ( en partie parce qu'ils utilisent un interpréteur, mais également parce) Tj ET Q
+q 0.000 g BT 70.87 525.66 Td (que leurs composants ont été choisis en fonction de leur puissance et de leur simplicité d'emploi plutôt) Tj ET Q
+q 0.000 g BT 70.87 511.49 Td (que pour leur excellente intégration avec le hardware sous-jacent.) Tj ET Q
+q 0.000 g BT 70.87 497.32 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 483.14 Td (La puissance d'un ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 153.94 483.14 Td (Scripting Language) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 240.10 483.14 Td ( dépend donc fortement de la puissance de ses composants,) Tj ET Q
+q 0.000 g BT 70.87 468.97 Td (qui sont typiquement implémentés dans un ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 263.74 468.97 Td (System Programming Languages) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 412.13 468.97 Td (...) Tj ET Q
+q 0.000 g BT 70.87 454.80 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 440.62 Td (Les ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 89.77 440.62 Td (Scripting Languages) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 180.93 440.62 Td ( peuvent être considérés d'un niveau supérieur aux ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 410.18 440.62 Td (System Programming) Tj ET Q
+q 0.000 g BT 70.87 426.45 Td (Languages) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 120.35 426.45 Td ( par leur plus haut niveau d'abstraction. Un ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 312.91 426.45 Td (statement) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 356.82 426.45 Td ( typique d'un ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 415.99 426.45 Td (Scripting Language) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 412.28 Td (exécute des centaines voire des milliers d'instructions machines, alors qu'en moyenne, un ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 471.52 412.28 Td (statement) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 398.10 Td (d'un ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 92.24 398.10 Td (System Programming Languages) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 240.63 398.10 Td ( n'exécute que 5 instructions machine...) Tj ET Q
+q 0.000 g BT 70.87 383.93 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 369.76 Td (Cette différence apparaît clairement sur le graphe ci-dessous, mettant en relation le niveau) Tj ET Q
+q 0.000 g BT 70.87 355.58 Td (d'abstraction du langage \(ratio instructions/statement et le niveau de typing.) Tj ET Q
+q 0.000 g BT 70.87 341.41 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 313.06 Td ( ) Tj ET Q
+q 0.000 g BT 73.65 313.06 Td ( ) Tj ET Q
+q 265.59 0 0 213.89 170.40 109.26 cm /I1 Do Q
+q 0.000 g BT 70.87 99.17 Td (  ) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 7/13) Tj ET Q
+
+endstream
+endobj
+17 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 18 0 R>>
+endobj
+18 0 obj
+<</Length 6392>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (Rebol : le choix ) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td (fig 1. Level/Typing Relation) Tj ET Q
+q 0.000 g BT 70.87 780.78 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 752.43 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 738.26 Td (Veuillez remarquer que REBOL ne présente pas de limite supérieure à son niveau d'abstraction. Ce) Tj ET Q
+q 0.000 g BT 70.87 724.09 Td (point sera discuté infra en 2.2.12.) Tj ET Q
+q 0.000 g BT 70.87 709.91 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 695.74 Td (Différentes études [OUSTERHOUT2] portant sur l'implémentation de versions ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 417.90 695.74 Td (Scripting Languages) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 509.06 695.74 Td ( et ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 70.87 681.57 Td (System Programming Languages) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 219.26 681.57 Td ( de certains softwares mettent en évidence un code ratio de 2 à 60) Tj ET Q
+q 0.000 g BT 70.87 667.39 Td (en faveur du premier \(2 à 60 fois plus de lignes de codes sont nécessaires pour l'implémentation de) Tj ET Q
+q 0.000 g BT 70.87 653.22 Td (fonctionnalités semblables\).) Tj ET Q
+q 0.000 g BT 70.87 639.05 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 624.87 Td (De cet aperçu, nous ne pouvons cependant pas conclure la supériorité d'un type de langage sur) Tj ET Q
+q 0.000 g BT 70.87 610.70 Td (l'autre, mais plutôt leur spécialisation pour certains types de tâches.) Tj ET Q
+q 0.000 g BT 70.87 596.53 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 582.35 Td (Ainsi, pour le ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 131.45 582.35 Td (gluing) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 158.13 582.35 Td ( et le ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 182.59 582.35 Td (system integration) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 263.73 582.35 Td (, les ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 284.85 582.35 Td (Scripting Languages) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 376.01 582.35 Td ( permettent un développement) Tj ET Q
+q 0.000 g BT 70.87 568.18 Td (de 5-10x plus rapide ; par contre, le ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 230.95 568.18 Td (strong typing) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 288.20 568.18 Td ( facilite la gestion d'implémentations exigeant des) Tj ET Q
+q 0.000 g BT 70.87 554.01 Td (structures de données et des algorithmes complexes. Si la vitesse d'exécution est fondamentale, un ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 70.87 539.83 Td (System Programming Language) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 214.26 539.83 Td ( tourne de 10-20x plus rapidement qu'un ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 396.27 539.83 Td (Scripting Language) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 525.66 Td (.Cependant, avec l'évolution constante et rapide des performances du hardware, cette dernière) Tj ET Q
+q 0.000 g BT 70.87 511.49 Td (considération n'est plus toujours d'actualité...) Tj ET Q
+q 0.000 g BT 70.87 497.32 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 453.60 Td (2.1.3 Critères de choix) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 440.62 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 426.45 Td (Ayant ainsi défini les spécificités de chacun des types de langages, nous pouvons établir des critères) Tj ET Q
+q 0.000 g BT 70.87 412.28 Td (destinés à orienter notre choix pour le développement d'un projet.) Tj ET Q
+q 0.000 g BT 70.87 398.10 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 383.93 Td (Une réponse positive à ces différentes questions suggérerait qu'un ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 369.04 383.93 Td (Scripting Language) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 455.20 383.93 Td ( est le meilleur) Tj ET Q
+q 0.000 g BT 70.87 369.76 Td (choix pour l'implémentation : ) Tj ET Q
+q 7.56 0 0 10.39 70.87 357.87 cm /I2 Do Q
+q 0.000 g BT 82.20 355.58 Td (  La tâche principale de l'application est-elle de connecter différents composants ? ) Tj ET Q
+q 7.56 0 0 10.39 70.87 343.70 cm /I2 Do Q
+q 0.000 g BT 82.20 341.41 Td (  L'application devra-t-elle manipuler des informations de diverses natures et origines ? ) Tj ET Q
+q 7.56 0 0 10.39 70.87 329.53 cm /I2 Do Q
+q 0.000 g BT 82.20 327.24 Td (  L'application comprend-t-elle un GUI \(Graphical User Interface\) ? ) Tj ET Q
+q 7.56 0 0 10.39 70.87 315.35 cm /I2 Do Q
+q 0.000 g BT 82.20 313.06 Td (  L'application doit-elle manipuler beaucoup d'information sous forme de strings ? ) Tj ET Q
+q 7.56 0 0 10.39 70.87 301.18 cm /I2 Do Q
+q 0.000 g BT 82.20 298.89 Td (  L'application devra-t-elle évoluer rapidement dans le temps ? ) Tj ET Q
+q 7.56 0 0 10.39 70.87 287.01 cm /I2 Do Q
+q 0.000 g BT 82.20 284.72 Td (  L'application doit-elle être facilement extensible ?) Tj ET Q
+q 0.000 g BT 70.87 270.54 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 256.37 Td (En revanche, une majorité de réponses positives aux questions suivantes suggère l'emploi d'un ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 70.87 242.20 Td (System Programming Language) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 214.26 242.20 Td ( : ) Tj ET Q
+q 7.56 0 0 10.39 70.87 230.32 cm /I2 Do Q
+q 0.000 g BT 82.20 228.02 Td (  L'application implémente-t-elle des structures de données et des algorithmes complexes ? ) Tj ET Q
+q 7.56 0 0 10.39 70.87 216.14 cm /I2 Do Q
+q 0.000 g BT 82.20 213.85 Td (  L'application manipule-t-elle de large set de données \(p.e. les pixels d'une image\) de telle manière) Tj ET Q
+q 0.000 g BT 70.87 199.68 Td (que la vitesse d'exécution est primordiale ? ) Tj ET Q
+q 7.56 0 0 10.39 70.87 187.80 cm /I2 Do Q
+q 0.000 g BT 82.20 185.50 Td (  Toutes les fonctions de l'application sont-elles bien définies et évoluent-t-elles lentement ?) Tj ET Q
+q 0.000 g BT 70.87 171.33 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 127.61 Td (2.1.4 Justification du choix) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 114.64 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 100.46 Td (Les points discutés ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 158.69 100.46 Td (supra) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 183.70 100.46 Td ( nous permettent de conclure à la supériorité d'un ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 405.72 100.46 Td (Scripting Language) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 491.88 100.46 Td ( pour) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 8/13) Tj ET Q
+
+endstream
+endobj
+19 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 20 0 R>>
+endobj
+20 0 obj
+<</Length 4322>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (Rebol : le choix ) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td (l'implémentation de notre projet.) Tj ET Q
+q 0.000 g BT 70.87 780.78 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 766.61 Td (Le choix reste cependant vaste entre les différents Tcl/Tk, Ruby, Oz, Visual Basic, Perl, PHP et ...) Tj ET Q
+q 0.000 g BT 70.87 752.43 Td (REBOL existants.) Tj ET Q
+q 0.000 g BT 70.87 738.26 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 724.09 Td (Après une rapide analyse des possibilités de chacun des langages, notre choix s'est porté sur ce) Tj ET Q
+q 0.000 g BT 70.87 709.91 Td (dernier pour les raisons exposées ci-après.) Tj ET Q
+q 0.000 g BT 70.87 695.74 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 652.02 Td (2.2 Le choix de REBOL) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 639.05 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 624.87 Td (REBOL \(Relative Expression Based Object Language\) est un ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 345.44 624.87 Td (Scripting Language) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 431.60 624.87 Td ( orienté-object, mis) Tj ET Q
+q 0.000 g BT 70.87 610.70 Td (au point par le développeur de l'OS Amiga : Carl Sassenrath.) Tj ET Q
+q 0.000 g BT 70.87 596.53 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 582.35 Td (Ce langage présente une série d'avantages qui assurent un grand confort d'emploi et une productivité) Tj ET Q
+q 0.000 g BT 70.87 568.18 Td (supérieure :) Tj ET Q
+q 0.000 g BT 70.87 554.01 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 510.29 Td (2.2.5 Documentation / Lisibilité) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 497.32 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 483.14 Td (La majorité des fonctions de REBOL sont appelées par des mots non ambigus, tels que "loop" ou) Tj ET Q
+q 0.000 g BT 70.87 468.97 Td ("read" ou "select" et la plupart de ces fonctions disposent de spécialisations \(refinement\) qui apportent) Tj ET Q
+q 0.000 g BT 70.87 454.80 Td (des fonctionnalités supplémentaires, facile à appréhender \(write/append, parse/all, ...\). D'autres mots) Tj ET Q
+q 0.000 g BT 70.87 440.62 Td (créés par le développeur peuvent être nommés quasiment sans limitation : "branchement" ou) Tj ET Q
+q 0.000 g BT 70.87 426.45 Td ("résultats-brut-du-candidat".) Tj ET Q
+q 0.000 g BT 70.87 412.28 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 398.10 Td (La fonction d'assignement utilise le double point au lieu du signe d'égalité, afin d'éviter la confusion) Tj ET Q
+q 0.000 g BT 70.87 383.93 Td (avec la fonction de comparaison.) Tj ET Q
+q 0.000 g BT 70.87 369.76 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 355.58 Td (Le code produit est donc très lisible, sans pour autant devoir passer par une production extensive de) Tj ET Q
+q 0.000 g BT 70.87 341.41 Td (commentaires.) Tj ET Q
+q 0.000 g BT 70.87 327.24 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 283.52 Td (2.2.6 Moins de Code) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 270.54 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 256.37 Td (Ainsi que montré au point 3 précèdent, REBOL est un langage de haut niveau et se caractérise par la) Tj ET Q
+q 0.000 g BT 70.87 242.20 Td (compacité de son code.) Tj ET Q
+q 0.000 g BT 70.87 228.02 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 213.85 Td (Une ligne de code suffit bien souvent à l'exécution de tâches complexes :) Tj ET Q
+q 0.000 g BT 70.87 199.68 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 186.10 Td ( >> send bob@foo.net "Ceci est un mail!") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 171.93 Td ( >> write %file.txt "J'écris dans un fichier") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 157.76 Td ( >> view layout [text "Hello" [print "Mouse is left clicked] ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 143.58 Td (       [print "Mouse is right clicked]]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 129.41 Td (   \(crée une fenêtre contenant le texte "Hello"; les clicks sur ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 115.24 Td (      les boutons gauches et droit de la souris imprime dans la ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 101.06 Td (      console les textes respectivement prévus\)) Tj ET Q
+BT /F1 10.00 Tf ET
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 9/13) Tj ET Q
+
+endstream
+endobj
+21 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 22 0 R>>
+endobj
+22 0 obj
+<</Length 4152>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (Rebol : le choix ) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 780.78 Td (Et l'écriture d'un serveur simple web fonctionnel nécessite moins d'une dizaine de lignes de code !) Tj ET Q
+q 0.000 g BT 70.87 766.61 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 753.03 Td ( p: open/lines tcp://:80 ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 738.86 Td ( forever [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 724.69 Td (     attempt [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 710.51 Td (     s: length? b: read/binary to-file next pick parse pick c: p/1 1 none 2 ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 696.34 Td (     write-io c ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 682.17 Td (     b: rejoin [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 667.99 Td (         #{}"HTTP/1.0 200 OK^M^JServer: Rebol^M^J) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 653.82 Td (         Content-length: "s"^M^JContent-type: text/html^M^J^M^J"b] ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 639.65 Td (         length? b close c) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 625.47 Td (     ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 611.30 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 596.53 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 552.81 Td (2.2.7 Flexibilité et Modularité) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 539.83 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 525.66 Td (La nature flexible et modulaire de REBOL simplifie la coopération entre développeurs.) Tj ET Q
+q 0.000 g BT 70.87 511.49 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 497.32 Td (L'interface entre les programmes en est le meilleur exemple : si un programmeur doit développer une) Tj ET Q
+q 0.000 g BT 70.87 483.14 Td (fonction qui doit effectuer un parsing d'un Web Site et en extraire tous les links, cette description suffit) Tj ET Q
+q 0.000 g BT 70.87 468.97 Td (à lui définir sa mission, même s'il n'est qu'un ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 270.00 468.97 Td (junior programmer) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 351.68 468.97 Td (.) Tj ET Q
+q 0.000 g BT 70.87 454.80 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 440.62 Td (La plupart des autres langages nécessiteraient une discussion sur le format de l'url, la manière dont) Tj ET Q
+q 0.000 g BT 70.87 426.45 Td (celle-ci serait transmise, ainsi que d'autres considérations sur la liste qui serait retournée...) Tj ET Q
+q 0.000 g BT 70.87 412.28 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 368.56 Td (2.2.8 Orienté Objet) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 355.58 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 341.41 Td (REBOL supporte les concepts OO tels que encapsulation, information hiding, polymorphisme,) Tj ET Q
+q 0.000 g BT 70.87 327.24 Td (inheritence.) Tj ET Q
+q 0.000 g BT 70.87 313.06 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 298.89 Td (Le multiple inheritence n'existe pas en REBOL, mais, de notre propre expérience, son champ) Tj ET Q
+q 0.000 g BT 70.87 284.72 Td (d'application est fort limité.) Tj ET Q
+q 0.000 g BT 70.87 270.54 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 226.82 Td (2.2.9 Excellente capacité de deboguage) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 213.85 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 199.68 Td (Comme REBOL peut être utilisé en temps que console, les différentes parties du programme sont) Tj ET Q
+q 0.000 g BT 70.87 185.50 Td (deboguables manuellement. Chaque morceau de code est testable extensivement en console avant) Tj ET Q
+q 0.000 g BT 70.87 171.33 Td (d'être intégré dans le script.) Tj ET Q
+q 0.000 g BT 70.87 157.16 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 142.98 Td (Chaque mot de REBOL est auto documenté, y compris les mots définis par le développeur :) Tj ET Q
+q 0.000 g BT 70.87 128.81 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 115.24 Td ( >> ? print) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 101.06 Td ( USAGE:) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 501.28 45.79 Td (Page 10/13) Tj ET Q
+
+endstream
+endobj
+23 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 24 0 R>>
+endobj
+24 0 obj
+<</Length 4687>>
+stream
+2 J
+0.85 w
+BT /F2 8.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 70.87 819.05 Td (Rebol : le choix ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 795.55 Td (     PRINT value) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 781.38 Td ( DESCRIPTION:) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 767.21 Td (      Outputs a value followed by a line break.) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 753.03 Td (      PRINT is a native value.) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 738.86 Td ( ARGUMENTS:) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 724.69 Td (      value -- The value to print \(Type: any\)) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 709.91 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 695.74 Td (Etant donné sa modularité, la recherche des bogues est grandement simplifiée, chaque partie du code) Tj ET Q
+q 0.000 g BT 70.87 681.57 Td (pouvant être isolée et testée séparément.) Tj ET Q
+q 0.000 g BT 70.87 667.39 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 623.67 Td (2.2.10 Compréhension simplifiée) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 610.70 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 596.53 Td (Comme REBOL utilise moins de lignes de code, est auto documenté et est facile à lire, cela implique) Tj ET Q
+q 0.000 g BT 70.87 582.35 Td (que la compréhension d'un programme est grandement simplifiée.) Tj ET Q
+q 0.000 g BT 70.87 568.18 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 554.01 Td (Quand un programmeur se "perd" dans son programme, il n'est plus productif. L'architecture) Tj ET Q
+q 0.000 g BT 70.87 539.83 Td (modulaire et flexible de REBOL aide le programmeur à garder ses lignes de réflexion en lui permettant) Tj ET Q
+q 0.000 g BT 70.87 525.66 Td (de diviser son code en morceaux facilement compréhensibles.) Tj ET Q
+q 0.000 g BT 70.87 511.49 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 467.77 Td (2.2.11 Développement rapide) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 454.80 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 440.62 Td (Alors que les points abordés jusqu'ici permettent d'économiser du budget, ils contribuent également à) Tj ET Q
+q 0.000 g BT 70.87 426.45 Td (réduire le temps de développement d'un produit et en facilitent sa maintenance, même par des) Tj ET Q
+q 0.000 g BT 70.87 412.28 Td (personnes n'ayant pas été impliquées dans le développement original.) Tj ET Q
+q 0.000 g BT 70.87 398.10 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 354.38 Td (2.2.12 Possibilité de créer un dialecte propre au domaine du) Tj ET Q
+q 0.000 g BT 70.87 340.21 Td (problème) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 327.24 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 313.06 Td (En définissant son propre vocabulaire au sein du contexte de développement et en utilisant les) Tj ET Q
+q 0.000 g BT 70.87 298.89 Td (fonctions de parsing très puissantes de REBOL, le développeur est en mesure de créer son propre) Tj ET Q
+q 0.000 g BT 70.87 284.72 Td (dialecte, propre au domaine du problème en question.  L'utilisation du code suivant est tout à fait) Tj ET Q
+q 0.000 g BT 70.87 270.54 Td (envisageable :) Tj ET Q
+q 0.000 g BT 70.87 256.37 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 242.80 Td ( [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 228.62 Td (     sélectionner résultats cpi de "Jo Foo") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 214.45 Td (     si score élevé Do et Sy alors leadership extravertis) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 200.28 Td (     si score élevé Re et score bas Cs alors doux sincère consciencieux) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 186.10 Td (     génère profile) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 171.93 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 157.16 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 142.98 Td (Dans le cadre de la discussion sur le niveau d'abstraction d'un langage, abordée ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 429.87 142.98 Td (supra) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 454.88 142.98 Td (, REBOL cadre) Tj ET Q
+q 0.000 g BT 70.87 128.81 Td (dans une classe particulière de langages appelés ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 292.65 128.81 Td (extensible languages) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 386.59 128.81 Td (. La possibilité d'étendre le) Tj ET Q
+q 0.000 g BT 70.87 114.64 Td (vocabulaire utilisé en définissant de nouveaux mots permet d'étendre indéfiniment le niveau) Tj ET Q
+q 0.000 g BT 70.87 100.46 Td (d'abstraction du langage, chaque nouveau mot pouvant lui-même servir à la définition d'autres mots,) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 501.28 45.79 Td (Page 11/13) Tj ET Q
+
+endstream
+endobj
+25 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 26 0 R>>
+endobj
+26 0 obj
+<</Length 4223>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (Rebol : le choix ) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td (etc... La limite théorique de cette évolution étant bien entendu la capacité physique du hardware.) Tj ET Q
+q 0.000 g BT 70.87 780.78 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 766.61 Td (Cette particularité explique la forme en parabole du domaine de représentation du langage sur la fig 1.) Tj ET Q
+q 0.000 g BT 70.87 752.43 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 708.71 Td (2.2.13 Compatibilité avec l'environnement existant) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 695.74 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 681.57 Td (Bien que le produit soit suffisant pour le développement d'application, il offre la possibilité d'interfacer) Tj ET Q
+q 0.000 g BT 70.87 667.39 Td (avec les DBMS existants \(directement pour MySQL et Oracle - apd ver 2.0 de REBOL/Command -, et) Tj ET Q
+q 0.000 g BT 70.87 653.22 Td (via ODBC pour les autres\) et d'utiliser toutes les bibliothèques de fonctions de Microsoft Fondation) Tj ET Q
+q 0.000 g BT 70.87 639.05 Td (Classes ou de Unix.) Tj ET Q
+q 0.000 g BT 70.87 624.87 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 581.15 Td (2.2.14 Multi-Platform) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 568.18 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 554.01 Td (Les systèmes d'exploitation vont et viennent. Unix, Apple, OS/2, Windows, BeOS, Amiga, BSD,) Tj ET Q
+q 0.000 g BT 70.87 539.83 Td (OS/400, QNX Neutrino et SUN/Solaris ne sont que quelques exemples parmi les centaines d'OS de) Tj ET Q
+q 0.000 g BT 70.87 525.66 Td (qualité existants !) Tj ET Q
+q 0.000 g BT 70.87 511.49 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 497.32 Td (Rien ne garanti que MS Windows restera l'OS de référence au sein des entreprises et) Tj ET Q
+q 0.000 g BT 70.87 483.14 Td (administrations...) Tj ET Q
+q 0.000 g BT 70.87 468.97 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 454.80 Td (Il est donc sage de développer en utilisant des ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 279.32 454.80 Td (cross-platform tools) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 366.56 454.80 Td ( afin d'étendre la durée de vie du) Tj ET Q
+q 0.000 g BT 70.87 440.62 Td (software, sans qu'un portage soit nécessaire. Actuellement, REBOL est disponible sous 42 OS, et) Tj ET Q
+q 0.000 g BT 70.87 426.45 Td (existe sous forme expérimentale sous 92 autres.) Tj ET Q
+q 0.000 g BT 70.87 412.28 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 368.56 Td (2.2.15 Excellent support et suivi) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 355.58 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 341.41 Td (A contrario d'autres langages apparus récemment, REBOL est maintenu par une entreprise) Tj ET Q
+q 0.000 g BT 70.87 327.24 Td (professionnelle \(REBOL Technologies\) qui assure le support et le développement du produit.) Tj ET Q
+q 0.000 g BT 70.87 313.06 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 298.89 Td (La mailing list présente sur Internet propose des conseils et de l'aide quasi on-line, et les meilleurs) Tj ET Q
+q 0.000 g BT 70.87 284.72 Td (spécialistes au niveau mondial y sont directement consultables.) Tj ET Q
+q 0.000 g BT 70.87 270.54 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 226.82 Td (2.2.16 Facile à apprendre) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 213.85 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 199.68 Td (Le temps d'apprentissage est extrêmement réduit : un néophyte en programmation est opérationnel) Tj ET Q
+q 0.000 g BT 70.87 185.50 Td (en moins d'un mois d'étude personnelle.) Tj ET Q
+q 0.000 g BT 70.87 171.33 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 157.16 Td (Sans aucune connaissance préalable du produit, notre projet a été développé en quelques mois par 2) Tj ET Q
+q 0.000 g BT 70.87 142.98 Td (personnes. La mission N'aurait PAS été accomplie si un produit tel que PowerBuilder ou Java aurait) Tj ET Q
+q 0.000 g BT 70.87 128.81 Td (été utilisé \(même avec nos expériences précédentes en PowerBuilder\).) Tj ET Q
+q 0.000 g BT 70.87 114.64 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 501.28 45.79 Td (Page 12/13) Tj ET Q
+
+endstream
+endobj
+27 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 28 0 R>>
+endobj
+28 0 obj
+<</Length 3565>>
+stream
+2 J
+0.85 w
+BT /F5 14.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 70.87 819.05 Td (Rebol : le choix ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 793.75 Td (2.2.17 Investissement préliminaire limité) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 780.78 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 766.61 Td (Les versions /Core et /View de REBOL sont et resteront disponibles gratuitement.) Tj ET Q
+q 0.000 g BT 70.87 752.43 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 738.26 Td (Les versions professionnelles sont mises en vente à des prix très concurrentiels : 349$ pour la version) Tj ET Q
+q 0.000 g BT 70.87 724.09 Td (/Command, 249$ pour le SDK, permettant entre autres la production d'exécutables. Ces prix sont à) Tj ET Q
+q 0.000 g BT 70.87 709.91 Td (mettre en parallèle avec les quelques 2500 ? que coûte PowerBuilder par licence, et avec les cours) Tj ET Q
+q 0.000 g BT 70.87 695.74 Td (indispensables à la compréhension du produit, facturés à 400 ? par jour !) Tj ET Q
+q 0.000 g BT 70.87 681.57 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 637.85 Td (2.2.18 Small Foot Print) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 624.87 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 610.70 Td (Bien que le pris du Megabyte aie fortement chuté ces dernières annèes, il reste néanmoins que les) Tj ET Q
+q 0.000 g BT 70.87 596.53 Td (applications "monstres" que nous connaissons - quelques centaines de MB n'est pas une exception -) Tj ET Q
+q 0.000 g BT 70.87 582.35 Td (exigent de plus en plus de RAM et de place sur le HD.) Tj ET Q
+q 0.000 g BT 70.87 568.18 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 554.01 Td (A des fins de comparaison, l'ensemble des scripts de notre projet, y comprit l'interpréteur encapsulé) Tj ET Q
+q 0.000 g BT 70.87 539.83 Td (en exécutable \(250 KB\), prend moins de 600 KB ...) Tj ET Q
+q 0.000 g BT 70.87 525.66 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 481.94 Td (3 Références) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 468.97 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 454.80 Td ([BOEHM]) Tj ET Q
+q 0.000 g BT 113.10 454.80 Td ( : ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 121.44 454.80 Td (Software Engineering Economics, Barry Boehm, Englewood Cliffs, NJ : Prentice-Hall) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 440.62 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 426.45 Td ([JONES]) Tj ET Q
+q 0.000 g BT 109.77 426.45 Td ( : ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 118.11 426.45 Td (C. Jones, "Programming Languages Table, Release 8.2", March 1996,) Tj ET Q
+q 0.000 g BT 70.87 412.28 Td (http://www.spr.com/library/0langtbl.htm) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 398.10 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 383.93 Td ([OUSTERHOUT1]) Tj ET Q
+q 0.000 g BT 151.99 383.93 Td ( : ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 160.33 383.93 Td (John Ousterhout, Additional Information for Scripting White Paper,) Tj ET Q
+q 0.000 g BT 70.87 369.76 Td (http://home.pacbell.net/ouster/scriptextra.html) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 355.58 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 341.41 Td ([OUSTERHOUT2]) Tj ET Q
+q 0.000 g BT 151.99 341.41 Td ( : ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 160.33 341.41 Td (John Ousterhout, Scripting : Higher Level Programming for the 21st Century, Sun) Tj ET Q
+q 0.000 g BT 70.87 327.24 Td (Microsystems, Inc., in : IEEE Computer magazine, March 1998) Tj ET Q
+BT /F1 10.00 Tf ET
+BT /F6 8.00 Tf ET
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 501.28 45.79 Td (Page 13/13) Tj ET Q
+
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R 27 0 R ]
+/Count 13
+/MediaBox [0 0 595.28 841.89]
+>>
+endobj
+29 0 obj
+<</Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+30 0 obj
+<</Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+31 0 obj
+<</Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+32 0 obj
+<</Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+33 0 obj
+<</Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+34 0 obj
+<</Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+35 0 obj
+<</Type /XObject
+/Subtype /Image
+/Width 488
+/Height 393
+/ColorSpace /DeviceRGB
+/BitsPerComponent 8
+/Filter /DCTDecode
+/Length 57218>>
+stream
+ÿØÿà JFIF  ` `  ÿÛ „ 
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ÿÀ ‰è! ÿÄ¢          	
+       	
+   } !1AQa"q2‘¡#B±ÁRÑğ$3br‚	
+%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyzƒ„…†‡ˆ‰Š’“”•–—˜™š¢£¤¥¦§¨©ª²³´µ¶·¸¹ºÂÃÄÅÆÇÈÉÊÒÓÔÕÖ×ØÙÚáâãäåæçèéêñòóôõö÷øùú  w !1AQaq"2B‘¡±Á	#3RğbrÑ
+$4á%ñ&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz‚ƒ„…†‡ˆ‰Š’“”•–—˜™š¢£¤¥¦§¨©ª²³´µ¶·¸¹ºÂÃÄÅÆÇÈÉÊÒÓÔÕÖ×ØÙÚâãäåæçèéêòóôõö÷øùúÿÚ   ? ıä¢¿';Š ( Š ( ûÍWJÓµ&ÏPÔ´û½zé¬tÈ..)5¥‚[–†b²{k‰Š ,#†WÆÔb4( ¢€
+( ¢€
+( ¢€
+( ¢€
+( ¢€
+( ¢€
+( ¢€
+( ¢€
+( ¢€
+( ¢€
+( ¢€
+( ¢€
+( ¯Áº ıä¢€
+( ¢€
+( ¢€?¿à£¿µÆ£ğ/ş
+-û%èeî¿g¤øU_ˆ¾/‚ÏLÓîµ4»§›FZµÁİöŸ°ÂARaAöÈ?˜ªğ~Ê×¡ˆ¡áhTŠÖ\×ù;/é­ç”PE PE PE PE PE PE PE PE PE PE PE P_ƒtûÉE PE PE ~LşÖ¿ğO¯ƒ??à ?~"x“Äß¬u¯ş4Okğiº­­‡„u;˜ZÍd²‘ÒBú˜c#Ê¥d›
+¥ÇúoğûÁzWÃo€¾øw¡Ïu¢x@Ó|9§Ï|è÷SZØÛGmLÈˆ!H”±TU,NGĞÄfUkP†IrÆÖµï¢·Ğ•Î¾ŠóÊ
+( ¢€
+( ¢€
+( ¢€
+( ¢€
+( ¢€
+( ¢€
+( ¢€
+( ¢€
+( ¢€
+( ¢€
+( ¢€
+( ¯Áº ıä¢€
+( ¢€
+( ¢€<ãüœ?ì¥ÿ eOQÿ Ô'ÅUï´ Q@ Q@ Q@ Q@ Q@ Q@ Q@ Q@ Q@ Q@ Q@ Q@ Wàİ ~òQ@x—Å_šWÃMÃ®‡âïëÚÿ …´Ëë;R(ü9¦kZÕ¶‰¥3dE¸¸d‚k©!˜FM½åÅ¦øjÚ¬i'nf—õ·İ×d&ì®_ñ‡ÄAñFO |0ğ–ã?ézUŸˆ5¨üAâü=¥é]Ü×6ÖdİCc{,×7XŞˆâŠİ‘RÎá¦–Ü›dºëüãM+âÃ[_é6÷ö1=Õş›yc|ˆ—Zf¥aw5…ıœŞ[¼M%½åµÅ»<2K´E¢’XÙ$hp"’–½¬ÿ =½}U¯ªAäZ7Ç]SPÓ¼-ãËßéö~ İi^ñ\zóÏ¬\¶­<6º=ÕîöE¶W×éGwqs¼³k«[@nşÂk?uM;NñO,¼§ßü	ø{u«Ùx£ÅrkÏ±lÚDóZëVZ7Ù]YXÜ[Ü$­%İ½Ì‚Îñ­mnÀ´ûwD°ŠÓ—*Õ;¯´­u£z+­tÒöM¤šLßÖş&øÆãâWˆôO†?tÿ Z|:º‚ËÆ3^xh—Q^Ëi¢¶D2[Iõè±º¶˜ıªm>Óuİ¬bì·Ú¾ÇéŞñF…ã…Şñ§…ï¿´ü3âı*Ï[Ò/<™`û]…Ô+=¼¾\ª²&èäFÚê¬3‚Vu0î0R×¥ö²æWµÖë]•¶gübÿ “‡ı”¿ì©ê?ú„øª½ö¹ÆPE PE PE PE PE PE PE PE PE PE PE PE ø7@¼”P^ûIÉ¼xsşÊŸÂŸıM´:ëÀ½Rÿ 4L¶f½â¿|&ı½<kã‰Ş$Ğ>ø+Çğ~…¢øƒÄ„~—wªiZˆ®/,ÍÜÌ°År!Õ¬¥)YtûCB%[[“ÿ Àø¦>XÚø›ş)«ÿ xûÇºÆa«ÿ  ßjÚ®¿¬ëÖ(-fÛ2\¶—'ÚÕÑg…Ra,q¼2ª`éIAT{?Oë×µ×uwä|çáWJ¿ı‚?g¿ÙÆËRÓî¾:ü;ºøIkâÇp‡XğêøkWÑ¯5‹›Ø3›{(íôÛ‰"¼“mµØ’ÌZËpomç‰µ]+Oı‚?h?ÙÆ÷RÓí~:üCºø·káÉp‹¬x‰|K«ë7š=Í”ÍÅ”–ú•¼’ŞGºÚĞGx.¥·6WbßÓÆEÕn0[ÊsWÒñ—-¶ÓFü’mÙ"c¡ëÚO|ğoöøõÄßiş»ø‘ãM?Ä¾´¼b×^0²_èzSG¤Ai5Ñ}¦\ÀlmV[°ÏjL!o-Lş›û>ø_]ğ?ìğGÁ~(±şËñ/„<á­W³ó¢›ì—ÖštO™4o¶Hİw#2œd0k<LÓ£}m/gmŸ,eoG %©ÀşÑW(´ø›û0\x/FĞ5ÿ ÇñNóìvŞ±>c>|â'›w¥Ü‘mŒ».Ûy72ª‹®ÿ ü$_µıß€_øxµ¿şe+”hµûÉ4ü¢ŸşÜ¿"µèğ‘~Ô_ôG~áâÖÿ ù”¯}©«JŞÎMú¤¿&ÿ @WêVC
+( ¢€
+( ¢€
+( ¢€
+( ¢€
+( ¢€
+( ªŞïñöVß!ïİ×îñŒµëÚ¾G‹x§ûê¹öŸZÄÒÃü\¼¾×›ßøeÍËËğé{üHÚ…iÍ­¬›û†[j1Ük6k)·Î‘†ÁÚxíÏOéOµ¾KJîİcdû+mÜz7$Ø9çğ5äeş!ĞÅTT–Iız®[ÊÒ§
+“UŒ[q’„y®¢©óJR—%>ii,+J÷û*_}•¿­ÂÊù/'ºchÍ³íçø‡ <â>ù/à•Ò6c}£=Æ8=1ŸnqFÄ:ŒV[„Xy)cjâáŞ<±Âº‰ÊQ”c5)òG÷n)ÇšJNğJCÂ´§+ü*?¿«—è¯ÑNP¢€
+( ¢€
+( ¢€
+( ¢€
+ü ŞJ( ¢€
+( ¢€
+(À¾1ÉÃşÊ_öTõıB|U^û@ Q@ Q@ Q@ Q@ Q@ Q@æ?<iª|6ı>-üDĞíôû­kÀ>×¼G§Á|ö³]XØÍsL¨èíx”0WV*NO#°‹YÒÚí¤1´2àÊÑ°ãŒ®OaùWæ!qÇğı\<şƒ¨ªÍÊœ½œjF”©¸¯hîù¢ãí.8Êvæ²½“êÂáêÔRtŞËÒ÷éø>³¥ÄZHÉ’IåÄC6'ÇJªúıšx-$2ÈFòÁSpŒ‘œâ¾9ñûƒ06†_BX™Gš¤)¨AUŸ=îêrÎ2—4¹çrÒ¤Ÿ¼Ü¢tÓËkËâvé¿M;~^DQø‚$|»îr2Iêq´d×=â_ˆñßÂ­×Kø|QñUÏ‡Qp!m1£Ñ5]cÏdŞioì#nSıvıÇf×ëğËÅì¯Šs•Ï/¬9ªÒ÷á5)¾ojãîSj«U''Ê¤åUÉ¤Ÿ2ÅàgF<ü×[?Óå§äzUûùæ… Q@ Q@ Q@ Wàİ ~òQ@ Q@ Q@ñ‹şNöRÿ ²§¨ÿ êâª÷Ú ( Š ( Š ( Š ( Š ( Š ( Š ( ı«å_´—ı’Ïÿ é¢êºÚşGúSÿ Ì£şæ?÷ídÿ oåú…ü{A^ñ£Å~ğ?ÆÙ—Å4ñ&áé/¾Ù«ëz„}§™àïC›<Ì±¦é$5ÜÃ,ê£’}‡±râœ¦1WoCÿ NÀÃüú?Èú¿Âş+ğ·ücâø“@ñ†u?7ìz¾‰¨A¨Xİùr42ySÂÍí’7¶±Ã#)ÁVı¨R‹‹q’³GÉ ¢ Q@ Q@ Q@~Ğï% Q@ Q@à_¿äáÿ e/û*zş¡>*¯} Š ( Š ( Š ( …uŸüB?|Se¬|nñwÂ_‰òkú¾àŸ	ø‡Ã:nŸğ×Äy4^±åÆ,·ÒjVkaqukaª½ği¯–íZ†ÛèÉ¾/Ùÿ ÂóÔ|¥ø#ÇŞ!Óü;ªÙh!ñ>—gg>—áİ^îŞÚêK˜>Ò53¡§J÷ÖsÚÂ—jóMAtÖıßW”ãF1V½ï£ÙjîÒwkM-{»-TÜät^ñÄ¯ézf—ñ;B´›âN½ğú;Ùô«4Í{XÒ­<AöÛvyÙç’Ê1¡½È¹´U4–Pù¥“Q¶·óşØöw?±‹¾'xáÏ ÕŸáf§ñ3Àöş(Ó,ìáñ…”ÆòàÃöä•-´ùµ/´ù¦İ®¢s&œuÊHÑG*ŠRM+[ñMôOd›k}-kèØôïüzğÿ 5ÿ j,Òş'ZI£è¯5C¥Xj’i2x›Z¾ÑíVôöšâêõnbd»Šncòí­şÆ³Hò	oÿ Ã@hÿ ğ‡îÿ „ÇßğŸÂUÿ Wü Ò?··³?·>ÍöŸ·dÿ Èş&>gÛü¿/÷[şÕşDpmÁÔR\©Û®ÊÊûmï/=vô;ÿ †_´/Šß	!ñ§†ìõû&}WZÒoM—M¾Y´ÍFçLœËk(Áºk9c™RUR¢Hâ“tkßW,£fÓéıtĞ¤R ¢€<ÄŸ´ÿ À?ëº†?ÄÍÄ>"ÑïeÓõ-ÂQÜx«[Òç‰™&ûV™¤Çswn‘ÈT’K$r2FÌ®è­áº×íñ§Ä’²øÀøa¦oY`¾ñÄòx‡V•v<éeÄ¶å¤%Òxõk¯İÆ¡W™…·İpcs¹:ŸÃ£^Mo¶‘]_.½¶×SòüfÉ8Œ#Œ½lUDİ:0kšÉ;Jmÿ ›’äæ´¤İù!>IòüÕñû[øÓ¨~Åî5Ï~3¹´¾ğG‰$Ô4;x^×F–7°œËi}6[è­-†½’ác#7 óOé-}:¸?‘C‡#…rr¨±|Í½Ü~«ª]/ÌôÔóşş0æ|w[9–:…:4ğî²Œ9œ”j:ÚNR“RiB+š0‚nï•]$Q_çÑıDógíoÏŒ¿gÈ§Mè¿5Y@ÉxüâwCÇ£*ŸÃ+ÓÉ3ŒfQ˜á³\¾|˜Œ=HU§+F\³§%8K–IÅÚI;I8»Y¦´<üÛ*Âæxùn:ôkÂTçµÍ	ÅÆJñjJñm]4×F™ášÃ?j^:›ÅŸğØé^5›oüUZ#I£ø,F!ıÖ­fÑ^Å˜GÛ&]Ñ‰³2ıüDğ. u‡|kow&>Ó§øãWÔüq£j8©çE¨İ›È<±$Œ¿`¼²ß'–gûBD±WıgÜ•f°¨êÒQ«%e8«4ï{Ûg®÷Õ­.œãßğÄğô!‰xŒ6¯B¥¤œT9!Q©T¦£¹$$“ä’rŒ¾¢ğ/í=à{]Ó<1ãËK¿„8Ôç‚ÂÒÇ^š3¤ë·²2EZN®¸µ»y§iŞÖSo¨Ê‘4­c
+WÒµüµÄ=‹ÉñrÂbã¯Ùki.–éèÏôÏ‚¸Ó*â¬ªq“Ôç¥=vS§5nju#wË8İ]]¦š”\¡(É”W†}`Q@ Q@ Q@~Ğï% Q@ Q@à_¿äáÿ e/û*zş¡>*¯} Š ( Š ( Š ( ˜ü]ğ_âŠ|ã¿‡|^Ğ%øIñûvÏTµÕ¼#{¨ø®ßKÖ¤ïímuƒ«Çm’·“Áb_N‘-aÖ7çÉc/_Ã/é´'‰üGá_ˆZ~…àïëö(ñ>•'†Åæ±q¨ZØXé¾M–¢÷"ŞÖÊkm&Æ9c’Ââ|=áŠâ–µë§^œ£î¬î÷Õ5k%euª»ÓDÓÔ›3?Føı“ÿ 
+ëş*?şŠ~4ø—ÿ  İŸoşßÿ „ııqòüøI×|ŞgÙ?ÕÇæşïç?…³GŒ|Yÿ âğO‡¾ øŞÿ NÕ/?g‹†-•ï……¥àøüC¥é£STO61{%¥Æi´kŒ‘C‘ÜµÜînWL5uN…Ní¤¾qšnİlŸÉµèÆ®Ñï¾"øªx·Æ÷¾%×<i§kWµøRš±Ğ^Wºğwˆî|E,Ä÷r<qŞ½Û[¬m$lªÉrNÚä>(|:¼ğv©®|NÒµ]~mrëâ·Ä6ãOğ=çŠ­¼71ğŒ^u¾Ñì.cÔu;g‚9ö›’Å=í´’!µ¶¹v)bcÈè(èÛê–Áïk}‹_momİNûöfğî»áÙ&ÒÇÄO¯Ï©x«ÆšüWZí¤VZ¦¡aªxSÔ¬®¯-c†¶¹ÒîŞy-ÌíÊÑ¼0:4IïµÇQ{ÏDµéªù=tù± ¯8ø‰ñsá×Â?O—Ç^&¶ÒnõŸ7û+J··¸ÔukÉ1‰şÁ¦Z$·—Hš7—ìğÉåFL’l@X^WV4(EÊrvInßdaŠÅQÂÑ'5
+pNR”šŒc«¹I»$’Wmè‘òˆ~=ühñœ¯ƒ´màÏ‡%F„Ïâxuÿ L’(G’8m®³4ÛˆYdhYäÖ"”IËF9-äò}kÂw¾6‰“â¯|uñrİÑa“Nñ%ü0èw0#y‘Gs¡éĞÚé7f9I™%¸´–eqó?s‹ú3…<*Âàı/3~Òª³äûzèÿ šÚy]uGğ/Š_Jœn;ëW	ÃØĞ|ĞúÃº«8û¾õ(û¾ÆöšN\Õ9e%F¢²é´ı>ÃIĞ¬´½.ÊÓMÓ4Ø#µ´´µ…a‚ÖÔ$qÇ€¨Š *ª€    «uúİ:q„T ’IY%¢Il’ì bq5±5§ˆÄMÎ¤Û”¥&Ü¥&îå&õm½[z·«6|7ÿ %Aÿ °¯şZôÙƒşQ©û<Ù3ğ—şš­«ø/ö‚É•ØZÿ Ó5Oîÿ  ßñóïğá¿:ç¹Ñ_ä±şƒ|çñÛı+âÀk_ô‹ë?xƒZÚ/X4È|#¯YÍvè9[tºÔtûv”€‹-å´d†š0Ûá°µ±tèAÎIJVŠm¨Â.s•—HÆ.R{F)·d˜›KVyıÿ K'øT¿Óì5]
+÷KÕ,­5-3R‚K[»K¨Vh. ‘JI‘°*èÊJ²° ‚A¯@øãË¿‡ÿ ü1ğrö_;á÷Œ!¾·ğg›¹¤ğŞ©i¼şÅƒhbÖØÁ¨][¬ÈiòÛ$öVÖ¿âNK~GZv÷è¯i¦œ¿ôq¾Òz´‘ûÿ Ñ¯*d\g‡ÂÎ§.û‰§ÌÓ“şQ‹·?µå‚”“Q…JŸ
+nKîz+ù4ÿ RBŠ ( Š ( Š +ğn€?y+ş¿ÂÑÿ „şMş_ì¯íßøGÿ ´ şÔşËó¾ÏöÏ²nó~Íç~ëÍÛ³ËœñN1mÙ+ÿ Àÿ €ı€( Š ( øÅÿ 'û)ÙSÔõ	ñU{í PE PE PE PE PE ~{x»ã~.j’ø3Åsxá!ºº°³¹ĞãA¯xºÚ	%¶’ñ5RÏ¦—x»ä¶k[¦…lï"¿€ÌÖñpğW„ü'y©İø{@ÓtİK]t›XÔÖ-ú¹:—>}ıãæ{Ë‚ÒJí5ÃÉ#¼’31gb¨¼9àÌ>[„§˜Õ\ÕêÅJí|’O•.ÏŞ%¦ÿ æ×Ò/Æ\~y™âx_z8,5ISš¿½Z¥98¹Nßòî2îáÕ¥R~÷$iuWéÇòàQ@MÔv*Ó/¦Whl®áÂ Xª8b 8Àõé?³îÿ à_l$ıİö…àmEÔ­›‰tıNÆÎ+;ÛIÓ¬W÷POo4LÇ,RFáYHÀ?´F<)”a¥4ªKåİs8Æ”Ô¤£»Qs‚“JÉÊ)Û™Şÿ A¨¿mŸ>–Ã~uÏs¢¿ÉÓı
+ùƒâÍÄÖ¿¶§Ãé -ÛáwÄ‰À9I5ÆãŸUb?1_¹}rloâ6U•fçÃâ=½*‘»5:˜jĞœo¤¯ÕâÓ[¦™ğş%æ˜¬³„ólË>JÔ0õjS•“åœ åi'i$ìÓOfš9*+ıî?Ã°®oÅšÇˆ¼	s§éú—öµo5®§¢ê¿g?ØúÍ”ñŞi×¾C“ıòŞŞ&CåÉåìpÈÌU¨Âµ9R¨¯&šòjÏo#»,Ì±9~2†?.Z´g•“åœ”]šiÙ¤ìÓOfš>ıøMãè~)~Í>øƒ„Z=ÇŠ´{kÛı%nÅÓèZ‰@·ºtÒlBn-.–{Y•’7Y`‘]••}¿‡1xiaëÔ¡=á'ugtíªé¶İöË	Š£Š¡O‡š9ÅJ2‹RŒ£%u(µ£M4ÓZ5ª
++œè
+( ¢€
+( ¢€
+ü ŞJüKıª¾|ğüş_ø:÷ö»Ñ>"|Gğºßˆü+û2èOµ.u!ëZ…ñœF¶×RF±Io¹ßql·:I(ûG¥•TœkÚÕI>o†Öo]š_åmZûÿ üµğ-×Ç?ÚOÅzÇ?|\ñ®»ÿ vŸâ­Ç^ºĞ<Sà_ìË{û?X¸“÷:¥15µÌğ¨İ5”’9c6ãúoYæ.O'$–‹áÚÜªÍy5ªì´6
++„ ¢€
+(À¾1ÉÃşÊ_öTõıB|U^û@ Q@x·Äÿ ¾ø]¬[h76&ñoíVú×Ã±K›æµ2ÄÓÏ4ÙXÆŞ]Á‰ï®mÖàÚÜGšXÌuİ–e¸Œ~*j“vKñ~‰%vú$y9æy€É°³LÎ²¥B’æœ¥²[-­¶Ôcœ¥&£ÛHùgZø£ûBxÆV2øÇÃ´Æuš+é°k:­»¢ù~\Ú¾¯–·6òe¦*šE¬¨Æ$2ÆíqçŸğƒ¯ı/Ÿøy|mÿ ËJş“áÿ 2¬±ÑUêJ×néGMTRkKßWº¶ŠÇùíÇJ¾#Ìq‘ÿ VØ°ğæZÆJ•5÷e>xJ0÷R´!~Våz“\¼¸¿ğ¥>ÿ kÿ kÂá¿øI|ïµÿ ÂKöQÿ 	Û·oûwöÇüı¿Ìı÷Û<ÿ ´y¿½ó<Ï¶¿á_ú(_?ğòøÛÿ –•õ8É+Â:¸H5hék-êÍì·¹ù_ã¿`«W¯G7¨åYóKB¤S»~ä*FQ¤½çîÓP¬­hÅ-ı6ïâß†¢¶‡Â?>#Úiš[‰¬´oG¦xšÉÜ7˜c¼»¿µ“Y¹·’BÛ×ûI%æ8f·U‹Ëí¬>:~Ò:5ã\êvŸ>#[º—Mµ°Ö<ğ9 ‰Íó\ë"@¡Jyew˜Î_/Ë—áó2êüÓÀÔt¥ï;?z7
+î¢¶êíè~×Â?KìÛÉCˆ°PÄArEÔ¤ıK-*NP|Ğ©9+IF>ÂMhšåì,ÿ kMzÏOßÄŸ³ÇÄ{j<ı¦Oë¾ÔôfÉ%>Ïs¨ßé·r|…ù¶Pí“z¯˜Š²¿uaû]şÏw7©ã»ŸÛª[ÿ xoZğf›3äwºÍ¥­´—ËHedI!Xİ—ò\ãÃ¼ï/æ”¨óÁs{ĞÕZ=Zİ]j“×î?ªøGÆŞâ.JxÂ­.Eìªşê|õ4Tâ§eRiû­R•D¬Ú”[í|/û@üñ¿¬|/à¿ß|_â]OÍû‘¢xÇKÔ/®ü¸ÚY<«xfilq»¶Õ8Tf8 šõêøº”jS|µ"âüÕÕ“¾ÁYú®«¥h>ÔµÍsRÓô]EµšûPÔ/®ÚÖÆÖ2K4Ò¹	hŠÌÎÄ*¨$f3çoö¶ø#o§ªøÅßµ©>æ‘ğŞîË^’<ÏÚ¯tÓôü§˜ñıºêÛÏÊyÒ/–~lñ®µãoV`ø¹càë«¬ÑxJóµ-6âuVMVöå"şÖÉçÁØía†Iw<wS[ÚÜÃúï‡\W^–>.4`ïµ¬åÙı”Ö½ö]müÃô‚ñÃÃx:¼=”ÏŸ1­8É¯«ÂqøÜ¢ÓUšw¥Ó•ehòF¥ê+úLÿ 5BŠ ( ½7öf»şĞı˜µÿ /ÉûoÄO‰W^íÛ7ø¿Ylg8Î3_ç¯í	áÏmÃÙ&}ímõ|EJœ¿Ö)ûNnkéÉõ[rò¾n{Ş<¶—ö÷Ğ‡=öYæm“{;ûj0­Ï‡ØO“—–Úó}b÷ºåäµŸ5ãïôWùR£Á_,üaÿ “Íøyÿ dÏÇŸú{ğuBı¿äëä_õò§ş˜ª~oãü¹ïı‚b?ôÔfŠÿ vÏñ,( Xı‘o>Îÿ ü/%×“ı•ãèõ]3HivıKÔ4]2V¹‚ÜŸ’ÚçV[s"(InÒı²Ò‰}‰_Ç<oIÓÏ±±q·ïµ­¾·ùŞ÷ë{Ÿì?„Øª8
+ÉjPšœV„ošR…8ÂQºëEÆKxÉ8»4ĞQ_*~‚PE PE ø7@¼•ù¯ûZÿ ÂÚğüáwÆ‡_?cO„‘Xø/Vğ´ñwY—HÔ<c÷QÜ\ÚI"G¾{+7N¸€A4RE<÷;ËGpQû2ö½ºR‹i©+E]ë´&[N~ÏŸş5xûNñe¯Æ…ğLºMÓÄñ­§ˆ4oj³İYê²Ú[ÆÆ76€{²gC1ŠLI‚¾Œ¬+Æš›T›qé}£ó[vvĞjıBŠÈaE P|bÿ “‡ı”¿ì©ê?ú„øª½ö€
+( ¢€>høññsWğÖ½¥|2ğ%ÌV^8ñ6›>©}­ì†äx?GIqöv­}u#KŠÜ'ÙØÚ_LâàY5¥ÏÌ:.ƒa Ù\Åfú¥Ü÷óıªöÿ UÔîõ]GQŸbD$º½»’[›‡X¢†idr‘CkˆãE_èoøzœ0³ÍêÆó›q…ÖÑ§ıçtíü¶¾­ÁŸK~?ÄË‡á,kQŒZê2^ôäÿ wN¤R¼}œbª(¹Z^Òp÷!#f¹ÿ øŸFğ¦‹î±-î.§[[K[>ëQ¾¿œ«IåÛYÚÇ%ÅÃˆã–VX£b±Å,ŒFì¿²Ö­
+4åV£´b›o²Jïo#øã,Ëq9†2†jµ§pÒ¼æÔb®ÚJí¥vÒ]ZG,<CñVX©Á]NØùsé×'Ò#ñ$òÚZÅ,ºte“->§o&|DÅbëxÆ–ÚÏˆ%Ğu-Ä~ñU¼u&‹¯Z$S<
+ÊK{ˆ^[;ÔO6ßÌkIçˆRo*G	_/–q–ˆúºNü.V³Ñi£vmİ%³²ÖíDıÛ>¼OÃyCÎ%:x˜SW­\îTÕåy%(Çœb¡)ÉZQr•áìéº‡gE}iüöPN¹ h^'ğµÖ…â]Iñ‰}³í:~§gİ­ÆÇY|R+#mtF @®Ïà§Â}'Pÿ Ã^ğß‚5«|ı›Zğ¨ğŞ³e¸³ê:w‘wô-ùR®øİãmÈì§ÏÆåX<bkF3ºåÕ&íÙ=Öïg§Cê¸{8‡"åY>aZ„TÕNHT’¦æ­¬©ß’wQI©E©E(É5¡µÿ :ÿ ÑBøùÿ ‡—Æßü´ªƒág'ñM†¿®hmã_éE.Ÿ¯xÆşïÅÎå?™[j¤—0G›¥Hã‘Q$yT;³7‹…àŒ‹UV¥„‚’Ûwº¶Íµ·‘÷—ş c°ÓÂ×Í¦¡+]Ó…*RÑ¦­:P„ãª×–JêñwM£Ğh¯ª?
+( ¢€
+( ¯@ı™âYğwÆ>ŸæÕ<ã¿}ºXù·—ûjãş«_)ì±×ìâ“r®'u]è©,ŸÆNÜ¶3ÃXbi4£†ÅÑ«;Şî.h¥'wÍZ.ÎË•IŞé'ıwô,šbÓëƒ¨¿ò¶ş‡Ñ”WøÜ¨!_$üVº“Rı·´˜lU|ğöî\Î3/‰5KYl>Í·;Œmàí@M¿nÑ5¶Ï3|†ÛşyÅ³ÄşÄ×MÆXˆÒ\©_šºt`õkE*‘rê¢›I»'ù×‹ÔÜø=Kş€ñ/î£7ú4Wûâ‰E v¿³7üŸOÇ?û>ÿ éÃÅu÷=%ø›ÿ %./şáÿ é¨ê·Ñ·şMÎWÿ qÿ õ&°Q_~äPE PE ø7@¼•ù3û}üñ.§ñëZøÓ¦|¿øÿ ¢x‹àoˆş>›¦èöZ¥à=zKƒ>‰®YÚJÍqw#\ß<,m"Ym!kì?t{2ùr×O›–êI=¬ÜZZ­µk^„Éh{oìa¢|EÔ¾9şÓÿ <Eğã_ø+ğëãŠ´ÍKÁş×CYj–“XÛËg©ê÷š`EÊçS‘mç“9–W‹´±¬ıóKãímšJ*ëm"“·•ĞG`¢¹
+
+( ¢€<ãüœ?ì¥ÿ eOQÿ Ô'ÅUï´ Q@xßÇ?‰Ó|/ø$×Z,6—=ñdòøÁ6WÉ%•ßˆÒâê¶t)gV—W:Èa·•!\41IÓ‚ÂTÅb)á¨«Î¤”cÓY4—âÎÓ2ÃeØ*ù†2\´hÂU'+7hB.RvI·d›²M½’¹ñ—¥8_\\__ëZÖµtÚ³¬ê.’_kWÌªqpÈª›¶Gih‘CPÁqAQ&¥måØ
+8,5<&Zâ¢½7»}^§øÅÄ¼CŒÏs\Nq˜Jõ«ÍÎZ¶•öŒyœš„¡¶ùaÅhŠ—÷öN…{ªj—¶šn™¦Á%ÕİİÔË°F¥ä’I…DU™˜€ $à
+Ãøc¢ßj-?ÄßX]Yk¾,·‰´m3Pã¼ğ…$P:éò#İK4_j»	Z;v’â;y+ãøûé`á†ü¼zínXÙÛËW­ÙëÑÿ Hı¸Zî#ÅguRqÁÓJ:ÉIT­Í$—º×³XË™èå¢Ş±õúã<yáñ§Ã»­2Ñ¢kö¡îü?®,tŞÕ–7K{È“roÙæ2¼E‚OÍ¡¡šDoÉiÎP’œšÕ5£MlÑş„bp´q4g‡ÄANœÓŒ£$œe¬ã$ôi­jÍhÎGÂ>$oxzíîì?±õİPºÑõ­0Íæ›ëwÚÁXª;A*®mä’8škk‹i¼¸Ä¡GS_ÑY~28¼5<Lmi¤ììú«ù=šØÿ 8»‡+dŞ3&¯w,=IA9EÁÊ)û“åmÙT§Zq’iµfÊ+°ùĞ¢€
+( ¢€
+( ¢€
+( ®›àÏöoÇÏ>3ÿ hI¬Â5ã÷¹/†´ûu¤¾[œçÊO	¥À“råo–?-D!åşAúpc1</­J†UcWB”oj0RsU'hµÊçRWq\Õcï^Ñ—õ—ĞÎ½
+|yZjF2¬`›IÎ^ÒŒœb›W’„e;+¾XIÚÉµõ5ş.ŸêPWÈÇüN¿i'ÿ _ìGÂ?¾Í÷üÿ ìı2ãÄlßÆß3şÏ³ù[Nß±y›ÛÎÙíGü—ëÜq•â}§/Õq8¶µù¯˜a(rŞë–ŞÛšö-µºüïÅ¹òğNx­¾¿òŞ£ı
+TWûğˆáE v¿³7üŸOÇ?û>ÿ éÃÅu÷=%ø›ÿ %./şáÿ é¨ê·Ñ·şMÎWÿ qÿ õ&°Q_~äPE PE ø7@¼•øÕûtéŸ5ßø+ÿ Âm+âwÂÿ ‹¿´ï†Sáf§=÷Ã?ÚkRßx/ş&@[ø³î>×"¶4^d>ZÛC$!û<gĞÊœ–%8´¥fö^ëÕù"g±ôçì;©|¸ÿ …Ÿ£|ø¡ñóÄ_ğÿ bYë¾%İêoÿ 
+oÛRßD²‚òû?“åÏi,i=Ö>Ái[j¼Ÿ|ÖXîo/iké¶ÏEª·}ş{-‚;h|©ñWÃš¢şİ?³GŠµO_ßZ‰7úv‡¢[‡´Óô»VğG‰d¸’xÄŒ/oe¸‹‹‰@X`H¡‚(Yï&½4Ÿ ø;ã'íñêo‰¾Óü_wğÛÆš†¼wx¥n¼dŞĞõV“H2²i×¦ûS¹œßZ´We’ÔŠÙÚˆ/-'8]8EY­|ÑOUnï}–4yÁÈìÿ hÿ øA¢øí¤hôû_€
+¼o—â"ÎëKÿ „_şÚ¦¢lfk™LµHİ£&ÙÂ[ù)ur³	ÿ ‹¡ãï†¿
+¾$ÿ Å}ğöø]ÿ hÑ<Cÿ +m_ş_Xè:ö—Ÿ¹µ/²Ø]J?ÓŞlâ¹¼Û¸b>‡¦"tV‘ƒ›“Š“NûßE×[+ì¬º_Ğ÷Ï¿ñ+ñgÇ?éÿ è¾øgãë}ÂÚbÿ ©Ğô¹¼5¡j¦Îß?2ÛGw©^bÎËxš;xDVğÃ~û\X¸Ú§ª‹~®)·ólqØùöŠñ_…¼ñ7ö`ñG<I xCÃ:_Å;Ï¶júŞ¡Ÿciæx7ÅÇæÏ3,iºI#w0Ë:¨ä[ÿ ğÕŸ²çı—À/ü8:'ÿ $ÔÒÂÖ¨¹©ÁÉy&ÿ !İ-Ãş³ö\ÿ £’øÿ ‡Dÿ äš÷Úš¸z´­í ã}®šÓØ+óWZñ{|]øıª|JibŸÂÚê^ø|b
+©.†Ò[íDº[‘¨Şéé=¼Ë#ÄÖé²DÉ5×ú…™RÆg°©%îÑ‹ŸUª´c·›NÚ^Ï}ŸàßI>*KÀØ¨ÒmTÅ¸áâÒ‹ITNU¹¶R£
+ºNJR­ñFõıT–'›ëÿ ğšşĞğ"Ú7„şÅãöŞa¸ì+_áqæj“_y‘3mşÆòfCàÏĞø·b=¦i(ZÜ‘Œ}~Õü¾+|ôÇè·“}Kib}§7Ö«U«k[–ÍPå½ß7ğy¯eñrÛK²Šùú,ğÀ<'û\èZŒö]â½…Æ—~8ò¤ñ&Ÿ¸±hãL=Æ˜ššÏ<ƒG¤ØE¾2‘¤İı~ÍÀ¸‰TË9%kBRŠôÒZüäşV?ÍO¥NQGÇI·,M
+Ue{YI9QJ6JË–Œ]ß3“½¬‘E}‘üÜPE PE PE Ï…·Rhÿ ğQ&±¶Tx~!ü9»ŸQ2‚Zğö§j¶B`(qâ{ÿ 7p}ŞU¶ß/kù¿…}&rz9Ÿ…Ùş»j1 ê®['ÍBQ­ªz9SŠ’µÜn“NÍ~õôb›‡‰™C]ë/¿YgÑ_à¡şÁ|Rd|tı aâø²;Y—Á
+HèHÀÙ>µıôÁañ^#N–*œjEag4¥$¥Nµ	ÂI4×4'ÎxÊ1’³IŸ€}'ñuğŞæu0õ%	?eâÜ_,ëBÕ½ÙÂRŒ–Ò‹qwM¢ÕşÌŸäQ@…û,XMûIü|ñ„-é–øKÀo’':îµ<@+öv¶ñ=‚#nŞdŠäUTy~Ú¯äO1­ÄXÉÇdã{Æ‹ù]iä­~å²Ş Ê0õÚr•7UrŞÜµ§*ĞZ¥ªD¤­e$ÒmY²Šø£õĞ¢€
+( ¢€
+( ¯Áº ıä¯ÉŸÛ—SğwÃÿ ø(/Ã/Šw¶¾Ÿû-øæÇÁwZ6¦Xü/>-Ô5=>K©ZyoÚÜ—’Éİ¢[ŞÆğ$ö“Mo‰„Ì½Ùj“ÄEF÷MZöºqiëÓBe±õßì»âßŒ¾)Ó¾#YüQø…ğKâv—à-~oézç‚,µ?XŸRÒ§¸´Õ?á!±¸ıÅë˜í&Ú';Æ^ÛêºÃ¡í§»4ŸK¤şîÏª°ÖÚœŒ|ÿ 	gÄ?…÷ö§öü+\x›Èû7›ı¥æèš®änŞ¾V?µ¼íø|ù6ûÓÖşxÆßâWˆõ¿†?´ÿ  Z|Eº‚÷Æ0ŞxlkWRŞÅiœ·úDÒ\Çé±µ¶„ıªBÓu¥¬‚Ğ7Ú¾Ù4j(¶¥w¬Ò²ÓG½µK§4gÉğZóÁßğİ|	×´‡7ú…´ÉoâóÄú]ç‡4Ÿ<ép˜F¡ir·6ut#n°éwp.#¹qm%¨ß¿áğï…o~xŸûâƒÿ ·şÏâé¿ÛVÚÏöıìz–½ı¥aÖjÿ l¿Š+ïô9,¼‰á…aÙiæÙÍ·Ö¯.v½æİßtï~é6›W·k%guÊwÿ ¼ÿ ^®ÜßêŸÛş.ñ®«ÿ 	Šuu¶û:¨mmì·´ëkm¥•¬1o‘ÄVÑ™¥¹¸i®&ï«
+µ9åÍè—¢VKD¶ItG|bÿ “‡ı”¿ì©ê?ú„øª½ö³Q@)ûExÛWø}ûxç_ğİäšo‹ní­¼=á›å‚ÓNñ¯s“¥\Ì’†F·†úöÚY²’~é$"9H·Ç…¥x_Àº/†´+_°è°¶Ó4ûo1åû=­¼kI½Ë;mDQ–%2I<×îş
+a#|f%­}È¯Oy½6×İûºuş(úefXˆ`ò|¾2µ“­RQ²ÖTÕ8ÁŞ×\ª­EdÒ|Ú¦Ò¶µûÉüq
+cŸÅÏŒ¾*•MÉÙxcLÔıLúN›§ÛÈ`ˆ¯îäò5kır7q—ùĞ»~áR?o¯çş ­:¹–"Sw|ò_(¾U÷$‘ş»xC–á°<“QÂÇ–/J£Woß«V£Õ·ïNr•¶W´RI$Q^9ú1äÿ t«ÛßÙ·Äš¶‡ay¨x¿Á6Òx§Ã1Y@ÒİM«ØFÓÁo óY.‚½”ÑÄVI­îî!¾i5«§ßØjº–©¥ŞÚjZf¥wV—v³,Ğ]A"‡HäRUÑ”†VRAÅ~™áİo÷Š._ÊÔoê›Kÿ Mú_¡üCôÅË?äO˜Â‡üş§:Š?õîTá)Ûş¾Êoş~8¯ˆ·E~˜… Q@ Q@ Q@rZ¥ÿ ü#¾xßtĞÛi1µĞ5Chvİ^XkÑÉ¢ÃkÕD–ÿ Ú×š5ÜÑ»Ûb²…’X!CğŞ'd•3Îrš<¼øŒ."œ\¾)Òœbİ“i)4î“j×I³ô?ñµpœo‘Ö£9Aıo›‹i¸Ê¬c8ém%ã%´¢Ü^Ÿ|Ñ_ó°·!_x;÷ÿ ²¿…5È~m/Æ¾&ñßŒtYú}³DÖ¼Ay«é—;OÍc{m7— YÌÙ"£«*ÿ S}2ÌLüQÊ3ÂôiÎµ9JëIÔÁc%kİİR¨î“K–Í¦ãçï¥—üC<Ú=_°ü1T?Íh¯öèÿ !Š öïØúÂıœ¼aãÒOÇß<Wu¨Dò!}&õ¼1l!\nPÖZœ’nfÌÒNË±#êêş1âê¦y“ÿ Ÿµİ&—àö;Âõÿ nIÿ `˜oı3 ¢¾tû ¢€
+( ¢€
+( ¯Áº ıä¯ÈŸÚ¢/øYß·§ìÿ f/xâÿ Æ«ÿ €~.øYñÀ-â³ÜiúÖ¢–°ÜØŞ³àÔ¬õ+¹^îÖúî9Ñy£»/‡5W{Û–Wi^ÉÅ«ú+ş‹["e±ï¿±÷†¼rÿ µoíOñkâåÇ€|+ñkâ¶«áí…ú»k¬ß|=ÒôÛ9í´íKˆ&u77–Œ&TGXÄ«·Ík{o¾j1®.¯»{%®­t¢•íÙÚëÈ#°Q\… Q@ñ‹şNöRÿ ²§¨ÿ êâª÷Ú ( ‡?ii<EûU|,ğ»E%¿Ãë;ßˆz¹DdÎöê+EBíòIoqş&gHÃ:IclYâVT¸á«ú‡Â<$¨ä*£ZT©9-¶V‡ËX=ÿ +æŸÒÏ2Ãâ¸Ş(Jò¡‡¥NjÍrÉÊ¥TµI?r¤%xİkkİ4Š+ôóùŒäÿ gôód_ë¹Ûÿ 	ÚŞøãÈÿ ŸíûÉõ¯²îÿ –GÛü3æy[öG»bû%8cqXÄTÄZÜòr¶ö»½ºl´1“ddø,§Úsı^:\ÖåæöpŒ9¹ní{^×vÚì(®cÜ
+ùÇà’}‹ödğß‡3æÂ×şûGİûöäú7Ú¶Ë??ì—–òüÍ›äÛ½¾çÃÿ ùÔÿ ¯oÿ Jü±ôºÿ ’?	ÿ atÿ ôÍsÕ¨¯×Ïó¨( Š ( Š ( Š +™ñ¯„áñçÁ¿øãUşÁ·ñ¡K©}˜İg%ÜngòC)—ËoØwmÆFr >¹ø_ãOøY³OÃ¿ˆŸÙ¿Ø¿ğøgHñöÚ>Ñö·ZÅsäù»ÌÙæìß±wc;W8ÍÍßä¿ØùÎ7(öÓêÕªRæ·/7³œ¡ÍËwkÚö»¶×{ŸïÅóÂ3µ®“ûÎâ?á[şÍ?ş"fÿ lÿ Âá[ÄÙÿ hû7Û¾Ãk-Ï“æì/•³~ÆÛœíl`üøşá×Ã†cÕ“\o‡
+Ñ<3%úÂ-ÍÛY@-üÓ÷ò‹ª,›¶Ğànn§ú‹è[ŒÄKÄ[C)ÅÔ–"u#v©B–Es¥”g<T"¦å¥Ë75oç¥Uz¼7ÌUZ‘Œª:0‚m'9}bŒÜb›÷¤¡NR²»åŒ¥´YŸE´Gù…âm~ÛÂşÔµÛ›KıDXÆ<?OˆM}ªİ;íììâ%|ë»‰;x"4’Ë/,*'8Â.si$®ÛÑ$º¿#|.¶&´0øx9Ô›QŒb›”¤İ”b–­·d’WoD}×ğOÁz§ÃoØÓáÃ½r}>ëZğ‚ôjØ»½¬×V60ÛJĞ³¢;F^&*YŠ‘•SÀôêşÄÔU+N¤v“oïgûe`¢°Q@ Q@ Wàİ ~òWâ_íçàÿ ‚2ÿ ÁKoõ½Kö_×ÿ hèßî|wãK8¼}màOğæzğ.®òAÛuJ4ŠKgS.ºZªE1\Áèes”1	Æ|ºJî×²Qon¶µÒïm2ZF~ÀÂ]3âWí¨|1ğ/íWà+¹®¼/¥kZgÆk( ]&;KK–Ó4Í-·IsåÙé÷6ÉåİK$‘ÛI§aŠ¸fı(©Ì]Gˆ“ªÓ•–«gî«5ê¾]´ZÚÂPQ@à_¿äáÿ e/û*zş¡>*¯} Š üŞñ†­‹¿o‹¾*²3@¶ĞşZÍ¢âQô‘w¨]ÜÇ(A÷]»Ó$„nò¦Ò¦ûÙ¢†Zş¼ğï*<;ƒ„ºÅËUm%)I|¬ÕŸU©şPı"qTq!æµ(MN)ÒâÓ\Ğ¡J×XÊ.2[ÆIÅÙ¦‚¼ËãEõşû#üJŸF¼¼±×åğŞ¥i¢Ée+Åxú´ğ<Z”!ÍÔ—RA+ÎÒ¼j€±¾ÆsŒ"ç6’Jí½K«ò?ÂákbkC‡ƒIµÆ)¹JMÙF)jÛvI%vôG¼éÚvŸ¤h:N“cg¥éZ]¼V–vv¤ö–ñ¨HâŠ4QUUU@    UÊşj?ÛP¢€
+ùïÀÑ#âÇÆ
+*›+-/Å¿ÚúMŒœH,u[+]Bâå7|òA6±.·¶BYD‘Ï
+X<¸ş¯‚«Nµ8Åé%$ü×+—æ“Ó·cğ/¤Î[†Äğ2µxŞT'F¥7v¹fêÆ“vM'îTœlîµ½®“^™E~Ú˜E T¶¿°¼¼¿¶³½´º¸Òg[[Ø¡™]ìç1G8U(æ)¡+`ì‘`MM_Ğ¼C§5ç‡õ­'\´Éİ>ŸyÌkæÁÌYhÉ}¼ğL¿ŞXÜeYIÁb¨óFêòºJêíÇâIuåëmº«È³%F®!áj{:Jœ§.IrÂ5Rt¥7kEUM:mÙM4ã{šÕRöşÃM³KFöÓO·’{{T–æe‰yåX Œ ’Y#«;ª€I´œã¹Í¤’»oD’êü.¶&´0øx9Ô›QŒb›”¤İ”b–­·d’WoDr^%ø›ğÛÁzì:_Œ> øÂzœğ-ÔVšÎ»ga<32,‹Ò+-¨`0J°êw0­NS•8É9F×I««íuÒëk›×Ë1”0Ôq•¨N4ks{9¸µ	ò>YòI«K•é.Vù^Ì©{a¦Ù¥Æ£{i§ÛÉ=½ªKs2Ä<ò¬FÉ,‘Æ‹ÕÕ@$Vê”âäàšºIÛ­ìíÙÙÛÑö0–´hÇ(5NNQR³årŠ‹”SÙ¸©ÁÉ-R”[µĞQV`Pgû5jŸÙ~ñ?Â[Çÿ Møu~÷úJ‰w£ø[V¹º¸Ò„q®RÖWŠÿ HŠÛ~å‹IŠPÃ<>™¯ğé“Ã,ñ'ˆ0°o•âªÍsS•+*²ö¶Q–¼±ç´&½Ú°Q©rq?ÛŸ	s_í.
+É±²­í¥,59óó·8ÓŒjsJîóSRS»æSRR÷“<3ã·üL´…ş·ù5OüLğŸØe“‹x¿±/ÅW^k°ßc ^EÕlÏ$
+ÛXøÿ ]GyñSYš%uT˜@C€è•bn·!Ç¶:t¯êo VqF§ÔÊ¢Ÿ´¥‡ÆÕnË—–µL®IŞ÷N„ù“I$ãfîÒş~úiÓkƒ0“èñ”—İGşg-E«'ùGAÑSÆÿ ¶wÂÊ±I¦X^]üCÖ`™Ú4»²Ğßì‰ÇûÁq¹¨h7j™Dx­.G*|™şs‹±UÉq•»S’V¶ò\«~‰µ.côß2zÙŸäøj'ğªù®—-í¦´OWmGK9Y6•Úı*¢¿Œõì( Š ( Š ( ¿è÷’¿¿i¿Úök›ş
+Oâ†_´G„ş'|“Iømâ‰Q<‹qã]Y}9´Èí4ûkä¿ÒY.T¶á¶¾±(ĞC"Ï½Ù~uª8S’O–VóÒÖ^nÿ %wĞ™;-ONı€µxö•ı©<G¦üp×ÿ hŸˆ ÿ „ÿ Äş8oé¾ĞµÒfşÉ†ÆÊÖi$K˜#0]‰Òİ’HÒ#
+É¯'é½<Î.8‰EÇ–Ê*×½½Õe~ºL!°Q\ Q@ñ‹şNöRÿ ²§¨ÿ êâª÷Ú ( Ê…×ğëŸ	›Æ‹$zgÄ}{Ä^<Ó"˜7_Õ¯5«8çPJ­Â[_B’ª3¢È®äP½¿µ¸n“§”`éËxÒ¦¾è$ş'kÆ9Ûÿ ¨¼Oş˜W–ü_ÿ ’cáïû(¿õ(Ò«|ëşEØŸú÷?ı%‹Ã/ù,2_ûÃéèEQ_ÏGû
+P^?äşş!Ù?ğOşœ|K_MÁßò7¡ÿ oé?úGÉ»Í?îş¤Q=ŠıÈÿ ,‚Š ğOˆ^ñ\_¤Á2İéÖ ‹ÃŞ"»³iá—B¼êğI
+í·ºm)/íEÔ¾a7Phm#×™xËLñ—}âí>Ú/ˆzG„4OÃ¦hv!]*m:h«” :j60™ÅúE<\XBâóÏ·–ãìÊ>[3¡ŠU‚JŸ6š|ê2„İN{[G>Wh5'§+öœ¬ıÛ³\†¦
+¤15LS ½¤1•)¬<ªÒÄá¡„Xw%4ªCêÓŒ±•
+iÉUÔı¼^µæ­ñNşÑğüºgÅ›íg^ñß€µK;§·Y³¼8¿ğÁ©µİÕ‘fâÛTK›KF$ùÓOä}ŞqäÖ6_î¼{¤YêvŸõM'T¿ğŞ©â5+W’=3\²ñg‡¦–qsu-¼¿g¶—P‘®4»=?N5’HVHíü»/œÌ–kìªÓJ«÷mªæ»•JšZ+•¿e%wÂ6Q·?³pı£‚_ ¬~R¦¬¦œf©rF	ï©Wj´`±Ôd¡N¬aŠ­Îë)¼;ÅGì;kí/öËñ©'‰>2x;LÔ|á»[{¿ø!¼A£<ÚÓÍÒdjÂ·0Pb$\d‡vù6‰¢üeğ…çÂ.;Øj>ƒáö…w¥[Zj:›Œ"Ólõ{ƒqmy¨’Ë¨@ñOk~›é$×È–ËÚÏcŒX‡[æù#%¤t‹j*6Š”Ô¥m)(»sûœĞ—æ^ÔáÉe-âa`±èJ<Õ­:°ƒ¯N¼ª¹V•,+£J³tœéQX]aï‰t±zÍ)<yş§…ÇÆKëÆñ/…&Ôn5mbĞExO–ÓÃs$¶®ñÚ-é’ç@‘4Éa’ìKo1Y4¾ğWûGş%ÿ Ûğ¶á5şÁ‹ş¯íßíì/øH?sç}íß¹ÿ ]öß/ûıËİ¿åûEY‡¾êºV[¤½şw~­YG™Iü-ÙÓI{Œş\/.oqŞÒwP”äş®°ôÔ\_,gío`èE/k¹G)Íf²CQ_d7Ï®®ß>9øwâ|rıŸC†1áï ÜMâU1jmÛüJîŠİ=ÅËˆ­4ùµÇ É îÊÿ  şü?‡ÁñŞ3¡*jX¬,\ã½§59Î
+¥H¤Ÿ,¡É
+rm¹{)ÇEõGèwWÆğÂUŠQÂâ*ÒƒIë(Vw»iÉN¬¶Iròé{·ó‡µ¨õïÚCßciÖO^\®Ú<Y©Ø]iºvœ®	Vé—Úåå»yS¢İè“#4RÈ­ÁWïß@~–$ÍsYGë…9ÆjÒö”•ZÊp\«÷3Ãb°Ò„›r”ı«²§ìÜ¿únç”kf¹>Qı¥uj·§/-iBIŞüÊXzœÊÉ$áfÛj%ıüzïì‘¢¥ö‹ñ?â¬ëÏãoÜxoK»,öú‡%›LÓD?tÖGˆncuŞïìÜmX`üÃÅ¼T¨ä.šzT©½¶WŸËX-½6¹ı9ôKË0ø®7zñ¼¨aêT¦î×,œ©ÒnÉ¤ıÊ“Ö·µÒkëú+ùxÿ KŠ ( Š ( Š +ğn€?y+ñ«Áß´ïÅcû)]~Ùº—|ã‰´ßŠ¬~|ğu—cŞ„Ş_Á®­¯È°]ÜÛO{g%Ä°™FXbdkEº±zš•ÛM¸Á[§3Õî´åM[­É“>»ı“¼Yö¯´/Ãü,øCàOÚáæ«¢^|D×¾éŸfĞ¼iı³o>§§]	fD½’å[”œ\ù˜‘šD‘„ì‘}µXc £U¨¶Õ¢Õ÷³Ši?EeòìW1AE P|bÿ “‡ı”¿ì©ê?ú„øª½ö€
+(ò+àü˜¿Áoû<9ÿ ¦ø+Ökûw$ÿ ‘vş½Ãÿ IGøİâoü–×ı…âôôÂ¼·âÿ ü“Ù@ø}ÿ ©F•Fuÿ "ìOı{Ÿş’ÃÃ/ù,2_ûÃéèEQ_ÏGû
+P^?äşş!Ù?ğOşœ|K_MÁßò7¡ÿ oé?úGÉ»Í?îş¤Q=ŠıÈÿ ,‚Š ( 
+—÷öN…{ªj—¶šn™¦Á%ÕİİÔË°F¥ä’I…DU™˜€ $à
+óÃñW‚/íï„?ì|.@‘u‘¥Ùİ–…¿ÔÉı•ku.°¾a(<¶±Å¿3GI~>marïgõ–ı÷ee{%k·ä®¶»×DÏÑ|?ğ·=ã/®bÆêĞR—<Ôyœ¯ÉN;ûóå—+—-5ËïÎ7ıO¿°Õt+-SK½´Ô´ÍJî­.ífY º‚E‘È¤«£)¬¤‚#Š·^­9ÆqSƒM5tÖÍtkÈøN¶´ğøˆ8Tƒq”dœeEÙÆIÙ¦š³M&Œ(«0
+( ¢€"ŞÚïNº²½µ´¿°¿‚[K»K¸âÚòÚT1ËÑ8),RFÌ
+º³+	~ËâwÄ¯YA¡i²ø¡á«xvØ_êş)šÃ]°wMÚ\-®şÚ	¶–Ô$¸[³hNø/ï 2jË¿I£êñ#.¡S.técès(Ô’„y £9Fš£:ÒŠ©îÆ«Jœ=µJÒUeNåı7ônñ»ÀØìF9”ŞÊıÔçìª©F>Ó—%M¿jã	Ô—³¥«+‡„luÛ	|Uui}âızòç]ñÅ«;ÛÍ«İ°’uäQ+ÚÀ¢++_8´‘ÙÚYÂX¬+–¿uà>Âğ·`x{)Jœi§9ÊrvZ·)tnöŠQ„¡N„cøÇˆÜ[S‰ø›0Ï¦İ«Õ“…ãµM{´¢Ô}ÛÆœaîÛjîRmÉ”WÖŸb^[ë^!ø‰àï‡~¹’ÏÄ~9Ô–/b‰e}C·ÄÚ®¢C$‹Ø}ŞYa–·Şi±L¦9~ŒxSÂúşxkÁ~±şËğÏ„4«=H³ó¥›ì–¬ñy’³Hûcs³1ÆI'&¿üeÌùñ˜|Z´"æıdì“íeÚËG}t·úô?áß«pö;9œgbk(+«BTèÇİ”4W÷êT„¥wÃ•$ã+ïÑ_‹Ÿ×AE PE PE ø7@¼•ø·ğÎïàGÁ_Û·Âş:øùğ§öŒı–u­ëR±ğ†‹â=Xk?ü­ëû|ø|=©Ù'Ùà’òÚK‹™‘ü»+roU„fÖ§–©IT…9G™«%.·M{¯nml¯ÒO¥È—CîŸÙ#àß…¼àoüP³øÍÿ ã¿:¯ö§Š>%ÃuØëÿ b’{kKk+{i¦¶·¶´VšNÛ[z‘G}w\˜ªu[qåµ•»$¬–ºİ%©QZÎ0¢€
+(À¾1ÉÃşÊ_öTõıB|U^û@ùğşL_à·ıˆÿ Ó|ë5ı»’È»ÿ ^áÿ ¤£ünñ7şKëşÂñ?úza^[ñşI‡¿ì |>ÿ Ô£J£:ÿ ‘v'ş½Ïÿ Iaá—ü–/ı…á¿ôô¢¨¯ç£ı…
+( ¯ò¿ìŸø'ÿ N>%¯¦àïùĞÿ ·¿ô‰ˆ}#¿äİæŸ÷ÿ R(‰E~ä–AE PáëEø‰ñY¿¿_µxáî¡og¤ÛŸø÷ÕüInL·WoŒ¥Ì6.ÖÖğÀEù’#5¥¬°û½~Å˜ç‰Ìê¾÷í§.nœ×júÙôÙªŸGî†GÀøÙ{LJúÄÜ\šnªNŞµš¢©ÂJ)Gš.×»”¼îÔ|=ı  ÓáñI|[Ô/®íáWGñ*[-ÄÖ°Fœy7Öö×úƒˆæŞõä–W¾‰#ô*ı#‚q’¯–F2ÿ —mÆíŞëF½ME.Ëä¿‹ş“œ9G*ãŠµ¨YGNùc7*rÙûÎr¦êJVMÊné´äÊ+ëOç°¢€
+òoºçˆ<;û>Ü_øZëV³Öî5ïéÉ¥Ga%óG{¬ÙYÌ–ÂøA3Ã<ˆ†qå«2–*GiZtpuêÓv”a&Ÿf¢Úò>§rÜ6aÄ™^j5±)Î7jğHÆJñi«¦ÕÓMtiŸ<ÏãŸ‹2Úèºvª|Y_xìxf{k«o'â#W½¼ƒfÁ¤EdE¶•qÊyck™­ëË®|]¸ø¹'† ºı¡^-#ÂzF§=¶ŸÃaªEuw©k13êp>ÈÛá²¶‹"T$dÊŒKyĞ"tïUèÖŸW¿2šş^d•ŸÙQÓø‡Øâ0¹>¡^'R2JK6QöSÃ)BVv©ì%&¥ügU¦¿Ù:Ï†-ñïÆ¯‡vŞ&µñgü z†ƒºËLÒío,5}N÷DÓµ©d¼[¥yşÄ¥º[ÛMm0X§ctÍ4fë~üEÕ>'xOÅ%Ô#û¥Åş‰q¦iû’Oì»[ßhº£[ùªˆfÛqp|Ç]Çv>U
+«æeÙİ|DğSnŞßëNUìã$Ô}ŞkJV–²mZÉÙ³íøÃÂì¯(Ãñ>œTR°ÊOŞ*•2­)ÆUzé^.z+’”#SÔ”T£{}T¿¿°Òt+İST½´ÓtÍ6	.®îî¦X`µ‚5/$’HÄ*"¨,ÌÄ ' WÙÍÇ¾~Íÿ ufÔş0xÇK¿Ò<SâëS¤èš6¡kåMáÏCu3Âû%|zû5åÜl°2,Zu¬Ğ	¬Y~«¯ã^1ÍÖgœâqqiÁÊÑµìãv-_º\Ş­Ÿì?…\+>á,·'ªš©NšuœdãR£u*Æñ÷ZIÊ1µıÔ½énÊ+æOĞBŠ ( Š ( Š +ğn€?y+òãö¹ı«.>ÿ ÁAfğ?|EáO‚ø¬xßWğV©¤ÛÜÉñsX¾º¹Ñlü<óÌ“<1³ùSfXÒìÜ,–ùh:ğ4=µ_gk¶¥eçÊíøØ™;+š°Şhÿ ´¯íIà¿üøCğcâ×‡?á»ñTd¼·Ğ®¡¿Òfº±´|“Mmosh­:Ï-›§’v8“Ëóçı7­34¾±.Y9+FÍî×*µô]<¯ßP†ÁEpPE xÆ/ù8ÙKşÊ£ÿ ¨OŠ«ßh ¢€?"¾ÿ É‹üÿ ±ÃŸúo‚½f¿·rOùa¿ëÜ?ô”Ş&ÿ ÉaØ^'ÿ OL+Ê~6¿Ø¿fOxgü -aã³ıß·ÿ `ŞA¬ı—ü³óşÁäy˜o/Ìß²M»§†úÆ¦öç‹÷µÕ¯m6<NÎ²3Œmìùş¯Z^[òó{9Æ|·³µíkÙÛ{=£¨¯çı 
+( ¯ŸôGş×ı®ş1k¸û?öøwÀşGßóşÇfú×Ú·q·ü$G—ƒ·ì›÷Ÿ7dMÁßò7¡ÿ oé?úGÉ»Í?îş¤Q="ŠıÈÿ ,‚Š +‰øâ=CÂŸ5ıcD†ÒëÄ¾JXxzÒéXÁ®İÈ–še´›Yv¤×³ÛBÌ^5Q!fxÔ\«V…r«QÚ1M·Ù%w·‘İ–e¸œÃCƒ5ZÓ8Fé^sj1Wm%vÒ»i.­#Ò|á];Á?t_
+érİÜÚèÖË]Ş2=æ£9%ç»º‘UD·W4“Í.Ğd–YòÆºZşnœå99Íİ½[{·İŸí>GF|<)Á(Æ1J1Œb¬£¬’I$’I%¢<Óã‡u_~Î~#±ğõ¡¿ñ>˜¶ºÿ ‡ìÌ±Åöµ¥ÜÅ©éĞJÎUDŞZ[Ç/ÏòİÀ’3‡Vhæ•âè¾%Ğ®¾İ¢x†ÂÛSÓî|·‹í³Æ²Äû+®äu8e3‚â¿Eğî´LE&ıæ¢ÒòWOËNe÷ŸÆßL\·<OŒsNu©ÊWZN¤iÊ
+×»º¥Qİ&—-›MÆúÔWê'ğ˜Q@dëZ•â?Xµûe¥½şŸ©Ç˜ñíº²ºŠòÕò„²âŞ'Á;[n2’U¨Âµ9R¨¯&šòjÏo#»,Ì±9~2†?.Z´g•“åœ”]šiÙ¤ìÓOfš9/|,ğWŠ5‡Ô5+ZÖşKû}TÜéî¥£Ì/ µÅ.CÙO	¥Ì–Ï !¤‰aË¤1òeø)àiµ/~Ññøl"Óòßâ‰ ººµŠ{‹ˆ’âxï–K.KË’†fvE¢Ta<)_uuovRŠÕó7h´“oy-^©»;¦Š³
+*	û:4êĞ¡Z^í?c¹U§9:p¦’…&İ88ÆQ‚”bÖ¶­ğ§À:Ïöb\è?d´Òì!ÒVÇL½ºÓ,/4Èr!±¼´µ’8/l<ª–×),*³N¡Ë rO…ŞŠW1‰¼Yc­êWöÚâØx»[²°½º·†xŞkn’Ò_ÜÚÁˆ«¬`8aœåS*ÃÎÉ¦’³IJqQ´\W*Œ’Šåm5'Öçv3œ3”£:s”Ôã7R†¬ªª•!Z^ÚUiNUŸ´„eUs”´Siú]øiáø­ûS¦›}“xá3é!Ö2Ñ‹ÿ %Ì7Ú-’Î ‚-·öÔ¡”´RL¶×3Å'…ÇYŸÔ2,Uh´¤ãÈ¯Şo—E¥ÚM¿•ìÒ±ö~ ğïöÇe”e¸QŸ·“‚ø}Šu äìÒƒ«pmÚüÊ)©J,ı¢¿Oõ”( Š ( Š ( Š +ğn€?y+óÛö“Õ¾2ø¯ş
+;ğÇáOÂOƒ_³Ÿˆ5¯ø.ûâF—ãŒZ&£}kcu©ig-¶‹=¤[íomÜé÷2²31YíIòLq™»2ô½ºr“I);ÇG¤[Óî&[÷ì›à¿øCÅ?æñ×ì×á‚~*ñ^¿¹­ø·Ãş2!µø¡¬N÷&úúŞ)sy¦Ù,£Ï·³¸lF·îüâßeÖx©FU„›•®¬ì’I?5µúÚãŠĞ(®q… Q@ñ‹şNöRÿ ²§¨ÿ êâª÷Ú ( È¯€òbÿ ¿ìDğçş›à¯Y¯íÜ“şEØoú÷ı%ãw‰¿òXg_ö‰ÿ ÓÓ
+É×ô-+ÄşÖ¼5®Zı»Dñ…Î™¨[yÚ-g¢•7¡W]Èì2¤0ÎAšôÏˆ%ø9âWÅ?²ŸÃ­wÄ‚÷Ä÷¾ÓÇˆÇ2G­G
+Å¨Ã,Hª°ÏâO°íSˆñ•R¥G¤×óLéÊpš³Z4ôi®í®GFŒ<ÔéÍ)FQiÆQjêQkFš³MhÖ¨(©7
+ù×á}³á¾·¯³}©üQãj±ê$ï:¾Ú½ÜzeÊÍÿ -à:dV	o ,¦Ú;aò•1öÜN2Ìdä“´^NñW]´mz6åÿ ¥¦&µ.¡
+SqLU8É&Ò”U:ÒQ’[¥(ÆVzsF/t­êTWìGùÆP^cñ¥âÿ „>Ÿ)§x£Ç¶w$|MöM­çˆ­¼²r£uŞk™VÌO2®Ç+"y™×ü‹±?õîúK>ßÃ/ù,2_ûÃéèCQ_ÏGû
+ó¯Âù&>!ÿ ²ñÿ RV¾çÃÿ ùÔÿ ¯oÿ Jü±ôºÿ ’?	ÿ atÿ ôÍsÔ¨¯×Ïó¨( Š ( Š Í‹Lñ¾"X|<ğ4²C¯^½•Ş·©Æ‘²xSÃïq²æöG‘$º’(®¢°Hæó®“sC%­µëÁúáøsÀ´Ï	øOL‹HĞt„u‚’I]İİ¥ši¦‘šYî%•äšiåg–id’IİÙó·ŒYÛ«Œ¥•Ó—»MsI~[_ÍGU¦ŠOW²ÿ C¾ˆüEˆâJô­W7
+r|÷4İŸ-—4yªó©¦×7²¦ùRJRé(¯Æë ¢€
+( ¢€
+( ¢€
+( ¯Áº ıä¯ÊÛÇJø"lOƒºßŠ>!~×s|pM*òÇÁ^ø	¨ÛK®ÙØº’ÿ VÑâ2[ùÑ«ÛK2J<vÁBH–Ó´]™{š¯D›×âømg{ù%re±ï¿±6½®ø§áwõ[ÚÇßü3¢ê¶ş°Ğ¼uàX¼9âŸ‡Öï»Òµ‹ «&©©$wvQ\Ü°*Ó[ÈÊÌd|}µKZò\©m¤]Ö©j¼étNÁ‚¼ã?ÅxûÂ–>ğö¿ÛüUà½;_Ö5DßKÒt½kÄ6z)[gP>Û©?Úed‚6	n‘™î]7Z[ßÆŒjÖ…9;&Òş´zöéßA·esCÅ~+ñî·ñëQø_ğ¿Qğ‡…õ¯èWŠ5ÍsÅÖ·jÖº•Åı¥¥¥µí“¼ŒúUô“O%Ê,+º$7&åŞÏ³øÑâZø7Â^°Ğ<#ñÅ?ğ™ÿ h^ëĞO­èºü"Z¼:³äÅ¶sê>n£qV»Çu¼’\ËåI
+ØÎèÒ§;%{«·ÑY&ÚO]l´vİì­ªg§|2ñ¦©âˆ<eáÿ [éñøÃá†¾¾×îtÔxôÍNé´û-R»8äv–å³Ôìİ ‘ ˜Í –é"K©ı:³­O’véd×]MtZÙë Ñà_¿äáÿ e/û*zş¡>*¯}¬†På·†¬î4o|XğÖ£Ùµ­âoŒî/­·ò#ÕukzÀïRQ¼İ7VÓî0¤”óü·Ù"H‰Ö×öoV…\(;¯eóŒT_ÜÓ_–‡øıâş[‰Àñ¾sGY<MZ‰]?r¬İZoF×½	ÆVİ^Í&šEôgçğMşÃ¤üHğ<ÏøC¼}­/ÚşïÛ?µü¯«ş+ûsì¿y·ıŸÌù<Ï-=®¿³¯ùâëäÿ ô¦°É’ÿ Ø&ÿ LÀ(¯0ûƒø…â¿ø@¾xãÇ?Ùÿ Ú¿ğ†xS×~Åçùlû%´—W™µ¶oòöîÚØÎpqŠâ¼áoøAşø+Á_nşÓÿ „?AÓtO¶y>GÚşÉny¾^æÙ»Ëİ·sc8ÉÆkô/pÜØŠø‹ü1Q·øïòåü|ãß¦sì²|¯)öwöÕ§Wšû{rròÛ^oo{İ[–Ö|Úu´WêÇğ(Q@y¾´ŸÚÿ µßÁİ?gşÂ_xãÏûşØìÓEû.Ş6ïÿ „“Ïó2vı“fÃæïÂâ\G°Êñµï^ß»•ïçkh~§àMı©ÇYFÚrrÖUokÿ :ü¶ºø½Ÿ-şÍïgk? (¯Áõ¤+çÏÿ Ézı ¿ì{±ÿ Ô[@¯¦àïùĞÿ ·¿ô‰ˆ}#¿äİæŸ÷ÿ R(—E~ä–AE PE Íêw"Õ5É<ğëJ“Ä5;=Út/au>“£¼¾b[İëW1èg|É"Kp¶·1Ú¥ÅÂˆOŸšæx|»	SŠ•©Á]şI%İ¶’ógÑğ
+ãø“8Ãä™bNµvÔyŸ,RIÊR“íÅÉÙ94­ÊVOôáÏÃŸ|0øt¾ğòİÜ½Ìí«j×î’ê:ş¢è‰-åä¨¨¯3,q TDŠ(¢†c†bŠ>ò¿ŠqØÊ¸¼ELUwyÍ¹7æİşK²è´?Ùl«,ÃeØ*~”hÂ4á·hB*1Wm·d’»m¾­°¢¹Nğ¢€
+( ¢€
+( ¢€
+( ¯Áº ıä¯¾$è~9½ı®üûg~ÊÚ€hX$ğ¥ğë]ğü^5µ²‡_ÒÆ«Í¬º&¢‘If—0^‹³t×31[ùQ ˜îx7ÔæÔlâİ¯nh´¿Îİ“±,ßı“¾übÓ>9şĞ¿´Ç@ğhMWDò¼¥Ş&¥ÿ ¾—¡ÛÏaeö›øähn.f†Egò€O‘_÷fV·¶ûj§8J«önñJ);Zü±Jöó°Ei¨W‰~ĞN©¬ü	Ğlô}2ÿ U»‡âOÃ;é ³·yäK[_è÷73@HxešG#jG»ªH02QÄR”’”4Z3ÄwïğÃöËñOÄÍDñv­àïø/Ã¶¸ğ¿†µO]iÚ–‘}®]H—v:tİ$sÃ­Fa"xCZ\$Ïnïj·^cá
+x£áG‰¾üSño†µùtk?ø[ÛZ^ƒ§Ï¯ë^ÿ „ËÅV~#Ó|ë=g’çÈÓìW_`ûW—q4lu¢Íwá’ƒSrZ©FİnâÖ·²I]k{Yé{4†{oÁ­'TßÅï_i—ú.›ñkÆøŸD±Ô­ŞÓR‡L‡AÑôhŞòÕÀ{Y&}&[•‚LM3À³¥½ÀšŞm¬ñSR©§EÓìÅ'¶–ºÓÈqGÌ´U·Š.ş&şÌşÖ4ø–OŠwŸc¿Öôyõ{1àß<ÛHní$—taÕvÜGµ™Xï
+Q·ÿ áı¨¿è±|ÿ Ã;­ÿ óWJ”¨¥ûÈ¶ü¤—şÚÂÏ Â9ûQÑbøÿ †w[ÿ æ®½ö¦«¤íìâ×«OòŠ~§ç§ÅË/ìø)o‹Zeéş/ğ†uX1‘·ªZ^êÖšÊpâæC A<ƒs¤GMG!<YÕı]á•U>Â®kµÎ»~òVO¶–²ín‡ùcô—ÂÖ¥â&c:°qEFPm4¥Bœ\¢Şëš2ÖœÑ’İ4WŞŸƒ Ê<3ûfjĞÜ“i¤üPĞl[NŸ.Ö]{JkŸ¶y¹Ú¦öãO¸±ò¶ï’[}ãvÈí>ñ_†ñ…g›V´yT¹ZÒÉŞ*íw¼¯wŞıOõ7èç™ıw€2îjşÖt½¥9{ÜÎµgÉ«qå¤éòÅÚÔÜ,¹yBŠù“öóÄ>*Kı·ñ[áoÃáŸ²_j7>2Õ£mŠëOĞÌjëûÅ5‹íåUv«Çk:»í>Tİ½~µáõ,Z©{ÎvoÉE5å§3ûıóßé{™bgÄ˜¥ûšxiÙi:•*Fnö»º¥MY¶—.‰6îQ_|%… WŸù?¿‡ŸöOükÿ §WÌñüŠ+ÿ Û¿ú\OÛş?òq2¿ûÿ ¨Õ|¢¿?ÔĞ¯Ÿ<ÿ %ëö‚ÿ ±îÇÿ Qm¾›ƒ¿äoCşŞÿ Ò$~!ôÿ “wšÜıH¢z]û‘şY Q@â=^ûJĞV=G“ÄŞ-Õİ¬<7áøfògñ¬Ñ¼ÚFûXFFï$Ì<»xcšâRÃ#¯İ~Ùü(ø<MCû{[Ôoîõ­[kU¶“XÕ.Ÿ|²lÜî°Ä‚+Khä’g‚ÒÖÒ,¢çğÿ ³u8l²^MÔ–÷I^1ò³n_8£ûsèuÂ³uó.%¨šŠŠÃÓw+mÆ¥Tãñ^*4y^‘´ä½æ½ßP¢¿ŸÏîÀ¢€
+( ¢€
+( ¢€
+( ¢€
+ü ŞJüøı¢ü ‡ş
+Üÿ 	>-~Á7ş-ğ/ƒşŸÙü:¶£«]i¬Ï,7Í§é×zu¥…‘šïPIâ{W™/"âxeÏ§”ó{kF§#IµÚé;_t’MêÖ×Kr'¶ÇÕŸğOÏxYøçûIø#á­çÇÅğWÃŸøC¬ôíâ_Šn¯ÿ áó­ïÌÚ%–•sl’é?ÙÓE.,mqyæı%*¤ı7¬³Éb%ÌÓvMµ³¼Sºõï×{-‡‚Šá(( Š ğ/Œ_òpÿ ²—ı•=Gÿ PŸW¾ĞE |‰ûYøyí<3à‹¶qğÇUÓÄw+½¤‡ÂZ¬kól#ÉH`¿ƒDÔnn$1˜-4Û·ó"›Ç«úCÁ¬ljeuğ·÷©Ô¿O†QVóŞ2ßååş{}12zÔ¸ƒ.Íd×³«AÒK^e*5%)6­k5Z¶mİJéY\¢¿`?[Å¾oxzÍ,ïÿ ±õİPµÖ4]LCæ›ëwÜ¥”2;A*-n#Hškk‹˜|ÈÄ¥‡]à/§>ÚêsØ_µ	iâ§ó¦ğş¬±£Ïg#íMû<Åd”(Iâxg‹t3Fíù‡ˆ8ÍG¶·#ÚË¬tß_zı4[uşåúñLÇ†ê4¤šÄAZ\Í5u[—ÃhòÑåZJó“÷’÷{:§¨j~‘ _jº­õ—¥ivòİŞ^]Ì[Ú[Æ¥ä–Y…DURÌÌ@ H¿6?µÏğU½ö¯âß|FÖl®ôıCÆ3Åg¦Z]BĞOaá»™4Øä‚2¼Ï=æ¢Ë4iq	Ô´¹û2ãÑ+÷îÁË–Ğ£=íwufœ›•šò½¾[-ò?ÆN#£ñ¦i˜áíìİNH¸ÉN2ÆŠœd’MTPSVºJVNV»(¯hüÌ( ¼ÛÄìtïÚkàn©f|›ıS]Ö</u/Şót«ûRš§*7]èÚl»À>Ï´0I$Wñø‚Œ*å¸ˆÍ]rIüâ¹—ÜÒğÑ|!Ì±85É«aeË'ˆ¥M»'îU’¥QY¦½èNQ¾ê÷‹M&¾¢¿ŸÏõÜ+ç¿‘?ÆºŒM§j><ˆZ]GóCuömG±¹òÜ|¯å]Úİ[I‚vKo4m‡”}GS”³z.*é)7ä¹Z»ì®Òõi„ı$ñ4ix{˜B¬ÔeQÑŒi9IW§.X§»QŒ¥e¯,döNŞ™E~à—!E PYz¦4áaooa­kZÕÒéÚ6§"I}­_2³¥½º;*nÙ’<’:EQM4ÒERÊ˜â1èRzÒ´ œ›ì’»$weyn'1ÆPËğpç­Zq§İ+ÎmF*í¤®ÚWm%Õ¤}mğkà×ü ¦oø¾m?ZøŸ­Z›[««RòXxzÁ™$:f˜dU#|q<÷,‰-ì±G$‹QZZYûÕñuS6ÌkcêiÎô]¢´Šù$¯İİõ?Øîá,7ä8<‹
+ïIËUÍ6ÜªNÎRqç›”¹yšùV‰`x£Å~ğ?¯¼QãOhğÎ—å}³WÖõ4ûO2E†?6y™cMÒIk¹†YÕG$
+ñ£&£vÏ¬<ïö¾øo¨IŸâ¯ø²Í1åê¾ğ?‰<O£]p	û>§¦XÜYÜm9Gò¦}’#ÆÛ]Wÿ ö¿ğ«Ş)ğwÂ¯ş>Ó.¡k Yøy!Ÿ'0›oŞi·nBìo28æYÒDë0bÜ=IM]JK–6µÖ¯k­¾ãóÜóÅ~Ê!ZXüÚ„eIòÎ©ÔŒ”¹\}•>j—‹ÒIFñ³r²Mªv¿¶gƒõ¤šgÂW~*ŠêâŞûÂóxZ:ëNd„Îu+Û¨t[˜Ø¤l‚ÏP¸‘ÒxİPªÊb¹¦ş×~mrÙ|[ğ£âÏÃ3…½ñ7ˆÃRi:2×†ÃVº+pÛCÏä˜¡Re™á‚9e¾>ñ…Iı_àmZêï—ùWÚO£[ô<:=p+aè<ÚŸ5u	E¥7¦ì½¤”\i5öãUÂTÖ³QZŸSi:®•¯x[L×4=KOÖtMfÖí?P±¸K‹[ëYIĞÊ„¤‘º2²º’¬¤H5¡_	(¸·+4~¼‚Š@PE P_ƒtûÉ_ß~%\|:ÿ ‚äü›â¯Åûÿ … î¾k÷·Ÿ^·Ò¼=â?Åqå^Á«“ÃÇ›um<í£‰nù¯,rõà©óÕåµıÙYo¯+·Îû-¿öXøÃãŸ‰µoí[ _øë@øµğ“Àş*Ò%ø}ãMNµÆ[mNÍïnth¯lÙ­¯³¬àgËOºVy›÷±ÇÛU8º>Ê§%­¤n¼ÜSˆGTW1AE P|bÿ “‡ı”¿ì©ê?ú„øª½ö€
+(Å~Ğ¼oğ»ÄñEöŸ†|_¥^hš½Ÿ,k°º… /2&Ytr:îFVÈ €kókÂç]Ó×]ğ_‹®ÿ ´<kğÛU“Ã:õç•?ÚsESÚê\Y†·X\XêDlâßíC1’õÿ óe™ÖÁÉÙU…×œ ôéü²—T½]å?¥Çıw…pùµ:\ÓÂVW—5¹)U\’÷n”¹ªªE)-Õ£ÎuWô‰şq…pú–‡â-'Åw~(ø{}¤iÚ¾¤cmkIÕ!•ôÏùH«;DÁìï|¸ÒÜ_"Mˆv¬Ö÷bUƒÌÍòºy†Xj×ÙÙ;5³_“Úéµusíü:ã¬gg´3¼yù/ÓæqJrV”ÊQº”cR0›Œ¹l9>-x‡M„éŞ&øOãâ—ÿ ;oK±¥jøù¤û>¥1µÛÊˆ¡í4°ó|vßj*g\éş?ñìFÃâ$>ğ÷ƒÜm½ğÆƒyuªwo!o5áµÍ“îÄ¶)h<ß)D—ÛÍ5«şg•ğN.x¦±iFœ$¯¿¾·÷mm²½Õ¯İ4¿·¸ëé=ÃØlŠ52	Î®3FNšQŠú¼ÛäN¿72Sƒæ’¦£QO‘]ªU!R^E~¾AE P^añ%ÿ ²õo…Ş-ÇŸÿ Ÿ´eû'İûWöÇ›á¯¿ÎÏ'ûoí_u·ıŸËù<Ï1<ÌëşEØŸú÷?ı%Ÿoá—ü–/ı…á¿ôô¡è¯ç£ı…
+ùÏàË-ÏÀ¥Ö ;ôßx‡Å(Ò¦éö­+UÖ¯µ+	öŸ™<ÛK«yv8WMû]QÃ(ûŸÿ äcSş½¿ı*òÇÒëşHü'ı…Óÿ Ó5ÏT¢¿_?Î ¢€
+(6âãTºñF•áoi_ğ‘ø×Ä~oöV•ç˜#1Å°Oww8Gû-…¿›à£•2Ei=Ìööóıqğƒàœ?¯nüKâ}nÓÆÿ 5(Â]r-´Û=;MŞ®,ôÛ'á­!‘¢Šk†iå–âdBòyPZAkø‹œQ*4ã’áÚ¼×5Nê7\±ò»WkµºHşÜú&øg
+³©Æ˜ø?İ·O¬¢›åq«RÜ©MZ^ÎIÅKÚ©Gš1kİ«?UÕt­ÂÚ–¹®jZ~‹¢h¶³_j…õÂ[ZØÚÂ†IfšW!#Y™Ø…U’ ¯çÓû°ø³Åÿ ´Oüm,¶?ìâğ_„fAøÇÄº=äzåÉ*VuÓ´+Èa6¥©ŠóQŞ<ÛyÓnm¤Šy<VßÀº|@ƒÆšò\ø×âa_x’A©k0ù¡Ä©m<ƒ6Ìe…’ÛÚFg”EJì§úCÃÏG2Ì£zïXÅÿ Ë¿7ıÿ ı'×oó÷éôşÔö¼1ÃÙuzñÆèéÓkş\ôœ×ñ¾şæî¯cE~À…èÿ ³‰ÿ áø§ã‚÷·OÔ¾İñÁÜt·¸ºOíûN·î5KØoüÙäOíß"X¿j×òˆÕ8ƒ´¥Î¿íô¤ú½›kå²Gúåànuı©ÀyF'““–Š¥kßøĞæ½—Åìù­ovü·v»(¯?V
+( ¢€
+( ¯Áº ıä¯‘?i‚?ş+ëüñ‹À:_€íô«_¶|.ñ¿Ã-3ÄŞñ†©iu%ÜÚ7“som3-¤/ä#<":/ŞãáªÆXÎqæK¥ÚôÕj¬õWGûx÷âß¾;üø£à¿€_/ş jºFŸcá…ÚEîc¶§Î ·Û]ŞØÛ^+$Ğ¬E'V?i†d÷Íi„cYò6ÓIë¿¼“×ÏQG`¢¹
+
+( ¢€<ãüœ?ì¥ÿ eOQÿ Ô'ÅUï´ Q@|oûLø&m^“ö‚Ó|¦Òü-á‰´ïÚ†"y|?g$—¶ÚŒ;‰V:gŸª<–ñ„’âéÙZy­mmf÷¸_6Yfk‡ÇKá„½ëoÊ×,­ÿ n·ú5¹ñ!ğ¬x“†ñù#IÊ½9(s9F*¢÷©JN:Ú5#	;'t¬ã%x¿+¬sM¼Õ¼-u§éúş­á{»^§¦Gg%Õ¶×V;î	à;‚”;âo•6¶gÎ.QqN×[«]y«¦´óMyã¬)V…YÓU#›„¹”d“»Œ¹%$ö|²Œ­´“³>yøwãŸ·À¿„vñ\ÿ ÂËøƒñ?ÂkãYæñ-ı®…aak¾š.¡ŠM;MsÅÆ¥Š7Ø«N^q²4~â·ÅïˆzGÁO‹Rèw×~ñ¯‰^ËD–êÓOºŸÃ0Yø*ßÅWÒD¶÷$–·–¬ÆIÃ"<‹
+#|–2ÅW£‡¥	µ)é)µïJƒ©ğÙ++ÁÆÛòµ+hçı	ŸpNA•fÆ;B£‡½JXXÊ¼oF–gKß¶r›ç¨©WU'î{Zu(©7(áú!ñoÄ¾	Ó®äÿ ş#éåş›¤øjóÅ^½Ñu9µ—ƒQ»Ômäµ±ÒìÙCeam$sC¦LZk™¥1¤hxã·Œoş|E“Ağ&­á-[Âßoü]>«ª¹¶m&èfÚİ²\M¾çHxğB²[JòL¶ò"[Ü{X\Tù£M)MZüÒ‹Œ¾+jœ!’×u&–z7ù–wa}•ldêPÃTU9=°­E%CÚ'	Ç‰ÄIÔ’P¿³•Ô—,±ù\!õ•ëPE ÉxûÂßğœ|ñ§‚¾İı—ÿ 	~ƒ¨èŸlò|ï²}ªŞH<ß/rïÛænÛ¹sŒdu Ïáÿ ‹WÇ?´5‡öEıÈšÓTÓ|ï?û'Uµ™í5?;j¬ßg»‚â5É<½é”e'²¯æÊÔgF¤©TV”[MvkG¶‡û]–fXlÃCƒ—5ĞHJÍ^Š”]šM]4ìÒkf“<kãÜŸiı›µ	&×›âMöà¶9º–ÃT¹×S{UêÓÛévk¬klòÈn+­¯Ò|;§%LÚÑò$ú]s]|®¯êâ¦>&Œ«d¸xÍ:‘X‰8İs(ÉÑQ“[¥'	(¶¬Üd—ÂìQ_¥ÅE Œ÷ú¡ã›oø;A¿ñguã’!ltèägXîu[ôŠHtÛCäÜ0’oŞL-nÖ+¹Ğ@Ş~k™áòì%Ln*V§wù$—vÚKÍŸGÂ<+âLã’e‰:ÕÛQæ|±I')JO´c'däÒ´c)Y?·>|&Òşø^õŞ÷ş?øÉ—Ä~#–ÜA&¥$Aü˜ ‡sı–ÂßÍ•míC¸ŒI,’<÷3ÜÜÏë5üc›æ•³m\uŠ£oÑtKÊ*Éy$±1Ã¸<‡*Ãdù|mF„#¤SvŞRåQNswœÚKšmÊÚ™ú®«¥h>ÔµÍsRÓô]EµšûPÔ/®ÚÖÆÖ2K4Ò¹	hŠÌÎÄ*¨$~uk¾;ñÆßì­sÅ–ÿ ğ|?ó­µÏøìe¶¾·l’Òo;ÈÂæö‰:Z¤qAgpí¸ßMkkyÚxeÃtóLÓÚ×_» ”Ú¶W÷bôµ›kªVÚöü‹éâ-náv°2K‹nŒ;Œá	sÖ‚‹RnŸ»ÓJœ$Û²„¬Ñ_ÕGùbxßÄ¯ˆ‰á=kÁ—~©i-…§‰u/ÚÃsb® ·ğÎ©«‹ie¹tŠÕÉ‚ÊpÒÉP»¬NÄò^øıwªë¿Ù ğEß‡n,µmËT†­6zË]Úi³¤z–›cw;É©ÚEfÊ–ŞR¨åóØG:ÃçbsRq–¦å%Ìùy¿d·M4åuew¡ö/â3Õ ¯Uğñ£J^Ê«ÄI(µ*–q”gR¥Z<²R›§M©¼ŸşÒÍ¡ø+Mñ<>»Ô¼9>“?Šn®-g¾»œxlÜ\Øá³±ŸÈ{«+St©©¶™^{´mkõ=^±“‚÷-i.e%~±Kÿ ”¿½Êô0â.y=*0ÄOı§µ:´ïEû)Ñ©ìíûºõ'«OZ”¨§kÒuaïœ/µ¦ğW‡ôoŠ°4‘\|Ö-|i,¢É?öM¨xõ¸`‰ÿ u%ÅÆ‰>«i“j‰.ƒÂÊ³Gú­_ƒxÑƒåÆá1Z{ğ”|ıÉ_ÒŞşŸ?#û{èu›Ñ©fYTSö”«Æ«v\¼µ©ÆIŞ÷N„¹“I$ãfîÒ(¯Åì¢€
+( ¢€
+ü ŞJüjı¸|Eû/h¿ğWÿ ‡öŸ´|ğ[_ü,3h^=ğ½ßŠ-ü_àjßR»—M½Îo±}›ÚÍ³Gkwp·qƒ:¥¶Â{òÅQâ#ì¥i[mù]·ÓÈ™ZÚŸ]şÆı4MÇŞ0ø#ñË_ı |KñûTño‰¼Mã8üAâ4¶KWJ¶¿V)-<¸şÒ;ˆRp|ÈÜ‘
+GÛU:Uy{X¨ËEe¢VI+yYzvĞ"•´
++ ¢€
+(À¾1ÉÃşÊ_öTõıB|U^û@ Q@œş,øi7À+Í#@µI'ø;;ÛiÔØ–;†ÓEÔ\òc'Ë†Æõÿ ×~îÖàı³È›S¿­ü<Ïãšdô›·´¤•9/ğ¯uÛ´£gÑ_™-ò¿éÀµ¸{Œ18„›Ãã\«Ó“»÷§&êÂü±áQ¶¢¹œiÊ““nG\ü,ğUÇ|-áØ¬um+Oğ]„zV‹.‘®êZ]õ‚G_f¶³ÇrĞ²ÁxŞVY]Ã<hËROƒ_Ş-j%ğ¥¥­¿ˆ4›í
+öŞÖââÚÓo,ì,.-ãŠ'T…®‘§D¾PM‚ÜÚ]Ë}Èğ-Ó~É~ï•ÇW£Š²{öI;üJ1R¿,mğ°ñCŠ#d5òâÕhÖ\´í8×“•HÛ—İ\Òœ £eJUjº\µ^~³Ä¾Ñ<[¡C§ëp]´v³­Õ­Å•ıÎŸ{c8VO2ÚîÚHçÌrK4R)hå–6ÊHêÜô
+|…¼C¢¦ƒÿ ÿ è#ÃzÊµíÓI©iûï$a,¦O1¦’MNşY.7yòÉpï$øaèûûOkw{[wkoğß–şv½´½şĞ«õ?¨òÃ“ŸşÎŸ´¿/-½¯/µä·ü»çöw÷¹yµ=ŠÔá
+( ¢€
+(ÎÖñ>|Uñ'ŠïNÏ‡ş56wZõÂôğæ­"Ğêw²ÆÊkHlmæu*–bvŒÅ5İÅ·¸j†Ÿ¤hÚ®«}g¥éZ]¼·w——s$ö–ñ©y%–G!QT³3 ’ ¯Ä¸Ç-x\Æum
+òßµ«ëÍwe²kmôÿ èßÆTóÎÃájTæÄ`¿s4ùP_Áj1wäö\°R’NS§SâiÉøfv>#|[Ç$‰<áCseàÂ‡}¶ºn!ƒíÚîôÿ H±´‘sn×“$·ú„^_£×èœxl²[Ô¼Şİl•­ÑÅ'Şíú/ão¤wÃ:ãŒTi4éápñiI6é¶ê)snãZu!t”\c_â‘E}IøHQ@xkÃŞ?ø¥®Üé¿,í4
+Ê{‹Kßkvk{¡Û]Û6Ë‹;[(®íîµ¥—lÈĞÚÂÂéZå®mÉşçøsğçÃŸ>/‡¼<·w/s;_êÚµû¤º¿¨º"Kyy**+ÌËh"Š(¡‚á‚¢ùÃÅ^-úæ#û#+Ò¤ı÷mê+¦½#ÿ ¥_²?ÑÏ¢ÿ …_Ø™WúÏ˜FØ¬d³´®£†’„ãx­ê4¦îäãM.I:‘}ågêº®• ø[R×5ÍKOÑtMÖkíCP¾¸Kk[XPÉ,ÓJä$q¢+3;ª ’@øñıX~uxï]ÿ …ÛñŠßÅšæ•sÿ 
+ÿ ÃŸdø\´Û%½ô2K#ø‚kIMµìá Ş9Õ®,à€¶mf¾¼µŠÍ^ğAı•“Ñ¥R
+5f¹§¦·wi?8Å¨ÛdÓ¶çùCãßË‰ø·:‡S‡~Î‚¼\ŠQ©8r7*µ"æ§w)C‘;(Æ1(¯³?8{ÿ †ŞÕ|k{¯j´Ô¯5($‚î§’m>èÉnläšKcj÷MhM£\´FclLüŸ’²l¾|;±Ğ¼c§Ç¢]ÜGñIMÄ·ºÆ¡{{­Ù"Ü"-ÅÜó<ò:Çy<K)“ÌXü¨Ã†%–8:1Ÿ:©¶µvN[´¶Mëª]eüÒ¿¹[ˆó¸g…©Vñ”)Ó“åŠœ©ÒmÓ„ª%Ï(EòÚ2“©Ñ­BŠ§oÆŸ
+|ñÏ_h?ÚÑ^Ø6™y½º¶‡Qµ;Ìiu2"\ù,’Û™Cµ´®ÒÀb—¯C­aFœª%ïJ×~›/$µÑivİ®Û|5ó,Ml5%I~ê—7$RI'7yIÙ.iÊÑNr¼Ü!Nä§Çñw†l<gğ£ÄşÕ%»·Ó<Y¤Şè×rÚ²¤ñÁuÁ#FYYC…rT²°q_x|ñ¦©ñ#ö4øGñ\·Óí5¯ø/@ñ¡Š<v°İ_XÃs*B®îëyX(gf
+Y'ñ?é'GSªs_zù#ûWèa¾z¿ìÿ vN¢¿ ?¹BŠ ( Š +ğn€?y+òãâv“ûlx3ş ·_~2|1ñƒ¾$ø.ö/	øwâî¶ºn“muâİ^éún‘¤IÖ£{k
+‰—P{Vd³¸0Ï<¼Ù{¢ª5^-ÅÆ[n´İ.şº-ú+ÛC×d¯ü{Ğ¿iÏÚGÄ¿¾|1ø]iã¯¾'‚í´AkâMBŞ+ÔÖu´ÚÆš”ñİ]¸½‰uRÓÂ·­%„¤ıÕYc%IÕn‹n6¯¾‘K_øvÒÁí¨Q\Å Q@ñ‹şNöRÿ ²§¨ÿ êâª÷Ú ( Š ÏÕt+^ğ¶¥¡ëšfŸ¬èšÍ¬Ö:†Ÿ}n—·Ö³!Xf‰ÁI#tfFFYIkáÿ ˆ¿5ß…z„š¯Ã_jŞ*ø_>éeğÖ‹RêÚÈl-™ÕîôŠå,m„—vÒ‚Ò›ya·Ó¾¿‚8—û3&wt¤œf–ü¯ªó‹Iú&ºŸ˜x¿áÜxÓ†ëe’…tãRŒ¥ÍË‘º\Ü¯iEÊ›mK•OBRŠGèZş…âZëÖ´Ÿè—ÛşÍ¨i—‘]ÚÜlvöKdm®Œ‡á”ƒÈ5­_×ÔçÅN4ÕÓ[5Ñ¯#üÄáka«Oˆƒ…H7FIÆQ”]œdši«4ÒièÂŠ³ ¢€
+( ¢€
+( ¯1Óş	üÒuÛ-SKøGğÇMÔôÙãº´»µğ¶ö³ÆÁã’9 ÈêÀ2²A Œ\¸ŒooN3¶ÜÑN×íu¦Ç¹“q6q”{Oìœml?=¹½•IÓæå¿/7#Wµİ¯µİ·=:Šê<0¢€9sâq¨xêïÂ>Ğuÿ ‰5Óü¿¶h>†æÓ<Èüèÿ ´.¦’+-3Ì„<°ı¾âßí7X<é Cïı—§ñQjßõµVŞqà?jÓ¿…cD`ŞÜ{[½\Ê¾pšŞåc°x§Ée3Cö©¿ñÄ%€RËrÙ^»ÒR_òïÉÿ IõÛûèûô}şÔö\OÄô¿Ùt•
+_ÆêªTOş\õ„ñ¾)~æÊ¯×N“¥h>Ó4=LÓô]Eµ†ÇOÓìmÒÚÖÆÖÅ1 	hŠ¨¨ *¨  hWó„¤äÜ¤îÙş$ù×ãOˆ·¼P·ÑIå|$ğö«#xwNÃÇâ»«+†HuË©˜ç´2B.4È£g„Æ`Ô¤íSMûß²fyÔUzt—´’èùZQ[[Y4Ú{Å4~'ô€ãšÜ/ÁØŒFµ_Öœ•×$ªFNSº”eq›„£vªr6œnW¢¿¬òŒ( <ñ}Åî­ñÀß4ËËË1âéïï5élgk[ÛoY[Ÿ´Éor0»ß\é6lÑŸ´,w²¼&'íK¬ü&Ò¼ákßü ğÕ–™ãm2Ú[™làdŒøø¢6šµÌÌâêfËÔn$yàF•X¥º‚ëòÎ0Î«QÌéF„ô¤”¹uK™İëk]8´·µ›J×g÷ŸÑÏÃ·2à|u|Û
+¹³R’©îÊ~Â*1NÜê›…xÎJñMÎœ&Ô”)µÔhæ•âè¾%Ğ®¾İ¢x†ÂÛSÓî|·‹í³Æ²Äû+®äu8e3‚âµ«ôê¡ZœjÓwŒ’iù5uøÃY[‰Ëñ•ğÈòÕ£9SœnŸ,àÜd¯Ó³M]6ŸFĞWÒ_²Mü7?ğMï„:Tk"ÜxAÀwìÀ›Qğì ŞÉ	ÎZİî´éŞ`®Ñ4eÒ6,‹ø÷y<¿]ZÑ¨ãçyEµò÷]şGõÿ ĞÛ7£O3Í²¹'í*Ò¥U;.U2”$›½îİhr¤š²•Ú²Oèª+ùÔşû
+( ¢€
+( ¯Áº ıä¯ËÚÛà_í'®ÁGtï‹?<á]ø«áÇÂ›Oê:üze×Â½BçT‘î5ø³¶çÌ]>úêd±g§fFUX.»2ùRuí¢Ô“~±k³ïØ™'mÿ Ø+àÎ©ğWö„ı«¼3áï|NğoÀ«Ãz/‚"ñ”’kš–™a-»«ÛÀÏ†úám§[¨£ãhV0‚¥Yom]ÕÓU¶¿*ºù=
+ÊÁEp”PE xÆ/ù8ÙKşÊ£ÿ ¨OŠ«ßh ¢€
+( ¢€>yø¥û>è¾3×®¼cà‹áÏÅ;Çˆ^øt5½ƒÄP$i ‡Y´Škg¿E}C<s[2‚	.mî~[Ö´Œş‰¥ñÏÂJûLiõŸ‡—íâë+Dvòãí<‹]f[ƒ&7-®›q$‘ÈÓy°x}â2ÚqËsºN^ìï~DÖÍ-õÓk·®ˆşZñãèÿ >,­. ÉjFØÓå•'¨×q~ï¿îòÔå¼§Í(Òƒtã#/Ã^.ğŸŒô)uOxŸÃ¾,Ó-çkYnômFø#U\ÆÒBÌ¡Âº1Rr)Æ®Š¿¢èÖ§Z
+¥))EìÓMvİhY–YŒËñ3ÁãèNXÛš"á8İ&¯$ÕÓM]jškFV§Q@ Q@ Q@ß†5üPØ>xSşë	3ÿ UİéÒ¼7}İ[Ê™¯²ÑOşË·¿ògŒEsö]ÛÇ·øwöYñ&¹,w~#I>™",§ÂŞ[½wR^½hNu±‚#ö_Ù>g—'ŸÇ7‘â\oâ|hû\¿)wÎªÙoÌ£İ­–ÛÛdÏî/şŒwú·q|tøã„”}9vß«t9‘T—ñ(ŸYx_Âğ?¬|/à¿hğÎ—æıHÑ4ø4ûO2F–O*ŞXÓt’;¶Õgf<’k~¿Ÿe'&å'vÏîd‚°<Qâ¿xÀ×Ş(ñ§‰4xgKò¾Ù«ëz„}§™"Ã›<Ì±¦é$5ÜÃ,ê£’‹“QŠ»`|ñ+Å“||¼{]H’ƒ°8m3Âº½™GñC©Êj:Õ¤«‘ =¦2şçå¹ºO¶y0it/ïì4
+÷TÕ/m4İ3M‚K«»»©–-`KÉ$’1
+ˆª31  IÀıqáÿ de4éÔªÔ÷çİ6´uY5üÜÍn•Hÿ Ö®*­õjœØL-èÑ³¼eÊÿ yUZRƒö“¿,ãnzQ¥Ì®wÂŞ6ğ÷Œ>Üš<š´zg”×V:¾£_C»„R›KØaŸÉÇ*¤¡<·hfUbÑ8^¶¾ÊXÕ‚œS³îœ_İ$šù¯Àüs2Ëªàq3ÂÖ”£kºu)Õ†©5j”¥8KG¯,âìÓH¢µ8NátÚÿ ş/øÅƒ×QÓ|§Oüz^éúU±¹y¹ó&SÕõ{9Y[jµšÄQ%†Rşá_€ñ"U³<Dåm$ã§hû«ğJşgúßàÎQG-à|ŸA·P…_z×æ¬½´–‰h¥Q¨«]E$Ûwoç†Qş x,5—Ã¿^é–£Ë‰,/ ¶Öí-a„dA¾­ŸjJˆìĞ¨XE¨Wì<3ˆöù^vµ£Ëÿ €û·ùÚş[ç¹7ö_føoiÏÍYÕ½­on•~[]ü>Ó–ÿ j×²½‘_@~ÇĞÍì£\<RGo¬x«Ç:Í„¬¤%ö›}â}VòÊêé%½Å¬ğ\C*å$ŠXİ+)?ŸøË8¬„WuSK­”'wnÊêş¨ıè}…­.,Æâ#éÇ(¹Yò©J­·²rP“Šzµ5ğ»}9E6è°Q@ Q@~Ğï%~5~İ:ì¥oÿ øMeû[ëÚş¿ğê÷áf§>Š=u,|!ªHIk¬<štÉ$ŸoÛH#‘Õ¬­Ze1´rCèe\ÿ Y^Ëâ´­ëÊí¾›“=µ>Êı4O_…¼Swğö„ñwÆ?jÖº,Ö~Õüv<CkğßLÙpÚ}…•”€]iQ˜\Ãä]æm¶Q£üğ½}—XcWZ^Ú6—]-­·í®úhïtµ´
++˜ ¢€
+(À¾1ÉÃşÊ_öTõıB|U^û@ Q@ Q@Qãÿ ¿	~'ëêş4ğ6¨øšŞÖ;_ÚyšgˆôûT‘¥Úkı¬e¤”2C:+¬Ó#I][ç=kögø«áØšãÀôßˆñ"¹Ò>!é°Ø^ŞNÍ±ÂkZ<Ãkn‰¶EFÒ.¤wYÌ«*5¿Úğ—c²9ªp|ô¼ şçÊşËë¦¥sò¼ÈxÛş½g‹ŒiWù¡¯2RŠiT‚w÷'²”ù%'#†Ô<ûEx{ÉşÖø/¦ø»í{¼¯øWş6°Ô>É³¾×ı¶š6ÍÛ—Ëò>Ó’ïòpo%wâMoFÔ$Ó|Kğ›ã…­[cí66ÿ õ­~87 É‹ıİ>l£#~âæ]…Š>ÉãOÜ2Ÿr\ZK'FVmó+­ì’kvÖ».½ã*ú'qn_7,tñ´î’³TªYÆîR…F©¤¤¹}ÚÒ“¼_*»Qäÿ á}ü
+ÿ ¢Ñğ›ÿ 
+ı3ÿ Qÿ ïàWı„ßøWéŸüz¾ãûk.ÿ  šøÌüSş!—Ğ—ÿ „Õ¿ù·ğ×‹¼'ã=
+]SÁŞ'ğï‹4ËyÚÖ[½Q‚şçUW1´³(p®ŒTœ€Êq‚+×>.|(ğ¿Šn´/üNøyáİnÇgÚtıOÄv6—VûÑdMñI*ºîGF*À­å˜acIW•h¨=¹—+zèíÑıÌò¨ğ~}WS+¥—×–&šæ•%F£©û¶” £ÍïGV’÷£İ?ğ¾şÑhøMÿ …~™ÿ Ç«KOø³àMÍÿ „/SÔ¾&ı“oÛ?á_èšŒ¿³wgËû_ö<?eó6¿—çló<¹vnòßo'‰2¬='Z®*
++{I=İ¶Wô™g„<mÄÃC&Ä)Jös¥*PÑ7¬ê¨B:-9¤®ívÒ:{	ş#x‚Í¯<ğã7‰tÈœÃ-ÕÖ™§øYãœ Æ1iâÍ:íÀVCæÇBwYÒEN’Ãáçí!¯Yµæ•ğ“Â^·‰Ì-iãÏEa¨Èà2Gg«Ûr*³Ü¤¥Ö@aUò|^gâÆK†çš¬•­eh»Ûi>ËËucö>ú$q^7ÙTÍ«ÑÂB\ÜÑ»«Vº»R—3Ié[HÊïŞ\‡¡éÿ ²§õ7şOÚR³òvışÿ ƒ´í~sæ}¯ûaõŸ;Ëò~Í·2ïó·'•èZOìğÚÏ>*ğ%ÅNDŒÍ¨|Esâ—óÀ>lÖ¶×¾e¦šgcºXôè-am±(‰R’?Æ¸ƒÄLß5„¨NJ&Óå†›tæİ«ënöì`ğ¼%ÂU©ãrì;*
+QUªÉÎv“ÖÉZœ_/¸¥
+q—%âÛæ—7ÒtWÁŸ¯ó/¿i¯èºÆ¥á_†6úÅoˆUÓÙßY[jZèZĞÈÑİC©ëQ[\ÁkwM†ÅkĞó[—·İ¤¹‹æ+ë=gÅÿ l|uñ:ûDñ‡t¤xt›«]%¬tï@èb’=&ÒY®$´3©&æS<³\1
+òyÛ[ÛşãáOûIG;Å¦”[TâÖú[Ÿ^Šö¾Ò¿Eão¥‹¿PÃÏ‚òÏâ×„]zŠVötÛº¤”eu:‰~ñNÑö2K–j­á·\?ÄOßx¯á‘Ót¹m"Ôì5m]´K¦hà¹ŸKÔmµ(íä‘Uš$™­-*¤†1!q¥v7î¸Ü7Ö0õ0÷·<\o½®­{i±ü9ÃÏöFq‚Í½Ÿ?ÕëS«Ë~^og8Ï–öv½­{;og±ç:Ñ|wñönñï…môÏü#¸Õ´›½:Äjwº<óêÒÏkqÃx–é:{mó$2­Ñ+(DiÏü%ñ–»âO†WV¼oø/V¸½½¹š×Ãës({NØ\D£I1¬ßÃnU•aû:»lû@6~Î­hóóÎ•Õ¹ví®ûM]­7jÏe-WoÖğe_«}_PŸ7µ¾.1œ];{;sáä¡>kû8Tö‘øåKİ—½Ñ]ÇË—À%/û2Øjˆ3aâ­wÄŞ(Òåéö­+VÖ¯µ->}½SÍ´»·—c…tßµÕYG²×ó®iZ±•êÓwŒ§&Ÿ“m¯Àÿ d¸-Äåü7•à1‘å«GBœãtùg
+QŒ•âÚvi«¦ÓèÚ<KA¤şÙ´Kl½¦µ¦øcÆ“¼œÈ—÷qİèòF„`¿‡¬T‚ÂI'%Ê²$~_²pwüŠ(Ûßú\óséÿ '4ÿ ¸úD+éÿ ÙKşQuû6Ù,ğwşš-kó¿İpâ—äÜş†;ç¿÷-ÿ »¾Ñ_Ï‡÷0Q@ Q@~Ğï%|ÿ oü‡Àÿ ñ)ğ¿Æ_ÙãŸqş—&»ñÂZŸ†uKI›ä6‘ZèlÖÏl«J²¹óKÍ*‘±ºğ³Ã«ÇÓµšz¯E³¾‹]ºÓèzwì×añ
+ÏÅ?fø—û1|1øâ«Ë«Ô¼[à½WM»µø«¨o»7z•)ybV3Ä·í$ûoØ1Ş²“õ]gˆäöÙÉÊ:ZûÚËGé·m4ĞkmBŠÀf~«ªéZ…µ-s\Ô´ıDÑmf¾Ô5ë„¶µ±µ…’Í4®BG"³3±
+ª	$T<Qâ¿xÀ×Ş(ñ§‰4xgKò¾Ù«ëz„}§™"Ã›<Ì±¦é$5ÜÃ,ê£’8ÅÉ¨Å]°/é:®•¯x[L×4=KOÖtMfÖí?P±¸K‹[ëYIĞÊ„¤‘º2²º’¬¤H5¡D¢âÜd¬Ğ#À¾1ÉÃşÊ_öTõıB|U^ûHŠ ( Š ( Š ( Š ó|ø3ñ#Å6úçÄO„|{­ZZ¥Œ‡ˆü-§j—PÚ«¼‹
+KqºÆY ;C;œezÿ øSÂŞğ5…üá­ÂÒüß±é&ŸŸciæHÒÉå[Â«n’GvÚ£,ìÇ’MhêÔpTÜŸ*Ù_O»a[©¿Ef0¢€
+( ¢€<¿âoÅï|(Ò4æñjÚ·¯}¡tME°’ÿ TÖ$…W—|Â[xîéà´îmÄóÂ%B~3ñ×‹ücñ³ıÆzuÏ‚>ÅæXk²É6¹™¼A5¿—Èmßìï¤£ÜØå®³j!íÍ§ép\ó|\q8˜²Áû×Ó™ÛH®úÛ›ËKİ£ğ_<^£ÁÙ<°ØËûNºıÌl§ÉÚUf›I$”•>dÔª%îN©ËSOÓì4
+ËKÒì­4İ3M‚;[KKXV-`BGq¨
+ˆªª¨    
+·_Ô´éÆP‚I%d–‰%²K±ş\bq5±5§ˆÄMÎ¤Û”¥&Ü¥&îå&õm½[z·«
+*Ì÷âoÃm7â2x;Qøƒà}?ÅÒOojšÎ»g¢ÓÎÁ¶i¥äFQvå·®È®â°£Š£VR…)©8èÒi´û4¶ÙïØõqùe£CÂÔ¥Nºæ§)ÂQHÙ>h9$¦­(»ÆêÒOª
++sÊ9ÙëşLàwı“ÿ ÿ éºŞ½‚¿™Ïöğğ1ÿ '÷ñşÉÿ ‚ôãâZôJıËƒ¿äQCşŞÿ Òä–_Hïù8™§ıÀÿ Ôj'|\×5OşÊ?¼K¡]}‡[ğï„õ­OO¹òÒ_³İ[ÙË,O±Ã#mtS†R§ +õÂĞ¼ğ»Ã^ğ½ö_†|!¥YèšEŸ,ßd°´…`·‹Ì•šGÛh»™2I95ù‡“’¨şïgoÍŸº}üîWÿ vú+ğCû”( Š ( ¿è÷’Š ( Š ùSöÏğ^•â¿ø'ÆËír{ûÍ7Âß¼c©A¢A¦^jQérÉgyuÍóÉfñ´–èÏä¤Î·6¸·´šÛ®ñWú_ü·à¦uş“§Ùxâ»om/Ï¤¾²†ñü«s¦¥¨Û$ X¯n£$ÒìÂ¾ir5¢ŒşşVïÚú-­²êK‚ÿ èßi½ß÷NñN?°YGò[Xı³ÂŞÔîü˜ÇËŸ}{y.Ğ<Éî®%lÉ+³{íF.)TI+{°ÿ Ò">cı¢¼I§xCâoìÁâ-VÛ_»ÓôïŠwlZ&…¨k—Ïæx7Å/•ea×3aKyq6Õíµ˜oÿ ÃI|;ÿ ¡sãçşÏˆ?ü¦©¥‡•Exµó”WàÚÃşKáßıŸ?ğÆ|Aÿ å5{íMZ§nfµìÓü›°'p¢²Q@ Q@ Q@ Q@ Q@|KãoÚ+Ä~3–mà“E¡øp;¤¿õ{è5‹f_,?‡m„ÿ 9etÔ/¢6§Éá¶Ôí®„Ñ}?	pÅló°”ß,Ræœ»E4´îİì—è™ù÷‰"`8/$q‹›mBœ#£©Q¦ãk5Ú2”¤öŒ]”¥Ë	y—¢_QÕïõ}Äş%Ö¼³©ëšî¡%íõîÆwT±µ²É5Ä‘ÙÚ¤65ÄŞL1	ºş¹Ê²¼>]„§‚ÂÆÔà¬¿6ß›m·æÏòo‹¸«Ä™Æ#;ÌÚu«´ß*åŠI(Æ1]£Æ*íÉ¥yJR»eè8À|IÖ5]3áºXxnèÙø¯Åº†ôIã‰.&²º½™a{Øíœsösq¨É	Z+)·´q‡‘9q¸«áêb-~H¹[kÙ^Ş[çdßÚùÆ)öœŸX­N—5¹¹}¤ãn[«Ú÷µÕík£Ñ´ xGÃŸ	%ğ%†.¼)t5ucªÜÏ«ñ}4·Ÿi’ñå’ãÎ–âf5Ÿw˜ÀñÅy§.o´ıwÆÕ¯//®ü	«ù:uÕü®×z†…w]éó7˜ZYR,úgÚdyZâ].âGs)•#ü—‚qõ#šrI¹{U+ëÕ{ÜÏ»Ñ¯ûyëßıúNp–·¬MB—Ô'IÓQ„t§&¨:PjŞÎü%h§ì£]œ}Šıÿ 7Oö+öEğ~…Œÿ Â·¾óú}»ûò}í[åŸŸö?ËËy~nÍòmŞŞÉ_ÎÜ7Õñ0÷¿$œoµìí{tØÿ h8c9ş×ÉğY·³äúÅuyoÍËí!òŞÊö½¯e{^ËcÀ­È¹ıºş%]Û=¥§ƒ¼¥O44pßÅu®]Ilì8YÒŞúÊfŒüÂ;¨€²¡oE¯Úx;şE?íïı.Gùôÿ “‰šÜıF¢yçÅ&o|&¸øoeæiü]¹·ğ©†#<öÉ«8³»½Üa®”—zŒ‘‚™†ÊbÏ+JŸ«õùX¥,NmcKæimÓàß¯Èş‘úd¾Ë'Í3n{ûjĞ¥Ëm½Œ9ù¹¯¯7·µ¬­Ë{¾k"ŠüHşÈ
+( ¢€
+( ¯Áº ıä¢€
+( ¢€9ˆ>Ò¾$|ñ¿Ã½r{ûMÇº¥áÍB{Hî¡µ¾¶’ÚV…@’±RÈÊ«|>³ñŸö]ı®»¯ø'ÅŞó—HñO‡Í˜Õ4Èn6«up\[Om:Å™osÑ†Ş`‹qmo47Nn2æ_Òê´³³Z?!X¿à¿é^ğ´ö63ßêš©tÚ–·­êN’ê^!Ô9//$DDi
+EJ‘¤pÁP[ÁğC}}›”¹Ÿü2èµÖÉh¼#À¾1ÉÃşÊ_öTõıB|U^ûP0¢€
+( ¢€
+( ¢€
+( ¢€
+( ¢€
+( ¢€?;¾"|DÕ>7x£^Ótİzk6ò6ÒÓMµ¯ÄëSR\]İÜIÚY¸/mí7Á4²ÉcI“§éöN…e¥évVšn™¦Á­¥¥¬+°F¡#8ÔDUUT    VøoÃtrìª–"PµzÑæ“{Ùë®ÊÖmwß²ÿ 1>’~#c3Ş'Äd´«ß‚Ÿ$!âXÅF¬¦ŸÅ8ÏœenUî/~RG‹¼Kaà¿…'ñ†©Üúg„ô›İfî+UVH-ayäXÕ™T¹XÈPÌ œdÍdøi>$G®Ë'Œ.<u¦^ÀÓEo£[^A>‹8eÛlÓM#® …]Á¹Ø`Sör'+o÷•}·4}’Vëvïm6²õw}”mïsGğ|¾9k£_ëÒ¨ª[÷|‘‹5›¼ù¤®£XÙ¥QÕæ~ÅQ­ÜQ[PWœß*ê¶ßÂÍ*ìy¶W‡¼Yâ‹X¾ï•ªÛ¾—¦C>á‚vÚk:”[	(~Ñ¸©xãdùî+­:YMyAÙÙ/”¤¢şôÚüØ|ËpØî?Êhâ£Í9ÔJí{ô©N­7£Oİœ#+lífšm?~¯
+ñ„_Ø¶7‚5µ_²iş>Ğu_Íÿ oÕ,XjZ<yhöZ7‰¥Ş¡³¶Vgû2×ä?Zt³,< ìùâ¾R|¯ïM¯Èÿ E|]ËpØî
+Îhâ£Í‡«Q+µïÒ‹«MèÓ÷gÊÛ;Y¦›O½¢¿ ò$âşH4¤ø…àIğ·ñv«©Äò.]BÃ\õ¸®VÊÀ·×ºzÈ,’i³UƒÅ¶Wóæ{NPÌq*JŞü½›m?F¬×‘ş¾øU‰£ˆàÌšt&§…¡Å¦¹¡N0”nºÆQq’Ş2M;4ÑóßHŸãÇ]F&ÓµD-.£ù¡ºû6£ØÜùn>Wò®ín­¤Á;%·š6ÃÆÊ=2¿_ár†QAI[I={9I§èÕšò?Î¯¤6&#Ä,Öt&§éFñi®hP¥	Fë¬e-ã$Ó³MßtTñ‡ü+O’uŠM3àÇ†Ä®Ñ¸Öõ¶¹ÒôË˜
+¬XYx–’R¨>İlÊ’º‡·ı¯ç¯±R­Ä5)·¥8Â+mœyÿ 9=ı6±ı¿ôaË0ø_°uèFÒ¯:Õ&îß4•YRNÍÙ{”áFËKÚí¶Q_œĞ!E PE ø7@¼”PE PE P|bÿ “‡ı”¿ì©ê?ú„øª½ö€
+( ¢€
+( ¢€
+( ¢€
+( ¢€
+( ¢€
+øïöñ§öë€;äx«JŸ™¢Ûäx:ù/­Ö	[¥Î¡sk-¹1£­ ¿o2Òá¬¤w†2Ÿí<×µÔä¹µ·º½éÙ÷åNŞgÆø…ÅQá¾ÇçriJ…98s)J.£÷iFJ6v•IB.ÍY;¹E&×“Ñ_ÚgøÒT¿Óì5]
+÷KÕ,­5-3R‚K[»K¨Vh. ‘JI‘°*èÊJ²° ‚A®KÃ^
+›Ãºì·søÓÆş&·Š³Ólµ›èeƒJ¶,¤¢˜¡[·Äq(¸¾{«€±(3NeÂ®T”dä×/DÚOm•Ò}ôµùe$ı\¿6z1¥N~ÕZó§JÎ<Ğm{¯–R·ŠmTQU©Q©O¸¢·< ®Â`\şİ~<7 NtoøTiæO›ì"óP×>Ùäçı_Ÿö7n<Ï²[îÏ”›~gŒäQ_şİÿ Òâ~ßôqÿ “‰•ÿ ÜıF¬{µxŸÆ„6oğ§ÅRá´ïøûNkÈ×ıtƒUµ¼ğí¿”í»Ömd}Ì¸‰&eÜê±¿ã9v"41TkÏhJ2vŞÉ§¡ş•q†Q[5Ès¯Ò©ˆ¡V”\®¢¥Rœ œšM¤›W²nÛ'±ÚQ_Ñ‡øÌyn»«éßÿ híÇúÍı…àßhóx_ÄÚÔÉ­Í»µî‹qw<ÄEkkıb×xu2\jvq²Ë”0ú¿<^øwu©Áb5­~ä=§‡ô5ŸÉ›Ä³Fïogím›ü¶g”©H"I§—l0Èëø·á*,ŞVWu\RÕíËkw¼]’¿OCı1ú5q~Rö’öqÁÎ¼*Ên1‚÷w.kÙB0«¹rÙ©id›ãüá“á†:n‡5ÿ ö¾¥÷UÔ¼³ÿ jê·s=İıç’–>îyçòìÌØ€"¨]~¿‚Ã}_O{òF1¾×²Jöé±şuq6sı¯œcsogÉõŠÕ*òß›—ÚMÏ–öWµí{+Úö[ïû!è­ìµ{ñe‘'øÕâÏD©‚M&H ÓôIáO¿¸Ñ4í*êHå&EšâpËEõ-qF*8œß^ñ•IÛ¦œÍ'®»Xÿ `8,ÄeÜ3•åøÈòÕ£†¡	ÆéòÎ£+Å´ìÓWM§Ñ´W„}`Q@ Q@~Ğï% Q@ Q@à_¿äáÿ e/û*zş¡>*¯} Š ( Š ( Š ( Š ( Š ( ¿6¼Owq«şßŸ´ş£'Ú.ü=¬xÂ:|›B}ŸF·ĞtıZ|(¶ßkº¬Şc!ûNÂÅ#‰SôO
+éÆ\EE¾‘›_ø_“gáŸI?ù79§ıÀÿ ÔŠ%š+ú°ÿ *Š—÷öN…{ªj—¶šn™¦Á%ÕİİÔË°F¥ä’I…DU™˜€ $à
+á´_Kñ3Ã-ñäş8ğôZµ¼WZ?†´ÏkŸB³‘Cªê?bŞYµLé)h­Š¬©)5ÍçÅñ¶mS	……-ÆuëK(Ù»4ÓM¶—UkùÓFp|Câ3Îœ*áğp_»šŒ£:•”ãhJŒ¡Æ¤·‹U6®“'µ{ïüLÒü	«^ŞjÚ¿Ô¾Ö/fy.ck`&“y<‡77+¼ÖÒîiç·¶»3ƒ%¤—W}íz)™Ë—Âu>({÷i+=ÛwM]¾·ÒÇÇøùÀôxc‹ëáğ‰*„«ÓŠ²äIIJQŒb£R3PŒSJŸ"mÊö+‚ğoüŸOÄÿ û<ÿ §ÔñüŠ+ÿ Û¿ú\Mş?òq2¿ûÿ ¨Õu¯øõÿ $Mÿ ±ïáÿ ş¥U~©§_ELâWá¿‡ğ¶÷ú%ô3v²´ëU½½·ÑìÙ•š×N‚âW‹Oµ&(‚Ñaˆˆ-ÁLCNZø*§N¥X)Jñmlü¿­Ò{¤×¹•q.k–a±xL&t©b ©ÕŒ]”àìÿ ugÉ)Âü“œeÚ×%â/\|TÕ­~éœ]üL°»Y˜È!şÍğ”rÛ[k—‰#ÊÛßÇª„˜›»«Vx²\I&y™G/Ëëãeÿ .âÚÒúÛEeİÙtõ[¯‡Ü+>$âLIÜkÔŠŸ+Œd©¯z¬¢åîŞ4ã)+§v¬£'dÿ Rh¯âCı—
+( ¢€
+( ¢€
+ü ŞJ( ¢€
+( ¢€
+(À¾1ÉÃşÊ_öTõıB|U^û@ Q@ Q@ Q@ Q@ Q@~hê¿ò|Ÿ´ßızGş¡ş¯Ñü)ÿ ’†—øgÿ ¤Ÿ…ı$ÿ äÜæŸ÷ÿ R)TWõIşU_ñ6!¬?Ãÿ I„²ø‰âë-2ıØy‘=…œ:İİ¬Ğœ	à¼·ÒeÓåˆSã–*˜¤ú"¿"ñrxúpoEÒéw)]ÛÎÊş‹±ş‡}ğ´cÂ¸ÜD`•Ib¥+.gÒ¢ã÷j.rqODå&­vy7Æ&úçà´Ş'Ğ¬o5/ü4œø»B³´…ç¸Ônma•'±Š5sŞØÍ{§«Äo¨$qÖ¶ŸaªèVZ¦—{i©iš”İZ]ÚÌ³AuŠ9#‘IWFRYIGéøy‰n5ğîJË–Ii}n¤ûÛH§ÑiÜø¦G[)Î)Ñ|ÒUhÎ§½Ëh¸Î”Ù‹÷«J;JIKuvİpeÓ¿nß%áò[ÅŞĞÎ’>÷ÚÆ‘¨j_Ú=3³ÊşÛÒşşİÿ hù7ùrlúN1ÿ ‘Eûwÿ K‰ø¿ÑÇşN&Wÿ qÿ õ±îõâ_I—Æ¿tÙI“NÔü~ÂòÕ¹†ì[h:Íõ¿˜‡å*îÒÖå7²[xd\<jÃñÜ¢œgÃÂi4çÓÙ®e£]ôsÄ<Ml7
+æøŒ<Ü*Cˆ”eã(Ê4¦Ô¢Õši¤ÓViêÖŠşˆ?Ç@¢€3umZÃCĞ¥ÔudŞ7ŠX`’â{™å‘a‚ ‰ZYî%•ãŠ(bV’Y$HÑYÙTıAû=ü-Ö¼kâßøÒÖ+|F}=_MY–gğî‡cıƒLšXœÛÏp“İj7sK`²ê[¬×PÛA3şGâöu
+d2è¿~³M­>4õê¯.[m{=tiÿ \}ø.¦3>¯Ä•éşç
+r|Ë÷ÕŸ-—$¹is©¦ß/µ¦ùnÔ£ôuüÖ¢E PE P_ƒtûÉE PE PE xÆ/ù8ÙKşÊ£ÿ ¨OŠ«ßh ¯øÁñƒHøMá-46óÅ3ñEÂØøoÃv)3M¨LeŠ¹¹x¢•¬ôËf¹îïš6Kt‘Ùf–&×BUªF”7nß×’ëä&ì®xÖ‹ûOx›Gñİ¬?>x_áßïmg?ğ•è>*Ô¼Mk¦_$ˆãÔ£şÆµû£@÷S¾¡3XÑ„òEæF[ìZîÌòÉ`åÍÌšŞÖÛuk¿/¼˜K˜(¯0°¢€
+( ¢€
+( ¢€
+( ¢€
+øã¾…ÿ íİ¤ø‚¼ã†Í¥Ã$fµ‹Äz#åä%Íış›{´¶Qmá¾<èãÿ Fû/±ŸVâ$úJ\›ÛãN+îm4º´‘ùO9/ö§æøn~NZ.­íà5_–×_³å¿Ù½ìígÎQ_×Çùy§?ä½~Ï¿ö=ßê-¯×Ğuùÿ ÈÆŸı{_úTôWè‹ÿ $~/şÂêéš_7|ÿ “ø-ÿ b'‡?ôßÿ ÈÆ§ı{úTéuÿ $~şÂéÿ éšç¬×œj4ŸÛ/á.·pÚkZo‰üGÌ‰w¦± €[øzõ,$’ «;Çúaå[*ÄB6ÑskÚ-IşO3ùÀœŞ[Ç¹N"ºn2¨é.T¯ÍZ£«Z)TN]TSi7dış¼#Ä’nşÛšœ7=§Ã¯Üê÷p\s	¾ÖnE®sn¼>}'[…ä!#¾…Öy‚~AÃ˜yVÌğğ´’–½£ï?Áiæ¢¾2æôrŞÎ1Óq•	Ò\©_š²ö0zµ¢•DåÕE6“vO¿¢¿~?É ¢€:ÏƒŸn>)øëÂßµX¾Ïğ¿Â—é­xj)P?ü'‚Fëm~cpSû&Ùä[«I
+™.náµ¼…¢·¶·›QúKş§ÃOøZ?ğ‰iëÿ işÕşÂşØÿ „[Zÿ „kûSÎû/Øÿ ·şËı•öŸµÿ  ù_jßöÏôL}§÷Uü£âqı¯ÔX{8R^Î:¯{•¾fµ³nM¥ËñE-õsèÿ ÀÕ¸[ƒ°ø|Zj¾!ºõ"î¹%R1Q…œc(¸ÓŒã$Üjs¤Ülzõ`k(Ğ¼?â/
+i:µ÷Ù/üoªÉ¢h‘y2ÉöÛèìnµ‹r)Xñi§İËºB«û­ ïdVüôı°ß¢€
+( ¢€
+( ¯Áº ıä¢€
+( ¢€
+( ¢€<ãüœ?ì¥ÿ eOQÿ Ô'ÅUï´ WÀ^ Õÿ á7ı¹>&x¡dûF‹àh¬¾h,&ûU«Ën¿oÖo-%û‘4··‘iwQF	ó¼:‚WgŒEmíğõ.|b•şßéú™ÔøKº†§êúö“ªØÙêzV§o-¥åÜ)5½İ¼ŠRH¥ÁWFRU•Å{ìÇâ{ÿ şÇ^Ó5íJóUñwÃÇ¹ğ?ˆ.µÇ¸ÔµÍ&Cg¡x$&XåÔmcµÕ•$.ŞV¡	&FY¤÷8’ğÑ’[IkÙ4şå{~t·=şŠøƒ ( Š ( Š ( Š ( ¼oãŸÃ	¾'ükM[K/øJy|Aà›ÛÉ¤ÊÓÄ	iqk¼^Îh®î-n FCq+Bc¸He§Š©…ÄSÄÑv9)GÖ-5§ª83L³˜à«åøÈóQ­	SœnÕá8¸É]4ÕÓjé¦º4Ï‰|!â[ü(ğÇŒ4¸níôÏi6ZÍ¤WJ©<p]B“Æ²*³(p®f çk¢¯î."5èÂ¼6šRWŞÍ]\ÿ óÜ¢¶U™b²¼CN¦¤éIÆî.TäàÜ[IÚëK¤íº[_ñ6A£?Ãÿ É†²øwâë-Nıùq%…ä:%İÌÓˆ ³·Õ¥Ô%‘Q›«ÕŒ±ı_”øNKNmhà’}.¥+¯•ÕıQıóôCÄÑ—
+ãpñšu#Š”œn¹”eJŠŒšİ)8IEµfã$¾o&ø×ªßXşÏº¢_]éŞ%ñÔÖŞÑîlgh¯¬n5)´—ÖÊ„I$–Ïq©2¡SåÙJÅâUiS[OÓì4
+ËKÒì­4İ3M‚;[KKXV-`BGq¨
+ˆªª¨    
+ô|;¡şñYÇùRvõm'ÿ €¶½/Ğøÿ ¦.gÿ "|ºÿ çõIÓRÿ ¯q§9Bÿ õö0“_óñEüEºå|gá“âÏ*+Ñ¦ŞZê:^³arĞùñC§^Á¨Z¢†X>Ñk–5xÙã.«$LC¯è¸¬<kÑ	í4âí½š¶‡ñ¶E›ÖÊ³,.i‡IÔÃÔ…X©&âåNJII&®•ÒiÛfˆSãw†l¬¿²<EÒ¾&Æ<¥ğ-µÜW:¾­?D}-\ÅöË)9e¼"(cE”İ6·ºKz?ôZËÂÚ÷‰­>Ãã/jx_¶óc“ì3G0YoˆùR}ŠÊ;:0¢²yåCÊäşgÁù%j9YW†”“Šz¥Ìì´ÚéÅ¶´µšz]ÛßHÏ²ÜËğ42œRæÌ:®Ÿ»)û©I©òóªnã´¤›9Á9(TK¾¢¿S?ƒİ[V°Ğô)uFY#·â…V$¸æydX`‚"V–{‰exâŠ•¤–I4VvU>¡ğçà7ü,Í>/ü\Ò5k/Í²MÀ÷RİiòjPäw¯À¬$s&cMà„9¾ŠIåºoç~#ñWöN\éa§lE]#mãµ;z.TôÕİlÏèß£‡…¿ë>|³,ËÏ—ánåÍÓ©VË’—Ä¯kª³Vœyb¡R<µc·«ào³kºwÅÿ øEü;¦|]µ¿“âŸö´¿uE«ü=6x›ûF÷]OI¢ª¥ËZI?ˆíâÎë]A¡³Dw…lòö—Ú§+$·w³JëXê¯%ÑkèÏôæ[†—ğÇT»ğgÅÿ k&ÿ Sğ÷ìókkğ»ÂZ~…§>¯&›¢Iª[ø–K;843kšKøeüahÒI{y•«Û[ï–èM~h?ôYŸöjÖu/‚:|z'‚ş9]>•y£ü0Ö4‹+]>ëÂ÷é£má‹Å¹»ğµ××OUsw`š³ÅÒÊ;å^·%¥Q)èÕ¬Ÿ¿iYè­ñ7ÌŸ»ïEé$JK±ä^øUñ&ØÓã5•î…~ÿ $ı<_á¯éºÁı[Ã—^+ñ­Í²Ç&«¬ÜßJ<c«‹}M ¾ÓíçŠF»¿”ÍÛ`KŸmø­ğNÒ¿á¦?áø}¯Ëÿ ßÁ{ü?ûz…çñ%¿á%óµ»\³ı³ÅŸèº&uFóuEİïÇ|Ìñ¸´ªßÒVég¥Û]¬š²_£ö££ŒtÔı¢¼’ÂŠ ( ¿è÷’Š ( Š ( Š ğ/Œ_òpÿ ²—ı•=Gÿ PŸW¾Ğ_˜_nfÔÿ cÏ‡>#¾;Yñ¾‰mâınã~Û¬ë#ûWR¸Ø $~uíåÄ¾\acO3j*"ª©áŠqr«>©%òw¿äŒjô=fºÙzæ/Š¿´W†î_ÊÖnü]£ø¾+|¿E½Ğ4í*ÚãxûİV‹Ë$H¿fÜÊ©$M'³¸ÔùéHŠ>ñ_Š4/ü.ñ'<Q}ı—áŸiWšŞ¯yäË7Ù,-!iç—Ë‰ZGÛnÛQY08ñ§ÀÚ_Ä¾2ı›~'_ß\øCâçÄŸ‡öº·.“àmZËU·Š_M·¸–	.t¦»FËWM~Ía¶K­@Øé–î-õ‰á“Pøœ=
+s£Rrm5Ëmµvw²vÓm¼¯±»nèëõÚCÆ–³§‡|lŸ´şÓÕnì5=RëÅğ¦‡ºƒ,·—öú4ÚŸäÉçÛİWIÓâ±›NÔ£»šÛËµkáÿ j-bOÚ¶‡–?¼}>Ÿ¦êº‡üIrºf¯y} êš¥•èV}?N»ĞÍµ¤:­›]Ë6µnñ¬WS¢[ÍéåÑ›|µc¥ü­²^[µ}Z·Àæî’æò9 ~×Ş1ñlşÖ5Ï‚º„|âMá®»-ËøØ_kvÑøÛPŸFÒŒvXic…³;³^Å"ÙKÆ%¹2XEÈøWö˜ø­{û$şÏ2x¯Eÿ „wÅß´¯†šİ¾·v7—ı„¾#ğ®â9o¬c·ÚwÚ×Ähö‹o%Ã'wi×,¿”R”¹y¯jŠ:«|)¹-Ñ«Yï},–¤¹¿ÀúoáÇøY0Ğô_ÿ gjÖ¾¹Õ¼uö—ÿ N»§.ŒºFã
+.¡ºÿ Kñ,j·>XşÆßƒå»·¾×…Z‹µ9s-z[«KïV;t4^aEd0¢€
+( ¢€
+(á?Ÿføeñ\ø¢ÚEÂ¿"Şx¦ÒÑ
+§„µs,Ò]ë$±,Fõ¢òÒÖhì±ºİêvÜ}RøWG“G)^¦İwşWwéou/îzægÒ‚g“qkÍiE,>={Hò¨Å*QedîÛ|µe7óJ«^óŒ™“¯èZW‰ü­xk\µûv‰â3P¶ó/´ZÏE*oB®»‘ØeHaœ‚5Êèÿ ¢ğo†l<9ñZOi6ÑÛMâoß\é~&*"»Šk;f··º»yk§1IşÔâŞ¸Y-¥¹ïã¼¶­|5<M%e{¤¾Ëµåè¹Uôz;è“=¢‡`2¬ï“c¤ ñªš§);'R›’+Z×¨ªK•¹GŞ‚‚R”âˆ-.fø‡ñ¦ËÆ¯a«Øø7Â–má›m_N¹Ón¯5K’Ë¨Kct‹4>T	¬’GÀOªü¯oq’z=zÜ#–Ï—F5bã9·&ŸKè½=Ô©ŞöÙ|ÒŒ°ÜGÆUë`jB®„!Fœá{IFò›»v•ªÎ¤c(Ú‚‹×½"Šúcñ ¢€
+ÆÑÿ á6ñÖ»u¤ü*ğ=ß‹$°[[½U¸“Dğ­„ñ3¤‘¶¦ĞÊ÷n$‚âİ—M¶¾0\Åå]\ïñ&ÁK‰Õm·”švŠí³wè“ô>ÿ ÃOñüiÃ'ÀÉAYÎ¤åµ:qqR—-Ó›¼£Åo&®ãiÇëO†_³Ï…üâ+?øšóşOÄ»MÍiâM_M´şß2Šâİş%ÖÒy³&I®å£Šæêé`‡Ë©¦~Ñº}ö¿$—_ş'h¾Æ—~_^6€Ú4šÄ:Óøv5[x595?.}YÖ76@*I'•ySù'6Í1ÖaS]¥9ÚË[ie­ú[WeÕ½Oõ“„xWÃY>$ËTh&—3æ“m¹JRzk)7'd¢›´c¤—§j?¾èş×µ}[âO€t­'Â›?¶ïo<Ce¶¾ö}1>Õ#È×öwvcÌ+™í¦ˆ~ò7Q~çâ€¬¼-á=rïÆş´Ñ<{uacáBmbÖ;_İ_!’Ê	K„º’áh’"Í"Œ¨a^<hÔ’RŒ[MÛn½½|¤¹CÃş+ø[ö>á_xøK6ëº]–•¨Y/öÏö·Ûµ5¼·&ıÿ Û>ÉªŞ	P7Ÿö{Érş\¬üVø[âÿ ?Š<'ñ'À>(ğÌZ­¾„ú¾‘â+ÛÕ.$†,ÌñHÑ‹™$ºµ"İ½šâ ™=VÚPz;=è“ìï ]ñ[áoˆ?áşÀø“àoşö‡ü"¿Ùş!²¹ÿ „—ìûwö—!û_Ùö·äïò¶ûqCüVø[±«iÒ|IğwşÒµwT¶oÙ	´İ/Oº–Êşòt2nŠÚÚîŞ{i¥p)a’7*èÀ'F¢|®.úôí{ıÖwígØ.|kıxş!Ğ†u¯j^3‡ÄÛzjék¢Ù}¥»Ş×I-Œz„2ı¦(ä·e–#,köß|yáok–~7ğ…Ö‰à«ûjë¯káË«^Ã(}–²[¡*JU£RçBqİ=®ôzkË®ôíÓ}3CÃ¾+ğ·‹ôwÔ<'âMÅ|_gßs¤j^ÂŸhµ†ö¼LÊ<ËK«[„çæŠâRE'~¦tå	rÍ4û=
+ü ŞJ( ¢€
+( ¢€
+(À¾1ÉÃşÊ_öTõıB|U^û@~]şÏ_ò`Ÿ¿ìŸøgÿ MÖõõœ/ÿ /¿íßı¸Æ¯CØ+Kö}ÿ “ûøßÿ dÿ á×şœ|Y^¶yşãSåÿ ¥")üHúÏÄĞ¼_áÛm'ÄV?Ú}¦«¤ëqEçKËí2öFÊ]Ñ²±òîí-åÚNÖÙµÃ!e80ø_à_kš‡Šô?í;ı?J¾ÑìîVòêÚkk««Ùİá‘”»ÒtÛˆn£+=¼¶±É‘8$ü%,MZvä•­{y]YşåĞè²g!'ìñğ±ü-g¦Çaâë+»+«›ÏøH,¼qâ+?İÉpÇ:İkĞŞ®©wÇicE=Ì‘”°°]»m-ÄWãøğ¢ií…²±?³šÛFÓu;ë<Ú|qE§Ï>‡É¦\\ÚÇmf¶÷[<°+/-Óì–şVŸ^¯üïúÛä¾ÊÚ/XÙ‹•‡À…_‡t­&ÇÂ¾FŸ¢i^Ñ,¢şÓ¾o&ÃÂW¯¨ø~-Í1fû-Ü.æ%¦ÎÙŒ¨Œ~Ëÿ <áİ/GğïşÁ¤è_ØßÙM¬êsÛh¿Ù—¶š¿Øc–á–ÓÍ¿Ó¬o.ü€Ÿoİ%¼ûL™cpÌq¿,·—6Ë~ûiÚËKi³Dwşğ7ü">"ø‹­\jŸÚš·ÄŸIâköÛìÖÖÛ,lô«H!Œ»°Ùa¦Y,®ÎŞlÿ h•VäKx{êå«QÔ—3ì—Ü’_‚AEf0¢€
+( ¢€
+( ¯ˆ|yû>ë¾ óuÏƒV·Šü0ól“áº\i¶¿Ø¶6Ïpmã¹{ËŸ)!urZ¥¤v7_WÁ¼KS$Ì¡‰_Ã•£5¿¸Ú»Kºµ×İ³gæş+xy†ã.­”ÕÒªıås8¨ÖŒd åe+Áó8ÍrËÜ“qJj2^;¡x³Añ¡©iú}ÍÍ¾µ¡ù?Úº.§cs¥ë:?œ ûnwWv¾j)’/:$ó#Ã¦ä`Ç¤¯ëÌ.*Œ1y©BJé­šş¾íòS;Èñù>>¶Y™Ñt«Ò|³„·Ou¶5g&ã(µ(·˜Q]'”PN¹¯è^ğµÖ¹â]kIğî‰c³í:†§y¥­¾÷XÓ|²EÜîˆ2FY€‘U|;?¾#K?	şë^%·™dñˆ"ºğ×…|‡S$Ç¨Ü[¼º…½ÄhşLÚU¶¡&#CÉ1ùÎ#â|M†•|L“•½Ø&¹¤İíeÑhõÙYú¦øiáFwÆ˜øağ4Ü0×j¦"Q~Îš+’¾Šu-(òÒO™İ7ËiÇŞ<+û+cÉÔ¾8ø—şàÛdÿ „/B3iş·ÎÖòo"ïZÛº{yËCaw¯™¦Fã5õ¦“¤éZ…´ÍCÓ4ıDÑma±Óôût¶µ±µ…qCHG"ª*(
+ª  _ËÜ[Å¸¬÷íjû´£ğC¤WwŞO«ù-ôÏÃ2®	Ê– ¹êÎÎµf­*²]^ü°Ú§M6 ›ÖS”ç-
+ùSáìñ¢é)ªø‹Ç6.—ÄrüIñ·Šm´›Ïk¾ÜxŸQÔt‹µÑëé+ ‚[+ÈÏÙ„‘\˜„ºMëòôªÊ›æ†ş‹ONÏ³Z®‡èö¹Èi_	¼[àxCÅ:_Ã¿í-ÂŸ~"üLÖô=}*_ÄöÄ(Ól."šyà´–çìZÆ“+}ªæ&K[f>lQÛ·˜ø˜éÿ Óáçˆ~+ÁğÆ(¼qkñ£K›ÁŞ3ñ¦£FcñŸ‰ìuøSR{é¾Ï=•´bÓSûö„‘Éq·ƒP·×^9M;İ´ãk6õƒIè¶^Z¤´Bfÿ Á?‚Ş1‹à-±{ğëÂÅWß²ÃŸ‡:,~<ÓCÚ®±¶´ú‘ª[`ŞEde¸Òä%JªxHLğGãõ_Š3|Dğ×‹¼[áï]|¶µ³ø‰}àÛ­JëFĞ¼cw¨ë¶×öº,i©v“É8„5ÙĞyÍ+½•¯WÖ)¬dªM¦”ÓOWeÏwk;Z×è÷VZ¶¦Ï–Ç®øƒàÏ‰n|SñÓ\Ó¼!§ÿ mx÷ã—ÂÚj	%”wZ§†4ğŒ—$¥Ãùv¯§ëŒHCî˜‘ŒëæPĞ>j0Â¨şÓø} ì¯ÚGâÅ/y‘éòo¶ºÿ „³ûU›æ>}Êı³ÃşQçƒm¾Df>V8œZp‚¥'ukÚëhS_úT_İ~ÃQîp>-øñ[Sø5ãí&ÇÂ¾}şµàÚsD²‹ûNÅ|ëïx¦ÛQğü[š`«ö«HŞ]ÌBÃ³œ…®»ãOcğ^«ñÆqÚøCÁü+ |m%îµ]/BÓ6øOÆ:¯s¥[å†ŞÖF¶–ÆÖÔNÖöÍ5Ôù±ªÈÑ*8‹O£wËk¥İNMiÕÙéë`¶ç_û#ê~#±øÿ ã­Ãº‡|3ñâœ¾"ÑÆ‡g¨éÚŒ2ø{BŠâå/lÇØînZöÅ½kY."Køï¢&&šO®ëzµn[ŞÊ+æ¢“ì÷[4šê‡‚Šã(+ğn€?y( Š ( ¹^xÆÛÂÖö¾Òtûïê÷Icö¤ãû3Ãñ²;½ıä+,sÜÇL-µ¹O4DÒZÂòŞ[8¥uÍ·õè!û>ø£]ñ¿ìğGÆ(¾şÓñ/‹üá­oW¼òbƒíw×ZtÏ/—¬iºI¶¢ªŒà  ëÕ¾.œa^¤#²“KÑ1GdxÆ/ù8ÙKşÊ£ÿ ¨OŠ«ßkœa_™¿4Ù</ğFÇáÅŞñ©ü ]ùÑ˜'¹]!Í•¥ì–ç-n/ì£³Ô¢ˆ–ÄĞyQ’Wún«jµ)ÛtŸÜíúşUV‰]—ì¥ÿ ª$nÚ^³ñEŸO¼
+M½òÚøsAÓ®L2}ÙW¶W–’'döÓÄØxİWÚÏd–
+i½ío½~ˆÎš÷¬¨¯ÏÎ¢€
+( ¢€
+( ¢€
+( ¢€
+( ¢€<ãâ'Â?‡_tı>xbÛV»Ñ¼ßì­VŞâãNÖt_4Ægû§hñ^YùÂÒ_³Í›1É½	SóÎ·û)kÚf «ğ›âİÏ†ôI~ş‘ã"ëÆ±Øà.>ÅxÚ…¦¡ó¹™åûmÕ÷-CöhãòÛë¸c3’ìòæ¥­éËá»¶¾OEªôêÏÍ¼Bğ£‡xËì³j6ª¹ykSQh¨¶ùTÜex>i^R‡¼ä’šŒ—7ÁŸÚvÖò[[ü×mí¢‹R“Ç:Ö’ú‚)ÂÎÖ#Cº†@˜ÕÏ—»g6ß1¢ÿ …AûQĞ•ğÿ n·ÿ ÌÕ~£KÆš<‘ö¸GÍe{IZımu·cù§ô2¥*Ó–:q¦ÛåRÃ©IFşê”•h)4¬œ”b›ÕF;-kÙóö…Ö,ÚçSñ§Á‡3Ææ%ÓmtM[Æ‰: œß5ÎŒc,X§‘öY6ùaüæó<¸ºİöNÔ5VOŠ¿¼GâKuvI4_Ùi7ÌFicçXK…”—/m©ÛÆê‘FĞ•ó¼ÿ 8ñˆ…J8*J’’²•Ûœv¿•÷³¶šuGÜğ‡Ñ?†2ºØ|fg^¦2­&äã%P›»åæ¥iJÑ÷oUÆm{ÉÂN±x/öwø#àé¾"ğ×ÃO§ŒtŸ;ìŞ,ÔíÎ¯âqæ£Äûõ«Ó6¡/îdh™;m‡.#UAìÕù6+[QÖÄMÎOVÛ»Õßó?§°˜JZ0Ãa©Æà”c¥Æ1VQŠVI$’I+$¬‚Šç:Š ( Š ( Š ( !øÑñßáGìóğºÃÆŸ<Uÿ ‡†u=V-Úóû2ûPóo¤†iÒ/.ÒdÚfÜT(Ù‚A ¿Á|ñ#ÂÓëŸüoáè–—Mc>¡áÍb×Tµ†éQ$hZ[wtYK'pWCŒ0Î«QÓöª/–ö¿E¶ı·_ ®¯c¯¯ÁºÈgï% Q@ Q@Cû>ø_]ğ?ìğGÁ~(±şËñ/„<á­W³ó¢›ì—ÖštO™4o¶Hİw#2œd0k×«£8Î½IÇg&×£bŠÑcñ3á” ğd°øËÅŞÖ¼¯·ˆô}cÃ‹¥½Ô7M§Şén£gwnñµ¶¥r¤w(ÊÊWCşïÄ?ú:ÏŸø(ø}ÿ ÌÕ*UciSRõæı$[Ì?áNüCÿ £¬øùÿ ‚‡ßüÍWÍ¾"øoâ/‚ß´‰¼Kâx»Ç¾	ø¿6Šòx‡_ƒHItßÇöaŠïû:ÆÎ+xo,­ô[kFòÚ6¸µ–'x®.­’ï×Éñ°†*)SŒT´ºæë²ÖO­º8èKâ½vïBğ¹şÅÒÄŞ-ÕY¬<5áèfògñ®Ñ<YÆûXFDï,ì¾]¼Ïq)Ha‘×ÕşşÍ4ø{ğ‹MğÅ‡íOñ¶6ŠkİKP{ÀğÚİj·÷2ßê7Åq¡\Ks^ÜÜÌ°´òùK Œ9Uëq*Œ)8©]ŞÍ½-¢Ñ4õ»ëmÊ)G©ÛÂø‡ÿ GYñóÿ ¿ùš£şïÄ?ú:ÏŸø(ø}ÿ ÌÕ|·Ö)ÿ Ï˜ıóÿ äÍlû‡ü)ßˆôuŸ?ğQğûÿ ™ª?áNüCÿ £¬øùÿ ‚‡ßüÍQõŠóæ?|ÿ ù0³îğ§~!ÿ ÑÖ||ÿ ÁGÃïşf¨ÿ …;ñş³ãçş
+>ó5GÖ)ÿ Ï˜ıóÿ äÂÏ¸Âø‡ÿ GYñóÿ ¿ùš£şïÄ?ú:ÏŸø(ø}ÿ ÌÕX§ÿ >c÷Ïÿ “>áÿ 
+wâıgÇÏü|>ÿ æjøS¿ÿ èë>>à£á÷ÿ 3T}bŸüùß?şL,û‡ü)ßˆôuŸ?ğQğûÿ ™ª?áNüCÿ £¬øùÿ ‚‡ßüÍQõŠóæ?|ÿ ù0³îğ§~!ÿ ÑÖ||ÿ ÁGÃïşf¨ÿ …;ñş³ãçş
+>ó5GÖ)ÿ Ï˜ıóÿ äÂÏ¸Âø‡ÿ GYñóÿ ¿ùš£şïÄ?ú:ÏŸø(ø}ÿ ÌÕX§ÿ >c÷Ïÿ “>áÿ 
+wâıgÇÏü|>ÿ æjøS¿ÿ èë>>à£á÷ÿ 3T}bŸüùß?şL,û‡ü)ßˆôuŸ?ğQğûÿ ™ª?áNüCÿ £¬øùÿ ‚‡ßüÍQõŠóæ?|ÿ ù0³îğ§~!ÿ ÑÖ||ÿ ÁGÃïşf¨ÿ …;ñş³ãçş
+>ó5GÖ)ÿ Ï˜ıóÿ äÂÏ¸Âø‡ÿ GYñóÿ ¿ùš£şïÄ?ú:ÏŸø(ø}ÿ ÌÕX§ÿ >c÷Ïÿ “>áÿ 
+wâıgÇÏü|>ÿ æjøS¿ÿ èë>>à£á÷ÿ 3T}bŸüùß?şL,û‡ü)ßˆôuŸ?ğQğûÿ ™ª?áNüCÿ £¬øùÿ ‚‡ßüÍQõŠóæ?|ÿ ù0³îğ§~!ÿ ÑÖ||ÿ ÁGÃïşf¨ÿ …;ñş³ãçş
+>ó5GÖ)ÿ Ï˜ıóÿ äÂÏ¸Âø‡ÿ GYñóÿ ¿ùš£şïÄ?ú:ÏŸø(ø}ÿ ÌÕX§ÿ >c÷Ïÿ “>áÿ 
+wâıgÇÏü|>ÿ æjøS¿ÿ èë>>à£á÷ÿ 3T}bŸüùß?şL,û‡ü)ßˆôuŸ?ğQğûÿ ™ª?áNüCÿ £¬øùÿ ‚‡ßüÍQõŠóæ?|ÿ ù0³îğ§~!ÿ ÑÖ||ÿ ÁGÃïşf¨ÿ …;ñş³ãçş
+>ó5GÖ)ÿ Ï˜ıóÿ äÂÏ¸Âø‡ÿ GYñóÿ ¿ùš£şïÄ?ú:ÏŸø(ø}ÿ ÌÕX§ÿ >c÷Ïÿ “>áÿ 
+wâıgÇÏü|>ÿ æjøS¿ÿ èë>>à£á÷ÿ 3T}bŸüùß?şL,ûŸÁA?d¯ÚâçìiáŸü;ø…ñ;ã¾µcãK-J}Ärx#Hµ³µKøšñ&·Ó´×iæŠ †wR³¹òØ¨xşcı™ÿ à“ß´„|Smã/şĞWÿ .ï­tô¼±øo©^>½s§Ìë=şsÛÁk" PÑ}¾•wáÖ$ó}¬oB†QtÕÛøUìÓKVß7¥¿¤J³÷Âú6£áÿ Xé¯Šõÿ ßÚy¾n·­Ã§Ã}{ºFuóRÂÚÚØlVX×Ë>TRÛŸs·áÕ|ÜÛi[ÈÕ¼”R ¢€
+( ¢€
+( ¢€
+ÏÕt+^ğ¶¥¡ëšfŸ¬èšÍ¬Ö:†Ÿ}n—·Ö³!Xf‰ÁI#tfFFYIhÎ¼	ğCáGÃ?Şë	ğF‘£kW°Éf5eºº±Ó]ÒA¦ÙK;;ÙihñFÑiÖÆ+HXf8P“ŸU­kW©Z\ÕdÛ²Zö_×ë¸’K`¢²Q@ Q@ Q@ Q@ Q@ Q@ Q@ Q@ Q@ Q@ Q@~Ğï% Q@ Q@ W!ñÆšWÃo€¾7ø‰®[ßİhĞ5/êX¢=ÔÖ¶6Ò\Ê«º#HR&
+ÕK–QÈ ÀÖ~.x;Iı“<SñŞkıkÁŞĞ5ŞÇgjcÔzdS=å©¶¹1<±=´Öò[\y2E<o¢'GéÔå6ŸOë¦€‚Š@PE PE PE PE PE PE PE PE PE y¥ñ³àÎ‹ñŠ/‡zÇÅ¿†:OÄ	®­,cğÍçŠtè5‡ººÖĞ­“Ê'2L&ˆÆ78‘6ƒ¸gÓ«IÑ©¥8´×V¿ “
++1… Q@~Ğï% Q@ Q@ W~Õ¿ò‹¯ÚKşÉgŒôÑu@ûZÅ ı‘h›˜¿qğ·ã€|U§½¤_º´ğ—ŒgÒµYÚùËşî;mfF‚ÕÕ 5O²”†æãX¹š>úãÂÿ |wñ÷öƒÔ¾:XèŸğªµ]>j:üËc7‚<(ÚŸxu}.ä´o¦nÕW\'W¶h¦2éÆ3p³![nê/–2ª›MGF½İSŠi[wÊõë«ºêKìyÂŸ‡ÚWÆoV:Ÿíà?ÆŞ0öxø=}­é.ÑÑ­`×®®<P÷Ó\hò ´õ&YcWkq-ºËsF$šd~Àñx÷âß…¾h~,øyğÇãŞ‰qû<|=ñ]ŸñkÅ7Vv·šõÂ]G®jPDtI5[ÔC£$÷6ÅobÈ5I¼îÄâ½¢¦ıØOİqJM+MİmÑ/z÷I'uZ{]¶¿g[ßj?²†o|I­éş"»ëY67ö:ş«k.Œ5;¡¥,:•õµµÎ©zx³u"Íò º\,ây=¶¼šªÕ$ŸwÒß‚ÑztØ´Vc
+( ¢€
+ä> øÓJømğÆÿ 5Ë{û­À:¥â=BGºšÖÆÚK™RwDi
+DÁC:©b2Ê9 •:Iÿ ‚ƒißğL3ö¨»ı®|!¯]Øx.‰Óøûášf££$#Sk9µKx¢¹I§ƒ¸EdLÆ%™Cê½Köäğ.ğ»á5Ïü+Ÿ‹¾;ø—ñGÀ:ÄoøWÿ ¼3uâmSGĞµ(Iû\³m‚İ­¢¹_²³ïY¼GÉ
+ùî'	F¬œ0ğäp“‹»Ñ«7Ívô²‹º·ŞgÖá«şŞ¿m?gO‚¼3á‹¿¦øıı§ÿ —…<!áWÔ<G?öb·ö¯™jÒ$cìr'•.É_q;âó¡W•p?áä³§ü2çü.>ÿ …iÿ OşOöÇö,ñùöO·iıŸÎûGöoÙ¿yş¯í_Ãö]ß-s,»¾«GË¿÷¹¶önöÓ£ò»çFş±ûtxGğï…-ÿ áLşÓz§Ä¿iRx‡ş†Ÿğæêèú^İißÚWÖ¾`·‚Ù®lö¯úCHEÍ³y{dÈ¿wûtü_ÙáOÄé¿¼swñ¶×P¸ğ_ƒ<1á+½KÄúÜšl©­['îKÒ4ÅçXÙ •áyÔ)iWU¥%(Ù¶·è¯ï‡İzï¦ˆ9‘ëß>=x;ö‡ø;©ø»Â_‹¼;'‡uıCÂÚöƒâ(éšÇ‡õ‹"¾}¥Ü@’Âä$HŠÈ²Fãßø(?ÁO |AñŸ?…>6ø—ÁŞ×Ï…¼gñBğ5Üşğ^±à²¹´Ô/e1¿™¼ÂŞ)Ã¬ğùFgp•òê³®è&®ºßK;Y§çunº­Ì­sÄ¿hÏÚ³â·‹¿oï„ÿ ³WìÏ}ãïÿ oı_ñÄáíŒl.|9¨Ãlš^©¦y·Ş}no/oYc4Ê’MŞÛûTşÙ§ìıñëá‡Âß
+üøñ7Æî¬µ“EĞşÖ}ŞáÛ[‹OH¤Yo5h,à.-ñQ-Õ¼òË±|©:Ö[Ğ§&“•ÜöKukidÿ jéè‰æİı×í‰ğ—Nı˜ş>|YÕ­¼]¥xWövñ¦¯à/¬Ú|R]j:Å„¶Öál#ŠgÅÅå¼1<Íû¥òQYÇã¿ÛãÀ_¼gñ+Ãz§Á¯Ú3XñÂ]ûÆ~ğ•®±k©éo«®¯-¯ÎíbO*w–tS!&qrË-<¶¤•ù¢•“ÕÙY¨¿Ãš7ü.W2~Ô~ÿ †œğm÷…|wâè~ø3àn»ûAøH±ğ…Í¯Ä/	KƒOHo/'†òÂö	TÜ¬^J,« IdÂßğP‚-ñOÁØ4Ï
+|m·ğ¯ÆË«Dñ­÷®í|1mâ§ôi¯œ-è¸¶xÚ-Íº¹'ÏÙÏŸÙ•d’I&´w–ïšiy_İµ“ìûÙs#â?ü§àGÃ/üH³Ö|!ñ·SÑ>kòøBëÄÚo„Cè·‰àx–ëG³½šxÓí°#Ï3,âh¬æxŞ@Ğyÿ ¡5ÍˆÁÊŒ!94Ô—Nš'g¦Í;…ÈPQ@ Q@ò¦™¡|Bø]ğvO…ú‡Á½?ã¯ÂøínôµèúæšŞ$ñDweä¸¸×ô­dYéóI8–à_İ¦¥4—·RµÇÙ"[©cµùÏÄZÎ£¤ø‹öŒøÛğ‡ã¿°4ÙgÂ>1ğ„7i÷ö×ößañ{éOu.§a&§7•$~âãÏ’{™…ËMÈ#î›‹ŒªÅ&›ÕZÜ­İ®[=·¶¶ÓŞÂJì}7¨‰VŸ|ğn‹zÿ öÿ Ä+Ä6Õ<eg¢h°Üh¶ÚTÚ5«iZ%”¶²ÛÁm%Î±‰. 59ã‚)ái'–h®íxcÇÿ ¯|káO„ÚG¿±5Í#ãDŸ5¿ÿ aØÜŞkú)ğ×ŠRãì‚ÚÛRUšÒ?646æêÓí×ì²¾š4ti¸s¨Ù[›­íÍÉË{Ûû×åßemv_³ø‡ñ
+ËÄº¯Á¶ñş©­\|]_†:w54ëZ{ø*/Oy%µ½´:|×ª>×clE´pFÒi ¼0MßğÆïâûeüQømâßˆ·ÿ |=á¯ø/]Ğ®µ-M±Ô¡“R¾ñ7fò[a‚âF:l
+­ñ¬1@Q”Oqs&4 ÜTuj/}¯ínÚ½İö×GÌÕÏ£(®2‚¿è÷’Š ( Š ( Š +?UÒt­{ÂÚ–‡®iš~³¢k6³Xê}õº\ZßZÌ†9aš'$Ñ™e$A UÒt­{ÂÚ–‡®iš~³¢k6³Xê}õº\ZßZÌ†9aš'$Ñ™e$A¬ü>ğŒ<SásÅ¾ğ‡Šu¯]}»ÃÚ†¯£Úß]h7[ã“Î²–Tg¶“|6øŠ¶è£9Ê®.IB\Ğm>ëAXß‹IÒ¡ñMæ¹™§Å­j6¶Ö7z‚[¢İ]ZÛ<Ò[Ã$ oxâ{«–D$ª4ò• »g‘×¾|-ñWÂíÀŞ(ømàx+ÃfşÈğş©áë+Í/Kû<-ooökIchaò¡w‰6(ÚŒTaIB¤£ğ¶µONëgêºúŠ… Q@ WÎµÆ‡ñ;Å?ğMŸŒ>ø;á½?Å¿<e IáË.òæhçµÔ,¯Ùešh#I#±êXËÈÌ2²«m(¨:‘U£uN¿€Ÿ‘ñ-ÿ ¿lßŒ?°–‰û%ÙüÓÿ eï‡öz‡ámSÇúÿ ÅjSxjÀ[ÛOiok£Å’öâŞ1æ	|«Y¡[¨Åç£&?eÿ ‹¿?noøÓàoÂ-ã7ÂOˆ^ğÎ‰†¼3ñ«Yøgªx.oéöúM”SŞG¨Fº³ÚFÌ­*Í(rã0lf½úŒÃÆR¦ª&ª99K“DôqÑ¦ÚM=?½½ÑŸ+ŞÛ% kvß²7üÓÀº?†‡ìç¨k^øEkğÇÇ¸ø‘qà-Á†¯®¿Šä^$k»­RÈCz	6oy>VV’2ÖöÏ×şÌß~+|Nı?cßxF×ï4ˆ?<QûHüV×nÍ™}§øÕdO=¥«,YÓu.)¤Hmæ,³[x™1´çt–&W»Úé÷Hê½×ÌùomµZtI]ÛúìzïÆ€ÿ ¼ÿ 7ø™ñ£á¯ÃãÏ‚¾8éZ7öáŸŒš§ÂİSÂÚ¦kŒ>}ÅµôêÓB%‘wG#£³¨û:¡kŞ_ı~4üñ‡À¯ˆ_>hÿ áğçÃïü<ø}ñÄŸşÁöNû]z^¹q«¹í–öóÊ–;¹dßå£­²y«ıÉOC–ågk5ÊšVŒ ›Ñ9nµ²ºì‡Êõ>ùı”>ë
+ÿ gMoş?èñ/Äoj^7Õ´7^ÕüA6™q|±(‹PÕµ+Ë™5-HG_iº‡È‚IwùqÓ|-áƒŸ¶ÇÃØKÆ¿°×†şü1ñoí|IáÍãN¥âåÓ´ÄĞ5a5ÔÍy¢Gçêô›»»u1*)¬ğÂóÜsªØz’«
+ò|¾ëM%¯"µ’I%tİ¶åÒ÷*ÍZÇÓ?g¿øş
+MâïëUı—Ãÿ „ÿ ¼ğ_áF¨ú…”Òx—@·Œ^jSê1FL‚öèb‰\GkFÍ¶)?ÖÚFø½üãöxø¹Ã?Ä?~h½Î¥âÇñ“áèü-u­3XëWÚŠŞ»=Õ•‘n—K1@ÆGbn)Š­S©‰R©+EÆI»=”›ÓÊRiy%ê­#æO„^Ò¾9Ánş*x[À¯„5ßÙSàßÄ›/ÓŞhZŠj‘ø‡â&«£YÅi‹øîÌ‚8o¡ÕoU`Éöó¡G!à>è_´Ÿ¿g¿Ú¾ëöø7ğÇÆßÿ mÏ‰>6Fø•©k‘é†áë«ù´é¯uIİ\Ùy3Ş8‹iã¾•íæY¢nùªZS­'¨AKGu'Êík^î0^Jİôr¯º=·â7ì¿ñÏLÿ †ÿ …kàøH?áøàÿ ÙÓà×ö†³¦'ü%¸òÿ á"ºÔ3q—©Zæ_&Fû$-´b	ûûoÇ„wĞ?cŸ/ÇìÉû+İ7|oâÙn­ßXĞãğvŠN„Ï€÷QÜ8œ\¥­œ’0A³ìùóOM¸Îú§Í³ø’rKÑÎr‹òKU»j/úş»—	ñ7‹|{ÿ ßøûÚIàGÁ^'ø§¢hºÖ»à_ˆzV¿â?øR÷TÔuË«Èt´’÷G¶³Híîfımæ€Å
+Ínîb‡úP¨Íà í­Ü§+5f¯Ëæî´jû6´Ô WŠhPE PE xü(ylÿ âOá¯Œ_|ğésô)´;}.ÂÁ¿ÖÙYŞ6šú½•±Ö5µ¿…­–;6´/ıš<'âGÄğØx£ÅŞğ¯Œ¾Gğ¯Wğ§† Ñm´iô Õ ³$ÖÏk%¨Ö®š/³ÍYxäD(İÄs+8¯=e«¶ï]ÕÛV¶û[A$zw>YøÏû.ş×]×üâïùË¤x§ÃæÌjšd7Õº‹¸.-§¶b‹Ì·¹‚h‹Ão0E¸¶·šOø/ák¯_5ş¿}®x/ÅW>5¸Ö.§ï¼Q®Üiº,×:›ˆ‚É›MAÕ#`·´‚†ÖŞ;ulù9?½·¶öµõÛp±ÈüCøg— xÇÄ^ğ¿‹¼eâxÒÏÆS6…¬ézˆ|3©C¢ÚèpŞè|"³i+UšŞöt†k{I%70ÉıŸqŸğáÇ‹tOŠ?>(øÒóÇÃXø¥xC>5Ô´«íu!Ò&Ôä[›•Ò1¤Yy§Uh’ÏNSÒ;©]®ïn’-å[›rjú$­®‰-öJË»wVI&Ä–§Ó”WA_ƒtûÉE PE PE PE PE PE PE P˜øÓàŸÁŸ‰)·×>"|#øcãİjÒÕ,`Ô<Gám;Tº†Õ]äXR[ˆÖ0òÈÁÚÜã,séÕn¤œT[v[.Šı»
+ÁE@ÂŠ +?UÒt­{ÂÚ–‡®iš~³¢k6³Xê}õº\ZßZÌ†9aš'$Ñ™e$A ü>ğÃoO¡ü;ğG„<¢]]5ôú‡4{]*Ök¦D¦h­Ñ¤)H\ÅQp£ğ§…¼àkø/ÃZ„<3¥ù¿cÒ4M>>ÆÓÌ‘¥“Ê·…V4İ$íµFYÙ$šÒujM·97{^ï¶‹î[	#~ŠÌg˜ø/àŸÁŸ†Ş)Ÿ\øwğá€u««V±ŸPğç…´í*êkVt‘¡imâGhËÅ'idCŒ¨Ç§V•*Ô¨ùªIÉù»‰+lVc
+( ¢€
+( ¢€
+( ¢€
+( ¢€
+ü ŞJ( ¢€
+( ¢€
+( ¢€
+( ¢€
+( ¢€
+( ¢€
+( ¢€
+( ¢€
+( ¢€
+( ¢€
+( ¢€
+( ¢€
+( ¢€
+( ¢€
+( ¢€
+ü ÿÙ
+endstream
+endobj
+36 0 obj
+<</Type /XObject
+/Subtype /Image
+/Width 8
+/Height 11
+/ColorSpace [/Indexed /DeviceRGB 7 37 0 R]
+/BitsPerComponent 8
+/Mask [7 7 ]
+/Length 88>>
+stream
+              
+endstream
+endobj
+37 0 obj
+<</Length 24>>
+stream
+===åååJJJ±±±qqq¤¤¤FFF   
+endstream
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 29 0 R
+/F2 30 0 R
+/F3 31 0 R
+/F4 32 0 R
+/F5 33 0 R
+/F6 34 0 R
+>>
+/XObject <<
+/I1 35 0 R
+/I2 36 0 R
+>>
+>>
+endobj
+38 0 obj
+<<
+/Producer (FPDF 1.53)
+/Title (Rebol : le choix )
+/Subject (Articles Techniques)
+/Author (REBOLtof)
+/Keywords (DOCUMENTATION, comparatif)
+/Creator (The REBOL Documentation Project)
+/CreationDate (D:20060411072437)
+>>
+endobj
+39 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 40
+0000000000 65535 f 
+0000071309 00000 n 
+0000129797 00000 n 
+0000000009 00000 n 
+0000000222 00000 n 
+0000001883 00000 n 
+0000004662 00000 n 
+0000013100 00000 n 
+0000013313 00000 n 
+0000020031 00000 n 
+0000020245 00000 n 
+0000026378 00000 n 
+0000026593 00000 n 
+0000031066 00000 n 
+0000031281 00000 n 
+0000035961 00000 n 
+0000036176 00000 n 
+0000042372 00000 n 
+0000042587 00000 n 
+0000049030 00000 n 
+0000049245 00000 n 
+0000053618 00000 n 
+0000053833 00000 n 
+0000058036 00000 n 
+0000058251 00000 n 
+0000062989 00000 n 
+0000063204 00000 n 
+0000067478 00000 n 
+0000067693 00000 n 
+0000071478 00000 n 
+0000071575 00000 n 
+0000071670 00000 n 
+0000071768 00000 n 
+0000071867 00000 n 
+0000071969 00000 n 
+0000072074 00000 n 
+0000129460 00000 n 
+0000129724 00000 n 
+0000129979 00000 n 
+0000130214 00000 n 
+trailer
+<<
+/Size 40
+/Root 39 0 R
+/Info 38 0 R
+>>
+startxref
+130318
+%%EOF

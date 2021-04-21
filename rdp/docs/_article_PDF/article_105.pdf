@@ -1,0 +1,648 @@
+%PDF-1.3
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 4 0 R>>
+endobj
+4 0 obj
+<</Length 1085>>
+stream
+2 J
+0.57 w
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (Utilisation de SPIP par les auteurs) Tj ET Q
+0.57 w
+BT /F2 26.00 Tf ET
+q 0.502 g BT 118.24 656.92 Td (The REBOL Documentation) Tj ET Q
+q 0.502 g BT 243.04 631.41 Td (Project) Tj ET Q
+BT /F1 8.00 Tf ET
+q 0.502 g BT 230.07 616.97 Td (-- FR - Auteur / Traducteur - Articles --) Tj ET Q
+0.85 w
+BT /F2 20.00 Tf ET
+q 0.502 g BT 73.70 423.45 Td (Articles) Tj ET Q
+BT /F3 22.00 Tf ET
+297.64 436.54 m 297.64 413.86 l S q 0.000 g BT 300.47 418.60 Td (Utilisation de SPIP par) Tj ET Q
+297.64 413.86 m 297.64 391.18 l S q 0.000 g BT 300.47 395.92 Td (les auteurs) Tj ET Q
+297.64 391.18 m 297.64 368.50 l S 
+BT /F4 16.00 Tf ET
+297.64 368.50 m 297.64 351.50 l S q 0.000 g BT 451.35 355.20 Td (REBOLtof) Tj ET Q
+BT /F4 12.00 Tf ET
+297.64 351.50 m 297.64 334.49 l S q 0.000 g BT 423.59 339.39 Td ( mardi 12 avril 2005) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F5 8.00 Tf ET
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 1/6) Tj ET Q
+
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [487.70 717.91 517.16 707.91] /Border [0 0 0] /A <</S /URI /URI (http://www.spip.net/fr)>>>><</Type /Annot /Subtype /Link /Rect [73.70 703.74 96.49 693.74] /Border [0 0 0] /A <</S /URI /URI (http://www.spip.net/fr)>>>><</Type /Annot /Subtype /Link /Rect [249.90 434.45 305.48 424.45] /Border [0 0 0] /A <</S /URI /URI (article.php3?id_article=7)>>>><</Type /Annot /Subtype /Link /Rect [89.26 306.89 127.61 296.89] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.sourceforge.net/IMG/txt/template-SPIP.txt)>>>><</Type /Annot /Subtype /Link /Rect [214.95 193.50 387.25 183.50] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.sourceforge.net/ecrire)>>>><</Type /Annot /Subtype /Link /Rect [113.39 52.19 239.66 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 6 0 R>>
+endobj
+6 0 obj
+<</Length 4818>>
+stream
+2 J
+0.85 w
+BT /F4 12.00 Tf ET
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (Utilisation de SPIP par les auteurs) Tj ET Q
+BT /F4 12.00 Tf ET
+BT /F1 10.00 Tf ET
+BT /F6 14.00 Tf ET
+q 0.000 g BT 73.70 751.23 Td (Qu'est-ce que SPIP ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 738.26 Td (  ) Tj ET Q
+q 0.000 g BT 73.70 724.09 Td (C'est un système de création et gestion de site, utilisé par le REBOL Documentation Project. Il a) Tj ET Q
+q 0.000 g BT 73.70 709.91 Td (l'avantage d'être très facile à utiliser et permet une réelle interactivité. Vous trouverez dans le ) Tj ET Q
+q 0.000 0.000 1.000 rg BT 487.70 709.91 Td (site de) Tj ET 487.70 708.91 29.46 -0.50 re f Q
+q 0.000 0.000 1.000 rg BT 73.70 695.74 Td (SPIP) Tj ET 73.70 694.74 22.79 -0.50 re f Q
+q 0.000 g BT 96.49 695.74 Td ( un manuel en ligne mais voici déjà quelques règles de base pour créer votre documentation.) Tj ET Q
+q 0.000 g BT 73.70 681.57 Td (  ) Tj ET Q
+BT /F6 14.00 Tf ET
+q 0.000 g BT 73.70 637.85 Td (Quelles sont les personnes autorisées à écrire et à modifier des) Tj ET Q
+q 0.000 g BT 73.70 623.67 Td (articles sur le site ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 610.70 Td (  ) Tj ET Q
+q 0.000 g BT 73.70 596.53 Td (Seules certaines personnes préalablement enregistrées sont autorisées à intervenir sur la partie) Tj ET Q
+q 0.000 g BT 73.70 582.35 Td (privée \(l'espace rédactionnel\) du site.) Tj ET Q
+q 0.000 g BT 73.70 568.18 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 554.01 Td (Dans le dialecte de SPIP, nous parlerons d' "administrateurs" et d'"auteurs". Seuls les administreurs) Tj ET Q
+q 0.000 g BT 73.70 539.83 Td (peuvent créer des auteurs, gérer la configuration du site et accepter ou refuser des articles. Les) Tj ET Q
+q 0.000 g BT 73.70 525.66 Td (auteurs, eux, disposent de la possibilité d'écrire des articles et de dialoguer sur les forums qui y sont) Tj ET Q
+q 0.000 g BT 73.70 511.49 Td (rattachés.) Tj ET Q
+q 0.000 g BT 73.70 497.32 Td (  ) Tj ET Q
+BT /F6 14.00 Tf ET
+q 0.000 g BT 73.70 453.60 Td (Comment devenir auteur ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 440.62 Td (  ) Tj ET Q
+q 0.000 g BT 73.70 426.45 Td (Il vous suffit de prendre contact avec le ) Tj ET Q
+q 0.000 0.000 1.000 rg BT 249.90 426.45 Td (coordinateur) Tj ET 249.90 425.45 55.58 -0.50 re f Q
+q 0.000 g BT 305.48 426.45 Td (, en expliquant briévement votre projet de) Tj ET Q
+q 0.000 g BT 73.70 412.28 Td (documentation, et fournissant vos noms, prénoms \(éventuellement alias\) et adresse email de) Tj ET Q
+q 0.000 g BT 73.70 398.10 Td (contact.) Tj ET Q
+q 0.000 g BT 73.70 383.93 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 369.76 Td (Vous recevrez par retour de mail vos identifiants et la procèdure à suivre afin de vous connecter) Tj ET Q
+q 0.000 g BT 73.70 355.58 Td (dans la "partie privée" du site.) Tj ET Q
+q 0.000 g BT 73.70 341.41 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 327.24 Td (Le comité de rédaction recommende l'utilisation de cette méthode pour la création de documentation.) Tj ET Q
+q 0.000 g BT 73.70 313.06 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 298.89 Td (Un ) Tj ET Q
+q 0.000 0.000 1.000 rg BT 89.26 298.89 Td (template) Tj ET 89.26 297.89 38.35 -0.50 re f Q
+q 0.000 g BT 127.61 298.89 Td ( est également à votre disposition. Il vous suffira d'en effectuer le copier/coller dans) Tj ET Q
+q 0.000 g BT 73.70 284.72 Td (l'espace rédactionnel de SPIP afin de commencer à travailler.) Tj ET Q
+q 0.000 g BT 73.70 270.54 Td (  ) Tj ET Q
+BT /F6 14.00 Tf ET
+q 0.000 g BT 73.70 226.82 Td (Comment écrire des articles dans l'espace redactionnel qui vous) Tj ET Q
+q 0.000 g BT 73.70 212.65 Td (est réservé ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 79.04 185.50 Td (•) Tj ET Q
+q 0.000 g BT 93.54 185.50 Td ( Tapez l'adresse suivante : ) Tj ET Q
+q 0.000 0.000 1.000 rg BT 214.95 185.50 Td (http://rebdocproj.sourceforge.net/ecrire) Tj ET 214.95 184.50 172.30 -0.50 re f Q
+q 0.000 g BT 387.25 185.50 Td (.) Tj ET Q
+q 0.000 g BT 79.04 171.33 Td (•) Tj ET Q
+q 0.000 g BT 93.54 171.33 Td ( Le système SPIP vous demande votre nom d'utilisateur \(login\) et mot de passe : inscrivez-les. ) Tj ET Q
+q 0.000 g BT 79.04 157.16 Td (•) Tj ET Q
+q 0.000 g BT 93.54 157.16 Td ( Une fois que vous avez réalisé cette manoeuvre, une autre page s'ouvre. Celle-ci vous) Tj ET Q
+q 0.000 g BT 93.54 142.98 Td (présente différentes icônes :) Tj ET Q
+q 0.000 g BT 98.88 128.81 Td (•) Tj ET Q
+q 0.000 g BT 113.39 128.81 Td ( Ecrire un nouvel article) Tj ET Q
+q 0.000 g BT 98.88 114.64 Td (•) Tj ET Q
+q 0.000 g BT 113.39 114.64 Td ( Ecrire une nouvelle brève) Tj ET Q
+q 0.000 g BT 98.88 100.46 Td (•) Tj ET Q
+q 0.000 g BT 113.39 100.46 Td ( Brèves) Tj ET Q
+0.85 w
+96.38 56.69 m 538.59 56.69 l S
+BT /F5 8.00 Tf ET
+q 0.000 g BT 113.39 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 2/6) Tj ET Q
+
+endstream
+endobj
+7 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [93.54 52.19 219.82 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 8 0 R>>
+endobj
+8 0 obj
+<</Length 4414>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.85 w
+96.38 805.04 m 538.59 805.04 l S
+q 0.502 g BT 113.39 819.05 Td (Utilisation de SPIP par les auteurs) Tj ET Q
+q 0.000 g BT 98.88 794.95 Td (•) Tj ET Q
+q 0.000 g BT 113.39 794.95 Td ( Mots-clefs) Tj ET Q
+q 0.000 g BT 98.88 780.78 Td (•) Tj ET Q
+q 0.000 g BT 113.39 780.78 Td ( Sites référencés) Tj ET Q
+q 0.000 g BT 79.04 752.43 Td (•) Tj ET Q
+q 0.000 g BT 93.54 752.43 Td ( et différentes parties :) Tj ET Q
+q 0.000 g BT 98.88 738.26 Td (•) Tj ET Q
+q 0.000 g BT 113.39 738.26 Td ( Articles et brèves destinés à la publication) Tj ET Q
+q 0.000 g BT 98.88 724.09 Td (•) Tj ET Q
+q 0.000 g BT 113.39 724.09 Td ( Modifications des articles) Tj ET Q
+q 0.000 g BT 98.88 709.91 Td (•) Tj ET Q
+q 0.000 g BT 113.39 709.91 Td ( Eventuellement d'autres détails) Tj ET Q
+BT /F6 14.00 Tf ET
+q 0.000 g BT 73.70 637.85 Td (Qu'est-ce qu'une rubrique ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 624.87 Td (  ) Tj ET Q
+q 0.000 g BT 73.70 610.70 Td (Une rubrique est un espace destiné à accueillir des articles. Rien de plus simple : on peut aussi dire) Tj ET Q
+q 0.000 g BT 73.70 596.53 Td (dossier \(comme sur votre bureau ou votre ordinateur : vos documents sont rangés dans des) Tj ET Q
+q 0.000 g BT 73.70 582.35 Td (dossiers\).) Tj ET Q
+q 0.000 g BT 73.70 568.18 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 554.01 Td (Les rubriques peuvent être installées les unes dans les autres, formant ainsi une hiérarchie. Une) Tj ET Q
+q 0.000 g BT 73.70 539.83 Td (rubrique est soit à l'intérieur d'une autre rubrique, soit elle n'est rattachée à aucune autre et constitue) Tj ET Q
+q 0.000 g BT 73.70 525.66 Td (alors un point d'entrée dans le site \(nous parlons alors de tête de rubrique, ou de secteur\).) Tj ET Q
+q 0.000 g BT 73.70 511.49 Td (L'emboîtement des rubriques les unes dans les autres constitue l'ossature de votre site, puisque) Tj ET Q
+q 0.000 g BT 73.70 497.32 Td (c'est autour de cette structure que viendront se greffer les différents articles de votre site.) Tj ET Q
+q 0.000 g BT 73.70 483.14 Td (  ) Tj ET Q
+BT /F6 14.00 Tf ET
+q 0.000 g BT 73.70 439.42 Td (Comment créer une rubrique ? Comment créer un article ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 426.45 Td (  ) Tj ET Q
+q 0.000 g BT 73.70 412.28 Td (ATTENTION : la création de nouvelles rubriques est une tâche réservée aux seuls administrateurs) Tj ET Q
+q 0.000 g BT 73.70 398.10 Td (du site) Tj ET Q
+q 0.000 g BT 103.16 398.10 Td (.) Tj ET Q
+q 0.000 g BT 73.70 383.93 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 369.76 Td (Cliquez maintenant sur l'icône "Ecrire un nouvel article". Une nouvelle page s'ouvre où figurent ces) Tj ET Q
+q 0.000 g BT 73.70 355.58 Td (divers éléments :) Tj ET Q
+q 0.000 g BT 79.04 327.24 Td (•) Tj ET Q
+q 0.000 g BT 93.54 327.24 Td ( Titre : où vous indiquez le titre de votre article. Le titre de votre article est indispensable.) Tj ET Q
+q 0.000 g BT 79.04 298.89 Td (•) Tj ET Q
+q 0.000 g BT 93.54 298.89 Td ( A l'intérieur de la rubrique : cet élément reprend le nom de la rubrique en cours. Le menu) Tj ET Q
+q 0.000 g BT 93.54 284.72 Td (indique toute la hiérarchie des rubriques : sélectionnez celle dans laquelle vous voulez placer) Tj ET Q
+q 0.000 g BT 93.54 270.54 Td (l'article.) Tj ET Q
+q 0.000 g BT 79.04 242.20 Td (•) Tj ET Q
+q 0.000 g BT 93.54 242.20 Td ( Descriptif rapide : en quelques mots...Il permet d'indiquer brièvement les pages d'index du site,) Tj ET Q
+q 0.000 g BT 93.54 228.02 Td (le thème de l'article. ) Tj ET Q
+q 0.000 g BT 79.04 199.68 Td (•) Tj ET Q
+q 0.000 g BT 93.54 199.68 Td ( Chapeau : Le chapeau désigne le court texte qui « chapeaute » l'article. Il s'agit de répondre) Tj ET Q
+q 0.000 g BT 93.54 185.50 Td (aux questions principales de votre sujet en quelques lignes :qui, quand, quoi, comment,) Tj ET Q
+q 0.000 g BT 93.54 171.33 Td (pourquoi,... Le chapeau est beaucoup plus intéressant qu'un descriptif rapide. En effet, grâce au) Tj ET Q
+q 0.000 g BT 93.54 157.16 Td (chapeau, votre description sera toujours mise en évidence car le caractère apparaîtra en gras) Tj ET Q
+q 0.000 g BT 93.54 142.98 Td (au-dessus de votre texte.) Tj ET Q
+q 0.000 g BT 79.04 114.64 Td (•) Tj ET Q
+q 0.000 g BT 93.54 114.64 Td ( Le texte : c'est l'article que vous rédigez, comme son nom l'indique. ) Tj ET Q
+0.85 w
+76.54 56.69 m 538.59 56.69 l S
+BT /F5 8.00 Tf ET
+q 0.000 g BT 93.54 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 3/6) Tj ET Q
+
+endstream
+endobj
+9 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 10 0 R>>
+endobj
+10 0 obj
+<</Length 4359>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.85 w
+76.54 805.04 m 538.59 805.04 l S
+q 0.502 g BT 93.54 819.05 Td (Utilisation de SPIP par les auteurs) Tj ET Q
+q 0.000 g BT 79.04 794.95 Td (•) Tj ET Q
+q 0.000 g BT 93.54 794.95 Td ( Le Post-Scriptum, qui est un champ réservé à la publication de documents joints \(comme la) Tj ET Q
+q 0.000 g BT 93.54 780.78 Td (version MD2 de votre article par-exemple\).) Tj ET Q
+q 0.000 g BT 73.70 752.43 Td (Lorsque vous avez terminé votre article, cliquez sur Soumettre cet article à la publication.) Tj ET Q
+q 0.000 g BT 73.70 738.26 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 724.09 Td (Les membres du comité de rédaction pourront alors décider de le publier tel quel ou de le corriger ou) Tj ET Q
+q 0.000 g BT 73.70 709.91 Td (pourquoi pas de vous demander de le retravailler.) Tj ET Q
+q 0.000 g BT 73.70 695.74 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 681.57 Td (L'icône Poster un message soumet l'article rédigé comité de rédaction. Il leur permet de donner leurs) Tj ET Q
+q 0.000 g BT 73.70 667.39 Td (commentaires et remarques sur votre article.) Tj ET Q
+q 0.000 g BT 73.70 653.22 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 639.05 Td (Remarque : Dès qu'un problème se pose, consultez et cliquez sur l'icône Aide en ligne.) Tj ET Q
+q 0.000 g BT 73.70 624.87 Td (  ) Tj ET Q
+BT /F6 14.00 Tf ET
+q 0.000 g BT 73.70 581.15 Td (Comment proposer un article à la diffusion ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 568.18 Td (  ) Tj ET Q
+q 0.000 g BT 73.70 554.01 Td (Lorsque l'article est « en cours de rédaction », il est suivi d'un bouton « demander la publication de) Tj ET Q
+q 0.000 g BT 73.70 539.83 Td (cet article ». Cela signifie que l'article est alors « proposé à l'évaluation » c'est-à-dire présenté à tous) Tj ET Q
+q 0.000 g BT 73.70 525.66 Td (les administrateurs, qui seront invités à le commenter, dans l'attente d'une validation \(publication\) ou) Tj ET Q
+q 0.000 g BT 73.70 511.49 Td (d'un refus de la part des administrateurs.) Tj ET Q
+q 0.000 g BT 73.70 497.32 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 483.14 Td (Seul l'auteur de l'article peut effectuer cette opération !) Tj ET Q
+q 0.000 g BT 73.70 468.97 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 454.80 Td (Remarque : N'hésitez pas à corriger votre article autant de fois que vous le voulez, avant de le) Tj ET Q
+q 0.000 g BT 73.70 440.62 Td (« proposer à l'évaluation ». Pour cela, cliquez à chaque fois sur « Modifier l'article » et n'oubliez) Tj ET Q
+q 0.000 g BT 73.70 426.45 Td (jamais de valider votre texte corrigé.) Tj ET Q
+q 0.000 g BT 73.70 412.28 Td (  ) Tj ET Q
+BT /F6 14.00 Tf ET
+q 0.000 g BT 73.70 368.56 Td (Comment insérer une image dans le texte ? ) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 355.58 Td (  ) Tj ET Q
+q 0.000 g BT 73.70 341.41 Td (Le système vous offre la possibilité d'illustrer vos articles avec des images.) Tj ET Q
+q 0.000 g BT 73.70 327.24 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 313.06 Td (En ce qui concerne le format des images : Lorsque vous créez vos images, vous devez les créer à) Tj ET Q
+q 0.000 g BT 73.70 298.89 Td (l'un des formats suivants :) Tj ET Q
+q 0.000 g BT 79.04 270.54 Td (•) Tj ET Q
+q 0.000 g BT 93.54 270.54 Td ( GIF \(extension .gif\)) Tj ET Q
+q 0.000 g BT 79.04 256.37 Td (•) Tj ET Q
+q 0.000 g BT 93.54 256.37 Td ( JPEG \(extension .jpg\)) Tj ET Q
+q 0.000 g BT 79.04 242.20 Td (•) Tj ET Q
+q 0.000 g BT 93.54 242.20 Td ( PNG \(extension .png\) ) Tj ET Q
+q 0.000 g BT 73.70 213.85 Td (Afin d'éviter les erreurs graves de manipulation, le système SPIP rejette les fichiers-images d'une) Tj ET Q
+q 0.000 g BT 73.70 199.68 Td (taille supérieure à 256ko.) Tj ET Q
+q 0.000 g BT 73.70 185.50 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 171.33 Td (Veillez donc à ne pas dépasser 256ko ! Veillez également à ce que le nom de vos fichiers ait une) Tj ET Q
+q 0.000 g BT 73.70 157.16 Td (terminaison indiquant le format de l'image :.gif, .jpg ou .png.) Tj ET Q
+q 0.000 g BT 73.70 142.98 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 128.81 Td (En ce qui concerne l'installation des images sur le serveur : ) Tj ET Q
+q 0.000 g BT 73.70 114.64 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 100.46 Td (Avant de pouvoir insérer vos images à l'intérieur du texte, il faut bien entendu installer ces images) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F5 8.00 Tf ET
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 4/6) Tj ET Q
+
+endstream
+endobj
+11 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 12 0 R>>
+endobj
+12 0 obj
+<</Length 8901>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 73.70 819.05 Td (Utilisation de SPIP par les auteurs) Tj ET Q
+q 0.000 g BT 73.70 794.95 Td (sur le serveur. Cela se fait, dans SPIP, par l'interface graphique.) Tj ET Q
+q 0.000 g BT 73.70 780.78 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 766.61 Td (Lorsque vous « modifiez » un article, la colonne de gauche vous propose une interface intitulée :) Tj ET Q
+q 0.000 g BT 73.70 752.43 Td (« télécharger une nouvelle image ». Cela se présente sous la forme d'un champ suivi d'un bouton) Tj ET Q
+q 0.000 g BT 73.70 738.26 Td (intitulé \(selon la version\) « browser », « selectionner », « file », « fichier »,...) Tj ET Q
+q 0.000 g BT 73.70 724.09 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 709.91 Td (Une fois cette étape réalisée, cliquez sur le bouton intitulé « télécharger ». Si l'opération a réussi,) Tj ET Q
+q 0.000 g BT 73.70 695.74 Td (votre image apparaît dans la colonne de gauche, complétée de plusieurs indications :) Tj ET Q
+q 0.000 g BT 79.04 667.39 Td (•) Tj ET Q
+q 0.000 g BT 93.54 667.39 Td ( Taille de l'image : juste au-dessus de l'image, la largeur et la hauteur de votre image \(en pixels) Tj ET Q
+q 0.000 g BT 93.54 653.22 Td (ou « points »\) sont rappelées.) Tj ET Q
+q 0.000 g BT 79.04 639.05 Td (•) Tj ET Q
+q 0.000 g BT 93.54 639.05 Td ( Affichage sous forme de vignette : afin de préserver l'affichage de l'interface de SPIP ; les) Tj ET Q
+q 0.000 g BT 93.54 624.87 Td (images d'une largeur supérieure à 200 pixels \(200 « points »\) sont affichées ; dans la partie) Tj ET Q
+q 0.000 g BT 93.54 610.70 Td (/ecrire/ du site, sous forme de vignette. Lors de l'affichage sur le site public, en revanche, elles) Tj ET Q
+q 0.000 g BT 93.54 596.53 Td (seront affichées à leur taille réelle.) Tj ET Q
+q 0.000 g BT 79.04 582.35 Td (•) Tj ET Q
+q 0.000 g BT 93.54 582.35 Td ( Raccourcis SPIP : voir tableau récapitulatif des règles typographiques de SPIP.) Tj ET Q
+q 0.000 g BT 79.04 568.18 Td (•) Tj ET Q
+q 0.000 g BT 93.54 568.18 Td ( Effacer : un bouton « effacer » vous permet de supprimer une image. ) Tj ET Q
+q 0.000 g BT 73.70 539.83 Td (Remarque : un article peut contenir autant d'images que nécessaire.) Tj ET Q
+q 0.000 g BT 73.70 525.66 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 511.49 Td (Les fichiers graphiques sont stockés sur le serveur dans le dossier /IMG ; notez que les fichiers sont) Tj ET Q
+q 0.000 g BT 73.70 497.32 Td (renommés par SPIP.) Tj ET Q
+q 0.000 g BT 73.70 483.14 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 468.97 Td (En ce qui concerne insertion d'une image à l'intérieur du texte : ) Tj ET Q
+q 0.000 g BT 73.70 454.80 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 440.62 Td (A ce stade, les fichiers graphiques sont bien présents sur le serveur, mais il reste à indiquer à quel) Tj ET Q
+q 0.000 g BT 73.70 426.45 Td (endroit de votre texte vous voulez les insérer. Pour cela, inutile de faire du HTML, SPIP vous) Tj ET Q
+q 0.000 g BT 73.70 412.28 Td (propose un raccourci permettant d'insérer votre image simplement.) Tj ET Q
+q 0.000 g BT 73.70 398.10 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 383.93 Td (Copiez \(CTRL + C\) l'un des raccourcis proposés dans le tableau ci-dessous, et recopiez-le \(CTRL +) Tj ET Q
+q 0.000 g BT 73.70 369.76 Td (V\) à l'intérieur de la case « texte », là où vous désirez placer votre photo :) Tj ET Q
+q 0.000 g BT 79.04 341.41 Td (•) Tj ET Q
+q 0.000 g BT 93.54 341.41 Td ( « left » aligne l'image à gauche.) Tj ET Q
+q 0.000 g BT 79.04 327.24 Td (•) Tj ET Q
+q 0.000 g BT 93.54 327.24 Td ( « right » aligne l'image à droite.) Tj ET Q
+q 0.000 g BT 79.04 313.06 Td (•) Tj ET Q
+q 0.000 g BT 93.54 313.06 Td ( « center » place l'image au centre du texte. ) Tj ET Q
+BT /F6 14.00 Tf ET
+q 0.000 g BT 73.70 255.17 Td (Tableau récapitulatif des règles typographiques du système SPIP.) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 242.20 Td (  ) Tj ET Q
+q 0.000 g BT 73.70 228.02 Td (Ce tableau rappelle brièvement les méthodes à utiliser pendant l'écriture d'un article pour ajouter des) Tj ET Q
+q 0.000 g BT 73.70 213.85 Td (titres, du texte en gras, en italique,...sans avoir à connaître le langage HTML.) Tj ET Q
+q 0.000 g BT 73.70 199.68 Td ( ) Tj ET Q
+q 0.000 g BT 76.48 199.68 Td ( ) Tj ET Q
+q 0.000 g BT 79.26 199.68 Td ( 					) Tj ET Q
+q 0.000 g BT 95.94 199.68 Td ( ) Tj ET Q
+q 0.000 g BT 98.72 199.68 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+BT /F1 10.00 Tf ET
+q 0.000 g BT 101.50 199.68 Td ( ) Tj ET Q
+q 0.000 g BT 104.28 199.68 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+BT /F1 10.00 Tf ET
+q 0.000 g BT 107.06 199.68 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+BT /F1 10.00 Tf ET
+q 0.000 g BT 109.84 199.68 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 185.50 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+BT /F1 10.00 Tf ET
+q 0.000 g BT 76.48 185.50 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+BT /F1 10.00 Tf ET
+q 0.000 g BT 79.26 185.50 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+BT /F1 10.00 Tf ET
+q 0.000 g BT 82.04 185.50 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+BT /F1 10.00 Tf ET
+q 0.000 g BT 84.82 185.50 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+BT /F1 10.00 Tf ET
+BT /F2 8.00 Tf ET
+BT /F1 10.00 Tf ET
+q 0.000 g BT 87.60 185.50 Td ( ) Tj ET Q
+q 0.000 g BT 90.38 185.50 Td ( ) Tj ET Q
+BT /F1 9.00 Tf ET
+BT /F6 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F6 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F6 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F6 8.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F6 8.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F6 8.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F1 7.00 Tf ET
+BT /F6 7.00 Tf ET
+BT /F1 7.00 Tf ET
+BT /F6 7.00 Tf ET
+BT /F1 7.00 Tf ET
+BT /F6 7.00 Tf ET
+BT /F1 7.00 Tf ET
+BT /F1 6.00 Tf ET
+BT /F6 6.00 Tf ET
+BT /F1 6.00 Tf ET
+BT /F6 6.00 Tf ET
+BT /F1 6.00 Tf ET
+BT /F6 6.00 Tf ET
+BT /F1 6.00 Tf ET
+BT /F1 5.00 Tf ET
+BT /F6 5.00 Tf ET
+BT /F1 5.00 Tf ET
+BT /F6 5.00 Tf ET
+BT /F1 5.00 Tf ET
+BT /F6 5.00 Tf ET
+BT /F1 5.00 Tf ET
+BT /F1 4.00 Tf ET
+BT /F6 4.00 Tf ET
+BT /F1 4.00 Tf ET
+BT /F6 4.00 Tf ET
+BT /F1 4.00 Tf ET
+BT /F6 4.00 Tf ET
+BT /F1 4.00 Tf ET
+BT /F1 3.00 Tf ET
+BT /F6 3.00 Tf ET
+BT /F1 3.00 Tf ET
+BT /F6 3.00 Tf ET
+BT /F1 3.00 Tf ET
+BT /F6 3.00 Tf ET
+BT /F1 3.00 Tf ET
+BT /F1 2.00 Tf ET
+BT /F6 2.00 Tf ET
+BT /F1 2.00 Tf ET
+BT /F6 2.00 Tf ET
+BT /F1 2.00 Tf ET
+BT /F6 2.00 Tf ET
+BT /F1 2.00 Tf ET
+BT /F6 2.00 Tf ET
+1.000 1.000 0.000 rg
+128.52 195.59 39.85 -14.17 re B q 0.000 g BT 131.35 187.90 Td ( Fonctionnalités ) Tj ET Q
+BT /F1 2.00 Tf ET
+1.000 g
+BT /F6 2.00 Tf ET
+1.000 1.000 0.000 rg
+168.37 195.59 44.96 -14.17 re B q 0.000 g BT 171.20 187.90 Td ( Méthodes ) Tj ET Q
+BT /F1 2.00 Tf ET
+1.000 g
+BT /F6 2.00 Tf ET
+1.000 1.000 0.000 rg
+213.33 195.59 253.44 -14.17 re B q 0.000 g BT 216.16 187.90 Td ( Commentaires ) Tj ET Q
+BT /F1 2.00 Tf ET
+1.000 g
+0.902 0.902 0.902 rg
+128.52 181.42 39.85 -14.17 re B q 0.000 g BT 131.35 173.73 Td ( Intertitre ) Tj ET Q
+168.37 181.42 44.96 -14.17 re B q 0.000 g BT 171.20 173.73 Td ( {{{texte}}} ) Tj ET Q
+213.33 181.42 253.44 -14.17 re B q 0.000 g BT 216.16 173.73 Td ( Le texte entre triples accolades est affiché comme un titre.) Tj ET Q
+128.52 167.24 39.85 -14.17 re S q 0.000 g BT 131.35 159.56 Td ( Changement de paragraphe ) Tj ET Q
+168.37 167.24 44.96 -14.17 re S q 0.000 g BT 171.20 159.56 Td ( Passer une ligne.) Tj ET Q
+213.33 167.24 253.44 -14.17 re S q 0.000 g BT 216.16 159.56 Td ( ) Tj ET Q
+0.902 0.902 0.902 rg
+128.52 153.07 39.85 -14.17 re B q 0.000 g BT 131.35 145.38 Td ( Caractères en gras / texte en gras ) Tj ET Q
+168.37 153.07 44.96 -14.17 re B q 0.000 g BT 171.20 145.38 Td ( {{texte}} ) Tj ET Q
+213.33 153.07 253.44 -14.17 re B q 0.000 g BT 216.16 145.38 Td ( Le texte entre double accolades apparaîtra en gras. ) Tj ET Q
+128.52 138.90 39.85 -14.17 re S q 0.000 g BT 131.35 131.21 Td ( Caractères en italique ) Tj ET Q
+168.37 138.90 44.96 -14.17 re S q 0.000 g BT 171.20 131.21 Td ( {texte} ) Tj ET Q
+213.33 138.90 253.44 -14.17 re S q 0.000 g BT 216.16 131.21 Td ( Le texte entre simples accolades est affiché en italique. Astuce : pour avoir du texte en gras et en italique, mettre trois accolades en insérant un espace \(pour faire 1+2\), et en respectant la symétrie. ) Tj ET Q
+0.902 0.902 0.902 rg
+128.52 124.72 39.85 -14.17 re B q 0.000 g BT 131.35 117.04 Td ( Listes à puces ) Tj ET Q
+168.37 124.72 44.96 -14.17 re B q 0.000 g BT 171.20 117.04 Td (-* premier élément  -* deuxième élément) Tj ET Q
+213.33 124.72 253.44 -14.17 re B q 0.000 g BT 216.16 117.04 Td ( Le trait sera automatiquement remplacé par une puce, telles qu'elle est définie dans la charte graphique. ) Tj ET Q
+128.52 110.55 39.85 -14.17 re S q 0.000 g BT 131.35 102.86 Td ( Traits de séparation ) Tj ET Q
+168.37 110.55 44.96 -14.17 re S q 0.000 g BT 171.20 102.86 Td ( ---- ) Tj ET Q
+213.33 110.55 253.44 -14.17 re S q 0.000 g BT 216.16 102.86 Td ( Entrer une ligne contenant quatre petits traits. ) Tj ET Q
+0.902 0.902 0.902 rg
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F5 8.00 Tf ET
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 5/6) Tj ET Q
+
+endstream
+endobj
+13 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 14 0 R>>
+endobj
+14 0 obj
+<</Length 2747>>
+stream
+2 J
+0.85 w
+BT /F1 2.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (Utilisation de SPIP par les auteurs) Tj ET Q
+BT /F1 2.00 Tf ET
+128.52 805.04 39.85 -14.17 re B q 0.000 g BT 131.35 797.35 Td ( Lien hypertexte ) Tj ET Q
+168.37 805.04 44.96 -14.17 re B q 0.000 g BT 171.20 797.35 Td ( [texte->http://lien] ) Tj ET Q
+213.33 805.04 253.44 -14.17 re B q 0.000 g BT 216.16 797.35 Td ( Mettre le texte et l'URL entre crochets, séparé par une flèche \(->\). Le texte devient une zone cliquable, et renverra le lecteur sur la page web indiqué par une « URL ». ) Tj ET Q
+128.52 790.87 39.85 -14.17 re S q 0.000 g BT 131.35 783.18 Td ( Lien hypertexte vers un article ) Tj ET Q
+168.37 790.87 44.96 -14.17 re S q 0.000 g BT 171.20 783.18 Td ( [texte->artXX] ) Tj ET Q
+213.33 790.87 253.44 -14.17 re S q 0.000 g BT 216.16 783.18 Td ( Pour renvoyer vers un article du site, il suffit de donner le numéro de l'article précédé de "art" \(ou de "rub" pour une rubrique\). ) Tj ET Q
+0.902 0.902 0.902 rg
+128.52 776.69 39.85 -14.17 re B q 0.000 g BT 131.35 769.01 Td ( Note de bas de page automatique ) Tj ET Q
+168.37 776.69 44.96 -14.17 re B q 0.000 g BT 171.20 769.01 Td ( [[la note]] ) Tj ET Q
+213.33 776.69 253.44 -14.17 re B q 0.000 g BT 216.16 769.01 Td ( Le texte entre double crochets droits apparaîtra en bas de la page, et sera remplacé par un numéro généré automatiquement. ) Tj ET Q
+128.52 762.52 39.85 -14.17 re S q 0.000 g BT 131.35 754.83 Td ( Faire un tableau simple ) Tj ET Q
+168.37 762.52 44.96 -14.17 re S q 0.000 g BT 171.20 754.83 Td (  |aaa|bbb|ccc| |xxx|yyy|zzz|  ) Tj ET Q
+213.33 762.52 253.44 -14.17 re S q 0.000 g BT 216.16 754.83 Td ( Pour faire un tableau simple, il suffit de séparer les colonnes par la barre verticale. Cette méthode autorise uniquement des cellules d'une seule ligne, sinon vous devez encadrer votre texte multiligne de balises . Pur faire des tableaux plus complexes, utiliser le langage HTML. ) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 738.26 Td ( ) Tj ET Q
+BT /F6 14.00 Tf ET
+q 0.000 g BT 70.87 694.54 Td (Mise en page complexe) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 681.57 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 667.39 Td (Toute mise en page plus complexe doit être réalisée par l'inclusion de tag HTML.) Tj ET Q
+q 0.000 g BT 70.87 653.22 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 639.05 Td (Veillez cependant à ne pas surcharger inutilement votre article...) Tj ET Q
+q 0.000 g BT 70.87 624.87 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 610.70 Td (Bonne rédaction !) Tj ET Q
+BT /F5 8.00 Tf ET
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 6/6) Tj ET Q
+
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R 7 0 R 9 0 R 11 0 R 13 0 R ]
+/Count 6
+/MediaBox [0 0 595.28 841.89]
+>>
+endobj
+15 0 obj
+<</Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+16 0 obj
+<</Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+17 0 obj
+<</Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+18 0 obj
+<</Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+19 0 obj
+<</Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+20 0 obj
+<</Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 15 0 R
+/F2 16 0 R
+/F3 17 0 R
+/F4 18 0 R
+/F5 19 0 R
+/F6 20 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+21 0 obj
+<<
+/Producer (FPDF 1.53)
+/Title (Utilisation de SPIP par les auteurs)
+/Subject (Articles)
+/Author (REBOLtof)
+/Creator (The REBOL Documentation Project)
+/CreationDate (D:20051221010215)
+>>
+endobj
+22 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 23
+0000000000 65535 f 
+0000028615 00000 n 
+0000029330 00000 n 
+0000000009 00000 n 
+0000000222 00000 n 
+0000001357 00000 n 
+0000002266 00000 n 
+0000007134 00000 n 
+0000007347 00000 n 
+0000011811 00000 n 
+0000012025 00000 n 
+0000016435 00000 n 
+0000016650 00000 n 
+0000025602 00000 n 
+0000025817 00000 n 
+0000028734 00000 n 
+0000028831 00000 n 
+0000028926 00000 n 
+0000029024 00000 n 
+0000029123 00000 n 
+0000029228 00000 n 
+0000029490 00000 n 
+0000029694 00000 n 
+trailer
+<<
+/Size 23
+/Root 22 0 R
+/Info 21 0 R
+>>
+startxref
+29798
+%%EOF

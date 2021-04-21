@@ -1,0 +1,356 @@
+%PDF-1.3
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 4 0 R>>
+endobj
+4 0 obj
+<</Length 1487>>
+stream
+2 J
+0.57 w
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (Utilisation des Layouts dans REBOL/View ) Tj ET Q
+0.57 w
+BT /F2 26.00 Tf ET
+q 0.502 g BT 118.24 656.92 Td (The REBOL Documentation) Tj ET Q
+q 0.502 g BT 243.04 631.41 Td (Project) Tj ET Q
+BT /F1 8.00 Tf ET
+q 0.502 g BT 201.17 616.97 Td (-- FR - Documentation REBOL - Articles Techniques --) Tj ET Q
+0.85 w
+BT /F2 20.00 Tf ET
+q 0.502 g BT 73.70 423.45 Td (Articles) Tj ET Q
+q 0.502 g BT 73.70 397.94 Td (Techniques) Tj ET Q
+BT /F3 22.00 Tf ET
+297.64 411.02 m 297.64 388.35 l S q 0.000 g BT 300.47 393.09 Td (Utilisation des Layouts) Tj ET Q
+297.64 388.35 m 297.64 365.67 l S q 0.000 g BT 300.47 370.41 Td (dans REBOL/View ) Tj ET Q
+297.64 365.67 m 297.64 342.99 l S 
+BT /F4 16.00 Tf ET
+297.64 342.99 m 297.64 325.98 l S q 0.000 g BT 409.15 329.69 Td (Philippe Le Goff ) Tj ET Q
+BT /F4 12.00 Tf ET
+297.64 325.98 m 297.64 308.98 l S q 0.000 g BT 301.92 313.88 Td (Première publication : 20 juin 2006, et mis en) Tj ET Q
+297.64 308.98 m 297.64 291.97 l S q 0.000 g BT 392.24 296.87 Td (ligne le  jeudi 22 juin 2006) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 73.70 228.02 Td (Résumé :) Tj ET 73.70 227.02 45.01 -0.50 re f Q
+BT /F4 8.00 Tf ET
+q 0.000 g BT 73.70 214.45 Td (De l'usage des layouts dans REBOL/View) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 1/4) Tj ET Q
+
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 6 0 R>>
+endobj
+6 0 obj
+<</Length 4600>>
+stream
+2 J
+0.85 w
+BT /F4 8.00 Tf ET
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (Utilisation des Layouts dans REBOL/View ) Tj ET Q
+BT /F4 8.00 Tf ET
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 780.78 Td ( ) Tj ET Q
+q 0.000 g BT 76.48 780.78 Td (Utilisation des Layouts dans REBOL/View) Tj ET Q
+q 0.000 g BT 73.70 766.61 Td ( ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 73.70 752.43 Td ( Auteur : Carl Read, traduit avec son autorisation.) Tj ET Q
+q 0.000 g BT 73.70 738.26 Td (  Date Création : April 02, 2005, 08:50:55 PM) Tj ET Q
+q 0.000 g BT 73.70 724.09 Td (  Version : 1.0.0) Tj ET Q
+q 0.000 g BT 73.70 709.91 Td ( ) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 695.74 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 681.57 Td (Ouvrir une fenêtre avec une interface symphatique est très simple à réaliser avec View,  mais les) Tj ET Q
+q 0.000 g BT 73.70 667.39 Td (nouveaux utilisateurs peuvent être surpris, lorsqu'ils souhaitent en ouvrir plus d'une.) Tj ET Q
+q 0.000 g BT 73.70 653.22 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 639.05 Td (Pour illustrer cela, considérez ce petit script ...) Tj ET Q
+q 0.000 g BT 73.70 624.87 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 610.70 Td ( 	rebol []) Tj ET Q
+q 0.000 g BT 73.70 596.53 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 582.35 Td (	view/title layout [ 	 button "New Window" [ 		 view/new/title layout [ 			 box blue "Window 2" 		 ]) Tj ET Q
+q 0.000 g BT 73.70 568.18 Td ("Window 2" 	 ] 	 button "Quit" [unview/all] 	] "Main") Tj ET Q
+q 0.000 g BT 73.70 554.01 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 525.66 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 511.49 Td (\(Note : La manière la plus rapide d'utiliser ces exemples est de les copier-coller dans une console) Tj ET Q
+q 0.000 g BT 73.70 497.32 Td (View.\)) Tj ET Q
+q 0.000 g BT 73.70 483.14 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 468.97 Td (Avec ce code, vous pouvez ouvrir une deuxième fenêtre simplement en cliquant sur le bouton "New) Tj ET Q
+q 0.000 g BT 73.70 454.80 Td (Window", dans la  fenêtre principale \(Main\). Il y a un piège cependant, car si vous déplacez votre) Tj ET Q
+q 0.000 g BT 73.70 440.62 Td (fenêtre "Window2" placée au-dessus  de la fenêtre principale, et que vous cliquez à nouveau sur le) Tj ET Q
+q 0.000 g BT 73.70 426.45 Td (bouton "New Window", une troisième fenêtre apparaitra,  également appelé "Window 2", etc. Ce) Tj ET Q
+q 0.000 g BT 73.70 412.28 Td (n'est pas ce que vous vouliez !!) Tj ET Q
+q 0.000 g BT 73.70 398.10 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 383.93 Td (For heureusement, il y a une façon simple de contourner ce probléme - juste en créant un layout fixe,) Tj ET Q
+q 0.000 g BT 73.70 369.76 Td (et en  utilisant ensuite ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 173.20 369.76 Td (view/new) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 217.11 369.76 Td (. Par exemple :) Tj ET Q
+q 0.000 g BT 73.70 355.58 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 341.41 Td ( 	rebol []) Tj ET Q
+q 0.000 g BT 73.70 327.24 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 313.06 Td (	win2 : layout [ 	 box blue "Window 2" 	]) Tj ET Q
+q 0.000 g BT 73.70 298.89 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 284.72 Td (	view/title layout [ 	 button "New Window" [ 		 view/new/title win2 "Window 2" 	 ] 	 button "Quit") Tj ET Q
+q 0.000 g BT 73.70 270.54 Td ([unview/all] 	] "Main") Tj ET Q
+q 0.000 g BT 73.70 256.37 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 228.02 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 213.85 Td (A présent, après avoir ouvert la fenêtre "Window 2", vous constaterez que vous ne pourrez  plus) Tj ET Q
+q 0.000 g BT 73.70 199.68 Td (ouvrir plusieurs fenêtres identiques.  Cette façon de faire a aussi un petit "plus" : si vous fermez la) Tj ET Q
+q 0.000 g BT 73.70 185.50 Td (fenêtre et que vous l'ouvrez à nouveau, elle  apparaîtra à la même place dans l'écran que là où elle) Tj ET Q
+q 0.000 g BT 73.70 171.33 Td (se trouvait auparavant,  ce dont vos utilisateurs vous remercieront grandement.) Tj ET Q
+q 0.000 g BT 73.70 157.16 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 142.98 Td (C'est une excellente méthodologie que de gérer des fenêtres uniques dans votre programme.) Tj ET Q
+q 0.000 g BT 73.70 128.81 Td (Cependant, il y aura des moments où vous voudrez ouvrir un nombre  quelconque de fenêtres toutes) Tj ET Q
+q 0.000 g BT 73.70 114.64 Td (plus ou moins identiques - comme celles affichant des images dans un  programme de dessin, par) Tj ET Q
+q 0.000 g BT 73.70 100.46 Td (exemple.  Est-ce que notre premier script est Ok pour cela ? Voyons voir ...) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 2/4) Tj ET Q
+
+endstream
+endobj
+7 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 8 0 R>>
+endobj
+8 0 obj
+<</Length 5424>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 73.70 819.05 Td (Utilisation des Layouts dans REBOL/View ) Tj ET Q
+q 0.000 g BT 73.70 794.95 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 780.78 Td ( 	rebol []) Tj ET Q
+q 0.000 g BT 73.70 766.61 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 752.43 Td (	view/title layout [ 	 button "New Window" [ 		 view/new/title layout [ 			 b : box blue "A Box" 			 button) Tj ET Q
+q 0.000 g BT 73.70 738.26 Td ("Change !" [ 				 b/color : random 255.255.255 				 show b 			 ] 		 ] "A Box" 	 ] 	 button "Quit" [unview/all]) Tj ET Q
+q 0.000 g BT 73.70 724.09 Td (	] "Main") Tj ET Q
+q 0.000 g BT 73.70 709.91 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 681.57 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 667.39 Td (Exécutez ce code et vous constaterez que vous pouvez ouvrir un nombre quelconque de fenêtre) Tj ET Q
+q 0.000 g BT 73.70 653.22 Td (avec  une boîte dedans, mais si vous cliquez sur le bouton "Change !", pour modifier aléatoirement la) Tj ET Q
+q 0.000 g BT 73.70 639.05 Td (couleur de la  boîte, vous remarquerez que c'est dans la ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 325.18 639.05 Td (dernière fenêtre ouverte) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 431.90 639.05 Td ( que s'effectuent les) Tj ET Q
+q 0.000 g BT 73.70 624.87 Td (changements.  C'est parce que le mot ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 244.58 624.87 Td (B) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 251.80 624.87 Td ( est global et donc peut uniquement faire référence à une) Tj ET Q
+q 0.000 g BT 73.70 610.70 Td (boîte \(box\) à la fois -  la dernière ouverte.) Tj ET Q
+q 0.000 g BT 73.70 596.53 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 582.35 Td (Une fois encore, il y a une solution de contournement à notre problème \(et, plus exactement,) Tj ET Q
+q 0.000 g BT 73.70 568.18 Td (plusieurs solutions\), bien qu'il ne soit quand même pas aussi facile de résoudre ceci que d'empêcher) Tj ET Q
+q 0.000 g BT 73.70 554.01 Td (des fenêtres multiples de s'ouvrir.  Nous résoudrons ce probléme en utilisant le mot VAR contenu) Tj ET Q
+q 0.000 g BT 73.70 539.83 Td (dans les attributs des faces, VAR permettant aux mots  \(tel que B dans notre boîte\) d'être utilisés) Tj ET Q
+q 0.000 g BT 73.70 525.66 Td (comme des références dans les layouts.) Tj ET Q
+q 0.000 g BT 73.70 511.49 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 497.32 Td (Un layout \(qui est juste un objet REBOL standard\) possède un bloc PANE qui contient toutes les ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 73.70 483.14 Td (sous-faces) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 122.05 483.14 Td (  présentes dans le layout, tels que les boîtes et les boutons utilisés dans les exemples) Tj ET Q
+q 0.000 g BT 73.70 468.97 Td (précédents.  Ceci permet de rechercher dans un layout une face référencée par un mot spécifique et) Tj ET Q
+q 0.000 g BT 73.70 454.80 Td (c'est ce que fera  la fonction GET-PANE dans notre prochain exemple.) Tj ET Q
+q 0.000 g BT 73.70 440.62 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 426.45 Td (Voici résolu, mais à moitié seulement, le probléme, car nous avons encore besoin de trouver le) Tj ET Q
+q 0.000 g BT 73.70 412.28 Td (layout avec  lequel travailler \(celui qui a le bouton sur lequel nous allons cliquer\), pour pouvoir) Tj ET Q
+q 0.000 g BT 73.70 398.10 Td (appeler cette fonction GET-PANE. Ceci semble raisonnablement facile, le mot FACE référençant le) Tj ET Q
+q 0.000 g BT 73.70 383.93 Td (bouton et FACE/PARENT-FACE référençant le layout qui  le contient.) Tj ET Q
+q 0.000 g BT 73.70 369.76 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 355.58 Td (Ce point étant résolu, nous pouvons utiliser les syntaxes : GET IN face word \(dans lequel "word" est) Tj ET Q
+q 0.000 g BT 73.70 341.41 Td ('text, ou 'color, etc...\) pour  accéder à la valeur du mot \(comme avec B/color\), et : SET IN face word ,) Tj ET Q
+q 0.000 g BT 73.70 327.24 Td (pour modifier une valeur.  C'est plus long que d'utiliser juste B/text ou B/color, mais cela permet) Tj ET Q
+q 0.000 g BT 73.70 313.06 Td (d'utiliser les mêmes références dans des fenêtres  multiples, et c'est bien là une chose symphatique) Tj ET Q
+q 0.000 g BT 73.70 298.89 Td (que nous pouvons faire.) Tj ET Q
+q 0.000 g BT 73.70 284.72 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 270.54 Td (Et voici, une illustration de tout cela ...) Tj ET Q
+q 0.000 g BT 73.70 256.37 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 242.20 Td ( 	rebol []) Tj ET Q
+q 0.000 g BT 73.70 228.02 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 213.85 Td (	get-pane : func [face [object !] word [word !]][ 	 foreach pane face/pane [if pane/var = word [return) Tj ET Q
+q 0.000 g BT 73.70 199.68 Td (pane]] 	 make error ! rejoin ["Word '" word " not found in layout !"] 	]) Tj ET Q
+q 0.000 g BT 73.70 185.50 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 171.33 Td (	view/title layout [ 	 button "New Window" [ 		 view/new/title layout [ 			 b : box blue "A Box" 			 button) Tj ET Q
+q 0.000 g BT 73.70 157.16 Td ("Change !" [ 				 set in get-pane face/parent-face 'b 'color random 255.255.255 				 show get-pane) Tj ET Q
+q 0.000 g BT 73.70 142.98 Td (face/parent-face 'b 			 ] 			 button "Print Color" [ 				 print get in get-pane face/parent-face 'b 'color 			 ] 		) Tj ET Q
+q 0.000 g BT 73.70 128.81 Td (] "A Box" 	 ] 	 button "Quit" [unview/all] 	] "Main") Tj ET Q
+q 0.000 g BT 73.70 114.64 Td ( ) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 3/4) Tj ET Q
+
+endstream
+endobj
+9 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 10 0 R>>
+endobj
+10 0 obj
+<</Length 878>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 73.70 819.05 Td (Utilisation des Layouts dans REBOL/View ) Tj ET Q
+q 0.000 g BT 73.70 794.95 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 780.78 Td (Ceci pourrait encore être simplifié un petit peu en écrivant des fonctions dédiées pour manipuler ) Tj ET Q
+q 0.000 g BT 73.70 766.61 Td (SET, GET et SHOW - c'est probablement le mieux à faire.) Tj ET Q
+q 0.000 g BT 73.70 752.43 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 738.26 Td (Vos commentaires ou questions sont les bienvenues.) Tj ET Q
+q 0.000 g BT 73.70 724.09 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 709.91 Td (\(Traduction : Philippe Le Goff, avec l'autorisation de carl Read\).) Tj ET Q
+BT /F6 8.00 Tf ET
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 4/4) Tj ET Q
+
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R 7 0 R 9 0 R ]
+/Count 4
+/MediaBox [0 0 595.28 841.89]
+>>
+endobj
+11 0 obj
+<</Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+12 0 obj
+<</Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+13 0 obj
+<</Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+14 0 obj
+<</Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+15 0 obj
+<</Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+16 0 obj
+<</Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 11 0 R
+/F2 12 0 R
+/F3 13 0 R
+/F4 14 0 R
+/F5 15 0 R
+/F6 16 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+17 0 obj
+<<
+/Producer (FPDF 1.53)
+/Title (Utilisation des Layouts dans REBOL/View )
+/Subject (Articles Techniques)
+/Author (Philippe Le Goff )
+/Keywords (DOCUMENTATION)
+/Creator (The REBOL Documentation Project)
+/CreationDate (D:20060625202526)
+>>
+endobj
+18 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 19
+0000000000 65535 f 
+0000013451 00000 n 
+0000014152 00000 n 
+0000000009 00000 n 
+0000000222 00000 n 
+0000001759 00000 n 
+0000001972 00000 n 
+0000006622 00000 n 
+0000006835 00000 n 
+0000012309 00000 n 
+0000012523 00000 n 
+0000013556 00000 n 
+0000013653 00000 n 
+0000013748 00000 n 
+0000013846 00000 n 
+0000013945 00000 n 
+0000014047 00000 n 
+0000014312 00000 n 
+0000014567 00000 n 
+trailer
+<<
+/Size 19
+/Root 18 0 R
+/Info 17 0 R
+>>
+startxref
+14671
+%%EOF

@@ -1,0 +1,1741 @@
+<html>
+<head>
+<title>Introduction à View</title>
+<meta http-equiv="content-type" content="text/html;charset=iso-8859-15">
+<meta name="keywords" content="rebol, rebel, distributed computing, x internet, x-internet, xnet, executable internet, distributed applications, distributed platform, internet platform, internet programming, client-side computing, distributed desktop, platform independent, system independent, machine independent, operating system, programming language, scripting language, scripting, messaging, dialect, dialecting, e-content, direct internet delivery, command">
+<meta name="description" content="rebol technologies provides advanced, system-independent communication technology for the x internet.">
+<link rel="stylesheet" href="./style-perso-PLG-MD2.css" type="text/css">
+</head>
+<body>
+<script language="javascript1.2" src="../lib/menus.txt"></script>
+<script language="javascript1.2" src="../lib/menu_param_rebol.js"></script>
+<br />
+<br />
+<hr />
+
+<div class="body" width="660" >
+<p><h1 class="title" >Introduction à View</h1>
+<div class="header"><strong>
+Ce document a pour objet de présenter quelques notions fondamentales pour comprendre Rebol/View.<BR>Il se présente comme une compilation de notes personnelles, traductions d'informations de la ML Rebol.<BR>Différents chapîtres formant une progression permettent au lecteur d'aborder des points clés <BR>sur VID, 'face, la gestion des événements.<BR>Ce document nécessite au minimum d'avoir des bases en programmation avec Rebol/View.<BR><BR>Auteur:   Philippe Le Goff<BR>Version : 1.0.0<BR>Date :    15/03/2005 22:10
+</strong></div>
+
+<hr />
+
+
+<h2 class="toc-title" >Contenu :</h2>
+<a class=toc1 href="#section-1">1. Historique</a><br>
+<a class=toc1 href="#section-2">2. Introduction</a><br>
+<a class=toc2 href="#section-2.1">2.1 Sites Web et Scripts utiles</a><br>
+<a class=toc2 href="#section-2.2">2.2 Convention</a><br>
+<a class=toc2 href="#section-2.3">2.3 Vocabulaire</a><br>
+<a class=toc1 href="#section-3">3. Notions générales</a><br>
+<a class=toc1 href="#section-4">4. Deux façons de créer une interface</a><br>
+<a class=toc1 href="#section-5">5. Le VID, Visual Interface Dialect</a><br>
+<a class=toc2 href="#section-5.1">5.1 Bloc de mots-clés VID</a><br>
+<a class=toc2 href="#section-5.2">5.2 Etude de la fonction <strong>layout</strong></a><br>
+<a class=toc3 href="#section-5.2.1">5.2.1 Que fait-elle ?</a><br>
+<a class=toc2 href="#section-5.3">5.3 La fonction View</a><br>
+<a class=toc3 href="#section-5.3.1">5.3.1 Que fait-elle ?</a><br>
+<a class=toc3 href="#section-5.3.2">5.3.2 Que retourne-t-elle ?</a><br>
+<a class=toc3 href="#section-5.3.3">5.3.3 Ses raffinements ?</a><br>
+<a class=toc1 href="#section-6">6. Un seul objet de type Face</a><br>
+<a class=toc2 href="#section-6.1">6.1 Contenu de 'face</a><br>
+<a class=toc2 href="#section-6.2">6.2 Un objet particulier : screen-face</a><br>
+<a class=toc3 href="#section-6.2.1">6.2.1 Screen-face : un conteneur des fenêtres</a><br>
+<a class=toc3 href="#section-6.2.2">6.2.2 Screen-face et la gestion d'événements</a><br>
+<a class=toc2 href="#section-6.3">6.3 Des fenêtres particulières : request, inform et show-popup ...</a><br>
+<a class=toc3 href="#section-6.3.1">6.3.1 La fonction request</a><br>
+<a class=toc3 href="#section-6.3.2">6.3.2 La fonction inform</a><br>
+<a class=toc3 href="#section-6.3.3">6.3.3 La fonction show-popup</a><br>
+<a class=toc2 href="#section-6.4">6.4 Caractères dynamiques de certains attributs</a><br>
+<a class=toc2 href="#section-6.5">6.5 Le système de coordonnées</a><br>
+<a class=toc3 href="#section-6.5.1">6.5.1 Les fenêtres</a><br>
+<a class=toc3 href="#section-6.5.2">6.5.2 Position des composants graphiques</a><br>
+<a class=toc3 href="#section-6.5.3">6.5.3 Comment avoir la position d'un objet dans la fenêtre ?</a><br>
+<a class=toc1 href="#section-7">7. Hiérarchie entre objets graphiques</a><br>
+<a class=toc2 href="#section-7.1">7.1 Hiérarchie entre couches graphiques</a><br>
+<a class=toc3 href="#section-7.1.1">7.1.1 Aide en ligne :</a><br>
+<a class=toc1 href="#section-8">8. La gestion des événements</a><br>
+<a class=toc2 href="#section-8.1">8.1 Nature événementielle de l'interface</a><br>
+<a class=toc2 href="#section-8.2">8.2 La gestion des événements sous REBOL</a><br>
+<a class=toc2 href="#section-8.3">8.3 Quatre catégories d'interaction</a><br>
+<a class=toc2 href="#section-8.4">8.4 Trois champs d'application</a><br>
+<a class=toc2 href="#section-8.5">8.5 Evénements au niveau système</a><br>
+<a class=toc2 href="#section-8.6">8.6 Evénements au niveau des objets graphiques</a><br>
+<a class=toc2 href="#section-8.7">8.7 Le scheme 'event et les évenements traités</a><br>
+<a class=toc1 href="#section-9">9. Conclusion</a><br>
+<a class=toc2 href="#section-9.1">9.1 La séparation du code et des données</a><br>
+<a class=toc2 href="#section-9.2">9.2 L'usage de templates et/ou de feuilles de style</a><br>
+<a class=toc2 href="#section-9.3">9.3 Charte graphique</a><br>
+<a class=toc2 href="#section-9.4">9.4 L'identification et la protection des objets</a><br>
+<a class=toc2 href="#section-9.5">9.5 Documenter son code <br /></a><br>
+<a class=toc2 href="#section-9.6">9.6 Utiliser un système de gestion de version</a><br>
+<a class=toc2 href="#section-9.7">9.7 Pour la création des éléments graphiques</a><br>
+<p>
+<div class=top >[ <a href="#top">Retour sommaire</a> ]</div>
+<hr />
+
+<h2 id="section-1">1. Historique</h2>
+<blockquote>
+<center><table border="0" cellspacing="0" cellpadding="4" bgcolor=#ffffff>  
+		<tr class="header-cell" ><td ><strong>
+<p>Date</p>
+</strong></td><td><strong>
+<p>Version</p>
+</strong></td><td><strong>
+<p>Commentaires</p>
+</strong></td><td><strong>
+<p>Auteur</p>
+</strong></td><td><strong>
+<p>Email</p>
+</td></tr><tr class="td-cell" ><td>
+<p>23/12/2004 13:28</p>
+</td><td>
+<p>0.0.1</p>
+</td><td>
+<p>Version initiale et assemblages notes</p>
+</td><td>
+<p>Philippe Le Goff</p>
+</td><td>
+<p>lp--legoff--free--fr</p>
+</td></tr><tr class="td-cell" ><td>
+<p>28/02/2005 21:52</p>
+</td><td>
+<p>0.0.9</p>
+</td><td>
+<p>Version consolidée</p>
+</td><td>
+<p>Philippe Le Goff</p>
+</td><td>
+<p>lp--legoff--free--fr</p>
+</td></tr><tr class="td-cell" ><td>
+<p>15/03/2005 22:10</p>
+</td><td>
+<p>1.0.0</p>
+</td><td>
+<p>Version stabilisée</p>
+</td><td>
+<p>Philippe Le Goff</p>
+</td><td>
+<p>lp--legoff--free--fr</p>
+</td></tr></table></center><p>
+</blockquote>
+<p>
+<div class=top >[ <a href="#top">Retour sommaire</a> ]</div>
+<hr />
+
+<h2 id="section-2">2. Introduction</h2>
+<blockquote>
+<p>View repose sur Rebol/Core et lui ajoute des éléments pour :</p>
+<p>décoder des images de type jpeg, gif, bmp et png
+afficher des objets graphiques, et gérer des effets visuels
+gérer les événements (Event Handler) : position de la souris, action utilisateur (clics), touches pressées (keyboard) , temps (timer). 
+<br />
+Le gestionnaire d'événements (event handler) gére ces événements au travers d'un port, autorisant la mise en attente de l'événement, 
+sa suppression, etc...</p>
+<p>View permet donc à l'utilisateur Rebol de construire et manipuler des interfaces graphiques rapidement, 
+avec leurs événements propres.</p>
+<p><strong>NB</strong>. :<br />
+Il est fortement conseillé avant de poursuivre ce document de (re)lire les documentations concernant View, sur le site officiel, 
+ou sur <a href="http://www.codeconscious.com/">http://www.codeconscious.com/</a>  par exemple.</p>
+</blockquote>
+<p>
+<h3 id="section-2.1">2.1 Sites Web et Scripts utiles</h3>
+<blockquote>
+<p><u>Rebol Technologies</u> :</p>
+<ul>
+<li><a href="http://www.rebol.com/documents/view.html">http://www.rebol.com/documents/view.html</a></li>
+<li><a href="http://www.rebol.com/docs/view-guide.html">http://www.rebol.com/docs/view-guide.html</a></li>
+<li><a href="http://www.rebol.com/docs/draw.html">http://www.rebol.com/docs/draw.html</a></li>
+<li><a href="http://www.rebol.com/docs/draw.html">http://www.rebol.com/docs/draw.html</a></li>
+</ul>
+<p><u>Sur le site de CodeConscious</u>  (Brett Handley) :</p>
+<ul>
+<li><a href="http://www.codeconscious.com/rebol/view-overview.html">http://www.codeconscious.com/rebol/view-overview.html</a></li>
+<li><a href="http://www.codeconscious.com/rebol/view-overview.html">http://www.codeconscious.com/rebol/view-overview.html</a></li>
+<li><a href="">http://www.codeconscious.com/rebol/vid-notes.html</a></li>
+<li><a href="http://www.codeconscious.com/rebol/vid-notes.html">http://www.codeconscious.com/rebol/vid-notes.html</a></li>
+<li><a href="http://www.codeconscious.com/rebol/view-notes.html">http://www.codeconscious.com/rebol/view-notes.html</a></li>
+<li><a href="http://www.codeconscious.com/rebol/view-notes.html">http://www.codeconscious.com/rebol/view-notes.html</a></li>
+<li><a href="http://www.codeconscious.com/rebol/layout-notes.html">http://www.codeconscious.com/rebol/layout-notes.html</a></li>
+<li><a href="http://www.codeconscious.com/rebol/layout-notes.html">http://www.codeconscious.com/rebol/layout-notes.html</a></li>
+</ul>
+<p>Et sinon, <u>sur le site de RebolForces</u> :</p>
+<ul>
+<li><a href="http://www.rebolforces.com/view-faq.html">http://www.rebolforces.com/view-faq.html</a></li>
+<li><a href="http://www.rebolforces.com/view-faq.html">http://www.rebolforces.com/view-faq.html</a></li>
+</ul>
+<p>Par ailleurs, au moins deux scripts sont à connaître :</p>
+<ul>
+<li>vid-ancestry.r ou vid-hierarchy.r de Brett Handley,</li>
+<li>... et la boîte à outil de Rebol : Anamonitor.r (v. 2.0.0, de Romano Paolo Tenca) ( <a href="http://www.rebol.it/~romano/#sect1.2">http://www.rebol.it/~romano/#sect1.2</a> )</li>
+</ul>
+</blockquote>
+<p>
+<h3 id="section-2.2">2.2 Convention</h3>
+<blockquote>
+<p>Pour parler des objets de type bouton, area, etc, on utilisera le mot "widget" ou composant graphique, 
+plutôt que "style" dont le sens est multiple et ne traduit pas bien, à mon avis, la nature de ces objets.</p>
+<p>Pour parler des composants statiques ou dynamiques (méthodes) d'un objet, on parlera génériquement des "attributs"  de l'objet.</p>
+</blockquote>
+<p>
+<h3 id="section-2.3">2.3 Vocabulaire</h3>
+<blockquote>
+<center><table border="0" cellspacing="0" cellpadding="4" bgcolor=#ffffff>  
+		<tr class="header-cell" ><td ><strong>
+<p>Nom</p>
+</strong></td><td><strong>
+<p>Définition</p>
+</strong></td><td><strong>
+<p>Remarques</p>
+</td></tr><tr class="td-cell" ><td>
+<p>View</p>
+</td><td>
+<p>Fonction mezzanine, reçoit en argument un objet de type graphique et l'affiche, en assurant la gestion des évènements</p>
+</td><td>
+<p>View utilise par ailleurs un objet appelé system/view/screen-face qui "représente" l'écran.</p>
+</td></tr><tr class="td-cell" ><td>
+<p>VID</p>
+</td><td>
+<p>Visual Interface Dialect : dialecte objet Rebol (object!) qui définit notamment les régles de parsing, 
+les définitions de fonctions (comme layout) ou mots-clés pour la prise en charge d'interface graphique</p>
+</td><td>
+<p>Certains mots-clé sont définis dans le VID via l'instruction <strong>set</strong> qui les associe au contexte Global de rebol.
+C'est le cas de <strong>layout</strong> (ce qui explique qu'on n'ait pas à utiliser le <i>path : system/view/vid/layout</i> pour appeler la fonction.
+Voir aussi : svv .</p>
+</td></tr><tr class="td-cell" ><td>
+<p>Layout</p>
+</td><td>
+<p>Fonction mezzanine définie dans le VID. Elle reçoit en argument un bloc (block !) composé de mots Rebol.  
+Layout renvoie en retour un objet graphique de type 'face</p>
+</td><td>
+<p>Le bloc fournit en argument décrit l'interface via les mots-clé du VID et la fonction <strong>layout</strong> le parse selon les règles du VID.
+Layout est connue dans le contexte global des mots Rebol.</p>
+</td></tr><tr class="td-cell" ><td>
+<p>Face</p>
+</td><td>
+<p>Un objet graphique : par exemple un bouton (button, ou btn), ou champ texte</p>
+</td><td>
+<p>Il existe un objet de bas niveau de type 'Face : system/standard/face
+De ce type générique, dépendent les autres objets graphiques ('image, 'btn, 'text-area, ..) , par héritage.</p>
+</td></tr><tr class="td-cell" ><td>
+<p>Facets</p>
+</td><td>
+<p>Il s'agit des attributs de l'objet graphique : sa couleur ('color) , sa taille ('size), etc</p>
+</td><td>
+<p>Parmi les attributs d'un objet graphique, quatre sont particuliers, et sont eux-mêmes des objets :<br />
+* <i>font</i> : définit les caractéristiques de la police de caractère pouvant être associée à l'objet (la police du texte d'un bouton)
+* <i>edge</i> : définit les caractéristiques de la bordure entourant l'objet (couleur, taille, effet)
+* <i>para</i> : définit les attributs de formatage 
+* <i>feel</i> : définit les caractéristiques du comportement de l'objet en réponse aux évènements</p>
+</td></tr><tr class="td-cell" ><td>
+<p>Draw</p>
+</td><td>
+<p>Il s'agit d'un dialecte dédié au graphisme, et à l'interactivité.</p>
+</td><td>
+<p>Il est possible de générer dynamiquement le bloc qui sera parsé par Draw. 
+L'ordre des éléments est important, et dans les prochaines versions de View, 
+Draw acceptera un sous-dialecte : Shape.</p>
+</td></tr><tr class="td-cell" ><td>
+<p>svv</p>
+</td><td>
+<p>Un alias pour le chemin (path) : system/view/VID</p>
+</td><td>
+<p>Voir : probe first svv  pour avoir les attributs de l'objet VID</p>
+</td></tr><tr class="td-cell" ><td>
+<p>svvf</p>
+</td><td>
+<p>Alias pour : system/view/VID/vid-feel</p>
+</td><td>
+<p>La liste des comportement génériques associés aux objets 'face. <br />
+Un changement sur le vid-feel SENSOR impacte l'objet 'face de type SENSOR.</p>
+</td></tr><tr class="td-cell" ><td>
+<p>event</p>
+</td><td>
+<p>Un évènement</p>
+</td><td>
+<p>Les actions sur l'interface graphique sont liées aux événements qui s'y produisent. 
+Par exemple, un clic de souris sur un bouton est un évènement.<br />
+Les événements sont  définis par leur type, la position ou la nature du curseur/touche, etc.</p>
+</td></tr><tr class="td-cell" ><td>
+<p>do-events</p>
+</td><td>
+<p>Fonction mezzanine</p>
+</td><td>
+<p>Déclenche la gestion des événements.</p>
+</td></tr><tr class="td-cell" ><td>
+<p>Hiérarchie / héritage</p>
+</td><td>
+<p>Les liens pouvant exister entre un objet et un autre dérivant du premier.</p>
+</td><td>
+<p>Un objet père fournit ses attributs à un objet fils. Une modification du père peut 
+entraîner en cascade celle des fils, une modification sur les objets enfants n'entraîne pas celles du parent.</p>
+</td></tr></table></center><p>
+</blockquote>
+<p>
+<div class=top >[ <a href="#top">Retour sommaire</a> ]</div>
+<hr />
+
+<h2 id="section-3">3. Notions générales</h2>
+<blockquote>
+<p>Rebol/View rend possible la création d'interfaces graphiques de haute qualité.</p>
+<p>Quelques notions générales doivent être gardées à l'esprit :</p>
+<ul>
+<li><u>deux façons de créer des interfaces graphiques</u>
+Il existe en Rebol plusieurs façons d'atteindre le même résultat apparent, simplement avec des codes différents. 
+Rebol/View ne déroge pas à cette règle, et propose deux façons de créer des interfaces graphiques : via le dialecte VID, 
+ou via la création directe d'objets graphiques (make face).<br /> 
+Bien sûr, un mélange des genres demeure possible.</li>
+<li><u>Il n'y a qu'un seul type d'objet graphique appelé 'Face</u>.<br /> 
+Cet objet possède des attributs, les <strong>Facets</strong>, qui peuvent être : soit des attributs simples (color, size), 
+soit des attributs complexes : objets tels que 'feel (comportement), 'para (formatage), 
+'font (police de caractères), 'edge (bordure). Certains attributs peuvent être spécifiques 
+car déclarés comme tels par l'utilisateur (usage des mots 'with, 'words lors de la création d'une 'Face)</li>
+<li><u>Hiérarchie des objets / principe de conteneur/contenu</u><br /> 
+dans une interface graphique, tout comme au niveau même des objets graphiques (boutons, champs, ...) qui la constitue, 
+existe des liens hiérarchiques et de dépendances. Par exemple, le 'Face conteneur primaire est l'écran (<strong>screen-face</strong>), 
+dans lequel vont venir se positionner les différentes fenêtres de l'interface. Localement, au sein d'une fenêtre, 
+un bouton (button) peut lui aussi devenir un conteneur pour accueillir par exemple un objet de type 'box, 
+et former ainsi un bouton avec une icône. Il est donc nécessaire de bien évaluer ces dépendances.</li>
+<li><u>Les événements</u><br /> 
+la gestion de l'interface graphique repose sur l'attente d'événements : positionnement du curseur, clic sur un bouton, 
+être dessus un champ texte, etc.. 
+Les événements générés par un utilisateur sont donc "capturés" et mis dans une file d'attente pour leur traitement. 
+Il est possible de rajouter au comportement standard des comportements spécifiques (fonction insert-event-func ).</li>
+</ul>
+<p><br /><br /></p>
+<p>Ce sont ces quatre points qui vont être abordés.</p>
+<p><br /><br /></p>
+</blockquote>
+<p>
+<div class=top >[ <a href="#top">Retour sommaire</a> ]</div>
+<hr />
+
+<h2 id="section-4">4. Deux façons de créer une interface</h2>
+<blockquote>
+<p>Il y a deux façons de construire une interface graphique avec Rebol/View.</p>
+<ul>
+<li>La première consiste à utiliser le dialecte VID  avec l'usage de la fonction <strong>layout</strong>.
+Cette fonction, qui va parser selon des régles données un bloc fourni en argument, renvoie un objet graphique à afficher :</li>
+</ul>
+<pre>
+view layout [ text " Bonjour "]
+</pre>
+<ul>
+<li>La seconde est de créer directement les objets graphiques en utilisant la fonction <strong>make</strong> :</li>
+</ul>
+<pre>
+view make face [ text : " Bonjour "]
+</pre>
+<p>appliquée sur le prototype 'face (défini dans system/standard).</p>
+<p>Le tableau suivant montre les différences entre les deux approches :</p>
+<center><table border="0" cellspacing="0" cellpadding="4" bgcolor=#ffffff>  
+		<tr class="header-cell" ><td ><strong>
+<p>Usage du  Dialecte VID</p>
+</strong></td><td><strong>
+<p>Création directe des Objets Graphiques</p>
+</td></tr><tr class="td-cell" ><td>
+<p>Usage de la fonction layout.
+Le VID est défini en tant qu'objet Rebol.<br />
+Voir probe type? system/view/vid   (ou svv)</p>
+</td><td>
+<p>Application de la fonction make sur l'objet 'face 
+voir :  probe first make face comme objet graphique.<br />
+qui renvoie : <br />
+state style alt-action facets related words colors texts images file var keycode reset styles init multi blinker pane-size dirty? help user-data flags   en moins que probe first svv/vid-face</p>
+</td></tr><tr class="td-cell" ><td>
+<pre>
+view layout [ text "Hello world" 
+font [ color: 255.255.255 shadow: 1x1] edge [1x1] 
+]
+</pre></td><td><pre>
+view make face [ size: 100x50
+offset: 20x20
+edge: make edge [size: none]
+pane: make face [
+size: 100x50
+text: "Hello world"
+font: make font [
+color: 255.255.255
+shadow: 1x1
+align: 'center
+]
+edge: make edge [size:none]]]
+</pre>
+</td></tr><tr class="td-cell" ><td>
+<p align=center><img src="images/image001.jpg"></p>
+</td><td>
+<p align=center><img src="images/image002.jpg"></p>
+</td></tr><tr class="td-cell" ><td>
+<p>Approche plus simple et intuitive.<br />
+Code plus concis, mais parfois moins précis.<br />
+Layout ajuste automatiquement la fenêtre au contenu, avec notamment un offset de 20x20. <br /></p>
+</td><td>
+<p>Plus grande rigueur de programmation. <br />
+Code plus précis, permettant la création et la manipulation d'objets "sur mesure", mais plus "verbeux".</p>
+</td></tr><tr class="td-cell" ><td>
+<p>Pas d'équivalence entre : probe layout []</p>
+</td><td>
+<p>et :  probe make face []</p>
+</td></tr><tr class="td-cell" ><td>
+<p>Un bloc de mots-clés est fourni en argument à la fonction layout, qui effectue le parsing du bloc, et qui renvoie un objet graphique.
+Cet objet graphique est interprété par la fonction view, qui renvoie la fenêtre affichée.</p>
+</td><td>
+<p>Les Faces et leurs attributs sont construites directement à partir de code Rebol, sur l'héritage de l'objet 'face.</p>
+</td></tr></table></center><p>
+<p><strong><u>donc en synthèse</u> :</strong></p>
+<p align=center><img src="images/image003.gif"></p>
+<p>Il est possible aussi via la méthode directe de créer des objets reposant sur des styles pré-définis dans le VID. 
+<br />
+Par exemple, en utilisant la fonction : make-face .</p>
+<p><center></p>
+<center><table border="0" cellspacing="0" cellpadding="4" bgcolor=#ffffff>  
+		<tr class="header-cell" ><td ><strong>
+<p>Code</p>
+</strong></td><td><strong>
+<p>Résultat</p>
+</td></tr><tr class="td-cell" ><td>
+<pre>
+b: make-face/clone 'btn 
+b/text: "OK"
+b/color: 255.0.0      
+b/offset: 10x10
+;
+; test de make face
+;
+view make face [
+size: 100x50
+offset: 20x20
+edge: make edge [size: 1x1]
+pane: copy []
+append pane b
+]
+</pre>
+</td><td>
+<p align=center><img src="images/image004.jpg"></p>
+</td></tr></table></center><p>
+<p></center>
+Une autre différence entre le VID et l'approche directe réside dans l'écriture du code, notamment l'assignation des variables.
+<br /><br /><br /></p>
+</blockquote>
+<p>
+<div class=top >[ <a href="#top">Retour sommaire</a> ]</div>
+<hr />
+
+<h2 id="section-5">5. Le VID, Visual Interface Dialect</h2>
+<blockquote>
+<p>Comme View dont il fait partie, le VID est un objet au sens Rebol.
+C'est dans le VID que, via la fonction 'layout, sont définies les régles du dialecte (le "D" de VID), 
+permettant la traduction d'un ensemble de mots-clés, en vue de créer des objets graphiques facilement.</p>
+<p><strong>Cela signifie que cette méthode de création d'interface repose sur le principe du parsing.</strong></p>
+<p>Le VID définit un certain nombre de fonctions au niveau du contexte global de Rebol :</p>
+<ul>
+<li>load-image  : permet le chargement en mémoire d'une image.</li>
+<li>get-style   : récupère un style, par défaut dans vid-styles ( get-style btn) et retourne le style</li>
+<li>set-style   : ajoute une définition de style à vid-styles, par défaut (set-style mon-style mon-objet)</li>
+<li>stylize   : permet de définir un style</li>
+<li>set-font  : permet de définir les attributs de police</li>
+<li>set-para : permet de définir les attributs de paragraphe</li>
+<li>set-edge : permet de définir les attributs de bordure   set-edge box 'size 1x1</li>
+<li>make-face : crée un objet 'face à partir d'un style donné ou d'un objet graphique (make-face 'btn)</li>
+<li><strong>layout</strong>    : évalue un bloc de définitions graphiques et retourne un objet de type 'face</li>
+<li>choose    pour générer un menu vertical ou horizontal</li>
+</ul>
+<p>C'est en particulier la fonction <strong>layout</strong> qui assure ce <strong>parsing</strong> 
+du bloc [mots-clés + propriétés] fourni en argument.</p>
+<p>Typiquement, on construit un bloc structuré tel que :</p>
+<pre>
+mon-bloc: [ origin 0x0 btn "Test" aqua [quit]]   ; c'est un vrai bloc 
+probe type? mon-bloc
+==block!
+
+mon-objet-graphique: layout mon-bloc  ;  &lt;-- ici c'est un objet de type 'face 
+probe type? mon-objet-graphique
+== object!
+
+probe first mon-objet-graphique
+
+==[self type offset size span pane text color image effect data edge font par
+a feel saved-area rate show? options parent-face old-offset old-size line-l
+ist changes face-flags action state access style alt-action facets related
+words colors texts images file var keycode reset styles init multi blinker
+pane-size dirty? help user-data flags doc parent]
+</pre>
+<p><strong>L'application de layout sur le bloc structuré renvoie un objet graphique, pouvant contenir un ou plusieurs autres objets graphiques (pane).</strong></p>
+<p>Ensuite, l'appel de la fonction <strong>view</strong> sur <strong>mon-objet-graphique</strong> déclencherait 
+l'affichage à l'écran (via la fonction native <strong>show</strong>)  
+et la gestion des événements (via la fonction <strong>do-events</strong>).</p>
+<p><u>Un autre effet induit du parsing</u> : le bloc fourni en argument au <strong>layout</strong> 
+doit présenter une certaine structure, que les règles de parsing vont tenter de transcrire.</p>
+<p>Globalement, six actions sont effectuées par <strong>layout</strong> :</p>
+<ul>
+<li>Définir et récupérer les styles (styles / stylize),</li>
+<li>calculer les attributs des faces ( red  pour la couleur),</li>
+<li>créer les objets graphiques (text, button),</li>
+<li>définir les variables (my-button),</li>
+<li>calculer les positions et orienter les objets (across, below),</li>
+<li>et exécuter le code Rebol (do).</li>
+</ul>
+<p>Comme le parsing est orienté flux de données, si une image est déclarée avant un bouton, 
+celle-ci sera traitée avant celui-ci pour l'affichage.</p>
+<p>Le bloc fourni à la fonction <strong>layout</strong> est une collection de mots-clés suivis de propriétés 
+(pair! string! tuple!) en nombre variable, mais de datatype! distincts : 
+il y a rarement dans le bloc deux chaînes de caractères qui se suivent : btn "test" "OK". 
+Le parsing utilisé par le VID est en effet fortement "typé".</p>
+<p>Il n'y a donc pas d'affectation de variables (genre set) comme dans :</p>
+<pre>
+color: aqua
+</pre>
+<p>sauf pour :</p>
+<ul>
+<li>le nommage des objets (my-bouton: btn red ),</li>
+<li>les affectations dans les sous-objets (font, para, edge, feel)</li>
+<li>et les blocs d'actions associés aux 'Faces.</li>
+</ul>
+<p>La syntaxe du dialecte est donc légérement différente de la méthode directe, qui procède, 
+elle, par des affectations régulières Rebol.</p>
+</blockquote>
+<p>
+<h3 id="section-5.1">5.1 Bloc de mots-clés VID</h3>
+<blockquote>
+<p>Les mots-clés du bloc VID fournis à la fonction <strong>layout</strong> appartiennent à trois catégories : Style, position, et action.</p>
+<center><table border="0" cellspacing="0" cellpadding="4" bgcolor=#ffffff>  
+		<tr class="header-cell" ><td ><strong>
+<p>Mots-clés "STYLE"</p>
+</strong></td><td><strong>
+<p>Mots-clés "POSITION/Taille"</p>
+</strong></td><td><strong>
+<p>Mots-clés "ACTION"</p>
+</td></tr><tr class="td-cell" ><td>
+<p>Size
+Space
+Backdrop
+Backtile
+Image
+Title
+Text
+Label
+Field
+Area
+Button
+Arrow
+Toggle
+Rotary
+Choice
+Check
+Radio
+Slider
+Progress
+Box
+Frame
+Sensor
+Panel
+list</p>
+</td><td>
+<p>Origin
+Tabs
+Pad
+At
+Across
+Below
+Return
+Guide
+Indent
+Tab</p>
+</td><td>
+<p>Do
+Style
+Styles</p>
+</td></tr></table></center><p>
+<p>Christophe Coussement (aka reboltof) a mis en ligne sur RebolFrance.org 
+un résumé de certains mots-clés (http://www.rebolfrance.org/articles/).<br/></p>
+</blockquote>
+<p>
+<h3 id="section-5.2">5.2 Etude de la fonction <strong>layout</strong></h3>
+<blockquote>
+<p><strong>USAGE:</strong></p>
+<pre>
+LAYOUT specs /size pane-size /offset where /parent new /origin pos /styles list /keep
+</pre>
+<p><strong>DESCRIPTION:</strong> Retourne un objet graphique pouvant servir de conteneur, en utilisant le dialecte VID. 
+LAYOUT est une fonction.</p>
+<p><strong>ARGUMENTS:</strong></p>
+<pre>
+specs -- Dialecte bloc de styles, attributs, et diposition (Type: block)
+</pre>
+<p><strong>RAFINNEMENTS:</strong></p>
+<pre>
+/size
+    pane-size -- Taille (largeur x hauteur) de l'objet graphique rendu (Type: pair)
+/offset
+    where -- Position de l'objet graphique retourné (Type: pair)
+/parent     -- indique le style parent
+    new -- Le style de face du panneau (Type: object word block)
+/origin
+    pos -- Position d'origine du layout (Type: pair)
+/styles
+    list -- bloc de styles à utiliser (Type: block)
+/keep   -- Conserve les indications de style
+/tight  -- Offset et origine à zéro
+</pre>
+<p>
+<h4 id="section-5.2.1">5.2.1 Que fait-elle ?</h4>
+<p>[<a href="http://www.codeur.org/forum/message.php?sujet=788&theme=17">Didier Cadieu (aka Didec) Site Codeur</a> ]</p>
+<p><i></p>
+<ol>
+<li><strong>layout</strong> fait un parse du bloc pour distinguer ce qui concerne le <strong>layout</strong> et le contenu (les faces)</li>
+<li>elle appelle 'expand-specs et 'grow-specs (system/view/VID) qui gèrent la création de chaque face.</li>
+<li>'grow-facet cherchent les mots dans le block "words" du facet puis dans system/view/VID/facet-words 
+qui contient toutes les options que vous connaissez (et celles que vous ne connaissez pas ;-).</li>
+</ol>
+<p></i></p>
+<p>Le bloc structuré de mots-clés et d'attributs passé à la fonction <strong>layout</strong> est parsé selon des règles (vid-rules, et pos-rules), 
+pour fournir un objet nommé : new-face .</p>
+<p>Comment est défini cet objet : new-face ?</p>
+<pre>
+new-face: make any [
+all [parent 
+object? new 
+new ]
+all [parent 
+word? new get-style 
+new ]
+vid-face
+]
+</pre>
+<p><strong>Si le raffinement /parent n'est pas fourni, c'est-à-dire la plupart du temps pour 'layout, 
+new-face prend la valeur de vid-face.</strong>( défini dans system/view/vid). <br/></p>
+<p><br />
+<U>Vid-face</U> : <br /></p>
+<p>Il s'agit d'un objet basé sur l'objet <strong>'face</strong>, c'est-à-dire sur system/standard/face, <br />
+mais qui y ajoute plus d'une <u>vingtaine</u> d'attributs :</p>
+<pre>
+vid-face: make face [ ; root definition
+state: false    ; état du bouton
+access:         ; ???
+style:      ; style used to define face
+action:     ; action to take on pick
+alt-action: ; the other mouse button
+facets:     ; face attributes to be parsed
+related:    ; relational tags
+words:      ; special keywords actions
+colors:     ; alternate face colors
+texts:      ; alternate text
+images:     ; alternate images
+file:       ; media file
+var:        ; variable used to hold face
+keycode:    ; shortcut key
+reset:      ; reset to original value
+styles:     ; styles used in the pane
+init:       ; what to do after the face is made
+multi:      ; multiple facet handers
+blinker:    ; state of the blink
+pane-size:  ; size of layout pane
+dirty?:     ; indicates that text has been changed
+help:       ; optional help string
+user-data: none
+flags: []   ; option flags
+doc:            ; documentation
+edge: make edge [size: 0x0]   ; &lt;&lt;---- déja existant
+font: make font [style: none color: white align: 'left 
+valign: 'top shadow: 1x1 colors: vid-colors/font]    ;&lt;&lt;---- déjà existant
+]
+</pre>
+<p>Typiquement, presque tous ces attributs sont nouveaux, font et edge existent déjà mais sont redéfinis.</p>
+<p><u>Styles :</u> <br />
+Par exemple, l'attribut 'styles de 'vid-face correspond aux styles définis dans le conteneur (pane).
+Avec 'layout, new-face/styles devient : system/view/VID/vid-styles, si le raffinement /styles n'a pas été donné 
+avec une liste de styles ('btn, 'text, 'field,..).</p>
+<p>C'est-à-dire que <strong>layout</strong> chargera par défaut l'ensemble des styles existants ('face inclus), 
+et sinon, avec le raffinement /styles juste les styles fournis en argument.</p>
+<p>Parmi les possibilités offertes par le parsing, il existe un moyen de définir un arrière-plan de couleur :
+'backcolor définira la couleur d'arrière plan de new-face</p>
+<pre>
+view layout [ box 100x50 red backcolor yellow ]
+</pre>
+<p>Sur l'une des bétas de View (1.2.54) , il est également possible de définir un effet 
+particulier de new-face avec le mot-clé 'backeffect.<br/>
+Ce dernier autorise la définition des effets standards comme 'grid, 'arrow, 'sharpen .</p>
+<pre>
+view layout [ box 100x50 aqua + 50 backcolor coal backeffect [grid 5x5 gray]]
+</pre>
+<p align=center><img src="images/image005.jpg"></p>
+<p><br /></p>
+<p><u>
+Résumé :</u><br /></p>
+<p><strong>Le parsing va permettre de "mapper" les mots-clés et leurs valeurs avec les définitions de vid-styles.
+</strong></p>
+<p><strong>La fonction <strong>layout</strong> définit donc un nouvel objet graphique par héritage et surcharge l'objet primaire 'face 
+via de nouveaux attributs.
+</strong></p>
+<p>Cet objet ('new-face) retourné par <strong>layout</strong> sert de conteneur pour accueillir les widgets générés 
+par les déclarations en VID.</p>
+<div class=note><strong></strong><p>
+<p>A noter que l'objet 'face est en principe protégé (protect face).
+En effet une modification de cet objet dans la hiérarchie REBOL impacterait 'vid-face, 
+'blank-face, et tous les widgets qui en dérivent.</p>
+<p>Enfin, l'objet 'face est connu dans le contexte global, alors que 'vid-face 
+ne l'est que dans le contexte de l'objet system/view/VID.</p>
+</div>
+<p align=center><img src="images/image006.gif"></p>
+<p>'blank-face est un clone de 'face, mais dont la plupart des objets ou attributs 
+(soit edge: font: para: feel: image: color: text: effect) sont à "none".</p>
+<p>'blank-face est donc un objet graphique particulier, il sert notamment à générer par héritage 
+les faces 'sensor et 'key, par exemple, dont le comportement est aussi celui des images.</p>
+<p><br /><br /></p>
+</blockquote>
+<p>
+<h3 id="section-5.3">5.3 La fonction View</h3>
+<blockquote>
+<p>
+<h4 id="section-5.3.1">5.3.1 Que fait-elle ?</h4>
+<p>Elle reçoit en argument un objet de type 'face et suivant les raffinements utilisés, 
+va permettre son affichage, et déclencher la gestion des évenements.</p>
+<p>
+<h4 id="section-5.3.2">5.3.2 Que retourne-t-elle ?</h4>
+<p>Elle retourne l'objet graphique, après avoir réalisé son affichage.</p>
+<p>
+<h4 id="section-5.3.3">5.3.3 Ses raffinements ?</h4>
+<pre>
+/new        ;qui permet de créer un nouvelle fenêtre 
+/offset     ;pour positionner la fenêtre dans l'écran
+/options    ;pour indiquer si on veut un titre, ou pouvoir redimensionner la fenêtre
+/title      ;qui permet d'affecter un titre à la fenêtre.
+</pre>
+<p>Il est possible avec la fonction 'source de voir le code, bien sûr :</p>
+<pre>
+func [
+"Displays a window face."
+view-face [object!]
+/new "Creates a new window and returns immediately"
+/offset xy [pair!] "Offset of window on screen"
+/options opts [block! word!] "Window options [no-title no-border resize]"
+/title text [string!] "Window bar title"
+/local scr-face
+][
+
+scr-face: system/view/screen-face       ; l'écran !
+
+if find scr-face/pane view-face [return view-face]
+; si la face existe déjà, sortie
+
+either any [
+    new   ; le rafinement new existe
+    empty? scr-face/pane  ; le conteneur pane de l'écran est vide
+] [
+view-face/text: any [
+    view-face/text
+    all [
+        system/script/header 
+        system/script/title
+        ]
+    copy ""
+    ]
+new: all [
+    not new ; pas de rafinement new
+    empty? scr-face/pane  ; pas de fenêtre dans scr-face
+]
+append scr-face/pane view-face
+view-face/feel: window-feel         ; comportement fenêtre
+] [
+change scr-face/pane view-face
+]
+
+if offset [view-face/offset: xy]
+if options [view-face/options: opts]
+if title [view-face/text: text]
+
+show scr-face
+if new [do-events]  
+view-face
+]
+</pre>
+<p>La fonction 'View renvoie l'objet qui lui est passé en argument, ajoute cet objet au conteneur "écran", 
+et assure le déclenchement de la gestion des évenements.
+<br/>
+Il faut noter que l'affichage est rendu par la fonction native 'show, qui effectue tout le travail 
+de rendu au niveau de scr-face (l'écran).</p>
+<p><br /><br /></p>
+</blockquote>
+<p>
+<div class=top >[ <a href="#top">Retour sommaire</a> ]</div>
+<hr />
+
+<h2 id="section-6">6. Un seul objet de type Face</h2>
+<blockquote>
+<p>Les différents objets graphiques dérivent tous d'un même objet-parent :  'face, <br />
+qui est en quelque sorte le proto-objet, l'objet "root", à partir duquel tous les autres vont être construits.</p>
+<p>Cet objet est décrit dans <strong>system/standard</strong>.</p>
+<div class=note><strong></strong><p>
+<p>Il est protégé pour éviter les modifications en cascade. (protect 'face)
+/note</p>
+<p>L'objet 'vid-face (pour le VID)  hérite des caractéristiques de l'objet 'face, et donne à son tour l'objet 'blank-face. 
+Vid-face se caractérise cependant par des attributs dédiés et, par exemple, par l'apparition du sous-objet 'multi.</p>
+<p>Ces deux objets ('face et 'blank-face) permettent la création des styles de widgets comme le bouton (button), 
+le champ texte (text, ou area). Tous les widgets ou styles au sens Rebol (button, ...) dérivent de ces deux objets.</p>
+<p>Une interface est donc constitué de plusieurs objets de type 'face liés entre eux par des liens d'héritage, ou de surcharge,
+chacun d'entre eux pouvant avoir un forme, une couleur, une réactivité (feel), etc...</p>
+<p>Chaque widget possède des attributs  appelés <strong>facets</strong>.
+Ces attributs peuvent être la couleur (color), la position (offset), la taille (size), le style, le format des paragraphes, etc...
+Certains de ces attributs sont eux-mêmes  des objets :  'edge (bordure), 'font (police), 'para (paragraphe), 'feel (comportement).</p>
+<p>Ceci permet de réutiliser et de partager les caractéristiques de certains objets graphiques : 
+par exemple, plusieurs boutons peuvent partager le même style de bordures, de polices, etc..</p>
+</blockquote>
+<p>
+<h3 id="section-6.1">6.1 Contenu de 'face</h3>
+<blockquote>
+<pre>
+probe system/standard/face
+</pre>
+<center><table border="0" cellspacing="0" cellpadding="4" bgcolor=#ffffff>  
+		<tr class="header-cell" ><td ><strong>
+<p>Objet</p>
+</strong></td><td><strong>
+<p>Face</p>
+</td></tr><tr class="td-cell" ><td>
+<pre>
+type: 'face 
+offset: 0x0
+size: 100x100
+span: none
+pane: none
+text: none
+color: 200.200.200
+image: none
+effect: none
+data: none
+</pre>
+</td><td>
+<p>Pane est la variable permettant de définir les objets encapsulés dans celui décrit. 
+(peut être un seul objet, une liste d'objet, ou une fonction)</p>
+</td></tr><tr class="td-cell" ><td>
+<pre>
+edge: make object! [
+color: 200.200.200
+image: none
+effect: none
+size: 2x2
+]
+</pre>
+</td><td>
+<p>Objet edge (bordure) définissant les caractéristiques du contour de la 'face.
+Attributs : couleur, image (fichier), effet (tile, clip, expand,...), taille .</p>
+</td></tr><tr class="td-cell" ><td>
+<pre>
+font: make object! [    name: "arial"
+style: none
+size: 12
+color: 0.0.0
+offset: 2x2
+space: 0x0
+align: 'center
+valign: 'center
+shadow: none
+]
+</pre>
+</td><td>
+<p>Objet font: permet la spécification du style de la police utilisée : son nom (défaut = arial 12 noir), 
+l'alignement, la position relative dans l'objet 'face.</p>
+</td></tr><tr class="td-cell" ><td>
+<pre>
+para: make object! [
+origin: 2x2
+margin: 2x2
+indent: 0x0
+tabs: 40
+wrap?: true
+scroll: 0x0
+]
+</pre>
+</td><td>
+<p>Objet para (paragraph) : définit les caractéristiques de formatage du texte dans l'objet.</p>
+</td></tr><tr class="td-cell" ><td>
+<pre>
+feel: make object! [
+redraw: none
+detect: none
+over: none
+engage: none
+]
+</pre>
+</td><td>
+<p>Permet de caractériser le comportement de la face vis-à-vis des évenements.
+Quatre fonctions (redraw.. engage) sont possibles, chacune correspondant à un niveau d'évenement.</p>
+</td></tr><tr class="td-cell" ><td>
+<pre>
+saved-area: none 
+rate: none
+show?: true
+options: none
+parent-face: none
+old-offset: none
+old-size: none
+line-list: none
+changes: none
+face-flags: 0
+action: none
+</pre>
+</td><td>
+<p>Rate est le timer interne pour le raffraichissement de l'objet<br/>
+show? est l'équivalent du "visible" de Visual Basic.<br/>
+parent-face : le nom si elle existe de la face contenant celle-ci<br/>
+action : le bloc ou la fonction décrivant l'action à réaliser <br/></p>
+</td></tr></table></center><p>
+<p><br /><br /></p>
+</blockquote>
+<p>
+<h3 id="section-6.2">6.2 Un objet particulier : screen-face</h3>
+<blockquote>
+<p>L'objet 'screen-face est défini dans system/view et repose lui-aussi sur le type 'face.</p>
+<p>Cependant, cet objet est particulier.</p>
+<p>Il sert à décrire virtuellement la zone d'affichage, c'est-à-dire votre écran.</p>
+<p>Par exemple, <strong>system/view/screen-face/size</strong> fournira la résolution courante de votre moniteur.</p>
+<p>L'objet 'screen-face implémente la plupart des attributs rencontrés par ailleurs 
+pour les widgets (boutons et autres).<br />
+Par exemple, le <strong>sous-objet edge</strong> de 'screen-face renverra :</p>
+<pre>
+make object! [
+    color: 200.200.200
+    image: none
+    effect: none
+    size: 2x2
+]
+</pre>
+<p><br /><br /></p>
+<p>
+<h4 id="section-6.2.1">6.2.1 Screen-face : un conteneur des fenêtres</h4>
+<p>'screen-face est un <strong>conteneur</strong> pour les fenêtres affichées par View.</p>
+<p>La plupart des fenêtres créées par les actions de l'utilisateur (à l'exception des fenêtres modales) 
+vont être référencées dans la variable "pane".</p>
+<pre>
+&gt;&gt;print length?  system/view/screen-face/pane 
+0
+&gt;&gt;view fen: layout [btn "voir screen-pane" [
+     print length?  system/view/screen-face/pane 
+     dump-face  system/view/screen-face/pane/1
+ ]
+]
+
+1
+Style: none Offset: 25x25 Size: 141x62 Text:
+     Style: btn Offset: 20x20 Size: 101x22 Text: voir screen-pane
+</pre>
+<p>Dans l'exemple ci-dessus, <strong>system/view/screen-face/pane/1</strong> correspond à la fenêtre <strong>fen</strong> .</p>
+<p>S'il y avait d'autres fenêtres, leurs références seraient ajoutées au bloc pane :<br />
+system/view/screen-face/pane/2, system/view/screen-face/pane/3, ...</p>
+<p>Cependant, ceci n'est vrai que pour les fenêtres non-modales.
+Les fenêtres modales (générées par exemple par request-color) sont quant à elles 
+référencées dans system/view/pop-list.
+<br /></p>
+<p>
+<h4 id="section-6.2.2">6.2.2 Screen-face et la gestion d'événements</h4>
+<p>Screen-face implémente par ailleurs une fonction supplémentaire de gestion d'événements dans son  sous-objet 'feel. 
+En effet, en plus de detect, redraw, over et engage, la fonction 'events-func est définie.</p>
+</blockquote>
+<p>
+<h3 id="section-6.3">6.3 Des fenêtres particulières : request, inform et show-popup ...</h3>
+<blockquote>
+<p>
+<h4 id="section-6.3.1">6.3.1 La fonction request</h4>
+<p><strong>Request</strong> est une fonction pour construire un fenêtre modale (attendant un évènement de l'utilisateur, genre boîte d'alerte, ou boîte de dialogue ).
+Le code de la fonction est construit en gros en deux parties :<br />
+un test si l'argument est un objet graphique ou autre chose (string!), puis selon le cas (et la version de rebol!) 
+la construction de l'interface dédiée :</p>
+<pre>
+request/ok/type  "TEST" 'help
+</pre>
+<p align=center><img src="images/image007.jpg"></p>
+<p>Si l'argument fourni à la fonction request est un objet graphique de type face, alors le code de <strong>request</strong> se réduit à</p>
+<pre>
+request-win: func [
+    "Requests a modal window."
+    a-face [object! none!]
+    /offset xy
+    /local lay result 
+    ][
+    lay: either all [
+    object? a-face in a-face 'type 
+    a-face/type = 'face     ][  
+    ; si l'argument str est un objet graphique 'face, all est true , lay = str
+    str
+        ][
+    ; le bloc pour construire les questions
+    ; on ne fait rien
+    ]  
+;fin du either all sur lay qui construit la 
+    result: none
+    either offset [inform/offset/timeout lay xy time] [
+        inform/timeout lay time
+    ]
+    ; si time n'est pas fourni en raffinement
+    result
+    ]
+</pre>
+<p>On constate que le code de <strong>request</strong> repose sur celui de la fonction <strong>inform</strong>.
+Notamment, c'est la fonction <strong>inform</strong> qui fournit le titre "Dialog" .
+(raffinement /title qui n'apparaît pas dans <strong>request</strong>, mais dans <strong>'inform</strong>)</p>
+<p><br /><br /></p>
+<p>
+<h4 id="section-6.3.2">6.3.2 La fonction inform</h4>
+<p>Le code de la fonction <strong>'inform</strong> (un peu simplifié en enlevant la partie time) est le suivant :</p>
+<pre>
+inform: func [
+    {Display an exclusive focus panel for alerts, dialogs, and requestors.}
+    panel [object!]
+    /offset where [pair!] "Offset of panel"
+    /title ttl [string!] "Dialog window title"
+][
+   panel/text: copy any [ttl ""]
+   panel/offset: either offset [where] [system/view/screen-face/size - panel/size / 2]
+   panel/feel: system/view/window-feel
+   show-popup panel
+]
+</pre>
+<p>On voit que la fonction <strong>inform</strong> récupère en argument un objet graphique, éventuellement un titre, et une position, 
+et ajoute un attribut "text", positionne l'objet sur l'offset fourni, sinon au centre de l'écran.
+Enfin on ajoute un attribut feel (générique) à l'objet, basé sur system/view/window-feel.
+Puis la fonction show-popup est appelée. <br />
+<i>C'est donc cette fonction <strong>'show-popup</strong> qui est au  coeur des fonctions <strong>request</strong> et <strong>inform</strong>.</i></p>
+<p><br /><br /></p>
+<p>
+<h4 id="section-6.3.3">6.3.3 La fonction show-popup</h4>
+<p>Cette fonction connue dans le contexte global et dont le code est détaillé ci-dessous, fait appel à deux mots Rebol, 
+<strong>pop-list</strong>, <strong>pop-face</strong> qui apparaissent comme attributs de l'objet system/view.</p>
+<p>Il s'agit, respectivement, de la liste des fenêtres pop-up ouvertes et de la référence de la fenêtre popup (<strong>pop-face</strong>) active. <br /></p>
+<pre>
+show-popup: func [
+face [object!] 
+/window window-face [object!] 
+/away
+][
+if find pop-list face [exit]
+; test sur le raffinement /window 
+window: either window [ window-face ] [
+    if none? face/options [face/options: copy [] ]
+    if not find face/options 'parent [ append face/options compose [parent (none)]  ]   
+    system/view/screen-face
+    ]  ; fin du either
+face/action: away
+insert pop-list pop-face: face
+append window/pane face
+show window
+]
+</pre>
+<p>On cherche d'abord si l'objet graphique face fourni en argument est dans 'pop-list.
+Si oui, on sort (exit). 
+Si il y a un raffinement /window alors on renvoie :   window: window-face, 
+sinon (pas de raffinement), on a :</p>
+<pre>
+window: system/view/screen  ;(l'écran par défaut).
+</pre>
+<p>Donc :</p>
+<pre>
+show-popup ma-face
+</pre>
+<p>initialise la variable window sur l'écran tandis que :</p>
+<pre>
+show-pop/window ma-face  ma-window-face
+</pre>
+<p>initialise la variable window sur : ma-window-face.</p>
+<p>S'il n'y a pas eu de raffinement /window fourni (c'est à dire la plupart du temps), on teste l'existence 
+de l'attribut options de l'objet graphique, qui est mis à  [parent none] .
+De sorte que la fenêtre ne dépend plus que de l'écran. Enfin, l'objet graphique est affiché avec la fonction 'show.</p>
+<p>Le code suivant montre à la fois la présence d'un élément dans la collection pop-list, et la valeur des options liées à la fenêtre.</p>
+<pre>
+show-popup ma-popup: layout [btn "OK" [
+    print join {nbre d'elements dans pop-list : } (length? system/view/pop-list)
+    dump-face system/view/pop-list/1
+    probe system/view/pop-list/1/options
+    ]
+]
+do-events
+</pre>
+<p><u>Exemple de code pour des fenêtres modales</u> :</p>
+<pre>
+modal-view: func [
+    face [object!] 
+    ][
+if find system/view/pop-list face [exit]  ; 
+if none? face/options [face/options: copy [] ]
+if not find face/options 'parent [ append face/options compose [parent (none)]  ]   
+
+;face/action: away  devrait être  system/view/screen-face/action ou system/view/screen-face/action
+; ou bien encore system/view/VID/vid-face/action
+;system/view/face/action: away
+insert system/view/pop-list system/view/pop-face: face
+append system/view/screen-face/pane face
+show system/view/screen-face
+do-events
+]
+
+
+; affichage fenêtre
+fen: layout [bf: btn "TEST" [print  mold fen/options hide-popup  ]] 
+;view/options fen [no-title]
+
+main-fen: layout [ 
+text "ceci est un test" 
+bt1: btn "quit" [quit] 
+bt2: btn  "test modale" [ modal-view fen  ]
+]
+
+view main-fen
+</pre>
+<p><u>A voir</u> : le code source de de la fonction <strong>hide-popup</strong>.</p>
+<p>Sans le do-events final, le hide-popup efface bien la fenêtre modale, mais on n'a plus la main sur le <strong>layout</strong> main-fen. La fonction inform gère le do-events avec le test du time-out. Il FAUT un hide-popup pour fermer la fenêtre modale !</p>
+<p><U>REMARQUE</U> sur la différence entre <strong>view</strong>, <strong>show</strong>, <strong>hide</strong>, <strong>unview</strong>... <br />
+<strong>Show</strong> est native : c'est sur elle que s'appuie les autres en ajoutant ou retranchant localement ou au conteneur screen-face/pane une fenêtre.
+L'effacement d'une fenêtre à l'écran se traduit par la suppression (remove) de sa référence dans system/view/screen-face/pane, et 
+dans <strong>pop-list</strong>, par exemple, puis du réaffichage de l'écran.</p>
+<p><br /><br /></p>
+</blockquote>
+<p>
+<h3 id="section-6.4">6.4 Caractères dynamiques de certains attributs</h3>
+<blockquote>
+<p>Dans l'exemple ci-dessus, la collection <strong>pop-list</strong> n'est peuplée que lorsqu'une fenêtre est générée par <strong>request</strong>, <strong>inform</strong> ou <strong>show-popup</strong>.
+'pop-face contient la référence à cette fenêtre modale.</p>
+<p>Il existe donc des attributs dans View, ou pour chaque widget, pour lequels les valeurs sont dynamiques, 
+et dépendent des évenements utilisateurs. Cet aspect fera l'objet d'un complément de documentation.</p>
+<p><br /><br /></p>
+</blockquote>
+<p>
+<h3 id="section-6.5">6.5 Le système de coordonnées</h3>
+<blockquote>
+<p>[source des schémas: doc vid RT]</p>
+<p>
+<h4 id="section-6.5.1">6.5.1 Les fenêtres</h4>
+<p>Les fenêtres sont positionnées (par défaut) à partir du coin supérieur gauche de l'écran par défaut :</p>
+<p align=center><img src="images/image012.gif"></p>
+<p>Il est possible de modifier la position de la fenêtre via le raffinement /offset de la fonction 'layout.</p>
+<p>Dans le cas d'une création d'un objet graphique via la méthode  directe ('Face), 
+il est nécessaire de définir un offset (ce que fait par défaut 'layout) 
+afin d'éviter que la fenêtre s'affiche dans l'extrême bord supérieur gauche sans afficher le titre.
+<br /></p>
+<p>
+<h4 id="section-6.5.2">6.5.2 Position des composants graphiques</h4>
+<p>Les widgets sont positionnés relativement (par défaut) 
+au coin supérieur gauche de l'objet qui les contient :</p>
+<p align=center><img src="images/image013.jpg"></p>
+<p><br /></p>
+<p>
+<h4 id="section-6.5.3">6.5.3 Comment avoir la position d'un objet dans la fenêtre ?</h4>
+<p>Win-offset et screen-offset viennent à votre secours :</p>
+<pre>
+view layout/offset [
+
+at 20x20
+    btn "WIN-OFFSET ?" [
+    print ""
+    print join "Position relative dans la fenêtre : " win-offset? face 
+    print join "Position dans screen-face : "screen-offset? face
+    print "Infos bouton : " dump-face face
+    ]
+    ] 150x150
+
+
+&gt;&gt;Position relative dans la fenêtre : 20x20
+Position dans screen-face : 170x170
+Infos bouton :
+Style: btn Offset: 20x20 Size: 89x22 Text: WIN-OFFSET ?
+</pre>
+<p><br /><br /></p>
+<p><br /><br /></p>
+</blockquote>
+<p>
+<div class=top >[ <a href="#top">Retour sommaire</a> ]</div>
+<hr />
+
+<h2 id="section-7">7. Hiérarchie entre objets graphiques</h2>
+<blockquote>
+<p>Comme cela a déjà été mentionné, il existe une hiérarchie entre les différentes objets graphiques (widgets), 
+certains découlant les uns des autres par héritage.</p>
+<p>Voir le script : <strong>vid-hierarchy.r</strong> de Brett Handley.( VID Style Ancestry)<br /></p>
+<p><u>Rappel</u> :<br />
+Il est possible de lister les vid-styles (widgets) avec la commande :</p>
+<pre>
+probe extract system/view/vid/vid-styles 2
+
+[face blank-face IMAGE BACKDROP BACKTILE BOX BAR SENSOR KEY BASE-TEXT 
+VTEXT TEXT BODY TXT BANNER VH1 VH2 VH3 VH4 LABEL VLAB LBL LAB TITLE H1 
+H2 H3 H4 H5 TT CODE BUTTON CHECK CHECK-MARK RADIO CHECK-LINE RADIO-LINE 
+LED ARROW TOGGLE ROTARY CHOICE DROP-DOWN ICON FIELD INFO AREA SLIDER 
+SCROLLER PROGRESS PANEL LIST TEXT-LIST ANIM BTN BTN-ENTER BTN-CANCEL 
+BTN-HELP LOGO-BAR TOG]
+</pre>
+<p>La figure ci-dessous  montre la "parenté" des objets vid-styles de premier niveau :</p>
+<p align=center><img src="images/image008.gif"></p>
+<p>Rappel
+On peut constater que les widgets de type 'SENSOR et 'BAR dérivent de l'objet 
+'blank-face tandis que les objets de type 'BTN ou 'IMAGE, ..., dérivent de l'objet 'face.</p>
+<p>La conséquence est que les widgets vont hériter en partie d'attributs communs.</p>
+<p>Typiquement, un widget de type BTN-ENTER ou BTN-HELP va dériver du style 'btn.
+La plupart des widgets "Texte" vont dériver du type 'base-text.</p>
+<p>De plus les comportements (feel) décrits dans system/view/VID/vid-feels permettent 
+d'avoir des réactivités particulières de certains composants graphiques.</p>
+<p>Enfin, une interface graphique est un ensemble de composants (fénêtres) pouvant eux-mêmes 
+contenir d'autres composants (un bouton avec une icône , des menus).</p>
+<p><strong>Il y a donc au moins trois type de relations pour une interface graphique : </strong></p>
+<ul>
+<li>Les héritages entre objets graphiques, dérivant de 'Face</li>
+<li>Les héritages entre objets de type 'Feel</li>
+<li>Les relations de type conteneur - contenu.</li>
+</ul>
+<p>Ce sont ces relations qui définissent l'agencement et le comportement de l'interface.
+Il s'agit là d'un point ESSENTIEL à comprendre avec View.</p>
+</blockquote>
+<p>
+<h3 id="section-7.1">7.1 Hiérarchie entre couches graphiques</h3>
+<blockquote>
+<p>Du point de vue de l'utilisateur, on peut considérer qu'il y a trois niveaux superposés :</p>
+<ul>
+<li>L'écran, identifié par screen-face, qui sert de "conteneur" principal avec les événements qui s'y produise.</li>
+<li>Dans l'écran, la collection de fenêtres qui s'y trouvent : chaque nouvelle fenêtre 
+relative à Rebol est rajoutée dans : system/view/screen-face/pane via un 'append, ou effacée si elle disparaît, via un 'remove ...</li>
+<li>Dans le cas de fenêtres appelées via les fonctions show-popup, inform par exemple, 
+ces fenêtres sont listées dans une collection spéciale : pop-face.</li>
+<li>Pour chaque fenêtre, un ensemble de widgets (boutons, textes, champs, ...) plus ou moins complexes.</li>
+</ul>
+<p>La figure ci-dessous schématise ces relations :</p>
+<p align=center><img src="images/image015.jpg"></p>
+<p>Le conteneur 'pane peut être un objet (en ce cas il est unique), un block! (collection d'objets), ou le résultat d'une fonction telle que <strong>layout</strong> .</p>
+<p>Typiquement, il est possible d'avoir :</p>
+<pre>
+fen/pane: layout/parent [ quelques composants..] []
+
+txt: make face [offset: 100x100 origin: 0x0 size: 300x300 color: aqua]
+txt/pane: copy []
+txt/pane: layout [backcolor yellow btn "OK"]
+txt/action: [quit]
+view/title txt "TEST"
+</pre>
+<p align=center><img src="images/image010.jpg"></p>
+<p><u>Par exemple, dans le cas d'un pane constitué d'une collection d'objets</u> (block!) par la méthode directe :</p>
+<pre>
+txt-red: make face  [ style: 'box-red text: "txt-red" offset: 10x10 size: 70x30 color: 255.0.0.250 
+    font: make font [name: "Arial" size: 12 color: white] edge: none para: none ]
+txt-yellow: make face  [style: 'box-yellow offset: 10x90 size: 50x100 color: yellow  edge: para: font: none ]
+btn-green: make svv/vid-styles/button [offset: 80x100 size: 80x20 text: "OK" color: green - 100 action: none ]
+
+; conteneur principal
+ma-face: make face [offset: 100x100 origin: 0x0 size: 300x300 color: aqua]
+ma-face/pane: copy []
+append ma-face/pane txt-red      ; on ajoute au conteneur ma-face/pane chaque objet  
+append ma-face/pane txt-yellow   ; ma-face/pane devient donc une collection (bloc) d'objets 
+append ma-face/pane btn-green
+
+; txt-red = ma-face/pane/1
+; txt-yellow = ma-face/pane/2
+; btn-green = ma-face/pane/3
+
+set in ma-face/pane/3 'action [ dump-face ma-face ]
+
+
+view/title ma-face "TEST"
+</pre>
+<p align=center><img src="images/image011.jpg"></p>
+<p><u>Exemple de hiérarchie pour le style text-list</u> :</p>
+<p>D'une manière générale, les widgets présentant des textes (et en particulièrement) text-list font appel à des structures complexes. <br />
+Dans le cas de text-list, il y a en particulier un conteneur 'pane qui est un objet unique (sub-area). <br />
+Il contient deux composants widgets ( dans txt-lst/pane/pane): la 'box txt-lst/pane/pane/1) 
+dans laquelle vont être les différentes lignes de la text-list, et le 'scroller, l'ascenseur (txt-lst/pane/pane/2).
+Enfin, l'objet 'box contient une collection de champ texte (les lignes du text-list).</p>
+<p><br />
+On a donc 4 niveaux d'imbrication, pour le widget de type 'text-list.</p>
+<p>
+<h4 id="section-7.1.1">7.1.1 Aide en ligne :</h4>
+<p>Quelques fonctions permettent de s'y retrouver : dump-pane, ou son équivalent dump-face 
+qui listent les éléments constitutifs d'un conteneur. <br /></p>
+<p>Un moyen de détailler le contenu d'une interface graphique est de rajouter la ligne suivante 
+dans votre fichier user.r :</p>
+<pre>
+system/view/VID/verbose: true
+</pre>
+<p>Ce qui a pour effet de mettre en mode 'verbose (bavard) View et d'activer les appels 
+à la fonction track (comme celui dans le code de 'layout).</p>
+<p><u>Exemple</u> :</p>
+<p>Le code :</p>
+<pre>
+view/title  fen: layout [ t1: text "Hello" btn "OK" [dump-face fen]] "Test"
+</pre>
+<p>va construire une fenêtre avec le titre "TEST" et contenant un champ texte t1 et un bouton avec leur style par défaut.</p>
+<p align=center><img src="images/image009.jpg"></p>
+<p>Avec le mode "verbose", on a l'affichage suivant :</p>
+<pre>
+Style: text Offset: 20x20 Size: none
+Style: text Offset: 20x20 Size: 35x19
+Style: btn Offset: 20x47 Size: -1x22
+Style: btn Offset: 20x47 Size: 33x22
+</pre>
+<p>Un clic sur le bouton OK renvoie les informations suivantes :</p>
+<pre>
+Style: none Offset: 25x25 Size: 75x89 Text: Test   ; --&gt; descr. de la fenêtre = conteneur
+Style: text Offset: 20x20 Size: 35x19 Text: Hello   ; --&gt;  description du 'text = pane/1
+     Style: btn Offset: 20x47 Size: 33x22 Text: OK  ; --&gt;  description du 'btn  = pane/2
+</pre>
+<p>qui indique des informations concernant les styles, la taille et la position des widgets dans la fenêtre.</p>
+<p><br /><br /></p>
+</blockquote>
+<p>
+<div class=top >[ <a href="#top">Retour sommaire</a> ]</div>
+<hr />
+
+<h2 id="section-8">8. La gestion des événements</h2>
+<blockquote>
+</blockquote>
+<p>
+<h3 id="section-8.1">8.1 Nature événementielle de l'interface</h3>
+<blockquote>
+<p>La gestion d'une interface graphique est <i>naturellement</i> événementielle : l'interface répond aux sollicitations d'un utilisateur.  
+L'approche événementielle permet de décomposer la réactivité de l'interface en fonction des événements qui se produisent.</p>
+<p>La réalisation d'interface graphique suppose non seulement la maîtrise des objets qui la compose, mais surtout de pouvoir gérer finement les événements qui s'y produisent tels que : clic de l'utilisateur sur un bouton, délais entre deux événements, rafraîchissement de l'écran, ou du contenu d'un champ texte, usage des raccourcis clavier, événements se produisant au dessus d'une zone particulière, etc...</p>
+<p>La nature événementielle d'une interface nécessite d'aborder la question de la  gestion des événements sous REBOL.</p>
+</blockquote>
+<p>
+<h3 id="section-8.2">8.2 La gestion des événements sous REBOL</h3>
+<blockquote>
+<p>[d'après Holger Kruse on REBOL-L, 2002-01-30.] <a href="http://www.rebol.org/cgi-bin/cgiwrap/rebol/ml-display-message.r?m=rmlHYLK">Mailing List</a><br />
+<u>"Le mécanisme de gestion des I/O et des signaux sous REBOL repose sur les ports et la fonction 'wait.
+Un événement est une notion abstraite pour quelque chose qui se produit de façon inattendue, asynchrone. 
+En REBOL, cette notion recouvre typiquement l'arrivée de données sur un port, et l'annonce par le port de cette arrivée de données à une boucle d'attente d'événement ('wait)."</u></p>
+<p>Il convient cependant de distinguer les événements se produisant sous Core par exemple, de ceux se produisant dans View.</p>
+</blockquote>
+<p>
+<h3 id="section-8.3">8.3 Quatre catégories d'interaction</h3>
+<blockquote>
+<p>Les évènements possibles déclenchés par un utilisateur peuvent se regrouper dans les catégories suivantes :</p>
+<ol>
+<li>Les évènements déclenchés par la souris : clic, passage au dessus (over),</li>
+<li>Les évènements déclenchés par le clavier : saisie d'un texte, raccourci clavier, appui sur des touches particulières : Control / Shift / Enter ...</li>
+<li>Les évènements temporels : délais, timers, ...</li>
+<li>Et dans une moindre mesure, les évènements résultant du traitement d'une fonction, ou du code de l'interface.</li>
+</ol>
+</blockquote>
+<p>
+<h3 id="section-8.4">8.4 Trois champs d'application</h3>
+<blockquote>
+<p>Il est possible de distinguer essentiellement trois champs d'usage des événements :</p>
+<ul>
+<li>au niveau du système d'exploitation : par exemple, la souris sort du cadre d'une fenêtre REBOL, et une autre application devient active.</li>
+<li>au niveau d'une fenêtre Rebol active : les événements au niveau "fenêtre" : redimensionner une fenêtre, la déplacer, la fermer,</li>
+<li>au niveau des widgets composant la fenêtre Rebol active : les événements se produisant pour les boutons, champs texte,... et les réponses utilisateur.</li>
+</ul>
+</blockquote>
+<p>
+<h3 id="section-8.5">8.5 Evénements au niveau système</h3>
+<blockquote>
+<p>REBOL/View utilise (au moins) deux boucles d'événements :</p>
+<p>La première boucle d'événement est celle pouvant être utilisée par le port system/ports/system.
+C'est la boucle principale, celle qui utilise le 'scheme system, et écoute les événements générés par l'application REBOL 
+(saisie console, interaction avec l'OS).</p>
+<p><u>Dans Core 2.5.6.3.1</u> :</p>
+<pre>
+&gt;&gt; probe next first system/ports
+[input output echo system serial wait-list]
+
+&gt;&gt; get-modes system/ports/system  get-modes system/ports/system 'system-modes
+== [window: 4653676 winmsg: [] endian: little]
+
+&gt;&gt; get in system/ports/system 'scheme
+** Script Error: in expected object argument of type: object
+** Near: get in system/ports/system 'scheme
+</pre>
+<p><u>Dans View (1.2.48.3.1)</u> :</p>
+<pre>
+probe next first system/ports 
+==[input output echo system serial wait-list timeout-list]
+
+get-modes system/ports/system get-modes system/ports/system 'system-modes
+== [window: 983790 winmsg: [] tray: none endian: little]
+
+get in system/ports/system 'scheme
+== system
+</pre>
+</blockquote>
+<p>
+<h3 id="section-8.6">8.6 Evénements au niveau des objets graphiques</h3>
+<blockquote>
+<p>Voir le mécanisme de gestion des évenements sous Rebol 
+(source <a href="http://www.rebolforces.com/archive/view099users.html#Events">Events</a>).</p>
+<p>Une seconde boucle d'événement peut se superposer à la première : <br />
+celle utilisée par le port system/view/event-port, qui est propre à Rebol/View.</p>
+<p>Les évenements sont gérés par la fonction <strong>'do-events</strong>.</p>
+<p>Cette fonction est invoquée lorsqu'une première fenêtre est créée avec la fonction 'view.
+'do-events étant une fonction mezzanine, il est possible, mais absolument pas recommandé, de la modifier.</p>
+<p>Cette fonction utilise le 'scheme 'event.</p>
+<pre>
+get in system/view/event-port 'scheme
+== event
+</pre>
+<p>et le stockage (<i>queuing</i>) dans une liste d'attente les évenements pour leur évaluation.</p>
+<pre>
+probe type? system/ports/wait-list
+block!
+</pre>
+<p>On a donc pour la fonction 'do-events l'ouverture d'un port "évenementiel" : event-port ,<br />
+s'appuyant sur le schem 'events.</p>
+<pre>
+event-port: open [scheme: 'event]   ; ouverture d'un port pour les évenements
+</pre>
+<p>Tous les évenements se produisant dans une fenêtre affichée par Rebol/View 
+seront mis en attente dans ce port évenementiel.
+Une fois le port ouvert, la fonction 'do-events rentre dans une boucle <i>while</i>.</p>
+<p>La boucle continue aussi longtemps qu'il existe des objets graphiques dans le conteneur system/view/screen-face/pane.</p>
+<p>Chaque itération de la boucle évalue le premier événement en attente dans le port évenementiel, au moyen de 'do.
+L'évaluation d'un évenement envoie l'évenement depuis l'objet graphique de plus haut niveau, et descend la hiérarchie des objets.</p>
+<p>Quand on sort de la boucle (lorsque system/view/screen-face/pane est vide), le port évenementiel est fermé.</p>
+<p>Le code de la fonction 'do-events peut être vu avec la fonction 'source :</p>
+<pre>
+source do-events 
+do-events: func [ 
+    "Process all View events." 
+    /local event-port 
+][ 
+    event-port: open [scheme: 'event] 
+    while [not empty? system/view/screen-face/pane] [ 
+    wait event-port 
+    do first event-port 
+    ] 
+    close event-port 
+]
+</pre>
+<p><br /><br /></p>
+</blockquote>
+<p>
+<h3 id="section-8.7">8.7 Le scheme 'event et les évenements traités</h3>
+<blockquote>
+<p>Le traitement des événements fait appel via le schem 'event à la fonction 'awake.
+Cette fonction 'awake réagit à un flux arrivant sur le port lorsque celui-ci est ouvert.</p>
+<p>Elle invoque la fonction 'wake-event qu'il est possible de "hacker" avec :</p>
+<pre>
+system/view/wake-event: func [port /local event] [event: pick port 1 probe
+reduce [event/1 event/2 event/3 event/4 event/5 event/6 (type? event/7) event/8
+] 
+false
+]
+</pre>
+<p>[d'aprés l'exemple de Romano Paolo Tenca , ML Rebol]</p>
+<p>Si on crée une interface simple, il est possible de décrire le contenu d'un événement :</p>
+<pre>
+view layout [button "test"]
+</pre>
+<p>qui donnerait, par exemple :</p>
+<pre>
+[active none 0x0 525457312 false false object! false]
+[move none 753x583 525457312 false false object! false]
+[move none 113x34 525478640 false false object! false]
+[down none 113x34 525479250 false false object! false]
+[up none 113x34 525479406 false false object! false]
+[move none 113x34 525479406 false false object! false]
+[move none 32767x32767 525487359 false false object! false]
+[inactive none 0x0 525487359 false false object! false]
+[active none 0x0 525613718 false false object! false]
+[close none 132x-8 525613859 false false object! false]
+[move none 135x5 525620421 false false object! false]
+[move none 155x41 525620437 false false object! false]
+[key #"^[" 611x868 525623140 false false object! false]
+[key #"^[" 611x868 525625062 false false object! false]
+[key #"^[" 611x868 525625984 false false object! false]
+[key #"e" 611x868 525627203 false false object! false]
+[key #"e" 611x868 525627765 false false object! false]
+[key #"s" 611x868 525628265 false false object! false]
+[key #"s" 611x868 525628468 false false object! false]
+[key #"s" 611x868 525628656 false false object! false]
+[move none 32767x32767 525630203 false false object! false]
+[inactive none 0x0 525630203 false false object! false]
+</pre>
+<p>Un évenement View est en effet constitué de 8 éléments :</p>
+<center><table border="0" cellspacing="0" cellpadding="4" bgcolor=#ffffff>  
+		<tr class="header-cell" ><td ><strong>
+<p>event/type</p>
+</strong></td><td><strong>
+<p>event/key</p>
+</strong></td><td><strong>
+<p>event/offset</p>
+</strong></td><td><strong>
+<p>event/time</p>
+</strong></td><td><strong>
+<p>event/shift</p>
+</strong></td><td><strong>
+<p>event/control</p>
+</strong></td><td><strong>
+<p>event/face</p>
+</strong></td><td><strong>
+<p>event/8</p>
+</td></tr><tr class="td-cell" ><td>
+<p>flag type <br />
+'down, 'middle-down, 'right-down, (évenements clics souris)<br />
+'up, 'middle-up, 'right-up (évenements clics souris)<br />
+'move (déplacement souris)<br />
+'key (entrée clavier)<br /> 
+'time (évenement time) <br />
+'resize, 'close, 'active, 'inactive (redimensionnement / fermeture fenêtre, activation, ou inactivation fenêtre)</p>
+</td><td>
+<p>flag key <br />
+Renvoie le caractère ASCII ou l'équivalent en mot Rebol de la touche pressée.</p>
+</td><td>
+<p>offset pair <br />
+Position de la souris dans la fenêtre. Cette position est relative au type d'événement envoyé par la souris (down, up).
+Par exemple, le drag-and-drop fournit une position down et la suivante en 'up.
+De plus, dans le cas d'un évenement de type "key", si la souris est à l'extérieur de la fenêtre Rebol, la valeur de l'offset 
+peut être positive ou négative.</p>
+</td><td>
+<p>time stamp</p>
+</td><td>
+<p>flag shift <br />
+Une valeur logique (true ou false) suivant que la touche SHIFT a été ou non pressée.</p>
+</td><td>
+<p>flag control <br />
+Une valeur logique (true ou false) suivant que la touche CTRL a été ou non pressée.</p>
+</td><td>
+<p>object face<br />
+L'objet 'face de plus haut niveau dans la hiérarchie quand l'évenement se produit.</p>
+</td><td>
+<p>flag double-clic<br />
+Une valeur logique (true ou false) suivant qu'un double clic a été produit.</p>
+</td></tr><tr class="td-cell" ><td>
+<p>de quel type est l'evenement ?</p>
+</td><td>
+<p>quelle touche du clavier a été pressée ?</p>
+</td><td>
+<p>position courante</p>
+</td><td>
+<p>timestamp / estampille temporelle</p>
+</td><td>
+<p>touche shift pressée  ?</p>
+</td><td>
+<p>touche control pressée  ?</p>
+</td><td>
+<p>L'objet graphique dans laquelle s'effectue l'action (la 'face).</p>
+</td><td>
+<p>y-a-t-il eu un double-clic ?</p>
+</td></tr><tr class="td-cell" ><td>
+<p>close</p>
+</td><td>
+<p>none</p>
+</td><td>
+<p>130x-8</p>
+</td><td>
+<p>525620218</p>
+</td><td>
+<p>false</p>
+</td><td>
+<p>false</p>
+</td><td>
+<p>object!</p>
+</td><td>
+<p>false</p>
+</td></tr><tr class="td-cell" ><td>
+<p>key</p>
+</td><td>
+<p>&#35;"^["</p>
+</td><td>
+<p>611x868</p>
+</td><td>
+<p>525623140</p>
+</td><td>
+<p>false</p>
+</td><td>
+<p>false</p>
+</td><td>
+<p>object!</p>
+</td><td>
+<p>false</p>
+</td></tr><tr class="td-cell" ><td>
+<p>move</p>
+</td><td>
+<p>none</p>
+</td><td>
+<p>32767x32767</p>
+</td><td>
+<p>525630203</p>
+</td><td>
+<p>false</p>
+</td><td>
+<p>false</p>
+</td><td>
+<p>object!</p>
+</td><td>
+<p>false</p>
+</td></tr></table></center><p>
+<p><br /><br /></p>
+<p><br /><br /></p>
+<p><u>N.B.</u>:<br />
+Il est possible d'inclure un comportement particulier au moniteur global d'évenements via la fonction 'insert-event-func, 
+pour spécialiser certains événements.</p>
+<pre>
+insert-event-func: func [
+{Add a function to monitor global events. Return the func.}
+funct [block! function!] "A function or a function body block"][
+if block? :funct [ funct: func [face event] funct]
+insert system/view/screen-face/feel/event-funcs :funct
+:funct
+]
+</pre>
+<p>Typiquement, on définit une fonction (my-function) ayant en argument une face et un event, qu'on passe à la fonction insert-event-func sous la forme :</p>
+<pre>
+insert-event-func: :my-function
+</pre>
+<p>Il est possible aussi de définir plusieurs fonctions :</p>
+<pre>
+insert-event-func:  [ :my-function1  :my-function2]
+</pre>
+<p>Trés souvent, insert-event-func est utilisé pour capturer des évenements au niveau fenêtre : resize, close, etc ...</p>
+<pre>
+insert-event-func [if event/type = 'resize [ ... faire quelque chose ....] event ]
+</pre>
+<p><br /><br /></p>
+</blockquote>
+<p>
+<div class=top >[ <a href="#top">Retour sommaire</a> ]</div>
+<hr />
+
+<h2 id="section-9">9. Conclusion</h2>
+<blockquote>
+<p>Cet article avait pour objet de présenter quelques caractéristiques et notions essentielles de View.</p>
+<p>En guise de conclusion, quelques rappels de bon sens pour le codage :</p>
+</blockquote>
+<p>
+<h3 id="section-9.1">9.1 La séparation du code et des données</h3>
+<blockquote>
+<p><u>Typiquement</u> : variabiliser tout ce qui peut l'être et mettre en début de script les déclarations des variables 
+(affectations des tailles, couleurs génériques,...).</p>
+</blockquote>
+<p>
+<h3 id="section-9.2">9.2 L'usage de templates et/ou de feuilles de style</h3>
+<blockquote>
+<p>RT suggère dans sa documentation d'utiliser les feuilles de styles définies par les fonctions style et stylize.
+Le style peut être spécifié dans un fichier à part, de façon à modifier l'apparence des GUI juste en modifiant ce fichier.
+De plus, ceci allége considérablement les efforts de mise à jour.</p>
+</blockquote>
+<p>
+<h3 id="section-9.3">9.3 Charte graphique</h3>
+<blockquote>
+<p>Adopter une charte graphique qui soit simple (KIS - Keep It Simple) et visuelle : un bon dessin vaut mieux qu'un bon discours. <br />
+L'interface doit être intuitive, et faire usage des raccourcis clavier, de couleurs types, voire de positionnements standards 
+(ex. le bouton OK à droite d'un bouton Cancel). Cf. les interfaces Apple, par exemple.</p>
+</blockquote>
+<p>
+<h3 id="section-9.4">9.4 L'identification et la protection des objets</h3>
+<blockquote>
+<p><u>Exemple</u> :<br /></p>
+<pre>
+Test: layout [bt-ok: button red "OK" ]
+</pre>
+<p>Le <strong>layout</strong> est ici nommé (test), de même que les widgets qui servent à composer l'interface.</p>
+<p>RT suggère là encore :</p>
+<ul>
+<li>d'utiliser des contextes : l'usage de contextes ou d'objets permet de simplifier et fiabiliser le code, 
+notamment en évitant les télescopages de noms de variables dans l'espace des noms. <br />
+Cette pratique devrait être aussi associée à une séparation de la logique du code : <br />
+un contexte pour la visualisation, un autre pour le traitement des données. <br />
+Par ailleurs, chaque widget (btn, text, ...) étant un objet, l'usage des paths paraît aussi utile.</li>
+</ul>
+<p>Pour nommer les éléments graphiques, une règle de nommage devrait être employée :</p>
+<p>Les règles utilisées avec Visual Basic peuvent être un exemple : <br />
+il s'agit de la notation dite "hongroise" explicitée 
+par le célébre programmeur Charles Simonyi : les variables sont préfixées par des lettres minuscules décrivant leur nature.<br /></p>
+<p>On a le schéma suivant  <typ>-<usage> : btn-save, txt-info, fld-nom <br />
+pour respectivement :  un bouton déclenchant l'affichage, un libellé d'informations, un champ texte (field) pour la saisie d'un nom.</p>
+<p>Le nom même des objets doit être explicites et renseigner sur leur nature et/ou leur fonction.</p>
+<p>Carl Sassenrath utilise souvent l'item "lyo" pour décrire des layouts. <br />
+(edit-lyo, pour une fenêtre d'éditeur, save-lyo pour celle qui permet de valider la sauvegarde d'un fichier, ...)</p>
+<p>De plus, dans le code lui-même, (et c'est assez simple à réaliser avec l'auto-completion 
+d'un éditeur comme EditPlus ou Crimson Editor), avoir des règles simples :</p>
+<ul>
+<li>décrire systématiquement les fonctions, et leurs raffinements</li>
+<li>terminer les longs blocs (boucles foreach, while, blocs either) par des libellés explicites :</li>
+</ul>
+<pre>
+;fin de la boucle foreach  , ; fin du either , etc.
+</pre>
+<ul>
+<li>séparer visuellement les sections du code par des lignes :</li>
+</ul>
+<pre>
+";------ début fonction ----"
+</pre>
+<p>avec des commentaires indiquant l'objet de chaque section.</p>
+</blockquote>
+<p>
+<h3 id="section-9.5">9.5 Documenter son code <br /></h3>
+<blockquote>
+<p>Même si les scripts Rebol sont "relativement" courts du fait de la concision du langage, 
+il est parfois difficile (justement tant il est concis !) de re-lire du code.<br /> 
+De plus, la souplesse du langage fait que le même résultat 
+peut être obtenu par du code plus ou moins "naturel".
+Il est donc judicieux de le documenter  : indiquer à quoi servent les fonctions, les variables, ...</p>
+<p>Ce qui peut permettre via un outil comme Rapid (Rebol Api Documentator, de Christophe Coussement) 
+de mettre à jour et de pérenniser la documentation.<br /></p>
+</blockquote>
+<p>
+<h3 id="section-9.6">9.6 Utiliser un système de gestion de version</h3>
+<blockquote>
+<p>Ceci peut être fait avec  un outil comme CVS, ou un outil sur mesure 
+qui utiliserait les "headers" des scripts Rebol. 
+A supposer que ces headers soient documentés, il est possible d'y inclure 
+les changements de version, avec leur raison par-rapport aux évolutions. 
+Un outil comme TortoiseCVS permet d'avoir, à moindre frais, une gestion évoluée de version.</p>
+</blockquote>
+<p>
+<h3 id="section-9.7">9.7 Pour la création des éléments graphiques</h3>
+<blockquote>
+<p>Dans le cas de l'usage du VID avec la fonction 'layout, il faut se rappeler que l'argument de celle-ci est un bloc.</p>
+<p><u>Méthode 'append sur le bloc du 'layout</u> :<br /></p>
+<p>Une technique consiste donc à travailler avec la fonction 'append, par ajout de blocs successifs à un bloc initial.</p>
+<pre>
+fenetre: []
+append fenetre reduce compose/deep ['button ..........]
+</pre>
+<p>A ce moment, le <strong>layout</strong> n'est pas construit : c'est simplement un bloc dans lequel on a rajouté un 'button, 'text, etc...</p>
+<pre>
+fen: layout fenetre
+</pre>
+<p>le bloc a été transformé en <strong>layout</strong> - objet graphique</p>
+<pre>
+view fen
+</pre>
+<p>le <strong>layout</strong> est visualisé.</p>
+<p><u>Exemple</u> :</p>
+<pre>
+; couleur de fond et effet "grille" (dépend des versions de View !)
+en-tete: [ backcolor coal + 50 ] ;backeffect [grid 5x5 white] }
+my-bloc: copy []
+
+add-widgets: func [
+{crée un ensemble de boite de couleurs et positions aléatoires}
+blk [block!] var-i  [integer!]  var-size [pair!] var-offset [pair!]  
+/local i 
+][ 
+
+for i 1 var-i 1 [
+append blk reduce compose/deep [
+'at (as-pair random var-offset/x random var-offset/y)
+'box random 255.255.255 (as-pair random var-size/x random var-size/y)
+]
+] ; fin du for
+] ; fin de la fonction
+
+append my-bloc en-tete
+add-widgets my-bloc 15 60x80 300x300
+; ajoute 15 composants box 
+
+; affichage
+lay-test: layout my-bloc
+view lay-test
+</pre>
+<p>Ici la fonction add-widgets génère le corps principal du layout.</p>
+<p><u>Méthode 'append sur un conteneur 'pane</u> :<br /></p>
+<p>Sur le même principe, il est possible d'utiliser la méthode 'append pour construire un objet complexe.
+Typiquement, dans le cas d'un widget utilisé comme conteneur, l'attribut 'pane sera un bloc = la collection de sous objets.</p>
+<p><u>Méthode par fonctions</u> :<br /></p>
+<p>En particulier dans le cas d'interfaces graphiques nécessitant plusieurs fenêtres, 
+et une forte interactivité avec l'utilisateur, il est préférable d'utiliser des fonctions 
+pour générer l'interface et  manipuler son comportement.</p>
+<p>Les fonctions sont en général définies avant, et c'est l'appel de la fonction qui effectuera 
+soit l'ajout d'un élément graphique, soit l'affichage d'une fenêtre, soit une réaction particulière.</p>
+<p>Un bon exemple de cette méthodologie se trouve dans le livre "Rebol" d'Olivier Auverlot, avec le jeu de "Space invaders".</p>
+</blockquote>
+</p><hr></div>
+<p><div align="center">PLG-MakeDoc2 - 7-Apr-2005</div>
+</p>
+</body></html>

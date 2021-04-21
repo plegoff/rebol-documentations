@@ -1,0 +1,325 @@
+%PDF-1.3
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 4 0 R>>
+endobj
+4 0 obj
+<</Length 1336>>
+stream
+2 J
+0.57 w
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (Bye bye l'objet system) Tj ET Q
+0.57 w
+BT /F2 26.00 Tf ET
+q 0.502 g BT 118.24 656.92 Td (The REBOL Documentation) Tj ET Q
+q 0.502 g BT 243.04 631.41 Td (Project) Tj ET Q
+BT /F1 8.00 Tf ET
+q 0.502 g BT 224.74 616.97 Td (-- FR - Documentation REBOL - Divers --) Tj ET Q
+0.85 w
+BT /F2 20.00 Tf ET
+q 0.502 g BT 73.70 423.45 Td (Divers) Tj ET Q
+BT /F3 22.00 Tf ET
+297.64 436.54 m 297.64 413.86 l S q 0.000 g BT 300.47 418.60 Td (Bye bye l'objet system) Tj ET Q
+297.64 413.86 m 297.64 391.18 l S 
+BT /F4 16.00 Tf ET
+297.64 391.18 m 297.64 374.17 l S q 0.000 g BT 409.15 377.88 Td (Philippe Le Goff ) Tj ET Q
+BT /F4 12.00 Tf ET
+297.64 374.17 m 297.64 357.17 l S q 0.000 g BT 307.92 362.07 Td (Première publication : 8 juin 2006, et mis en) Tj ET Q
+297.64 357.17 m 297.64 340.16 l S q 0.000 g BT 398.24 345.06 Td (ligne le  jeudi 8 juin 2006) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 73.70 253.54 Td (Résumé :) Tj ET 73.70 252.54 45.01 -0.50 re f Q
+BT /F4 8.00 Tf ET
+q 0.000 g BT 73.70 239.96 Td (Traduction de l'article 20 du blog REbol 3.0, sur l'objet system) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 1/3) Tj ET Q
+
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 6 0 R>>
+endobj
+6 0 obj
+<</Length 5510>>
+stream
+2 J
+0.85 w
+BT /F4 8.00 Tf ET
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (Bye bye l'objet system) Tj ET Q
+BT /F4 8.00 Tf ET
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 780.78 Td ( ) Tj ET Q
+q 0.000 g BT 76.48 780.78 Td (Bye bye l'objet system ?) Tj ET Q
+q 0.000 g BT 73.70 766.61 Td ( ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 73.70 752.43 Td (Carl Sassenrath, CTO REBOL Technologies 4-May-2006 17:39 GMT Article #0020) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 738.26 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 724.09 Td (Bien... si toutes ces discussions sur REBOL 3.0 ne vous ont pas fait réfléchir, voici quelque chose) Tj ET Q
+q 0.000 g BT 73.70 709.91 Td (qui le fera...) Tj ET Q
+q 0.000 g BT 73.70 695.74 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 681.57 Td (Je pense y avoir fait allusion avant : l'objet ) Tj ET Q
+q 0.000 g BT 263.48 681.57 Td (system) Tj ET Q
+q 0.000 g BT 295.15 681.57 Td ( est problématique car il induit implicitement un) Tj ET Q
+q 0.000 g BT 73.70 667.39 Td (modèle de partage. \(Je savais cela lorsque je l'ai introduit, et je savais qu'un jour viendrait où cela) Tj ET Q
+q 0.000 g BT 73.70 653.22 Td (devra être changé.\)) Tj ET Q
+q 0.000 g BT 73.70 639.05 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 624.87 Td (Le problème :) Tj ET Q
+q 0.000 g BT 73.70 610.70 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 596.53 Td (L'objet ) Tj ET Q
+q 0.000 g BT 105.63 596.53 Td (system) Tj ET Q
+q 0.000 g BT 137.30 596.53 Td ( permet d'accéder à la plupart des informations sur l'état interne de REBOL.  Cette) Tj ET Q
+q 0.000 g BT 73.70 582.35 Td (information est souvent renvoyée sous la forme d'objets. Au sein d'un système multitâche et) Tj ET Q
+q 0.000 g BT 73.70 568.18 Td (modulaire, de  tels objets sont problématiques.) Tj ET Q
+q 0.000 g BT 73.70 554.01 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 539.83 Td (Il y a deux problèmes majeurs :) Tj ET Q
+q 0.000 g BT 73.70 525.66 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 511.49 Td ( 1. La plupart de ces objets devront devenir des modules indépendants.   Par exemple,) Tj ET Q
+q 0.000 g BT 73.70 497.32 Td (l'environnement View devra devenir un module de REBOL, qui exportera les fonctions nécessaires  à) Tj ET Q
+q 0.000 g BT 73.70 483.14 Td (votre programme. \(Ne vous inquiétez pas, vous pourrez encore obtenir le module View et son code,) Tj ET Q
+q 0.000 g BT 73.70 468.97 Td (mais   l'accès se fera d'une manière plus spécifique.\)) Tj ET Q
+q 0.000 g BT 73.70 454.80 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 440.62 Td ( 2. Si vous avez à partager des objets entre modules et tâches, que se passera-t-il   Si l'un des) Tj ET Q
+q 0.000 g BT 73.70 426.45 Td (modules/tâches modifie l'objet partagé ? Est-ce que ce sera "surprise !" dans   les autres modules.) Tj ET Q
+q 0.000 g BT 73.70 412.28 Td (Cela peut aussi devenir un trou de sécurité.) Tj ET Q
+q 0.000 g BT 73.70 398.10 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 383.93 Td (La Solution :) Tj ET Q
+q 0.000 g BT 73.70 369.76 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 355.58 Td (Nous allons avoir besoin, soit de supprimer l'objet ) Tj ET Q
+q 0.000 g BT 296.25 355.58 Td (system) Tj ET Q
+q 0.000 g BT 327.92 355.58 Td (, soit au moins de changer la manière dont ) Tj ET Q
+q 0.000 g BT 73.70 341.41 Td (l'objet ) Tj ET Q
+q 0.000 g BT 102.29 341.41 Td (system) Tj ET Q
+q 0.000 g BT 133.96 341.41 Td ( fonctionne et ce qu'il contient.) Tj ET Q
+q 0.000 g BT 73.70 327.24 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 313.06 Td (Regardons cela d'un peu plus prés. Si vous tapez : "help system", voici ce que vous obtenez :) Tj ET Q
+q 0.000 g BT 73.70 298.89 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 284.72 Td ( 	version tuple ! 1.3.2.3.1 	build date ! 5-Dec-2005/18:22:54-8:00 	product word ! View 	core tuple !) Tj ET Q
+q 0.000 g BT 73.70 270.54 Td (2.6.3 	components block ! length : 54 	words object ! [unset ! error ! datatype ! context ! native !) Tj ET Q
+q 0.000 g BT 73.70 256.37 Td (action ! ... 	license string ! ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 189.31 256.37 Td (REBOL End User License Agreement IMPORTANT. READ ...) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 462.73 256.37 Td ( 	options) Tj ET Q
+q 0.000 g BT 73.70 242.20 Td (object ! [home script path boot args do-arg link-url server... 	user object ! [name email home words]) Tj ET Q
+q 0.000 g BT 73.70 228.02 Td (	script object ! [title header parent path args words] 	console object ! [history keys prompt result) Tj ET Q
+q 0.000 g BT 73.70 213.85 Td (escape busy tab-size b... 	ports object ! [input output echo system serial wait-list] 	network object !) Tj ET Q
+q 0.000 g BT 73.70 199.68 Td ([host host-address] 	schemes object ! [default Finger Whois Daytime SMTP ESMTP POP IMAP ...) Tj ET Q
+q 0.000 g BT 73.70 185.50 Td (	error object ! [throw note syntax script math access command resv... 	standard object ! [script port) Tj ET Q
+q 0.000 g BT 73.70 171.33 Td (port-flags email face sound] 	view object ! [screen-face focal-face caret highlight-start high... 	stats) Tj ET Q
+q 0.000 g BT 73.70 157.16 Td (native ! System statistics. Default is to return total memo... 	locale object ! [months days]) Tj ET Q
+q 0.000 g BT 73.70 142.98 Td (	user-license object ! [name email id message] ) Tj ET Q
+q 0.000 g BT 73.70 128.81 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 114.64 Td (Vous pouvez séparer cette liste en différentes catégories de solution :) Tj ET Q
+q 0.000 g BT 73.70 100.46 Td ( ) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 2/3) Tj ET Q
+
+endstream
+endobj
+7 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 8 0 R>>
+endobj
+8 0 obj
+<</Length 4277>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 73.70 819.05 Td (Bye bye l'objet system) Tj ET Q
+q 0.000 g BT 73.70 794.95 Td ( 	) Tj ET Q
+q 0.000 g BT 79.26 794.95 Td (Bloqué) Tj ET Q
+q 0.000 g BT 110.39 794.95 Td (	Certain de ces champs ne sont pas un problème car nous pouvons  	bloquer leur) Tj ET Q
+q 0.000 g BT 73.70 780.78 Td (modification. Par exemple, les programmes ne pourraient pas  	modifier cette genre de champ.) Tj ET Q
+q 0.000 g BT 73.70 766.61 Td (Beaucoup d'autres tombent dans cette catégorie.) Tj ET Q
+q 0.000 g BT 73.70 752.43 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 738.26 Td ( 	) Tj ET Q
+q 0.000 g BT 79.26 738.26 Td (Local) Tj ET Q
+q 0.000 g BT 103.16 738.26 Td (	Certains champs sont "relatifs au contexte". Par exemple, un module dans votre script ) Tj ET Q
+q 0.000 g BT 73.70 724.09 Td (	\("l'environnement global de votre script"\) pourrait accéder à l'objet system, mais les autres modules) Tj ET Q
+q 0.000 g BT 73.70 709.91 Td (ne le pourraient pas. Certains champs pourraient être "relatifs au contexte".) Tj ET Q
+q 0.000 g BT 73.70 695.74 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 681.57 Td ( 	) Tj ET Q
+q 0.000 g BT 79.26 681.57 Td (Remplacé) Tj ET Q
+q 0.000 g BT 124.27 681.57 Td (	Certains champs comme schemes et View sont remplacés par des modules. Je ne suis) Tj ET Q
+q 0.000 g BT 73.70 667.39 Td (pas sûr  	que ces champs aient encore du sens ici, dans l'objet ) Tj ET Q
+q 0.000 g BT 354.08 667.39 Td (system) Tj ET Q
+q 0.000 g BT 385.75 667.39 Td (.) Tj ET Q
+q 0.000 g BT 73.70 653.22 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 639.05 Td ( 	) Tj ET Q
+q 0.000 g BT 79.26 639.05 Td (Supprimé) Tj ET Q
+q 0.000 g BT 122.05 639.05 Td (	Par exemple, l'objet words est supprimé. Il n'y a plus de liste globale de mots et de) Tj ET Q
+q 0.000 g BT 73.70 624.87 Td (valeurs. Les mots sont relatifs à leurs modules. \(Mais il peut être possible d'avoir une liste de mots ) Tj ET Q
+q 0.000 g BT 73.70 610.70 Td (	pour contenir les mots et valeurs du module courant, donc peut-être qu'elle pourrait être déplacée ) Tj ET Q
+q 0.000 g BT 73.70 596.53 Td (	dans la catégorie "locale" ci-dessus.  	) Tj ET Q
+q 0.000 g BT 73.70 582.35 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 568.18 Td (System en tant que fonction ?) Tj ET Q
+q 0.000 g BT 73.70 554.01 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 539.83 Td (Une solution pourrait être de transformer ) Tj ET Q
+q 0.000 g BT 256.55 539.83 Td (system) Tj ET Q
+q 0.000 g BT 288.22 539.83 Td ( en une fonction et plus en objet.  Ceci pourrait être) Tj ET Q
+q 0.000 g BT 73.70 525.66 Td (fait pour fonctionner avec de nombreux appels :) Tj ET Q
+q 0.000 g BT 73.70 511.49 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 483.14 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 468.97 Td (	print system/version) Tj ET Q
+q 0.000 g BT 73.70 454.80 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 426.45 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 412.28 Td (L'avantage est que la fonction system pourrait dynamiquement créer les valeurs demandées.) Tj ET Q
+q 0.000 g BT 73.70 398.10 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 383.93 Td (Mais cette approche fonctionnelle va introduire une rupture dans les scripts qui définissent  certaines) Tj ET Q
+q 0.000 g BT 73.70 369.76 Td (valeurs directement, comme avec :) Tj ET Q
+q 0.000 g BT 73.70 355.58 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 327.24 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 313.06 Td (	system/options/binary-base : 64) Tj ET Q
+q 0.000 g BT 73.70 298.89 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 270.54 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 256.37 Td (\(Ceci étant, cela vous fait penser qu'une telle notation suggère une fonction set-path qui  peut avoir) Tj ET Q
+q 0.000 g BT 73.70 242.20 Td (son intérêt pour des fonctions. Mais, ne nous laissons pas distraire pour le moment\).) Tj ET Q
+q 0.000 g BT 73.70 228.02 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 213.85 Td (Voilà, vous avez matière à réflexion. Le problème n'est pas urgent actuellement, mais il sera) Tj ET Q
+q 0.000 g BT 73.70 199.68 Td (nécessaire de  le résoudre dans les semaines à venir.) Tj ET Q
+q 0.000 g BT 73.70 185.50 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 171.33 Td (\(Traduction : Philippe Le Goff\)) Tj ET Q
+BT /F6 8.00 Tf ET
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 3/3) Tj ET Q
+
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R 7 0 R ]
+/Count 3
+/MediaBox [0 0 595.28 841.89]
+>>
+endobj
+9 0 obj
+<</Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+10 0 obj
+<</Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+11 0 obj
+<</Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+12 0 obj
+<</Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+13 0 obj
+<</Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+14 0 obj
+<</Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 9 0 R
+/F2 10 0 R
+/F3 11 0 R
+/F4 12 0 R
+/F5 13 0 R
+/F6 14 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+15 0 obj
+<<
+/Producer (FPDF 1.53)
+/Title (Bye bye l'objet system)
+/Subject (Divers)
+/Author (Philippe Le Goff )
+/Keywords (DOCUMENTATION)
+/Creator (The REBOL Documentation Project)
+/CreationDate (D:20060622120128)
+>>
+endobj
+16 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 17
+0000000000 65535 f 
+0000011921 00000 n 
+0000012615 00000 n 
+0000000009 00000 n 
+0000000222 00000 n 
+0000001608 00000 n 
+0000001821 00000 n 
+0000007381 00000 n 
+0000007594 00000 n 
+0000012020 00000 n 
+0000012116 00000 n 
+0000012211 00000 n 
+0000012309 00000 n 
+0000012408 00000 n 
+0000012510 00000 n 
+0000012774 00000 n 
+0000012998 00000 n 
+trailer
+<<
+/Size 17
+/Root 16 0 R
+/Info 15 0 R
+>>
+startxref
+13102
+%%EOF

@@ -1,0 +1,282 @@
+%PDF-1.3
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 4 0 R>>
+endobj
+4 0 obj
+<</Length 1238>>
+stream
+2 J
+0.57 w
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td ("Copy or not copy", telle est la question.) Tj ET Q
+0.57 w
+BT /F2 26.00 Tf ET
+q 0.502 g BT 118.24 656.92 Td (The REBOL Documentation) Tj ET Q
+q 0.502 g BT 243.04 631.41 Td (Project) Tj ET Q
+BT /F1 8.00 Tf ET
+q 0.502 g BT 224.74 616.97 Td (-- FR - Documentation REBOL - Divers --) Tj ET Q
+0.85 w
+BT /F2 20.00 Tf ET
+q 0.502 g BT 73.70 423.45 Td (Divers) Tj ET Q
+BT /F3 22.00 Tf ET
+297.64 436.54 m 297.64 413.86 l S q 0.000 g BT 300.47 418.60 Td ("Copy or not copy",) Tj ET Q
+297.64 413.86 m 297.64 391.18 l S q 0.000 g BT 300.47 395.92 Td (telle est la question.) Tj ET Q
+297.64 391.18 m 297.64 368.50 l S 
+BT /F4 16.00 Tf ET
+297.64 368.50 m 297.64 351.50 l S q 0.000 g BT 409.15 355.20 Td (Philippe Le Goff ) Tj ET Q
+BT /F4 12.00 Tf ET
+297.64 351.50 m 297.64 334.49 l S q 0.000 g BT 312.92 339.39 Td (Première publication : 30 avril 2006, et mis) Tj ET Q
+297.64 334.49 m 297.64 317.48 l S q 0.000 g BT 351.93 322.38 Td (en ligne le  dimanche 30 avril 2006) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F5 8.00 Tf ET
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 1/3) Tj ET Q
+
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 6 0 R>>
+endobj
+6 0 obj
+<</Length 4707>>
+stream
+2 J
+0.85 w
+BT /F4 12.00 Tf ET
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td ("Copy or not copy", telle est la question.) Tj ET Q
+BT /F4 12.00 Tf ET
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 780.78 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 76.48 780.78 Td (Carl Sassenrath, CTO REBOL Technologies 9-Apr-2006 18:03 GMT Article #0006) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 766.61 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 752.43 Td (Ok, ce sujet est profond et vaste, mais je veux vous faire réfléchir là dessus ...) Tj ET Q
+q 0.000 g BT 73.70 738.26 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 724.09 Td (Un problème que nous devons régler très bientôt est celui rencontré lorsqu'on copie  ou lorsqu'on ne) Tj ET Q
+q 0.000 g BT 73.70 709.91 Td (copie pas des séries REBOL \(strings, blocks, etc.\).  Ce problème a un impact toutes les versions de) Tj ET Q
+q 0.000 g BT 73.70 695.74 Td (REBOL et est important parce que les règles pour copier/ne-pas-copier  doivent être fortement) Tj ET Q
+q 0.000 g BT 73.70 681.57 Td (présentes dans votre esprit, tandis que vous programmez en REBOL.) Tj ET Q
+q 0.000 g BT 73.70 667.39 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 653.22 Td (Par exemple, voici le simple cas, où vous utilisez des chaînes de caractères littérales en REBOL, ) Tj ET Q
+q 0.000 g BT 73.70 639.05 Td (comme dans une fonction :) Tj ET Q
+q 0.000 g BT 73.70 624.87 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.70 611.30 Td (         fun: func [str] [append "example " str]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 596.53 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 582.35 Td (La plupart d'entre vous reconnaisse ce problème. La première fois, nous appelons la fonction :) Tj ET Q
+q 0.000 g BT 73.70 568.18 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.70 554.61 Td (         print fun "test") Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 540.43 Td (         example test) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 525.66 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 511.49 Td (et la seconde fois :) Tj ET Q
+q 0.000 g BT 73.70 497.32 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.70 483.74 Td (         print fun "this") Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 469.57 Td (         example testthis) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 454.80 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 440.62 Td (La chaîne littérale a été modifiée. Pour prévenir cela, vous deviez écrire :) Tj ET Q
+q 0.000 g BT 73.70 426.45 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.70 412.88 Td (         fun: func [str] [append copy "example " str]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 398.10 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 383.93 Td (C'est l'une des premières choses qu'un débutant apprend - et, habituellement, en s'étant fait avoir.) Tj ET Q
+q 0.000 g BT 73.70 369.76 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 355.58 Td (Mais, le problème devient vite vraiment important rapidement rapidement parce qu'il s'applique à ) Tj ET Q
+q 0.000 g BT 73.70 341.41 Td (toutes les séries de REBOL \(series !\) soit les blocs, des parens, des noms de fichier, des URLs,) Tj ET Q
+q 0.000 g BT 73.70 327.24 Td (etc...) Tj ET Q
+q 0.000 g BT 73.70 313.06 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 298.89 Td (Par exemple, quand vous créez un objet de cette manière :) Tj ET Q
+q 0.000 g BT 73.70 284.72 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.70 271.14 Td (         obj-body: [a: 10 b: [print a]]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 256.97 Td (         obj1: make object! obj-body) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 242.80 Td (         obj2: make object! obj-body) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 228.02 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 213.85 Td (Vous percevez notre problème si le bloc obj-body doit être copié avant qu'il soit lié \(binding des) Tj ET Q
+q 0.000 g BT 73.70 199.68 Td (variables attributs de l'objet\).  Le "obj-body" original est modifié par la fonction make.  Si vous ne) Tj ET Q
+q 0.000 g BT 73.70 185.50 Td (savez pas cela, vous pourriez être étonné. Surprise !) Tj ET Q
+q 0.000 g BT 73.70 171.33 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 157.16 Td (La même chose peut être dite à propos des spécifications ou du corps de fonctions, etc.) Tj ET Q
+q 0.000 g BT 73.70 142.98 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 128.81 Td (De sorte que ce problème vaut la peine d'être revu dans REBOL 3.0.) Tj ET Q
+q 0.000 g BT 73.70 114.64 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 100.46 Td (Il y a deux principes de REBOL qui sont opposés et à l'oeuvre :) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F5 8.00 Tf ET
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 2/3) Tj ET Q
+
+endstream
+endobj
+7 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 8 0 R>>
+endobj
+8 0 obj
+<</Length 2386>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 73.70 819.05 Td ("Copy or not copy", telle est la question.) Tj ET Q
+q 0.000 g BT 73.70 794.95 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 780.78 Td ( 1. Simplicité : nous voulons minimiser les effets de bords dans le code normal.   Bon pour les) Tj ET Q
+q 0.000 g BT 73.70 766.61 Td (débutants et bon probablement aussi pour les experts.) Tj ET Q
+q 0.000 g BT 73.70 752.43 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 738.26 Td ( 2. Optimisation : minimiser le coût mémoire et optimiser la performance.  Si nous avons à copier des) Tj ET Q
+q 0.000 g BT 73.70 724.09 Td (chaînes et des blocs à de nombreux endroits dans notre code, cela   consomme du temps et de la) Tj ET Q
+q 0.000 g BT 73.70 709.91 Td (mémoire.) Tj ET Q
+q 0.000 g BT 73.70 695.74 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 681.57 Td (Ainsi, il y a quelques problèmes auquel vous devriez réfléchir si vous voulez programmer finement) Tj ET Q
+q 0.000 g BT 73.70 667.39 Td (en REBOL.  Nous avons besoin d'une solution bien définie. Elle peut être n'importe laquelle de :) Tj ET Q
+q 0.000 g BT 73.70 653.22 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 639.05 Td ( 1. Ne rien faire. Laisser cela en l'état.) Tj ET Q
+q 0.000 g BT 73.70 624.87 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 610.70 Td ( 2. Modifier là où c'est le plus approprié et le plus optimal.) Tj ET Q
+q 0.000 g BT 73.70 596.53 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 582.35 Td ( 3. Modifier partout et ignorer le surcoût en mémoire et la diminution de performance.) Tj ET Q
+q 0.000 g BT 73.70 568.18 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 554.01 Td (Voici donc quelque chose à considérer la prochaine fois que vous vous relaxerez dans un bar,) Tj ET Q
+q 0.000 g BT 73.70 539.83 Td (fumerez votre  pipe dans votre fauteuil, ou escaladerez les montagnes dans votre coin.) Tj ET Q
+q 0.000 g BT 73.70 525.66 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 511.49 Td (Et, je vous invite à partager vos réflexions avec tout le monde, soit sur le blog dans la section) Tj ET Q
+q 0.000 g BT 73.70 497.32 Td ("comments", ou via votre propre blog ou page web.) Tj ET Q
+q 0.000 g BT 73.70 483.14 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 468.97 Td (\(Traduction : Philippe Le Goff\)) Tj ET Q
+BT /F5 8.00 Tf ET
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 3/3) Tj ET Q
+
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R 7 0 R ]
+/Count 3
+/MediaBox [0 0 595.28 841.89]
+>>
+endobj
+9 0 obj
+<</Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+10 0 obj
+<</Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+11 0 obj
+<</Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+12 0 obj
+<</Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+13 0 obj
+<</Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 9 0 R
+/F2 10 0 R
+/F3 11 0 R
+/F4 12 0 R
+/F5 13 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+14 0 obj
+<<
+/Producer (FPDF 1.53)
+/Title ("Copy or not copy", telle est la question.)
+/Subject (Divers)
+/Author (Philippe Le Goff )
+/Keywords (DOCUMENTATION)
+/Creator (The REBOL Documentation Project)
+/CreationDate (D:20060501202702)
+>>
+endobj
+15 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 16
+0000000000 65535 f 
+0000009129 00000 n 
+0000009721 00000 n 
+0000000009 00000 n 
+0000000222 00000 n 
+0000001510 00000 n 
+0000001723 00000 n 
+0000006480 00000 n 
+0000006693 00000 n 
+0000009228 00000 n 
+0000009324 00000 n 
+0000009419 00000 n 
+0000009517 00000 n 
+0000009616 00000 n 
+0000009869 00000 n 
+0000010113 00000 n 
+trailer
+<<
+/Size 16
+/Root 15 0 R
+/Info 14 0 R
+>>
+startxref
+10217
+%%EOF

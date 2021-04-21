@@ -1,0 +1,411 @@
+%PDF-1.3
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [380.55 220.85 435.22 212.85] /Border [0 0 0] /A <</S /URI /URI (http://mail.rebol.net/maillist/msgs/39458.html)>>>><</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 4 0 R>>
+endobj
+4 0 obj
+<</Length 1560>>
+stream
+2 J
+0.57 w
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (Ruby vs REBOL) Tj ET Q
+0.57 w
+BT /F2 26.00 Tf ET
+q 0.502 g BT 118.24 656.92 Td (The REBOL Documentation) Tj ET Q
+q 0.502 g BT 243.04 631.41 Td (Project) Tj ET Q
+BT /F1 8.00 Tf ET
+q 0.502 g BT 201.17 616.97 Td (-- FR - Documentation REBOL - Articles Techniques --) Tj ET Q
+0.85 w
+BT /F2 20.00 Tf ET
+q 0.502 g BT 73.70 423.45 Td (Articles) Tj ET Q
+q 0.502 g BT 73.70 397.94 Td (Techniques) Tj ET Q
+BT /F3 22.00 Tf ET
+297.64 411.02 m 297.64 388.35 l S q 0.000 g BT 300.47 393.09 Td (Ruby vs REBOL) Tj ET Q
+297.64 388.35 m 297.64 365.67 l S 
+BT /F4 16.00 Tf ET
+297.64 365.67 m 297.64 348.66 l S q 0.000 g BT 451.35 352.37 Td (REBOLtof) Tj ET Q
+BT /F4 12.00 Tf ET
+297.64 348.66 m 297.64 331.65 l S q 0.000 g BT 307.27 336.56 Td (Première publication : 18 novembre 2005, et) Tj ET Q
+297.64 331.65 m 297.64 314.65 l S q 0.000 g BT 310.27 319.55 Td (mis en ligne le  vendredi 18 novembre 2005) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 73.70 228.02 Td (Résumé :) Tj ET 73.70 227.02 45.01 -0.50 re f Q
+BT /F4 8.00 Tf ET
+q 0.000 g BT 73.70 214.45 Td (Cet article est une traduction du message posté par Gregg Irwin sur la mailing list anglophone : ) Tj ET Q
+q 0.000 0.000 1.000 rg BT 380.55 214.45 Td (Ruby vs REBOL) Tj ET 380.55 213.65 54.67 -0.40 re f Q
+q 0.000 g BT 435.22 214.45 Td (.) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 1/3) Tj ET Q
+
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [139.26 788.78 212.06 778.78] /Border [0 0 0] /A <</S /URI /URI (http://mail.rebol.net/maillist/msgs/39458.html)>>>><</Type /Annot /Subtype /Link /Rect [93.54 683.90 146.89 673.90] /Border [0 0 0] /A <</S /URI /URI (#1)>>>><</Type /Annot /Subtype /Link /Rect [93.54 669.72 246.94 659.72] /Border [0 0 0] /A <</S /URI /URI (#2)>>>><</Type /Annot /Subtype /Link /Rect [93.54 655.55 308.07 645.55] /Border [0 0 0] /A <</S /URI /URI (#3)>>>><</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 6 0 R>>
+endobj
+6 0 obj
+<</Length 7116>>
+stream
+2 J
+0.85 w
+BT /F4 8.00 Tf ET
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (Ruby vs REBOL) Tj ET Q
+BT /F4 8.00 Tf ET
+BT /F5 10.00 Tf ET
+q 0.000 g BT 73.70 794.95 Td (Cet article est une traduction du message posté par Gregg Irwin sur la mailing list) Tj ET Q
+q 0.000 g BT 73.70 780.78 Td (anglophone : ) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 0.000 1.000 rg BT 139.26 780.78 Td (Ruby vs REBOL) Tj ET 139.26 779.78 72.80 -0.50 re f Q
+q 0.000 g BT 212.06 780.78 Td (.) Tj ET Q
+q 0.000 g BT 73.70 732.59 Td ( ) Tj ET Q
+q 0.000 g BT 76.48 732.59 Td ( Version : 1.0 ) Tj ET Q
+q 0.000 g BT 73.70 718.42 Td (Date : 18-nov-2005 ) Tj ET Q
+q 0.000 g BT 73.70 704.24 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 690.07 Td ( ) Tj ET Q
+q 0.000 g BT 93.54 690.07 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 675.90 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 675.90 Td (1 Historique) Tj ET 93.54 674.90 53.35 -0.50 re f Q
+q 0.000 g BT 146.89 675.90 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 661.72 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 661.72 Td (2 Comparaison des fonctionnalités) Tj ET 93.54 660.72 153.40 -0.50 re f Q
+q 0.000 g BT 246.94 661.72 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 647.55 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 647.55 Td (3 Du point-de-vue du programmeur pragmatique) Tj ET 93.54 646.55 214.53 -0.50 re f Q
+q 0.000 g BT 308.07 647.55 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 619.20 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 73.70 575.49 Td (1 Historique) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 562.51 Td ( ) Tj ET Q
+q 0.000 g BT 76.48 562.51 Td ( ) Tj ET Q
+q 0.000 g BT 79.26 562.51 Td ( 					) Tj ET Q
+q 0.000 g BT 95.94 562.51 Td ( ) Tj ET Q
+q 0.000 g BT 98.72 562.51 Td ( ) Tj ET Q
+q 0.000 g BT 101.50 562.51 Td ( ) Tj ET Q
+q 0.000 g BT 104.28 562.51 Td ( ) Tj ET Q
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F5 8.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F5 8.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F5 8.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F5 8.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F5 8.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F5 8.00 Tf ET
+1.000 1.000 0.000 rg
+82.96 572.60 57.86 -14.17 re B q 0.000 g BT 85.80 563.11 Td ( Date ) Tj ET Q
+BT /F1 8.00 Tf ET
+1.000 g
+BT /F5 8.00 Tf ET
+1.000 1.000 0.000 rg
+140.83 572.60 40.07 -14.17 re B q 0.000 g BT 143.66 563.11 Td (Version ) Tj ET Q
+BT /F1 8.00 Tf ET
+1.000 g
+BT /F5 8.00 Tf ET
+1.000 1.000 0.000 rg
+180.90 572.60 66.30 -14.17 re B q 0.000 g BT 183.74 563.11 Td (Commentaires ) Tj ET Q
+BT /F1 8.00 Tf ET
+1.000 g
+BT /F5 8.00 Tf ET
+1.000 1.000 0.000 rg
+247.20 572.60 46.74 -14.17 re B q 0.000 g BT 250.03 563.11 Td (Auteur ) Tj ET Q
+BT /F1 8.00 Tf ET
+1.000 g
+BT /F5 8.00 Tf ET
+1.000 1.000 0.000 rg
+293.94 572.60 218.38 -14.17 re B q 0.000 g BT 296.77 563.11 Td (Email ) Tj ET Q
+BT /F1 8.00 Tf ET
+1.000 g
+0.902 0.902 0.902 rg
+82.96 558.43 57.86 -14.17 re B q 0.000 g BT 85.80 548.94 Td ( 18-nov-2005 ) Tj ET Q
+140.83 558.43 40.07 -14.17 re B q 0.000 g BT 143.66 548.94 Td (1.0 ) Tj ET Q
+180.90 558.43 66.30 -14.17 re B q 0.000 g BT 183.74 548.94 Td (initial ) Tj ET Q
+247.20 558.43 46.74 -14.17 re B q 0.000 g BT 250.03 548.94 Td (REBOLtof ) Tj ET Q
+293.94 558.43 218.38 -14.17 re B q 0.000 g BT 296.77 548.94 Td (reboltof&mdash;at&mdash;yahoo&mdash;dot&mdash;com ) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 534.17 Td ( ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 490.45 Td (2 Comparaison des fonctionnalités) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 477.47 Td (  ) Tj ET Q
+q 7.56 0 0 10.39 70.87 465.59 cm /I1 Do Q
+q 0.000 g BT 82.20 463.30 Td (  Ruby est un langage de programmation destiné aux programmeurs. REBOL est un langage utilisé) Tj ET Q
+q 0.000 g BT 70.87 449.13 Td (afin d'échanger de l'information. Et parfois, cette information est un script que l'ordinateur doit) Tj ET Q
+q 0.000 g BT 70.87 434.95 Td (exécuter. ) Tj ET Q
+q 7.56 0 0 10.39 70.87 423.07 cm /I1 Do Q
+q 0.000 g BT 82.20 420.78 Td (  Ruby a environ 40 mots réservés. REBOL n'en a pas. ) Tj ET Q
+q 7.56 0 0 10.39 70.87 408.90 cm /I1 Do Q
+q 0.000 g BT 82.20 406.61 Td (  Ruby a environ 7 types de données. REBOL en a plus de 30. Contrairement à REBOL, Ruby) Tj ET Q
+q 0.000 g BT 70.87 392.43 Td (dispose de nombreuses classes standards \(p.e bignums\). ) Tj ET Q
+q 7.56 0 0 10.39 70.87 380.55 cm /I1 Do Q
+q 0.000 g BT 82.20 378.26 Td (  Certaines fonctionnalités qui sont intégrées à REBOL \(par exemple l'accès au réseau\), ne sont) Tj ET Q
+q 0.000 g BT 70.87 364.09 Td (disponibles que comme librairies pour Ruby. ) Tj ET Q
+q 7.56 0 0 10.39 70.87 352.20 cm /I1 Do Q
+q 0.000 g BT 82.20 349.91 Td (  Ruby est sensible à la casse et utilise des signets \(NdT : je n'en ai pas retrouvé trace dans la doc) Tj ET Q
+q 0.000 g BT 70.87 335.74 Td (de Ruby, et je ne vois pas par quoi d'autre le traduire : sigil = "A seal, a signet or A sign or an image) Tj ET Q
+q 0.000 g BT 70.87 321.57 Td (considered magical"\). REBOL n'est pas sensible à la casse et les mots \(variables\) peuvent contenir) Tj ET Q
+q 0.000 g BT 70.87 307.39 Td (tous les caractères à l'exception de quelques cas particuliers. ) Tj ET Q
+q 7.56 0 0 10.39 70.87 295.51 cm /I1 Do Q
+q 0.000 g BT 82.20 293.22 Td (  Ruby supporte un système de blocs et d'itérateurs très pratique. En REBOL, tout est donnée.) Tj ET Q
+q 0.000 g BT 70.87 279.05 Td (L'évaluation d'une donnée peut vous faire penser que vous êtes en train d'écrire du code. ) Tj ET Q
+q 7.56 0 0 10.39 70.87 267.17 cm /I1 Do Q
+q 0.000 g BT 82.20 264.87 Td (  Ruby est purement orienté objet et a des "mixins" \(NdT : inclusion d'un module dans la définition) Tj ET Q
+q 0.000 g BT 70.87 250.70 Td (d'une classe\) plutôt qu' un système d'héritage multiple. REBOL crée des objets à partir de prototypes.) Tj ET Q
+q 0.000 g BT 70.87 236.53 Td (Un objet en REBOL fourni un contexte et agit comme un espace de nommage. ) Tj ET Q
+q 7.56 0 0 10.39 70.87 224.65 cm /I1 Do Q
+q 0.000 g BT 82.20 222.35 Td (  En Ruby, vous devez programmer en orienté objet \(méthode d'objet\). REBOL a été conçu afin de) Tj ET Q
+q 0.000 g BT 70.87 208.18 Td (vous laisser exprimer des concepts de la manière que vous le désirez. ) Tj ET Q
+q 7.56 0 0 10.39 70.87 196.30 cm /I1 Do Q
+q 0.000 g BT 82.20 194.01 Td (  Ruby a des variables incluses spéciales, comme Perl. REBOL n'en a pas. ) Tj ET Q
+q 7.56 0 0 10.39 70.87 182.13 cm /I1 Do Q
+q 0.000 g BT 82.20 179.83 Td (  Ruby dispose d'expressions régulières \(NdT : "regexes"\). REBOl utilise la fonction PARSE.) Tj ET Q
+q 0.000 g BT 70.87 165.66 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 121.94 Td (3 Du point-de-vue du programmeur pragmatique) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 108.97 Td (  ) Tj ET Q
+q 7.56 0 0 10.39 70.87 97.09 cm /I1 Do Q
+q 0.000 g BT 82.20 94.80 Td (  Ruby dispose d'un débogueur et d'un profileur en standard. REBOL n'en a pas. ) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 2/3) Tj ET Q
+
+endstream
+endobj
+7 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 8 0 R>>
+endobj
+8 0 obj
+<</Length 4891>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (Ruby vs REBOL) Tj ET Q
+q 7.56 0 0 10.39 70.87 797.24 cm /I1 Do Q
+q 0.000 g BT 82.20 794.95 Td (  REBOL dispose d'une fonction d'aide \(NdT : "HELP"\) intégrée et d'une fonction permettant de) Tj ET Q
+q 0.000 g BT 70.87 780.78 Td (visualiser les sources du code \(NdT : "SOURCE"\), avec le support de la réflexion \(chaînes de) Tj ET Q
+q 0.000 g BT 70.87 766.61 Td (documentation\). Ruby utilise un outil séparé afin d'extraire la documentation incluse, qui est écrite) Tj ET Q
+q 0.000 g BT 70.87 752.43 Td (dans un langage de formatage de texte léger. ) Tj ET Q
+q 7.56 0 0 10.39 70.87 740.55 cm /I1 Do Q
+q 0.000 g BT 82.20 738.26 Td (  Vous pouvez écrire des extensions de Ruby en C. REBOL peut faire appel à des DLL. ) Tj ET Q
+q 7.56 0 0 10.39 70.87 726.38 cm /I1 Do Q
+q 0.000 g BT 82.20 724.09 Td (  Comme fonctionnalité particulière, Ruby dispose de "Ruby on Rails" \(NdT : un framework de) Tj ET Q
+q 0.000 g BT 70.87 709.91 Td (développement, voir rubyonrails\). REBOL dispose du Rebcode \(NdT : une sorte de bytecode pour) Tj ET Q
+q 0.000 g BT 70.87 695.74 Td (REBOL, dont l'évaluation est jusqu'à 58 fois plus rapide, voir le blog de Carl\). ) Tj ET Q
+q 0.000 g BT 70.87 681.57 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 667.39 Td (Note du traducteur) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 653.22 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 639.05 Td (la traduction du paragraphe précédent a été adaptée selon les dernières informations provenant de la) Tj ET Q
+q 0.000 g BT 70.87 624.87 Td (mailing-list. ) Tj ET Q
+q 0.000 g BT 123.65 624.87 Td ( ) Tj ET Q
+q 7.56 0 0 10.39 70.87 612.99 cm /I1 Do Q
+q 0.000 g BT 82.20 610.70 Td (  REBOL/View a un système intégré de création d'interface utilisateur \(composition en plein 32-bit) Tj ET Q
+q 0.000 g BT 70.87 596.53 Td (pour chaque face, plus de 14 effets pipeline, engin de dessin AGG\). Ruby doit utiliser un produit) Tj ET Q
+q 0.000 g BT 70.87 582.35 Td (comme Tcl/Tk pour les interfaces utilisateur. ) Tj ET Q
+q 7.56 0 0 10.39 70.87 570.47 cm /I1 Do Q
+q 0.000 g BT 82.20 568.18 Td (  Ruby est plus populaire que REBOL, et semble évoluer plus rapidement. ) Tj ET Q
+q 7.56 0 0 10.39 70.87 556.30 cm /I1 Do Q
+q 0.000 g BT 82.20 554.01 Td (  REBOL peut créer des exécutables sans dépendances externes. ) Tj ET Q
+q 7.56 0 0 10.39 70.87 542.13 cm /I1 Do Q
+q 0.000 g BT 82.20 539.83 Td (  Le REBOL/Core compressé ne prend que environ 190K. 350K pour View. L'installateur de Ruby) Tj ET Q
+q 0.000 g BT 70.87 525.66 Td (pour Windows pèse environ 14.8M \(il contient certains extra comme Tcl/Tk\). ) Tj ET Q
+q 7.56 0 0 10.39 70.87 513.78 cm /I1 Do Q
+q 0.000 g BT 82.20 511.49 Td (  Il n'est pas facile de comparer REBOL avec un langage de programmation, bien qu'il se défende) Tj ET Q
+q 0.000 g BT 70.87 497.32 Td (sur ce terrain. C'est comme comparer des poires et des pommes... Il est vraiment nécessaire de) Tj ET Q
+q 0.000 g BT 70.87 483.14 Td (comparer REBOL à Ruby+XML par exemple. ) Tj ET Q
+q 7.56 0 0 10.39 70.87 471.26 cm /I1 Do Q
+q 0.000 g BT 82.20 468.97 Td (  Ruby est un mélanges d'idées provenant d'autres langages de programmation, avec quelques) Tj ET Q
+q 0.000 g BT 70.87 454.80 Td (nouveautés \(sauf le respect de Matz. Ruby est ce que j'utiliserai si REBOL n'existait pas\). REBOL est) Tj ET Q
+q 0.000 g BT 70.87 440.62 Td (différent, et nous ne savons pas encore comment l'exploiter pleinement. ) Tj ET Q
+q 7.56 0 0 10.39 70.87 428.74 cm /I1 Do Q
+q 0.000 g BT 82.20 426.45 Td (  Ruby est destiné aux programmeurs. REBOL est destiné aux humains. Ruby est meilleur si vous) Tj ET Q
+q 0.000 g BT 70.87 412.28 Td (venez de Perl ou du monde orienté objet, et si vous ne voulez pas trop torturer votre esprit. Faites) Tj ET Q
+q 0.000 g BT 70.87 398.10 Td (simplement les choses dans un langage similaire à ce que vous connaissez, avec quelques) Tj ET Q
+q 0.000 g BT 70.87 383.93 Td (nouveautés. ) Tj ET Q
+q 7.56 0 0 10.39 70.87 372.05 cm /I1 Do Q
+q 0.000 g BT 82.20 369.76 Td (  REBOL est parfait si vous souhaitez assouplir votre esprit et apprendre à penser d'une nouvelle) Tj ET Q
+q 0.000 g BT 70.87 355.58 Td (manière. C'est également un excellent choix si vous désirez construire un langage spécifique à un) Tj ET Q
+q 0.000 g BT 70.87 341.41 Td (domaine \(NdT : "Domaine Specific Langage - DSL"\). Ce concept existe déjà depuis longtemps, mais) Tj ET Q
+q 0.000 g BT 70.87 327.24 Td (est devenu une nouvelle mode dans le collimateur de MS et d'autres. Le système d'interface) Tj ET Q
+q 0.000 g BT 70.87 313.06 Td (utilisateur intégré de REBOL, ainsi que sa petite taille, sont aussi des atouts non négligeables.) Tj ET Q
+BT /F6 8.00 Tf ET
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 3/3) Tj ET Q
+
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R 7 0 R ]
+/Count 3
+/MediaBox [0 0 595.28 841.89]
+>>
+endobj
+9 0 obj
+<</Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+10 0 obj
+<</Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+11 0 obj
+<</Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+12 0 obj
+<</Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+13 0 obj
+<</Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+14 0 obj
+<</Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+15 0 obj
+<</Type /XObject
+/Subtype /Image
+/Width 8
+/Height 11
+/ColorSpace [/Indexed /DeviceRGB 7 16 0 R]
+/BitsPerComponent 8
+/Mask [7 7 ]
+/Length 88>>
+stream
+              
+endstream
+endobj
+16 0 obj
+<</Length 24>>
+stream
+===åååJJJ±±±qqq¤¤¤FFF   
+endstream
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 9 0 R
+/F2 10 0 R
+/F3 11 0 R
+/F4 12 0 R
+/F5 13 0 R
+/F6 14 0 R
+>>
+/XObject <<
+/I1 15 0 R
+>>
+>>
+endobj
+17 0 obj
+<<
+/Producer (FPDF 1.53)
+/Title (Ruby vs REBOL)
+/Subject (Articles Techniques)
+/Author (REBOLtof)
+/Keywords (DOCUMENTATION, Ruby)
+/Creator (The REBOL Documentation Project)
+/CreationDate (D:20051217163140)
+>>
+endobj
+18 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 19
+0000000000 65535 f 
+0000014990 00000 n 
+0000016021 00000 n 
+0000000009 00000 n 
+0000000374 00000 n 
+0000001984 00000 n 
+0000002670 00000 n 
+0000009836 00000 n 
+0000010049 00000 n 
+0000015089 00000 n 
+0000015185 00000 n 
+0000015280 00000 n 
+0000015378 00000 n 
+0000015477 00000 n 
+0000015579 00000 n 
+0000015684 00000 n 
+0000015948 00000 n 
+0000016191 00000 n 
+0000016416 00000 n 
+trailer
+<<
+/Size 19
+/Root 18 0 R
+/Info 17 0 R
+>>
+startxref
+16520
+%%EOF

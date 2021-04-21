@@ -1,0 +1,828 @@
+%PDF-1.3
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 4 0 R>>
+endobj
+4 0 obj
+<</Length 1213>>
+stream
+2 J
+0.57 w
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (Guide de l'auteur) Tj ET Q
+0.57 w
+BT /F2 26.00 Tf ET
+q 0.502 g BT 118.24 656.92 Td (The REBOL Documentation) Tj ET Q
+q 0.502 g BT 243.04 631.41 Td (Project) Tj ET Q
+BT /F1 8.00 Tf ET
+q 0.502 g BT 246.74 616.97 Td (-- FR - Auteur / Traducteur --) Tj ET Q
+0.85 w
+BT /F2 20.00 Tf ET
+q 0.502 g BT 73.70 423.45 Td (Auteur /) Tj ET Q
+q 0.502 g BT 73.70 397.94 Td (Traducteur) Tj ET Q
+BT /F3 22.00 Tf ET
+297.64 411.02 m 297.64 388.35 l S q 0.000 g BT 300.47 393.09 Td (Guide de l'auteur) Tj ET Q
+297.64 388.35 m 297.64 365.67 l S 
+BT /F4 16.00 Tf ET
+297.64 365.67 m 297.64 348.66 l S q 0.000 g BT 451.35 352.37 Td (REBOLtof) Tj ET Q
+BT /F4 12.00 Tf ET
+297.64 348.66 m 297.64 331.65 l S q 0.000 g BT 423.59 336.56 Td ( mardi 12 avril 2005) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 73.70 228.02 Td (Résumé :) Tj ET 73.70 227.02 45.01 -0.50 re f Q
+BT /F4 8.00 Tf ET
+q 0.000 g BT 73.70 214.45 Td (Comment devenir un auteur de documentation ?) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 1/7) Tj ET Q
+
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 6 0 R>>
+endobj
+6 0 obj
+<</Length 9849>>
+stream
+2 J
+0.85 w
+BT /F4 8.00 Tf ET
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (Guide de l'auteur) Tj ET Q
+BT /F4 8.00 Tf ET
+BT /F5 10.00 Tf ET
+q 0.000 g BT 73.70 794.95 Td (Devenir auteur ne revient pas seulement à écrire une documentation et à être publié sur le) Tj ET Q
+q 0.000 g BT 73.70 780.78 Td (site du REBOL Documentation Project. Certaines régles doivent être suivies afin d'adhérer) Tj ET Q
+q 0.000 g BT 73.70 766.61 Td (aux standards que nous nous imposons.  Nous restons donc très stricts sur la qualité du) Tj ET Q
+q 0.000 g BT 73.70 752.43 Td (materiel qui nous est soumis.) Tj ET Q
+BT /F1 10.00 Tf ET
+BT /F5 14.00 Tf ET
+q 0.000 g BT 73.70 674.70 Td (Historique) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 661.72 Td ( ) Tj ET Q
+q 0.000 g BT 76.48 661.72 Td ( ) Tj ET Q
+q 0.000 g BT 79.26 661.72 Td ( 					) Tj ET Q
+q 0.000 g BT 95.94 661.72 Td ( ) Tj ET Q
+q 0.000 g BT 98.72 661.72 Td ( ) Tj ET Q
+q 0.000 g BT 101.50 661.72 Td ( ) Tj ET Q
+q 0.000 g BT 104.28 661.72 Td ( ) Tj ET Q
+q 0.000 g BT 107.06 661.72 Td ( ) Tj ET Q
+q 0.000 g BT 109.84 661.72 Td ( ) Tj ET Q
+q 0.000 g BT 112.62 661.72 Td ( ) Tj ET Q
+q 0.000 g BT 115.40 661.72 Td ( ) Tj ET Q
+q 0.000 g BT 118.18 661.72 Td ( ) Tj ET Q
+q 0.000 g BT 120.96 661.72 Td ( ) Tj ET Q
+q 0.000 g BT 123.74 661.72 Td ( ) Tj ET Q
+q 0.000 g BT 126.52 661.72 Td ( ) Tj ET Q
+q 0.000 g BT 129.30 661.72 Td ( ) Tj ET Q
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F5 8.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F5 8.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F5 8.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F5 8.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F5 8.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F1 7.00 Tf ET
+BT /F5 7.00 Tf ET
+BT /F1 7.00 Tf ET
+BT /F5 7.00 Tf ET
+BT /F1 7.00 Tf ET
+BT /F5 7.00 Tf ET
+BT /F1 7.00 Tf ET
+BT /F5 7.00 Tf ET
+BT /F1 7.00 Tf ET
+BT /F5 7.00 Tf ET
+BT /F1 7.00 Tf ET
+BT /F1 6.00 Tf ET
+BT /F5 6.00 Tf ET
+BT /F1 6.00 Tf ET
+BT /F5 6.00 Tf ET
+BT /F1 6.00 Tf ET
+BT /F5 6.00 Tf ET
+BT /F1 6.00 Tf ET
+BT /F5 6.00 Tf ET
+BT /F1 6.00 Tf ET
+BT /F5 6.00 Tf ET
+BT /F1 6.00 Tf ET
+BT /F5 6.00 Tf ET
+1.000 1.000 0.000 rg
+97.22 671.81 39.51 -14.17 re B q 0.000 g BT 100.06 662.92 Td ( Date ) Tj ET Q
+BT /F1 6.00 Tf ET
+1.000 g
+BT /F5 6.00 Tf ET
+1.000 1.000 0.000 rg
+136.73 671.81 33.85 -14.17 re B q 0.000 g BT 139.57 662.92 Td ( Version ) Tj ET Q
+BT /F1 6.00 Tf ET
+1.000 g
+BT /F5 6.00 Tf ET
+1.000 1.000 0.000 rg
+170.58 671.81 209.08 -14.17 re B q 0.000 g BT 173.42 662.92 Td ( Commentaires ) Tj ET Q
+BT /F1 6.00 Tf ET
+1.000 g
+BT /F5 6.00 Tf ET
+1.000 1.000 0.000 rg
+379.66 671.81 38.85 -14.17 re B q 0.000 g BT 382.50 662.92 Td ( Auteur ) Tj ET Q
+BT /F1 6.00 Tf ET
+1.000 g
+BT /F5 6.00 Tf ET
+1.000 1.000 0.000 rg
+418.52 671.81 79.54 -14.17 re B q 0.000 g BT 421.35 662.92 Td ( Email ) Tj ET Q
+BT /F1 6.00 Tf ET
+1.000 g
+0.902 0.902 0.902 rg
+97.22 657.64 39.51 -14.17 re B q 0.000 g BT 100.06 648.75 Td ( 19-feb-05 ) Tj ET Q
+136.73 657.64 33.85 -14.17 re B q 0.000 g BT 139.57 648.75 Td ( 0.1 ) Tj ET Q
+170.58 657.64 209.08 -14.17 re B q 0.000 g BT 173.42 648.75 Td ( initial ) Tj ET Q
+379.66 657.64 38.85 -14.17 re B q 0.000 g BT 382.50 648.75 Td ( REBOLtof ) Tj ET Q
+418.52 657.64 79.54 -14.17 re B q 0.000 g BT 421.35 648.75 Td ( reboltof at yahoo dot com ) Tj ET Q
+97.22 643.46 39.51 -14.17 re S q 0.000 g BT 100.06 634.58 Td ( 21-feb-05 ) Tj ET Q
+136.73 643.46 33.85 -14.17 re S q 0.000 g BT 139.57 634.58 Td ( 0.2 ) Tj ET Q
+170.58 643.46 209.08 -14.17 re S q 0.000 g BT 173.42 634.58 Td ( finalisation premier draft ) Tj ET Q
+379.66 643.46 38.85 -14.17 re S q 0.000 g BT 382.50 634.58 Td ( REBOLtof ) Tj ET Q
+418.52 643.46 79.54 -14.17 re S q 0.000 g BT 421.35 634.58 Td ( reboltof at yahoo dot com ) Tj ET Q
+0.902 0.902 0.902 rg
+97.22 629.29 39.51 -14.17 re B q 0.000 g BT 100.06 620.40 Td ( 23-feb-05 ) Tj ET Q
+136.73 629.29 33.85 -14.17 re B q 0.000 g BT 139.57 620.40 Td ( 0.3 ) Tj ET Q
+170.58 629.29 209.08 -14.17 re B q 0.000 g BT 173.42 620.40 Td ( ajout d'info / correction de typos ) Tj ET Q
+379.66 629.29 38.85 -14.17 re B q 0.000 g BT 382.50 620.40 Td ( REBOLtof ) Tj ET Q
+418.52 629.29 79.54 -14.17 re B q 0.000 g BT 421.35 620.40 Td ( reboltof at yahoo dot com ) Tj ET Q
+97.22 615.12 39.51 -14.17 re S q 0.000 g BT 100.06 606.23 Td ( 28-feb-05 ) Tj ET Q
+136.73 615.12 33.85 -14.17 re S q 0.000 g BT 139.57 606.23 Td ( 0.4 ) Tj ET Q
+170.58 615.12 209.08 -14.17 re S q 0.000 g BT 173.42 606.23 Td ( ajout d'info / correction de typos / reformattage pour publication sous SPIP ) Tj ET Q
+379.66 615.12 38.85 -14.17 re S q 0.000 g BT 382.50 606.23 Td ( REBOLtof ) Tj ET Q
+418.52 615.12 79.54 -14.17 re S q 0.000 g BT 421.35 606.23 Td ( reboltof at yahoo dot com ) Tj ET Q
+0.902 0.902 0.902 rg
+97.22 600.95 39.51 -14.17 re B q 0.000 g BT 100.06 592.06 Td ( 04-mar-05 ) Tj ET Q
+136.73 600.95 33.85 -14.17 re B q 0.000 g BT 139.57 592.06 Td ( 0.5 ) Tj ET Q
+170.58 600.95 209.08 -14.17 re B q 0.000 g BT 173.42 592.06 Td ( link vers le template est rétablit ) Tj ET Q
+379.66 600.95 38.85 -14.17 re B q 0.000 g BT 382.50 592.06 Td ( REBOLtof ) Tj ET Q
+418.52 600.95 79.54 -14.17 re B q 0.000 g BT 421.35 592.06 Td ( reboltof at yahoo dot com ) Tj ET Q
+97.22 586.77 39.51 -14.17 re S q 0.000 g BT 100.06 577.89 Td ( 04-mar-05 ) Tj ET Q
+136.73 586.77 33.85 -14.17 re S q 0.000 g BT 139.57 577.89 Td ( 0.6 ) Tj ET Q
+170.58 586.77 209.08 -14.17 re S q 0.000 g BT 173.42 577.89 Td ( pbl de ref corrigé \(merci Philippe Le Goff ! ) Tj ET Q
+379.66 586.77 38.85 -14.17 re S q 0.000 g BT 382.50 577.89 Td ( REBOLtof ) Tj ET Q
+418.52 586.77 79.54 -14.17 re S q 0.000 g BT 421.35 577.89 Td ( reboltof at yahoo dot com ) Tj ET Q
+0.902 0.902 0.902 rg
+97.22 572.60 39.51 -14.17 re B q 0.000 g BT 100.06 563.71 Td ( 20-mar-05 ) Tj ET Q
+136.73 572.60 33.85 -14.17 re B q 0.000 g BT 139.57 563.71 Td ( 0.7 ) Tj ET Q
+170.58 572.60 209.08 -14.17 re B q 0.000 g BT 173.42 563.71 Td ( Ajout précision pour le noms des images ) Tj ET Q
+379.66 572.60 38.85 -14.17 re B q 0.000 g BT 382.50 563.71 Td ( REBOLtof ) Tj ET Q
+418.52 572.60 79.54 -14.17 re B q 0.000 g BT 421.35 563.71 Td ( reboltof at yahoo dot com ) Tj ET Q
+97.22 558.43 39.51 -14.17 re S q 0.000 g BT 100.06 549.54 Td ( 12-avr-05 ) Tj ET Q
+136.73 558.43 33.85 -14.17 re S q 0.000 g BT 139.57 549.54 Td ( 0.8 ) Tj ET Q
+170.58 558.43 209.08 -14.17 re S q 0.000 g BT 173.42 549.54 Td ( Ajout procédure utilisation espace rédactionnel de SPIP ) Tj ET Q
+379.66 558.43 38.85 -14.17 re S q 0.000 g BT 382.50 549.54 Td ( REBOLtof ) Tj ET Q
+418.52 558.43 79.54 -14.17 re S q 0.000 g BT 421.35 549.54 Td ( reboltof at yahoo dot com ) Tj ET Q
+0.902 0.902 0.902 rg
+97.22 544.25 39.51 -14.17 re B q 0.000 g BT 100.06 535.37 Td ( 18-avr-05 ) Tj ET Q
+136.73 544.25 33.85 -14.17 re B q 0.000 g BT 139.57 535.37 Td ( 0.9 ) Tj ET Q
+170.58 544.25 209.08 -14.17 re B q 0.000 g BT 173.42 535.37 Td ( Ajout réfèrence à la Procédure de relecture ) Tj ET Q
+379.66 544.25 38.85 -14.17 re B q 0.000 g BT 382.50 535.37 Td ( REBOLtof ) Tj ET Q
+418.52 544.25 79.54 -14.17 re B q 0.000 g BT 421.35 535.37 Td ( reboltof at yahoo dot com ) Tj ET Q
+97.22 530.08 39.51 -14.17 re S q 0.000 g BT 100.06 521.19 Td ( 27-sep-05 ) Tj ET Q
+136.73 530.08 33.85 -14.17 re S q 0.000 g BT 139.57 521.19 Td ( 1.0 ) Tj ET Q
+170.58 530.08 209.08 -14.17 re S q 0.000 g BT 173.42 521.19 Td ( Suppression link vers "articles en cours de rédaction" ) Tj ET Q
+379.66 530.08 38.85 -14.17 re S q 0.000 g BT 382.50 521.19 Td ( REBOLtof ) Tj ET Q
+418.52 530.08 79.54 -14.17 re S q 0.000 g BT 421.35 521.19 Td ( reboltof at yahoo dot com ) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 505.82 Td ( ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 462.10 Td (Ecrire pour le REBOL Documentation Project ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 449.13 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 434.95 Td (Nous sommes toujours à la recherche de programmeurs passionnés qui aimeraient partager leurs) Tj ET Q
+q 0.000 g BT 70.87 420.78 Td (connaissances avec les REBOLeurs de tous les horizons.) Tj ET Q
+q 0.000 g BT 70.87 406.61 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 392.43 Td (Si vous vous sentez inspirés, n'hésitez pas et soumettez-nous votre documentation. Celles-ci prendra) Tj ET Q
+q 0.000 g BT 70.87 378.26 Td (une place bien méritée dans nos rubriques.) Tj ET Q
+q 0.000 g BT 70.87 364.09 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 349.91 Td (Cependant, quelques régles sont à suivre ...) Tj ET Q
+q 0.000 g BT 70.87 335.74 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 292.02 Td (Dans quelle langue puis-je écrire ma documentation ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 279.05 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 264.87 Td (Toutes les langues sont les bienvenues ! Si celle-ci est différente des quatres langues principales du) Tj ET Q
+q 0.000 g BT 70.87 250.70 Td (projet \(Français, Anglais, Neerlandais et Allemand\), la structure nécessaire à accueillir la nouvelle) Tj ET Q
+q 0.000 g BT 70.87 236.53 Td (documentation sera mise en place.) Tj ET Q
+q 0.000 g BT 70.87 222.35 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 178.63 Td (Vais-je être payé pour mon travail ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 165.66 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 151.49 Td (Non.) Tj ET Q
+q 0.000 g BT 70.87 137.32 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 123.14 Td (Votre travail est un travail de volontaire non-rétribué. Votre seule récompense sera la satisfaction) Tj ET Q
+q 0.000 g BT 70.87 108.97 Td (d'avoir contribué à l'essort de REBOL et d'avoir aidé d'autres REBOLeurs à mieux appréhender le) Tj ET Q
+q 0.000 g BT 70.87 94.80 Td (langage.) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 2/7) Tj ET Q
+
+endstream
+endobj
+7 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [432.38 675.39 466.28 665.39] /Border [0 0 0] /A <</S /URI /URI (http://www.rebol.com)>>>><</Type /Annot /Subtype /Link /Rect [70.87 661.22 130.34 651.22] /Border [0 0 0] /A <</S /URI /URI (http://www.rebol.com)>>>><</Type /Annot /Subtype /Link /Rect [295.97 590.35 373.22 580.35] /Border [0 0 0] /A <</S /URI /URI (article.php3?id_article=14)>>>><</Type /Annot /Subtype /Link /Rect [86.43 547.83 124.78 537.83] /Border [0 0 0] /A <</S /URI /URI (IMG/txt/template-md2.txt)>>>><</Type /Annot /Subtype /Link /Rect [307.55 491.14 330.34 481.14] /Border [0 0 0] /A <</S /URI /URI (http://www.spip.net/fr)>>>><</Type /Annot /Subtype /Link /Rect [70.87 420.28 136.46 410.28] /Border [0 0 0] /A <</S /URI /URI (http://www.spip.net/fr_rubrique143.html)>>>><</Type /Annot /Subtype /Link /Rect [351.54 420.28 428.79 410.28] /Border [0 0 0] /A <</S /URI /URI (article.php3?id_article=14)>>>><</Type /Annot /Subtype /Link /Rect [247.07 250.20 302.65 240.20] /Border [0 0 0] /A <</S /URI /URI (article.php3?id_article=7)>>>><</Type /Annot /Subtype /Link /Rect [70.87 136.81 184.26 126.81] /Border [0 0 0] /A <</S /URI /URI (article.php3?id_article=105)>>>><</Type /Annot /Subtype /Link /Rect [86.43 108.46 124.78 98.46] /Border [0 0 0] /A <</S /URI /URI (IMG/txt/template-SPIP.txt)>>>><</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 8 0 R>>
+endobj
+8 0 obj
+<</Length 5882>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (Guide de l'auteur) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 751.23 Td (Sous quel format dois-je écrire ma documentation ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 738.26 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 724.09 Td (MakeDoc2) Tj ET Q
+q 0.000 g BT 70.87 709.91 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 695.74 Td (REBOL est un langage de programmation qui va directement à la résolution du problème. Nous) Tj ET Q
+q 0.000 g BT 70.87 681.57 Td (voulons que l'auteur de la documentation puisse se consacrer au ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 361.26 681.57 Td (fond) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 380.72 681.57 Td ( plutôt qu'à la ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 442.67 681.57 Td (forme) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 468.23 681.57 Td (. Pour cette) Tj ET Q
+q 0.000 g BT 70.87 667.39 Td (raison avons-nous décidé d'utiliser le format officiel de la documentation issue de ) Tj ET Q
+q 0.000 0.000 1.000 rg BT 432.38 667.39 Td (REBOL) Tj ET 432.38 666.39 33.90 -0.50 re f Q
+q 0.000 0.000 1.000 rg BT 70.87 653.22 Td (Technologies) Tj ET 70.87 652.22 59.47 -0.50 re f Q
+q 0.000 g BT 130.34 653.22 Td ( : ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 138.68 653.22 Td (MakeDoc2) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 186.47 653.22 Td (.) Tj ET Q
+q 0.000 g BT 70.87 639.05 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 624.87 Td (Toute documentation qui nous est soumise pour publication devra au minimum l'être sous la forme) Tj ET Q
+q 0.000 g BT 70.87 610.70 Td (d'un fichier "plain texte" respectant les conventions de formattage de ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 376.70 610.70 Td (MakeDoc2) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 424.49 610.70 Td (.) Tj ET Q
+q 0.000 g BT 70.87 596.53 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 582.35 Td (Vous trouverez les liens nécessaires dans la page ) Tj ET Q
+q 0.000 0.000 1.000 rg BT 295.97 582.35 Td (Téléchargements) Tj ET 295.97 581.35 77.25 -0.50 re f Q
+q 0.000 g BT 373.22 582.35 Td (. MakeDoc2 est fournit sous) Tj ET Q
+q 0.000 g BT 70.87 568.18 Td (forme de script ouvert \(.r\) et de script encapsulé \(.exe\).) Tj ET Q
+q 0.000 g BT 70.87 554.01 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 539.83 Td (Un ) Tj ET Q
+q 0.000 0.000 1.000 rg BT 86.43 539.83 Td (template) Tj ET 86.43 538.83 38.35 -0.50 re f Q
+q 0.000 g BT 124.78 539.83 Td ( est également à votre disposition.) Tj ET Q
+q 0.000 g BT 70.87 525.66 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 511.49 Td (SPIP) Tj ET Q
+q 0.000 g BT 70.87 497.32 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 483.14 Td (Notre site est basé sur l'utilisation de l'excellent CMS ) Tj ET Q
+q 0.000 0.000 1.000 rg BT 307.55 483.14 Td (SPIP) Tj ET 307.55 482.14 22.79 -0.50 re f Q
+q 0.000 g BT 330.34 483.14 Td (. Celui-ci met à disposition des rédacteurs) Tj ET Q
+q 0.000 g BT 70.87 468.97 Td (toute une batterie de fonctionnalités destinées à faciliter son travail et celui des relecteurs du comité) Tj ET Q
+q 0.000 g BT 70.87 454.80 Td (de rédaction.) Tj ET Q
+q 0.000 g BT 70.87 440.62 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 426.45 Td (Les balises de formatage utilisées par SPIP sont assez simples, et bien expliquée dans la ) Tj ET Q
+q 0.000 0.000 1.000 rg BT 70.87 412.28 Td (documentation) Tj ET 70.87 411.28 65.59 -0.50 re f Q
+q 0.000 g BT 136.46 412.28 Td (. Un script, mis à votre disposition dans la partie ) Tj ET Q
+q 0.000 0.000 1.000 rg BT 351.54 412.28 Td (Téléchargements) Tj ET 351.54 411.28 77.25 -0.50 re f Q
+q 0.000 g BT 428.79 412.28 Td (, vous permet) Tj ET Q
+q 0.000 g BT 70.87 398.10 Td (d'effectuer simplement la conversion MD2 vers SPIP.) Tj ET Q
+q 0.000 g BT 70.87 383.93 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 369.76 Td (Afin de profiter des possibilités offertes par le système, vous devez demander votre inscription en) Tj ET Q
+q 0.000 g BT 70.87 355.58 Td (temps que rédacteur SPIP pour le projet : voir la partie suivante.) Tj ET Q
+q 0.000 g BT 70.87 341.41 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 297.69 Td (Comment devenir un rédacteur SPIP pour le projet ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 284.72 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 270.54 Td (En le demandant bien sûr :-\)) Tj ET Q
+q 0.000 g BT 70.87 256.37 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 242.20 Td (Il vous suffit de prendre contact avec le ) Tj ET Q
+q 0.000 0.000 1.000 rg BT 247.07 242.20 Td (coordinateur) Tj ET 247.07 241.20 55.58 -0.50 re f Q
+q 0.000 g BT 302.65 242.20 Td (, en expliquant briévement votre projet de) Tj ET Q
+q 0.000 g BT 70.87 228.02 Td (documentation, et fournissant vos noms, prénoms \(éventuellement alias\) et adresse email de contact.) Tj ET Q
+q 0.000 g BT 70.87 213.85 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 199.68 Td (Vous recevrez par retour de mail vos identifiants et la procèdure à suivre afin de vous connecter dans) Tj ET Q
+q 0.000 g BT 70.87 185.50 Td (la "partie privée" du site.) Tj ET Q
+q 0.000 g BT 70.87 171.33 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 157.16 Td (Le comité de rédaction recommende l'utilisation de cette méthode pour la création de documentation.) Tj ET Q
+q 0.000 g BT 70.87 142.98 Td ( ) Tj ET Q
+q 0.000 0.000 1.000 rg BT 70.87 128.81 Td (Ce guide succint de SPIP) Tj ET 70.87 127.81 113.39 -0.50 re f Q
+q 0.000 g BT 184.26 128.81 Td ( vous permettra d'y effectuer vos premier pas en toute sécurité !) Tj ET Q
+q 0.000 g BT 70.87 114.64 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 100.46 Td (Un ) Tj ET Q
+q 0.000 0.000 1.000 rg BT 86.43 100.46 Td (template) Tj ET 86.43 99.46 38.35 -0.50 re f Q
+q 0.000 g BT 124.78 100.46 Td ( est également à votre disposition. Il vous suffira d'en effectuer le copier/coller dans) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 3/7) Tj ET Q
+
+endstream
+endobj
+9 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [142.02 774.61 243.73 764.61] /Border [0 0 0] /A <</S /URI /URI (article.php3?id_article=111)>>>><</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 10 0 R>>
+endobj
+10 0 obj
+<</Length 5360>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (Guide de l'auteur) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td (l'espace rédactionnel de SPIP afin de commencer à travailler.) Tj ET Q
+q 0.000 g BT 70.87 780.78 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 766.61 Td (La lecture de la ) Tj ET Q
+q 0.000 0.000 1.000 rg BT 142.02 766.61 Td (Procédure de relecture) Tj ET 142.02 765.61 101.71 -0.50 re f Q
+q 0.000 g BT 243.73 766.61 Td ( est fortement recommendée...) Tj ET Q
+q 0.000 g BT 70.87 752.43 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 708.71 Td (Qu'est-ce que je dois écrire ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 695.74 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 681.57 Td (Notre préference va aux articles techniques, mais nous n'excluons pas de publier des articles de fond,) Tj ET Q
+q 0.000 g BT 70.87 667.39 Td (tant que ceux-ci restent en relation avec le monde REBOL.) Tj ET Q
+q 0.000 g BT 70.87 653.22 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 639.05 Td (Tous les sujets sont les bienvenus ! Vous pouvez par exemple écrire une série de tutoriaux à) Tj ET Q
+q 0.000 g BT 70.87 624.87 Td (destination des nouveaux arrivés, un HOWTO traitant de la connection à MySQL ou de l'emploi de) Tj ET Q
+q 0.000 g BT 70.87 610.70 Td (UNISERVE, ou encore une analyse approfondie des mécanismes internes de VID...) Tj ET Q
+q 0.000 g BT 70.87 596.53 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 582.35 Td (Quelques conseils rédactionnels ...) Tj ET Q
+q 0.000 g BT 70.87 568.18 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 554.01 Td (\(extraits des excellents conseils prodigués par Yann Rocq, le sympathique rédacteur en chef du) Tj ET Q
+q 0.000 g BT 70.87 539.83 Td (magazine Login :\)) Tj ET Q
+q 0.000 g BT 79.04 511.49 Td (•) Tj ET Q
+q 0.000 g BT 90.71 511.49 Td ( Ne jamais écrire un texte à la première personne. Cette pratique est très courante aux Etats-Unis) Tj ET Q
+q 0.000 g BT 90.71 497.32 Td (mais pas en France.) Tj ET Q
+q 0.000 g BT 79.04 483.14 Td (•) Tj ET Q
+q 0.000 g BT 90.71 483.14 Td ( Ne jamais utiliser de mots ou d'abréviations du langage familier.) Tj ET Q
+q 0.000 g BT 79.04 468.97 Td (•) Tj ET Q
+q 0.000 g BT 90.71 468.97 Td ( Evitez les répétitions, qui alourdissent considérablement la lecture d'un texte. Pensez à utiliser) Tj ET Q
+q 0.000 g BT 90.71 454.80 Td (les pronoms, les synonymes, etc.) Tj ET Q
+q 0.000 g BT 79.04 440.62 Td (•) Tj ET Q
+q 0.000 g BT 90.71 440.62 Td ( Une bonne documentation doit être moins rebutante et plus agréable à lire qu'un guide) Tj ET Q
+q 0.000 g BT 90.71 426.45 Td (technique. Il est donc nécessaire d'éviter d'utiliser le style télégraphique et les listes à puces.) Tj ET Q
+q 0.000 g BT 79.04 412.28 Td (•) Tj ET Q
+q 0.000 g BT 90.71 412.28 Td ( Passez vos textes au correcteur orthographique.) Tj ET Q
+q 0.000 g BT 79.04 398.10 Td (•) Tj ET Q
+q 0.000 g BT 90.71 398.10 Td ( Bannissez les phrases tortueuses ou trop longues. Evitez les points-virgules et les incises avec) Tj ET Q
+q 0.000 g BT 90.71 383.93 Td (tirets. Il est souvent préférable de faire 2 phrases courtes plutôt qu'une seule trop longue.) Tj ET Q
+q 0.000 g BT 79.04 369.76 Td (•) Tj ET Q
+q 0.000 g BT 90.71 369.76 Td ( Une documentation doit absolument être structurée. Elle ne doit pas donner l'impression que l'on) Tj ET Q
+q 0.000 g BT 90.71 355.58 Td (saute en permanence du coq à l'âne. Ayez un plan précis en tête et articulez les différentes) Tj ET Q
+q 0.000 g BT 90.71 341.41 Td (parties de votre argumentation grâce à des mots comme "pourtant", "néanmoins", "toutefois", "en) Tj ET Q
+q 0.000 g BT 90.71 327.24 Td (revanche", etc.) Tj ET Q
+q 0.000 g BT 79.04 313.06 Td (•) Tj ET Q
+q 0.000 g BT 90.71 313.06 Td ( Usez de pédagogie. Le lecteur n'a pas forcément les mêmes connaissances que vous. Essayez) Tj ET Q
+q 0.000 g BT 90.71 298.89 Td (de vous mettre un maximum à sa place. Les pré-requis supposés ne sont-ils pas trop) Tj ET Q
+q 0.000 g BT 90.71 284.72 Td (importants ? N'y a-t-il pas des ambiguïtés ou des éléments qui devraient être plus clairement) Tj ET Q
+q 0.000 g BT 90.71 270.54 Td (expliqués ?) Tj ET Q
+q 0.000 g BT 79.04 256.37 Td (•) Tj ET Q
+q 0.000 g BT 90.71 256.37 Td ( Soyez précis dans le choix de vos mots. Une variable et une constante désignent deux choses) Tj ET Q
+q 0.000 g BT 90.71 242.20 Td (bien différentes. Profitez du caractère non ambigu du vocabulaire informatique.) Tj ET Q
+q 0.000 g BT 79.04 228.02 Td (•) Tj ET Q
+q 0.000 g BT 90.71 228.02 Td ( Gardez à l'esprit que qu'une personne va lire votre texte. Essayez de captiver son attention.) Tj ET Q
+q 0.000 g BT 79.04 213.85 Td (•) Tj ET Q
+q 0.000 g BT 90.71 213.85 Td ( Relisez-vous. Une documentation ne peut être bonne du premier coup. Elle nécessite beaucoup) Tj ET Q
+q 0.000 g BT 90.71 199.68 Td (de retouches.) Tj ET Q
+q 0.000 g BT 70.87 171.33 Td (Structure de la documentation) Tj ET Q
+q 0.000 g BT 70.87 157.16 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 142.98 Td (Afin de concerver une certaine consistance au sein de la documentation, nous vous demandons de) Tj ET Q
+q 0.000 g BT 70.87 128.81 Td (respecter la structure suivante :) Tj ET Q
+q 0.000 g BT 79.04 100.46 Td (•) Tj ET Q
+q 0.000 g BT 90.71 100.46 Td (Titre) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 4/7) Tj ET Q
+
+endstream
+endobj
+11 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [93.09 547.83 124.21 537.83] /Border [0 0 0] /A <</S /URI /URI (article.php3?id_article=4)>>>><</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 12 0 R>>
+endobj
+12 0 obj
+<</Length 4496>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (Guide de l'auteur) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td (La première ligne de votre texte constitue le titre.) Tj ET Q
+q 0.000 g BT 70.87 780.78 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 766.61 Td (Celui-ci devra rester court et convenablement illustrer le propos de la documentation.) Tj ET Q
+q 0.000 g BT 79.04 738.26 Td (•) Tj ET Q
+q 0.000 g BT 90.71 738.26 Td (Boilerplate) Tj ET Q
+q 0.000 g BT 70.87 709.91 Td (Dans ce texte suivant immédiatement le titre, nous retouverons :) Tj ET Q
+q 0.000 g BT 98.88 681.57 Td (•) Tj ET Q
+q 0.000 g BT 110.55 681.57 Td ( Le ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 127.23 681.57 Td (chapô) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 154.47 681.57 Td (, qui est un texte introductif d'environ 300 caractères. Il résume le contenu de votre) Tj ET Q
+q 0.000 g BT 110.55 667.39 Td (documentation, et surtout : il doit donner envie au lecteur de poursuivre sa lecture ! Le chapô) Tj ET Q
+q 0.000 g BT 110.55 653.22 Td (est suivit d'une ligne blanche.) Tj ET Q
+q 0.000 g BT 98.88 639.05 Td (•) Tj ET Q
+q 0.000 g BT 110.55 639.05 Td ( Le ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 127.23 639.05 Td (numèro de la dernière version) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 260.06 639.05 Td (.) Tj ET Q
+q 0.000 g BT 98.88 624.87 Td (•) Tj ET Q
+q 0.000 g BT 110.55 624.87 Td ( La ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 127.23 624.87 Td (date de la dernière version) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 245.62 624.87 Td (.) Tj ET Q
+q 0.000 g BT 79.04 582.35 Td (•) Tj ET Q
+q 0.000 g BT 90.71 582.35 Td ( Historique) Tj ET Q
+q 0.000 g BT 70.87 554.01 Td (La documentation que vous produisez est succeptible d'être revue ou corrigée par un autre auteur) Tj ET Q
+q 0.000 g BT 70.87 539.83 Td (\(voir ) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.09 539.83 Td (licence) Tj ET 93.09 538.83 31.12 -0.50 re f Q
+q 0.000 g BT 124.21 539.83 Td (\).) Tj ET Q
+q 0.000 g BT 70.87 525.66 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 511.49 Td (Il est donc important de pouvoir identifier la personne à l'origine des modifications afin, entre autre, de) Tj ET Q
+q 0.000 g BT 70.87 497.32 Td (pouvoir le contacter.) Tj ET Q
+q 0.000 g BT 70.87 483.14 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 468.97 Td (L'historique aura CINQ colonnes :) Tj ET Q
+q 0.000 g BT 98.88 440.62 Td (•) Tj ET Q
+q 0.000 g BT 110.55 440.62 Td (Date : date des modifications) Tj ET Q
+q 0.000 g BT 98.88 426.45 Td (•) Tj ET Q
+q 0.000 g BT 110.55 426.45 Td (Version : nouveau numéro de version) Tj ET Q
+q 0.000 g BT 98.88 412.28 Td (•) Tj ET Q
+q 0.000 g BT 110.55 412.28 Td (Commentaires : commentaires sur les changement apportés) Tj ET Q
+q 0.000 g BT 98.88 398.10 Td (•) Tj ET Q
+q 0.000 g BT 110.55 398.10 Td (Auteur : nom de l'auteur \(ou alias\)) Tj ET Q
+q 0.000 g BT 98.88 383.93 Td (•) Tj ET Q
+q 0.000 g BT 110.55 383.93 Td (Email : adresse email de l'auteur) Tj ET Q
+q 0.000 g BT 79.04 341.41 Td (•) Tj ET Q
+q 0.000 g BT 90.71 341.41 Td ( Table de matières) Tj ET Q
+q 0.000 g BT 70.87 313.06 Td (Si votre document dépasse la page A4, il est préferable de faire figurer une table des matières.) Tj ET Q
+q 0.000 g BT 70.87 298.89 Td (Celle-ci est, par défaut, automatiquement générée par MakeDoc2.) Tj ET Q
+q 0.000 g BT 79.04 270.54 Td (•) Tj ET Q
+q 0.000 g BT 90.71 270.54 Td ( Contenu) Tj ET Q
+q 0.000 g BT 70.87 242.20 Td (Placez ici le corps de votre documentation, structurée comme vous l'estimez nécessaire...) Tj ET Q
+q 0.000 g BT 79.04 213.85 Td (•) Tj ET Q
+q 0.000 g BT 90.71 213.85 Td ( Réfèrences) Tj ET Q
+q 0.000 g BT 70.87 185.50 Td (Si nécessaire, rassemblez ici l'ensemble l'ensemble des réfèrences utilisées dans votre texte.) Tj ET Q
+q 0.000 g BT 70.87 171.33 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 157.16 Td (Il est préfèrable, pour plus de clarté, d'utiliser un système de report du type :) Tj ET Q
+q 0.000 g BT 70.87 142.98 Td ( ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 70.87 128.81 Td ([CarlS 1]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 109.77 128.81 Td ( dans le texte, qui se réfère à) Tj ET Q
+q 0.000 g BT 70.87 114.64 Td ( ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 70.87 100.46 Td ([CarlS 1] MakeDoc in Minutes - An Example) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 265.93 100.46 Td ( dans cette dernière partie.) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 5/7) Tj ET Q
+
+endstream
+endobj
+13 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [336.80 533.66 401.25 523.66] /Border [0 0 0] /A <</S /URI /URI (article.php3?id_article=13)>>>><</Type /Annot /Subtype /Link /Rect [342.66 505.32 359.32 495.32] /Border [0 0 0] /A <</S /URI /URI (http://fr.wikipedia.org/wiki/wiki)>>>><</Type /Annot /Subtype /Link /Rect [195.92 491.14 292.62 481.14] /Border [0 0 0] /A <</S /URI /URI (http://www.rebolfrance.info)>>>><</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 14 0 R>>
+endobj
+14 0 obj
+<</Length 4482>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (Guide de l'auteur) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 780.78 Td (Longueurs minimums et maximums) Tj ET Q
+q 0.000 g BT 70.87 766.61 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 752.43 Td (Nous n'imposons pas de limites à la longueur des documentations.) Tj ET Q
+q 0.000 g BT 70.87 738.26 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 724.09 Td (Illustrations et schémas) Tj ET Q
+q 0.000 g BT 70.87 709.91 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 695.74 Td (Un schèma ou une illustration allège fortement un texte et en facilite la lecture. Essayez autant que) Tj ET Q
+q 0.000 g BT 70.87 681.57 Td (possible de prévoir 2 à 3 schèmas ou illustrations par page A4 de documentation.) Tj ET Q
+q 0.000 g BT 70.87 667.39 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 623.67 Td (Comment élaborer un article à plusieurs auteurs ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 610.70 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 596.53 Td (CVS) Tj ET Q
+q 0.000 g BT 70.87 582.35 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 568.18 Td (Afin de vous aider dans cette tâche, nous vous offrons un accès au serveur CVS de SourceForge.) Tj ET Q
+q 0.000 g BT 70.87 554.01 Td (Celui-ci vous permettra de partager sans risque de perte un document à plusieurs auteurs.) Tj ET Q
+q 0.000 g BT 70.87 539.83 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 525.66 Td (La procèdure d'accès au CVS est décrite dans le document ) Tj ET Q
+q 0.000 0.000 1.000 rg BT 336.80 525.66 Td (Utiliser le CVS) Tj ET 336.80 524.66 64.45 -0.50 re f Q
+q 0.000 g BT 401.25 525.66 Td (.) Tj ET Q
+q 0.000 g BT 70.87 511.49 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 497.32 Td (Une alternative possible est de placer votre document sur un ) Tj ET Q
+q 0.000 0.000 1.000 rg BT 342.66 497.32 Td (wiki) Tj ET 342.66 496.32 16.66 -0.50 re f Q
+q 0.000 g BT 359.32 497.32 Td (. A cette fin, REBOLFrance met à) Tj ET Q
+q 0.000 g BT 70.87 483.14 Td (disposition des REBOLeurs ) Tj ET Q
+q 0.000 0.000 1.000 rg BT 195.92 483.14 Td (un excellent dokuWiki) Tj ET 195.92 482.14 96.70 -0.50 re f Q
+q 0.000 g BT 292.62 483.14 Td (.) Tj ET Q
+q 0.000 g BT 70.87 468.97 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 454.80 Td (SPIP) Tj ET Q
+q 0.000 g BT 70.87 440.62 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 426.45 Td (La solution simple par excellence... Il suffit que chaque auteur soit inscrit comme rédacteur SPIP \(voir) Tj ET Q
+q 0.000 g BT 70.87 412.28 Td (plus haut\). Vous aurez alors accès à la partie rédactionelle du site.) Tj ET Q
+q 0.000 g BT 70.87 398.10 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 383.93 Td (Le système de suivi des révisions existant facilite d'ailleurs le travail de correction et la gestion de) Tj ET Q
+q 0.000 g BT 70.87 369.76 Td (l'historique.) Tj ET Q
+q 0.000 g BT 70.87 355.58 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 311.86 Td (Ma documentation est écrite... Comment vous la soumettre ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 298.89 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 284.72 Td (Empaquetage des fichiers) Tj ET Q
+q 0.000 g BT 70.87 270.54 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 256.37 Td (Votre travail devra nous parvenir sous forme d'un fichier .zip contenant UN répertoire.) Tj ET Q
+q 0.000 g BT 70.87 242.20 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 228.02 Td (Dans ce répertoire devront figurer :) Tj ET Q
+q 0.000 g BT 79.04 199.68 Td (•) Tj ET Q
+q 0.000 g BT 90.71 199.68 Td (le ou les fichier\(s\) de votre documentation au format MakeDoc2.) Tj ET Q
+q 0.000 g BT 79.04 185.50 Td (•) Tj ET Q
+q 0.000 g BT 90.71 185.50 Td (un répertoire ) Tj ET Q
+q 0.000 g BT 150.18 185.50 Td (images) Tj ET Q
+q 0.000 g BT 182.41 185.50 Td ( contenant les illustrations que vous avez ajouté à votre articles. ) Tj ET Q
+q 0.000 g BT 70.87 157.16 Td (ATTENTION) Tj ET Q
+q 0.000 g BT 127.54 157.16 Td ( : le nom de chacune des images de votre répertoire devra être préfixé avec le nom \(ou) Tj ET Q
+q 0.000 g BT 70.87 142.98 Td (une abréviation de celui-ci\) de votre article. Par exemple, si votre article s'intitule "Analyse de la) Tj ET Q
+q 0.000 g BT 70.87 128.81 Td (fonction 'parse", alors vos images devront par exemple s'appeler "analyse-parse-1.jpg",) Tj ET Q
+q 0.000 g BT 70.87 114.64 Td ("analyse-parse-2.jpg" etc...) Tj ET Q
+q 0.000 g BT 70.87 100.46 Td ( ) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 6/7) Tj ET Q
+
+endstream
+endobj
+15 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [234.26 717.91 332.07 707.91] /Border [0 0 0] /A <</S /URI /URI (article.php3?id_article=7)>>>><</Type /Annot /Subtype /Link /Rect [183.69 703.74 270.95 693.74] /Border [0 0 0] /A <</S /URI /URI (article.php3?id_article=6)>>>><</Type /Annot /Subtype /Link /Rect [398.75 647.05 500.46 637.05] /Border [0 0 0] /A <</S /URI /URI (article.php3?id_article=111)>>>><</Type /Annot /Subtype /Link /Rect [343.24 264.37 430.50 254.37] /Border [0 0 0] /A <</S /URI /URI (article.php3?id_article=6)>>>><</Type /Annot /Subtype /Link /Rect [367.38 150.98 454.64 140.98] /Border [0 0 0] /A <</S /URI /URI (article.php3?id_article=6)>>>><</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 16 0 R>>
+endobj
+16 0 obj
+<</Length 4553>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (Guide de l'auteur) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td (Envoi au comité de rédaction pour la relecture) Tj ET Q
+q 0.000 g BT 70.87 780.78 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 766.61 Td (Deux possibilités vous sont offertes :) Tj ET Q
+q 0.000 g BT 79.04 738.26 Td (•) Tj ET Q
+q 0.000 g BT 90.71 738.26 Td ( ) Tj ET Q
+q 0.000 g BT 93.49 738.26 Td (Vous n'avez pas utilisé l'espace rédactionnel de SPIP) Tj ET Q
+q 0.000 g BT 330.76 738.26 Td ( \(voir plus haut\)) Tj ET Q
+q 0.000 g BT 70.87 709.91 Td (Envoyez simplement votre travail au ) Tj ET Q
+q 0.000 0.000 1.000 rg BT 234.26 709.91 Td (coordinateur via email) Tj ET 234.26 708.91 97.81 -0.50 re f Q
+q 0.000 g BT 332.07 709.91 Td (. Celui-ci se chargera de l'initiation du) Tj ET Q
+q 0.000 g BT 70.87 695.74 Td (travail de relecture par le ) Tj ET Q
+q 0.000 0.000 1.000 rg BT 183.69 695.74 Td (comité de rédaction) Tj ET 183.69 694.74 87.26 -0.50 re f Q
+q 0.000 g BT 270.95 695.74 Td (.) Tj ET Q
+q 0.000 g BT 79.04 667.39 Td (•) Tj ET Q
+q 0.000 g BT 90.71 667.39 Td ( ) Tj ET Q
+q 0.000 g BT 93.49 667.39 Td (Vous avez utilisé l'espace rédactionnel de SPIP) Tj ET Q
+q 0.000 g BT 304.39 667.39 Td ( \(voir plus haut\)) Tj ET Q
+q 0.000 g BT 70.87 639.05 Td (Si cela n'est pas encore fait, n'oubliez pas de prendre connaissance de la ) Tj ET Q
+q 0.000 0.000 1.000 rg BT 398.75 639.05 Td (Procédure de relecture) Tj ET 398.75 638.05 101.71 -0.50 re f Q
+q 0.000 g BT 500.46 639.05 Td ( !) Tj ET Q
+q 0.000 g BT 70.87 624.87 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 610.70 Td (Ce cas est le plus facile à gérer : votre documentation est déjà formattée au format SPIP, et les) Tj ET Q
+q 0.000 g BT 70.87 596.53 Td (illustrations qui l'accompagnent lui ont été rattachées.) Tj ET Q
+q 0.000 g BT 70.87 582.35 Td ( ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 70.87 568.18 Td (Veillez simplement à fournir la version MD2 en pièce jointe à votre article) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 393.20 568.18 Td (.) Tj ET Q
+q 0.000 g BT 70.87 554.01 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 539.83 Td (Le comité de rédaction fera alors figurer ses commentaires et corrections sur le forum attaché à votre) Tj ET Q
+q 0.000 g BT 70.87 525.66 Td (article, et, après correction éventuelle, votre article ne sera plus qu'à un click de sa publication.) Tj ET Q
+q 0.000 g BT 70.87 511.49 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 467.77 Td (Cette procédure de relecture est-elle longue ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 454.80 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 440.62 Td (Un délais de plusieurs semaines entre votre envoi initial et l'acceptation de votre article ou l'envoi de) Tj ET Q
+q 0.000 g BT 70.87 426.45 Td (commentaires est tout à fait normal.) Tj ET Q
+q 0.000 g BT 70.87 412.28 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 398.10 Td (N'oubliez pas que le comité de rédaction est composé de bénévoles ayant leur propre travail et leur) Tj ET Q
+q 0.000 g BT 70.87 383.93 Td (vie de famille...) Tj ET Q
+q 0.000 g BT 70.87 369.76 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 326.04 Td (Je n'ai plus le temps de maintenir cette documentation. Est-ce) Tj ET Q
+q 0.000 g BT 70.87 311.86 Td (grave docteur ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 298.89 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 284.72 Td (Absolument pas ! Maintenir une documentation reste un travail exigeant et difficile...) Tj ET Q
+q 0.000 g BT 70.87 270.54 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 256.37 Td (La seule chose que nous vous demandons est de prévenir le ) Tj ET Q
+q 0.000 0.000 1.000 rg BT 343.24 256.37 Td (comité de rédaction) Tj ET 343.24 255.37 87.26 -0.50 re f Q
+q 0.000 g BT 430.50 256.37 Td ( de votre décision.) Tj ET Q
+q 0.000 g BT 70.87 242.20 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 228.02 Td (Nous veuillerons alors à ce que votre travail trouve un auteur qui pourra reprendre le flambeau.) Tj ET Q
+q 0.000 g BT 70.87 213.85 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 170.13 Td (J'ai encore des doutes... A qui puis-je poser mes questions ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 157.16 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 142.98 Td (Pour toute question, n'hésitez pas à contacter un des membres du ) Tj ET Q
+q 0.000 0.000 1.000 rg BT 367.38 142.98 Td (comité de rédaction) Tj ET 367.38 141.98 87.26 -0.50 re f Q
+BT /F6 8.00 Tf ET
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 7/7) Tj ET Q
+
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R ]
+/Count 7
+/MediaBox [0 0 595.28 841.89]
+>>
+endobj
+17 0 obj
+<</Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+18 0 obj
+<</Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+19 0 obj
+<</Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+20 0 obj
+<</Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+21 0 obj
+<</Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+22 0 obj
+<</Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 17 0 R
+/F2 18 0 R
+/F3 19 0 R
+/F4 20 0 R
+/F5 21 0 R
+/F6 22 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+23 0 obj
+<<
+/Producer (FPDF 1.53)
+/Title (Guide de l'auteur)
+/Subject (Auteur / Traducteur)
+/Author (REBOLtof)
+/Keywords (AUTHOR)
+/Creator (The REBOL Documentation Project)
+/CreationDate (D:20051225160653)
+>>
+endobj
+24 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 25
+0000000000 65535 f 
+0000040328 00000 n 
+0000041050 00000 n 
+0000000009 00000 n 
+0000000222 00000 n 
+0000001485 00000 n 
+0000001698 00000 n 
+0000011597 00000 n 
+0000013118 00000 n 
+0000019050 00000 n 
+0000019397 00000 n 
+0000024808 00000 n 
+0000025153 00000 n 
+0000029700 00000 n 
+0000030319 00000 n 
+0000034852 00000 n 
+0000035724 00000 n 
+0000040454 00000 n 
+0000040551 00000 n 
+0000040646 00000 n 
+0000040744 00000 n 
+0000040843 00000 n 
+0000040945 00000 n 
+0000041210 00000 n 
+0000041426 00000 n 
+trailer
+<<
+/Size 25
+/Root 24 0 R
+/Info 23 0 R
+>>
+startxref
+41530
+%%EOF

@@ -1,0 +1,504 @@
+%PDF-1.3
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 4 0 R>>
+endobj
+4 0 obj
+<</Length 1492>>
+stream
+2 J
+0.57 w
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (CATCH existe en REBOL) Tj ET Q
+0.57 w
+BT /F2 26.00 Tf ET
+q 0.502 g BT 118.24 656.92 Td (The REBOL Documentation) Tj ET Q
+q 0.502 g BT 243.04 631.41 Td (Project) Tj ET Q
+BT /F1 8.00 Tf ET
+q 0.502 g BT 201.17 616.97 Td (-- FR - Documentation REBOL - Articles Techniques --) Tj ET Q
+0.85 w
+BT /F2 20.00 Tf ET
+q 0.502 g BT 73.70 423.45 Td (Articles) Tj ET Q
+q 0.502 g BT 73.70 397.94 Td (Techniques) Tj ET Q
+BT /F3 22.00 Tf ET
+297.64 411.02 m 297.64 388.35 l S q 0.000 g BT 300.47 393.09 Td (CATCH existe en) Tj ET Q
+297.64 388.35 m 297.64 365.67 l S q 0.000 g BT 300.47 370.41 Td (REBOL) Tj ET Q
+297.64 365.67 m 297.64 342.99 l S 
+BT /F4 16.00 Tf ET
+297.64 342.99 m 297.64 325.98 l S q 0.000 g BT 451.35 329.69 Td (REBOLtof) Tj ET Q
+BT /F4 12.00 Tf ET
+297.64 325.98 m 297.64 308.98 l S q 0.000 g BT 314.25 313.88 Td (Première publication : 11 août 2005, et mis) Tj ET Q
+297.64 308.98 m 297.64 291.97 l S q 0.000 g BT 375.92 296.87 Td (en ligne le  jeudi 11 août 2005) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 73.70 228.02 Td (Résumé :) Tj ET 73.70 227.02 45.01 -0.50 re f Q
+BT /F4 8.00 Tf ET
+q 0.000 g BT 73.70 214.45 Td (Où cela ? En fait, il en existe deux : la fonction CATCH et l'attribut de fonction [catch]) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 1/4) Tj ET Q
+
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [93.54 669.72 146.89 659.72] /Border [0 0 0] /A <</S /URI /URI (#1)>>>><</Type /Annot /Subtype /Link /Rect [93.54 655.55 188.02 645.55] /Border [0 0 0] /A <</S /URI /URI (#2)>>>><</Type /Annot /Subtype /Link /Rect [93.54 641.38 223.86 631.38] /Border [0 0 0] /A <</S /URI /URI (#3)>>>><</Type /Annot /Subtype /Link /Rect [93.54 627.20 161.34 617.20] /Border [0 0 0] /A <</S /URI /URI (#4)>>>><</Type /Annot /Subtype /Link /Rect [93.54 613.03 155.24 603.03] /Border [0 0 0] /A <</S /URI /URI (#5)>>>><</Type /Annot /Subtype /Link /Rect [93.54 598.86 138.01 588.86] /Border [0 0 0] /A <</S /URI /URI (#6)>>>><</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 6 0 R>>
+endobj
+6 0 obj
+<</Length 6484>>
+stream
+2 J
+0.85 w
+BT /F4 8.00 Tf ET
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (CATCH existe en REBOL) Tj ET Q
+BT /F4 8.00 Tf ET
+BT /F5 10.00 Tf ET
+q 0.000 g BT 73.70 794.95 Td (Où cela ? En fait, il en existe deux : la fonction CATCH et l'attribut de fonction [catch]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 746.76 Td ( ) Tj ET Q
+q 0.000 g BT 76.48 746.76 Td ( Version : 1.1 ) Tj ET Q
+q 0.000 g BT 73.70 732.59 Td (Date : 11-aug-05 ) Tj ET Q
+q 0.000 g BT 73.70 718.42 Td (Auteur : Ladislav Mecir ) Tj ET Q
+q 0.000 g BT 73.70 704.24 Td (Traducteur : Christophe "REBOLtof" Coussement ) Tj ET Q
+q 0.000 g BT 73.70 690.07 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 675.90 Td ( ) Tj ET Q
+q 0.000 g BT 93.54 675.90 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 661.72 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 661.72 Td (1 Historique) Tj ET 93.54 660.72 53.35 -0.50 re f Q
+q 0.000 g BT 146.89 661.72 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 647.55 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 647.55 Td (2 La fonction CATCH) Tj ET 93.54 646.55 94.48 -0.50 re f Q
+q 0.000 g BT 188.02 647.55 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 633.38 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 633.38 Td (3 L'attribut de fonction [catch]) Tj ET 93.54 632.38 130.32 -0.50 re f Q
+q 0.000 g BT 223.86 633.38 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 619.20 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 619.20 Td (4 Comparaison) Tj ET 93.54 618.20 67.80 -0.50 re f Q
+q 0.000 g BT 161.34 619.20 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 605.03 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 605.03 Td (5 Interférence) Tj ET 93.54 604.03 61.70 -0.50 re f Q
+q 0.000 g BT 155.24 605.03 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 590.86 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 590.86 Td (6 Solution) Tj ET 93.54 589.86 44.47 -0.50 re f Q
+q 0.000 g BT 138.01 590.86 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 562.51 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 73.70 518.79 Td (1 Historique) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 505.82 Td ( ) Tj ET Q
+q 0.000 g BT 76.48 505.82 Td ( ) Tj ET Q
+q 0.000 g BT 79.26 505.82 Td ( 					) Tj ET Q
+q 0.000 g BT 95.94 505.82 Td ( ) Tj ET Q
+q 0.000 g BT 98.72 505.82 Td ( ) Tj ET Q
+q 0.000 g BT 101.50 505.82 Td ( ) Tj ET Q
+q 0.000 g BT 104.28 505.82 Td ( ) Tj ET Q
+q 0.000 g BT 107.06 505.82 Td ( ) Tj ET Q
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F5 8.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F5 8.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F5 8.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F5 8.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F5 8.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F5 8.00 Tf ET
+1.000 1.000 0.000 rg
+76.86 515.91 49.42 -14.17 re B q 0.000 g BT 79.69 506.42 Td ( Date ) Tj ET Q
+BT /F1 8.00 Tf ET
+1.000 g
+BT /F5 8.00 Tf ET
+1.000 1.000 0.000 rg
+126.27 515.91 40.07 -14.17 re B q 0.000 g BT 129.11 506.42 Td (Version ) Tj ET Q
+BT /F1 8.00 Tf ET
+1.000 g
+BT /F5 8.00 Tf ET
+1.000 1.000 0.000 rg
+166.34 515.91 202.58 -14.17 re B q 0.000 g BT 169.18 506.42 Td (Commentaires ) Tj ET Q
+BT /F1 8.00 Tf ET
+1.000 g
+BT /F5 8.00 Tf ET
+1.000 1.000 0.000 rg
+368.92 515.91 46.74 -14.17 re B q 0.000 g BT 371.75 506.42 Td (Auteur ) Tj ET Q
+BT /F1 8.00 Tf ET
+1.000 g
+BT /F5 8.00 Tf ET
+1.000 1.000 0.000 rg
+415.66 515.91 102.76 -14.17 re B q 0.000 g BT 418.50 506.42 Td (Email ) Tj ET Q
+BT /F1 8.00 Tf ET
+1.000 g
+0.902 0.902 0.902 rg
+76.86 501.73 49.42 -14.17 re B q 0.000 g BT 79.69 492.25 Td ( 11-aug-05 ) Tj ET Q
+126.27 501.73 40.07 -14.17 re B q 0.000 g BT 129.11 492.25 Td (1.0 ) Tj ET Q
+166.34 501.73 202.58 -14.17 re B q 0.000 g BT 169.18 492.25 Td (initial ) Tj ET Q
+368.92 501.73 46.74 -14.17 re B q 0.000 g BT 371.75 492.25 Td (REBOLtof ) Tj ET Q
+415.66 501.73 102.76 -14.17 re B q 0.000 g BT 418.50 492.25 Td (reboltof-at-yahoo-dot-com ) Tj ET Q
+76.86 487.56 49.42 -14.17 re S q 0.000 g BT 79.69 478.07 Td ( 11-aug-05 ) Tj ET Q
+126.27 487.56 40.07 -14.17 re S q 0.000 g BT 129.11 478.07 Td (1.1 ) Tj ET Q
+166.34 487.56 202.58 -14.17 re S q 0.000 g BT 169.18 478.07 Td (ajout de détails et corrections à la demande de l'auteur) Tj ET Q
+368.92 487.56 46.74 -14.17 re S q 0.000 g BT 371.75 478.07 Td (REBOLtof ) Tj ET Q
+415.66 487.56 102.76 -14.17 re S q 0.000 g BT 418.50 478.07 Td (reboltof-at-yahoo-dot-com ) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 463.30 Td ( ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 419.58 Td (2 La fonction CATCH) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 406.61 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 392.43 Td (Cette fonction nous permet principalement de forcer la fin d'une évaluation compliquée.) Tj ET Q
+q 0.000 g BT 70.87 378.26 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 364.09 Td (Exemple) Tj ET Q
+q 0.000 g BT 70.87 349.91 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 336.34 Td ( catch [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 322.17 Td (     ; une évaluation compliquée...) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 307.99 Td (     if done? [throw result1]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 293.82 Td (     ; encore des évaluations...) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 279.65 Td (     if done? [throw result2]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 265.47 Td (     ; d'autres évaluations...) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 251.30 Td (     ; maintenant nous avons terminé!) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 237.13 Td (     result3) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 222.95 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 208.18 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 194.01 Td (Un résultat similaire peut être obtenu en utilisant ANY, ALL ou CASE. Cependant, CATCH sera en) Tj ET Q
+q 0.000 g BT 70.87 179.83 Td (général le plus approprié pour ce genre de travail.) Tj ET Q
+q 0.000 g BT 70.87 165.66 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 151.49 Td (Si nous utilisons une fonction CATCH "nidifiée", nous pouvons avoir recours au raffinement) Tj ET Q
+q 0.000 g BT 70.87 137.32 Td (CATCH/NAME afin d'être en mesure de spécifier la "cible" désirée pour accueillir les résultats :) Tj ET Q
+q 0.000 g BT 70.87 123.14 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 109.57 Td ( catch/name [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 95.40 Td (     ; ...) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 2/4) Tj ET Q
+
+endstream
+endobj
+7 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 8 0 R>>
+endobj
+8 0 obj
+<</Length 3994>>
+stream
+2 J
+0.85 w
+BT /F2 8.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 70.87 819.05 Td (CATCH existe en REBOL) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 795.55 Td (     catch/name [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 781.38 Td (         ; ...) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 767.21 Td (         if done-a? [throw/name result 'a] ; pour le 'a du CATCH \(le CATCH "externe"\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 753.03 Td (         ; ...) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 738.86 Td (         if done-b? [throw/name result 'b] ; pour le 'b du CATCH \(le CATCH "interne"\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 724.69 Td (         ; ...) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 710.51 Td (         result-b) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 696.34 Td (     ] 'b) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 682.17 Td (     ; ...) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 667.99 Td (     if done-a? [throw/name result 'a]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 653.82 Td (     ; ...) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 639.65 Td (     result-a) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 625.47 Td ( ] 'a) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 610.70 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 566.98 Td (3 L'attribut de fonction [catch]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 554.01 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 539.83 Td (Cet attribut est utilisé afin de permettre un traitement de l'erreur dans les fonctions, en dehors de la) Tj ET Q
+q 0.000 g BT 70.87 525.66 Td (procédure normale.) Tj ET Q
+q 0.000 g BT 70.87 511.49 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 497.32 Td (Exemple : supposons que nous avons besoin d'une fonction HANDLE afin d'appliquer un traitement) Tj ET Q
+q 0.000 g BT 70.87 483.14 Td (sur tous les nombres, sauf sur 66. Nous pouvons considérer que c'est une erreur d'appeler la fonction) Tj ET Q
+q 0.000 g BT 70.87 468.97 Td (en lui passant un argument égal à 66...) Tj ET Q
+q 0.000 g BT 70.87 454.80 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 441.22 Td ( handle: func [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 427.05 Td (     [catch]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 412.88 Td (     argument1 [integer!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 398.70 Td (     argument2 [block!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 384.53 Td ( ] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 370.36 Td (     if argument1 = 66 [throw make error! "Le nombre 66 n'est pas autorisé comme argument !"]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 356.18 Td (     do argument2) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 342.01 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 327.24 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 313.06 Td (L'expression :) Tj ET Q
+q 0.000 g BT 70.87 298.89 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 285.32 Td ( handle 1 ["OK"]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 270.54 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 256.37 Td (Donne "OK", tandis que) Tj ET Q
+q 0.000 g BT 70.87 242.20 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 228.62 Td ( handle 66 ["OK"]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 213.85 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 199.68 Td (déclenche une erreur.) Tj ET Q
+q 0.000 g BT 70.87 185.50 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 141.78 Td (4 Comparaison) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 128.81 Td (  ) Tj ET Q
+q 7.56 0 0 10.39 70.87 116.93 cm /I1 Do Q
+q 0.000 g BT 82.20 114.64 Td (  L'attribut de fonction [catch] a un objectif différent que la fonction CATCH. ) Tj ET Q
+q 7.56 0 0 10.39 70.87 102.76 cm /I1 Do Q
+q 0.000 g BT 82.20 100.46 Td (  Il n'existe pas de mécanisme identique afin comprendre la signification de THROW pour les) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 3/4) Tj ET Q
+
+endstream
+endobj
+9 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [374.58 462.80 472.39 452.80] /Border [0 0 0] /A <</S /URI /URI (http://www.rebol.net/cgi-bin/rambo.r?id=3443&)>>>><</Type /Annot /Subtype /Link /Rect [213.70 363.58 382.08 353.58] /Border [0 0 0] /A <</S /URI /URI (http://www.compkarori.com/vanilla/display/Function-Attributes)>>>><</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 10 0 R>>
+endobj
+10 0 obj
+<</Length 3927>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (CATCH existe en REBOL) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td (fonctions nidifiées \(NdT : il n'existe pas de raffinement /NAME similaire à celui de la fonction CATCH\).) Tj ET Q
+q 0.000 g BT 70.87 780.78 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 737.06 Td (5 Interférence) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 724.09 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 709.91 Td (Un attribut de fonction [catch] nidifié n'est pas en mesure de distinguer la signification de THROWs, et) Tj ET Q
+q 0.000 g BT 70.87 695.74 Td ("intercepte" tous les THROWs pour autant qu'ils soient des erreurs.) Tj ET Q
+q 0.000 g BT 70.87 681.57 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 667.39 Td (Exemple :) Tj ET Q
+q 0.000 g BT 70.87 653.22 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 639.65 Td ( index: 1) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 625.47 Td ( block: copy ["OK"]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 611.30 Td ( insert tail block make error! "error") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 597.13 Td ( type? catch [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 582.95 Td (     ; ...) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 568.78 Td (     handle 1 [throw pick block index]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 554.61 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 539.83 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 525.66 Td (Cela est correct jusque maintenant, mais si nous changeons la première ligne en :) Tj ET Q
+q 0.000 g BT 70.87 511.49 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 497.92 Td ( index: 2) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 483.14 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 468.97 Td (L'interférence apparaît. Nous pouvons nous demander si le raffinement /NAME pourrait aider... mais) Tj ET Q
+q 0.000 g BT 70.87 454.80 Td (la réponse est négative, ainsi que Romano l'a mentionné \(NdT : voir ) Tj ET Q
+q 0.000 0.000 1.000 rg BT 374.58 454.80 Td (le ticket dans RAMBO) Tj ET 374.58 453.80 97.81 -0.50 re f Q
+q 0.000 g BT 472.39 454.80 Td (\).) Tj ET Q
+q 0.000 g BT 70.87 440.62 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 396.90 Td (6 Solution) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 383.93 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 369.76 Td (J'offre la fonction TFUNC afin de résoudre le problème du THROW \(ainsi que d'autres problèmes\)) Tj ET Q
+q 0.000 g BT 70.87 355.58 Td (pour les fonctions nidifiées \(voir ) Tj ET Q
+q 0.000 0.000 1.000 rg BT 213.70 355.58 Td (http://www.compkarori.com/vanilla/d...) Tj ET 213.70 354.58 168.38 -0.50 re f Q
+q 0.000 g BT 382.08 355.58 Td (\)) Tj ET Q
+q 0.000 g BT 70.87 341.41 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 327.24 Td (L'interférence entre [catch] et CATCH peut être également résolue en utilisant des THROWs locaux,) Tj ET Q
+q 0.000 g BT 70.87 313.06 Td (mais certain peuvent trouver cette solution peu pratique.) Tj ET Q
+q 0.000 g BT 70.87 298.89 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 284.72 Td (Une solution plus simple est d'utiliser le raffinement /NAME pour le THROW, mais ceci devrait être) Tj ET Q
+q 0.000 g BT 70.87 270.54 Td (étendu afin de nous permettre de spécifier le nom approprié pour le [catch] également.) Tj ET Q
+q 0.000 g BT 70.87 256.37 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 242.20 Td (Dans ce cas, je pense qu'il serait opportun que la comparaison de noms emploie le = ? à la place de) Tj ET Q
+q 0.000 g BT 70.87 228.02 Td (=, ce qui exploiterait la pleine puissance de REBOL.) Tj ET Q
+q 0.000 g BT 70.87 213.85 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 199.68 Td (Fin) Tj ET Q
+q 0.000 g BT 70.87 185.50 Td ( ) Tj ET Q
+q 7.56 0 0 10.39 70.87 173.62 cm /I1 Do Q
+q 0.000 g BT 82.20 171.33 Td (  Ladislav) Tj ET Q
+BT /F6 8.00 Tf ET
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 4/4) Tj ET Q
+
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R 7 0 R 9 0 R ]
+/Count 4
+/MediaBox [0 0 595.28 841.89]
+>>
+endobj
+11 0 obj
+<</Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+12 0 obj
+<</Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+13 0 obj
+<</Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+14 0 obj
+<</Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+15 0 obj
+<</Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+16 0 obj
+<</Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+17 0 obj
+<</Type /XObject
+/Subtype /Image
+/Width 8
+/Height 11
+/ColorSpace [/Indexed /DeviceRGB 7 18 0 R]
+/BitsPerComponent 8
+/Mask [7 7 ]
+/Length 88>>
+stream
+              
+endstream
+endobj
+18 0 obj
+<</Length 24>>
+stream
+===åååJJJ±±±qqq¤¤¤FFF   
+endstream
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 11 0 R
+/F2 12 0 R
+/F3 13 0 R
+/F4 14 0 R
+/F5 15 0 R
+/F6 16 0 R
+>>
+/XObject <<
+/I1 17 0 R
+>>
+>>
+endobj
+19 0 obj
+<<
+/Producer (FPDF 1.53)
+/Title (CATCH existe en REBOL)
+/Subject (Articles Techniques)
+/Author (REBOLtof)
+/Keywords (CATCH, throw)
+/Creator (The REBOL Documentation Project)
+/CreationDate (D:20051218111342)
+>>
+endobj
+20 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 21
+0000000000 65535 f 
+0000017920 00000 n 
+0000018958 00000 n 
+0000000009 00000 n 
+0000000222 00000 n 
+0000001764 00000 n 
+0000002619 00000 n 
+0000009153 00000 n 
+0000009366 00000 n 
+0000013410 00000 n 
+0000013942 00000 n 
+0000018025 00000 n 
+0000018122 00000 n 
+0000018217 00000 n 
+0000018315 00000 n 
+0000018414 00000 n 
+0000018516 00000 n 
+0000018621 00000 n 
+0000018885 00000 n 
+0000019129 00000 n 
+0000019355 00000 n 
+trailer
+<<
+/Size 21
+/Root 20 0 R
+/Info 19 0 R
+>>
+startxref
+19459
+%%EOF

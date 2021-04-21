@@ -1,0 +1,591 @@
+%PDF-1.3
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 4 0 R>>
+endobj
+4 0 obj
+<</Length 1291>>
+stream
+2 J
+0.57 w
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (Modules REBOL) Tj ET Q
+0.57 w
+BT /F2 26.00 Tf ET
+q 0.502 g BT 118.24 656.92 Td (The REBOL Documentation) Tj ET Q
+q 0.502 g BT 243.04 631.41 Td (Project) Tj ET Q
+BT /F1 8.00 Tf ET
+q 0.502 g BT 224.74 616.97 Td (-- FR - Documentation REBOL - Divers --) Tj ET Q
+0.85 w
+BT /F2 20.00 Tf ET
+q 0.502 g BT 73.70 423.45 Td (Divers) Tj ET Q
+BT /F3 22.00 Tf ET
+297.64 436.54 m 297.64 413.86 l S q 0.000 g BT 300.47 418.60 Td (Modules REBOL) Tj ET Q
+297.64 413.86 m 297.64 391.18 l S 
+BT /F4 16.00 Tf ET
+297.64 391.18 m 297.64 374.17 l S q 0.000 g BT 409.15 377.88 Td (Philippe Le Goff ) Tj ET Q
+BT /F4 12.00 Tf ET
+297.64 374.17 m 297.64 357.17 l S q 0.000 g BT 306.91 362.07 Td (Première publication : 29 juillet 2006, et mis) Tj ET Q
+297.64 357.17 m 297.64 340.16 l S q 0.000 g BT 358.58 345.06 Td (en ligne le  samedi 29 juillet 2006) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 73.70 253.54 Td (Résumé :) Tj ET 73.70 252.54 45.01 -0.50 re f Q
+BT /F4 8.00 Tf ET
+q 0.000 g BT 73.70 239.96 Td (Un document sur les modules.) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 1/6) Tj ET Q
+
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [93.54 675.39 158.02 665.39] /Border [0 0 0] /A <</S /URI /URI (#1)>>>><</Type /Annot /Subtype /Link /Rect [93.54 661.22 203.61 651.22] /Border [0 0 0] /A <</S /URI /URI (#2)>>>><</Type /Annot /Subtype /Link /Rect [93.54 647.05 186.35 637.05] /Border [0 0 0] /A <</S /URI /URI (#3)>>>><</Type /Annot /Subtype /Link /Rect [113.39 632.87 235.92 622.87] /Border [0 0 0] /A <</S /URI /URI (#3.1)>>>><</Type /Annot /Subtype /Link /Rect [113.39 618.70 257.32 608.70] /Border [0 0 0] /A <</S /URI /URI (#3.2)>>>><</Type /Annot /Subtype /Link /Rect [113.39 604.53 230.11 594.53] /Border [0 0 0] /A <</S /URI /URI (#3.3)>>>><</Type /Annot /Subtype /Link /Rect [93.54 576.18 206.91 566.18] /Border [0 0 0] /A <</S /URI /URI (#4)>>>><</Type /Annot /Subtype /Link /Rect [93.54 562.01 204.95 552.01] /Border [0 0 0] /A <</S /URI /URI (#5)>>>><</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 6 0 R>>
+endobj
+6 0 obj
+<</Length 5212>>
+stream
+2 J
+0.85 w
+BT /F4 8.00 Tf ET
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (Modules REBOL) Tj ET Q
+BT /F4 8.00 Tf ET
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 780.78 Td ( ) Tj ET Q
+q 0.000 g BT 76.48 780.78 Td ( REBOL Enhancement Proposal : REP002 ) Tj ET Q
+q 0.000 g BT 73.70 766.61 Td (Version : 1.0.1 ) Tj ET Q
+q 0.000 g BT 73.70 752.43 Td (Original Date : 2-Aug-2000 ) Tj ET Q
+q 0.000 g BT 73.70 738.26 Td (Rev Date : 21-Mar-2005 ) Tj ET Q
+q 0.000 g BT 73.70 724.09 Td (Author : Carl Sassenrath ) Tj ET Q
+q 0.000 g BT 73.70 709.91 Td (\(Traduction : Philippe Le Goff, Mai 2006\) ) Tj ET Q
+q 0.000 g BT 73.70 695.74 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 681.57 Td ( ) Tj ET Q
+q 0.000 g BT 93.54 681.57 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 667.39 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 667.39 Td (1 Présentation) Tj ET 93.54 666.39 64.48 -0.50 re f Q
+q 0.000 g BT 158.02 667.39 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 653.22 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 653.22 Td (2 Le Binding de contexte) Tj ET 93.54 652.22 110.07 -0.50 re f Q
+q 0.000 g BT 203.61 653.22 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 639.05 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 639.05 Td (3 Créer des modules) Tj ET 93.54 638.05 92.81 -0.50 re f Q
+q 0.000 g BT 186.35 639.05 Td ( ) Tj ET Q
+q 0.000 g BT 98.88 624.87 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 113.39 624.87 Td (3.1 Spécification d'Interface) Tj ET 113.39 623.87 122.53 -0.50 re f Q
+q 0.000 g BT 235.92 624.87 Td ( ) Tj ET Q
+q 0.000 g BT 98.88 610.70 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 113.39 610.70 Td (3.2 Des Scripts comme Modules) Tj ET 113.39 609.70 143.93 -0.50 re f Q
+q 0.000 g BT 257.32 610.70 Td ( ) Tj ET Q
+q 0.000 g BT 98.88 596.53 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 113.39 596.53 Td (3.3 Définitions de Variable) Tj ET 113.39 595.53 116.72 -0.50 re f Q
+q 0.000 g BT 230.11 596.53 Td ( ) Tj ET Q
+q 0.000 g BT 93.54 582.35 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 568.18 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 568.18 Td (4 Hiérarchie des Modules) Tj ET 93.54 567.18 113.37 -0.50 re f Q
+q 0.000 g BT 206.91 568.18 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 554.01 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 554.01 Td (5 Exposition d'un Module) Tj ET 93.54 553.01 111.41 -0.50 re f Q
+q 0.000 g BT 204.95 554.01 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 525.66 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 497.32 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 468.97 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 454.80 Td (NdT : Attention, ce document est une indication sur ce que pourrait être les modules dont parle RT) Tj ET Q
+q 0.000 g BT 73.70 440.62 Td (pour REBOL 3.0.  Depuis la deuxième version de ce document, revu par Carl, et pour REBOL 3.0,) Tj ET Q
+q 0.000 g BT 73.70 426.45 Td (des modifications ont été faites.  Une documentation sera réalisée en conséquence par la suite. ) Tj ET Q
+q 0.000 g BT 73.70 412.28 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 73.70 368.56 Td (1 Présentation) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 355.58 Td (  ) Tj ET Q
+q 0.000 g BT 73.70 341.41 Td (Voici à nouveau la publication de ce document. Cette version, publiée de nouveau, est celle de la) Tj ET Q
+q 0.000 g BT 73.70 327.24 Td (proposition  initiale des modules en REBOL. Donc, elle peut contenir des informations ou des) Tj ET Q
+q 0.000 g BT 73.70 313.06 Td (concepts dépassés.  Nous mettrons à jour ce document dès que possible. Un module REBOL est un) Tj ET Q
+q 0.000 g BT 73.70 298.89 Td (contexte indépendant - un espace de noms. Les modules sont similaires aux objets  en ce sens qu'ils) Tj ET Q
+q 0.000 g BT 73.70 284.72 Td (associent les variables avec leurs valeurs ; cependant, les modules étendent  le principe des objets) Tj ET Q
+q 0.000 g BT 73.70 270.54 Td (de la manière suivante :) Tj ET Q
+q 0.000 g BT 73.70 256.37 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 242.20 Td (Vous ne pouvez accéder aux variables d'un module à moins de les avoir explicitement exportées, ) Tj ET Q
+q 0.000 g BT 73.70 228.02 Td (sinon vous ne pouvez qu'accéder à la liste de mots d'un module \(comme avec le first d'un objet\).) Tj ET Q
+q 0.000 g BT 73.70 213.85 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 199.68 Td (Similaires à des scripts, les modules incluent un contexte descriptif qui définit le titre du module, la) Tj ET Q
+q 0.000 g BT 73.70 185.50 Td (date,  la version et d'autres informations qu'il est possible d'exposer \(réflectivité\). Vous pouvez créer) Tj ET Q
+q 0.000 g BT 73.70 171.33 Td (des modules qui agissent comme un environnement global, protégeant les mots "en dessous d'eux" ) Tj ET Q
+q 0.000 g BT 73.70 157.16 Td (d'un accès direct. Vos scripts peuvent être définis comme des modules en précisant  cette) Tj ET Q
+q 0.000 g BT 73.70 142.98 Td (caractéristique dans l'en-tête du script.) Tj ET Q
+q 0.000 g BT 73.70 128.81 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 114.64 Td (Également, notez que comme les objets, les modules peuvent être encapsulés pour avoir des) Tj ET Q
+q 0.000 g BT 73.70 100.46 Td (contextes sous-jacents.) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 2/6) Tj ET Q
+
+endstream
+endobj
+7 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 8 0 R>>
+endobj
+8 0 obj
+<</Length 4742>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 73.70 819.05 Td (Modules REBOL) Tj ET Q
+q 0.000 g BT 73.70 794.95 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 780.78 Td (Les modules ne doivent pas être confondus avec les composants qui sont des plugins définissant) Tj ET Q
+q 0.000 g BT 73.70 766.61 Td (des  caractéristiques internes de REBOL. D'autre part, un composant peut inclure un ou plusieurs) Tj ET Q
+q 0.000 g BT 73.70 752.43 Td (modules. ) Tj ET Q
+q 0.000 g BT 73.70 738.26 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 709.91 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 695.74 Td (NdT : La capacité de se faire référence à des valeurs REBOL est liée à une propriété des mots) Tj ET Q
+q 0.000 g BT 73.70 681.57 Td (REBOL qu'on appelle le binding. Seuls les mots liés à un contexte \(les mots ayant un contexte\)) Tj ET Q
+q 0.000 g BT 73.70 667.39 Td (peuvent faire référence à des valeurs REBOL.  Définition : les mots n'ayant pas de contextes sont) Tj ET Q
+q 0.000 g BT 73.70 653.22 Td (appelés non liés ou libres, Carl utilise le terme de "globals". ) Tj ET Q
+q 0.000 g BT 73.70 639.05 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 73.70 595.33 Td (2 Le Binding de contexte) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 582.35 Td (  ) Tj ET Q
+q 0.000 g BT 73.70 568.18 Td (L'idée proposée pour un module autorise différents degrés de binding de contexte. Vous pouvez) Tj ET Q
+q 0.000 g BT 73.70 554.01 Td (contrôler comment  les mots "libres" \(non locaux\) sont bindés. ) Tj ET Q
+q 7.56 0 0 10.39 70.87 542.13 cm /I1 Do Q
+q 0.000 g BT 85.04 539.83 Td (  Strict : Lie chaque mot à l'environnement local. Le mot servant à binder devra étendre) Tj ET Q
+q 0.000 g BT 73.70 525.66 Td (suffisamment l'environnement  local pour manipuler tous les mots. Le module est complètement) Tj ET Q
+q 0.000 g BT 73.70 511.49 Td (encapsulé. ) Tj ET Q
+q 7.56 0 0 10.39 70.87 499.61 cm /I1 Do Q
+q 0.000 g BT 85.04 497.32 Td (  Utilisateur \(User\) : Tout mot qui n'aurait pas été défini précédemment dans un contexte sera lié) Tj ET Q
+q 0.000 g BT 73.70 483.14 Td (au contexte local.  Ceci permet aux utilisateurs d'obtenir les mots pré-éfinis de REBOL mais d'avoir) Tj ET Q
+q 0.000 g BT 73.70 468.97 Td (tous les nouveaux mots liés au contexte local. C'est ainsi que la plupart des scripts fonctionneront) Tj ET Q
+q 0.000 g BT 73.70 454.80 Td (par défaut. ) Tj ET Q
+q 7.56 0 0 10.39 70.87 442.91 cm /I1 Do Q
+q 0.000 g BT 85.04 440.62 Td (  Explicite : Une liste explicite de mots locaux est fournie pour le module. Tous les autres mots) Tj ET Q
+q 0.000 g BT 73.70 426.45 Td (disponibles seront  liés aux contextes précédents. ) Tj ET Q
+q 7.56 0 0 10.39 70.87 414.57 cm /I1 Do Q
+q 0.000 g BT 85.04 412.28 Td (  Implicite : Les mots qui utilisent la notation set-word dans le bloc de plus haut niveau du module) Tj ET Q
+q 0.000 g BT 73.70 398.10 Td (seront locaux.  Tous les autres seront liés au-dessus. C'est similaire aux variables dans une instance) Tj ET Q
+q 0.000 g BT 73.70 383.93 Td (d'objet.  C'est le comportement par défaut des modules créés avec la fonction MAKE.) Tj ET Q
+q 0.000 g BT 73.70 369.76 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 73.70 326.04 Td (3 Créer des modules) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 313.06 Td (  ) Tj ET Q
+q 0.000 g BT 73.70 298.89 Td (Les modules peuvent être créés soit avec la fonction MAKE, soit via l'évaluation de scripts  qui) Tj ET Q
+q 0.000 g BT 73.70 284.72 Td (contiennent le mot "module" dans leur en-tête.) Tj ET Q
+q 0.000 g BT 73.70 270.54 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 256.37 Td (Pour créer un module avec MAKE, vous devez fournir un bloc de spécification d'interface et un bloc) Tj ET Q
+q 0.000 g BT 73.70 242.20 Td (pour le corps.  Voici la forme générale avec MAKE :) Tj ET Q
+q 0.000 g BT 73.70 228.02 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.70 214.45 Td ( new: make module! spec body) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 199.68 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 185.50 Td (La valeur retournée par MAKE est le module new. C'est une valeur de première classe ; elle peut) Tj ET Q
+q 0.000 g BT 73.70 171.33 Td (être assignée  à une variable, passée à une autre fonction, ou renvoyée comme le résultat d'une) Tj ET Q
+q 0.000 g BT 73.70 157.16 Td (fonction.) Tj ET Q
+q 0.000 g BT 73.70 142.98 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 128.81 Td (Voici un exemple de script qui implémente un module :) Tj ET Q
+q 0.000 g BT 73.70 114.64 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.70 101.06 Td ( REBOL. [) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 3/6) Tj ET Q
+
+endstream
+endobj
+9 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 10 0 R>>
+endobj
+10 0 obj
+<</Length 4678>>
+stream
+2 J
+0.85 w
+BT /F2 8.00 Tf ET
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (Modules REBOL) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.70 795.55 Td ( title: "Script Module") Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 781.38 Td ( version: 1.0.0) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 767.21 Td ( module: 'script-module ; \(the "name" of the module\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 753.03 Td ( export: [do-it]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 738.86 Td ( ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 724.69 Td ( data: [block of local data]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 710.51 Td ( do-it: does [probe data]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 695.74 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 681.57 Td (Voici un exemple de module dynamiquement créé dans un programme :) Tj ET Q
+q 0.000 g BT 73.70 667.39 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.70 653.82 Td ( example: make module! [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 639.65 Td ( title: "Example module") Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 625.47 Td ( version: 1.0.0) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 611.30 Td ( export: [do-it]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 597.13 Td ( ][) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 582.95 Td ( data: [block of local data]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 568.78 Td ( do-it: does [probe data]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 554.61 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 539.83 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 73.70 496.12 Td (3.1 Spécification d'Interface) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 483.14 Td (  ) Tj ET Q
+q 0.000 g BT 73.70 468.97 Td (Le bloc de spécification d'interface est un en-tête similaire à ceux utilisés dans les scripts.  Il contient) Tj ET Q
+q 0.000 g BT 73.70 454.80 Td (un titre, une date, la version, le nom de l'auteur, et d'autres champs. De plus, certains champs sont) Tj ET Q
+q 0.000 g BT 73.70 440.62 Td (spécifiques \(uniques\) aux modules : ) Tj ET Q
+q 7.56 0 0 10.39 70.87 428.74 cm /I1 Do Q
+q 0.000 g BT 85.04 426.45 Td (  export : Fournit un bloc de mots qui définissent les variables pouvant être accédées de l'extérieur) Tj ET Q
+q 0.000 g BT 73.70 412.28 Td (du module. ) Tj ET Q
+q 7.56 0 0 10.39 70.87 400.39 cm /I1 Do Q
+q 0.000 g BT 85.04 398.10 Td (  import : Fournit un bloc optionnel de mots importés. Quand ce bloc a été fourni, aucun des mots) Tj ET Q
+q 0.000 g BT 73.70 383.93 Td (externes  n'est liés au sein du module, à part ceux qui ont été spécifiés. Ceci permet de limiter les) Tj ET Q
+q 0.000 g BT 73.70 369.76 Td (accès  par les fonctions REBOL au module. ) Tj ET Q
+q 7.56 0 0 10.39 70.87 357.87 cm /I1 Do Q
+q 0.000 g BT 85.04 355.58 Td (  local : Spécifie un bloc optionnel qui définit explicitement les variables locales d'un module.  Si) Tj ET Q
+q 0.000 g BT 73.70 341.41 Td (rien n'est spécifié, alors les variables locales seront définies par les opérations réglées dans le bloc ) Tj ET Q
+q 0.000 g BT 73.70 327.24 Td (de plus haut niveau \(comme avec les objets.\) ) Tj ET Q
+q 7.56 0 0 10.39 70.87 315.35 cm /I1 Do Q
+q 0.000 g BT 85.04 313.06 Td (  options : un flag spécial utilisé pour contrôler le niveau de binding pour le module.  Par exemple,) Tj ET Q
+q 0.000 g BT 73.70 298.89 Td (l'attribut LOCAL force les variables disponibles \(free\) qui ne sont liées à aucun contexte, à être liées) Tj ET Q
+q 0.000 g BT 73.70 284.72 Td (dans le module, et non au contexte parent. L'attribut USER crée pour le module un contexte de haut) Tj ET Q
+q 0.000 g BT 73.70 270.54 Td (niveau \(comme un contexte utilisateur\).) Tj ET Q
+q 0.000 g BT 73.70 256.37 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 242.20 Td (Dans l'exemple précédent, la fonction do-it peut être appelée avec :) Tj ET Q
+q 0.000 g BT 73.70 228.02 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.70 214.45 Td ( example/do-it) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 199.68 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 185.50 Td (Mais, vous ne pourrez pas accéder à la variable data elle-même. Cette ligne retournera une erreur :) Tj ET Q
+q 0.000 g BT 73.70 171.33 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.70 157.76 Td ( example/data) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 143.58 Td ( ** Script Error: Invalid path value: data) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 129.41 Td ( ** Where: example/data) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 114.64 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 4/6) Tj ET Q
+
+endstream
+endobj
+11 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 12 0 R>>
+endobj
+12 0 obj
+<</Length 4148>>
+stream
+2 J
+0.85 w
+BT /F5 14.00 Tf ET
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (Modules REBOL) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 73.70 793.75 Td (3.2 Des Scripts comme Modules) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 780.78 Td (  ) Tj ET Q
+q 0.000 g BT 73.70 766.61 Td (Pour faciliter les choses, un script peut également définir un module.  Ceci est fait en indiquant dans) Tj ET Q
+q 0.000 g BT 73.70 752.43 Td (l'en-tête du script la définition du module :) Tj ET Q
+q 0.000 g BT 73.70 738.26 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.70 724.69 Td ( REBOL. [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 710.51 Td ( title: "Script Module") Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 696.34 Td ( version: 1.0.0) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 682.17 Td ( module: 'script-module) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 667.99 Td ( export: [do-it]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 653.82 Td ( ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 639.65 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 625.47 Td ( ...) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 610.70 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 596.53 Td (Lorsque le script sera évalué, il le sera comme un module. Tous ses mots libres \(globaux\) seront) Tj ET Q
+q 0.000 g BT 73.70 582.35 Td (locaux au module.) Tj ET Q
+q 0.000 g BT 73.70 568.18 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 73.70 524.46 Td (3.3 Définitions de Variable) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 511.49 Td (  ) Tj ET Q
+q 0.000 g BT 73.70 497.32 Td (Au sein d'un module, les variables sont définies comme locales au module de la même manière  que) Tj ET Q
+q 0.000 g BT 73.70 483.14 Td (les objets définissent leurs variables d'instance. Vous pouvez écrire :) Tj ET Q
+q 0.000 g BT 73.70 468.97 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.70 455.40 Td ( make module! [export [a]] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 441.22 Td ( a: b: c: d: e: f: none) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 427.05 Td ( ...) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 412.88 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 398.10 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 383.93 Td (Vous pouvez explicitement déclarer les variables qui sont locales à un module  \(mais vous aurez) Tj ET Q
+q 0.000 g BT 73.70 369.76 Td (aussi besoin de vous rappelez qu'il faut maintenir cette liste !\) :) Tj ET Q
+q 0.000 g BT 73.70 355.58 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.70 342.01 Td ( make module! [export [a] local [a b c d e f]] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 327.84 Td ( ...) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 313.66 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 298.89 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 284.72 Td (De telles variables locales seront définies à NONE, lorsque le module sera créé.  Bien sûr, si l'option) Tj ET Q
+q 0.000 g BT 73.70 270.54 Td (LOCAL est utilisée, alors toutes les variables seront liées localement  à la différence de celles qui) Tj ET Q
+q 0.000 g BT 73.70 256.37 Td (sont explicitement importées.) Tj ET Q
+q 0.000 g BT 73.70 242.20 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 73.70 198.48 Td (4 Hiérarchie des Modules) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 185.50 Td (  ) Tj ET Q
+q 0.000 g BT 73.70 171.33 Td (La nouvelle architecture des modules permet l'amélioration de la structure du contexte pour REBOL) Tj ET Q
+q 0.000 g BT 73.70 157.16 Td (et ses scripts.  Les scripts ne seront plus par défaut liés au contexte global \(main frame\). Au lieu de) Tj ET Q
+q 0.000 g BT 73.70 142.98 Td (cela les scripts seront liés à un contexte utilisateur \(USER frame\) qui est créé  sous le contexte) Tj ET Q
+q 0.000 g BT 73.70 128.81 Td (global. Ceci permet à des scripts entiers et aux fonctions qui y sont définies  d'être libérées de la) Tj ET Q
+q 0.000 g BT 73.70 114.64 Td (mémoire, si ils ne sont plus nécessaires.) Tj ET Q
+q 0.000 g BT 73.70 100.46 Td ( ) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 5/6) Tj ET Q
+
+endstream
+endobj
+13 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 14 0 R>>
+endobj
+14 0 obj
+<</Length 3122>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 73.70 819.05 Td (Modules REBOL) Tj ET Q
+q 0.000 g BT 73.70 794.95 Td (Ceci modifie le processus de binding pour les scripts.  Le "binder" regarde en local pour un mot puis) Tj ET Q
+q 0.000 g BT 73.70 780.78 Td (consulte la hiérarchie des contextes pour ce mot.  Si le mot n'apparaît nulle part dans la hiérarchie,) Tj ET Q
+q 0.000 g BT 73.70 766.61 Td (alors le contexte du module est élargi avec le nouveau mot.  Effectivement, les variables libres) Tj ET Q
+q 0.000 g BT 73.70 752.43 Td (deviennent local au module plutôt que globales.) Tj ET Q
+q 0.000 g BT 73.70 738.26 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 724.09 Td (La hiérarchie des contextes de modules est définie par :) Tj ET Q
+q 0.000 g BT 73.70 709.91 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.70 696.34 Td ( ROOT frame \(natives, and C code references\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 682.17 Td (     SYSTEM frame \(most of the mezz functions\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 667.99 Td (         USER frame \(user script\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 653.82 Td (             MODULE frame \(sub-scripts or make modules\)) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 639.05 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 624.87 Td (Lorsque l'option de module USER est utilisée avec MAKE, un contexte de même niveau est créé) Tj ET Q
+q 0.000 g BT 73.70 610.70 Td (dans le script.  Le nouveau module est placé au niveau du frame USER, plutôt qu'au niveau du) Tj ET Q
+q 0.000 g BT 73.70 596.53 Td (niveau MODULE.) Tj ET Q
+q 0.000 g BT 73.70 582.35 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 568.18 Td (Ceci vous permet de créer des scripts qui sont évalués dans des environnements vierges \(pristine\)  \() Tj ET Q
+q 0.000 g BT 73.70 554.01 Td (soit, dans le même environnement que votre premier script\).) Tj ET Q
+q 0.000 g BT 73.70 539.83 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 73.70 496.12 Td (5 Exposition d'un Module) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 483.14 Td (  ) Tj ET Q
+q 0.000 g BT 73.70 468.97 Td (Vous pouvez obtenir l'en-tête d'un module en utilisant la fonction FIRST. Elle renverra l'en-tête  tel) Tj ET Q
+q 0.000 g BT 73.70 454.80 Td (qu'il a été défini dans le module. Ceci permet aussi de déterminer quels mots ont été exportés par un) Tj ET Q
+q 0.000 g BT 73.70 440.62 Td (module. Vous pouvez aussi automatiquement générer la documentation d'un module, comme avec) Tj ET Q
+q 0.000 g BT 73.70 426.45 Td (les autres en-têtes  de scripts REBOL.) Tj ET Q
+q 0.000 g BT 73.70 412.28 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 398.10 Td (Example :) Tj ET Q
+q 0.000 g BT 73.70 383.93 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.70 370.36 Td ( foreach word get in first module 'export [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 356.18 Td (     print word) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 342.01 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+BT /F6 8.00 Tf ET
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 6/6) Tj ET Q
+
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R 7 0 R 9 0 R 11 0 R 13 0 R ]
+/Count 6
+/MediaBox [0 0 595.28 841.89]
+>>
+endobj
+15 0 obj
+<</Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+16 0 obj
+<</Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+17 0 obj
+<</Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+18 0 obj
+<</Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+19 0 obj
+<</Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+20 0 obj
+<</Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+21 0 obj
+<</Type /XObject
+/Subtype /Image
+/Width 8
+/Height 11
+/ColorSpace [/Indexed /DeviceRGB 7 22 0 R]
+/BitsPerComponent 8
+/Mask [7 7 ]
+/Length 88>>
+stream
+              
+endstream
+endobj
+22 0 obj
+<</Length 24>>
+stream
+===åååJJJ±±±qqq¤¤¤FFF   
+endstream
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 15 0 R
+/F2 16 0 R
+/F3 17 0 R
+/F4 18 0 R
+/F5 19 0 R
+/F6 20 0 R
+>>
+/XObject <<
+/I1 21 0 R
+>>
+>>
+endobj
+23 0 obj
+<<
+/Producer (FPDF 1.53)
+/Title (Modules REBOL)
+/Subject (Divers)
+/Author (Philippe Le Goff )
+/Keywords (DOCUMENTATION)
+/Creator (The REBOL Documentation Project)
+/CreationDate (D:20060822174240)
+>>
+endobj
+24 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 25
+0000000000 65535 f 
+0000025653 00000 n 
+0000026705 00000 n 
+0000000009 00000 n 
+0000000222 00000 n 
+0000001563 00000 n 
+0000002641 00000 n 
+0000007903 00000 n 
+0000008116 00000 n 
+0000012908 00000 n 
+0000013122 00000 n 
+0000017851 00000 n 
+0000018066 00000 n 
+0000022265 00000 n 
+0000022480 00000 n 
+0000025772 00000 n 
+0000025869 00000 n 
+0000025964 00000 n 
+0000026062 00000 n 
+0000026161 00000 n 
+0000026263 00000 n 
+0000026368 00000 n 
+0000026632 00000 n 
+0000026876 00000 n 
+0000027091 00000 n 
+trailer
+<<
+/Size 25
+/Root 24 0 R
+/Info 23 0 R
+>>
+startxref
+27195
+%%EOF

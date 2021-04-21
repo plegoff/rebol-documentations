@@ -1,0 +1,401 @@
+%PDF-1.3
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 4 0 R>>
+endobj
+4 0 obj
+<</Length 1227>>
+stream
+2 J
+0.57 w
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (Comité de Rédaction) Tj ET Q
+0.57 w
+BT /F2 26.00 Tf ET
+q 0.502 g BT 118.24 656.92 Td (The REBOL Documentation) Tj ET Q
+q 0.502 g BT 243.04 631.41 Td (Project) Tj ET Q
+BT /F1 8.00 Tf ET
+q 0.502 g BT 261.19 616.97 Td (-- FR - Information --) Tj ET Q
+0.85 w
+BT /F2 20.00 Tf ET
+q 0.502 g BT 73.70 423.45 Td (Information) Tj ET Q
+BT /F3 22.00 Tf ET
+297.64 436.54 m 297.64 413.86 l S q 0.000 g BT 300.47 418.60 Td (Comité de Rédaction) Tj ET Q
+297.64 413.86 m 297.64 391.18 l S 
+BT /F4 16.00 Tf ET
+297.64 391.18 m 297.64 374.17 l S q 0.000 g BT 451.35 377.88 Td (REBOLtof) Tj ET Q
+BT /F4 12.00 Tf ET
+297.64 374.17 m 297.64 357.17 l S q 0.000 g BT 416.93 362.07 Td ( lundi 28 février 2005) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 73.70 253.54 Td (Résumé :) Tj ET 73.70 252.54 45.01 -0.50 re f Q
+BT /F4 8.00 Tf ET
+q 0.000 g BT 73.70 239.96 Td (Ce document présente les missions et la composition du "comité de rédaction" actif dans le cadre du projet.) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 1/3) Tj ET Q
+
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [452.21 301.22 507.79 291.22] /Border [0 0 0] /A <</S /URI /URI (article.php3?id_article=7)>>>><</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 6 0 R>>
+endobj
+6 0 obj
+<</Length 8813>>
+stream
+2 J
+0.85 w
+BT /F4 8.00 Tf ET
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (Comité de Rédaction) Tj ET Q
+BT /F4 8.00 Tf ET
+BT /F5 10.00 Tf ET
+q 0.000 g BT 73.70 794.95 Td (Ce document présente les missions et la composition du "comité de rédaction" actif dans le) Tj ET Q
+q 0.000 g BT 73.70 780.78 Td (cadre du projet.) Tj ET Q
+BT /F1 10.00 Tf ET
+BT /F5 14.00 Tf ET
+q 0.000 g BT 73.70 703.04 Td (Missions) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 690.07 Td (  ) Tj ET Q
+q 0.000 g BT 73.70 675.90 Td (Le comité de rédaction est le garant de la qualité du fond et de la forme des documents publiés sur) Tj ET Q
+q 0.000 g BT 73.70 661.72 Td (le site du projet.) Tj ET Q
+q 0.000 g BT 73.70 647.55 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 633.38 Td (A cette fin, ses membres, tous bénévoles, sont chargés d'étudier la documentation qui est soumise) Tj ET Q
+q 0.000 g BT 73.70 619.20 Td (pour publication, et d'établir :) Tj ET Q
+q 0.000 g BT 73.70 605.03 Td ( ) Tj ET Q
+q 7.56 0 0 10.39 70.87 593.15 cm /I1 Do Q
+q 0.000 g BT 85.04 590.86 Td (  si celle-ci rentre dans le cadre des objectifs du projet  ) Tj ET Q
+q 7.56 0 0 10.39 70.87 578.98 cm /I1 Do Q
+q 0.000 g BT 85.04 576.69 Td (  si le niveau technique proposé est suffisant  ) Tj ET Q
+q 7.56 0 0 10.39 70.87 564.80 cm /I1 Do Q
+q 0.000 g BT 85.04 562.51 Td (  si l'emploi de la langue est correct) Tj ET Q
+q 0.000 g BT 73.70 548.34 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 73.70 504.62 Td (Fonctionnement) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 491.65 Td (  ) Tj ET Q
+q 0.000 g BT 73.70 477.47 Td (Le coordinateur du projet \(ou son remplaçant\) signale la présence d'un document "proposé à la) Tj ET Q
+q 0.000 g BT 73.70 463.30 Td (publication" aux membres du comité. En fonction de leur connaissances, de leur affinité avec le sujet) Tj ET Q
+q 0.000 g BT 73.70 449.13 Td (traité ou encore du temps dont ils disposent afin de se consacrer à cette tâche, les membres) Tj ET Q
+q 0.000 g BT 73.70 434.95 Td (décident d'accepter ou de refuser le travail.) Tj ET Q
+q 0.000 g BT 73.70 420.78 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 406.61 Td (Chacun des membres se chargeant de l'examen d'un document, prendra connaissance de celui-ci) Tj ET Q
+q 0.000 g BT 73.70 392.43 Td (avec l'attention nécessaire et fera figurer ses commentaires en bas de page.) Tj ET Q
+q 0.000 g BT 73.70 378.26 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 73.70 334.54 Td (Recrutement) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 321.57 Td (  ) Tj ET Q
+q 0.000 g BT 73.70 307.39 Td (Toute personne se sentant intéressée par le travail effectué et souhaitant se porter volontaire pour) Tj ET Q
+q 0.000 g BT 73.70 293.22 Td (devenir membre du comité, est la bienvenue. Il vous suffit de prendre contact avec le ) Tj ET Q
+q 0.000 0.000 1.000 rg BT 452.21 293.22 Td (coordinateur) Tj ET 452.21 292.22 55.58 -0.50 re f Q
+q 0.000 g BT 507.79 293.22 Td (.) Tj ET Q
+q 0.000 g BT 73.70 279.05 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 73.70 235.33 Td (Composition) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 222.35 Td (  ) Tj ET Q
+q 0.000 g BT 73.70 208.18 Td (Le comité est composé des personnes suivantes, en date de la dernière mise à jour du document.) Tj ET Q
+q 0.000 g BT 73.70 194.01 Td ( ) Tj ET Q
+q 0.000 g BT 76.48 194.01 Td ( ) Tj ET Q
+q 0.000 g BT 79.26 194.01 Td ( 					) Tj ET Q
+q 0.000 g BT 95.94 194.01 Td ( ) Tj ET Q
+q 0.000 g BT 98.72 194.01 Td ( ) Tj ET Q
+q 0.000 g BT 101.50 194.01 Td ( ) Tj ET Q
+q 0.000 g BT 104.28 194.01 Td ( ) Tj ET Q
+q 0.000 g BT 107.06 194.01 Td ( ) Tj ET Q
+q 0.000 g BT 109.84 194.01 Td ( ) Tj ET Q
+q 0.000 g BT 112.62 194.01 Td ( ) Tj ET Q
+q 0.000 g BT 115.40 194.01 Td ( ) Tj ET Q
+q 0.000 g BT 118.18 194.01 Td ( ) Tj ET Q
+q 0.000 g BT 120.96 194.01 Td ( ) Tj ET Q
+q 0.000 g BT 123.74 194.01 Td ( ) Tj ET Q
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F5 8.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F5 8.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F5 8.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F5 8.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F5 8.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F5 8.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F5 8.00 Tf ET
+1.000 1.000 0.000 rg
+81.60 204.09 98.76 -14.17 re B q 0.000 g BT 84.44 194.61 Td ( Prénom, Nom ) Tj ET Q
+BT /F1 8.00 Tf ET
+1.000 g
+BT /F5 8.00 Tf ET
+1.000 1.000 0.000 rg
+180.36 204.09 56.53 -14.17 re B q 0.000 g BT 183.20 194.61 Td ( Alias ) Tj ET Q
+BT /F1 8.00 Tf ET
+1.000 g
+BT /F5 8.00 Tf ET
+1.000 1.000 0.000 rg
+236.89 204.09 99.23 -14.17 re B q 0.000 g BT 239.73 194.61 Td ( eMail ) Tj ET Q
+BT /F1 8.00 Tf ET
+1.000 g
+BT /F5 8.00 Tf ET
+1.000 1.000 0.000 rg
+336.12 204.09 53.85 -14.17 re B q 0.000 g BT 338.96 194.61 Td ( Langues ) Tj ET Q
+BT /F1 8.00 Tf ET
+1.000 g
+BT /F5 8.00 Tf ET
+1.000 1.000 0.000 rg
+389.97 204.09 71.63 -14.17 re B q 0.000 g BT 392.81 194.61 Td ( Membre depuis ) Tj ET Q
+BT /F1 8.00 Tf ET
+1.000 g
+BT /F5 8.00 Tf ET
+1.000 1.000 0.000 rg
+461.60 204.09 52.07 -14.17 re B q 0.000 g BT 464.44 194.61 Td ( Remarque ) Tj ET Q
+BT /F1 8.00 Tf ET
+1.000 g
+0.902 0.902 0.902 rg
+81.60 189.92 98.76 -14.17 re B q 0.000 g BT 84.44 180.43 Td ( Olivier Auverlot ) Tj ET Q
+180.36 189.92 56.53 -14.17 re B q 0.000 g BT 183.20 180.43 Td ( ) Tj ET Q
+236.89 189.92 99.23 -14.17 re B q 0.000 g BT 239.73 180.43 Td ( ) Tj ET Q
+336.12 189.92 53.85 -14.17 re B q 0.000 g BT 338.96 180.43 Td ( FR ) Tj ET Q
+389.97 189.92 71.63 -14.17 re B q 0.000 g BT 392.81 180.43 Td ( 23 Fev 05 ) Tj ET Q
+461.60 189.92 52.07 -14.17 re B q 0.000 g BT 464.44 180.43 Td ( ) Tj ET Q
+81.60 175.75 98.76 -14.17 re S q 0.000 g BT 84.44 166.26 Td ( Christophe Coussement ) Tj ET Q
+180.36 175.75 56.53 -14.17 re S q 0.000 g BT 183.20 166.26 Td ( REBOLtof ) Tj ET Q
+236.89 175.75 99.23 -14.17 re S q 0.000 g BT 239.73 166.26 Td ( reboltof at yahoo dot net ) Tj ET Q
+336.12 175.75 53.85 -14.17 re S q 0.000 g BT 338.96 166.26 Td ( FR, NL, EN ) Tj ET Q
+389.97 175.75 71.63 -14.17 re S q 0.000 g BT 392.81 166.26 Td ( 19 Fev 05 ) Tj ET Q
+461.60 175.75 52.07 -14.17 re S q 0.000 g BT 464.44 166.26 Td ( ) Tj ET Q
+0.902 0.902 0.902 rg
+81.60 161.58 98.76 -14.17 re B q 0.000 g BT 84.44 152.09 Td ( Didier Ghilain ) Tj ET Q
+180.36 161.58 56.53 -14.17 re B q 0.000 g BT 183.20 152.09 Td ( didjé ) Tj ET Q
+236.89 161.58 99.23 -14.17 re B q 0.000 g BT 239.73 152.09 Td ( ) Tj ET Q
+336.12 161.58 53.85 -14.17 re B q 0.000 g BT 338.96 152.09 Td ( FR, NL ) Tj ET Q
+389.97 161.58 71.63 -14.17 re B q 0.000 g BT 392.81 152.09 Td ( 20 Fev 05 ) Tj ET Q
+461.60 161.58 52.07 -14.17 re B q 0.000 g BT 464.44 152.09 Td ( ) Tj ET Q
+81.60 147.40 98.76 -14.17 re S q 0.000 g BT 84.44 137.92 Td ( François Jouen ) Tj ET Q
+180.36 147.40 56.53 -14.17 re S q 0.000 g BT 183.20 137.92 Td ( ) Tj ET Q
+236.89 147.40 99.23 -14.17 re S q 0.000 g BT 239.73 137.92 Td ( ) Tj ET Q
+336.12 147.40 53.85 -14.17 re S q 0.000 g BT 338.96 137.92 Td ( FR ) Tj ET Q
+389.97 147.40 71.63 -14.17 re S q 0.000 g BT 392.81 137.92 Td ( 23 Fev 05 ) Tj ET Q
+461.60 147.40 52.07 -14.17 re S q 0.000 g BT 464.44 137.92 Td ( ) Tj ET Q
+0.902 0.902 0.902 rg
+81.60 133.23 98.76 -14.17 re B q 0.000 g BT 84.44 123.74 Td ( Karim El-Founas ) Tj ET Q
+180.36 133.23 56.53 -14.17 re B q 0.000 g BT 183.20 123.74 Td ( Goldevil ) Tj ET Q
+236.89 133.23 99.23 -14.17 re B q 0.000 g BT 239.73 123.74 Td ( ) Tj ET Q
+336.12 133.23 53.85 -14.17 re B q 0.000 g BT 338.96 123.74 Td ( FR, EN ) Tj ET Q
+389.97 133.23 71.63 -14.17 re B q 0.000 g BT 392.81 123.74 Td ( 19 Mar 05 ) Tj ET Q
+461.60 133.23 52.07 -14.17 re B q 0.000 g BT 464.44 123.74 Td ( ) Tj ET Q
+81.60 119.06 98.76 -14.17 re S q 0.000 g BT 84.44 109.57 Td ( Philippe Le Goff ) Tj ET Q
+180.36 119.06 56.53 -14.17 re S q 0.000 g BT 183.20 109.57 Td ( ) Tj ET Q
+236.89 119.06 99.23 -14.17 re S q 0.000 g BT 239.73 109.57 Td ( ) Tj ET Q
+336.12 119.06 53.85 -14.17 re S q 0.000 g BT 338.96 109.57 Td ( FR ) Tj ET Q
+389.97 119.06 71.63 -14.17 re S q 0.000 g BT 392.81 109.57 Td ( 23 Fev 05 ) Tj ET Q
+461.60 119.06 52.07 -14.17 re S q 0.000 g BT 464.44 109.57 Td ( ) Tj ET Q
+0.902 0.902 0.902 rg
+81.60 104.88 98.76 -14.17 re B q 0.000 g BT 84.44 95.40 Td ( Charles Mougel ) Tj ET Q
+180.36 104.88 56.53 -14.17 re B q 0.000 g BT 183.20 95.40 Td ( Johnatemps ) Tj ET Q
+236.89 104.88 99.23 -14.17 re B q 0.000 g BT 239.73 95.40 Td ( ) Tj ET Q
+336.12 104.88 53.85 -14.17 re B q 0.000 g BT 338.96 95.40 Td ( FR ) Tj ET Q
+389.97 104.88 71.63 -14.17 re B q 0.000 g BT 392.81 95.40 Td ( 23 Fev 05 ) Tj ET Q
+461.60 104.88 52.07 -14.17 re B q 0.000 g BT 464.44 95.40 Td ( ) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 2/3) Tj ET Q
+
+endstream
+endobj
+7 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 8 0 R>>
+endobj
+8 0 obj
+<</Length 851>>
+stream
+2 J
+0.85 w
+BT /F1 8.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (Comité de Rédaction) Tj ET Q
+BT /F1 8.00 Tf ET
+81.60 805.04 98.76 -14.17 re S q 0.000 g BT 84.44 795.55 Td ( Mike Myers ) Tj ET Q
+180.36 805.04 56.53 -14.17 re S q 0.000 g BT 183.20 795.55 Td ( MikeL ) Tj ET Q
+236.89 805.04 99.23 -14.17 re S q 0.000 g BT 239.73 795.55 Td ( ) Tj ET Q
+336.12 805.04 53.85 -14.17 re S q 0.000 g BT 338.96 795.55 Td ( EN ) Tj ET Q
+389.97 805.04 71.63 -14.17 re S q 0.000 g BT 392.81 795.55 Td ( 06 Nov 05 ) Tj ET Q
+461.60 805.04 52.07 -14.17 re S q 0.000 g BT 464.44 795.55 Td ( ) Tj ET Q
+BT /F1 10.00 Tf ET
+BT /F6 8.00 Tf ET
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 3/3) Tj ET Q
+
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R 7 0 R ]
+/Count 3
+/MediaBox [0 0 595.28 841.89]
+>>
+endobj
+9 0 obj
+<</Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+10 0 obj
+<</Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+11 0 obj
+<</Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+12 0 obj
+<</Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+13 0 obj
+<</Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+14 0 obj
+<</Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+15 0 obj
+<</Type /XObject
+/Subtype /Image
+/Width 8
+/Height 11
+/ColorSpace [/Indexed /DeviceRGB 7 16 0 R]
+/BitsPerComponent 8
+/Mask [7 7 ]
+/Length 88>>
+stream
+              
+endstream
+endobj
+16 0 obj
+<</Length 24>>
+stream
+===åååJJJ±±±qqq¤¤¤FFF   
+endstream
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 9 0 R
+/F2 10 0 R
+/F3 11 0 R
+/F4 12 0 R
+/F5 13 0 R
+/F6 14 0 R
+>>
+/XObject <<
+/I1 15 0 R
+>>
+>>
+endobj
+17 0 obj
+<<
+/Producer (FPDF 1.53)
+/Title (Comité de Rédaction)
+/Subject (Information)
+/Author (REBOLtof)
+/Keywords (INFO)
+/Creator (The REBOL Documentation Project)
+/CreationDate (D:20051219093340)
+>>
+endobj
+18 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 19
+0000000000 65535 f 
+0000011819 00000 n 
+0000012850 00000 n 
+0000000009 00000 n 
+0000000222 00000 n 
+0000001499 00000 n 
+0000001843 00000 n 
+0000010706 00000 n 
+0000010919 00000 n 
+0000011918 00000 n 
+0000012014 00000 n 
+0000012109 00000 n 
+0000012207 00000 n 
+0000012306 00000 n 
+0000012408 00000 n 
+0000012513 00000 n 
+0000012777 00000 n 
+0000013020 00000 n 
+0000013228 00000 n 
+trailer
+<<
+/Size 19
+/Root 18 0 R
+/Info 17 0 R
+>>
+startxref
+13332
+%%EOF

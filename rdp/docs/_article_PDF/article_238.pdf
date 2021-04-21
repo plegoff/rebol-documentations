@@ -1,0 +1,238 @@
+%PDF-1.3
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 4 0 R>>
+endobj
+4 0 obj
+<</Length 1588>>
+stream
+2 J
+0.57 w
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (Considérations à propos de TO-HEX et des entiers 64 bits) Tj ET Q
+0.57 w
+BT /F2 26.00 Tf ET
+q 0.502 g BT 118.24 656.92 Td (The REBOL Documentation) Tj ET Q
+q 0.502 g BT 243.04 631.41 Td (Project) Tj ET Q
+BT /F1 8.00 Tf ET
+q 0.502 g BT 224.74 616.97 Td (-- FR - Documentation REBOL - Divers --) Tj ET Q
+0.85 w
+BT /F2 20.00 Tf ET
+q 0.502 g BT 73.70 423.45 Td (Divers) Tj ET Q
+BT /F3 22.00 Tf ET
+297.64 436.54 m 297.64 413.86 l S q 0.000 g BT 300.47 418.60 Td (Considérations à) Tj ET Q
+297.64 413.86 m 297.64 391.18 l S q 0.000 g BT 300.47 395.92 Td (propos de TO-HEX et) Tj ET Q
+297.64 391.18 m 297.64 368.50 l S q 0.000 g BT 300.47 373.24 Td (des entiers 64 bits) Tj ET Q
+297.64 368.50 m 297.64 345.83 l S 
+BT /F4 16.00 Tf ET
+297.64 345.83 m 297.64 328.82 l S q 0.000 g BT 409.15 332.52 Td (Philippe Le Goff ) Tj ET Q
+BT /F4 12.00 Tf ET
+297.64 328.82 m 297.64 311.81 l S q 0.000 g BT 301.92 316.72 Td (Première publication : 20 juin 2006, et mis en) Tj ET Q
+297.64 311.81 m 297.64 294.80 l S q 0.000 g BT 392.24 299.71 Td (ligne le  jeudi 22 juin 2006) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 73.70 253.54 Td (Résumé :) Tj ET 73.70 252.54 45.01 -0.50 re f Q
+BT /F4 8.00 Tf ET
+q 0.000 g BT 73.70 239.96 Td (Traduction de l'article 031 du blog de Rebol 3.0 au sujet de la fonction TO-HEX et du mode 64 bits) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 1/2) Tj ET Q
+
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 6 0 R>>
+endobj
+6 0 obj
+<</Length 3909>>
+stream
+2 J
+0.85 w
+BT /F4 8.00 Tf ET
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (Considérations à propos de TO-HEX et des entiers 64 bits) Tj ET Q
+BT /F4 8.00 Tf ET
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 780.78 Td ( ) Tj ET Q
+q 0.000 g BT 76.48 780.78 Td (Considérations à propos de TO-HEX et des entiers 64 bits) Tj ET Q
+q 0.000 g BT 73.70 766.61 Td ( ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 73.70 752.43 Td (Carl Sassenrath, CTO REBOL Technologies  7-Jun-2006 1:41 GMT - Article #0031) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 738.26 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 724.09 Td (Lors de l'utilisation de la fonction ) Tj ET Q
+q 0.000 g BT 220.68 724.09 Td (to-hex) Tj ET Q
+q 0.000 g BT 248.47 724.09 Td ( dans REBOL 3.0, il faudra être attentif au fait que la  chaîne) Tj ET Q
+q 0.000 g BT 73.70 709.91 Td (hexadécimale retournée sera plus longue du fait de l'usage d'entiers 64 bits.) Tj ET Q
+q 0.000 g BT 73.70 695.74 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 681.57 Td (Par exemple, en REBOL 2.6, les entiers 32 bits fournissent ce genre de résultat :) Tj ET Q
+q 0.000 g BT 73.70 667.39 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 653.22 Td (	>> to-hex 1 	== #00000001 ) Tj ET Q
+q 0.000 g BT 73.70 639.05 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 624.87 Td (En REBOL 3.0, les résultats correspondront avec des entiers 64 bits :) Tj ET Q
+q 0.000 g BT 73.70 610.70 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 596.53 Td ( 	>> to-hex 1 	== #0000000000000001 ) Tj ET Q
+q 0.000 g BT 73.70 582.35 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 568.18 Td (Pour faciliter l'usage de ceci, un raffinement ) Tj ET Q
+q 0.000 g BT 270.14 568.18 Td (/size) Tj ET Q
+q 0.000 g BT 290.70 568.18 Td ( a été ajouté. Il permet de spécifier un nombre de) Tj ET Q
+q 0.000 g BT 73.70 554.01 Td (chiffres  hexadecimaux à retourner. Par exemple, pour avoir le même résultat qu'en REBOL 2.6,) Tj ET Q
+q 0.000 g BT 73.70 539.83 Td (vous devez écrire :) Tj ET Q
+q 0.000 g BT 73.70 525.66 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 511.49 Td ( 	>> to-hex/size 1 8 	== #00000001) Tj ET Q
+q 0.000 g BT 73.70 497.32 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 483.14 Td (	>> to-hex/size -1 8 	== #FFFFFFFF ) Tj ET Q
+q 0.000 g BT 73.70 468.97 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 454.80 Td (Bien sûr, pour des nombres supérieurs à 32 bits, ceci pose problème car le résultat sera réduit à 8) Tj ET Q
+q 0.000 g BT 73.70 440.62 Td (chiffres.) Tj ET Q
+q 0.000 g BT 73.70 426.45 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 412.28 Td (Par ailleurs pour des raisons de commodité, la fonction ) Tj ET Q
+q 0.000 g BT 319.91 412.28 Td (to-hex) Tj ET Q
+q 0.000 g BT 347.70 412.28 Td ( a été améliorée pour gérer les) Tj ET Q
+q 0.000 g BT 73.70 398.10 Td (caractères et les valeurs de type tuple. Par exemple :) Tj ET Q
+q 0.000 g BT 73.70 383.93 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 369.76 Td ( 	>> to-hex first "REBOL" 	== #52) Tj ET Q
+q 0.000 g BT 73.70 355.58 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 341.41 Td (	>> to-hex first ##) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 151.52 341.41 Td (005200450042004f004c) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 259.38 341.41 Td ( ; unicode 	== #0052 ) Tj ET Q
+q 0.000 g BT 73.70 327.24 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 313.06 Td (La conversion de datatype tuple ! vers un hexadécimal facilite la conversion des valeurs de couleurs) Tj ET Q
+q 0.000 g BT 73.70 298.89 Td (rebol en valeurs HTML :) Tj ET Q
+q 0.000 g BT 73.70 284.72 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 270.54 Td ( 	>> to-hex 255.150.50 	== #FF9632 ) Tj ET Q
+q 0.000 g BT 73.70 256.37 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 242.20 Td (\(Mais soyez prudents si la couleur contient une valeur alpha \)) Tj ET Q
+q 0.000 g BT 73.70 228.02 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 213.85 Td (\(Traduction Philippe Le Goff\)) Tj ET Q
+BT /F6 8.00 Tf ET
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 2/2) Tj ET Q
+
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R ]
+/Count 2
+/MediaBox [0 0 595.28 841.89]
+>>
+endobj
+7 0 obj
+<</Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+8 0 obj
+<</Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+9 0 obj
+<</Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+10 0 obj
+<</Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+11 0 obj
+<</Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+12 0 obj
+<</Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+/F6 12 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+13 0 obj
+<<
+/Producer (FPDF 1.53)
+/Title (Considérations à propos de TO-HEX et des entiers 64 bits)
+/Subject (Divers)
+/Author (Philippe Le Goff )
+/Keywords (DOCUMENTATION)
+/Creator (The REBOL Documentation Project)
+/CreationDate (D:20060721135205)
+>>
+endobj
+14 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 15
+0000000000 65535 f 
+0000006032 00000 n 
+0000006718 00000 n 
+0000000009 00000 n 
+0000000222 00000 n 
+0000001860 00000 n 
+0000002073 00000 n 
+0000006125 00000 n 
+0000006221 00000 n 
+0000006315 00000 n 
+0000006412 00000 n 
+0000006511 00000 n 
+0000006613 00000 n 
+0000006875 00000 n 
+0000007133 00000 n 
+trailer
+<<
+/Size 15
+/Root 14 0 R
+/Info 13 0 R
+>>
+startxref
+7237
+%%EOF

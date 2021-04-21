@@ -1,0 +1,695 @@
+%PDF-1.3
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 4 0 R>>
+endobj
+4 0 obj
+<</Length 1605>>
+stream
+2 J
+0.57 w
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (Manuel de l'utilisateur - Chapitre 1 - Introduction) Tj ET Q
+0.57 w
+BT /F2 26.00 Tf ET
+q 0.502 g BT 118.24 656.92 Td (The REBOL Documentation) Tj ET Q
+q 0.502 g BT 243.04 631.41 Td (Project) Tj ET Q
+BT /F1 8.00 Tf ET
+q 0.502 g BT 220.96 616.97 Td (-- FR - Documentation REBOL - Manuels --) Tj ET Q
+0.85 w
+BT /F2 20.00 Tf ET
+q 0.502 g BT 73.70 423.45 Td (Manuels) Tj ET Q
+BT /F3 22.00 Tf ET
+297.64 436.54 m 297.64 413.86 l S q 0.000 g BT 300.47 418.60 Td (Manuel de l'utilisateur) Tj ET Q
+297.64 413.86 m 297.64 391.18 l S q 0.000 g BT 300.47 395.92 Td (- Chapitre 1 -) Tj ET Q
+297.64 391.18 m 297.64 368.50 l S q 0.000 g BT 300.47 373.24 Td (Introduction) Tj ET Q
+297.64 368.50 m 297.64 345.83 l S 
+BT /F4 16.00 Tf ET
+297.64 345.83 m 297.64 328.82 l S q 0.000 g BT 409.15 332.52 Td (Philippe Le Goff ) Tj ET Q
+BT /F4 12.00 Tf ET
+297.64 328.82 m 297.64 311.81 l S q 0.000 g BT 302.59 316.72 Td (Première publication : 13 mai 2005, et mis en) Tj ET Q
+297.64 311.81 m 297.64 294.80 l S q 0.000 g BT 374.93 299.71 Td (ligne le  vendredi 13 mai 2005) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 73.70 253.54 Td (Résumé :) Tj ET 73.70 252.54 45.01 -0.50 re f Q
+BT /F4 8.00 Tf ET
+q 0.000 g BT 73.70 239.96 Td (Ce document est la traduction française du Chapitre 1 du User Guide de REBOL/Core, c'est à dire l'Introduction au langage.) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 1/6) Tj ET Q
+
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [90.71 52.19 216.98 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 6 0 R>>
+endobj
+6 0 obj
+<</Length 5862>>
+stream
+2 J
+0.85 w
+BT /F4 8.00 Tf ET
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (Manuel de l'utilisateur - Chapitre 1 - Introduction) Tj ET Q
+BT /F4 8.00 Tf ET
+BT /F5 10.00 Tf ET
+q 0.000 g BT 73.70 780.78 Td ( Ce document est la traduction française du Chapitre 1 du User Guide de REBOL/Core, c'est à) Tj ET Q
+q 0.000 g BT 73.70 766.61 Td (dire l'Introduction au langage.) Tj ET Q
+q 0.000 g BT 73.70 752.43 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 738.26 Td (Traducteur : Philippe Le Goff) Tj ET Q
+BT /F1 10.00 Tf ET
+BT /F5 14.00 Tf ET
+q 0.000 g BT 73.70 646.35 Td (Historique de la Traduction) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 633.38 Td ( ) Tj ET Q
+q 0.000 g BT 76.48 633.38 Td ( ) Tj ET Q
+q 0.000 g BT 79.26 633.38 Td ( 					) Tj ET Q
+q 0.000 g BT 95.94 633.38 Td ( ) Tj ET Q
+q 0.000 g BT 98.72 633.38 Td ( ) Tj ET Q
+q 0.000 g BT 101.50 633.38 Td ( ) Tj ET Q
+q 0.000 g BT 104.28 633.38 Td ( ) Tj ET Q
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F5 8.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F5 8.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F5 8.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F5 8.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F5 8.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F5 8.00 Tf ET
+1.000 1.000 0.000 rg
+91.63 643.46 80.99 -14.17 re B q 0.000 g BT 94.46 633.98 Td ( Date ) Tj ET Q
+BT /F1 8.00 Tf ET
+1.000 g
+BT /F5 8.00 Tf ET
+1.000 1.000 0.000 rg
+172.62 643.46 40.07 -14.17 re B q 0.000 g BT 175.46 633.98 Td (Version ) Tj ET Q
+BT /F1 8.00 Tf ET
+1.000 g
+BT /F5 8.00 Tf ET
+1.000 1.000 0.000 rg
+212.69 643.46 73.42 -14.17 re B q 0.000 g BT 215.53 633.98 Td (Commentaires ) Tj ET Q
+BT /F1 8.00 Tf ET
+1.000 g
+BT /F5 8.00 Tf ET
+1.000 1.000 0.000 rg
+286.11 643.46 67.65 -14.17 re B q 0.000 g BT 288.94 633.98 Td (Auteur ) Tj ET Q
+BT /F1 8.00 Tf ET
+1.000 g
+BT /F5 8.00 Tf ET
+1.000 1.000 0.000 rg
+353.76 643.46 149.90 -14.17 re B q 0.000 g BT 356.59 633.98 Td (Email ) Tj ET Q
+BT /F1 8.00 Tf ET
+1.000 g
+0.902 0.902 0.902 rg
+91.63 629.29 80.99 -14.17 re B q 0.000 g BT 94.46 619.80 Td ( 27 avril 2005 21:05 ) Tj ET Q
+172.62 629.29 40.07 -14.17 re B q 0.000 g BT 175.46 619.80 Td (1.0.0 ) Tj ET Q
+212.69 629.29 73.42 -14.17 re B q 0.000 g BT 215.53 619.80 Td (Traduction initiale ) Tj ET Q
+286.11 629.29 67.65 -14.17 re B q 0.000 g BT 288.94 619.80 Td (Philippe Le Goff ) Tj ET Q
+353.76 629.29 149.90 -14.17 re B q 0.000 g BT 356.59 619.80 Td (lp&mdash;legoff&mdash;free&mdash;fr ) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 605.03 Td ( ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 561.31 Td (A propos de REBOL) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 548.34 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 534.17 Td (Voici rapidement quelques remarques concernant REBOL :) Tj ET Q
+q 0.000 g BT 79.04 505.82 Td (•) Tj ET Q
+q 0.000 g BT 90.71 505.82 Td (REBOL est l'acronyme pour ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 217.11 505.82 Td (Relative Expression-Based Object Language) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 429.40 505.82 Td (.) Tj ET Q
+q 0.000 g BT 90.71 491.65 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 463.30 Td (•) Tj ET Q
+q 0.000 g BT 90.71 463.30 Td (REBOL se prononce "reb-ol" comme dans "rebel with a cause".\() Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 374.46 463.30 Td (NDT) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 395.01 463.30 Td ( : intraduisible !\)) Tj ET Q
+q 0.000 g BT 90.71 449.13 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 420.78 Td (•) Tj ET Q
+q 0.000 g BT 90.71 420.78 Td (REBOL est un langage "messager". Son principal propos est de fournir une  meilleure approche) Tj ET Q
+q 0.000 g BT 90.71 406.61 Td (pour les communications et l'informatique distribuée.) Tj ET Q
+q 0.000 g BT 90.71 392.43 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 364.09 Td (•) Tj ET Q
+q 0.000 g BT 90.71 364.09 Td (REBOL a été conçu par Carl Sassenrath, l'architecte responsable du système  d'exploitation de) Tj ET Q
+q 0.000 g BT 90.71 349.91 Td (l'Amiga OS, le premier système d'exploitation multi-tâches pour  ordinateurs personnels.) Tj ET Q
+q 0.000 g BT 90.71 335.74 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 307.39 Td (•) Tj ET Q
+q 0.000 g BT 90.71 307.39 Td (REBOL est plus qu'un langage de programmation. C'est aussi un langage pour  représenter des) Tj ET Q
+q 0.000 g BT 90.71 293.22 Td (données et des métadonnées. REBOL fournit une méthode unique  pour le traitement, le) Tj ET Q
+q 0.000 g BT 90.71 279.05 Td (stockage, et l'échange d'information.) Tj ET Q
+q 0.000 g BT 90.71 264.87 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 236.53 Td (•) Tj ET Q
+q 0.000 g BT 90.71 236.53 Td (REBOL est porté sur plus de 40 systèmes d'exploitation. Un script écrit en  sur Windows) Tj ET Q
+q 0.000 g BT 90.71 222.35 Td (fonctionnera aussi bien sur Linux, UNIX, et d'autres plate-formes, ...  sans nécessairement de) Tj ET Q
+q 0.000 g BT 90.71 208.18 Td (changements.) Tj ET Q
+q 0.000 g BT 90.71 194.01 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 165.66 Td (•) Tj ET Q
+q 0.000 g BT 90.71 165.66 Td (REBOL introduit le concept de dialectes - des sous-langages petits, efficaces,  spécifiques à un) Tj ET Q
+q 0.000 g BT 90.71 151.49 Td (domaine, pour le code, les données et les méta-données.) Tj ET Q
+q 0.000 g BT 90.71 137.32 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 108.97 Td (•) Tj ET Q
+q 0.000 g BT 90.71 108.97 Td (Les tailles - très petites - des distributions de REBOL sont ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 349.15 108.97 Td (intentionnellement) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 430.30 108.97 Td ( conservées ainsi, ) Tj ET Q
+q 0.000 g BT 90.71 94.80 Td (bien qu'elles incluent des centaines de fonctions, des douzaines de types de  données, une aide) Tj ET Q
+0.85 w
+76.54 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 90.71 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 2/6) Tj ET Q
+
+endstream
+endobj
+7 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 8 0 R>>
+endobj
+8 0 obj
+<</Length 4906>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+76.54 805.04 m 538.59 805.04 l S
+q 0.502 g BT 90.71 819.05 Td (Manuel de l'utilisateur - Chapitre 1 - Introduction) Tj ET Q
+q 0.000 g BT 90.71 794.95 Td (en ligne, plusieurs protocoles Internet, une gestion d'erreurs,  la compression, une console pour) Tj ET Q
+q 0.000 g BT 90.71 780.78 Td (le débuggage, et plus encore.) Tj ET Q
+q 0.000 g BT 90.71 766.61 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 738.26 Td (•) Tj ET Q
+q 0.000 g BT 90.71 738.26 Td (Les programmes REBOL sont faciles à écrire. Vous avez seulement besoin d'un éditeur de texte.) Tj ET Q
+q 0.000 g BT 90.71 724.09 Td (Un programme peut être une ligne unique ou une  application complète.) Tj ET Q
+q 0.000 g BT 90.71 709.91 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 681.57 Td (•) Tj ET Q
+q 0.000 g BT 90.71 681.57 Td (REBOL/Core sert de fondation pour toute la technologie REBOL. Quoique conçus pour être) Tj ET Q
+q 0.000 g BT 90.71 667.39 Td (simple et productif pour des débutants, le langage offre  de nouvelles possibilités pour les) Tj ET Q
+q 0.000 g BT 90.71 653.22 Td (professionnels.) Tj ET Q
+q 0.000 g BT 90.71 639.05 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 596.53 Td (La ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 84.77 596.53 Td (version graphique) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 171.46 596.53 Td ( de REBOL, appelée ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 265.96 596.53 Td (REBOL/View) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 326.53 596.53 Td (, se trouve construite sur la base  de) Tj ET Q
+q 0.000 g BT 70.87 582.35 Td (REBOL/Core. Elle peut être trouvée sur le site Web de REBOL.) Tj ET Q
+q 0.000 g BT 70.87 568.18 Td (    ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 524.46 Td (Au sujet de ce manuel) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 511.49 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 497.32 Td (Ce Manuel fournit les informations de base nécessaires à l'utilisation de REBOL/Core.) Tj ET Q
+q 0.000 g BT 70.87 483.14 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 468.97 Td (Il suppose que le lecteur soit déjà familier avec les concepts généraux de programmation  et avec la) Tj ET Q
+q 0.000 g BT 70.87 454.80 Td (terminologie des systèmes d'exploitation.) Tj ET Q
+q 0.000 g BT 70.87 440.62 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 426.45 Td (Suggestion pour les nouveaux programmeurs) Tj ET Q
+q 0.000 g BT 70.87 412.28 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 398.10 Td (Si vous êtes nouveau dans la programmation, REBOL est un excellent moyen pour  démarrer.) Tj ET Q
+q 0.000 g BT 70.87 383.93 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 369.76 Td (Il existe quelques concepts généraux que REBOL utilise partout. Par exemple, le concept REBOL de) Tj ET Q
+q 0.000 g BT 70.87 355.58 Td (série est utilisé partout depuis les structures des données  jusqu'aux blocs de code.) Tj ET Q
+q 0.000 g BT 70.87 341.41 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 327.24 Td (Une fois que vous aurez appris les concepts et les méthodes propres aux séries,  ceux-ci pourront) Tj ET Q
+q 0.000 g BT 70.87 313.06 Td (être appliqués partout dans vos programmes.  Vous devez ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 332.66 313.06 Td (bien) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 351.56 313.06 Td ( apprendre ces concepts. ) Tj ET Q
+q 0.000 g BT 70.87 298.89 Td (Vous en serez récompensé plus tard.  Les chapitres du Manuel Utilisateur sont ordonnés pour faciliter) Tj ET Q
+q 0.000 g BT 70.87 284.72 Td (votre  apprentissage.) Tj ET Q
+q 0.000 g BT 70.87 270.54 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 256.37 Td (Si vous rencontrez des difficultés dans l'usage de REBOL, n'en soyez pas irrité.  Beaucoup de) Tj ET Q
+q 0.000 g BT 70.87 242.20 Td (personnes peuvent vous aider. La ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 224.29 242.20 Td (Mailing List de REBOL) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 324.88 242.20 Td ( \(voir  plus loin la section concernant le) Tj ET Q
+q 0.000 g BT 70.87 228.02 Td (Support\) est composée de centaines de personnes  qui se font un plaisir d'aider les débutants à) Tj ET Q
+q 0.000 g BT 70.87 213.85 Td (démarrer. ) Tj ET Q
+q 0.000 g BT 70.87 199.68 Td (  N'hésitez pas à aller  sur ce forum pour quelque raison que ce soit.) Tj ET Q
+q 0.000 g BT 70.87 185.50 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 171.33 Td (Suggestion pour les programmeurs expérimentés) Tj ET Q
+q 0.000 g BT 70.87 157.16 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 142.98 Td (Si vous êtes déjà familier avec d'autres langages de programmation tels que C,  C++, Java, Pascal,) Tj ET Q
+q 0.000 g BT 70.87 128.81 Td (Python, PERL, Basic, etc., soyez avertis :  REBOL est tout à fait différent.) Tj ET Q
+q 0.000 g BT 70.87 114.64 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 100.46 Td (Vous devez savoir que REBOL n'est pas juste conçu pour être différent, mais plutôt  pour donner aux) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 3/6) Tj ET Q
+
+endstream
+endobj
+9 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [186.71 221.85 230.07 211.85] /Border [0 0 0] /A <</S /URI /URI (http://www.rebol.com/feedback.html)>>>><</Type /Annot /Subtype /Link /Rect [267.62 150.98 333.75 140.98] /Border [0 0 0] /A <</S /URI /URI (http://www.REBOL.net)>>>><</Type /Annot /Subtype /Link /Rect [269.85 122.64 324.87 112.64] /Border [0 0 0] /A <</S /URI /URI (http://www.rebol.net/cgi-bin/blog.r)>>>><</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 10 0 R>>
+endobj
+10 0 obj
+<</Length 8147>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (Manuel de l'utilisateur - Chapitre 1 - Introduction) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td (programmeurs une plus grande force d'expression. ) Tj ET Q
+q 0.000 g BT 70.87 780.78 Td (Les programmeurs  qui ont maîtrisé REBOL suggèrent que la meilleure approche est d'oublier ce que) Tj ET Q
+q 0.000 g BT 70.87 766.61 Td (vous  connaissez déjà pour d'autres langages. ) Tj ET Q
+q 0.000 g BT 70.87 752.43 Td (Pourquoi ? parce que vous ne pouvez pas  concevoir des programmes REBOL de la même façon. ) Tj ET Q
+q 0.000 g BT 70.87 738.26 Td ( Bien sûr, vous pourriez créer des programmes REBOL avec un air de C, mais, si vous  faisiez cela,) Tj ET Q
+q 0.000 g BT 70.87 724.09 Td (vous perdriez énormément d'avantages offerts par REBOL.) Tj ET Q
+q 0.000 g BT 70.87 709.91 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 695.74 Td (En termes techniques, REBOL est un langage hautement réflectif, fonctionnel,  symbolique, avec des) Tj ET Q
+q 0.000 g BT 70.87 681.57 Td (régles à portée définitionnelle.) Tj ET Q
+q 0.000 g BT 70.87 667.39 Td (  Si vous ne savez pas ce que cela signifie, ce n'est pas grave. \() Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 354.03 667.39 Td (NDT) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 374.58 667.39 Td ( : ouf !\) ) Tj ET Q
+q 0.000 g BT 70.87 653.22 Td (REBOL exploite des avancées dans la science informatique, mais vous n'avez pas besoin d'être un ) Tj ET Q
+q 0.000 g BT 70.87 639.05 Td (savant informaticien pour l'utiliser.) Tj ET Q
+q 0.000 g BT 70.87 624.87 Td (En tant que programmeur chevronné, vous serez tenté de passer outre la plupart des  chapitres de ce) Tj ET Q
+q 0.000 g BT 70.87 610.70 Td (Manuel. Pour la plupart, c'est très bien. ) Tj ET Q
+q 0.000 g BT 70.87 596.53 Td (Cependant, des concepts  comme les séries sont critiques pour comprendre REBOL. ) Tj ET Q
+q 0.000 g BT 70.87 582.35 Td (Si vous ne prenez pas le  temps de maîtriser de tels concepts, vous trouverez qu'il est difficile d'être ) Tj ET Q
+q 0.000 g BT 70.87 568.18 Td (complétement à l'aise avec le langage REBOL.) Tj ET Q
+q 0.000 g BT 70.87 554.01 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 510.29 Td (Conventions propres à ce manuel) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 497.32 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 483.14 Td (Le tableau suivant décrit les conventions typographiques utilisées dans le Manuel.) Tj ET Q
+q 0.000 g BT 70.87 468.97 Td ( ) Tj ET Q
+q 0.000 g BT 76.48 468.97 Td ( ) Tj ET Q
+q 0.000 g BT 79.26 468.97 Td ( 					) Tj ET Q
+q 0.000 g BT 95.94 468.97 Td ( ) Tj ET Q
+q 0.000 g BT 98.72 468.97 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+BT /F7 8.00 Tf ET
+BT /F2 8.00 Tf ET
+BT /F1 10.00 Tf ET
+q 0.000 g BT 101.50 468.97 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+BT /F1 10.00 Tf ET
+BT /F2 8.00 Tf ET
+BT /F1 10.00 Tf ET
+q 0.000 g BT 104.28 468.97 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+BT /F1 10.00 Tf ET
+q 0.000 g BT 107.06 468.97 Td ( ) Tj ET Q
+q 0.000 g BT 109.84 468.97 Td ( ) Tj ET Q
+q 0.000 g BT 112.62 468.97 Td ( ) Tj ET Q
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F5 8.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F5 8.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F5 8.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F1 7.00 Tf ET
+BT /F5 7.00 Tf ET
+BT /F1 7.00 Tf ET
+BT /F5 7.00 Tf ET
+BT /F1 7.00 Tf ET
+BT /F5 7.00 Tf ET
+BT /F1 7.00 Tf ET
+BT /F1 6.00 Tf ET
+BT /F5 6.00 Tf ET
+BT /F1 6.00 Tf ET
+BT /F5 6.00 Tf ET
+BT /F1 6.00 Tf ET
+BT /F5 6.00 Tf ET
+BT /F1 6.00 Tf ET
+BT /F1 5.00 Tf ET
+BT /F5 5.00 Tf ET
+BT /F1 5.00 Tf ET
+BT /F5 5.00 Tf ET
+BT /F1 5.00 Tf ET
+BT /F5 5.00 Tf ET
+BT /F1 5.00 Tf ET
+BT /F5 5.00 Tf ET
+1.000 1.000 0.000 rg
+89.38 479.06 298.92 -14.17 re B q 0.000 g BT 92.22 470.47 Td ( Item ) Tj ET Q
+BT /F1 5.00 Tf ET
+1.000 g
+BT /F5 5.00 Tf ET
+1.000 1.000 0.000 rg
+388.30 479.06 64.09 -14.17 re B q 0.000 g BT 391.14 470.47 Td (Convention ) Tj ET Q
+BT /F1 5.00 Tf ET
+1.000 g
+BT /F5 5.00 Tf ET
+1.000 1.000 0.000 rg
+452.39 479.06 53.51 -14.17 re B q 0.000 g BT 455.22 470.47 Td (Exemple ) Tj ET Q
+BT /F1 5.00 Tf ET
+1.000 g
+0.902 0.902 0.902 rg
+89.38 464.88 298.92 -14.17 re B q 0.000 g BT 92.22 456.30 Td ( Les Mots pré-définis dans le langage \(comme les noms de fonctions, des variables spéciales, des objets système\). ) Tj ET Q
+388.30 464.88 64.09 -14.17 re B q 0.000 g BT 391.14 456.30 Td (Bold, green, monospace ) Tj ET Q
+452.39 464.88 53.51 -14.17 re B q 0.000 g BT 455.22 456.30 Td (Append at change ) Tj ET Q
+89.38 450.71 298.92 -14.17 re S q 0.000 g BT 92.22 442.12 Td ( Mots ne faisant pas partie du langage, tels que des noms de fichiers ou de répertoires, des noms de programmes ou de variables. ) Tj ET Q
+388.30 450.71 64.09 -14.17 re S q 0.000 g BT 391.14 442.12 Td (Green, monospace ) Tj ET Q
+452.39 450.71 53.51 -14.17 re S q 0.000 g BT 455.22 442.12 Td (myfile window-color ) Tj ET Q
+0.902 0.902 0.902 rg
+89.38 436.54 298.92 -14.17 re B q 0.000 g BT 92.22 427.95 Td ( Exemples de code ) Tj ET Q
+388.30 436.54 64.09 -14.17 re B q 0.000 g BT 391.14 427.95 Td (Boxed bold monospace ) Tj ET Q
+452.39 436.54 53.51 -14.17 re B q 0.000 g BT 455.22 427.95 Td ( do %feedback.r ) Tj ET Q
+89.38 422.36 298.92 -14.17 re S q 0.000 g BT 92.22 413.78 Td ( Résultats affichés à la console REBOL ) Tj ET Q
+388.30 422.36 64.09 -14.17 re S q 0.000 g BT 391.14 413.78 Td (Boxed blue monospace ) Tj ET Q
+452.39 422.36 53.51 -14.17 re S q 0.000 g BT 455.22 413.78 Td (true ) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 398.10 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 369.76 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 355.58 Td (NDT) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 91.42 355.58 Td ( : il s'agit des conventions propres au User Guide original.  Dans cette traduction française, ces) Tj ET Q
+q 0.000 g BT 70.87 341.41 Td (conventions sont légérement différentes : le code est  mis en évidence \(retrait, paragraphe avec trame) Tj ET Q
+q 0.000 g BT 70.87 327.24 Td (grisée, bordure noire, police  de type "Courrier"\), les mots clés du langage sont en gras, et les mots) Tj ET Q
+q 0.000 g BT 70.87 313.06 Td (propres  aux variables dans les exemples ou certains mots non traduits sont en italique.\) ) Tj ET Q
+q 0.000 g BT 70.87 298.89 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 255.17 Td (Support Technique) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 242.20 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 228.02 Td (Pour des questions générales ou un ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 233.74 228.02 Td (feedback) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 274.32 228.02 Td ( concernant les produits REBOL ou  notre site Web,) Tj ET Q
+q 0.000 g BT 70.87 213.85 Td (merci d'utiliser la page de ) Tj ET Q
+q 0.000 0.000 1.000 rg BT 186.71 213.85 Td (feedback ) Tj ET 186.71 212.85 43.36 -0.50 re f Q
+q 0.000 g BT 230.07 213.85 Td (. Habituellement, nous répondons aux messages sous 24 ou 48) Tj ET Q
+q 0.000 g BT 70.87 199.68 Td (heures.  N'oubliez pas d'inclure une adresse email valide si vous voulez une réponse.) Tj ET Q
+q 0.000 g BT 70.87 185.50 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 171.33 Td (Informations et nouvelles pour les développeurs) Tj ET Q
+q 0.000 g BT 70.87 157.16 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 142.98 Td (Le site Web pour les développeurs REBOL \() Tj ET Q
+q 0.000 0.000 1.000 rg BT 267.62 142.98 Td (www.rebol.net/) Tj ET 267.62 141.98 66.13 -0.50 re f Q
+q 0.000 g BT 333.75 142.98 Td (\)  fournit les dernières informations ou) Tj ET Q
+q 0.000 g BT 70.87 128.81 Td (nouveautés techniques, la documentation, des  discussions, des bétas et plus encore. C'est) Tj ET Q
+q 0.000 g BT 70.87 114.64 Td (également sur ce site que vous trouverez le  ) Tj ET Q
+q 0.000 0.000 1.000 rg BT 269.85 114.64 Td (Blog de Carl) Tj ET 269.85 113.64 55.02 -0.50 re f Q
+q 0.000 g BT 324.87 114.64 Td (,  un espace d'idées, de réflexions, et de) Tj ET Q
+q 0.000 g BT 70.87 100.46 Td (suggestions par l'inventeur et le constructeur  de REBOL , Carl Sassenrath.) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 4/6) Tj ET Q
+
+endstream
+endobj
+11 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [90.71 760.43 180.18 750.43] /Border [0 0 0] /A <</S /URI /URI (http://www.rebol.com/discussion.html)>>>><</Type /Annot /Subtype /Link /Rect [442.52 732.09 503.34 722.09] /Border [0 0 0] /A <</S /URI /URI (http://www.rebol.org/cgi-bin/cgiwrap/rebol/ml-date-index.r)>>>><</Type /Annot /Subtype /Link /Rect [90.71 717.91 142.94 707.91] /Border [0 0 0] /A <</S /URI /URI (http://www.rebol.org/cgi-bin/cgiwrap/rebol/ml-date-index.r)>>>><</Type /Annot /Subtype /Link /Rect [142.94 717.91 204.63 707.91] /Border [0 0 0] /A <</S /URI /URI (http://www.rebol.org/cgi-bin/cgiwrap/rebol/ml-date-index.r)>>>><</Type /Annot /Subtype /Link /Rect [90.71 703.74 93.49 693.74] /Border [0 0 0] /A <</S /URI /URI (http://www.rebol.org/cgi-bin/cgiwrap/rebol/ml-date-index.r)>>>><</Type /Annot /Subtype /Link /Rect [90.71 675.39 177.95 665.39] /Border [0 0 0] /A <</S /URI /URI (http://www.reboltalk.com/)>>>><</Type /Annot /Subtype /Link /Rect [90.71 618.70 198.54 608.70] /Border [0 0 0] /A <</S /URI /URI (http://groups-beta.google.com/group/Rebol)>>>><</Type /Annot /Subtype /Link /Rect [229.11 519.49 344.71 509.49] /Border [0 0 0] /A <</S /URI /URI (http://www.altme.com/)>>>><</Type /Annot /Subtype /Link /Rect [343.48 391.93 380.15 381.93] /Border [0 0 0] /A <</S /URI /URI (http://www.rebol.net/cgi-bin/rambo.r)>>>><</Type /Annot /Subtype /Link /Rect [103.11 321.06 167.01 311.06] /Border [0 0 0] /A <</S /URI /URI (http://www.rebol.org)>>>><</Type /Annot /Subtype /Link /Rect [96.99 221.85 257.06 211.85] /Border [0 0 0] /A <</S /URI /URI (http://www.rebol.net/builds/)>>>><</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 12 0 R>>
+endobj
+12 0 obj
+<</Length 4880>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (Manuel de l'utilisateur - Chapitre 1 - Introduction) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td (   ) Tj ET Q
+q 0.000 g BT 70.87 780.78 Td (Listes de Discussions et Forums) Tj ET Q
+q 0.000 g BT 79.04 752.43 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 90.71 752.43 Td (Mailing List REBOL ) Tj ET 90.71 751.43 89.47 -0.50 re f Q
+q 0.000 g BT 90.71 738.26 Td ( La liste de discussion de REBOL est un forum pour des questions-réponses autour  de tous les) Tj ET Q
+q 0.000 g BT 90.71 724.09 Td (thèmes liés à REBOL. Vous pouvez aussi consulter les anciens messages sur  ) Tj ET Q
+q 0.000 0.000 1.000 rg BT 442.52 724.09 Td (l'archive de la) Tj ET 442.52 723.09 60.82 -0.50 re f Q
+q 0.000 0.000 1.000 rg BT 90.71 709.91 Td (mailing liste) Tj ET 90.71 708.91 52.23 -0.50 re f Q
+q 0.000 0.000 1.000 rg BT 142.94 709.91 Td ( sur rebol.org.) Tj ET 142.94 708.91 61.69 -0.50 re f Q
+q 0.000 0.000 1.000 rg BT 90.71 695.74 Td ( ) Tj ET 90.71 694.74 2.78 -0.50 re f Q
+q 0.000 g BT 79.04 667.39 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 90.71 667.39 Td (REBOL Talk Forum) Tj ET 90.71 666.39 87.24 -0.50 re f Q
+q 0.000 g BT 90.71 653.22 Td ( Un forum Web indépendant consacré à des échanges à propos de REBOL.) Tj ET Q
+q 0.000 g BT 90.71 639.05 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 610.70 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 90.71 610.70 Td (Groupe Google REBOL ) Tj ET 90.71 609.70 107.83 -0.50 re f Q
+q 0.000 g BT 90.71 596.53 Td ( C'est un nouveau groupe de discussion \(web/email\) qui a récemment démarré sur les  Google) Tj ET Q
+q 0.000 g BT 90.71 582.35 Td (Groups. Il est encore en phase expérimentale.) Tj ET Q
+q 0.000 g BT 90.71 568.18 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 539.83 Td (•) Tj ET Q
+q 0.000 g BT 90.71 539.83 Td (Autres lieux d'échanges) Tj ET 90.71 538.83 105.85 -0.50 re f Q
+q 0.000 g BT 196.56 539.83 Td ( ) Tj ET Q
+q 0.000 g BT 90.71 525.66 Td ( REBOL Technologies abrite aussi plusieurs groupes de discussions privés  utilisant notre) Tj ET Q
+q 0.000 g BT 90.71 511.49 Td (technologie IOS ou le système ) Tj ET Q
+q 0.000 0.000 1.000 rg BT 229.11 511.49 Td (ALTME de Safeworlds Inc) Tj ET 229.11 510.49 115.60 -0.50 re f Q
+q 0.000 g BT 344.71 511.49 Td (.) Tj ET Q
+q 0.000 g BT 90.71 497.32 Td ( Voir les annonces et les informations pour les membres sur www.rebol.net.) Tj ET Q
+q 0.000 g BT 90.71 483.14 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 440.62 Td (Corrections de Bug et propositions d'amélioration) Tj ET Q
+q 0.000 g BT 70.87 426.45 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 412.28 Td (Les clients, les développeurs, et les utilisateurs de REBOL peuvent maintenant  directement chercher) Tj ET Q
+q 0.000 g BT 70.87 398.10 Td (des informations liées à des problèmes connus, ou remonter de  nouveaux bugs, ou effectuer des) Tj ET Q
+q 0.000 g BT 70.87 383.93 Td (demandes d'amélioration en utilisant notre base de  données ) Tj ET Q
+q 0.000 0.000 1.000 rg BT 343.48 383.93 Td (RAMBO) Tj ET 343.48 382.93 36.67 -0.50 re f Q
+q 0.000 g BT 380.15 383.93 Td (.) Tj ET Q
+q 0.000 g BT 70.87 355.58 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 341.41 Td (Bibliothèque de scripts REBOL.org) Tj ET Q
+q 0.000 g BT 70.87 327.24 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 313.06 Td (Le site ) Tj ET Q
+q 0.000 0.000 1.000 rg BT 103.11 313.06 Td (www.rebol.org) Tj ET 103.11 312.06 63.90 -0.50 re f Q
+q 0.000 g BT 167.01 313.06 Td ( est un site web de partage  de ressources, avec une bibliothèque de scripts et) Tj ET Q
+q 0.000 g BT 70.87 298.89 Td (d'exemples. ) Tj ET Q
+q 0.000 g BT 70.87 284.72 Td ( Ce site comprend aussi de nombreux tutoriels, comme les archives des messages de  la Mailing List) Tj ET Q
+q 0.000 g BT 70.87 270.54 Td (REBOL.) Tj ET Q
+q 0.000 g BT 70.87 256.37 Td (   ) Tj ET Q
+q 0.000 g BT 70.87 242.20 Td (Nouvelles versions : alpha et beta) Tj ET Q
+q 0.000 g BT 70.87 228.02 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 213.85 Td (Nous ) Tj ET Q
+q 0.000 0.000 1.000 rg BT 96.99 213.85 Td (publions des versions non finalisées) Tj ET 96.99 212.85 160.07 -0.50 re f Q
+q 0.000 g BT 257.06 213.85 Td (  de nos produits. Ce service est à destination des clients et) Tj ET Q
+q 0.000 g BT 70.87 199.68 Td (des développeurs  expérimentés seulement. ) Tj ET Q
+q 0.000 g BT 70.87 185.50 Td ( Ces pages permettent d'accéder à des versions alphas ou bétas, pas à des  versions finales.) Tj ET Q
+q 0.000 g BT 70.87 171.33 Td (    ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 127.61 Td (Vos remarques sont bienvenues) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 114.64 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 100.46 Td (Pour nous aider à améliorer les prochaines évolutions de cette documentation, nous  aimerions savoir) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 5/6) Tj ET Q
+
+endstream
+endobj
+13 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 14 0 R>>
+endobj
+14 0 obj
+<</Length 983>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (Manuel de l'utilisateur - Chapitre 1 - Introduction) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td (quelles corrections ou clarifications vous semblent importantes.) Tj ET Q
+q 0.000 g BT 70.87 780.78 Td (  Envoyez-les sur la page de Feeback de notre site Web. Merci d'inclure le titre,  la version, et le) Tj ET Q
+q 0.000 g BT 70.87 766.61 Td (chapitre concernés de ce Manuel.) Tj ET Q
+q 0.000 g BT 70.87 738.26 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 724.09 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 695.74 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 681.57 Td (Updated 7-Apr-2005 - Copyright REBOL Technologies - Formatted with MakeDoc2 ) Tj ET Q
+q 0.000 g BT 70.87 667.39 Td (Translation by Philippe Le Goff ) Tj ET Q
+BT /F6 8.00 Tf ET
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 6/6) Tj ET Q
+
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R 7 0 R 9 0 R 11 0 R 13 0 R ]
+/Count 6
+/MediaBox [0 0 595.28 841.89]
+>>
+endobj
+15 0 obj
+<</Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+16 0 obj
+<</Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+17 0 obj
+<</Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+18 0 obj
+<</Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+19 0 obj
+<</Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+20 0 obj
+<</Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+21 0 obj
+<</Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 15 0 R
+/F2 16 0 R
+/F3 17 0 R
+/F4 18 0 R
+/F5 19 0 R
+/F6 20 0 R
+/F7 21 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+22 0 obj
+<<
+/Producer (FPDF 1.53)
+/Title (Manuel de l'utilisateur - Chapitre 1 - Introduction)
+/Subject (Manuels)
+/Author (Philippe Le Goff )
+/Keywords (DOCUMENTATION)
+/Creator (The REBOL Documentation Project)
+/CreationDate (D:20051226163251)
+>>
+endobj
+23 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 24
+0000000000 65535 f 
+0000029982 00000 n 
+0000030797 00000 n 
+0000000009 00000 n 
+0000000222 00000 n 
+0000001877 00000 n 
+0000002090 00000 n 
+0000008002 00000 n 
+0000008215 00000 n 
+0000013171 00000 n 
+0000013792 00000 n 
+0000021990 00000 n 
+0000023803 00000 n 
+0000028734 00000 n 
+0000028949 00000 n 
+0000030101 00000 n 
+0000030198 00000 n 
+0000030293 00000 n 
+0000030391 00000 n 
+0000030490 00000 n 
+0000030592 00000 n 
+0000030697 00000 n 
+0000030968 00000 n 
+0000031222 00000 n 
+trailer
+<<
+/Size 24
+/Root 23 0 R
+/Info 22 0 R
+>>
+startxref
+31326
+%%EOF

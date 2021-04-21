@@ -1,0 +1,245 @@
+%PDF-1.3
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 4 0 R>>
+endobj
+4 0 obj
+<</Length 1338>>
+stream
+2 J
+0.57 w
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (La question du 64 bit) Tj ET Q
+0.57 w
+BT /F2 26.00 Tf ET
+q 0.502 g BT 118.24 656.92 Td (The REBOL Documentation) Tj ET Q
+q 0.502 g BT 243.04 631.41 Td (Project) Tj ET Q
+BT /F1 8.00 Tf ET
+q 0.502 g BT 224.74 616.97 Td (-- FR - Documentation REBOL - Divers --) Tj ET Q
+0.85 w
+BT /F2 20.00 Tf ET
+q 0.502 g BT 73.70 423.45 Td (Divers) Tj ET Q
+BT /F3 22.00 Tf ET
+297.64 436.54 m 297.64 413.86 l S q 0.000 g BT 300.47 418.60 Td (La question du 64 bit) Tj ET Q
+297.64 413.86 m 297.64 391.18 l S 
+BT /F4 16.00 Tf ET
+297.64 391.18 m 297.64 374.17 l S q 0.000 g BT 409.15 377.88 Td (Philippe Le Goff ) Tj ET Q
+BT /F4 12.00 Tf ET
+297.64 374.17 m 297.64 357.17 l S q 0.000 g BT 302.59 362.07 Td (Première publication : 15 mai 2006, et mis en) Tj ET Q
+297.64 357.17 m 297.64 340.16 l S q 0.000 g BT 392.24 345.06 Td (ligne le  lundi 15 mai 2006) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 73.70 253.54 Td (Résumé :) Tj ET 73.70 252.54 45.01 -0.50 re f Q
+BT /F4 8.00 Tf ET
+q 0.000 g BT 73.70 239.96 Td (La traduction de l'article 8 du Rebol 3.0 sur la question du 64 bit.) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 1/2) Tj ET Q
+
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 6 0 R>>
+endobj
+6 0 obj
+<</Length 5617>>
+stream
+2 J
+0.85 w
+BT /F4 8.00 Tf ET
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (La question du 64 bit) Tj ET Q
+BT /F4 8.00 Tf ET
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 780.78 Td ( ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 76.48 780.78 Td (Carl Sassenrath, CTO REBOL Technologies 10-Apr-2006 20:00 GMT Article #0009) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 766.61 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 752.43 Td (Cette question est dans un coin de ma tête depuis déjà quelques mois.) Tj ET Q
+q 0.000 g BT 73.70 738.26 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 724.09 Td (Pour le moment, REBOL 3.0 utilisera encore des nombres entiers sur 32 bits afin de le mettre en) Tj ET Q
+q 0.000 g BT 73.70 709.91 Td (service  et de le faire fonctionner aussi rapidement que possible.) Tj ET Q
+q 0.000 g BT 73.70 695.74 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 681.57 Td (Cependant, le temps va venir au cours des prochaines semaines de faire ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 399.96 681.57 Td (le grand saut à 64 bits) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 505.00 681.57 Td (. ) Tj ET Q
+q 0.000 g BT 73.70 667.39 Td (Bien sûr, l'intérêt est que les nombres entiers puissent avoir des valeurs beaucoup plus grandes, ) Tj ET Q
+q 0.000 g BT 73.70 653.22 Td (donc des tailles très grandes de fichiers , etc...  L'inconvénient est que les valeurs 64 bits exigent) Tj ET Q
+q 0.000 g BT 73.70 639.05 Td (plus de temps CPU pour les opérations  d'accès mémoire et mathématiques. Elles prennent) Tj ET Q
+q 0.000 g BT 73.70 624.87 Td (également deux fois plus d'espace mémoire, cependant REBOL assigne déjà cet espace, de sorte) Tj ET Q
+q 0.000 g BT 73.70 610.70 Td (que la plupart des programmes ne verront pas cette augmentation.) Tj ET Q
+q 0.000 g BT 73.70 596.53 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 582.35 Td (Le changement vers le 64 bit affectera plus que les valeurs des nombres entiers.  Par exemple,) Tj ET Q
+q 0.000 g BT 73.70 568.18 Td (voulons nous permettre des séries \(exemple : chaînes de caractères, binaires\) plus grandes que) Tj ET Q
+q 0.000 g BT 73.70 554.01 Td (2/4GB ? Je ne suis pas en train de parler des fichiers \(voir ci-dessous\) ; je parle des séries courantes) Tj ET Q
+q 0.000 g BT 73.70 539.83 Td (en mémoire.  Si nous voulons cela, non seulement la structure de gestion \(ex. la position de fin, tail\)) Tj ET Q
+q 0.000 g BT 73.70 525.66 Td (va grandir, mais  le pointeur pour indexer la série aussi \(pour être capable d'adresser des séries de) Tj ET Q
+q 0.000 g BT 73.70 511.49 Td (grande taille\). Bien que ce ne soit pas une grosse affaire pour les définitions de structure, c'est en) Tj ET Q
+q 0.000 g BT 73.70 497.32 Td (une pour le code run-time ; REBOL est en effet complètement packagé avec des références à des) Tj ET Q
+q 0.000 g BT 73.70 483.14 Td (choses comme la fin \(tail\) et l'index de série \(pour du contrôle de limites, etc.\).) Tj ET Q
+q 0.000 g BT 73.70 468.97 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 454.80 Td (Et finalement, il y a l'idée que peut-être, nous pourrions utiliser une compilation variable en 32 ou 64) Tj ET Q
+q 0.000 g BT 73.70 440.62 Td (bits  pour produire des versions correspondantes. Une version 32 bits peut avoir plus de sens pour) Tj ET Q
+q 0.000 g BT 73.70 426.45 Td (des choses comme  des téléphones mobiles et des PDAs. Mais, cela soulève la question que ces) Tj ET Q
+q 0.000 g BT 73.70 412.28 Td (versions de REBOL devront être étroitement compatibles, mais pas parfaitement compatibles. ) Tj ET Q
+q 0.000 g BT 73.70 398.10 Td (Peut-être pourraient-elles être améliorées en employant des nombres entiers sur 64 bit, mais des) Tj ET Q
+q 0.000 g BT 73.70 383.93 Td (séries sur 32 bits.) Tj ET Q
+q 0.000 g BT 73.70 369.76 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 73.70 355.58 Td (Comme avec tout processus de conception, il y a diverses possibilités à considérer.) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 341.41 Td (Certainement,  les besoins des utilisateurs de REBOL devraient nous aider à déterminer le meilleur) Tj ET Q
+q 0.000 g BT 73.70 327.24 Td (compromis entre les choix.  Personnellement, j'aime l'idée des maths avec des nombres entiers sur) Tj ET Q
+q 0.000 g BT 73.70 313.06 Td (64 bits, mais la restriction des séries  sur 32 bits me va bien.) Tj ET Q
+q 0.000 g BT 73.70 298.89 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 284.72 Td (D'ores et déjà, j'avais l'habitude d'utiliser ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 255.30 284.72 Td (seek) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 277.54 284.72 Td ( pour adresser les grands fichiers .) Tj ET Q
+q 0.000 g BT 73.70 270.54 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 256.37 Td (Et, en ce qui concerne les fichiers, je dois noter que j'envisage une nouvelle version du datatype ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 73.70 242.20 Td (port !) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 99.25 242.20 Td (  qui autorise l'accès à des index sur 64 bits. Ces nouveaux ports ne stockeront plus leurs) Tj ET Q
+q 0.000 g BT 73.70 228.02 Td (positions  d'index dans leurs références, mais dans l'objet lui-même.  L'objet ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 412.90 228.02 Td (system) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 447.36 228.02 Td ( fonctionnera) Tj ET Q
+q 0.000 g BT 73.70 213.85 Td (davantage comme dans l'accès traditionnel aux fichiers, qu'il ne l'a fait dans le passé.) Tj ET Q
+q 0.000 g BT 73.70 199.68 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 185.50 Td (\(Traduction : Philippe Le Goff\)) Tj ET Q
+BT /F6 8.00 Tf ET
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 2/2) Tj ET Q
+
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R ]
+/Count 2
+/MediaBox [0 0 595.28 841.89]
+>>
+endobj
+7 0 obj
+<</Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+8 0 obj
+<</Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+9 0 obj
+<</Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+10 0 obj
+<</Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+11 0 obj
+<</Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+12 0 obj
+<</Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+/F6 12 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+13 0 obj
+<<
+/Producer (FPDF 1.53)
+/Title (La question du 64 bit)
+/Subject (Divers)
+/Author (Philippe Le Goff )
+/Keywords (DOCUMENTATION)
+/Creator (The REBOL Documentation Project)
+/CreationDate (D:20060613162622)
+>>
+endobj
+14 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 15
+0000000000 65535 f 
+0000007490 00000 n 
+0000008176 00000 n 
+0000000009 00000 n 
+0000000222 00000 n 
+0000001610 00000 n 
+0000001823 00000 n 
+0000007583 00000 n 
+0000007679 00000 n 
+0000007773 00000 n 
+0000007870 00000 n 
+0000007969 00000 n 
+0000008071 00000 n 
+0000008333 00000 n 
+0000008556 00000 n 
+trailer
+<<
+/Size 15
+/Root 14 0 R
+/Info 13 0 R
+>>
+startxref
+8660
+%%EOF

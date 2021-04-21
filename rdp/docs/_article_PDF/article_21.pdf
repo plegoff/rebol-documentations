@@ -1,0 +1,1782 @@
+%PDF-1.3
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 4 0 R>>
+endobj
+4 0 obj
+<</Length 1642>>
+stream
+2 J
+0.57 w
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (Comment faire pour ...) Tj ET Q
+0.57 w
+BT /F2 26.00 Tf ET
+q 0.502 g BT 118.24 656.92 Td (The REBOL Documentation) Tj ET Q
+q 0.502 g BT 243.04 631.41 Td (Project) Tj ET Q
+BT /F1 8.00 Tf ET
+q 0.502 g BT 218.74 616.97 Td (-- FR - Documentation REBOL - HOWTOs --) Tj ET Q
+0.85 w
+BT /F2 20.00 Tf ET
+q 0.502 g BT 73.70 423.45 Td (HOWTOs) Tj ET Q
+BT /F3 22.00 Tf ET
+297.64 436.54 m 297.64 413.86 l S q 0.000 g BT 300.47 418.60 Td (Comment faire pour ...) Tj ET Q
+297.64 413.86 m 297.64 391.18 l S 
+BT /F4 16.00 Tf ET
+297.64 391.18 m 297.64 374.17 l S q 0.000 g BT 451.35 377.88 Td (REBOLtof) Tj ET Q
+BT /F4 12.00 Tf ET
+297.64 374.17 m 297.64 357.17 l S q 0.000 g BT 302.59 362.07 Td (Première publication : 11 mai 2005, et mis en) Tj ET Q
+297.64 357.17 m 297.64 340.16 l S q 0.000 g BT 368.94 345.06 Td (ligne le  mercredi 29 mars 2006) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 73.70 253.54 Td (Résumé :) Tj ET 73.70 252.54 45.01 -0.50 re f Q
+BT /F4 8.00 Tf ET
+q 0.000 g BT 73.70 225.79 Td ( Vous trouverez dans cet "HowTo" quelques trucs et astuces utilisés par les programmeurs REBOL expérimentés.) Tj ET Q
+q 0.000 g BT 73.70 211.62 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 197.44 Td (Ceux-ci proviennent d'expériences personelles, mais également des diverses conversations ayant pris place sur les forums et mailing-list de) Tj ET Q
+q 0.000 g BT 73.70 183.27 Td (REBOL.) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 1/16) Tj ET Q
+
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [117.04 689.57 202.08 679.57] /Border [0 0 0] /A <</S /URI /URI (article.php3?id_article=10)>>>><</Type /Annot /Subtype /Link /Rect [93.54 556.34 284.75 546.34] /Border [0 0 0] /A <</S /URI /URI (#1)>>>><</Type /Annot /Subtype /Link /Rect [93.54 542.17 334.07 532.17] /Border [0 0 0] /A <</S /URI /URI (#2)>>>><</Type /Annot /Subtype /Link /Rect [93.54 527.99 299.73 517.99] /Border [0 0 0] /A <</S /URI /URI (#3)>>>><</Type /Annot /Subtype /Link /Rect [93.54 513.82 300.25 503.82] /Border [0 0 0] /A <</S /URI /URI (#4)>>>><</Type /Annot /Subtype /Link /Rect [93.54 499.65 503.71 489.65] /Border [0 0 0] /A <</S /URI /URI (#5)>>>><</Type /Annot /Subtype /Link /Rect [93.54 485.47 343.10 475.47] /Border [0 0 0] /A <</S /URI /URI (#6)>>>><</Type /Annot /Subtype /Link /Rect [93.54 471.30 343.65 461.30] /Border [0 0 0] /A <</S /URI /URI (#7)>>>><</Type /Annot /Subtype /Link /Rect [93.54 457.13 364.24 447.13] /Border [0 0 0] /A <</S /URI /URI (#8)>>>><</Type /Annot /Subtype /Link /Rect [93.54 442.95 282.21 432.95] /Border [0 0 0] /A <</S /URI /URI (#9)>>>><</Type /Annot /Subtype /Link /Rect [93.54 428.78 424.80 418.78] /Border [0 0 0] /A <</S /URI /URI (#10)>>>><</Type /Annot /Subtype /Link /Rect [93.54 414.61 258.07 404.61] /Border [0 0 0] /A <</S /URI /URI (#11)>>>><</Type /Annot /Subtype /Link /Rect [93.54 400.43 342.56 390.43] /Border [0 0 0] /A <</S /URI /URI (#12)>>>><</Type /Annot /Subtype /Link /Rect [93.54 386.26 329.21 376.26] /Border [0 0 0] /A <</S /URI /URI (#13)>>>><</Type /Annot /Subtype /Link /Rect [93.54 372.09 359.77 362.09] /Border [0 0 0] /A <</S /URI /URI (#14)>>>><</Type /Annot /Subtype /Link /Rect [93.54 357.91 286.42 347.91] /Border [0 0 0] /A <</S /URI /URI (#15)>>>><</Type /Annot /Subtype /Link /Rect [93.54 343.74 236.65 333.74] /Border [0 0 0] /A <</S /URI /URI (#16)>>>><</Type /Annot /Subtype /Link /Rect [93.54 329.57 270.28 319.57] /Border [0 0 0] /A <</S /URI /URI (#17)>>>><</Type /Annot /Subtype /Link /Rect [93.54 315.39 257.20 305.39] /Border [0 0 0] /A <</S /URI /URI (#18)>>>><</Type /Annot /Subtype /Link /Rect [93.54 301.22 236.40 291.22] /Border [0 0 0] /A <</S /URI /URI (#19)>>>><</Type /Annot /Subtype /Link /Rect [93.54 287.05 285.55 277.05] /Border [0 0 0] /A <</S /URI /URI (#20)>>>><</Type /Annot /Subtype /Link /Rect [93.54 272.87 397.55 262.87] /Border [0 0 0] /A <</S /URI /URI (#21)>>>><</Type /Annot /Subtype /Link /Rect [93.54 258.70 320.81 248.70] /Border [0 0 0] /A <</S /URI /URI (#22)>>>><</Type /Annot /Subtype /Link /Rect [93.54 244.53 511.79 234.53] /Border [0 0 0] /A <</S /URI /URI (#23)>>>><</Type /Annot /Subtype /Link /Rect [93.54 230.35 349.76 220.35] /Border [0 0 0] /A <</S /URI /URI (#24)>>>><</Type /Annot /Subtype /Link /Rect [93.54 216.18 336.12 206.18] /Border [0 0 0] /A <</S /URI /URI (#25)>>>><</Type /Annot /Subtype /Link /Rect [93.54 202.01 301.66 192.01] /Border [0 0 0] /A <</S /URI /URI (#26)>>>><</Type /Annot /Subtype /Link /Rect [301.66 202.01 348.34 192.01] /Border [0 0 0] /A <</S /URI /URI (#26)>>>><</Type /Annot /Subtype /Link /Rect [348.34 202.01 386.13 192.01] /Border [0 0 0] /A <</S /URI /URI (#26)>>>><</Type /Annot /Subtype /Link /Rect [93.54 187.83 398.71 177.83] /Border [0 0 0] /A <</S /URI /URI (#27)>>>><</Type /Annot /Subtype /Link /Rect [93.54 173.66 425.05 163.66] /Border [0 0 0] /A <</S /URI /URI (#28)>>>><</Type /Annot /Subtype /Link /Rect [93.54 159.49 363.94 149.49] /Border [0 0 0] /A <</S /URI /URI (#29)>>>><</Type /Annot /Subtype /Link /Rect [93.54 145.32 347.25 135.32] /Border [0 0 0] /A <</S /URI /URI (#30)>>>><</Type /Annot /Subtype /Link /Rect [93.54 131.14 381.13 121.14] /Border [0 0 0] /A <</S /URI /URI (#31)>>>><</Type /Annot /Subtype /Link /Rect [93.54 116.97 321.11 106.97] /Border [0 0 0] /A <</S /URI /URI (#32)>>>><</Type /Annot /Subtype /Link /Rect [93.54 102.80 261.96 92.80] /Border [0 0 0] /A <</S /URI /URI (#33)>>>><</Type /Annot /Subtype /Link /Rect [93.54 52.19 219.82 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 6 0 R>>
+endobj
+6 0 obj
+<</Length 9025>>
+stream
+2 J
+0.85 w
+BT /F4 8.00 Tf ET
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (Comment faire pour ...) Tj ET Q
+BT /F4 8.00 Tf ET
+BT /F5 10.00 Tf ET
+q 0.000 g BT 73.70 780.78 Td ( Vous trouverez dans cet "HowTo" quelques trucs et astuces utilisés par les programmeurs) Tj ET Q
+q 0.000 g BT 73.70 766.61 Td (REBOL expérimentés.) Tj ET Q
+q 0.000 g BT 73.70 752.43 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 738.26 Td (Ceux-ci proviennent d'expériences personelles, mais également des diverses conversations) Tj ET Q
+q 0.000 g BT 73.70 724.09 Td (ayant pris place sur les forums et mailing-list de REBOL.) Tj ET Q
+q 0.000 g BT 73.70 709.91 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 695.74 Td (Vous connaissez aussi un truc utile ? N'hésitez pas à nous en faire part : le formulaire de la) Tj ET Q
+q 0.000 g BT 73.70 681.57 Td (rubrique ) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 0.000 1.000 rg BT 117.04 681.57 Td (Contribution / Aide ) Tj ET 117.04 680.57 85.04 -0.50 re f Q
+q 0.000 g BT 202.08 681.57 Td ( est à votre disposition !) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 73.70 589.66 Td (Table des matières) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 576.69 Td (  ) Tj ET Q
+q 0.000 g BT 73.70 562.51 Td ( ) Tj ET Q
+q 0.000 g BT 93.54 562.51 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 548.34 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 548.34 Td (1 ... créer facilement un identifiant unique ?) Tj ET 93.54 547.34 191.21 -0.50 re f Q
+q 0.000 g BT 284.75 548.34 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 534.17 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 534.17 Td (2 ... mettre à jour les ascenseurs du widget "text-list" ?) Tj ET 93.54 533.17 240.53 -0.50 re f Q
+q 0.000 g BT 334.07 534.17 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 519.99 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 519.99 Td (3 ... rendre VID moins gourmant en mémoire ?) Tj ET 93.54 518.99 206.19 -0.50 re f Q
+q 0.000 g BT 299.73 519.99 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 505.82 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 505.82 Td (4 ... vider la file d'attente \(queue\) des 'events ?) Tj ET 93.54 504.82 206.71 -0.50 re f Q
+q 0.000 g BT 300.25 505.82 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 491.65 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 491.65 Td (5 ... parcourir un répertoire et ses sous-répertoires en applicant un traitement à ses fichiers ?) Tj ET 93.54 490.65 410.17 -0.50 re f Q
+q 0.000 g BT 503.71 491.65 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 477.47 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 477.47 Td (6 ...créer une variable prenant des valeurs alternatives ?) Tj ET 93.54 476.47 249.56 -0.50 re f Q
+q 0.000 g BT 343.10 477.47 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 463.30 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 463.30 Td (7 ...faire figurer des espaces dans les noms de fichiers ?) Tj ET 93.54 462.30 250.11 -0.50 re f Q
+q 0.000 g BT 343.65 463.30 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 449.13 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 449.13 Td (8 ...faire figurer une devise locale dans de datatype money! ?) Tj ET 93.54 448.13 270.70 -0.50 re f Q
+q 0.000 g BT 364.24 449.13 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 434.95 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 434.95 Td (9 ...connaitre l'adresse IP de sa machine ?) Tj ET 93.54 433.95 188.67 -0.50 re f Q
+q 0.000 g BT 282.21 434.95 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 420.78 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 420.78 Td (10 ...sous Linux, évaluer correctement un script REBOl rendu exécutable ?) Tj ET 93.54 419.78 331.26 -0.50 re f Q
+q 0.000 g BT 424.80 420.78 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 406.61 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 406.61 Td (11 ...connaître le répertoire courant ?) Tj ET 93.54 405.61 164.53 -0.50 re f Q
+q 0.000 g BT 258.07 406.61 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 392.43 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 392.43 Td (12 ...convertir une chaîne de caractères en un nombre ?) Tj ET 93.54 391.43 249.02 -0.50 re f Q
+q 0.000 g BT 342.56 392.43 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 378.26 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 378.26 Td (13 ...rendre un script exécutable sous Unix et Linux ?) Tj ET 93.54 377.26 235.67 -0.50 re f Q
+q 0.000 g BT 329.21 378.26 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 364.09 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 364.09 Td (14 ...mettre en surbrillance une ligne dans un style text-list ?) Tj ET 93.54 363.09 266.23 -0.50 re f Q
+q 0.000 g BT 359.77 364.09 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 349.91 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 349.91 Td (15 ...désactiver la connexion automatique ?) Tj ET 93.54 348.91 192.88 -0.50 re f Q
+q 0.000 g BT 286.42 349.91 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 335.74 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 335.74 Td (16 ...afficher une boîte d'alerte ?) Tj ET 93.54 334.74 143.11 -0.50 re f Q
+q 0.000 g BT 236.65 335.74 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 321.57 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 321.57 Td (17 ...visualiser le code source de view ?) Tj ET 93.54 320.57 176.74 -0.50 re f Q
+q 0.000 g BT 270.28 321.57 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 307.39 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 307.39 Td (18 ...centrer une fenêtre sur l'écran ?) Tj ET 93.54 306.39 163.66 -0.50 re f Q
+q 0.000 g BT 257.20 307.39 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 293.22 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 293.22 Td (19 ...obtenir la taille du bureau ?) Tj ET 93.54 292.22 142.86 -0.50 re f Q
+q 0.000 g BT 236.40 293.22 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 279.05 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 279.05 Td (20 ...cacher le texte d'un champ de saisie ?) Tj ET 93.54 278.05 192.01 -0.50 re f Q
+q 0.000 g BT 285.55 279.05 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 264.87 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 264.87 Td (21 ...traduire les jours et les mois dans le calendrier de Rebol/View ?) Tj ET 93.54 263.87 304.01 -0.50 re f Q
+q 0.000 g BT 397.55 264.87 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 250.70 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 250.70 Td (22 ...connaître les dimensions d'un texte à l'écran ?) Tj ET 93.54 249.70 227.27 -0.50 re f Q
+q 0.000 g BT 320.81 250.70 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 236.53 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 236.53 Td (23 ...sauvegarder un layout dans un fichier graphique et l'afficher ensuite dans un navigateur ?) Tj ET 93.54 235.53 418.25 -0.50 re f Q
+q 0.000 g BT 511.79 236.53 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 222.35 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 222.35 Td (24 ...trouver le numèro de licence de REBOL/Command ?) Tj ET 93.54 221.35 256.22 -0.50 re f Q
+q 0.000 g BT 349.76 222.35 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 208.18 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 208.18 Td (25 ... enlever sélectivement des éléments d'un block! ?) Tj ET 93.54 207.18 242.58 -0.50 re f Q
+q 0.000 g BT 336.12 208.18 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 194.01 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 194.01 Td (26 ... déclarer au sein d'un objet des membres ) Tj ET 93.54 193.01 208.12 -0.50 re f Q
+BT /F6 10.00 Tf ET
+q 0.000 0.000 1.000 rg BT 301.66 194.01 Td (réellement) Tj ET 301.66 193.01 46.68 -0.50 re f Q
+BT /F1 10.00 Tf ET
+q 0.000 0.000 1.000 rg BT 348.34 194.01 Td ( privés ?) Tj ET 348.34 193.01 37.79 -0.50 re f Q
+q 0.000 g BT 386.13 194.01 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 179.83 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 179.83 Td (27 ... transformer une date dans un format semblable à 02/05/2005 ?) Tj ET 93.54 178.83 305.17 -0.50 re f Q
+q 0.000 g BT 398.71 179.83 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 165.66 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 165.66 Td (28 ... charger les données d'un fichier externes \(.ini ou . cfg par exemple\) ?) Tj ET 93.54 164.66 331.51 -0.50 re f Q
+q 0.000 g BT 425.05 165.66 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 151.49 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 151.49 Td (29 ... extraire une chaîne de caractères d'une autre chaîne ? ) Tj ET 93.54 150.49 270.40 -0.50 re f Q
+q 0.000 g BT 363.94 151.49 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 137.32 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 137.32 Td (30 ... trier les données d'un block! sur une longueur fixe ?) Tj ET 93.54 136.32 253.71 -0.50 re f Q
+q 0.000 g BT 347.25 137.32 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 123.14 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 123.14 Td (31 ... supprimer l'action du click droit de la souris sur un bouton ?) Tj ET 93.54 122.14 287.59 -0.50 re f Q
+q 0.000 g BT 381.13 123.14 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 108.97 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 108.97 Td (32 ... créer dynamiquement le nom d'une variable ?) Tj ET 93.54 107.97 227.57 -0.50 re f Q
+q 0.000 g BT 321.11 108.97 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 94.80 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 94.80 Td (33 ... créer dynamiquement des tag! ?) Tj ET 93.54 93.80 168.42 -0.50 re f Q
+q 0.000 g BT 261.96 94.80 Td ( ) Tj ET Q
+0.85 w
+76.54 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 93.54 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 2/16) Tj ET Q
+
+endstream
+endobj
+7 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [93.54 802.95 264.72 792.95] /Border [0 0 0] /A <</S /URI /URI (#34)>>>><</Type /Annot /Subtype /Link /Rect [93.54 788.78 470.95 778.78] /Border [0 0 0] /A <</S /URI /URI (#35)>>>><</Type /Annot /Subtype /Link /Rect [93.54 774.61 196.61 764.61] /Border [0 0 0] /A <</S /URI /URI (#36)>>>><</Type /Annot /Subtype /Link /Rect [196.61 774.61 248.85 764.61] /Border [0 0 0] /A <</S /URI /URI (#36)>>>><</Type /Annot /Subtype /Link /Rect [248.85 774.61 361.11 764.61] /Border [0 0 0] /A <</S /URI /URI (#36)>>>><</Type /Annot /Subtype /Link /Rect [93.54 760.43 231.94 750.43] /Border [0 0 0] /A <</S /URI /URI (#37)>>>><</Type /Annot /Subtype /Link /Rect [231.94 760.43 279.18 750.43] /Border [0 0 0] /A <</S /URI /URI (#37)>>>><</Type /Annot /Subtype /Link /Rect [279.18 760.43 450.87 750.43] /Border [0 0 0] /A <</S /URI /URI (#37)>>>><</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 8 0 R>>
+endobj
+8 0 obj
+<</Length 5914>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.85 w
+76.54 805.04 m 538.59 805.04 l S
+q 0.502 g BT 93.54 819.05 Td (Comment faire pour ...) Tj ET Q
+q 0.000 g BT 79.04 794.95 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 794.95 Td (34 ... forcer la libération de mémoire ? ) Tj ET 93.54 793.95 171.18 -0.50 re f Q
+q 0.000 g BT 264.72 794.95 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 780.78 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 780.78 Td (35 ... insérer un certain nombre de fois un caractère dans une chaine de caractères ?) Tj ET 93.54 779.78 377.41 -0.50 re f Q
+q 0.000 g BT 470.95 780.78 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 766.61 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 766.61 Td (36 ... tester l'emploi de ) Tj ET 93.54 765.61 103.07 -0.50 re f Q
+BT /F6 10.00 Tf ET
+q 0.000 0.000 1.000 rg BT 196.61 766.61 Td (refinements) Tj ET 196.61 765.61 52.24 -0.50 re f Q
+BT /F1 10.00 Tf ET
+q 0.000 0.000 1.000 rg BT 248.85 766.61 Td ( mutuellement exclusifs ?) Tj ET 248.85 765.61 112.26 -0.50 re f Q
+q 0.000 g BT 361.11 766.61 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 752.43 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 752.43 Td (37 ... créer dynamiquement un ) Tj ET 93.54 751.43 138.40 -0.50 re f Q
+BT /F6 10.00 Tf ET
+q 0.000 0.000 1.000 rg BT 231.94 752.43 Td (refinement) Tj ET 231.94 751.43 47.24 -0.50 re f Q
+BT /F1 10.00 Tf ET
+q 0.000 0.000 1.000 rg BT 279.18 752.43 Td ( d'une fonction à partir d'une variable ?) Tj ET 279.18 751.43 171.69 -0.50 re f Q
+q 0.000 g BT 450.87 752.43 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 724.09 Td (  ) Tj ET Q
+q 0.000 g BT 79.26 724.09 Td (   ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 73.70 680.37 Td (1 ... créer facilement un identifiant unique ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 667.39 Td (  ) Tj ET Q
+q 0.000 g BT 73.70 653.22 Td ( ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 76.48 653.22 Td (par REBOLtof - 29 mars 2006) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 639.05 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 624.87 Td (Une technique que j'emploie régulièrement afin de créer des identifiants uniques \(par exemple pour) Tj ET Q
+q 0.000 g BT 73.70 610.70 Td (un nom de fichier\), est la suivante :) Tj ET Q
+q 0.000 g BT 73.70 596.53 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 76.48 597.13 Td (>> timestamp: form now/precise) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 582.95 Td ( == "24-Mar-2006/9:41:07.154+1:00") Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 568.78 Td ( >> foreach elem ["-" "/" ":" "." "+"] [replace/all timestamp elem ""]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 554.61 Td ( == "24Mar200694107154100") Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 198.50 554.01 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 539.83 Td (ou, en employant la nouvelle fonction 'remove-each :) Tj ET Q
+q 0.000 g BT 73.70 525.66 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 76.48 526.26 Td (>> timestamp: form now/precise) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 512.09 Td ( == "24-Mar-2006/9:49:20.664+1:00") Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 497.92 Td ( >> remove-each elem timestamp [find [#"-" #"/" #":" #"." #"+"] elem]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 483.74 Td ( == "24Mar200694920664100") Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 198.50 483.14 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 468.97 Td (Eventuellement, afin d'éviter les collisions dues à des horloges non-synchronisées, un nombre) Tj ET Q
+q 0.000 g BT 73.70 454.80 Td (random peut être rajouté à l'id générée...) Tj ET Q
+q 0.000 g BT 73.70 440.62 Td (  ) Tj ET Q
+q 0.000 g BT 79.26 440.62 Td (   ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 73.70 396.90 Td (2 ... mettre à jour les ascenseurs du widget "text-list" ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 383.93 Td (  ) Tj ET Q
+q 0.000 g BT 73.70 369.76 Td ( ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 76.48 369.76 Td (par REBOLtof - 23 mars 2006) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 355.58 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 341.41 Td (Dans ) Tj ET Q
+q 0.000 g BT 99.82 341.41 Td (/View 1.3) Tj ET Q
+q 0.000 g BT 140.95 341.41 Td (, la solution est très simple :) Tj ET Q
+q 0.000 g BT 73.70 327.24 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 76.48 327.84 Td (ma-text-list/update) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 313.66 Td ( show ma-text-list) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 160.10 313.06 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 298.89 Td (Pour les ) Tj ET Q
+q 0.000 g BT 113.16 298.89 Td (versions précédentes) Tj ET Q
+q 0.000 g BT 208.20 298.89 Td (, il est nécessaire de coder soi-même la fonctionnalité. Par exemple) Tj ET Q
+q 0.000 g BT 73.70 284.72 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 76.48 285.32 Td (either 0 = length? ma-text-list/data [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 271.14 Td (     ma-text-list/sld/redrag 1) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 256.97 Td ( ] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 242.80 Td (     ma-text-list/sld/redrag ma-text-list/lc / length? ma-text-list/data ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 228.62 Td ( ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 214.45 Td ( show ma-text-list) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 160.10 213.85 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 199.68 Td (Dans les deux cas, l'effet sera que la taille du curseur de l'ascenseur s'adaptera au nombre) Tj ET Q
+q 0.000 g BT 73.70 185.50 Td (d'éléments présents dans la text-list.) Tj ET Q
+q 0.000 g BT 73.70 171.33 Td (  ) Tj ET Q
+q 0.000 g BT 79.26 171.33 Td (   ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 73.70 127.61 Td (3 ... rendre VID moins gourmant en mémoire ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 114.64 Td (  ) Tj ET Q
+q 0.000 g BT 73.70 100.46 Td ( ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 76.48 100.46 Td (par REBOLtof - 26 janvier 06) Tj ET Q
+BT /F1 10.00 Tf ET
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 3/16) Tj ET Q
+
+endstream
+endobj
+9 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 10 0 R>>
+endobj
+10 0 obj
+<</Length 4838>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 73.70 819.05 Td (Comment faire pour ...) Tj ET Q
+q 0.000 g BT 73.70 794.95 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 780.78 Td (Afin d'illustrer le problème de la gourmandise de VID en terme de RAM, nous avons mesuré) Tj ET Q
+q 0.000 g BT 73.70 766.61 Td (récement que la génération de quelque 200 fenêtres contenant des images prenais 60 MB de RAM, ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 73.70 752.43 Td (et ne les rendait pas) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 163.75 752.43 Td (. Sur certains hardwares anciens, cela se termine par souvent un crash) Tj ET Q
+q 0.000 g BT 73.70 738.26 Td (système !) Tj ET Q
+q 0.000 g BT 73.70 724.09 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 709.91 Td (Et oui, VID est verbeux. Et cela est dû au modèle utilisé afin de créer les 'face : toutes se basent sur) Tj ET Q
+q 0.000 g BT 73.70 695.74 Td (le template de 'vid-face :) Tj ET Q
+q 0.000 g BT 73.70 681.57 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.70 667.99 Td (system/view/VID/vid-face) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 653.22 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 639.05 Td (Or, toutes les propriétés \(ou 'facets\) de la 'face ne sont pas utilisées dans tous les cas... Nous avons) Tj ET Q
+q 0.000 g BT 73.70 624.87 Td (par exemple parfois besoin d'un simple 'text, auquel cas les 'feel, 'edge et autre 'para ne sont pas) Tj ET Q
+q 0.000 g BT 73.70 610.70 Td (utiles...) Tj ET Q
+q 0.000 g BT 73.70 596.53 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 582.35 Td (Nous avons alors deux solutions :) Tj ET Q
+q 0.000 g BT 73.70 568.18 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 554.01 Td (1. lors de la définition de la 'face, mettre explicitement les 'facets inutiles à 'none :) Tj ET Q
+q 0.000 g BT 73.70 539.83 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 76.48 540.43 Td (view layout [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 526.26 Td (     text "hello" with [feel: none para: none edge: none]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 512.09 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 83.30 511.49 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 497.32 Td (2. quand nous n'avons plus besoin de notre 'face \(par exemple, lors d'un changement de fenêtre\),) Tj ET Q
+q 0.000 g BT 73.70 483.14 Td (explicitement mettre TOUTES les 'facets à none, de manière dynamique. Si 'workzone constitue le) Tj ET Q
+q 0.000 g BT 73.70 468.97 Td ('pane de notre écran principal, cela donne :) Tj ET Q
+q 0.000 g BT 73.70 454.80 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 76.48 455.40 Td (foreach elem workzone/pane/pane [ ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 441.22 Td (     foreach facet remove first elem [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 427.05 Td (         set in elem facet none) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 412.88 Td (     ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 398.70 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 83.30 398.10 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 383.93 Td (En applicant cette dernière méthode, nous avons fait chuter la consommation mémoire de 60 MB à) Tj ET Q
+q 0.000 g BT 73.70 369.76 Td (1.8 MB ...) Tj ET Q
+q 0.000 g BT 73.70 355.58 Td (  ) Tj ET Q
+q 0.000 g BT 79.26 355.58 Td (   ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 73.70 311.86 Td (4 ... vider la file d'attente \(queue\) des 'events ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 298.89 Td (  ) Tj ET Q
+q 0.000 g BT 73.70 284.72 Td ( ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 76.48 284.72 Td (par REBOLtof - 26 janvier 06) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 270.54 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 256.37 Td (Dans certains cas spécifiques, il peut être nécessaire de vider la file d'attente des 'events, par) Tj ET Q
+q 0.000 g BT 73.70 242.20 Td (exemple afin de s'assurer que plus aucun 'event ne reste en attente de traitement avant la) Tj ET Q
+q 0.000 g BT 73.70 228.02 Td (génération d'une nouvelle fenêtre avec /View...) Tj ET Q
+q 0.000 g BT 73.70 213.85 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 199.68 Td (Cette file d'attente est en fait un 'port en REBOL, mais il n'est pas permis d'utiliser le 'clear pour la) Tj ET Q
+q 0.000 g BT 73.70 185.50 Td (nettoyer...) Tj ET Q
+q 0.000 g BT 73.70 171.33 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 157.16 Td (Le truc consiste à la parcourir, event par event, en utilisant un 'pick jusqu'à ce qu'on rencontre un) Tj ET Q
+q 0.000 g BT 73.70 142.98 Td ('none \(qui signifie la fin de la file\) :) Tj ET Q
+q 0.000 g BT 73.70 128.81 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.70 115.24 Td (until [none? pick system/view/event-port 1]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 100.46 Td ( ) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 4/16) Tj ET Q
+
+endstream
+endobj
+11 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 12 0 R>>
+endobj
+12 0 obj
+<</Length 4830>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 73.70 819.05 Td (Comment faire pour ...) Tj ET Q
+q 0.000 g BT 73.70 794.95 Td (Cependant, attention : tous les 'events en attente \(comme presser une touche ou un click de souris\)) Tj ET Q
+q 0.000 g BT 73.70 780.78 Td (sont alors perdus !) Tj ET Q
+q 0.000 g BT 73.70 766.61 Td (  ) Tj ET Q
+q 0.000 g BT 79.26 766.61 Td (   ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 73.70 722.89 Td (5 ... parcourir un répertoire et ses sous-répertoires en applicant un) Tj ET Q
+q 0.000 g BT 73.70 708.71 Td (traitement à ses fichiers ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 695.74 Td (  ) Tj ET Q
+q 0.000 g BT 73.70 681.57 Td ( ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 76.48 681.57 Td (par REBOLtof - 06 Jan 06) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 667.39 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 653.22 Td (En utilisant une fonction ) Tj ET Q
+q 0.000 g BT 182.65 653.22 Td (recurrente) Tj ET Q
+q 0.000 g BT 228.22 653.22 Td ( évidement :-\)) Tj ET Q
+q 0.000 g BT 73.70 639.05 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 624.87 Td (Par exemple, cette fonction 'scan :) Tj ET Q
+q 0.000 g BT 73.70 610.70 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 76.48 611.30 Td (scan: func [dir][) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 597.13 Td (     ;--- parcourt tout les éléments \(fichier ou répertoires\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 582.95 Td (     ;- trouvés dans le répertoire passé en argument) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 568.78 Td (     foreach elem read dir [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 554.61 Td (         ;--- si l'élèment est un répertoire...        ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 540.43 Td (         either #"/" = last form elem [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 526.26 Td (             ;--- ... alors appel recurrent à la fonction) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 512.09 Td (             scan join dir elem) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 497.92 Td (         ][) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 483.74 Td (             ;--- ... sinon appliquer le traitement voulu) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 469.57 Td (             ;- à l'élèment \(fichier\) trouvé) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 455.40 Td (             attempt [do action elem]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 441.22 Td (         ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 427.05 Td (     ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 412.88 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 83.30 412.28 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 398.10 Td (Remarquez que, à la place du test ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 228.78 398.10 Td (either #"/" = last form elem) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 346.20 398.10 Td ( nous pourrions utiliser ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 449.57 398.10 Td (either dir ? elem) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 383.93 Td (. Cependant, pour des raisons que j'ignore encore, cette fonction ne renvoie pas toujours les) Tj ET Q
+q 0.000 g BT 73.70 369.76 Td (résultats attendus.) Tj ET Q
+q 0.000 g BT 73.70 355.58 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 341.41 Td (Ici, le traitement à appliquer aux fichiers trouvés a été isolé, afin d'offir plus de souplesse au script.) Tj ET Q
+q 0.000 g BT 73.70 327.24 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 313.06 Td (Ce traitement peut par exemple être "compter le nombre de fichiers PDF trouvés" :) Tj ET Q
+q 0.000 g BT 73.70 298.89 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 76.48 299.49 Td (count: 0) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 285.32 Td ( action: func [elem] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 271.14 Td (     if find elem %.pdf [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 256.97 Td (         count: count + 1) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 242.80 Td (     ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 228.62 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 83.30 228.02 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 213.85 Td (Il nous suffit alors de repérer le répertoire de base, et de lancer le scan :) Tj ET Q
+q 0.000 g BT 73.70 199.68 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.70 186.10 Td (scan %mon-repertoire/) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 171.33 Td ( ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 73.70 157.16 Td (REBOL, keep IT simple) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 178.18 157.16 Td ( ;-\)) Tj ET Q
+q 0.000 g BT 73.70 142.98 Td (  ) Tj ET Q
+q 0.000 g BT 79.26 142.98 Td (   ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 73.70 99.26 Td (6 ...créer une variable prenant des valeurs alternatives ?) Tj ET Q
+BT /F1 10.00 Tf ET
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 5/16) Tj ET Q
+
+endstream
+endobj
+13 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 14 0 R>>
+endobj
+14 0 obj
+<</Length 4258>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 73.70 819.05 Td (Comment faire pour ...) Tj ET Q
+q 0.000 g BT 73.70 794.95 Td (  ) Tj ET Q
+q 0.000 g BT 73.70 780.78 Td ( ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 76.48 780.78 Td (par REBOLtof - 23 decembre 05) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 766.61 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 752.43 Td (Imaginons que nous ayons une variable devant prendre deux valeurs : celles des couleurs 'white et) Tj ET Q
+q 0.000 g BT 73.70 738.26 Td ('black. Comment faire pour que cette variable prenne la valeur 'black si elle contenait 'white, et la) Tj ET Q
+q 0.000 g BT 73.70 724.09 Td (valeur 'white si elle contenait 'black ?) Tj ET Q
+q 0.000 g BT 73.70 709.91 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 695.74 Td (La solution la plus simple est basée sur l'utilisation de la fonction 'pick :) Tj ET Q
+q 0.000 g BT 73.70 681.57 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 76.48 682.17 Td (>> ma-var: white ;==> il faut lui donner une valeur initiale) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 667.99 Td ( == 255.255.255) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 653.82 Td ( >> ma-var: pick [white black] ma-var = 'black) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 639.65 Td ( == black) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 625.47 Td ( >> ma-var: pick [white black] ma-var = 'black) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 611.30 Td ( == white) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 597.13 Td ( >> ma-var: pick [white black] ma-var = 'black) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 582.95 Td ( == black) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 116.90 582.35 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 568.18 Td (Le code "ma-var = 'black" revoie un logic!, qui est pris comme argument pour la fonction 'pick !) Tj ET Q
+q 0.000 g BT 73.70 554.01 Td (  ) Tj ET Q
+q 0.000 g BT 79.26 554.01 Td (   ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 73.70 510.29 Td (7 ...faire figurer des espaces dans les noms de fichiers ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 497.32 Td (  ) Tj ET Q
+q 0.000 g BT 73.70 483.14 Td ( ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 76.48 483.14 Td (par REBOLtof - 17 octobre 05) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 468.97 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 454.80 Td (Deux solutions existent :) Tj ET Q
+q 0.000 g BT 73.70 440.62 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 426.45 Td (1. Utilisation du code hexadécimal :) Tj ET Q
+q 0.000 g BT 73.70 412.28 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.70 398.70 Td (fichier: %/mes%20documents/monfichier.r) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 383.93 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 369.76 Td (2. Mise entre guillemets :) Tj ET Q
+q 0.000 g BT 73.70 355.58 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.70 342.01 Td (fichier: %"/mes documents/monfichier.r") Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 327.24 Td (  ) Tj ET Q
+q 0.000 g BT 79.26 327.24 Td (   ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 73.70 283.52 Td (8 ...faire figurer une devise locale dans de datatype money! ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 270.54 Td (  ) Tj ET Q
+q 0.000 g BT 73.70 256.37 Td ( ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 76.48 256.37 Td (par REBOLtof - 17 octobre 05) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 242.20 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 228.02 Td (Tout simplement en le faisant précéder le money! :) Tj ET Q
+q 0.000 g BT 73.70 213.85 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 76.48 214.45 Td (>> argent: EUR$26.00) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 200.28 Td ( == EUR$26.00) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 186.10 Td ( >> type? argent) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 171.93 Td ( == money!) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 157.76 Td ( >> probe argent) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 143.58 Td ( EUR$26.00) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 129.41 Td ( == EUR$26.00) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 115.24 Td ( >> first argent) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 101.06 Td ( == "EUR") Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 6/16) Tj ET Q
+
+endstream
+endobj
+15 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 16 0 R>>
+endobj
+16 0 obj
+<</Length 4210>>
+stream
+2 J
+0.85 w
+BT /F2 8.00 Tf ET
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (Comment faire pour ...) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.70 795.55 Td ( >> second argent) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 781.38 Td ( == 26.0) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 112.10 780.78 Td (  ) Tj ET Q
+q 0.000 g BT 117.66 780.78 Td (   ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 73.70 737.06 Td (9 ...connaitre l'adresse IP de sa machine ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 724.09 Td (  ) Tj ET Q
+q 0.000 g BT 73.70 709.91 Td ( ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 76.48 709.91 Td (par Olivier Martin - 31 juillet 05) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 695.74 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.70 682.17 Td (read make url! join "dns://" \(read dns://\)) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 667.39 Td (  ) Tj ET Q
+q 0.000 g BT 79.26 667.39 Td (   ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 73.70 623.67 Td (10 ...sous Linux, évaluer correctement un script REBOl rendu) Tj ET Q
+q 0.000 g BT 73.70 609.50 Td (exécutable ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 596.53 Td (  ) Tj ET Q
+q 0.000 g BT 73.70 582.35 Td ( ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 76.48 582.35 Td (par Olivier Martin - 31 juillet 05) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 568.18 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 554.01 Td (Ce problème survient généralement lorsqu'on tente d'utiliser sur une machine Linux un script écrit) Tj ET Q
+q 0.000 g BT 73.70 539.83 Td (sur une machine Windows. A l'aide de l'éditeur VI, vous pouvez savoir si le fichier est au format) Tj ET Q
+q 0.000 g BT 73.70 525.66 Td (DOS. Si c'est le cas, vous devez utiliser un convertisseur tel que dos2unix pour éliminer les) Tj ET Q
+q 0.000 g BT 73.70 511.49 Td (caractères de contrôle qui perturbent l'évaluateur.) Tj ET Q
+q 0.000 g BT 73.70 497.32 Td (  ) Tj ET Q
+q 0.000 g BT 79.26 497.32 Td (   ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 73.70 453.60 Td (11 ...connaître le répertoire courant ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 440.62 Td (  ) Tj ET Q
+q 0.000 g BT 73.70 426.45 Td ( ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 76.48 426.45 Td (par Olivier Martin - 31 juillet 05) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 412.28 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 398.10 Td (La fonction what-dir contient le répertoire actif) Tj ET Q
+q 0.000 g BT 73.70 383.93 Td (  ) Tj ET Q
+q 0.000 g BT 79.26 383.93 Td (   ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 73.70 340.21 Td (12 ...convertir une chaîne de caractères en un nombre ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 327.24 Td (  ) Tj ET Q
+q 0.000 g BT 73.70 313.06 Td ( ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 76.48 313.06 Td (par Olivier Martin - 31 juillet 05) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 298.89 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 284.72 Td (Vous devez évaluer avec le mot do la chaîne de caractères contenant le nombre. Vous pouvez) Tj ET Q
+q 0.000 g BT 73.70 270.54 Td (ensuite l'affecter à une variable :) Tj ET Q
+q 0.000 g BT 73.70 256.37 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.70 242.80 Td (v: do "10") Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 228.02 Td (  ) Tj ET Q
+q 0.000 g BT 79.26 228.02 Td (   ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 73.70 184.30 Td (13 ...rendre un script exécutable sous Unix et Linux ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 171.33 Td (  ) Tj ET Q
+q 0.000 g BT 73.70 157.16 Td ( ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 76.48 157.16 Td (par Olivier Martin - 31 juillet 05) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 142.98 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 128.81 Td (La première ligne du fichier doit préciser le chemin d'accès à l'évaluateur utilisé et les options) Tj ET Q
+q 0.000 g BT 73.70 114.64 Td (d'exécution \(ex : # !/usr/bin rebol -cs\). L'instruction chmod +x permet ensuite de transformer le script) Tj ET Q
+q 0.000 g BT 73.70 100.46 Td (en un fichier exécutable.) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 7/16) Tj ET Q
+
+endstream
+endobj
+17 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 18 0 R>>
+endobj
+18 0 obj
+<</Length 4204>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 73.70 819.05 Td (Comment faire pour ...) Tj ET Q
+q 0.000 g BT 73.70 794.95 Td (  ) Tj ET Q
+q 0.000 g BT 79.26 794.95 Td (   ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 73.70 751.23 Td (14 ...mettre en surbrillance une ligne dans un style text-list ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 738.26 Td (  ) Tj ET Q
+q 0.000 g BT 73.70 724.09 Td ( ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 76.48 724.09 Td (par Olivier Martin - 31 juillet 05) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 709.91 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 76.48 710.51 Td (pindex: 0) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 696.34 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 682.17 Td ( affiche-liste: make function! [] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 667.99 Td (     tclear liste/picked) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 653.82 Td (     tchaine: copy []) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 639.65 Td (     tchaine2: pick liste/data pindex) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 625.47 Td (     tinsert chaine pick liste/data pindex) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 611.30 Td (     tinsert liste/picked chaine) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 597.13 Td (     tshow liste) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 582.95 Td ( ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 568.78 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 554.61 Td ( view layout [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 540.43 Td (     tliste: text-list data [ "ligne1" "ligne2" "ligne3" ] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 526.26 Td (         ttpindex: face/cnt) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 512.09 Td (         t) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 497.92 Td (     ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 483.74 Td (     treturn) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 469.57 Td (     tbutton "Haut" [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 455.40 Td (         ttif pindex > 1 [ pindex: pindex - 1 ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 441.22 Td (         ttaffiche-liste) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 427.05 Td (         t) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 412.88 Td (     ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 398.70 Td (     tbutton "Bas" [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 384.53 Td (         ttif pindex ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 174.50 384.53 Td (         ttaffiche-liste) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 370.36 Td (         t) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 356.18 Td (     ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 342.01 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 83.30 341.41 Td (  ) Tj ET Q
+q 0.000 g BT 88.86 341.41 Td (   ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 73.70 297.69 Td (15 ...désactiver la connexion automatique ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 284.72 Td (  ) Tj ET Q
+q 0.000 g BT 73.70 270.54 Td ( ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 76.48 270.54 Td (par Olivier Martin - 31 juillet 05) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 256.37 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 242.20 Td (Pour empêcher Rebol/View de se connecter à un serveur distant dès son démarrage, vous devez) Tj ET Q
+q 0.000 g BT 73.70 228.02 Td (modifier le paramètre auto-connect du fichier de configuration prefs.r en lui assignant la valeur false.) Tj ET Q
+q 0.000 g BT 73.70 213.85 Td (  ) Tj ET Q
+q 0.000 g BT 79.26 213.85 Td (   ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 73.70 170.13 Td (16 ...afficher une boîte d'alerte ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 157.16 Td (  ) Tj ET Q
+q 0.000 g BT 73.70 142.98 Td ( ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 76.48 142.98 Td (par Olivier Martin - 31 juillet 05) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 128.81 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.70 115.24 Td (alert "ceci est mon message) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 100.46 Td (  ) Tj ET Q
+q 0.000 g BT 79.26 100.46 Td (   ) Tj ET Q
+BT /F5 14.00 Tf ET
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 8/16) Tj ET Q
+
+endstream
+endobj
+19 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 20 0 R>>
+endobj
+20 0 obj
+<</Length 4115>>
+stream
+2 J
+0.85 w
+BT /F5 14.00 Tf ET
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (Comment faire pour ...) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 73.70 793.75 Td (17 ...visualiser le code source de view ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 780.78 Td (  ) Tj ET Q
+q 0.000 g BT 73.70 766.61 Td ( ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 76.48 766.61 Td (par Olivier Martin - 31 juillet 05) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 752.43 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 738.26 Td (Il suffit d'afficher l'objet "system/view" dans un fichier texte :) Tj ET Q
+q 0.000 g BT 73.70 724.09 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.70 710.51 Td (save %/c/view.txt system/view) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 695.74 Td (  ) Tj ET Q
+q 0.000 g BT 79.26 695.74 Td (   ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 73.70 652.02 Td (18 ...centrer une fenêtre sur l'écran ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 639.05 Td (  ) Tj ET Q
+q 0.000 g BT 73.70 624.87 Td ( ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 76.48 624.87 Td (par Olivier Martin - 31 juillet 05) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 610.70 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.70 597.13 Td (view center-face layout [text "Salut" ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 582.35 Td (  ) Tj ET Q
+q 0.000 g BT 79.26 582.35 Td (   ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 73.70 538.63 Td (19 ...obtenir la taille du bureau ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 525.66 Td (  ) Tj ET Q
+q 0.000 g BT 73.70 511.49 Td ( ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 76.48 511.49 Td (par Olivier Martin - 31 juillet 05) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 497.32 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.70 483.74 Td (system/view/screen-face/size) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 468.97 Td (  ) Tj ET Q
+q 0.000 g BT 79.26 468.97 Td (   ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 73.70 425.25 Td (20 ...cacher le texte d'un champ de saisie ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 412.28 Td (  ) Tj ET Q
+q 0.000 g BT 73.70 398.10 Td ( ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 76.48 398.10 Td (par Olivier Martin - 31 juillet 05) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 383.93 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.70 370.36 Td (view layout [text "Mot de passe" field hide]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 355.58 Td (  ) Tj ET Q
+q 0.000 g BT 79.26 355.58 Td (   ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 73.70 311.86 Td (21 ...traduire les jours et les mois dans le calendrier de) Tj ET Q
+q 0.000 g BT 73.70 297.69 Td (Rebol/View ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 284.72 Td (  ) Tj ET Q
+q 0.000 g BT 73.70 270.54 Td ( ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 76.48 270.54 Td (par Olivier Martin - 31 juillet 05) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 256.37 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 242.20 Td (Vous devez modifier les propriétés system/locale/days et system/locale/months.) Tj ET Q
+q 0.000 g BT 73.70 228.02 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 213.85 Td (REBOL [Title : "la date en français" Author : "FJouen" Version 1.0]) Tj ET Q
+q 0.000 g BT 73.70 199.68 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 185.50 Td (system/locale/months : ["janvier" "Février" "Mars" "Avril" "Mai" "Juin" "Juillet" "Août" "Septembre") Tj ET Q
+q 0.000 g BT 73.70 171.33 Td ("Octobre" "Novembre" "Décembre"]) Tj ET Q
+q 0.000 g BT 73.70 157.16 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 76.48 157.76 Td (system/locale/days: ["lundi" "mardi" "mercredi" "jeudi" "vendredi" "samedi" "dimanche"]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 143.58 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 129.41 Td ( request-date) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 136.10 128.81 Td (  ) Tj ET Q
+q 0.000 g BT 141.66 128.81 Td (   ) Tj ET Q
+BT /F5 14.00 Tf ET
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 9/16) Tj ET Q
+
+endstream
+endobj
+21 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 22 0 R>>
+endobj
+22 0 obj
+<</Length 4980>>
+stream
+2 J
+0.85 w
+BT /F5 14.00 Tf ET
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (Comment faire pour ...) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 73.70 793.75 Td (22 ...connaître les dimensions d'un texte à l'écran ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 780.78 Td (  ) Tj ET Q
+q 0.000 g BT 73.70 766.61 Td ( ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 76.48 766.61 Td (par Olivier Martin - 31 juillet 05) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 752.43 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 738.26 Td (Le mot size-text, suivi du nom du style text, retourne les dimensions de celui-ci.) Tj ET Q
+q 0.000 g BT 73.70 724.09 Td (  ) Tj ET Q
+q 0.000 g BT 79.26 724.09 Td (   ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 73.70 680.37 Td (23 ...sauvegarder un layout dans un fichier graphique et l'afficher) Tj ET Q
+q 0.000 g BT 73.70 666.19 Td (ensuite dans un navigateur ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 653.22 Td (  ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 79.26 653.82 Td (save/png %toto.png to-image nomdulayout_a_capturer) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 639.65 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 625.47 Td ( browse %toto.png) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 155.30 624.87 Td (  ) Tj ET Q
+q 0.000 g BT 160.86 624.87 Td (   ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 73.70 581.15 Td (24 ...trouver le numèro de licence de REBOL/Command ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 568.18 Td (  ) Tj ET Q
+q 0.000 g BT 73.70 554.01 Td ( ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 76.48 554.01 Td (par Olivier Martin - 31 juillet 05) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 539.83 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 525.66 Td (Le numéro de licence est le fichier licence.key. Il doit se trouver dans le répertoire courant de votre) Tj ET Q
+q 0.000 g BT 73.70 511.49 Td (application. Pour les hébergeurs de services, ceci permet d'avoir plusieurs licences d'utilisation sur) Tj ET Q
+q 0.000 g BT 73.70 497.32 Td (un seule machine.) Tj ET Q
+q 0.000 g BT 73.70 483.14 Td (  ) Tj ET Q
+q 0.000 g BT 79.26 483.14 Td (   ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 73.70 439.42 Td (25 ... enlever sélectivement des éléments d'un block! ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 426.45 Td (  ) Tj ET Q
+q 0.000 g BT 73.70 412.28 Td ( ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 76.48 412.28 Td (par REBOLtof - 23 mai 2005) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 398.10 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 383.93 Td (REBOL nous offre pour cela une fonction spécifique, qui gagne à être connue : 'remove-each.) Tj ET Q
+q 0.000 g BT 73.70 369.76 Td (Celle-ci prend comme argument un word!, le block! lui-même, et un body \(block!\) dans lequel nous) Tj ET Q
+q 0.000 g BT 73.70 355.58 Td (pouvons faire figurer la condition qui, vérifiée, devra autoriser la suppression de l'élément.) Tj ET Q
+q 0.000 g BT 73.70 341.41 Td (Supposons que nous voulions supprimer toutes les strings de ce bloc :) Tj ET Q
+q 0.000 g BT 73.70 327.24 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 76.48 327.84 Td (>> mon-block: [a "a" b "b" c "c"]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 313.66 Td ( == [a "a" b "b" c "c"]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 299.49 Td ( >> remove-each element mon-block [string? element]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 285.32 Td ( == [a b c]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 126.50 284.72 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 270.54 Td (Vous pouvez évidement faire figurer n'importe quelle condition dans le dernier bloc...) Tj ET Q
+q 0.000 g BT 73.70 256.37 Td (  ) Tj ET Q
+q 0.000 g BT 79.26 256.37 Td (   ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 73.70 212.65 Td (26 ... déclarer au sein d'un objet des membres ) Tj ET Q
+BT /F7 14.00 Tf ET
+q 0.000 g BT 383.61 212.65 Td (réellement) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 453.63 212.65 Td ( privés ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 199.68 Td (  ) Tj ET Q
+q 0.000 g BT 73.70 185.50 Td ( ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 76.48 185.50 Td (par REBOLtof - 21 septembre 2001) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 171.33 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 157.16 Td (Le modèle objet de REBOL n'est pas aussi complet comme celui de Java ou de Python. Cependant,) Tj ET Q
+q 0.000 g BT 73.70 142.98 Td (en jouant sur certaines fonctions particulières, nous avons la possibilité d'empêcher nos variables) Tj ET Q
+q 0.000 g BT 73.70 128.81 Td (d'être accédées de l'extérieur d'un objet. Nous allons utiliser pour cela les fonctions 'use et 'set :) Tj ET Q
+q 0.000 g BT 73.70 114.64 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 76.48 115.24 Td (use [var-priv-1 var-priv-2 func-priv][) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 101.06 Td (     mon-objet: make object! [) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 501.28 45.79 Td (Page 10/16) Tj ET Q
+
+endstream
+endobj
+23 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 24 0 R>>
+endobj
+24 0 obj
+<</Length 4898>>
+stream
+2 J
+0.85 w
+BT /F2 8.00 Tf ET
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (Comment faire pour ...) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.70 795.55 Td (         ;--> variables privées) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 781.38 Td (         set 'var-priv-1 1) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 767.21 Td (         set 'var-priv-2 2) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 753.03 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 738.86 Td (         ;--> variable publique) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 724.69 Td (         var-pub: 5) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 710.51 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 696.34 Td (         ;--> function privée) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 682.17 Td (         set 'func-priv does [var-priv-1 + var-priv-2]       ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 667.99 Td (                 ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 653.82 Td (         ;--> functions publiques) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 639.65 Td (         func-pub-1: does [10 * var-pub]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 625.47 Td (         func-pub-2: does [func-priv]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 611.30 Td (     ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 597.13 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 83.30 596.53 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 582.35 Td (Ainsi, seuls 'var-pub, 'func-pub-1 et 'func-pub-2 sont visibles de l'extérieur :) Tj ET Q
+q 0.000 g BT 73.70 568.18 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 76.48 568.78 Td (>> mon-objet/var-pub) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 554.61 Td ( == 5) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 540.43 Td ( >> mon-objet/func-pub-1) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 526.26 Td ( == 50) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 512.09 Td ( >> mon-objet/func-pub-2) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 497.92 Td ( == 3) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 97.70 497.32 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 483.14 Td (Tandis que les membres privés restent protégés :) Tj ET Q
+q 0.000 g BT 73.70 468.97 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 76.48 469.57 Td (>> mon-objet/var-priv-1) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 455.40 Td ( ** Script Error: Invalid path value: var-priv-1) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 441.22 Td ( ** Near: mon-objet/var-priv-1) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 427.05 Td ( >> mon-objet/var-priv-2) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 412.88 Td ( ** Script Error: Invalid path value: var-priv-2) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 398.70 Td ( ** Near: mon-objet/var-priv-2) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 384.53 Td ( >> mon-objet/func-priv) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 370.36 Td ( ** Script Error: Invalid path value: func-priv) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 356.18 Td ( ** Near: mon-objet/func-priv) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 212.90 355.58 Td (  ) Tj ET Q
+q 0.000 g BT 218.46 355.58 Td (   ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 73.70 311.86 Td (27 ... transformer une date dans un format semblable à) Tj ET Q
+q 0.000 g BT 73.70 297.69 Td (02/05/2005 ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 284.72 Td (  ) Tj ET Q
+q 0.000 g BT 73.70 270.54 Td ( ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 76.48 270.54 Td (par johnatemps - 01 février 05) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 256.37 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 242.20 Td (Cette petite fonction le permet :) Tj ET Q
+q 0.000 g BT 73.70 228.02 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 76.48 228.62 Td (formater-date: function [dat [date!] /int] [d data j] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 214.45 Td (     data: [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 200.28 Td (         "Jan" "01" "Feb" "02" "Mar" "03" "Apr" "04" ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 186.10 Td (         "May" "05" "Jun" "06" "Jul" "07" "Aug" "08" ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 171.93 Td (         "Sep" "09" "Oct" "10" "Nov" "11" "Dec" "12") Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 157.76 Td (     ] ; définition du tableau de correspondance mois/numéro) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 143.58 Td (     d: parse to-string dat "-" ; découpe de la date en 3 éléments) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 129.41 Td (     either \(length? first d\) ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 217.70 129.41 Td (     [j: join "0" first d] ; ajouter un 0) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 115.24 Td (     [[j: first d]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 101.06 Td (     return join j ["/" select data second d "/" third d] ;formater la date, en utilisant la) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 501.28 45.79 Td (Page 11/16) Tj ET Q
+
+endstream
+endobj
+25 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 26 0 R>>
+endobj
+26 0 obj
+<</Length 5517>>
+stream
+2 J
+0.85 w
+BT /F2 8.00 Tf ET
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (Comment faire pour ...) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.70 795.55 Td (table de correspondance) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 781.38 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 83.30 780.78 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 766.61 Td (Exemple :) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 118.16 767.21 Td (>> formater-date 1/1/1) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 753.03 Td ( == "01/01/2001") Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 738.86 Td ( >> formater-date 12-4-98) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 724.69 Td ( == "12/04/1998") Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 710.51 Td ( >> formater-date 2-dec-1998) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 696.34 Td ( == "02/12/1998") Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 150.50 695.74 Td (  ) Tj ET Q
+q 0.000 g BT 156.06 695.74 Td (   ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 73.70 652.02 Td (28 ... charger les données d'un fichier externes \(.ini ou . cfg par) Tj ET Q
+q 0.000 g BT 73.70 637.85 Td (exemple\) ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 624.87 Td (  ) Tj ET Q
+q 0.000 g BT 73.70 610.70 Td (Une approche simple consiste à évaluer \('do\) un block chargé par la fonction 'load. Le 'load) Tj ET Q
+q 0.000 g BT 73.70 596.53 Td (retournant toujours un block ! et celui-ci protégeant son contenu de l'évaluation, il est en effet) Tj ET Q
+q 0.000 g BT 73.70 582.35 Td (nécessaire de forcer cette évaluation par l'emploi de 'do :) Tj ET Q
+q 0.000 g BT 73.70 568.18 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.70 554.61 Td (do load %prefs.ini) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 539.83 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 525.66 Td (Une forme plus sophistiquée \() Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 206.53 525.66 Td (par ViE - 14 mai 05) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 292.12 525.66 Td (\) consiste à charger les données du fichier) Tj ET Q
+q 0.000 g BT 73.70 511.49 Td (directement dans un objet \(ou contexte\) afin de les protèger d'une redéfinition :) Tj ET Q
+q 0.000 g BT 73.70 497.32 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.70 483.74 Td (prefs: context load %prefs.ini) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 468.97 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 454.80 Td (Cette méthode présente un avantage supplémentaire : fournir des paramètres par défaut \(en cas) Tj ET Q
+q 0.000 g BT 73.70 440.62 Td (d'absence, ou de version incomplète du fichier\) en initialisant l'objet :) Tj ET Q
+q 0.000 g BT 73.70 426.45 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 76.48 427.05 Td (; les paramètres par défaut) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 412.88 Td ( prefs: context [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 398.70 Td (     info1: ["ville1"]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 384.53 Td (     info2: ["ville1" [temps1: "2h" temps2: "2h30"]]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 370.36 Td (     détail: "Pas de détail" ; valeur par défaut) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 356.18 Td ( ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 342.01 Td ( ; si le fichier existe, on charge les paramètres qui y sont définis) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 327.84 Td ( if exists? %prefs.ini [prefs: make prefs load %prefs.ini]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 352.10 327.24 Td (  ) Tj ET Q
+q 0.000 g BT 357.66 327.24 Td (   ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 73.70 283.52 Td (29 ... extraire une chaîne de caractères d'une autre chaîne ? ) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 270.54 Td (  ) Tj ET Q
+q 0.000 g BT 73.70 256.37 Td (Plusieurs solutions existent :) Tj ET Q
+q 0.000 g BT 73.70 242.20 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 76.48 242.80 Td (substring: func [chaine pos-début longueur-substring] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 228.62 Td (     copy/part at chaine pos-début longueur-substring) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 214.45 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+BT /F6 10.00 Tf ET
+q 0.000 g BT 83.30 213.85 Td (par darkblue) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 199.68 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 76.48 200.28 Td (substring: func [chaine pos-début pos-fin] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 186.10 Td (     copy/part at chaine pos-début pos-fin - pos-début + 1) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 171.93 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+BT /F6 10.00 Tf ET
+q 0.000 g BT 83.30 171.33 Td (par darkblue) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 157.16 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 76.48 157.76 Td (substring: func [chaine pos-début pos-fin] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 143.58 Td (     copy/part at chaine pos-début add 1 subtract pos-fin pos-début ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 129.41 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+BT /F6 10.00 Tf ET
+q 0.000 g BT 83.30 128.81 Td (par Bouba - identique au précédent, sauf qu'il n'utilise pas les opérateurs in-lines) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 114.64 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 100.46 Td (Exemple :) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 118.16 101.06 Td (>> ma-chaine: "ceci est une phrase sans aucun sens mais longue") Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 501.28 45.79 Td (Page 12/16) Tj ET Q
+
+endstream
+endobj
+27 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 28 0 R>>
+endobj
+28 0 obj
+<</Length 4481>>
+stream
+2 J
+0.85 w
+BT /F2 8.00 Tf ET
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (Comment faire pour ...) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.70 795.55 Td ( == "ceci est une phrase sans aucun sens mais longue") Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 781.38 Td ( >> substring: func [chaine pos-début pos-fin] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 767.21 Td ( [        copy/part at chaine pos-début add 1 subtract pos-fin pos-début) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 753.03 Td ( [    ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 738.86 Td ( >> substring str 5 10) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 724.69 Td ( == " est u") Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 131.30 724.09 Td (  ) Tj ET Q
+q 0.000 g BT 136.86 724.09 Td (   ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 73.70 680.37 Td (30 ... trier les données d'un block! sur une longueur fixe ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 667.39 Td (  ) Tj ET Q
+q 0.000 g BT 73.70 653.22 Td ( ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 76.48 653.22 Td (par REBOLtof) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 639.05 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 624.87 Td (On peut utiliser le 'sort/skip) Tj ET Q
+q 0.000 g BT 73.70 610.70 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 596.53 Td (Exemple :) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 118.16 597.13 Td (>> b: [a 1 c 5 r 8 b 2 a 9 g 4]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 582.95 Td ( == [a 1 c 5 r 8 b 2 a 9 g 4]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 568.78 Td ( >> b1: copy b) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 554.61 Td ( == [a 1 c 5 r 8 b 2 a 9 g 4]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 540.43 Td ( >> sort b1) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 526.26 Td ( == [a a b c g r 1 2 4 5 8 9]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 512.09 Td ( >> b1) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 497.92 Td ( == [a a b c g r 1 2 4 5 8 9]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 483.74 Td ( >> b1: copy b) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 469.57 Td ( == [a 1 c 5 r 8 b 2 a 9 g 4]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 455.40 Td ( >> sort/skip b1 2) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 441.22 Td ( == [a 1 a 9 b 2 c 5 g 4 r 8]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 212.90 440.62 Td (  ) Tj ET Q
+q 0.000 g BT 218.46 440.62 Td (   ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 73.70 396.90 Td (31 ... supprimer l'action du click droit de la souris sur un bouton ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 383.93 Td (  ) Tj ET Q
+q 0.000 g BT 73.70 369.76 Td ( ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 76.48 369.76 Td (par REBOLtof) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 355.58 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 341.41 Td (Le bouton \( btn ou button ou toggle \) accepte les click droits et gauche afin d'être activé.) Tj ET Q
+q 0.000 g BT 73.70 327.24 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 313.06 Td (Le code peut être du type :) Tj ET Q
+q 0.000 g BT 73.70 298.89 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 76.48 299.49 Td (view layout [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 285.32 Td (     btn "text" ["action click gauche"] ["action click droit"]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 271.14 Td ( ] ) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 88.10 270.54 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 256.37 Td (L'état du bouton \(enfoncé ou non\) est reflété par la propriété :) Tj ET Q
+q 0.000 g BT 73.70 242.20 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.70 228.62 Td (face/state) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 213.85 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 199.68 Td (qui est un ) Tj ET Q
+q 0.000 g BT 119.84 199.68 Td (logic !) Tj ET Q
+q 0.000 g BT 145.96 199.68 Td ( .) Tj ET Q
+q 0.000 g BT 73.70 185.50 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 171.33 Td (Empêcher l'action du bouton droit de la souris est réalisé par :) Tj ET Q
+q 0.000 g BT 73.70 157.16 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 76.48 157.76 Td (view layout [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 143.58 Td (     btn "text" ["action click gauche"] [face/state: not face/state]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 129.41 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 83.30 128.81 Td (  ) Tj ET Q
+q 0.000 g BT 88.86 128.81 Td (   ) Tj ET Q
+BT /F5 14.00 Tf ET
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 501.28 45.79 Td (Page 13/16) Tj ET Q
+
+endstream
+endobj
+29 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [114.88 419.28 158.08 411.28] /Border [0 0 0] /A <</S /URI /URI (page.html)>>>><</Type /Annot /Subtype /Link /Rect [131.30 376.76 169.70 368.76] /Border [0 0 0] /A <</S /URI /URI (page.html)>>>><</Type /Annot /Subtype /Link /Rect [134.08 334.24 172.48 326.24] /Border [0 0 0] /A <</S /URI /URI (page.html)>>>><</Type /Annot /Subtype /Link /Rect [97.70 320.06 116.90 312.06] /Border [0 0 0] /A <</S /URI /URI (page.html)>>>><</Type /Annot /Subtype /Link /Rect [145.70 291.72 184.10 283.72] /Border [0 0 0] /A <</S /URI /URI (page.html)>>>><</Type /Annot /Subtype /Link /Rect [97.70 277.54 116.90 269.54] /Border [0 0 0] /A <</S /URI /URI (page.html)>>>><</Type /Annot /Subtype /Link /Rect [174.50 220.85 212.90 212.85] /Border [0 0 0] /A <</S /URI /URI (page.html)>>>><</Type /Annot /Subtype /Link /Rect [97.70 206.68 116.90 198.68] /Border [0 0 0] /A <</S /URI /URI (page.html)>>>><</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 30 0 R>>
+endobj
+30 0 obj
+<</Length 5508>>
+stream
+2 J
+0.85 w
+BT /F5 14.00 Tf ET
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (Comment faire pour ...) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 73.70 793.75 Td (32 ... créer dynamiquement le nom d'une variable ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 780.78 Td (  ) Tj ET Q
+q 0.000 g BT 73.70 766.61 Td ( ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 76.48 766.61 Td (par Pedro) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 752.43 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 738.26 Td (En utilisant une combinaison des fonctions 'set et 'to-word :) Tj ET Q
+q 0.000 g BT 73.70 724.09 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 76.48 724.69 Td (>> nom-1: 'mon-nombre) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 710.51 Td ( == mon-nombre) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 696.34 Td ( >> nom-2: 'magique) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 682.17 Td ( == magique) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 667.99 Td ( >> set to-word rejoin [nom-1 "-" nom-2] 100) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 653.82 Td ( == 100) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 639.65 Td ( >> ? mon-nombre-magique) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 625.47 Td ( MON-NOMBRE-MAGIQUE is an integer of value: 100) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 299.30 624.87 Td (  ) Tj ET Q
+q 0.000 g BT 304.86 624.87 Td (   ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 73.70 581.15 Td (33 ... créer dynamiquement des tag! ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 568.18 Td (  ) Tj ET Q
+q 0.000 g BT 73.70 554.01 Td ( ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 76.48 554.01 Td (par REBOLtof) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 539.83 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 525.66 Td (Nous utilisons pour cela les fonctions 'join ou 'rejoin. Mais ces deux fonctions utilisent leur premier) Tj ET Q
+q 0.000 g BT 73.70 511.49 Td (argument comme datatype par défaut :) Tj ET Q
+q 0.000 g BT 73.70 497.32 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 76.48 497.92 Td (>> join "example" 123) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 483.74 Td ( == "example123") Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 469.57 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 455.40 Td ( >> rejoin [http://mon-server/ "index.html"]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 441.22 Td ( == http://mon-server/index.html) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 227.30 440.62 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 426.45 Td (Mais dans notre cas, ce comportement ne satisfait pas :) Tj ET Q
+q 0.000 g BT 73.70 412.28 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 76.48 412.88 Td (>> join ) Tj ET Q
+q 0.000 0.000 1.000 rg BT 114.88 412.88 Td ( ["Page" ) Tj ET 114.88 412.08 43.20 -0.40 re f Q
+q 0.000 g BT 158.08 412.88 Td (]) Tj ET Q
+q 0.000 g BT 73.70 398.70 Td ( == ) Tj ET Q
+q 0.000 g BT 92.90 398.70 Td (>) Tj ET Q
+q 0.000 g BT 73.70 384.53 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 370.36 Td ( >> rejoin [) Tj ET Q
+q 0.000 0.000 1.000 rg BT 131.30 370.36 Td ( "Page" ) Tj ET 131.30 369.56 38.40 -0.40 re f Q
+q 0.000 g BT 169.70 370.36 Td (]) Tj ET Q
+q 0.000 g BT 73.70 356.18 Td ( == ) Tj ET Q
+q 0.000 g BT 92.90 356.18 Td (> ) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 102.50 355.58 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 341.41 Td (Une solution possible est l'ajout d'un string vide :) Tj ET Q
+q 0.000 g BT 73.70 327.24 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 76.48 327.84 Td (>> join "" [) Tj ET Q
+q 0.000 0.000 1.000 rg BT 134.08 327.84 Td ( "Page" ) Tj ET 134.08 327.04 38.40 -0.40 re f Q
+q 0.000 g BT 172.48 327.84 Td (]) Tj ET Q
+q 0.000 g BT 73.70 313.66 Td ( == {) Tj ET Q
+q 0.000 0.000 1.000 rg BT 97.70 313.66 Td (Page) Tj ET 97.70 312.86 19.20 -0.40 re f Q
+q 0.000 g BT 116.90 313.66 Td (}) Tj ET Q
+q 0.000 g BT 73.70 299.49 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 285.32 Td ( >> rejoin ["" ) Tj ET Q
+q 0.000 0.000 1.000 rg BT 145.70 285.32 Td ( "Page" ) Tj ET 145.70 284.52 38.40 -0.40 re f Q
+q 0.000 g BT 184.10 285.32 Td (]) Tj ET Q
+q 0.000 g BT 73.70 271.14 Td ( == {) Tj ET Q
+q 0.000 0.000 1.000 rg BT 97.70 271.14 Td (Page) Tj ET 97.70 270.34 19.20 -0.40 re f Q
+q 0.000 g BT 116.90 271.14 Td (}) Tj ET Q
+q 0.000 g BT 121.70 271.14 Td (<code>) Tj ET Q
+q 0.000 g BT 73.70 256.97 Td (  ) Tj ET Q
+q 0.000 g BT 73.70 242.80 Td ( Ou: ) Tj ET Q
+q 0.000 g BT 73.70 228.62 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 214.45 Td ( ) Tj ET Q
+q 0.000 g BT 78.50 214.45 Td (<code>) Tj ET Q
+q 0.000 g BT 107.30 214.45 Td (>> to-string [) Tj ET Q
+q 0.000 0.000 1.000 rg BT 174.50 214.45 Td ( "Page" ) Tj ET 174.50 213.65 38.40 -0.40 re f Q
+q 0.000 g BT 212.90 214.45 Td (]) Tj ET Q
+q 0.000 g BT 73.70 200.28 Td ( == {) Tj ET Q
+q 0.000 0.000 1.000 rg BT 97.70 200.28 Td (Page) Tj ET 97.70 199.48 19.20 -0.40 re f Q
+q 0.000 g BT 116.90 200.28 Td (}) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 121.70 199.68 Td (  ) Tj ET Q
+q 0.000 g BT 127.26 199.68 Td (   ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 73.70 155.96 Td (34 ... forcer la libération de mémoire ? ) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 142.98 Td (  ) Tj ET Q
+q 0.000 g BT 73.70 128.81 Td ( ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 76.48 128.81 Td (par DocKimbel) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 114.64 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 100.46 Td (Il nous faut utiliser une combinaison des fonctions 'make et 'recycle :) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 501.28 45.79 Td (Page 14/16) Tj ET Q
+
+endstream
+endobj
+31 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 32 0 R>>
+endobj
+32 0 obj
+<</Length 4790>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 73.70 819.05 Td (Comment faire pour ...) Tj ET Q
+q 0.000 g BT 73.70 794.95 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.70 781.38 Td (free-mem: func ['word] [set :word make none! recycle]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 766.61 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 752.43 Td (Exemple :) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 118.16 753.03 Td (>> system/stats) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 738.86 Td ( == 3778424) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 724.69 Td ( >> s: make string! 50'000'000) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 710.51 Td ( == "") Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 696.34 Td ( >> system/stats) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 682.17 Td ( == 53780344) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 667.99 Td ( >> free-mem s) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 653.82 Td ( >> system/stats) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 639.65 Td ( == 3778424) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 126.50 639.05 Td (  ) Tj ET Q
+q 0.000 g BT 132.06 639.05 Td (   ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 73.70 595.33 Td (35 ... insérer un certain nombre de fois un caractère dans une) Tj ET Q
+q 0.000 g BT 73.70 581.15 Td (chaine de caractères ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 568.18 Td (  ) Tj ET Q
+q 0.000 g BT 73.70 554.01 Td ( ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 76.48 554.01 Td (par Pablo) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 539.83 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 525.66 Td (En utilisant la fonction 'insert qui dispose du ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 270.15 525.66 Td (refinement) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 317.39 525.66 Td ( /dup \() Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 345.74 525.66 Td (duplicate) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 385.76 525.66 Td (\). Cette fonctionnalité est utile) Tj ET Q
+q 0.000 g BT 73.70 511.49 Td (pour, par exemple, insérer un certain nombre de blancs en tête de chaine :) Tj ET Q
+q 0.000 g BT 73.70 497.32 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 76.48 497.92 Td (>> ma-chaine: "unmot") Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 483.74 Td ( == "unmot") Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 469.57 Td ( >> insert/dup ma-chaine " " 10) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 455.40 Td ( == "unmot") Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 441.22 Td ( >> head ma-chaine) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 427.05 Td ( == "          unmot") Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 174.50 426.45 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 412.28 Td (La même technique est utilisée afin d'ajouter en fin de chaine :) Tj ET Q
+q 0.000 g BT 73.70 398.10 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 76.48 398.70 Td (>> ma-chaine: "unmot") Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 384.53 Td ( == "unmot") Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 370.36 Td ( >> insert/dup tail ma-chaine "t" 5) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 356.18 Td ( == "">> head ma-chaine) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 342.01 Td ( == "unmotttttt") Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 150.50 341.41 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 327.24 Td (Remarquez que cette technique fonctionne avec tous les datatypes series!, donc également les) Tj ET Q
+q 0.000 g BT 73.70 313.06 Td (block!) Tj ET Q
+q 0.000 g BT 73.70 298.89 Td (  ) Tj ET Q
+q 0.000 g BT 79.26 298.89 Td (   ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 73.70 255.17 Td (36 ... tester l'emploi de ) Tj ET Q
+BT /F7 14.00 Tf ET
+q 0.000 g BT 227.21 255.17 Td (refinements) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 306.56 255.17 Td ( mutuellement exclusifs ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 242.20 Td (  ) Tj ET Q
+q 0.000 g BT 73.70 228.02 Td ( ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 76.48 228.02 Td (par Yos) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 213.85 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 199.68 Td (Nous pouvons jouer sur les propriétés de la fonction 'switch :) Tj ET Q
+q 0.000 g BT 73.70 185.50 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 76.48 186.10 Td (ma-fonction: func [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 171.93 Td (     /ref1 /ref2 /ref3) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 157.76 Td ( ][) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 143.58 Td (     print switch/default true reduce [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 129.41 Td (         ref1 ["ref1"]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 115.24 Td (         ref2 ["ref2"]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 101.06 Td (         ref3 ["ref3"]) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 501.28 45.79 Td (Page 15/16) Tj ET Q
+
+endstream
+endobj
+33 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 34 0 R>>
+endobj
+34 0 obj
+<</Length 2763>>
+stream
+2 J
+0.85 w
+BT /F2 8.00 Tf ET
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (Comment faire pour ...) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.70 795.55 Td (     ]["pas de refinement"]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 781.38 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 83.30 780.78 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 766.61 Td (Ce qui nous donne :) Tj ET Q
+q 0.000 g BT 73.70 752.43 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 76.48 753.03 Td (>> ma-fonction) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 738.86 Td ( pas de refinement) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 724.69 Td ( >> ma-fonction/ref1) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 710.51 Td ( ref1) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 696.34 Td ( >> ma-fonction/ref2) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 682.17 Td ( ref2) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 667.99 Td ( >> ma-fonction/ref3) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 653.82 Td ( ref3) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 97.70 653.22 Td (  ) Tj ET Q
+q 0.000 g BT 103.26 653.22 Td (   ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 73.70 609.50 Td (37 ... créer dynamiquement un ) Tj ET Q
+BT /F7 14.00 Tf ET
+q 0.000 g BT 279.11 609.50 Td (refinement) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 350.68 609.50 Td ( d'une fonction à partir) Tj ET Q
+q 0.000 g BT 73.70 595.33 Td (d'une variable ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 582.35 Td (  ) Tj ET Q
+q 0.000 g BT 73.70 568.18 Td ( ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 76.48 568.18 Td (par Marco) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 554.01 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 539.83 Td (Comme en REBOL il est possible de générer du code à la volée, la solution est relativement simple :) Tj ET Q
+q 0.000 g BT 73.70 525.66 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 76.48 526.26 Td (>> ma-fonction: func [arg /ref1][if ref1 [print "ref1"] 1 + arg]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 512.09 Td ( >> ma-fonction/ref1 5) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 497.92 Td ( ref1) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 483.74 Td ( == 6) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 469.57 Td ( >> mon-refinement: 'ref1) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 455.40 Td ( == ref1) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 441.22 Td ( >> do compose [\(join to-path 'ma-fonction mon-refinement\) 10]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 427.05 Td ( ref1) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 412.88 Td ( == 11) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 102.50 412.28 Td (  ) Tj ET Q
+BT /F6 8.00 Tf ET
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 501.28 45.79 Td (Page 16/16) Tj ET Q
+
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R 27 0 R 29 0 R 31 0 R 33 0 R ]
+/Count 16
+/MediaBox [0 0 595.28 841.89]
+>>
+endobj
+35 0 obj
+<</Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+36 0 obj
+<</Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+37 0 obj
+<</Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+38 0 obj
+<</Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+39 0 obj
+<</Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+40 0 obj
+<</Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+41 0 obj
+<</Type /Font
+/BaseFont /Helvetica-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 35 0 R
+/F2 36 0 R
+/F3 37 0 R
+/F4 38 0 R
+/F5 39 0 R
+/F6 40 0 R
+/F7 41 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+42 0 obj
+<<
+/Producer (FPDF 1.53)
+/Title (Comment faire pour ...)
+/Subject (HOWTOs)
+/Author (REBOLtof)
+/Keywords (DOCUMENTATION)
+/Creator (The REBOL Documentation Project)
+/CreationDate (D:20061104003832)
+>>
+endobj
+43 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 44
+0000000000 65535 f 
+0000085917 00000 n 
+0000086812 00000 n 
+0000000009 00000 n 
+0000000222 00000 n 
+0000001914 00000 n 
+0000006031 00000 n 
+0000015106 00000 n 
+0000016187 00000 n 
+0000022151 00000 n 
+0000022365 00000 n 
+0000027254 00000 n 
+0000027469 00000 n 
+0000032350 00000 n 
+0000032565 00000 n 
+0000036874 00000 n 
+0000037089 00000 n 
+0000041350 00000 n 
+0000041565 00000 n 
+0000045820 00000 n 
+0000046035 00000 n 
+0000050201 00000 n 
+0000050416 00000 n 
+0000055447 00000 n 
+0000055662 00000 n 
+0000060611 00000 n 
+0000060826 00000 n 
+0000066394 00000 n 
+0000066609 00000 n 
+0000071141 00000 n 
+0000072273 00000 n 
+0000077832 00000 n 
+0000078047 00000 n 
+0000082888 00000 n 
+0000083103 00000 n 
+0000086107 00000 n 
+0000086204 00000 n 
+0000086299 00000 n 
+0000086397 00000 n 
+0000086496 00000 n 
+0000086598 00000 n 
+0000086703 00000 n 
+0000086983 00000 n 
+0000087198 00000 n 
+trailer
+<<
+/Size 44
+/Root 43 0 R
+/Info 42 0 R
+>>
+startxref
+87302
+%%EOF

@@ -1,0 +1,253 @@
+%PDF-1.3
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 4 0 R>>
+endobj
+4 0 obj
+<</Length 1696>>
+stream
+2 J
+0.57 w
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (Les fonctions ordinales des séries se comportent à présent comme PICK) Tj ET Q
+0.57 w
+BT /F2 26.00 Tf ET
+q 0.502 g BT 118.24 656.92 Td (The REBOL Documentation) Tj ET Q
+q 0.502 g BT 243.04 631.41 Td (Project) Tj ET Q
+BT /F1 8.00 Tf ET
+q 0.502 g BT 224.74 616.97 Td (-- FR - Documentation REBOL - Divers --) Tj ET Q
+0.85 w
+BT /F2 20.00 Tf ET
+q 0.502 g BT 73.70 423.45 Td (Divers) Tj ET Q
+BT /F3 22.00 Tf ET
+297.64 436.54 m 297.64 413.86 l S q 0.000 g BT 300.47 418.60 Td (Les fonctions ordinales) Tj ET Q
+297.64 413.86 m 297.64 391.18 l S q 0.000 g BT 300.47 395.92 Td (des séries se) Tj ET Q
+297.64 391.18 m 297.64 368.50 l S q 0.000 g BT 300.47 373.24 Td (comportent à présent) Tj ET Q
+297.64 368.50 m 297.64 345.83 l S q 0.000 g BT 300.47 350.57 Td (comme PICK) Tj ET Q
+297.64 345.83 m 297.64 323.15 l S 
+BT /F4 16.00 Tf ET
+297.64 323.15 m 297.64 306.14 l S q 0.000 g BT 409.15 309.85 Td (Philippe Le Goff ) Tj ET Q
+BT /F4 12.00 Tf ET
+297.64 306.14 m 297.64 289.13 l S q 0.000 g BT 308.59 294.04 Td (Première publication : 4 mai 2006, et mis en) Tj ET Q
+297.64 289.13 m 297.64 272.13 l S q 0.000 g BT 398.91 277.03 Td (ligne le  jeudi 4 mai 2006) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 73.70 253.54 Td (Résumé :) Tj ET 73.70 252.54 45.01 -0.50 re f Q
+BT /F4 8.00 Tf ET
+q 0.000 g BT 73.70 239.96 Td (La traduction du blog 8 de Rebol 3.0, sur la modification apportée aux fonctions ordinales \(first,second,..\)) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 1/2) Tj ET Q
+
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 6 0 R>>
+endobj
+6 0 obj
+<</Length 4968>>
+stream
+2 J
+0.85 w
+BT /F4 8.00 Tf ET
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (Les fonctions ordinales des séries se comportent à présent comme PICK) Tj ET Q
+BT /F4 8.00 Tf ET
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 780.78 Td ( ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 76.48 780.78 Td (Carl Sassenrath, CTO REBOL Technologies 9-Apr-2006 21:59 GMT Article #0008) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 766.61 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 752.43 Td (Les fonctions ordinales \(first, second, etc.\) ont été à l'origine conçues pour être assez strictes -) Tj ET Q
+q 0.000 g BT 73.70 738.26 Td (principalement pour les débutants.) Tj ET Q
+q 0.000 g BT 73.70 724.09 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 709.91 Td (Par exemple :) Tj ET Q
+q 0.000 g BT 73.70 695.74 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.70 682.17 Td (         print first tail "abc") Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 667.99 Td (         ** Script Error: Out of range or past end) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 653.22 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 639.05 Td (provoque une erreur. Cependant, la fonction ) Tj ET Q
+q 0.000 g BT 272.70 639.05 Td (pick) Tj ET Q
+q 0.000 g BT 290.48 639.05 Td ( n'en provoque pas :) Tj ET Q
+q 0.000 g BT 73.70 624.87 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.70 611.30 Td (         print pick tail "abc" 1) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 597.13 Td (         none) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 582.35 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 568.18 Td (Je pensais que cette différence était Ok, car les experts n'utilisent pas ) Tj ET Q
+q 0.000 g BT 385.76 568.18 Td (first) Tj ET Q
+q 0.000 g BT 401.87 568.18 Td (.  Cependant, je ne crois) Tj ET Q
+q 0.000 g BT 73.70 554.01 Td (plus cela. Les fonctions ordinales sont des fonctions très efficaces  et je tends moi-même à les) Tj ET Q
+q 0.000 g BT 73.70 539.83 Td (utiliser comme des "sélecteurs" rapides dans des bouts de code comme celui-ci :) Tj ET Q
+q 0.000 g BT 73.70 525.66 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.70 512.09 Td (         the-name: :first) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 497.92 Td (         the-email: :second) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 483.74 Td (         the-message: :third) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 469.57 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 73.70 455.40 Td (         send the-email data the-message data) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 440.62 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 426.45 Td (Pour du code "haute performance", cette méthode est aussi rapide qu'il est possible.) Tj ET Q
+q 0.000 g BT 73.70 412.28 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 398.10 Td (Lorsque elle est utilisée dans des grandes boucles, elle est plus efficace en rapidité que de) Tj ET Q
+q 0.000 g BT 73.70 383.93 Td (sélectionner les champs d'objets \( qui nécessitent à la fois une interprétation des paths et le binding) Tj ET Q
+q 0.000 g BT 73.70 369.76 Td (durant l'exécution\).  En fait, j'utilise si souvent cette méthode, que j'avais implémentée une fonction ) Tj ET Q
+q 0.000 g BT 73.70 355.58 Td (ordain) Tj ET Q
+q 0.000 g BT 101.49 355.58 Td ( pour définir dans mon code les relations ordinales précédentes.) Tj ET Q
+q 0.000 g BT 73.70 341.41 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 327.24 Td (Il y a seulement un problème. L'erreur "past end" n'est pas souhaitée.) Tj ET Q
+q 0.000 g BT 73.70 313.06 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 298.89 Td (En REBOL 3.0, les changement dans l'implémentation des fonctions ordinales \(depuis les fonctions ) Tj ET Q
+q 0.000 g BT 73.70 284.72 Td (d'action spécifiques aux datatypes jusqu'aux natives génériques\) rend leur comportement similaire  à) Tj ET Q
+q 0.000 g BT 73.70 270.54 Td (pick) Tj ET Q
+q 0.000 g BT 91.48 270.54 Td (, par défaut. L'erreur ") Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 188.10 270.54 Td (past end) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 226.46 270.54 Td (" est maintenant supprimée.) Tj ET Q
+q 0.000 g BT 73.70 256.37 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 242.20 Td (Cela semble préférable, et la modification devrait conserver la compatibilité, car le cas ") Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 460.72 242.20 Td (past end) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 499.08 242.20 Td (") Tj ET Q
+q 0.000 g BT 73.70 228.02 Td (rconduisait à une erreur \(une exception\) dans les versions précédentes, de sorte qu'il n'était pas) Tj ET Q
+q 0.000 g BT 73.70 213.85 Td (utilisé dans le code existant.) Tj ET Q
+q 0.000 g BT 73.70 199.68 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 185.50 Td (Notez que ceci nécessitera certaines mises à jour mineures dans la documentation.) Tj ET Q
+q 0.000 g BT 73.70 171.33 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 157.16 Td (\(Traduction : Philippe Le Goff\)) Tj ET Q
+BT /F6 8.00 Tf ET
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 2/2) Tj ET Q
+
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R ]
+/Count 2
+/MediaBox [0 0 595.28 841.89]
+>>
+endobj
+7 0 obj
+<</Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+8 0 obj
+<</Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+9 0 obj
+<</Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+10 0 obj
+<</Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+11 0 obj
+<</Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+12 0 obj
+<</Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+/F6 12 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+13 0 obj
+<<
+/Producer (FPDF 1.53)
+/Title (Les fonctions ordinales des séries se comportent à présent comme PICK)
+/Subject (Divers)
+/Author (Philippe Le Goff )
+/Keywords (DOCUMENTATION)
+/Creator (The REBOL Documentation Project)
+/CreationDate (D:20060520224155)
+>>
+endobj
+14 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 15
+0000000000 65535 f 
+0000007199 00000 n 
+0000007885 00000 n 
+0000000009 00000 n 
+0000000222 00000 n 
+0000001968 00000 n 
+0000002181 00000 n 
+0000007292 00000 n 
+0000007388 00000 n 
+0000007482 00000 n 
+0000007579 00000 n 
+0000007678 00000 n 
+0000007780 00000 n 
+0000008042 00000 n 
+0000008313 00000 n 
+trailer
+<<
+/Size 15
+/Root 14 0 R
+/Info 13 0 R
+>>
+startxref
+8417
+%%EOF

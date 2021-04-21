@@ -1,0 +1,667 @@
+%PDF-1.3
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 4 0 R>>
+endobj
+4 0 obj
+<</Length 1008>>
+stream
+2 J
+0.57 w
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (Utiliser le CVS) Tj ET Q
+0.57 w
+BT /F2 26.00 Tf ET
+q 0.502 g BT 118.24 656.92 Td (The REBOL Documentation) Tj ET Q
+q 0.502 g BT 243.04 631.41 Td (Project) Tj ET Q
+BT /F1 8.00 Tf ET
+q 0.502 g BT 246.74 616.97 Td (-- FR - Auteur / Traducteur --) Tj ET Q
+0.85 w
+BT /F2 20.00 Tf ET
+q 0.502 g BT 73.70 423.45 Td (Auteur /) Tj ET Q
+q 0.502 g BT 73.70 397.94 Td (Traducteur) Tj ET Q
+BT /F3 22.00 Tf ET
+297.64 411.02 m 297.64 388.35 l S q 0.000 g BT 300.47 393.09 Td (Utiliser le CVS) Tj ET Q
+297.64 388.35 m 297.64 365.67 l S 
+BT /F4 16.00 Tf ET
+297.64 365.67 m 297.64 348.66 l S q 0.000 g BT 451.35 352.37 Td (REBOLtof) Tj ET Q
+BT /F4 12.00 Tf ET
+297.64 348.66 m 297.64 331.65 l S q 0.000 g BT 432.25 336.56 Td ( jeudi 3 mars 2005) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F5 8.00 Tf ET
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 1/5) Tj ET Q
+
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [125.02 485.47 145.58 475.47] /Border [0 0 0] /A <</S /URI /URI (http://fr.wikipedia.org/wiki/CVS)>>>><</Type /Annot /Subtype /Link /Rect [245.39 400.43 265.95 390.43] /Border [0 0 0] /A <</S /URI /URI (http://fr.wikipedia.org/wiki/CVS)>>>><</Type /Annot /Subtype /Link /Rect [487.16 287.05 507.72 277.05] /Border [0 0 0] /A <</S /URI /URI (http://fr.wikipedia.org/wiki/CVS)>>>><</Type /Annot /Subtype /Link /Rect [230.39 230.35 250.95 220.35] /Border [0 0 0] /A <</S /URI /URI (http://fr.wikipedia.org/wiki/CVS)>>>><</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 6 0 R>>
+endobj
+6 0 obj
+<</Length 8363>>
+stream
+2 J
+0.85 w
+BT /F4 12.00 Tf ET
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (Utiliser le CVS) Tj ET Q
+BT /F4 12.00 Tf ET
+BT /F6 10.00 Tf ET
+q 0.000 g BT 73.70 780.78 Td (Ce document s'adresse à toute personne désirant contribuer à l'effort de documentation du) Tj ET Q
+q 0.000 g BT 73.70 766.61 Td (REBOL Documentation Project, et souhaitant :) Tj ET Q
+q 0.000 g BT 79.04 738.26 Td (•) Tj ET Q
+q 0.000 g BT 93.54 738.26 Td ( produire une nouvelle documentation ou) Tj ET Q
+q 0.000 g BT 79.04 724.09 Td (•) Tj ET Q
+q 0.000 g BT 93.54 724.09 Td ( participer à la rédaction ou correction d'une documentation existante ou en cours de) Tj ET Q
+q 0.000 g BT 93.54 709.91 Td (conception) Tj ET Q
+BT /F1 10.00 Tf ET
+BT /F6 14.00 Tf ET
+q 0.000 g BT 73.70 618.00 Td (Historique) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 605.03 Td ( ) Tj ET Q
+q 0.000 g BT 76.48 605.03 Td ( ) Tj ET Q
+q 0.000 g BT 79.26 605.03 Td ( 					) Tj ET Q
+q 0.000 g BT 95.94 605.03 Td ( ) Tj ET Q
+q 0.000 g BT 98.72 605.03 Td ( ) Tj ET Q
+q 0.000 g BT 101.50 605.03 Td ( ) Tj ET Q
+q 0.000 g BT 104.28 605.03 Td ( ) Tj ET Q
+q 0.000 g BT 107.06 605.03 Td ( ) Tj ET Q
+q 0.000 g BT 109.84 605.03 Td ( ) Tj ET Q
+BT /F1 9.00 Tf ET
+BT /F6 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F6 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F6 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F6 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F6 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F6 9.00 Tf ET
+1.000 1.000 0.000 rg
+77.93 615.12 50.01 -14.17 re B q 0.000 g BT 80.76 605.33 Td ( Date ) Tj ET Q
+BT /F1 9.00 Tf ET
+1.000 g
+BT /F6 9.00 Tf ET
+1.000 1.000 0.000 rg
+127.94 615.12 46.52 -14.17 re B q 0.000 g BT 130.77 605.33 Td ( Version ) Tj ET Q
+BT /F1 9.00 Tf ET
+1.000 g
+BT /F6 9.00 Tf ET
+1.000 1.000 0.000 rg
+174.46 615.12 183.81 -14.17 re B q 0.000 g BT 177.29 605.33 Td ( Commentaires ) Tj ET Q
+BT /F1 9.00 Tf ET
+1.000 g
+BT /F6 9.00 Tf ET
+1.000 1.000 0.000 rg
+358.27 615.12 49.02 -14.17 re B q 0.000 g BT 361.11 605.33 Td ( Auteur ) Tj ET Q
+BT /F1 9.00 Tf ET
+1.000 g
+BT /F6 9.00 Tf ET
+1.000 1.000 0.000 rg
+407.29 615.12 110.06 -14.17 re B q 0.000 g BT 410.13 605.33 Td ( Email ) Tj ET Q
+BT /F1 9.00 Tf ET
+1.000 g
+0.902 0.902 0.902 rg
+77.93 600.95 50.01 -14.17 re B q 0.000 g BT 80.76 591.16 Td (17-feb-05) Tj ET Q
+127.94 600.95 46.52 -14.17 re B q 0.000 g BT 130.77 591.16 Td (0.1) Tj ET Q
+174.46 600.95 183.81 -14.17 re B q 0.000 g BT 177.29 591.16 Td (initial) Tj ET Q
+358.27 600.95 49.02 -14.17 re B q 0.000 g BT 361.11 591.16 Td (REBOLtof) Tj ET Q
+407.29 600.95 110.06 -14.17 re B q 0.000 g BT 410.13 591.16 Td (reboltof at yahoo dot com) Tj ET Q
+77.93 586.77 50.01 -14.17 re S q 0.000 g BT 80.76 576.99 Td (19-feb-05) Tj ET Q
+127.94 586.77 46.52 -14.17 re S q 0.000 g BT 130.77 576.99 Td (0.2) Tj ET Q
+174.46 586.77 183.81 -14.17 re S q 0.000 g BT 177.29 576.99 Td (Correction de quelques fautes / ajout d'infos) Tj ET Q
+358.27 586.77 49.02 -14.17 re S q 0.000 g BT 361.11 576.99 Td (REBOLtof) Tj ET Q
+407.29 586.77 110.06 -14.17 re S q 0.000 g BT 410.13 576.99 Td (reboltof at yahoo dot com) Tj ET Q
+0.902 0.902 0.902 rg
+77.93 572.60 50.01 -14.17 re B q 0.000 g BT 80.76 562.81 Td (03-mar-05) Tj ET Q
+127.94 572.60 46.52 -14.17 re B q 0.000 g BT 130.77 562.81 Td (0.3) Tj ET Q
+174.46 572.60 183.81 -14.17 re B q 0.000 g BT 177.29 562.81 Td (Quelques typos / conversion vers SPIP) Tj ET Q
+358.27 572.60 49.02 -14.17 re B q 0.000 g BT 361.11 562.81 Td (REBOLtof) Tj ET Q
+407.29 572.60 110.06 -14.17 re B q 0.000 g BT 410.13 562.81 Td (reboltof at yahoo dot com) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 548.34 Td ( ) Tj ET Q
+BT /F6 14.00 Tf ET
+q 0.000 g BT 70.87 504.62 Td (C'est quoi, CVS ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 491.65 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 477.47 Td (L'acronyme ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 0.000 1.000 rg BT 125.02 477.47 Td (CVS) Tj ET 125.02 476.47 20.56 -0.50 re f Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 145.58 477.47 Td ( signifie : ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 187.82 477.47 Td (Concurrent Versioning System) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 323.42 477.47 Td (.) Tj ET Q
+q 0.000 g BT 70.87 463.30 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 449.13 Td (Il s'agit de se que l'on appelle un système de contrôle de révision. Ce type d'application permet à un) Tj ET Q
+q 0.000 g BT 70.87 434.95 Td (groupe de personnes de se partager l'accès à des documents \(documentation, code, binaires, ...\) et) Tj ET Q
+q 0.000 g BT 70.87 420.78 Td (d'éditer simultanement celui-ci.) Tj ET Q
+q 0.000 g BT 70.87 406.61 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 392.43 Td (Plusieurs méthodes existent pour cela. ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 0.000 1.000 rg BT 245.39 392.43 Td (CVS) Tj ET 245.39 391.43 20.56 -0.50 re f Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 265.95 392.43 Td ( fonctionne lui avec un système de verrouillage) Tj ET Q
+q 0.000 g BT 70.87 378.26 Td (non-exclusif. Cela signifie que ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 206.48 378.26 Td (Mr. Alphonse) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 265.39 378.26 Td ( et ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 279.29 378.26 Td (Mr. Bernard) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 332.08 378.26 Td ( peuvent au même moment travailler sur) Tj ET Q
+q 0.000 g BT 70.87 364.09 Td (un même document ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 162.02 364.09 Td (frais.txt) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 194.25 364.09 Td ( .) Tj ET Q
+q 0.000 g BT 70.87 349.91 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 335.74 Td (Quand ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 103.67 335.74 Td (Mr. Alphonse) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 162.58 335.74 Td ( aura terminé son travail, il va rendre ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 327.64 335.74 Td (frais.txt) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 359.87 335.74 Td ( au système. Quand ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 452.14 335.74 Td (Mr. Bernard) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 321.57 Td (aura lui aussi terminé, il va également rendre sa version au système. ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 378.21 321.57 Td (frais.txt) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 410.44 321.57 Td ( sera automatiquement) Tj ET Q
+q 0.000 g BT 70.87 307.39 Td (stocké dans ce que l'on nomme la ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 224.52 307.39 Td (repository) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 268.42 307.39 Td (.) Tj ET Q
+q 0.000 g BT 70.87 293.22 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 279.05 Td (Si ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 82.54 279.05 Td (Mr. Alphonse) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 141.45 279.05 Td ( et ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 155.35 279.05 Td (Mr. Bernard) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 208.14 279.05 Td ( avaient travaillés sur des zones différentes dans le document, ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 0.000 1.000 rg BT 487.16 279.05 Td (CVS) Tj ET 487.16 278.05 20.56 -0.50 re f Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 507.72 279.05 Td ( va) Tj ET Q
+q 0.000 g BT 70.87 264.87 Td (se charger de "fondre" les deux versions en une seule.) Tj ET Q
+q 0.000 g BT 70.87 250.70 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 236.53 Td (Par contre, si les changements apportés par nos deux collègues traitaient d'une même zone \(même) Tj ET Q
+q 0.000 g BT 70.87 222.35 Td (ligne de code, même phrase, etc...\) ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 0.000 1.000 rg BT 230.39 222.35 Td (CVS) Tj ET 230.39 221.35 20.56 -0.50 re f Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 250.95 222.35 Td ( va repèrer le "conflit", le marquer dans le document au) Tj ET Q
+q 0.000 g BT 70.87 208.18 Td (moyen de "marqueurs" spécifiques et demander au dernier à avoir posté sa version de résoudre le) Tj ET Q
+q 0.000 g BT 70.87 194.01 Td (conflit en ouvrant le document et en choisissant ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 284.31 194.01 Td (manuellement) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 347.11 194.01 Td ( la version à garder.) Tj ET Q
+q 0.000 g BT 70.87 179.83 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 165.66 Td (Après quoi, le processus de publication peut continuer...) Tj ET Q
+q 0.000 g BT 70.87 151.49 Td (  ) Tj ET Q
+BT /F6 14.00 Tf ET
+q 0.000 g BT 70.87 107.77 Td (CVS et SourceForge) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 94.80 Td (  ) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F5 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 2/5) Tj ET Q
+
+endstream
+endobj
+7 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [499.38 717.91 519.94 707.91] /Border [0 0 0] /A <</S /URI /URI (http://fr.wikipedia.org/wiki/CVS)>>>><</Type /Annot /Subtype /Link /Rect [282.08 363.58 338.76 353.58] /Border [0 0 0] /A <</S /URI /URI (http://www.tortoisecvs.org)>>>><</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 8 0 R>>
+endobj
+8 0 obj
+<</Length 6128>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (Utiliser le CVS) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td (SourceForge, société qui héberge gracieusement le projet, met un serveur CVS à disposition des) Tj ET Q
+q 0.000 g BT 70.87 780.78 Td (développeurs.) Tj ET Q
+q 0.000 g BT 70.87 766.61 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 752.43 Td (Cependant, afin d'offrir les indispensables garanties de sécurité, les gestionnaires de SourceForge) Tj ET Q
+q 0.000 g BT 70.87 738.26 Td (imposent l'utilisation de communications sécurisées entre les clients et leurs serveurs.) Tj ET Q
+q 0.000 g BT 70.87 724.09 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 709.91 Td (Le problème est facilement résolu sous Linux, où la grosse majorité des distributions fournissent ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 0.000 1.000 rg BT 499.38 709.91 Td (CVS) Tj ET 499.38 708.91 20.56 -0.50 re f Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 695.74 Td (en standard. Cependant, sous Windows, nous devrons télécharger et installer un programme) Tj ET Q
+q 0.000 g BT 70.87 681.57 Td (particulier : un client CVS, ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 188.69 681.57 Td (TortoiseCVS) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 245.37 681.57 Td (.) Tj ET Q
+q 0.000 g BT 70.87 667.39 Td (  ) Tj ET Q
+BT /F6 14.00 Tf ET
+q 0.000 g BT 70.87 623.67 Td (Accès depuis Windows) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 610.70 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 596.53 Td (TortoiseCVS : kesako ?) Tj ET Q
+q 0.000 g BT 70.87 582.35 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 568.18 Td (TortoiseCVS) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 127.55 568.18 Td ( est un client CVS qui fonctionne sur une platteforme Windows.) Tj ET Q
+q 0.000 g BT 70.87 554.01 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 539.83 Td (Le grand avantage de ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 170.94 539.83 Td (TortoiseCVS) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 227.62 539.83 Td ( est sa parfaite intégration avec le ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 379.92 539.83 Td (Windows Explorer) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 460.49 539.83 Td ( \(qui est le) Tj ET Q
+q 0.000 g BT 70.87 525.66 Td (gestionnaire de fichier sous Windows. A ne pas confondre avec le butineur ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 404.36 525.66 Td (Internet Explorer) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 478.28 525.66 Td (\). Comme) Tj ET Q
+q 0.000 g BT 70.87 511.49 Td (la plupart des utilisateurs connaissent l'interface du ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 299.55 511.49 Td (Windows Explorer) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 380.12 511.49 Td (, le temps nécessaire à son) Tj ET Q
+q 0.000 g BT 70.87 497.32 Td (apprentissage reste très court.) Tj ET Q
+q 0.000 g BT 70.87 483.14 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 468.97 Td (Comme ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 108.65 468.97 Td (TortoiseCVS) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 165.33 468.97 Td ( a été conçu avec une grande priorité accordée à sa simplicité d'emploi, la) Tj ET Q
+q 0.000 g BT 70.87 454.80 Td (plupart des opérations courantes de CVS \(qui ne sont parfois pas des plus évidentes\) s'effectuent) Tj ET Q
+q 0.000 g BT 70.87 440.62 Td (sans douleur...) Tj ET Q
+q 0.000 g BT 70.87 426.45 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 412.28 Td (Où trouver TortoiseCVS ?) Tj ET Q
+q 0.000 g BT 70.87 398.10 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 383.93 Td (La dernière version stable existant au moment de la dernière mise-à-jour de ce document est : 1.8.11) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 518.85 383.93 Td (.) Tj ET Q
+q 0.000 g BT 70.87 369.76 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 355.58 Td (Le software est disponible sur le site du projet : ) Tj ET Q
+q 0.000 0.000 1.000 rg BT 282.08 355.58 Td (TortoiseCVS) Tj ET 282.08 354.58 56.68 -0.50 re f Q
+q 0.000 g BT 338.76 355.58 Td (.) Tj ET Q
+q 0.000 g BT 70.87 341.41 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 327.24 Td (Comment installer TortoiseCVS ?) Tj ET Q
+q 0.000 g BT 70.87 313.06 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 298.89 Td (Afin de facilement installer ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 190.36 298.89 Td (TortoiseCVS) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 247.04 298.89 Td (, vous pouvez lire les instructions suivantes et ensuite, les) Tj ET Q
+q 0.000 g BT 70.87 284.72 Td (exécuter.) Tj ET Q
+q 0.000 g BT 79.04 256.37 Td (•) Tj ET Q
+q 0.000 g BT 90.71 256.37 Td ( Téléchargez la dernière version stable du produit \(voir ci-dessus\).) Tj ET Q
+q 0.000 g BT 79.04 242.20 Td (•) Tj ET Q
+q 0.000 g BT 90.71 242.20 Td ( Lancez l'exécutable d'installation.) Tj ET Q
+q 0.000 g BT 79.04 228.02 Td (•) Tj ET Q
+q 0.000 g BT 90.71 228.02 Td ( Sélectionnez le language d'installation \(Français\) et cliquez sur le bouton [OK].) Tj ET Q
+q 0.000 g BT 79.04 213.85 Td (•) Tj ET Q
+q 0.000 g BT 90.71 213.85 Td ( Fermez toutes les application qui ne sont pas nécessaires et cliquez sur le bouton [Suivant].) Tj ET Q
+q 0.000 g BT 79.04 199.68 Td (•) Tj ET Q
+q 0.000 g BT 90.71 199.68 Td ( Sélectionnez le path d'installation pour l'application. La proposition de path par défaut sera) Tj ET Q
+q 0.000 g BT 90.71 185.50 Td (correcte pour la plupart des utilisateurs. Appuyez ensuite sur le bouton [Suivant].) Tj ET Q
+q 0.000 g BT 79.04 171.33 Td (•) Tj ET Q
+q 0.000 g BT 90.71 171.33 Td ( Vérifiez que que "Installation complète" est bien sélectionnée. Cliquez sur le bouton [Suivant]. Le) Tj ET Q
+q 0.000 g BT 90.71 157.16 Td (programme s'installe...) Tj ET Q
+q 0.000 g BT 79.04 142.98 Td (•) Tj ET Q
+q 0.000 g BT 90.71 142.98 Td ( Sélectionnez "Oui, redémarrer mon ordinateur maintenant" et cliquez sur le bouton [Terminer].) Tj ET Q
+q 0.000 g BT 79.04 128.81 Td (•) Tj ET Q
+q 0.000 g BT 90.71 128.81 Td ( Après redémarrage, ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 185.19 128.81 Td (TortoiseCVS) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 241.87 128.81 Td ( est installé et opérationnel !) Tj ET Q
+BT /F6 14.00 Tf ET
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F5 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 3/5) Tj ET Q
+
+endstream
+endobj
+9 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [411.57 746.26 487.41 736.26] /Border [0 0 0] /A <</S /URI /URI (article.php3?id_article=8)>>>><</Type /Annot /Subtype /Link /Rect [70.87 732.09 159.25 722.09] /Border [0 0 0] /A <</S /URI /URI (article.php3?id_article=9)>>>><</Type /Annot /Subtype /Link /Rect [110.55 52.19 236.82 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 10 0 R>>
+endobj
+10 0 obj
+<</Length 6261>>
+stream
+2 J
+0.85 w
+BT /F6 14.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 70.87 819.05 Td (Utiliser le CVS) Tj ET Q
+BT /F6 14.00 Tf ET
+q 0.000 g BT 70.87 793.75 Td (Maintenant, comment transférer mes fichiers vers le CVS ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 780.78 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 766.61 Td (Vous devez être membre du projet ou administrateur avec des droits spécifiques afin de disposer d'un) Tj ET Q
+q 0.000 g BT 70.87 752.43 Td (accès en lecture/écriture sur la ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 209.81 752.43 Td (repository) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 253.71 752.43 Td ( du CVS. Vous pouvez disposer d'un accès en lecture-seule) Tj ET Q
+q 0.000 g BT 70.87 738.26 Td (via une autentification comme ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 205.93 738.26 Td (anonymous) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 257.62 738.26 Td (. Veuillez consulter les documents ) Tj ET Q
+q 0.000 0.000 1.000 rg BT 411.57 738.26 Td (Guide de l'auteur) Tj ET 411.57 737.26 75.84 -0.50 re f Q
+q 0.000 g BT 487.41 738.26 Td ( et ou ) Tj ET Q
+q 0.000 0.000 1.000 rg BT 70.87 724.09 Td (Guide du traducteur) Tj ET 70.87 723.09 88.38 -0.50 re f Q
+q 0.000 g BT 159.25 724.09 Td (.) Tj ET Q
+q 0.000 g BT 70.87 709.91 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 695.74 Td (Prèparation) Tj ET Q
+q 0.000 g BT 70.87 681.57 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 667.39 Td (Pour commencer, vous devez choisir ou créer un répertoire dans lequel vous placerez les fichiers que) Tj ET Q
+q 0.000 g BT 70.87 653.22 Td (vous souhaitez transferrer vers la ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 221.48 653.22 Td (repository) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 265.38 653.22 Td ( du CVS.) Tj ET Q
+q 0.000 g BT 70.87 639.05 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 624.87 Td (Une fois ce choix effectué, accomplissez les étapes suivantes :) Tj ET Q
+q 0.000 g BT 79.04 596.53 Td (•) Tj ET Q
+q 0.000 g BT 90.71 596.53 Td ( Ouvrez votre ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 153.51 596.53 Td (Windows Explorer) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 234.08 596.53 Td (.) Tj ET Q
+q 0.000 g BT 79.04 582.35 Td (•) Tj ET Q
+q 0.000 g BT 90.71 582.35 Td ( Cliquez à droite sur votre répertoire. Le menu contextuel s'ouvre. Vous remarquerez que deux) Tj ET Q
+q 0.000 g BT 90.71 568.18 Td (nouvelles options sont apparues : "CVS Emprunter" et "CVS".) Tj ET Q
+q 0.000 g BT 79.04 554.01 Td (•) Tj ET Q
+q 0.000 g BT 90.71 554.01 Td ( Cliquez sur "CVS", et ensuite "Créer un module". La fenêtre "TortoiseCVS - Créer un module) Tj ET Q
+q 0.000 g BT 90.71 539.83 Td (s'ouvre".) Tj ET Q
+q 0.000 g BT 79.04 525.66 Td (•) Tj ET Q
+q 0.000 g BT 90.71 525.66 Td ( Dans le champ "CVSROOT", introduisez : "/cvsroot/rebdocproj" \(attention à la casse ! SF) Tj ET Q
+q 0.000 g BT 90.71 511.49 Td (fonctionne sous UNIX\).) Tj ET Q
+q 0.000 g BT 79.04 497.32 Td (•) Tj ET Q
+q 0.000 g BT 90.71 497.32 Td ( Dans le champ "Protocole", choisissez "Terminal sécurisé \( :ext :\)".) Tj ET Q
+q 0.000 g BT 79.04 483.14 Td (•) Tj ET Q
+q 0.000 g BT 90.71 483.14 Td ( Dans le champ "Serveur", introduisez "cvs.sourceforge.net") Tj ET Q
+q 0.000 g BT 79.04 468.97 Td (•) Tj ET Q
+q 0.000 g BT 90.71 468.97 Td ( Contrôler que le champ "Dossier du référentiel" soit bien sur "/cvsroot/rebdocproj".) Tj ET Q
+q 0.000 g BT 79.04 454.80 Td (•) Tj ET Q
+q 0.000 g BT 90.71 454.80 Td ( Dans le champ "Nom d'utilisateur", introduisez le nom sous lequel vous vous êtes inscrits sur) Tj ET Q
+q 0.000 g BT 90.71 440.62 Td (SourceForge \(attention à la casse ! SF fonctionne sous UNIX\).) Tj ET Q
+q 0.000 g BT 79.04 426.45 Td (•) Tj ET Q
+q 0.000 g BT 90.71 426.45 Td ( Et enfin, dans "Module", introduisez "doc2cvs" \(attention à la casse ! etc...\)) Tj ET Q
+q 0.000 g BT 79.04 412.28 Td (•) Tj ET Q
+q 0.000 g BT 90.71 412.28 Td ( Le travail est terminé :-\)) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 383.93 Td (TortoiseCVS) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 127.55 383.93 Td ( va ensuite établir la communication avec le serveur CVS de SourceForge.) Tj ET Q
+q 0.000 g BT 70.87 369.76 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 355.58 Td (Un fenêtre va apparaitre, vous demandant d'introduire votre mot de passe. Introduisez-le.) Tj ET Q
+q 0.000 g BT 70.87 341.41 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 327.24 Td (En cliquant à droite sur votre répertoire de travail, vous pouvez constater que les menu de CVS s'est) Tj ET Q
+q 0.000 g BT 70.87 313.06 Td (considérablement étendu...) Tj ET Q
+q 0.000 g BT 70.87 298.89 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 284.72 Td (Transfert des fichiers) Tj ET Q
+q 0.000 g BT 79.04 256.37 Td (•) Tj ET Q
+q 0.000 g BT 90.71 256.37 Td ( Enregistrement de nouveaux fichiers) Tj ET Q
+q 0.000 g BT 70.87 228.02 Td (Pour les ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 110.33 228.02 Td (nouveaux) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 153.69 228.02 Td ( fichiers que vous désirez transmettre, accomplissez les étapes suivantes :) Tj ET Q
+q 0.000 g BT 98.88 199.68 Td (•) Tj ET Q
+q 0.000 g BT 110.55 199.68 Td ( Sélectionnez le ou les fichiers en question.) Tj ET Q
+q 0.000 g BT 98.88 185.50 Td (•) Tj ET Q
+q 0.000 g BT 110.55 185.50 Td ( Cliquez à droite sur le\(s\) fichier\(s\). Choisissez "CVS Ajouter...") Tj ET Q
+q 0.000 g BT 98.88 171.33 Td (•) Tj ET Q
+q 0.000 g BT 110.55 171.33 Td ( Une fenêtre "TortoiseCVS - Ajouter" s'ouvre. Vérifier le format du ou des fichiers et appuyez) Tj ET Q
+q 0.000 g BT 110.55 157.16 Td (ensuite sur [OK].) Tj ET Q
+q 0.000 g BT 98.88 142.98 Td (•) Tj ET Q
+q 0.000 g BT 110.55 142.98 Td ( Une console s'ouvre, vous présentant l'aperçu des opérations en cours. Vous devrez) Tj ET Q
+q 0.000 g BT 110.55 128.81 Td (éventuellement ré-introduire votre mot de passe à l'invite. Cliquez sur [OK].) Tj ET Q
+q 0.000 g BT 98.88 114.64 Td (•) Tj ET Q
+q 0.000 g BT 110.55 114.64 Td ( Le serveur CVS "connait" votre \(vos\) fichier\(s\). Vous devez maintenant le\(s\) transferrer.) Tj ET Q
+q 0.000 g BT 98.88 100.46 Td (•) Tj ET Q
+q 0.000 g BT 110.55 100.46 Td ( Cliquez à droite sur le\(s\) fichier\(s\). Choisissez "CVS Valider...") Tj ET Q
+0.85 w
+96.38 56.69 m 538.59 56.69 l S
+BT /F5 8.00 Tf ET
+q 0.000 g BT 110.55 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 4/5) Tj ET Q
+
+endstream
+endobj
+11 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 12 0 R>>
+endobj
+12 0 obj
+<</Length 4161>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+96.38 805.04 m 538.59 805.04 l S
+q 0.502 g BT 110.55 819.05 Td (Utiliser le CVS) Tj ET Q
+q 0.000 g BT 98.88 794.95 Td (•) Tj ET Q
+q 0.000 g BT 110.55 794.95 Td ( Une fenêtre "TortoiseCVS - Valider" s'ouvre. Introduisez un commentaire résumant les) Tj ET Q
+q 0.000 g BT 110.55 780.78 Td (modifications apportées au document \("chargement initial", "correction de fautes", "ajout du) Tj ET Q
+q 0.000 g BT 110.55 766.61 Td (chapitre : 'utiliser CVS'", etc...\). Ces commentaires faciliteront la gestion des versions. Restez) Tj ET Q
+q 0.000 g BT 110.55 752.43 Td (cependant clairs et concis dans vos épanchements lyriques ! Cliquez ensuite sur [OK].) Tj ET Q
+q 0.000 g BT 98.88 738.26 Td (•) Tj ET Q
+q 0.000 g BT 110.55 738.26 Td ( Une console s'ouvre, vous présentant l'aperçu des opérations en cours. Vous devrez) Tj ET Q
+q 0.000 g BT 110.55 724.09 Td (éventuellement ré-introduire votre mot de passe à l'invite. Cliquez sur [OK].) Tj ET Q
+q 0.000 g BT 79.04 681.57 Td (•) Tj ET Q
+q 0.000 g BT 90.71 681.57 Td ( Mise à jour d'un fichier ou d'un répertoire) Tj ET Q
+q 0.000 g BT 70.87 653.22 Td (Afin de mettre à jour vos fichiers locaux avec la dernière version existante sur le CVS, accomplissez) Tj ET Q
+q 0.000 g BT 70.87 639.05 Td (les étapes suivantes :) Tj ET Q
+q 0.000 g BT 98.88 610.70 Td (•) Tj ET Q
+q 0.000 g BT 110.55 610.70 Td ( Cliquez à droite sur votre répertoire de travail \(ou sur un fichier particulier de ce répertoire\).) Tj ET Q
+q 0.000 g BT 98.88 596.53 Td (•) Tj ET Q
+q 0.000 g BT 110.55 596.53 Td ( Choisissez "CVS Actualiser".) Tj ET Q
+q 0.000 g BT 98.88 582.35 Td (•) Tj ET Q
+q 0.000 g BT 110.55 582.35 Td ( Une console s'ouvre, vous présentant l'aperçu des opérations en cours. Vous devrez) Tj ET Q
+q 0.000 g BT 110.55 568.18 Td (éventuellement ré-introduire votre mot de passe à l'invite. Cliquez sur [OK].) Tj ET Q
+q 0.000 g BT 98.88 554.01 Td (•) Tj ET Q
+q 0.000 g BT 110.55 554.01 Td ( Votre répertoire \(ou fichier\) est mis à jour avec la dernière version.) Tj ET Q
+q 0.000 g BT 79.04 511.49 Td (•) Tj ET Q
+q 0.000 g BT 90.71 511.49 Td ( Enregistrement des changements effectués) Tj ET Q
+q 0.000 g BT 70.87 483.14 Td (Afin d'enregistrer sur le serveur CVS les changements effectués dans vos fichiers, accomplissez les) Tj ET Q
+q 0.000 g BT 70.87 468.97 Td (étapes suivantes :) Tj ET Q
+q 0.000 g BT 98.88 440.62 Td (•) Tj ET Q
+q 0.000 g BT 110.55 440.62 Td ( Cliquez à droite sur votre répertoire de travail \(ou sur un fichier particulier de ce répertoire\).) Tj ET Q
+q 0.000 g BT 98.88 426.45 Td (•) Tj ET Q
+q 0.000 g BT 110.55 426.45 Td ( Choisissez "CVS Valider...".) Tj ET Q
+q 0.000 g BT 98.88 412.28 Td (•) Tj ET Q
+q 0.000 g BT 110.55 412.28 Td ( Une fenêtre "TortoiseCVS - Valider" s'ouvre. Introduisez un commentaire résumant les) Tj ET Q
+q 0.000 g BT 110.55 398.10 Td (modifications apportées au document \("chargement initial", "correction de fautes", "ajout du) Tj ET Q
+q 0.000 g BT 110.55 383.93 Td (chapitre : 'utiliser CVS'", etc...\). Ces commentaires faciliteront la gestion des versions. Restez) Tj ET Q
+q 0.000 g BT 110.55 369.76 Td (cependant clairs et concis dans vos épanchements lyriques ! Cliquez ensuite sur [OK].) Tj ET Q
+q 0.000 g BT 98.88 355.58 Td (•) Tj ET Q
+q 0.000 g BT 110.55 355.58 Td ( Une console s'ouvre, vous présentant l'aperçu des opérations en cours. Vous devrez) Tj ET Q
+q 0.000 g BT 110.55 341.41 Td (éventuellement ré-introduire votre mot de passe à l'invite. Cliquez sur [OK].) Tj ET Q
+BT /F6 14.00 Tf ET
+q 0.000 g BT 70.87 269.34 Td (Accès depuis LINUX) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 256.37 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 242.20 Td (En cours de rédaction) Tj ET Q
+q 0.000 g BT 70.87 228.02 Td (  ) Tj ET Q
+BT /F6 14.00 Tf ET
+q 0.000 g BT 70.87 184.30 Td (Maintenant, comment transferer mes fichiers ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 171.33 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 157.16 Td (En cours de rédaction) Tj ET Q
+BT /F5 8.00 Tf ET
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 5/5) Tj ET Q
+
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R 7 0 R 9 0 R 11 0 R ]
+/Count 5
+/MediaBox [0 0 595.28 841.89]
+>>
+endobj
+13 0 obj
+<</Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+14 0 obj
+<</Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+15 0 obj
+<</Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+16 0 obj
+<</Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+17 0 obj
+<</Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+18 0 obj
+<</Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 13 0 R
+/F2 14 0 R
+/F3 15 0 R
+/F4 16 0 R
+/F5 17 0 R
+/F6 18 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+19 0 obj
+<<
+/Producer (FPDF 1.53)
+/Title (Utiliser le CVS)
+/Subject (Auteur / Traducteur)
+/Author (REBOLtof)
+/Keywords (AUTHOR)
+/Creator (The REBOL Documentation Project)
+/CreationDate (D:20051224213037)
+>>
+endobj
+20 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 21
+0000000000 65535 f 
+0000028334 00000 n 
+0000029042 00000 n 
+0000000009 00000 n 
+0000000222 00000 n 
+0000001280 00000 n 
+0000002045 00000 n 
+0000010458 00000 n 
+0000010941 00000 n 
+0000017119 00000 n 
+0000017595 00000 n 
+0000023907 00000 n 
+0000024122 00000 n 
+0000028446 00000 n 
+0000028543 00000 n 
+0000028638 00000 n 
+0000028736 00000 n 
+0000028835 00000 n 
+0000028940 00000 n 
+0000029202 00000 n 
+0000029416 00000 n 
+trailer
+<<
+/Size 21
+/Root 20 0 R
+/Info 19 0 R
+>>
+startxref
+29520
+%%EOF

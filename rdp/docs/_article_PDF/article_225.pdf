@@ -1,0 +1,282 @@
+%PDF-1.3
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 4 0 R>>
+endobj
+4 0 obj
+<</Length 1404>>
+stream
+2 J
+0.57 w
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (Le concept des Set-Functions) Tj ET Q
+0.57 w
+BT /F2 26.00 Tf ET
+q 0.502 g BT 118.24 656.92 Td (The REBOL Documentation) Tj ET Q
+q 0.502 g BT 243.04 631.41 Td (Project) Tj ET Q
+BT /F1 8.00 Tf ET
+q 0.502 g BT 224.74 616.97 Td (-- FR - Documentation REBOL - Divers --) Tj ET Q
+0.85 w
+BT /F2 20.00 Tf ET
+q 0.502 g BT 73.70 423.45 Td (Divers) Tj ET Q
+BT /F3 22.00 Tf ET
+297.64 436.54 m 297.64 413.86 l S q 0.000 g BT 300.47 418.60 Td (Le concept des) Tj ET Q
+297.64 413.86 m 297.64 391.18 l S q 0.000 g BT 300.47 395.92 Td (Set-Functions) Tj ET Q
+297.64 391.18 m 297.64 368.50 l S 
+BT /F4 16.00 Tf ET
+297.64 368.50 m 297.64 351.50 l S q 0.000 g BT 409.15 355.20 Td (Philippe Le Goff ) Tj ET Q
+BT /F4 12.00 Tf ET
+297.64 351.50 m 297.64 334.49 l S q 0.000 g BT 302.59 339.39 Td (Première publication : 27 mai 2006, et mis en) Tj ET Q
+297.64 334.49 m 297.64 317.48 l S q 0.000 g BT 382.92 322.38 Td (ligne le  samedi 27 mai 2006) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 73.70 253.54 Td (Résumé :) Tj ET 73.70 252.54 45.01 -0.50 re f Q
+BT /F4 8.00 Tf ET
+q 0.000 g BT 73.70 239.96 Td (Traduction de l'article 19 du blog REBOL 3.0.) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 1/3) Tj ET Q
+
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [272.13 576.18 402.17 566.18] /Border [0 0 0] /A <</S /URI /URI (http://research.sun.com/self/papers/self-power.html)>>>><</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 6 0 R>>
+endobj
+6 0 obj
+<</Length 5149>>
+stream
+2 J
+0.85 w
+BT /F4 8.00 Tf ET
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (Le concept des Set-Functions) Tj ET Q
+BT /F4 8.00 Tf ET
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 780.78 Td ( ) Tj ET Q
+q 0.000 g BT 76.48 780.78 Td (Le concept des Set-Functions) Tj ET Q
+q 0.000 g BT 73.70 766.61 Td ( ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 73.70 752.43 Td (Carl Sassenrath, CTO REBOL Technologies  2-May-2006 21:02 GMT  Article #0019) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 738.26 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 724.09 Td (Vous savez ce qu'est un set-word :) Tj ET Q
+q 0.000 g BT 73.70 709.91 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 695.74 Td ( 	word : 10 ) Tj ET Q
+q 0.000 g BT 73.70 681.57 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 667.39 Td (C'est la syntaxe utilisée par REBOL pour définir la valeur d'un mot.) Tj ET Q
+q 0.000 g BT 73.70 653.22 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 639.05 Td (Une set-function est une fonction qui est appelée lorsque cette action de définition se produit.) Tj ET Q
+q 0.000 g BT 486.15 639.05 Td (  Une) Tj ET Q
+q 0.000 g BT 73.70 624.87 Td (set-function dans l'exemple précédent aurait permis de contrôler le range, le datatype, de conserver) Tj ET Q
+q 0.000 g BT 73.70 610.70 Td (la trace d'autres détails.) Tj ET Q
+q 0.000 g BT 73.70 596.53 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 582.35 Td (Le concept d'une set-function n'est pas nouveau.) Tj ET Q
+q 0.000 g BT 290.43 582.35 Td ( En fait, c'est l'un des éléments essentiels de l'un) Tj ET Q
+q 0.000 g BT 73.70 568.18 Td (des aïeuls de REBOL :  le langage Self \(voir ) Tj ET Q
+q 0.000 0.000 1.000 rg BT 272.13 568.18 Td (Self : The Power of Simplicity) Tj ET 272.13 567.18 130.04 -0.50 re f Q
+q 0.000 g BT 402.17 568.18 Td (, l'un de mes livres) Tj ET Q
+q 0.000 g BT 73.70 554.01 Td (préférés.\)) Tj ET Q
+q 0.000 g BT 73.70 539.83 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 525.66 Td (Il y a longtemps, dans les premiers jours de création de Self, alors que j'étais chez Apple, je trainais ) Tj ET Q
+q 0.000 g BT 73.70 511.49 Td (avec David Ungar \(concepteur de Self, à Standford actuellement\) et je parlais de ce langage de) Tj ET Q
+q 0.000 g BT 73.70 497.32 Td (communication.  Je trouvais intéressant que David veuille retirer un état de Self en supprimant) Tj ET Q
+q 0.000 g BT 73.70 483.14 Td (l'affectation.  \(L'affectation est l'une des cause d'ennuis classique dans les langages purement) Tj ET Q
+q 0.000 g BT 73.70 468.97 Td (fonctionnels.\)  Il accomplissait toujours cela en utilisant des fonctions qui à la fois définissaient  et) Tj ET Q
+q 0.000 g BT 73.70 454.80 Td (récupéraient des valeurs au sein d'un contexte \(objet\).) Tj ET Q
+q 0.000 g BT 73.70 440.62 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 426.45 Td (L'idée me tentait toujours, mais je sentais que ce n'était pas exactement réalisable. L'état est  un) Tj ET Q
+q 0.000 g BT 73.70 412.28 Td (macro-composant par nature \(je n'ai pas dit "composant" ici, parce que je ne veux pas entrer dans) Tj ET Q
+q 0.000 g BT 73.70 398.10 Td (une  discussion sans fin\). La suppression de l'état est une recherche mathématique, mais ce n'est) Tj ET Q
+q 0.000 g BT 73.70 383.93 Td (pas nécessairement  pratique. Il y a de nombreux aspects utiles à un état. Un journal est très utile,) Tj ET Q
+q 0.000 g BT 73.70 369.76 Td (mais mathématiquement sans intérêt fonctionnel.) Tj ET Q
+q 0.000 g BT 73.70 355.58 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 341.41 Td (Lorsque vint le temps de reprendre cette approche dans REBOL \(il y plus de 10 ans\), j'ai décidé de) Tj ET Q
+q 0.000 g BT 73.70 327.24 Td (conserver cela  pratique. Cependant, en secret, j'ai toujours voulu conserver la méthode set-function,) Tj ET Q
+q 0.000 g BT 73.70 313.06 Td (car elle a beaucoup de valeur.  Une set-function peut précisément contrôler comment un mot est) Tj ET Q
+q 0.000 g BT 73.70 298.89 Td (défini et ce qu'il définit.) Tj ET Q
+q 0.000 g BT 73.70 284.72 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 270.54 Td (Je devrais mentionner, cependant, qu'il n'est pas facile d'ajouter les set-functions. Si c'était vraiment) Tj ET Q
+q 0.000 g BT 73.70 256.37 Td (facile,  nous les aurions ajoutées. Le problème réside dans le fait que les set-functions ajoute une) Tj ET Q
+q 0.000 g BT 73.70 242.20 Td (nouvelle branche  à l'arbre de la sémantique du langage REBOL.) Tj ET Q
+q 0.000 g BT 73.70 228.02 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 213.85 Td (Par exemple, comment sont définies les set-fonctions et comment sont-elles réflectives ?) Tj ET Q
+q 0.000 g BT 73.70 199.68 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 185.50 Td (Vous pouvez faire une sorte de set-function avec le code qui suit :) Tj ET Q
+q 0.000 g BT 73.70 171.33 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 157.16 Td (	obj : make object ! [ 		value : 0 ; internal 		set-value : func [new] [value : new] 	]) Tj ET Q
+q 0.000 g BT 73.70 142.98 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 128.81 Td (Et vous écririez :) Tj ET Q
+q 0.000 g BT 73.70 114.64 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 100.46 Td (	obj/set-value 10) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 2/3) Tj ET Q
+
+endstream
+endobj
+7 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 8 0 R>>
+endobj
+8 0 obj
+<</Length 1607>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 73.70 819.05 Td (Le concept des Set-Functions) Tj ET Q
+q 0.000 g BT 73.70 794.95 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 780.78 Td (Mais ce que vous voulez réellement écrire, c'est :) Tj ET Q
+q 0.000 g BT 73.70 766.61 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 752.43 Td (	obj/value : 10) Tj ET Q
+q 0.000 g BT 73.70 738.26 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 724.09 Td (à l'intérieur de la fonction pour définir cette valeur.) Tj ET Q
+q 0.000 g BT 73.70 709.91 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 695.74 Td (Mais là, la question se pose, comment faire référence à la set-function elle-même ?) Tj ET Q
+q 0.000 g BT 73.70 681.57 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 667.39 Td (OK, voilà quelque chose à réfléchir. Je ne suis pas sûr qu'il y ait une bonne réponse, ou aussi  si) Tj ET Q
+q 0.000 g BT 73.70 653.22 Td (nous avons besoin d'une. J'avais déjà parlé de cela autrefois, et sans suggérer que ceci soit ajouté à) Tj ET Q
+q 0.000 g BT 73.70 639.05 Td (REBOL 3.0. \(voir l'article précédent sur les extensions du langage.\)) Tj ET Q
+q 0.000 g BT 73.70 624.87 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 610.70 Td (Je suppose que je suis en train de vous faire réfléchir à cela. Merci de me signaler vos) Tj ET Q
+q 0.000 g BT 73.70 596.53 Td (commentaires.) Tj ET Q
+q 0.000 g BT 73.70 582.35 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 568.18 Td (\(Traduction : Philippe Le Goff\)) Tj ET Q
+BT /F6 8.00 Tf ET
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 3/3) Tj ET Q
+
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R 7 0 R ]
+/Count 3
+/MediaBox [0 0 595.28 841.89]
+>>
+endobj
+9 0 obj
+<</Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+10 0 obj
+<</Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+11 0 obj
+<</Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+12 0 obj
+<</Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+13 0 obj
+<</Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+14 0 obj
+<</Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 9 0 R
+/F2 10 0 R
+/F3 11 0 R
+/F4 12 0 R
+/F5 13 0 R
+/F6 14 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+15 0 obj
+<<
+/Producer (FPDF 1.53)
+/Title (Le concept des Set-Functions)
+/Subject (Divers)
+/Author (Philippe Le Goff )
+/Keywords (DOCUMENTATION)
+/Creator (The REBOL Documentation Project)
+/CreationDate (D:20060615045701)
+>>
+endobj
+16 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 17
+0000000000 65535 f 
+0000009115 00000 n 
+0000009809 00000 n 
+0000000009 00000 n 
+0000000222 00000 n 
+0000001676 00000 n 
+0000002046 00000 n 
+0000007245 00000 n 
+0000007458 00000 n 
+0000009214 00000 n 
+0000009310 00000 n 
+0000009405 00000 n 
+0000009503 00000 n 
+0000009602 00000 n 
+0000009704 00000 n 
+0000009968 00000 n 
+0000010198 00000 n 
+trailer
+<<
+/Size 17
+/Root 16 0 R
+/Info 15 0 R
+>>
+startxref
+10302
+%%EOF

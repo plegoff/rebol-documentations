@@ -1,0 +1,1953 @@
+%PDF-1.3
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 4 0 R>>
+endobj
+4 0 obj
+<</Length 1633>>
+stream
+2 J
+0.57 w
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (Manuel de l'utilisateur - Chapitre 12 - Fichiers) Tj ET Q
+0.57 w
+BT /F2 26.00 Tf ET
+q 0.502 g BT 118.24 656.92 Td (The REBOL Documentation) Tj ET Q
+q 0.502 g BT 243.04 631.41 Td (Project) Tj ET Q
+BT /F1 8.00 Tf ET
+q 0.502 g BT 220.96 616.97 Td (-- FR - Documentation REBOL - Manuels --) Tj ET Q
+0.85 w
+BT /F2 20.00 Tf ET
+q 0.502 g BT 73.70 423.45 Td (Manuels) Tj ET Q
+BT /F3 22.00 Tf ET
+297.64 436.54 m 297.64 413.86 l S q 0.000 g BT 300.47 418.60 Td (Manuel de l'utilisateur) Tj ET Q
+297.64 413.86 m 297.64 391.18 l S q 0.000 g BT 300.47 395.92 Td (- Chapitre 12 - Fichiers) Tj ET Q
+297.64 391.18 m 297.64 368.50 l S 
+BT /F4 16.00 Tf ET
+297.64 368.50 m 297.64 351.50 l S q 0.000 g BT 409.15 355.20 Td (Philippe Le Goff ) Tj ET Q
+BT /F4 12.00 Tf ET
+297.64 351.50 m 297.64 334.49 l S q 0.000 g BT 319.27 339.39 Td (Première publication : 19 octobre 2005, et) Tj ET Q
+297.64 334.49 m 297.64 317.48 l S q 0.000 g BT 321.61 322.38 Td (mis en ligne le  mercredi 19 octobre 2005) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 73.70 253.54 Td (Résumé :) Tj ET 73.70 252.54 45.01 -0.50 re f Q
+BT /F4 8.00 Tf ET
+q 0.000 g BT 73.70 225.79 Td ( Ce document est la traduction française du Chapitre 12 du User Guide de REBOL/Core, qui concerne les fichiers.) Tj ET Q
+q 0.000 g BT 73.70 211.62 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 197.44 Td (Traducteur : Philippe Le Goff) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 1/17) Tj ET Q
+
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [93.54 669.72 218.04 659.72] /Border [0 0 0] /A <</S /URI /URI (#1)>>>><</Type /Annot /Subtype /Link /Rect [93.54 655.55 158.02 645.55] /Border [0 0 0] /A <</S /URI /URI (#2)>>>><</Type /Annot /Subtype /Link /Rect [93.54 641.38 167.46 631.38] /Border [0 0 0] /A <</S /URI /URI (#3)>>>><</Type /Annot /Subtype /Link /Rect [113.39 627.20 209.53 617.20] /Border [0 0 0] /A <</S /URI /URI (#3.1)>>>><</Type /Annot /Subtype /Link /Rect [113.39 613.03 169.52 603.03] /Border [0 0 0] /A <</S /URI /URI (#3.2)>>>><</Type /Annot /Subtype /Link /Rect [113.39 598.86 223.44 588.86] /Border [0 0 0] /A <</S /URI /URI (#3.3)>>>><</Type /Annot /Subtype /Link /Rect [113.39 584.69 262.90 574.69] /Border [0 0 0] /A <</S /URI /URI (#3.4)>>>><</Type /Annot /Subtype /Link /Rect [93.54 556.34 188.58 546.34] /Border [0 0 0] /A <</S /URI /URI (#4)>>>><</Type /Annot /Subtype /Link /Rect [113.39 542.17 236.23 532.17] /Border [0 0 0] /A <</S /URI /URI (#4.1)>>>><</Type /Annot /Subtype /Link /Rect [113.39 527.99 244.56 517.99] /Border [0 0 0] /A <</S /URI /URI (#4.2)>>>><</Type /Annot /Subtype /Link /Rect [113.39 513.82 257.91 503.82] /Border [0 0 0] /A <</S /URI /URI (#4.3)>>>><</Type /Annot /Subtype /Link /Rect [93.54 485.47 184.68 475.47] /Border [0 0 0] /A <</S /URI /URI (#5)>>>><</Type /Annot /Subtype /Link /Rect [113.39 471.30 237.33 461.30] /Border [0 0 0] /A <</S /URI /URI (#5.1)>>>><</Type /Annot /Subtype /Link /Rect [113.39 457.13 250.66 447.13] /Border [0 0 0] /A <</S /URI /URI (#5.2)>>>><</Type /Annot /Subtype /Link /Rect [113.39 442.95 273.45 432.95] /Border [0 0 0] /A <</S /URI /URI (#5.3)>>>><</Type /Annot /Subtype /Link /Rect [93.54 414.61 193.59 404.61] /Border [0 0 0] /A <</S /URI /URI (#6)>>>><</Type /Annot /Subtype /Link /Rect [93.54 400.43 172.47 390.43] /Border [0 0 0] /A <</S /URI /URI (#7)>>>><</Type /Annot /Subtype /Link /Rect [93.54 386.26 120.22 376.26] /Border [0 0 0] /A <</S /URI /URI (#8)>>>><</Type /Annot /Subtype /Link /Rect [93.54 372.09 295.83 362.09] /Border [0 0 0] /A <</S /URI /URI (#9)>>>><</Type /Annot /Subtype /Link /Rect [113.39 357.91 231.22 347.91] /Border [0 0 0] /A <</S /URI /URI (#9.1)>>>><</Type /Annot /Subtype /Link /Rect [113.39 343.74 216.77 333.74] /Border [0 0 0] /A <</S /URI /URI (#9.2)>>>><</Type /Annot /Subtype /Link /Rect [113.39 329.57 197.31 319.57] /Border [0 0 0] /A <</S /URI /URI (#9.3)>>>><</Type /Annot /Subtype /Link /Rect [113.39 315.39 272.04 305.39] /Border [0 0 0] /A <</S /URI /URI (#9.4)>>>><</Type /Annot /Subtype /Link /Rect [113.39 301.22 266.79 291.22] /Border [0 0 0] /A <</S /URI /URI (#9.5)>>>><</Type /Annot /Subtype /Link /Rect [93.54 272.87 159.12 262.87] /Border [0 0 0] /A <</S /URI /URI (#10)>>>><</Type /Annot /Subtype /Link /Rect [113.39 258.70 211.77 248.70] /Border [0 0 0] /A <</S /URI /URI (#10.1)>>>><</Type /Annot /Subtype /Link /Rect [113.39 244.53 220.10 234.53] /Border [0 0 0] /A <</S /URI /URI (#10.2)>>>><</Type /Annot /Subtype /Link /Rect [113.39 230.35 326.81 220.35] /Border [0 0 0] /A <</S /URI /URI (#10.3)>>>><</Type /Annot /Subtype /Link /Rect [113.39 216.18 301.25 206.18] /Border [0 0 0] /A <</S /URI /URI (#10.4)>>>><</Type /Annot /Subtype /Link /Rect [113.39 202.01 218.44 192.01] /Border [0 0 0] /A <</S /URI /URI (#10.5)>>>><</Type /Annot /Subtype /Link /Rect [113.39 187.83 263.45 177.83] /Border [0 0 0] /A <</S /URI /URI (#10.6)>>>><</Type /Annot /Subtype /Link /Rect [113.39 173.66 264.02 163.66] /Border [0 0 0] /A <</S /URI /URI (#10.7)>>>><</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 6 0 R>>
+endobj
+6 0 obj
+<</Length 7299>>
+stream
+2 J
+0.85 w
+BT /F4 8.00 Tf ET
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (Manuel de l'utilisateur - Chapitre 12 - Fichiers) Tj ET Q
+BT /F4 8.00 Tf ET
+BT /F5 10.00 Tf ET
+q 0.000 g BT 73.70 780.78 Td ( Ce document est la traduction française du Chapitre 12 du User Guide de REBOL/Core, qui) Tj ET Q
+q 0.000 g BT 73.70 766.61 Td (concerne les fichiers.) Tj ET Q
+q 0.000 g BT 73.70 752.43 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 738.26 Td (Traducteur : Philippe Le Goff) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 675.90 Td (  ) Tj ET Q
+q 0.000 g BT 93.54 675.90 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 661.72 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 661.72 Td (1 Historique de la traduction) Tj ET 93.54 660.72 124.50 -0.50 re f Q
+q 0.000 g BT 218.04 661.72 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 647.55 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 647.55 Td (2 Présentation) Tj ET 93.54 646.55 64.48 -0.50 re f Q
+q 0.000 g BT 158.02 647.55 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 633.38 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 633.38 Td (3 Noms et Paths) Tj ET 93.54 632.38 73.92 -0.50 re f Q
+q 0.000 g BT 167.46 633.38 Td ( ) Tj ET Q
+q 0.000 g BT 98.88 619.20 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 113.39 619.20 Td (3.1 Noms des fichiers) Tj ET 113.39 618.20 96.14 -0.50 re f Q
+q 0.000 g BT 209.53 619.20 Td ( ) Tj ET Q
+q 0.000 g BT 98.88 605.03 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 113.39 605.03 Td (3.2 Chemins) Tj ET 113.39 604.03 56.13 -0.50 re f Q
+q 0.000 g BT 169.52 605.03 Td ( ) Tj ET Q
+q 0.000 g BT 98.88 590.86 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 113.39 590.86 Td (3.3 Sensibilité à la casse) Tj ET 113.39 589.86 110.05 -0.50 re f Q
+q 0.000 g BT 223.44 590.86 Td ( ) Tj ET Q
+q 0.000 g BT 98.88 576.69 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 113.39 576.69 Td (3.4 Fonctions de noms de fichiers) Tj ET 113.39 575.69 149.51 -0.50 re f Q
+q 0.000 g BT 262.90 576.69 Td ( ) Tj ET Q
+q 0.000 g BT 93.54 562.51 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 548.34 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 548.34 Td (4 Lecture des fichiers) Tj ET 93.54 547.34 95.04 -0.50 re f Q
+q 0.000 g BT 188.58 548.34 Td ( ) Tj ET Q
+q 0.000 g BT 98.88 534.17 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 113.39 534.17 Td (4.1 Lecture de fichiers texte) Tj ET 113.39 533.17 122.84 -0.50 re f Q
+q 0.000 g BT 236.23 534.17 Td ( ) Tj ET Q
+q 0.000 g BT 98.88 519.99 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 113.39 519.99 Td (4.2 Lecture de fichiers binaire) Tj ET 113.39 518.99 131.17 -0.50 re f Q
+q 0.000 g BT 244.56 519.99 Td ( ) Tj ET Q
+q 0.000 g BT 98.88 505.82 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 113.39 505.82 Td (4.3 Lecture au travers du réseau) Tj ET 113.39 504.82 144.52 -0.50 re f Q
+q 0.000 g BT 257.91 505.82 Td ( ) Tj ET Q
+q 0.000 g BT 93.54 491.65 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 477.47 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 477.47 Td (5 Ecriture de fichiers) Tj ET 93.54 476.47 91.14 -0.50 re f Q
+q 0.000 g BT 184.68 477.47 Td ( ) Tj ET Q
+q 0.000 g BT 98.88 463.30 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 113.39 463.30 Td (5.1 Ecriture de fichiers texte) Tj ET 113.39 462.30 123.94 -0.50 re f Q
+q 0.000 g BT 237.33 463.30 Td ( ) Tj ET Q
+q 0.000 g BT 98.88 449.13 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 113.39 449.13 Td (5.2 Ecriture de fichiers binaires) Tj ET 113.39 448.13 137.27 -0.50 re f Q
+q 0.000 g BT 250.66 449.13 Td ( ) Tj ET Q
+q 0.000 g BT 98.88 434.95 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 113.39 434.95 Td (5.3 Ecriture de fichiers sur le réseau) Tj ET 113.39 433.95 160.06 -0.50 re f Q
+q 0.000 g BT 273.45 434.95 Td ( ) Tj ET Q
+q 0.000 g BT 93.54 420.78 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 406.61 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 406.61 Td (6 Conversion de Ligne) Tj ET 93.54 405.61 100.05 -0.50 re f Q
+q 0.000 g BT 193.59 406.61 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 392.43 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 392.43 Td (7 Blocs de Lignes) Tj ET 93.54 391.43 78.93 -0.50 re f Q
+q 0.000 g BT 172.47 392.43 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 378.26 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 378.26 Td (8 new) Tj ET 93.54 377.26 26.68 -0.50 re f Q
+q 0.000 g BT 120.22 378.26 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 364.09 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 364.09 Td (9 Information sur les fichiers et les répertoires) Tj ET 93.54 363.09 202.29 -0.50 re f Q
+q 0.000 g BT 295.83 364.09 Td ( ) Tj ET Q
+q 0.000 g BT 98.88 349.91 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 113.39 349.91 Td (9.1 Contrôle de Répertoire) Tj ET 113.39 348.91 117.83 -0.50 re f Q
+q 0.000 g BT 231.22 349.91 Td ( ) Tj ET Q
+q 0.000 g BT 98.88 335.74 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 113.39 335.74 Td (9.2 Existence de fichier) Tj ET 113.39 334.74 103.38 -0.50 re f Q
+q 0.000 g BT 216.77 335.74 Td ( ) Tj ET Q
+q 0.000 g BT 98.88 321.57 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 113.39 321.57 Td (9.3 Taille de fichier) Tj ET 113.39 320.57 83.92 -0.50 re f Q
+q 0.000 g BT 197.31 321.57 Td ( ) Tj ET Q
+q 0.000 g BT 98.88 307.39 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 113.39 307.39 Td (9.4 Date de modification d'un fichier) Tj ET 113.39 306.39 158.65 -0.50 re f Q
+q 0.000 g BT 272.04 307.39 Td ( ) Tj ET Q
+q 0.000 g BT 98.88 293.22 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 113.39 293.22 Td (9.5 Information relative à un fichier) Tj ET 113.39 292.22 153.40 -0.50 re f Q
+q 0.000 g BT 266.79 293.22 Td ( ) Tj ET Q
+q 0.000 g BT 93.54 279.05 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 264.87 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 264.87 Td (10 Répertoires) Tj ET 93.54 263.87 65.58 -0.50 re f Q
+q 0.000 g BT 159.12 264.87 Td ( ) Tj ET Q
+q 0.000 g BT 98.88 250.70 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 113.39 250.70 Td (10.1 Lire un répertoire) Tj ET 113.39 249.70 98.38 -0.50 re f Q
+q 0.000 g BT 211.77 250.70 Td ( ) Tj ET Q
+q 0.000 g BT 98.88 236.53 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 113.39 236.53 Td (10.2 Créer un répertoire) Tj ET 113.39 235.53 106.71 -0.50 re f Q
+q 0.000 g BT 220.10 236.53 Td ( ) Tj ET Q
+q 0.000 g BT 98.88 222.35 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 113.39 222.35 Td (10.3 Renommage des répertoires et des fichiers) Tj ET 113.39 221.35 213.42 -0.50 re f Q
+q 0.000 g BT 326.81 222.35 Td ( ) Tj ET Q
+q 0.000 g BT 98.88 208.18 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 113.39 208.18 Td (10.4 Effacer des répertoires et des fichiers) Tj ET 113.39 207.18 187.86 -0.50 re f Q
+q 0.000 g BT 301.25 208.18 Td ( ) Tj ET Q
+q 0.000 g BT 98.88 194.01 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 113.39 194.01 Td (10.5 Répertoire courant) Tj ET 113.39 193.01 105.05 -0.50 re f Q
+q 0.000 g BT 218.44 194.01 Td ( ) Tj ET Q
+q 0.000 g BT 98.88 179.83 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 113.39 179.83 Td (10.6 Modifier le répertoire courant) Tj ET 113.39 178.83 150.06 -0.50 re f Q
+q 0.000 g BT 263.45 179.83 Td ( ) Tj ET Q
+q 0.000 g BT 98.88 165.66 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 113.39 165.66 Td (10.7 Listing du Répertoire courant) Tj ET 113.39 164.66 150.63 -0.50 re f Q
+q 0.000 g BT 264.02 165.66 Td ( ) Tj ET Q
+q 0.000 g BT 93.54 151.49 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 123.14 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 2/17) Tj ET Q
+
+endstream
+endobj
+7 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 8 0 R>>
+endobj
+8 0 obj
+<</Length 6324>>
+stream
+2 J
+0.85 w
+BT /F5 14.00 Tf ET
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (Manuel de l'utilisateur - Chapitre 12 - Fichiers) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 73.70 793.75 Td (1 Historique de la traduction) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 780.78 Td ( ) Tj ET Q
+q 0.000 g BT 76.48 780.78 Td ( ) Tj ET Q
+q 0.000 g BT 79.26 780.78 Td ( 					) Tj ET Q
+q 0.000 g BT 95.94 780.78 Td ( ) Tj ET Q
+q 0.000 g BT 98.72 780.78 Td ( ) Tj ET Q
+q 0.000 g BT 101.50 780.78 Td ( ) Tj ET Q
+q 0.000 g BT 104.28 780.78 Td ( ) Tj ET Q
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F5 8.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F5 8.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F5 8.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F5 8.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F5 8.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F5 8.00 Tf ET
+1.000 1.000 0.000 rg
+92.74 790.87 78.78 -14.17 re B q 0.000 g BT 95.57 781.38 Td ( Date ) Tj ET Q
+BT /F1 8.00 Tf ET
+1.000 g
+BT /F5 8.00 Tf ET
+1.000 1.000 0.000 rg
+171.51 790.87 40.07 -14.17 re B q 0.000 g BT 174.35 781.38 Td (Version ) Tj ET Q
+BT /F1 8.00 Tf ET
+1.000 g
+BT /F5 8.00 Tf ET
+1.000 1.000 0.000 rg
+211.58 790.87 73.42 -14.17 re B q 0.000 g BT 214.42 781.38 Td (Commentaires ) Tj ET Q
+BT /F1 8.00 Tf ET
+1.000 g
+BT /F5 8.00 Tf ET
+1.000 1.000 0.000 rg
+285.00 790.87 67.65 -14.17 re B q 0.000 g BT 287.83 781.38 Td (Auteur ) Tj ET Q
+BT /F1 8.00 Tf ET
+1.000 g
+BT /F5 8.00 Tf ET
+1.000 1.000 0.000 rg
+352.65 790.87 149.90 -14.17 re B q 0.000 g BT 355.48 781.38 Td (Email ) Tj ET Q
+BT /F1 8.00 Tf ET
+1.000 g
+0.902 0.902 0.902 rg
+92.74 776.69 78.78 -14.17 re B q 0.000 g BT 95.57 767.21 Td ( 27 juin 2005 19:33 ) Tj ET Q
+171.51 776.69 40.07 -14.17 re B q 0.000 g BT 174.35 767.21 Td (1.0.0 ) Tj ET Q
+211.58 776.69 73.42 -14.17 re B q 0.000 g BT 214.42 767.21 Td (Traduction initiale ) Tj ET Q
+285.00 776.69 67.65 -14.17 re B q 0.000 g BT 287.83 767.21 Td (Philippe Le Goff ) Tj ET Q
+352.65 776.69 149.90 -14.17 re B q 0.000 g BT 355.48 767.21 Td (lp&mdash;legoff&mdash;free&mdash;fr ) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 752.43 Td ( ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 708.71 Td (2 Présentation) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 695.74 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 681.57 Td (Une caractéristique importante de la puissance de REBOL est sa capacité  à manipuler les fichiers et) Tj ET Q
+q 0.000 g BT 70.87 667.39 Td (les répertoires. REBOL fournit plusieurs fonctions  sur mesure permettant des opérations allant de la) Tj ET Q
+q 0.000 g BT 70.87 653.22 Td (lecture d'un simple  fichier jusqu'à l'accès direct aux fichiers et répertoires. Pour plus  d'informations) Tj ET Q
+q 0.000 g BT 70.87 639.05 Td (sur l'accès direct aux fichiers et répertoires, voir le  chapitre sur les Ports.) Tj ET Q
+q 0.000 g BT 70.87 624.87 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 581.15 Td (3 Noms et Paths) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 568.18 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 554.01 Td (REBOL fournit une convention de nommage des chemins et des fichiers qui se veut indépendante du ) Tj ET Q
+q 0.000 g BT 70.87 539.83 Td (type de machines.) Tj ET Q
+q 0.000 g BT 70.87 525.66 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 481.94 Td (3.1 Noms des fichiers) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 468.97 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 454.80 Td (Dans les scripts, les noms de fichiers et les chemins  sont écrits avec un signe pourcentage ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 478.81 454.80 Td (\(%\)) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 494.36 454.80 Td ( suivi) Tj ET Q
+q 0.000 g BT 70.87 440.62 Td (par une suite de caractères :) Tj ET Q
+q 0.000 g BT 70.87 426.45 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 412.88 Td ( %examples.r) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 398.70 Td ( %big-image.jpg) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 384.53 Td ( %graphics/amiga.jpg) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 370.36 Td ( %/c/plug-in/video.r) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 356.18 Td ( %//sound/goldfinger.mp3) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 341.41 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 327.24 Td (Le signe pourcentage ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 169.82 327.24 Td (\(%\)) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 185.37 327.24 Td ( est nécessaire pour éviter que les noms de fichiers soient  interprétés) Tj ET Q
+q 0.000 g BT 70.87 313.06 Td (comme des mots au sein du langage.) Tj ET Q
+q 0.000 g BT 70.87 298.89 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 284.72 Td (Bien que cela ne soit pas une bonne habitude, des espaces peuvent être inclus dans  les noms de) Tj ET Q
+q 0.000 g BT 70.87 270.54 Td (fichiers en incluant le nom du fichier entre des guillemets ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 324.86 270.54 Td (\(" "\)) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 343.78 270.54 Td (.) Tj ET Q
+q 0.000 g BT 70.87 256.37 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 242.20 Td (Les guillemets évitent que le nom du fichiers soit interprété comme  une série de plusieurs mots :) Tj ET Q
+q 0.000 g BT 70.87 228.02 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 214.45 Td ( %"this file.txt") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 200.28 Td ( %"cool movie clip.mpg") Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 185.50 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 171.33 Td (La convention standard Internet d'utiliser le signe pourcentage  ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 351.82 171.33 Td (\(%\)) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 367.37 171.33 Td ( et un code hexadécimal est aussi) Tj ET Q
+q 0.000 g BT 70.87 157.16 Td (autorisée pour les noms de fichiers.  Quand ceci est fait, les guillemets ne sont pas requis.) Tj ET Q
+q 0.000 g BT 70.87 142.98 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 128.81 Td (Les noms de fichiers précédents peuvent encore être écrits sous la forme :) Tj ET Q
+q 0.000 g BT 70.87 114.64 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 101.06 Td ( %this%20file.txt) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 3/17) Tj ET Q
+
+endstream
+endobj
+9 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 10 0 R>>
+endobj
+10 0 obj
+<</Length 5677>>
+stream
+2 J
+0.85 w
+BT /F2 8.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 70.87 819.05 Td (Manuel de l'utilisateur - Chapitre 12 - Fichiers) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 795.55 Td ( %cool%20movie%20clip.mpg) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 780.78 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 766.61 Td (Notez que le suffixe standard pour les scripts REBOL est ") Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 329.53 766.61 Td (.r) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 336.20 766.61 Td (". Sur les systèmes  où cette convention) Tj ET Q
+q 0.000 g BT 70.87 752.43 Td (produit un conflit avec un autre type de fichier, un  suffixe ") Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 330.11 752.43 Td (.reb) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 348.45 752.43 Td (" peut être utilisé à la place.) Tj ET Q
+q 0.000 g BT 70.87 738.26 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 694.54 Td (3.2 Chemins) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 681.57 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 667.39 Td (Les chemins vers les fichiers sont décrits par un signe pourcentage ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 371.55 667.39 Td (\(%\)) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 387.10 667.39 Td ( suivi par une  séquence de) Tj ET Q
+q 0.000 g BT 70.87 653.22 Td (noms de répertoires qui sont chacun séparés par le signe ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 328.21 653.22 Td (\(/\)) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 337.65 653.22 Td (.) Tj ET Q
+q 0.000 g BT 70.87 639.05 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 625.47 Td ( %dir/file.txt) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 611.30 Td ( %/file.txt) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 597.13 Td ( %dir/) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 582.95 Td ( %/dir/) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 568.78 Td ( %/dir/subdir/) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 554.61 Td ( %../dir/file.txt) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 539.83 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 525.66 Td (Le caractère standard pour séparer les répertoires est le caractère slash ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 393.78 525.66 Td (\(/\)) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 403.22 525.66 Td (, pas le backslash ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 485.48 525.66 Td (\(\\\)) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 494.92 525.66 Td (. Si) Tj ET Q
+q 0.000 g BT 70.87 511.49 Td (des caractères "backslash" sont trouvés, ils sont convertis  en caractères "slash" :) Tj ET Q
+q 0.000 g BT 70.87 497.32 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 483.74 Td ( probe %\\some\\cool\\movie.mpg) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 469.57 Td ( %/some/cool/movie.mpg) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 454.80 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 440.62 Td (REBOL fournit une méthode standard, indépendante du système d'exploitation pour spécifier  les) Tj ET Q
+q 0.000 g BT 70.87 426.45 Td (chemins vers les répertoires. Les chemins peuvent être relatifs au répertoire courant  ou absolus à) Tj ET Q
+q 0.000 g BT 70.87 412.28 Td (partir du plus haut niveau de l'arborescence du système d'exploitation.) Tj ET Q
+q 0.000 g BT 70.87 398.10 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 383.93 Td (Les chemins vers les fichiers qui ne commencent pas par un symbole slash ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 407.66 383.93 Td (\(/\)) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 417.10 383.93 Td ( sont des  chemins) Tj ET Q
+q 0.000 g BT 70.87 369.76 Td (relatifs.) Tj ET Q
+q 0.000 g BT 70.87 355.58 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 342.01 Td ( %docs/intro.txt) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 327.84 Td ( %docs/new/notes.txt) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 313.66 Td ( %"new mail/inbox.mbx") Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 298.89 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 284.72 Td (La convention standard qui utilise deux points successifs ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 324.88 284.72 Td (\(..\)) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 337.10 284.72 Td (  pour indiquer un répertoire parent ou un) Tj ET Q
+q 0.000 g BT 70.87 270.54 Td (point unique ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 128.13 270.54 Td (\(.\)) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 137.57 270.54 Td ( pour faire référence  au répertoire courant est aussi supportée. Par exemple :) Tj ET Q
+q 0.000 g BT 70.87 256.37 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 242.80 Td ( %.) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 228.62 Td ( %./) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 214.45 Td ( %./file.txt) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 200.28 Td ( %..) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 186.10 Td ( %../) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 171.93 Td ( %../script.r) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 157.76 Td ( %../../plans/schedule.r) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 142.98 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 128.81 Td (Les chemins vers les fichiers utilisent la convention Internet qui fait  commencer un chemin absolu) Tj ET Q
+q 0.000 g BT 70.87 114.64 Td (avec un slash ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 134.79 114.64 Td (\(/\)) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 144.23 114.64 Td (. Le slash indique le point de départ depuis  le plus haut niveau de l'arborescence du) Tj ET Q
+q 0.000 g BT 70.87 100.46 Td (système. \(Généralement, les chemins absolus  devraient être évités pour rendre les scripts) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 4/17) Tj ET Q
+
+endstream
+endobj
+11 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 12 0 R>>
+endobj
+12 0 obj
+<</Length 4466>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (Manuel de l'utilisateur - Chapitre 12 - Fichiers) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td (indépendants du contexte de la machine.) Tj ET Q
+q 0.000 g BT 70.87 780.78 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 766.61 Td (L'exemple :) Tj ET Q
+q 0.000 g BT 70.87 752.43 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 738.86 Td ( %/home/file.txt) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 724.09 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 709.91 Td (devrait référer à un volume disque ou une partition nommée ") Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 342.32 709.91 Td (home) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 367.33 709.91 Td (".) Tj ET Q
+q 0.000 g BT 70.87 695.74 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 681.57 Td (Voici d'autres exemples :) Tj ET Q
+q 0.000 g BT 70.87 667.39 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 653.82 Td ( %/ram/temp/test.r) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 639.65 Td ( %/cd0/scripts/test/files.r) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 624.87 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 610.70 Td (Pour faire référence à un disque C comme cela est souvent  le cas pour Windows, la notation est :) Tj ET Q
+q 0.000 g BT 70.87 596.53 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 582.95 Td ( %/C/docs/file.txt) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 568.78 Td ( %"/c/program files/qualcomm/eudora mail/out.mbx") Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 554.01 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 539.83 Td (Notez que dans les lignes précédentes, le disque C n'est pas écrit avec :) Tj ET Q
+q 0.000 g BT 70.87 525.66 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 512.09 Td ( %c:/docs/file.txt) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 497.32 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 483.14 Td (L'exemple précédent n'est pas indépendant du format utilisé pour la  machine et provoque une erreur.) Tj ET Q
+q 0.000 g BT 70.87 468.97 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 454.80 Td (Si le premier nom de répertoire est absent, et que le chemin commence  avec deux slashs) Tj ET Q
+q 0.000 g BT 70.87 440.62 Td (consécutifs, ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 126.45 440.62 Td (\(//\)) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 138.67 440.62 Td (, alors le chemin du fichier est relatif  au volume courant :) Tj ET Q
+q 0.000 g BT 70.87 426.45 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 412.88 Td ( %//docs/notes) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 398.10 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 354.38 Td (3.3 Sensibilité à la casse) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 341.41 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 327.24 Td (Par défaut, en REBOL, les noms de fichiers ne sont pas sensibles à la casse des caractères.  Malgré) Tj ET Q
+q 0.000 g BT 70.87 313.06 Td (tout, lorsque de nouveaux fichiers sont créés via le langage, leurs noms conservent la  casse avec) Tj ET Q
+q 0.000 g BT 70.87 298.89 Td (lesquels ils sont créés :) Tj ET Q
+q 0.000 g BT 70.87 284.72 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 271.14 Td ( write %Script-File.r file-data) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 256.37 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 242.20 Td (L'exemple précédent crée un nom de fichier avec un S et un F  majuscules.) Tj ET Q
+q 0.000 g BT 70.87 228.02 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 213.85 Td (De plus, lorsque des noms de fichiers sont issus de répertoires, leur casse est conservée :) Tj ET Q
+q 0.000 g BT 70.87 199.68 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 186.10 Td ( print read %/home) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 171.33 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 157.16 Td (Pour les systèmes sensibles à la casse, comme UNIX,  REBOL trouve la correspondance la plus) Tj ET Q
+q 0.000 g BT 70.87 142.98 Td (proche pour le nom de fichier.) Tj ET Q
+q 0.000 g BT 70.87 128.81 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 114.64 Td (Par exemple, si un script demande à lire %test.r, mais trouve seulement %TEST.r, ce  fichier %TEST.r) Tj ET Q
+q 0.000 g BT 70.87 100.46 Td (sera lu. Ce comportement est nécessaire pour permettre de conserver  des scripts indépendants du) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 5/17) Tj ET Q
+
+endstream
+endobj
+13 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 14 0 R>>
+endobj
+14 0 obj
+<</Length 4996>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (Manuel de l'utilisateur - Chapitre 12 - Fichiers) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td (contexte machine.) Tj ET Q
+q 0.000 g BT 70.87 780.78 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 737.06 Td (3.4 Fonctions de noms de fichiers) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 724.09 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 709.91 Td (Diverses fonctions sont fournies pour vous aider à  créer des noms de fichiers et des chemins \(paths\).) Tj ET Q
+q 0.000 g BT 70.87 695.74 Td ( Elles sont listées ci-dessous :) Tj ET Q
+q 0.000 g BT 70.87 681.57 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 667.39 Td (to-file) Tj ET Q
+q 0.000 g BT 95.32 667.39 Td ( : ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 103.66 667.39 Td (Convertit des chaînes de caractères et des blocs en noms de fichiers ou en chemin vers un) Tj ET Q
+q 0.000 g BT 70.87 653.22 Td (fichier.) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 639.05 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 624.87 Td (split-path) Tj ET Q
+q 0.000 g BT 111.44 624.87 Td ( : ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 119.78 624.87 Td (Scinde un chemin en deux parties : celle relative au répertoire et celle relative au nom de) Tj ET Q
+q 0.000 g BT 70.87 610.70 Td (fichier .) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 596.53 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 582.35 Td (clean-path) Tj ET Q
+q 0.000 g BT 117.56 582.35 Td ( : ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 125.90 582.35 Td (Renvoie un chemin absolu qui est équivalent à n'importe quel chemin fourni contenant \(..\)) Tj ET Q
+q 0.000 g BT 70.87 568.18 Td (ou \(.\).) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 554.01 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 539.83 Td (what-dir) Tj ET Q
+q 0.000 g BT 106.43 539.83 Td ( : ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 114.77 539.83 Td (Renvoie le chemin absolu du répertoire courant.) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 525.66 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 481.94 Td (4 Lecture des fichiers) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 468.97 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 454.80 Td (Les fichiers sont lus comme des séries de caractères \(mode texte\) ou d'octets \(mode binaire\). La) Tj ET Q
+q 0.000 g BT 70.87 440.62 Td (source pour le fichier est soit un fichier local sur votre système, ou un fichier à partir  du réseau.) Tj ET Q
+q 0.000 g BT 70.87 426.45 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 382.73 Td (4.1 Lecture de fichiers texte) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 369.76 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 355.58 Td (Pour lire un fichier texte local, utilisez la fonction ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 286.51 355.58 Td (read) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 307.63 355.58 Td ( :) Tj ET Q
+q 0.000 g BT 70.87 341.41 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 327.84 Td ( text: read %file.txt) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 313.06 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 298.89 Td (La fonction ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 122.57 298.89 Td (read) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 143.69 298.89 Td ( renvoie une chaîne qui contient le texte entier  du fichier. Dans l'exemple ci-dessus,) Tj ET Q
+q 0.000 g BT 70.87 284.72 Td (la variable ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 119.22 284.72 Td (text) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 135.34 284.72 Td ( fait référence à cette chaîne.) Tj ET Q
+q 0.000 g BT 70.87 270.54 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 256.37 Td (Au sein de cette chaîne renvoyée par ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 239.30 256.37 Td (read) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 260.42 256.37 Td (, les fins de lignes  sont convertis en caractères newline,) Tj ET Q
+q 0.000 g BT 70.87 242.20 Td (indifféremment du genre de  fin de ligne qu'utilise votre système d'exploitation. Ceci permet d'écrire) Tj ET Q
+q 0.000 g BT 70.87 228.02 Td (des scripts  qui recherche des sauts de lignes, sans se soucier des caractères particuliers  qui) Tj ET Q
+q 0.000 g BT 70.87 213.85 Td (constitue une fin de ligne.) Tj ET Q
+q 0.000 g BT 70.87 199.68 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 186.10 Td ( next-line: next find text newline) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 171.33 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 157.16 Td (Un fichier peut aussi être lu en séparant les lignes, qui sont  stockées dans un bloc :) Tj ET Q
+q 0.000 g BT 70.87 142.98 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 129.41 Td ( lines: read/lines %file.txt) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 114.64 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 100.46 Td (Voir le paragraphe "Conversion de Lignes" pour plus d'informations concernant newline et la  lecture) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 6/17) Tj ET Q
+
+endstream
+endobj
+15 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 16 0 R>>
+endobj
+16 0 obj
+<</Length 4736>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (Manuel de l'utilisateur - Chapitre 12 - Fichiers) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td (ligne par ligne.) Tj ET Q
+q 0.000 g BT 70.87 780.78 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 766.61 Td (Pour lire un fichier par morceaux, utilisez la fonction ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 302.62 766.61 Td (open) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 326.51 766.61 Td ( qui est décrite  dans le chapitre sur les) Tj ET Q
+q 0.000 g BT 70.87 752.43 Td (Ports.) Tj ET Q
+q 0.000 g BT 70.87 738.26 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 724.09 Td (Pour voir le contenu d'un fichier texte, vous pouvez le lire en  utilisant ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 379.59 724.09 Td (read) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 400.71 724.09 Td ( et l'afficher en utilisant ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 709.91 Td (print) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 93.09 709.91 Td ( :) Tj ET Q
+q 0.000 g BT 70.87 695.74 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 682.17 Td ( print read %service.txt) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 667.99 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 75.67 667.99 Td (I wanted the gold, and I sought it,I scrabbled and mucked like) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 653.82 Td ( a slave.) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 639.05 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 595.33 Td (4.2 Lecture de fichiers binaire) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 582.35 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 568.18 Td (Pour lire un fichier binaire comme une image, un programme ou un son, utilisez  ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 428.23 568.18 Td (read/binary) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 482.14 568.18 Td ( :) Tj ET Q
+q 0.000 g BT 70.87 554.01 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 540.43 Td ( data: read/binary %file.bin) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 525.66 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 511.49 Td (La fonction read/binary renvoie une série binaire qui comprend le contenu  entier du fichier. Dans) Tj ET Q
+q 0.000 g BT 70.87 497.32 Td (l'exemple ci-dessus, la variable data fait référence à la série  binaire. Aucune conversion d'aucun type) Tj ET Q
+q 0.000 g BT 70.87 483.14 Td (n'est réalisée pour ce fichier.) Tj ET Q
+q 0.000 g BT 70.87 468.97 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 454.80 Td (Pour lire un fichier binaire par morceaux, utilisez la fonction open  comme décrite dans le chapitre sur) Tj ET Q
+q 0.000 g BT 70.87 440.62 Td (les Ports .) Tj ET Q
+q 0.000 g BT 70.87 426.45 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 382.73 Td (4.3 Lecture au travers du réseau) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 369.76 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 355.58 Td (Les fichiers peuvent être lus à partir du réseau. Par exemple, pour voir un fichier  texte à partir du) Tj ET Q
+q 0.000 g BT 70.87 341.41 Td (réseau en utilisant le protocole HTTP :) Tj ET Q
+q 0.000 g BT 70.87 327.24 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 313.66 Td ( print read http://www.rebol.com/test.txt) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 299.49 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 75.67 299.49 Td (Hellotherenewuser!) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 284.72 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 270.54 Td (Le fichier peut être écrit localement en une ligne de code :) Tj ET Q
+q 0.000 g BT 70.87 256.37 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 242.80 Td ( write %test.txt read http:/www.rebol.com/test.txt) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 228.02 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 213.85 Td (Dans le processus d'écriture, le fichier aura ses terminaisons de ligne converties en  ce qui est utilisé) Tj ET Q
+q 0.000 g BT 70.87 199.68 Td (pour cela sur votre système d'exploitation.) Tj ET Q
+q 0.000 g BT 70.87 185.50 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 171.33 Td (Pour lire et sauver un fichier binaire, comme une image, utilisez la ligne suivante :) Tj ET Q
+q 0.000 g BT 70.87 157.16 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 143.58 Td ( write %image.jpg read/binary http:/www.rebol.com/image.jpg) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 128.81 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 114.64 Td (Voyez le chapitre sur les protocoles Réseau pour plus d'information et d'exemples  sur les moyens) Tj ET Q
+q 0.000 g BT 70.87 100.46 Td (d'accéder à des fichiers au travers le réseau.) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 7/17) Tj ET Q
+
+endstream
+endobj
+17 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 18 0 R>>
+endobj
+18 0 obj
+<</Length 4568>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (Manuel de l'utilisateur - Chapitre 12 - Fichiers) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 751.23 Td (5 Ecriture de fichiers) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 738.26 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 724.09 Td (Vous pouvez écrire un fichier de caractères \(texte\) ou d'octets \(binaire\).  L'emplacement du fichier) Tj ET Q
+q 0.000 g BT 70.87 709.91 Td (peut soit être local sur votre système, soit sur le réseau.) Tj ET Q
+q 0.000 g BT 70.87 695.74 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 652.02 Td (5.1 Ecriture de fichiers texte) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 639.05 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 624.87 Td (Pour écrire un fichier texte localement, utilisez la ligne de code suivante :) Tj ET Q
+q 0.000 g BT 70.87 610.70 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 597.13 Td ( write %file.txt "sample text here") Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 582.35 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 568.18 Td (Celle-ci écrit le texte entier dans le fichier. Si un fichier contient des caractères newline, ils seront) Tj ET Q
+q 0.000 g BT 70.87 554.01 Td (convertis en ceux que votre  système d'exploitation utilise. Ceci permet de manipuler les fichiers d'une) Tj ET Q
+q 0.000 g BT 70.87 539.83 Td (manière  homogène, mais de les écrire en utilisant la convention en vigueur sur votre système.) Tj ET Q
+q 0.000 g BT 70.87 525.66 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 511.49 Td (Par exemple, la ligne de code suivante transforme n'importe quel texte ayant un  style de terminaison) Tj ET Q
+q 0.000 g BT 70.87 497.32 Td (de ligne \(UNIX, Macintosh, PC, Amiga\) en celui utilisé localement par  votre système :) Tj ET Q
+q 0.000 g BT 70.87 483.14 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 469.57 Td ( write %newfile.txt read %file.txt) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 454.80 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 440.62 Td (La ligne précédente lit le fichier en convertissant les fins de ligne vers le standard REBOL, puis  à) Tj ET Q
+q 0.000 g BT 70.87 426.45 Td (l'écriture du fichier, en convertissant celui-ci au format propre au système d'exploitation local.) Tj ET Q
+q 0.000 g BT 70.87 412.28 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 398.10 Td (Pour ajouter quelque chose à la fin d'un fichier, utilisez le raffinement ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 378.48 398.10 Td (/append) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 416.82 398.10 Td ( :) Tj ET Q
+q 0.000 g BT 70.87 383.93 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 370.36 Td ( write/append %file.txt "encore du texte") Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 355.58 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 341.41 Td (Un fichier peut aussi être écrit à partir de lignes distinctes stockées dans  un bloc.) Tj ET Q
+q 0.000 g BT 70.87 327.24 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 313.66 Td ( write/lines %file.txt lines) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 298.89 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 284.72 Td (Pour écrire un fichier texte morceaux par morceaux, utilisez la fonction open décrite  dans le chapitre) Tj ET Q
+q 0.000 g BT 70.87 270.54 Td (sur les Ports.) Tj ET Q
+q 0.000 g BT 70.87 256.37 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 212.65 Td (5.2 Ecriture de fichiers binaires) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 199.68 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 185.50 Td (Pour écrire des fichiers binaires comme une image, un programme,  un son, utilisez ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 443.78 185.50 Td (write/binary) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 499.91 185.50 Td ( :) Tj ET Q
+q 0.000 g BT 70.87 171.33 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 157.76 Td ( write/binary %file.bin data) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 142.98 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 128.81 Td (La fonction ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 122.57 128.81 Td (write/binary) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 178.70 128.81 Td ( crée le fichier si celui-ci n'existe pas  ou l'écrase s'il existe. Aucune) Tj ET Q
+q 0.000 g BT 70.87 114.64 Td (conversion n'est réalisée pour le fichier.) Tj ET Q
+q 0.000 g BT 70.87 100.46 Td ( ) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 8/17) Tj ET Q
+
+endstream
+endobj
+19 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 20 0 R>>
+endobj
+20 0 obj
+<</Length 5087>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (Manuel de l'utilisateur - Chapitre 12 - Fichiers) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td (Pour écrire un fichier binaire morceaux par morceaux, utilisez la fonction ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 393.76 794.95 Td (open) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 417.65 794.95 Td ( décrite  dans le) Tj ET Q
+q 0.000 g BT 70.87 780.78 Td (chapitre sur les Ports.) Tj ET Q
+q 0.000 g BT 70.87 766.61 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 722.89 Td (5.3 Ecriture de fichiers sur le réseau) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 709.91 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 695.74 Td (Les fichiers peuvent aussi être écrits sur le réseau. Par exemple, pour écrire un fichier texte  en) Tj ET Q
+q 0.000 g BT 70.87 681.57 Td (utilisant le protocole FTP, utilisez :) Tj ET Q
+q 0.000 g BT 70.87 667.39 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 653.82 Td ( write ftp://ftp.domain.com/file.txt "save this text") Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 639.05 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 624.87 Td (Le fichier peut être lu localement et écrit sur un emplacement en réseau via une  ligne comme celle-ci) Tj ET Q
+q 0.000 g BT 70.87 610.70 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 597.13 Td ( write ftp://ftp.domain.com/file.txt read %file.txt) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 582.35 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 568.18 Td (Dans le processus, le fichier a ses fins de lignes convertis  au format standard CRLF. Pour écrire un) Tj ET Q
+q 0.000 g BT 70.87 554.01 Td (fichier binaire comme une image, via le réseau,  utilisez le code suivant :) Tj ET Q
+q 0.000 g BT 70.87 539.83 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 526.26 Td ( write/binary ftp://ftp.domain.com/file.txt/image.jpg read/binary %image.jpg) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 511.49 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 497.32 Td (Voyez le chapitre sur les protocoles Réseau pour plus d'information et d'exemples  sur les moyens) Tj ET Q
+q 0.000 g BT 70.87 483.14 Td (d'accéder à des fichiers via le réseau.) Tj ET Q
+q 0.000 g BT 70.87 468.97 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 425.25 Td (6 Conversion de Ligne) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 412.28 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 398.10 Td (Quand un fichier est lu en tant que texte, toutes les fins de lignes sont  converties en caractères ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 383.93 Td (newline) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 107.55 383.93 Td ( \(line feed\). Les caractères LF \(utilisés comme caractères de fin de lignes  pour Amiga, Linux,) Tj ET Q
+q 0.000 g BT 70.87 369.76 Td (et les systèmes UNIX\), les retours chariots CR \(utilisés sur Macintosh\) ou  la combinaison CR/LF \(PC) Tj ET Q
+q 0.000 g BT 70.87 355.58 Td (et Internet\) sont tous transformés en leurs équivalents ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 312.65 355.58 Td (newline) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 349.33 355.58 Td (.) Tj ET Q
+q 0.000 g BT 70.87 341.41 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 327.24 Td (L'usage d'un caractère standard au sein d'un script permet de le faire marcher  indépendamment du) Tj ET Q
+q 0.000 g BT 70.87 313.06 Td (contexte machine. Par exemple, pour chercher et compter tous les caractères  ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 420.46 313.06 Td (newline) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 457.14 313.06 Td ( à l'intérieur) Tj ET Q
+q 0.000 g BT 70.87 298.89 Td (d'un fichier texte :) Tj ET Q
+q 0.000 g BT 70.87 284.72 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 271.14 Td ( text: read %file.txt) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 256.97 Td ( count: 0) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 242.80 Td ( while [spot: find text newline][) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 228.62 Td (     count: count + 1) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 214.45 Td (     text: next spot) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 200.28 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 185.50 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 171.33 Td (La conversion de ligne est aussi pratique pour la lecture de fichiers distants :) Tj ET Q
+q 0.000 g BT 70.87 157.16 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 143.58 Td ( text: read ftp://ftp.rebol.com/test.txt) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 128.81 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 114.64 Td (Quand un fichier est écrit, le caractère ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 242.61 114.64 Td (newline) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 279.29 114.64 Td ( est converti dans le  type de fin de ligne pour le) Tj ET Q
+q 0.000 g BT 70.87 100.46 Td (système d'exploitation cible.  Par exemple, le caractère newline est transformé en CRLF pour les PCs,) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 9/17) Tj ET Q
+
+endstream
+endobj
+21 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 22 0 R>>
+endobj
+22 0 obj
+<</Length 4621>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (Manuel de l'utilisateur - Chapitre 12 - Fichiers) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td (LF sur UNIX  ou AMIGA, ou CR pour un Macintosh. Les fichiers sur le réseau sont écrits avec CRLF.) Tj ET Q
+q 0.000 g BT 70.87 780.78 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 766.61 Td (La fonction suivante transforme n'importe quel texte, quel que soit le style de  fin de ligne en celui) Tj ET Q
+q 0.000 g BT 70.87 752.43 Td (qu'utilise le système d'exploitation local :) Tj ET Q
+q 0.000 g BT 70.87 738.26 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 724.69 Td ( convert-lines: func [file] [write file read file]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 709.91 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 695.74 Td (Le fichier est lu et tous les caractères de fin de ligne sont transformés en caractère newline,  puis le) Tj ET Q
+q 0.000 g BT 70.87 681.57 Td (fichier est écrit et les caractères newline sont convertis  dans le type nécessaire pour le système) Tj ET Q
+q 0.000 g BT 70.87 667.39 Td (d'exploitation local.) Tj ET Q
+q 0.000 g BT 70.87 653.22 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 639.05 Td (La conversion de ligne peut être désactivée en lisant le fichier texte en mode binaire.) Tj ET Q
+q 0.000 g BT 70.87 624.87 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 610.70 Td (Par exemple, la ligne suivante :) Tj ET Q
+q 0.000 g BT 70.87 596.53 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 582.95 Td ( write/binary %newfile.txt read/binary %oldfile.txt) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 568.18 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 554.01 Td (préserve les fins de lignes du fichier texte original \() Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 295.40 554.01 Td (%oldfile.txt) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 343.75 554.01 Td (\).) Tj ET Q
+q 0.000 g BT 70.87 539.83 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 496.12 Td (7 Blocs de Lignes) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 483.14 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 468.97 Td (Les fichiers textes peuvent facilement être atteints et gérés  sous forme de lignes individuelles, plutôt) Tj ET Q
+q 0.000 g BT 70.87 454.80 Td (que comme une seule série de caractères. Par exemple, pour lire un fichier sous la forme d'un bloc de) Tj ET Q
+q 0.000 g BT 70.87 440.62 Td (lignes :) Tj ET Q
+q 0.000 g BT 70.87 426.45 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 412.88 Td ( lines: read/lines %service.txt) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 398.10 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 383.93 Td (L'exemple précédent renvoie un bloc contenant une série \(au sens REBOL\) de chaînes de  caractères) Tj ET Q
+q 0.000 g BT 70.87 369.76 Td (\(une pour chaque ligne\), sans caractères de fin de ligne. Les lignes vierges  sont représentées par) Tj ET Q
+q 0.000 g BT 70.87 355.58 Td (des chaînes vides.) Tj ET Q
+q 0.000 g BT 70.87 341.41 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 327.24 Td (Pour afficher une ligne spécifique, vous pouvez utiliser le code suivant :) Tj ET Q
+q 0.000 g BT 70.87 313.06 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 299.49 Td ( print first lines) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 285.32 Td ( print last lines) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 271.14 Td ( print pick lines 100) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 256.97 Td ( print lines/500) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 242.20 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 228.02 Td (Pour afficher toutes les lignes d'un fichier, utilisez l'exemple de code suivant.) Tj ET Q
+q 0.000 g BT 70.87 213.85 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 200.28 Td ( foreach line lines [print line]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 186.10 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 75.67 186.10 Td (I wanted the gold, and I sought it,) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 171.93 Td ( I scrabbled and mucked like a slave.) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 157.76 Td ( Was it famine or scurvy -- I fought it;) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 143.58 Td ( I hurled my youth into a grave.) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 129.41 Td ( I wanted the gold, and I got it --) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 115.24 Td ( Came out with a fortune last fall, --) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 101.06 Td ( Yet somehow life's not what I thought it,) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 501.28 45.79 Td (Page 10/17) Tj ET Q
+
+endstream
+endobj
+23 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 24 0 R>>
+endobj
+24 0 obj
+<</Length 5213>>
+stream
+2 J
+0.85 w
+BT /F2 8.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 70.87 819.05 Td (Manuel de l'utilisateur - Chapitre 12 - Fichiers) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 795.55 Td ( And somehow the gold isn't all.) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 780.78 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 766.61 Td (Pour afficher toutes les lignes qui contiennent la chaîne ") Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 322.33 766.61 Td (gold) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 341.23 766.61 Td (",  utilisez la ligne de code suivante :) Tj ET Q
+q 0.000 g BT 70.87 752.43 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 738.86 Td ( foreach line lines [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 724.69 Td (    if find line "gold" [print line]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 710.51 Td ( ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 696.34 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 75.67 696.34 Td (I wanted the gold, and I sought it,) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 682.17 Td ( I wanted the gold, and I got it --) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 667.99 Td ( And somehow the gold isn't all.) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 653.22 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 639.05 Td (Vous pouvez écrire un fichier texte ligne par ligne en utilisant  la fonction ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 393.80 639.05 Td (write) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 417.14 639.05 Td ( avec le raffinement ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 624.87 Td (/lines) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 96.44 624.87 Td ( :) Tj ET Q
+q 0.000 g BT 70.87 610.70 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 597.13 Td ( write/lines %output.txt lines) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 582.35 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 568.18 Td (Pour écrire un fichier à partir de lignes spécifiques d'un bloc, utilisez :) Tj ET Q
+q 0.000 g BT 70.87 554.01 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 540.43 Td ( write/lines %output.txt [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 526.26 Td (     "line one") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 512.09 Td (     "line two") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 497.92 Td (     "line three") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 483.74 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 468.97 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 454.80 Td (En fait, les fonctions ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 163.14 454.80 Td (read/lines) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 209.83 454.80 Td ( et ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 223.73 454.80 Td (write/lines) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 272.64 454.80 Td ( peuvent être combinées pour  traiter des fichiers ligne) Tj ET Q
+q 0.000 g BT 70.87 440.62 Td (par ligne. Par exemple, le code suivant efface tous les commentaires  d'un script REBOL :) Tj ET Q
+q 0.000 g BT 70.87 426.45 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 412.88 Td ( script: read/lines %script.r) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 398.70 Td ( foreach line script [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 384.53 Td (     where: find line ";") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 370.36 Td (     if where [clear where]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 356.18 Td ( ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 342.01 Td ( write/lines %script1.r script) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 327.24 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 313.06 Td (Le bout de script précédent est indiqué à des fins de démonstration.  En effet, en plus d'effacer les) Tj ET Q
+q 0.000 g BT 70.87 298.89 Td (commentaires, le code effacerait aussi les points virgules  valides présents dans les chaînes de) Tj ET Q
+q 0.000 g BT 70.87 284.72 Td (caractères entre apostrophes.) Tj ET Q
+q 0.000 g BT 70.87 270.54 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 256.37 Td (Les fichiers peuvent également être lus ligne par ligne depuis le réseau :) Tj ET Q
+q 0.000 g BT 70.87 242.20 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 228.62 Td ( data: read/lines http://www.rebol.com) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 214.45 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 200.28 Td ( print pick \(read/lines ftp://ftp.rebol.com/test.txt\) 3) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 185.50 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 141.78 Td (8 new) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 128.81 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 114.64 Td (Le raffinement ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 137.57 114.64 Td (/lines) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 163.14 114.64 Td ( peut aussi être utilisé avec la fonction ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 334.89 114.64 Td (open) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 358.78 114.64 Td (  pour lire une ligne à la fois à partir) Tj ET Q
+q 0.000 g BT 70.87 100.46 Td (d'une saisie à la console. Voir  le chapitre sur les Ports pour plus d'information.) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 501.28 45.79 Td (Page 11/17) Tj ET Q
+
+endstream
+endobj
+25 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 26 0 R>>
+endobj
+26 0 obj
+<</Length 4538>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (Manuel de l'utilisateur - Chapitre 12 - Fichiers) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 780.78 Td (De surcroît, ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 125.33 780.78 Td (/lines) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 150.90 780.78 Td ( peut servir, avec le raffinement ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 293.18 780.78 Td (/append) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 331.52 780.78 Td (, à  ajouter des lignes à un fichier, depuis) Tj ET Q
+q 0.000 g BT 70.87 766.61 Td (un bloc.) Tj ET Q
+q 0.000 g BT 70.87 752.43 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 708.71 Td (9 Information sur les fichiers et les répertoires) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 695.74 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 681.57 Td (Il existe de nombreuses fonctions permettant d'avoir des informations utiles sur  un fichier comme : s'il) Tj ET Q
+q 0.000 g BT 70.87 667.39 Td (existe, sa taille en octets, lorsqu'il a été modifié, ou  s'il s'agit d'un répertoire.) Tj ET Q
+q 0.000 g BT 70.87 653.22 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 609.50 Td (9.1 Contrôle de Répertoire) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 596.53 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 582.35 Td (Pour déterminer si un nom de fichier est celui d'un répertoire, utilisez  la fonction ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 428.48 582.35 Td (dir ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 450.15 582.35 Td (.) Tj ET Q
+q 0.000 g BT 70.87 568.18 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 554.61 Td ( print dir? %file.txt) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 540.43 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 75.67 540.43 Td (false) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 526.26 Td ( print dir? %.) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 512.09 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 75.67 512.09 Td (true) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 497.32 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 483.14 Td (La fonction ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 122.57 483.14 Td (dir ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 144.24 483.14 Td ( fonctionne également avec la plupart des protocoles réseau :) Tj ET Q
+q 0.000 g BT 70.87 468.97 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 455.40 Td ( print dir? ftp://www.rebol.com/pub/) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 441.22 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 75.67 441.22 Td (true) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 426.45 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 382.73 Td (9.2 Existence de fichier) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 369.76 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 355.58 Td (Pour déterminer si un fichier existe, utilisez la fonction ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 312.07 355.58 Td (exists ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 349.31 355.58 Td ( :) Tj ET Q
+q 0.000 g BT 70.87 341.41 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 327.84 Td ( print exists? %file.txt) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 313.06 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 298.89 Td (Pour savoir si un fichier existe avant d'essayer de le lire :) Tj ET Q
+q 0.000 g BT 70.87 284.72 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 271.14 Td ( if exists? file [text: read file]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 256.37 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 242.20 Td (Pour éviter d'écraser un fichier, vous pouvez contrôler sa présence :) Tj ET Q
+q 0.000 g BT 70.87 228.02 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 214.45 Td ( if not exists? file [write file data]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 199.68 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 185.50 Td (La fonction ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 122.57 185.50 Td (exists ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 159.81 185.50 Td ( fonctionne aussi avec la plupart des  protocoles réseau :) Tj ET Q
+q 0.000 g BT 70.87 171.33 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 157.76 Td ( print exists? ftp://www.rebol.com/file.txt) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 142.98 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 99.26 Td (9.3 Taille de fichier) Tj ET Q
+BT /F1 10.00 Tf ET
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 501.28 45.79 Td (Page 12/17) Tj ET Q
+
+endstream
+endobj
+27 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 28 0 R>>
+endobj
+28 0 obj
+<</Length 5018>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (Manuel de l'utilisateur - Chapitre 12 - Fichiers) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 780.78 Td (Pour obtenir la taille en octets d'un fichier, utilisez la fonction ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 340.68 780.78 Td (size ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 368.47 780.78 Td ( :) Tj ET Q
+q 0.000 g BT 70.87 766.61 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 753.03 Td ( print size? %file.txt) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 738.26 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 724.09 Td (La fonction ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 122.57 724.09 Td (size ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 150.36 724.09 Td ( est utilisable avec la plupart des protocoles réseau :) Tj ET Q
+q 0.000 g BT 70.87 709.91 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 696.34 Td ( print size? ftp://www.rebol.com/file.txt) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 681.57 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 637.85 Td (9.4 Date de modification d'un fichier) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 624.87 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 610.70 Td (Pour obtenir la date à laquelle un fichier a été modifié, utilisez la  fonction ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 397.14 610.70 Td (modified ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 447.70 610.70 Td ( :) Tj ET Q
+q 0.000 g BT 70.87 596.53 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 582.95 Td ( print modified? %file.txt) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 568.78 Td ( 30-Jun-2000/14:41:55-7:00) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 554.01 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 539.83 Td (Tous les systèmes d'exploitation ne conservent pas la date de création d'un fichier,  donc pour gardez) Tj ET Q
+q 0.000 g BT 70.87 525.66 Td (les scripts REBOL indépendants du système d'exploitation, utilisez  ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 371.24 525.66 Td (modified ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 421.80 525.66 Td ( juste lorsque la date) Tj ET Q
+q 0.000 g BT 70.87 511.49 Td (de dernière modification est accessible.) Tj ET Q
+q 0.000 g BT 70.87 497.32 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 483.14 Td (La fonction ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 122.57 483.14 Td (modified ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 173.13 483.14 Td ( fonctionne aussi avec la plupart des protocoles réseaux :) Tj ET Q
+q 0.000 g BT 70.87 468.97 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 455.40 Td ( print modified? ftp://www.rebol.com/file.txt) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 440.62 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 396.90 Td (9.5 Information relative à un fichier) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 383.93 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 369.76 Td (La fonction ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 122.57 369.76 Td (info ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 149.79 369.76 Td ( récupère toutes les informations sur les fichiers et les répertoires  en même temps.) Tj ET Q
+q 0.000 g BT 70.87 355.58 Td (Ces informations sont retournées sous la forme d'un objet :) Tj ET Q
+q 0.000 g BT 70.87 341.41 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 327.84 Td ( probe info? %file.txt) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 313.66 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 75.67 313.66 Td (make object! [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 299.49 Td (     size: 306) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 285.32 Td (     date: 30-Jun-2000/14:41:55-7:00) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 271.14 Td (     type: 'file) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 256.97 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 242.20 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 228.02 Td (Pour afficher des informations concernant tous les fichiers du répertoire  courant, utilisez :) Tj ET Q
+q 0.000 g BT 70.87 213.85 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 200.28 Td ( foreach file read %. [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 186.10 Td (     info: info? file) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 171.93 Td (     print [file info/size info/date info/type]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 157.76 Td ( ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 143.58 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 75.67 143.58 Td (build-guide.r 22334 30-Jun-2000/14:24:43-7:00 file) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 129.41 Td ( code/ 11 11-Oct-1999/18:37:04-7:00 directory) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 115.24 Td ( data.r 41 30-Jun-2000/14:41:36-7:00 file) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 101.06 Td ( file.txt 306 30-Jun-2000/14:41:55-7:00 file) Tj ET Q
+BT /F1 10.00 Tf ET
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 501.28 45.79 Td (Page 13/17) Tj ET Q
+
+endstream
+endobj
+29 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 30 0 R>>
+endobj
+30 0 obj
+<</Length 4486>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (Manuel de l'utilisateur - Chapitre 12 - Fichiers) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 780.78 Td (La fonction ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 122.57 780.78 Td (info ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 149.79 780.78 Td ( est utilisable avec beaucoup de protocoles réseau :) Tj ET Q
+q 0.000 g BT 70.87 766.61 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 753.03 Td ( probe info? ftp://www.rebol.com/file.txt) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 738.26 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 694.54 Td (10 Répertoires) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 681.57 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 667.39 Td (Il y a plusieurs fonctions prêtes à l'emploi pour lire des répertoires, gérer des  sous-répertoires, créer) Tj ET Q
+q 0.000 g BT 70.87 653.22 Td (de nouveaux répertoires, renommer et effacer des fichiers.) Tj ET Q
+q 0.000 g BT 70.87 639.05 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 624.87 Td (De plus, il existe les fonctions standards, pour connaître, modifier et lister le répertoire  courant.) Tj ET Q
+q 0.000 g BT 70.87 610.70 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 596.53 Td (Pour plus d'informations concernant l'accès aux répertoires, voir le chapitre relatif aux Ports.) Tj ET Q
+q 0.000 g BT 70.87 582.35 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 538.63 Td (10.1 Lire un répertoire) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 525.66 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 511.49 Td (Les répertoires sont lus de la même manière que les fichiers.  La fonction ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 398.23 511.49 Td (read) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 419.35 511.49 Td ( renvoie un bloc de) Tj ET Q
+q 0.000 g BT 70.87 497.32 Td (noms de fichiers au lieu de données texte ou binaires.) Tj ET Q
+q 0.000 g BT 70.87 483.14 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 468.97 Td (Pour connaître tous les noms de fichiers du répertoire courant, utilisez la ligne suivante de  code :) Tj ET Q
+q 0.000 g BT 70.87 454.80 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 441.22 Td ( read %.) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 426.45 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 412.28 Td (L'exemple précédent lit le répertoire entier et renvoie un bloc composé des noms  des fichiers.) Tj ET Q
+q 0.000 g BT 70.87 398.10 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 383.93 Td (Pour afficher les noms de tous les fichiers dans un répertoire, utilisez la ligne de  code suivante :) Tj ET Q
+q 0.000 g BT 70.87 369.76 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 356.18 Td ( print read %intro/) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 342.01 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 75.67 342.01 Td (CVS/ history.t intro.t overview.t quick.t) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 327.24 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 313.06 Td (A l'intérieur du bloc renvoyé, les noms des répertoires sont spécifiés avec un slash final.  Pour afficher) Tj ET Q
+q 0.000 g BT 70.87 298.89 Td (chaque nom de fichier sur un ligne différente, saisissez :) Tj ET Q
+q 0.000 g BT 70.87 284.72 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 271.14 Td ( foreach file read %intro/ [print file]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 256.97 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 75.67 256.97 Td (CVS/) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 242.80 Td ( history.t) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 228.62 Td ( intro.t) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 214.45 Td ( overview.t) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 200.28 Td ( quick.t) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 185.50 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 171.33 Td (Voici une manière facile d'afficher seulement les répertoires qui ont été trouvés :) Tj ET Q
+q 0.000 g BT 70.87 157.16 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 143.58 Td ( foreach file read %intro/ [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 129.41 Td (     if #"/" = last file [print file]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 115.24 Td ( ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 101.06 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 75.67 101.06 Td (CVS/) Tj ET Q
+BT /F1 10.00 Tf ET
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 501.28 45.79 Td (Page 14/17) Tj ET Q
+
+endstream
+endobj
+31 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 32 0 R>>
+endobj
+32 0 obj
+<</Length 5389>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (Manuel de l'utilisateur - Chapitre 12 - Fichiers) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 780.78 Td (Si vous voulez lire un répertoire présent sur le réseau, n'oubliez pas d'inclure le symbole  "slash" à la) Tj ET Q
+q 0.000 g BT 70.87 766.61 Td (fin de l'URL pour indiquer au protocole que vous faites référence à un répertoire :) Tj ET Q
+q 0.000 g BT 70.87 752.43 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 738.86 Td ( print read ftp://ftp.rebol.com/) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 724.09 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 680.37 Td (10.2 Créer un répertoire) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 667.39 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 653.22 Td (La fonction ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 122.57 653.22 Td (make-dir) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 164.25 653.22 Td ( permet de créer un nouveau répertoire.) Tj ET Q
+q 0.000 g BT 70.87 639.05 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 624.87 Td (Le nom du nouveau répertoire doit être relatif au répertoire courant ou à un chemin absolu.) Tj ET Q
+q 0.000 g BT 70.87 610.70 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 597.13 Td ( make-dir %new-dir) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 582.95 Td ( make-dir %local-dir/) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 568.78 Td ( make-dir %/work/docs/old-docs/) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 554.01 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 539.83 Td (Le slash final est optionnel pour cette fonction. En interne, la fonction ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 378.82 539.83 Td (make-dir) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 420.50 539.83 Td ( appelle  la fonction ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 525.66 Td (open) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 94.76 525.66 Td ( avec le raffinement ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 184.80 525.66 Td (/new) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 207.03 525.66 Td (.) Tj ET Q
+q 0.000 g BT 70.87 511.49 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 497.32 Td (La ligne :) Tj ET Q
+q 0.000 g BT 70.87 483.14 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 469.57 Td ( close open/new %local-dir/) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 454.80 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 440.62 Td (crée également un nouveau répertoire. Le slash final est par contre important dans cet exemple, car  il) Tj ET Q
+q 0.000 g BT 70.87 426.45 Td (indique qu'un répertoire doit être créé plutôt qu'un fichier.) Tj ET Q
+q 0.000 g BT 70.87 412.28 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 398.10 Td (Si vous utilisez la fonction ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 188.14 398.10 Td (make-dir) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 229.82 398.10 Td ( pour créer un répertoire déjà existant, une erreur  sera générée.) Tj ET Q
+q 0.000 g BT 70.87 383.93 Td (L'erreur peut être capturée avec la fonction ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 263.99 383.93 Td (try) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 276.77 383.93 Td (. L'existence du répertoire doit être  contrôlée) Tj ET Q
+q 0.000 g BT 70.87 369.76 Td (auparavant avec la fonction ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 195.94 369.76 Td (exists ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 233.18 369.76 Td (.) Tj ET Q
+q 0.000 g BT 70.87 355.58 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 311.86 Td (10.3 Renommage des répertoires et des fichiers) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 298.89 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 284.72 Td (Pour renommer un fichier, utilisez la fonction ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 270.94 284.72 Td (rename) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 306.51 284.72 Td ( :) Tj ET Q
+q 0.000 g BT 70.87 270.54 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 256.97 Td ( rename %old-file %new-file) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 242.20 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 228.02 Td (L'ancien nom de fichier doit inclure le chemin d'accès complet au fichier, mais ceci n'est  pas) Tj ET Q
+q 0.000 g BT 70.87 213.85 Td (nécessaire pour le nouveau nom de fichier. En effet, la fonction ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 353.24 213.85 Td (rename) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 388.81 213.85 Td ( n'est  pas destinée à déplacer) Tj ET Q
+q 0.000 g BT 70.87 199.68 Td (des fichiers entre différents répertoires.\(Beaucoup de  systèmes d'exploitation ne permettent pas cette) Tj ET Q
+q 0.000 g BT 70.87 185.50 Td (fonctionnalité.\)) Tj ET Q
+q 0.000 g BT 70.87 171.33 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 157.76 Td ( rename %../docs/intro.txt %conclusion.txt) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 142.98 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 128.81 Td (Si l'ancien nom de fichier est un répertoire \(indiqué par un slash final\), la fonction  ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 434.05 128.81 Td (rename) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 469.62 128.81 Td ( renommera) Tj ET Q
+q 0.000 g BT 70.87 114.64 Td (le répertoire :) Tj ET Q
+q 0.000 g BT 70.87 100.46 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 501.28 45.79 Td (Page 15/17) Tj ET Q
+
+endstream
+endobj
+33 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 34 0 R>>
+endobj
+34 0 obj
+<</Length 4975>>
+stream
+2 J
+0.85 w
+BT /F2 8.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 70.87 819.05 Td (Manuel de l'utilisateur - Chapitre 12 - Fichiers) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 795.55 Td ( rename %../docs/ %manual/) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 780.78 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 766.61 Td (Si le fichier ne peut être renommé, une erreur se produira.  L'erreur peut être capturée avec la fonction) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 752.43 Td (try) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 83.65 752.43 Td (.) Tj ET Q
+q 0.000 g BT 70.87 738.26 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 694.54 Td (10.4 Effacer des répertoires et des fichiers) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 681.57 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 667.39 Td (Les fichiers peuvent être effacés avec la fonction ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 289.87 667.39 Td (delete) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 318.77 667.39 Td ( :) Tj ET Q
+q 0.000 g BT 70.87 653.22 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 639.65 Td ( delete %file) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 624.87 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 610.70 Td (Le fichier à supprimer doit avoir un chemin d'accès complet :) Tj ET Q
+q 0.000 g BT 70.87 596.53 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 582.95 Td ( delete %source/docs/file.txt) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 568.18 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 554.01 Td (Un bloc de plusieurs fichiers au sein d'un même répertoire peut aussi  être supprimé en une fois :) Tj ET Q
+q 0.000 g BT 70.87 539.83 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 526.26 Td ( delete [%file1 %file2 %file3]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 511.49 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 497.32 Td (Un ensemble de fichiers peut être supprimé en utilisant un caractère joker et le raffinement ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 474.93 497.32 Td (/any) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 494.94 497.32 Td ( :) Tj ET Q
+q 0.000 g BT 70.87 483.14 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 469.57 Td ( delete/any %file*) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 455.40 Td ( delete/any %secret.?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 440.62 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 426.45 Td (Le caractère joker "astérisque" ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 209.69 426.45 Td (\(*\)) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 220.24 426.45 Td ( est équivalent à "tous les caractères", et le caractère  joker "point) Tj ET Q
+q 0.000 g BT 70.87 412.28 Td (d'interrogation" ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 140.25 412.28 Td (\( ?\)) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 155.80 412.28 Td ( équivaut à remplacer un unique caractère.) Tj ET Q
+q 0.000 g BT 70.87 398.10 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 383.93 Td (Pour supprimer un répertoire, mettez à son nom le slash final :) Tj ET Q
+q 0.000 g BT 70.87 369.76 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 356.18 Td ( delete %dir/) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 342.01 Td ( delete %../docs/old/) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 327.24 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 313.06 Td (Si le fichier ne peut être supprimé, une erreur sera générée. Il est possible de  capturer cette erreur) Tj ET Q
+q 0.000 g BT 70.87 298.89 Td (avec la fonction ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 143.13 298.89 Td (try) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 155.91 298.89 Td (.) Tj ET Q
+q 0.000 g BT 70.87 284.72 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 241.00 Td (10.5 Répertoire courant) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 228.02 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 213.85 Td (Utilisez la fonction ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 154.23 213.85 Td (what-dir) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 193.12 213.85 Td ( pour déterminer le répertoire courant :) Tj ET Q
+q 0.000 g BT 70.87 199.68 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 186.10 Td ( print what-dir) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 171.93 Td ( /work/REBOL/) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 157.16 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 142.98 Td (La fonction ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 122.57 142.98 Td (what-dir) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 161.46 142.98 Td ( fait référence au répertoire courant relatif au script en oeuvre comme  indiqué) Tj ET Q
+q 0.000 g BT 70.87 128.81 Td (dans la variable ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 143.68 128.81 Td (system/script/path) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 232.04 128.81 Td (.) Tj ET Q
+q 0.000 g BT 70.87 114.64 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 501.28 45.79 Td (Page 16/17) Tj ET Q
+
+endstream
+endobj
+35 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 36 0 R>>
+endobj
+36 0 obj
+<</Length 1775>>
+stream
+2 J
+0.85 w
+BT /F5 14.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 70.87 819.05 Td (Manuel de l'utilisateur - Chapitre 12 - Fichiers) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 793.75 Td (10.6 Modifier le répertoire courant) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 780.78 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 766.61 Td (Pour modifier le répertoire courant, utilisez la fonction ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 309.85 766.61 Td (change-dir) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 360.97 766.61 Td ( :) Tj ET Q
+q 0.000 g BT 70.87 752.43 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 738.86 Td ( change-dir %new-path/to-dir/) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 724.09 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 709.91 Td (Si le slash final n'est pas inclus, la fonction l'ajoute.) Tj ET Q
+q 0.000 g BT 70.87 695.74 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 652.02 Td (10.7 Listing du Répertoire courant) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 639.05 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 624.87 Td (Pour lister le contenu du répertoire courant, utilisez :) Tj ET Q
+q 0.000 g BT 70.87 610.70 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 597.13 Td ( list-dir) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 582.35 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 568.18 Td (Le nombre de colonnes utilisées pour afficher le contenu du répertoire dépend de la  taille de fenêtre) Tj ET Q
+q 0.000 g BT 70.87 554.01 Td (de la console, et de la longueur maximale des noms de fichiers.) Tj ET Q
+BT /F6 8.00 Tf ET
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 501.28 45.79 Td (Page 17/17) Tj ET Q
+
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R 27 0 R 29 0 R 31 0 R 33 0 R 35 0 R ]
+/Count 17
+/MediaBox [0 0 595.28 841.89]
+>>
+endobj
+37 0 obj
+<</Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+38 0 obj
+<</Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+39 0 obj
+<</Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+40 0 obj
+<</Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+41 0 obj
+<</Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+42 0 obj
+<</Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 37 0 R
+/F2 38 0 R
+/F3 39 0 R
+/F4 40 0 R
+/F5 41 0 R
+/F6 42 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+43 0 obj
+<<
+/Producer (FPDF 1.53)
+/Title (Manuel de l'utilisateur - Chapitre 12 - Fichiers)
+/Subject (Manuels)
+/Author (Philippe Le Goff )
+/Keywords (DOCUMENTATION)
+/Creator (The REBOL Documentation Project)
+/CreationDate (D:20051229103224)
+>>
+endobj
+44 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 45
+0000000000 65535 f 
+0000088820 00000 n 
+0000089613 00000 n 
+0000000009 00000 n 
+0000000222 00000 n 
+0000001905 00000 n 
+0000005616 00000 n 
+0000012965 00000 n 
+0000013178 00000 n 
+0000019552 00000 n 
+0000019766 00000 n 
+0000025494 00000 n 
+0000025709 00000 n 
+0000030226 00000 n 
+0000030441 00000 n 
+0000035488 00000 n 
+0000035703 00000 n 
+0000040490 00000 n 
+0000040705 00000 n 
+0000045324 00000 n 
+0000045539 00000 n 
+0000050677 00000 n 
+0000050892 00000 n 
+0000055564 00000 n 
+0000055779 00000 n 
+0000061043 00000 n 
+0000061258 00000 n 
+0000065847 00000 n 
+0000066062 00000 n 
+0000071131 00000 n 
+0000071346 00000 n 
+0000075883 00000 n 
+0000076098 00000 n 
+0000081538 00000 n 
+0000081753 00000 n 
+0000086779 00000 n 
+0000086994 00000 n 
+0000089017 00000 n 
+0000089114 00000 n 
+0000089209 00000 n 
+0000089307 00000 n 
+0000089406 00000 n 
+0000089508 00000 n 
+0000089773 00000 n 
+0000090024 00000 n 
+trailer
+<<
+/Size 45
+/Root 44 0 R
+/Info 43 0 R
+>>
+startxref
+90128
+%%EOF

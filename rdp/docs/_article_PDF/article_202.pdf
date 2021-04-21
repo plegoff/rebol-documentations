@@ -1,0 +1,748 @@
+%PDF-1.3
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 4 0 R>>
+endobj
+4 0 obj
+<</Length 1611>>
+stream
+2 J
+0.57 w
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (REBOL/Services pour les nuls \(1\) - La définition) Tj ET Q
+0.57 w
+BT /F2 26.00 Tf ET
+q 0.502 g BT 118.24 656.92 Td (The REBOL Documentation) Tj ET Q
+q 0.502 g BT 243.04 631.41 Td (Project) Tj ET Q
+BT /F1 8.00 Tf ET
+q 0.502 g BT 220.74 616.97 Td (-- FR - Documentation REBOL - Tutoriels --) Tj ET Q
+0.85 w
+BT /F2 20.00 Tf ET
+q 0.502 g BT 73.70 423.45 Td (Tutoriels) Tj ET Q
+BT /F3 22.00 Tf ET
+297.64 436.54 m 297.64 413.86 l S q 0.000 g BT 300.47 418.60 Td (REBOL/Services pour) Tj ET Q
+297.64 413.86 m 297.64 391.18 l S q 0.000 g BT 300.47 395.92 Td (les nuls \(1\) - La) Tj ET Q
+297.64 391.18 m 297.64 368.50 l S q 0.000 g BT 300.47 373.24 Td (définition) Tj ET Q
+297.64 368.50 m 297.64 345.83 l S 
+BT /F4 16.00 Tf ET
+297.64 345.83 m 297.64 328.82 l S q 0.000 g BT 451.35 332.52 Td (REBOLtof) Tj ET Q
+BT /F4 12.00 Tf ET
+297.64 328.82 m 297.64 311.81 l S q 0.000 g BT 307.59 316.72 Td (Première publication : 4 janvier 2006, et mis) Tj ET Q
+297.64 311.81 m 297.64 294.80 l S q 0.000 g BT 350.61 299.71 Td (en ligne le  mercredi 4 janvier 2006) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 73.70 253.54 Td (Résumé :) Tj ET 73.70 252.54 45.01 -0.50 re f Q
+BT /F4 8.00 Tf ET
+q 0.000 g BT 73.70 239.96 Td (Premier d'une série visant à documenter les REBOL/Services, cet article va se concentrer sur leur définition et sur leurs usages.) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 1/6) Tj ET Q
+
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [93.54 683.90 146.89 673.90] /Border [0 0 0] /A <</S /URI /URI (#1)>>>><</Type /Annot /Subtype /Link /Rect [93.54 669.72 154.13 659.72] /Border [0 0 0] /A <</S /URI /URI (#2)>>>><</Type /Annot /Subtype /Link /Rect [113.39 655.55 274.82 645.55] /Border [0 0 0] /A <</S /URI /URI (#2.1)>>>><</Type /Annot /Subtype /Link /Rect [113.39 641.38 250.65 631.38] /Border [0 0 0] /A <</S /URI /URI (#2.2)>>>><</Type /Annot /Subtype /Link /Rect [113.39 627.20 304.57 617.20] /Border [0 0 0] /A <</S /URI /URI (#2.3)>>>><</Type /Annot /Subtype /Link /Rect [93.54 598.86 273.55 588.86] /Border [0 0 0] /A <</S /URI /URI (#3)>>>><</Type /Annot /Subtype /Link /Rect [113.39 584.69 237.79 574.69] /Border [0 0 0] /A <</S /URI /URI (#3.1)>>>><</Type /Annot /Subtype /Link /Rect [113.39 570.51 354.60 560.51] /Border [0 0 0] /A <</S /URI /URI (#3.2)>>>><</Type /Annot /Subtype /Link /Rect [113.39 556.34 286.81 546.34] /Border [0 0 0] /A <</S /URI /URI (#3.3)>>>><</Type /Annot /Subtype /Link /Rect [113.39 542.17 306.83 532.17] /Border [0 0 0] /A <</S /URI /URI (#3.4)>>>><</Type /Annot /Subtype /Link /Rect [113.39 527.99 300.14 517.99] /Border [0 0 0] /A <</S /URI /URI (#3.5)>>>><</Type /Annot /Subtype /Link /Rect [113.39 513.82 308.47 503.82] /Border [0 0 0] /A <</S /URI /URI (#3.6)>>>><</Type /Annot /Subtype /Link /Rect [113.39 499.65 326.25 489.65] /Border [0 0 0] /A <</S /URI /URI (#3.7)>>>><</Type /Annot /Subtype /Link /Rect [113.39 485.47 392.40 475.47] /Border [0 0 0] /A <</S /URI /URI (#3.8)>>>><</Type /Annot /Subtype /Link /Rect [93.54 457.13 314.20 447.13] /Border [0 0 0] /A <</S /URI /URI (#4)>>>><</Type /Annot /Subtype /Link /Rect [93.54 442.95 333.88 432.95] /Border [0 0 0] /A <</S /URI /URI (#5)>>>><</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 6 0 R>>
+endobj
+6 0 obj
+<</Length 7036>>
+stream
+2 J
+0.85 w
+BT /F4 8.00 Tf ET
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (REBOL/Services pour les nuls \(1\) - La définition) Tj ET Q
+BT /F4 8.00 Tf ET
+BT /F5 10.00 Tf ET
+q 0.000 g BT 73.70 794.95 Td (Premier d'une série visant à documenter les REBOL/Services, cet article va se concentrer sur) Tj ET Q
+q 0.000 g BT 73.70 780.78 Td (leur définition et sur leurs usages.) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 732.59 Td ( ) Tj ET Q
+q 0.000 g BT 76.48 732.59 Td ( Version : 1.0 ) Tj ET Q
+q 0.000 g BT 73.70 718.42 Td (Date : 19-dec-2005 ) Tj ET Q
+q 0.000 g BT 73.70 704.24 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 690.07 Td ( ) Tj ET Q
+q 0.000 g BT 93.54 690.07 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 675.90 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 675.90 Td (1 Historique) Tj ET 93.54 674.90 53.35 -0.50 re f Q
+q 0.000 g BT 146.89 675.90 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 661.72 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 661.72 Td (2 Introduction) Tj ET 93.54 660.72 60.59 -0.50 re f Q
+q 0.000 g BT 154.13 661.72 Td ( ) Tj ET Q
+q 0.000 g BT 98.88 647.55 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 113.39 647.55 Td (2.1 A propos de cette série d'articles) Tj ET 113.39 646.55 161.43 -0.50 re f Q
+q 0.000 g BT 274.82 647.55 Td ( ) Tj ET Q
+q 0.000 g BT 98.88 633.38 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 113.39 633.38 Td (2.2 Comment lire ces articles ?) Tj ET 113.39 632.38 137.26 -0.50 re f Q
+q 0.000 g BT 250.65 633.38 Td ( ) Tj ET Q
+q 0.000 g BT 98.88 619.20 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 113.39 619.20 Td (2.3 Pré requis pour comprendre les articles) Tj ET 113.39 618.20 191.18 -0.50 re f Q
+q 0.000 g BT 304.57 619.20 Td ( ) Tj ET Q
+q 0.000 g BT 93.54 605.03 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 590.86 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 590.86 Td (3 REBOL/Services, qu'est-ce que c'est ?) Tj ET 93.54 589.86 180.01 -0.50 re f Q
+q 0.000 g BT 273.55 590.86 Td ( ) Tj ET Q
+q 0.000 g BT 98.88 576.69 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 113.39 576.69 Td (3.1 Le concept de "fonction") Tj ET 113.39 575.69 124.40 -0.50 re f Q
+q 0.000 g BT 237.79 576.69 Td ( ) Tj ET Q
+q 0.000 g BT 98.88 562.51 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 113.39 562.51 Td (3.2 Des fonctions gourmandes en ressources système) Tj ET 113.39 561.51 241.21 -0.50 re f Q
+q 0.000 g BT 354.60 562.51 Td ( ) Tj ET Q
+q 0.000 g BT 98.88 548.34 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 113.39 548.34 Td (3.3 Utilisation de fonctionnalité distante) Tj ET 113.39 547.34 173.42 -0.50 re f Q
+q 0.000 g BT 286.81 548.34 Td ( ) Tj ET Q
+q 0.000 g BT 98.88 534.17 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 113.39 534.17 Td (3.4 Fonctionnalité distante et ... asynchrone) Tj ET 113.39 533.17 193.44 -0.50 re f Q
+q 0.000 g BT 306.83 534.17 Td ( ) Tj ET Q
+q 0.000 g BT 98.88 519.99 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 113.39 519.99 Td (3.5 Abracadabra, REBOL/Services est là !) Tj ET 113.39 518.99 186.75 -0.50 re f Q
+q 0.000 g BT 300.14 519.99 Td ( ) Tj ET Q
+q 0.000 g BT 98.88 505.82 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 113.39 505.82 Td (3.6 Comment fonctionne REBOL/Services ?) Tj ET 113.39 504.82 195.08 -0.50 re f Q
+q 0.000 g BT 308.47 505.82 Td ( ) Tj ET Q
+q 0.000 g BT 98.88 491.65 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 113.39 491.65 Td (3.7 Une définition formelle des REBOL/Services) Tj ET 113.39 490.65 212.86 -0.50 re f Q
+q 0.000 g BT 326.25 491.65 Td ( ) Tj ET Q
+q 0.000 g BT 98.88 477.47 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 113.39 477.47 Td (3.8 Un petit exemple simple et illustratif : une horloge atomique) Tj ET 113.39 476.47 279.01 -0.50 re f Q
+q 0.000 g BT 392.40 477.47 Td ( ) Tj ET Q
+q 0.000 g BT 93.54 463.30 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 449.13 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 449.13 Td (4 Quels sont les avantages de REBOL/Services ?) Tj ET 93.54 448.13 220.66 -0.50 re f Q
+q 0.000 g BT 314.20 449.13 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 434.95 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 434.95 Td (5 Quelques exemples d'utilisation de REBOL/Services) Tj ET 93.54 433.95 240.34 -0.50 re f Q
+q 0.000 g BT 333.88 434.95 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 406.61 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 73.70 362.89 Td (1 Historique) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 349.91 Td ( ) Tj ET Q
+q 0.000 g BT 76.48 349.91 Td ( ) Tj ET Q
+q 0.000 g BT 79.26 349.91 Td ( 					) Tj ET Q
+q 0.000 g BT 95.94 349.91 Td ( ) Tj ET Q
+q 0.000 g BT 98.72 349.91 Td ( ) Tj ET Q
+q 0.000 g BT 101.50 349.91 Td ( ) Tj ET Q
+q 0.000 g BT 104.28 349.91 Td ( ) Tj ET Q
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+1.000 1.000 0.000 rg
+89.30 360.00 64.03 -14.17 re B q 0.000 g BT 92.13 350.21 Td ( Date ) Tj ET Q
+BT /F1 9.00 Tf ET
+1.000 g
+BT /F5 9.00 Tf ET
+1.000 1.000 0.000 rg
+153.33 360.00 44.02 -14.17 re B q 0.000 g BT 156.17 350.21 Td (Version ) Tj ET Q
+BT /F1 9.00 Tf ET
+1.000 g
+BT /F5 9.00 Tf ET
+1.000 1.000 0.000 rg
+197.35 360.00 73.52 -14.17 re B q 0.000 g BT 200.18 350.21 Td (Commentaires ) Tj ET Q
+BT /F1 9.00 Tf ET
+1.000 g
+BT /F5 9.00 Tf ET
+1.000 1.000 0.000 rg
+270.87 360.00 51.52 -14.17 re B q 0.000 g BT 273.70 350.21 Td (Auteur ) Tj ET Q
+BT /F1 9.00 Tf ET
+1.000 g
+BT /F5 9.00 Tf ET
+1.000 1.000 0.000 rg
+322.39 360.00 183.59 -14.17 re B q 0.000 g BT 325.23 350.21 Td (Email ) Tj ET Q
+BT /F1 9.00 Tf ET
+1.000 g
+0.902 0.902 0.902 rg
+89.30 345.83 64.03 -14.17 re B q 0.000 g BT 92.13 336.04 Td ( 19-dec-2005 ) Tj ET Q
+153.33 345.83 44.02 -14.17 re B q 0.000 g BT 156.17 336.04 Td (1.0 ) Tj ET Q
+197.35 345.83 73.52 -14.17 re B q 0.000 g BT 200.18 336.04 Td (Version intiale ) Tj ET Q
+270.87 345.83 51.52 -14.17 re B q 0.000 g BT 273.70 336.04 Td (REBOLtof ) Tj ET Q
+322.39 345.83 183.59 -14.17 re B q 0.000 g BT 325.23 336.04 Td (reboltof&mdash;at&mdash;yahoo//dot//com ) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 321.57 Td ( ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 277.85 Td (2 Introduction) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 264.87 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 250.70 Td (Bienvenue dans le monde sauvage, fascinant et merveilleux des applications communicantes !) Tj ET Q
+q 0.000 g BT 70.87 236.53 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 192.81 Td (2.1 A propos de cette série d'articles) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 179.83 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 165.66 Td (Cette série d'articles va tenter de vous initier à l'utilisation des REBOL/Services, dernière innovation) Tj ET Q
+q 0.000 g BT 70.87 151.49 Td (de REBOL Technologies pour le langage de programmation REBOL.) Tj ET Q
+q 0.000 g BT 70.87 137.32 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 93.60 Td (2.2 Comment lire ces articles ?) Tj ET Q
+BT /F1 10.00 Tf ET
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 2/6) Tj ET Q
+
+endstream
+endobj
+7 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 8 0 R>>
+endobj
+8 0 obj
+<</Length 5043>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (REBOL/Services pour les nuls \(1\) - La définition) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 780.78 Td (Cette série d'articles abordera le sujet de manière progressive, en soulignant et définissant les) Tj ET Q
+q 0.000 g BT 70.87 766.61 Td (concepts de bases nécessaires à la compréhension des REBOL/Services.) Tj ET Q
+q 0.000 g BT 70.87 752.43 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 738.26 Td (La série se terminera par des articles essentiellement techniques. Il y aura de la sueur et du) Tj ET Q
+q 0.000 g BT 70.87 724.09 Td (cambouis :-\) Un bref coup d'oeil sur un article précédent vous permettra sans doute d'éclaircir certains) Tj ET Q
+q 0.000 g BT 70.87 709.91 Td (points restés obscurs.) Tj ET Q
+q 0.000 g BT 70.87 695.74 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 652.02 Td (2.3 Pré requis pour comprendre les articles) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 639.05 Td (  ) Tj ET Q
+q 7.56 0 0 10.39 70.87 627.17 cm /I1 Do Q
+q 0.000 g BT 82.20 624.87 Td (  Vous êtes capable d'allumer votre ordinateur. ) Tj ET Q
+q 7.56 0 0 10.39 70.87 612.99 cm /I1 Do Q
+q 0.000 g BT 82.20 610.70 Td (  Vous avez des connaissances \(même basiques\) du langage de programmation REBOL. ) Tj ET Q
+q 7.56 0 0 10.39 70.87 598.82 cm /I1 Do Q
+q 0.000 g BT 82.20 596.53 Td (  Vous souhaitez comprendre ce que les REBOL/Services représentent pour vous. ) Tj ET Q
+q 0.000 g BT 70.87 582.35 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 568.18 Td (IMPORTANT) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 554.01 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 539.83 Td (Les REBOL/Services en sont maintenant au stade de développement ALPHA. Cela signifie que nous) Tj ET Q
+q 0.000 g BT 70.87 525.66 Td (pouvons les étudier, les utiliser, tout en sachant que certains bugs peuvent encore être présents et) Tj ET Q
+q 0.000 g BT 70.87 511.49 Td (que certaines fonctionnalités peuvent encore être appelées à évoluer.) Tj ET Q
+q 0.000 g BT 70.87 497.32 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 483.14 Td (A ce stade-ci, nous sommes encore obligés de nous procurer les scripts nécessaires à l'utilisation des) Tj ET Q
+q 0.000 g BT 70.87 468.97 Td (/Services, et de les inclure dans nos scripts. Dans un futur que nous espérons proche, les /Services) Tj ET Q
+q 0.000 g BT 70.87 454.80 Td (seront inclus dans le code de l'interpréteur. ) Tj ET Q
+q 0.000 g BT 70.87 440.62 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 396.90 Td (3 REBOL/Services, qu'est-ce que c'est ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 383.93 Td (   ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 340.21 Td (3.1 Le concept de "fonction") Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 327.24 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 313.06 Td (De nos jour, la grosse majorité des programmeurs sont familiers avec la notion de "fonction" : il s'agit) Tj ET Q
+q 0.000 g BT 70.87 298.89 Td (d'un regroupement logique de lignes de code qui fournissent une ou plusieurs "fonctionnalités". Afin) Tj ET Q
+q 0.000 g BT 70.87 284.72 Td (de fournir celles-ci, la fonction a parfois besoin de données à traiter \(les paramètres\), et parfois pas.) Tj ET Q
+q 0.000 g BT 70.87 270.54 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 256.37 Td (Pour illustrer l'idée, prenons simplement une fonction qui met à disposition la fonctionnalité de ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 70.87 242.20 Td (compter le nombre de lettres du mot passé en paramètre) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 323.20 242.20 Td ( :) Tj ET Q
+q 0.000 g BT 70.87 228.02 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 214.45 Td ( >> compte-lettre: func [mot][return length? form mot]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 200.28 Td ( >> compte-lettre "hello") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 186.10 Td ( == 5) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 171.33 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 157.16 Td (Nous y retrouvons ) Tj ET Q
+q 7.56 0 0 10.39 70.87 145.28 cm /I1 Do Q
+q 0.000 g BT 82.20 142.98 Td (  ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 87.76 142.98 Td (le nom de la fonction) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 180.03 142.98 Td ( : "compte-lettre" ) Tj ET Q
+q 7.56 0 0 10.39 70.87 131.10 cm /I1 Do Q
+q 0.000 g BT 82.20 128.81 Td (  ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 87.76 128.81 Td (le paramètre de la fonction) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 206.15 128.81 Td ( : "mot" ) Tj ET Q
+q 7.56 0 0 10.39 70.87 116.93 cm /I1 Do Q
+q 0.000 g BT 82.20 114.64 Td (  ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 87.76 114.64 Td (le corps de la fonction) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 185.03 114.64 Td (, ou comment la fonctionnalité est implémentée : "return length ? form mot") Tj ET Q
+q 0.000 g BT 70.87 100.46 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 3/6) Tj ET Q
+
+endstream
+endobj
+9 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 10 0 R>>
+endobj
+10 0 obj
+<</Length 5314>>
+stream
+2 J
+0.85 w
+BT /F5 14.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 70.87 819.05 Td (REBOL/Services pour les nuls \(1\) - La définition) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 793.75 Td (3.2 Des fonctions gourmandes en ressources système) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 780.78 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 766.61 Td (Imaginons que nous devions utiliser une fonction devant appliquer certaines transformation sur des) Tj ET Q
+q 0.000 g BT 70.87 752.43 Td (images haute résolution, comme par exemple l'effacement de "parasites". Ce type de fonctionnalité) Tj ET Q
+q 0.000 g BT 70.87 738.26 Td (exige traditionnellement beaucoup de la puissance de calcul du processeur. Utiliser cette fonction sur) Tj ET Q
+q 0.000 g BT 70.87 724.09 Td (notre PC risque de bloquer son fonctionnement un temps, rendant impossible d'autres utilisations.) Tj ET Q
+q 0.000 g BT 70.87 709.91 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 695.74 Td (Une des solutions possibles à ce problème est d'exécuter cette fonction sur un PC plus puissant, et de) Tj ET Q
+q 0.000 g BT 70.87 681.57 Td (récupérer les résultats. Nous pouvons évidement mettre l'image à traiter sur un CD-ROM ou une clef) Tj ET Q
+q 0.000 g BT 70.87 667.39 Td (USB, nous déplacer jusqu'à ce PC, y charger l'image, lancer la fonction, et, quand le traitement est) Tj ET Q
+q 0.000 g BT 70.87 653.22 Td (terminé, effectuer l'opération inverse pour récupérer les données, mais il y a plus simple !) Tj ET Q
+q 0.000 g BT 70.87 639.05 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 595.33 Td (3.3 Utilisation de fonctionnalité distante) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 582.35 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 568.18 Td (Imaginons maintenant que nous pouvions disposer d'un mécanisme nous permettant ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 449.63 568.18 Td (de notre PC) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 502.99 568.18 Td (,) Tj ET Q
+q 0.000 g BT 70.87 554.01 Td (d'exécuter une fonction ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 176.73 554.01 Td (sur un PC distant...) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 261.77 554.01 Td ( Notre problème est alors résolu : nous pouvons, au) Tj ET Q
+q 0.000 g BT 70.87 539.83 Td (moment où nous en avons besoin, faire appel à la fonction distante, attendre le résultat \(qui vient) Tj ET Q
+q 0.000 g BT 70.87 525.66 Td (rapidement, le PC distant étant plus puissant que le nôtre\), et continuer notre travail...) Tj ET Q
+q 0.000 g BT 70.87 511.49 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 467.77 Td (3.4 Fonctionnalité distante et ... asynchrone) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 454.80 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 440.62 Td (Fantasmons encore plus : imaginons maintenant que nous n'ayant pas besoin du résultat de la) Tj ET Q
+q 0.000 g BT 70.87 426.45 Td (fonctionnalité distante directement après l'avoir sollicitée, mais quelque temps après. Ce qui nous) Tj ET Q
+q 0.000 g BT 70.87 412.28 Td (permet, durant le temps d'attente, d'effectuer d'autres travaux... Il nous suffirait de demander à cette) Tj ET Q
+q 0.000 g BT 70.87 398.10 Td (fonction distante de nous envoyer un signal afin de nous avertir de la fin du travail !) Tj ET Q
+q 0.000 g BT 70.87 383.93 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 340.21 Td (3.5 Abracadabra, REBOL/Services est là !) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 327.24 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 313.06 Td (Vous le sentiez venir, fins psychologues que vous êtes !) Tj ET Q
+q 0.000 g BT 70.87 298.89 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 284.72 Td (REBOL/Services nous offre la possibilité de créer ce type de fonctions distantes, de les appeler, de) Tj ET Q
+q 0.000 g BT 70.87 270.54 Td (recueillir des résultats, d'attendre la fin du traitement ou pas ...) Tj ET Q
+q 0.000 g BT 70.87 256.37 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 212.65 Td (3.6 Comment fonctionne REBOL/Services ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 199.68 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 185.50 Td (L'architecture interne des /Services fera l'objet d'autres articles. A ce stade-ci nous pouvons déjà) Tj ET Q
+q 0.000 g BT 70.87 171.33 Td (mentionner que le modèle utilisé est un modèle Client/Serveur des plus classiques.) Tj ET Q
+q 0.000 g BT 70.87 157.16 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 142.98 Td (Le ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 84.77 142.98 Td (Serveur) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 122.01 142.98 Td ( fournira les différentes fonctionnalités créées. Il s'agit d'un script qui est lancé sur le PC) Tj ET Q
+q 0.000 g BT 70.87 128.81 Td (distant et qui continue de tourner, constamment à l'écoute d'un port de communication \(pour rappel,) Tj ET Q
+q 0.000 g BT 70.87 114.64 Td (les "ports" sont une sorte de "tampon" ou de zone réservée en mémoire dans laquelle vont aller) Tj ET Q
+q 0.000 g BT 70.87 100.46 Td (s'inscrire des données\). Dés que des données sont inscrites sur le port, le ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 400.70 100.46 Td (Serveur) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 437.94 100.46 Td ( les lit et traite la) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 4/6) Tj ET Q
+
+endstream
+endobj
+11 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 12 0 R>>
+endobj
+12 0 obj
+<</Length 5494>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (REBOL/Services pour les nuls \(1\) - La définition) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td (demande \(la requête"\) qu'il y trouve : en l'occurrence ici, l'exécution d'une fonction spécifiée dans la) Tj ET Q
+q 0.000 g BT 70.87 780.78 Td (demande. Une fois la fonction exécutée, le ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 262.64 780.78 Td (Serveur) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 299.88 780.78 Td ( place le résultat de cette ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 413.83 780.78 Td (requête) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 449.95 780.78 Td ( sur le même) Tj ET Q
+q 0.000 g BT 70.87 766.61 Td (port, où il sera lu par le client) Tj ET Q
+q 0.000 g BT 70.87 752.43 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 738.26 Td (Le ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 84.77 738.26 Td (Client) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 112.55 738.26 Td ( est également un script, et il est lancé en fonction des besoins, sur le PC local. Il va) Tj ET Q
+q 0.000 g BT 70.87 724.09 Td (transmettre notre requête en allant écrire celle-ci sur le port du PC distant, et va récupérer les) Tj ET Q
+q 0.000 g BT 70.87 709.91 Td (résultats de celle-ci, à l'issue du traitement des données.) Tj ET Q
+q 0.000 g BT 70.87 695.74 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 681.57 Td (L'utilisation du modèle Client/Serveur à des fins d'exécution de fonctionnalité distante est appelé une ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 667.39 Td (architecture orientée service) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 207.04 667.39 Td ( \(ou ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 227.05 667.39 Td (Service Oriented Architecture - SOA) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 387.66 667.39 Td (\).) Tj ET Q
+q 0.000 g BT 70.87 653.22 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 609.50 Td (3.7 Une définition formelle des REBOL/Services) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 596.53 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 582.35 Td (REBOL/Services est donc une méthode afin d'échanger des données entre programmes) Tj ET Q
+q 0.000 g BT 70.87 568.18 Td (informatiques, par l'implémentation du concept d') Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 287.56 568.18 Td (architecture orientée service) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 423.73 568.18 Td (.) Tj ET Q
+q 0.000 g BT 70.87 554.01 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 539.83 Td (Un "service" se définit comme étant une fonctionnalité mise à disposition par le serveur.) Tj ET Q
+q 0.000 g BT 70.87 525.66 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 481.94 Td (3.8 Un petit exemple simple et illustratif : une horloge atomique) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 468.97 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 454.80 Td (Imaginons que nous ayons accès un PC distant, relié à une horloge atomique, et que le programme) Tj ET Q
+q 0.000 g BT 70.87 440.62 Td (que nous écrivons doive impérativement se baser sur le temps précis du moment...) Tj ET Q
+q 0.000 g BT 70.87 426.45 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 412.28 Td (Notre programme peut, au moment voulu, lancer une requête vers le serveur, en lui demandant) Tj ET Q
+q 0.000 g BT 70.87 398.10 Td (l'heure courante. Cette requête est exprimée dans le dialecte des REBOL/Services, de la manière) Tj ET Q
+q 0.000 g BT 70.87 383.93 Td (suivante :) Tj ET Q
+q 0.000 g BT 70.87 369.76 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 356.18 Td ( temps-précis: do-service tcp://server:8000 [time]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 341.41 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 327.24 Td (Le serveur va alors répondre à notre requête par un :) Tj ET Q
+q 0.000 g BT 70.87 313.06 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 299.49 Td ( [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 285.32 Td (     ok [time 13-Dec-2005/13:34:11.126]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 271.14 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 256.37 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 242.20 Td (que nous pouvons utiliser dans notre script...) Tj ET Q
+q 0.000 g BT 70.87 228.02 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 184.30 Td (4 Quels sont les avantages de REBOL/Services ?) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 171.33 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 157.16 Td (La liste de ces avantages est tirée du ) Tj ET Q
+q 0.000 g BT 238.74 157.16 Td (blog de Carl Sassenrath) Tj ET Q
+q 0.000 g BT 346.01 157.16 Td ( : ) Tj ET Q
+q 7.56 0 0 10.39 70.87 145.28 cm /I1 Do Q
+q 0.000 g BT 82.20 142.98 Td (  ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 87.76 142.98 Td (Facilité d'utilisation) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 180.72 142.98 Td ( - un service peut être appelé au moyen d'une simple ligne de code, et être) Tj ET Q
+q 0.000 g BT 70.87 128.81 Td (très rapidement implémenté. ) Tj ET Q
+q 7.56 0 0 10.39 70.87 116.93 cm /I1 Do Q
+q 0.000 g BT 82.20 114.64 Td (  ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 87.76 114.64 Td (Sécurité) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 127.22 114.64 Td ( - l'ensemble des échanges entre clients et serveurs sont encryptés. L'approche orientée) Tj ET Q
+q 0.000 g BT 70.87 100.46 Td (dialecte \(ce point sera détaillé dans un article ultérieur\) permet d'éviter l'exécution directe de fonctions.) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 5/6) Tj ET Q
+
+endstream
+endobj
+13 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 14 0 R>>
+endobj
+14 0 obj
+<</Length 4806>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (REBOL/Services pour les nuls \(1\) - La définition) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td (L'utilisation d'un système de clef privées/publique \(à la PGP\) sera possible. ) Tj ET Q
+q 7.56 0 0 10.39 70.87 783.07 cm /I1 Do Q
+q 0.000 g BT 82.20 780.78 Td (  ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 87.76 780.78 Td (Flexibilité) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 133.89 780.78 Td ( - L'utilisation de la puissance du parseur de REBOL permet de créer un code compact) Tj ET Q
+q 0.000 g BT 70.87 766.61 Td (qui offre une grande liberté et un contrôle approprié. L'approche choisie \(implémentation au niveau de) Tj ET Q
+q 0.000 g BT 70.87 752.43 Td (la couche "session" du protocole\) rend REBOL/Services indépendant du protocole de transport utilisé.) Tj ET Q
+q 0.000 g BT 70.87 738.26 Td (Concrètement, cela signifie que l'on peut l'utiliser tant sur du HTTP, du FTP, en CGI, ou sur le tout) Tj ET Q
+q 0.000 g BT 70.87 724.09 Td (nouveau protocole BEER \(voir le ) Tj ET Q
+q 0.000 g BT 218.71 724.09 Td (WikiBook sur REBOL) Tj ET Q
+q 0.000 g BT 313.73 724.09 Td (\). ) Tj ET Q
+q 7.56 0 0 10.39 70.87 712.20 cm /I1 Do Q
+q 0.000 g BT 82.20 709.91 Td (  ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 87.76 709.91 Td (Fiabilité) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 125.55 709.91 Td ( - Le risque de problème diminue avec la quantité de code utilisée ;-\) La compacité du) Tj ET Q
+q 0.000 g BT 70.87 695.74 Td (code REBOL assure ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 164.80 695.74 Td (de facto) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 200.38 695.74 Td ( une fiabilité du code supérieure à d'autres langages plus "verbeux". ) Tj ET Q
+q 7.56 0 0 10.39 70.87 683.86 cm /I1 Do Q
+q 0.000 g BT 82.20 681.57 Td (  ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 87.76 681.57 Td (Disponibilité) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 147.77 681.57 Td ( - toutes les prochaines versions de REBOL devront intégrer cette technologie, et) Tj ET Q
+q 0.000 g BT 70.87 667.39 Td (tous les scripts pourront l'utiliser sans devoir charger des librairies supplémentaires. ) Tj ET Q
+q 7.56 0 0 10.39 70.87 655.51 cm /I1 Do Q
+q 0.000 g BT 82.20 653.22 Td (  ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 87.76 653.22 Td (Standard ouvert) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 164.44 653.22 Td ( - chaque développeur dispose de la possibilité d'étendre les services existants) Tj ET Q
+q 0.000 g BT 70.87 639.05 Td (par défauts avec les services qu'il a développé lui-même, et cela sans devoir assimiler des) Tj ET Q
+q 0.000 g BT 70.87 624.87 Td (technologies complexes et relativement anciennes, telles que SOAP, XML, UML, UDDI, XSL, WSDL,) Tj ET Q
+q 0.000 g BT 70.87 610.70 Td (XML-RPC... Non, rien que du bon REBOL :-\)) Tj ET Q
+q 0.000 g BT 70.87 596.53 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 552.81 Td (5 Quelques exemples d'utilisation de REBOL/Services) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 539.83 Td (  ) Tj ET Q
+q 7.56 0 0 10.39 70.87 527.95 cm /I1 Do Q
+q 0.000 g BT 82.20 525.66 Td (  Partage sécurisé de fichiers ) Tj ET Q
+q 7.56 0 0 10.39 70.87 513.78 cm /I1 Do Q
+q 0.000 g BT 82.20 511.49 Td (  Administration d'un serveur distant ) Tj ET Q
+q 7.56 0 0 10.39 70.87 499.61 cm /I1 Do Q
+q 0.000 g BT 82.20 497.32 Td (  Gestion de code source d'une application \(comme par exemple les biens connus CVS et) Tj ET Q
+q 0.000 g BT 70.87 483.14 Td (SubVersion\) ) Tj ET Q
+q 7.56 0 0 10.39 70.87 471.26 cm /I1 Do Q
+q 0.000 g BT 82.20 468.97 Td (  Edition collaborative de documents ) Tj ET Q
+q 7.56 0 0 10.39 70.87 457.09 cm /I1 Do Q
+q 0.000 g BT 82.20 454.80 Td (  Update de site web \(pour remplacer le lourd FTP...\) ) Tj ET Q
+q 7.56 0 0 10.39 70.87 442.91 cm /I1 Do Q
+q 0.000 g BT 82.20 440.62 Td (  Echange de messages - chat ) Tj ET Q
+q 7.56 0 0 10.39 70.87 428.74 cm /I1 Do Q
+q 0.000 g BT 82.20 426.45 Td (  Système de vote ) Tj ET Q
+q 7.56 0 0 10.39 70.87 414.57 cm /I1 Do Q
+q 0.000 g BT 82.20 412.28 Td (  Système de réservation de ressources ) Tj ET Q
+q 7.56 0 0 10.39 70.87 400.39 cm /I1 Do Q
+q 0.000 g BT 82.20 398.10 Td (  Gestion financière) Tj ET Q
+q 0.000 g BT 70.87 383.93 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 369.76 Td (Bref, toutes les applications qui pourraient tirer partis d'une communication entre deux processus...) Tj ET Q
+q 0.000 g BT 70.87 355.58 Td (  ) Tj ET Q
+q 0.000 g BT 76.43 355.58 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 341.41 Td (Dans la deuxième partie de cette série d'articles, nous étudierons la mise en oeuvre de) Tj ET Q
+q 0.000 g BT 70.87 327.24 Td (REBOL/Services.) Tj ET Q
+BT /F6 8.00 Tf ET
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 6/6) Tj ET Q
+
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R 7 0 R 9 0 R 11 0 R 13 0 R ]
+/Count 6
+/MediaBox [0 0 595.28 841.89]
+>>
+endobj
+15 0 obj
+<</Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+16 0 obj
+<</Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+17 0 obj
+<</Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+18 0 obj
+<</Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+19 0 obj
+<</Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+20 0 obj
+<</Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+21 0 obj
+<</Type /XObject
+/Subtype /Image
+/Width 8
+/Height 11
+/ColorSpace [/Indexed /DeviceRGB 7 22 0 R]
+/BitsPerComponent 8
+/Mask [7 7 ]
+/Length 88>>
+stream
+              
+endstream
+endobj
+22 0 obj
+<</Length 24>>
+stream
+===åååJJJ±±±qqq¤¤¤FFF   
+endstream
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 15 0 R
+/F2 16 0 R
+/F3 17 0 R
+/F4 18 0 R
+/F5 19 0 R
+/F6 20 0 R
+>>
+/XObject <<
+/I1 21 0 R
+>>
+>>
+endobj
+23 0 obj
+<<
+/Producer (FPDF 1.53)
+/Title (REBOL/Services pour les nuls \(1\) - La définition)
+/Subject (Tutoriels)
+/Author (REBOLtof)
+/Keywords (DOCUMENTATION, service)
+/Creator (The REBOL Documentation Project)
+/CreationDate (D:20060104140202)
+>>
+endobj
+24 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 25
+0000000000 65535 f 
+0000032644 00000 n 
+0000033696 00000 n 
+0000000009 00000 n 
+0000000222 00000 n 
+0000001883 00000 n 
+0000003841 00000 n 
+0000010927 00000 n 
+0000011140 00000 n 
+0000016233 00000 n 
+0000016447 00000 n 
+0000021812 00000 n 
+0000022027 00000 n 
+0000027572 00000 n 
+0000027787 00000 n 
+0000032763 00000 n 
+0000032860 00000 n 
+0000032955 00000 n 
+0000033053 00000 n 
+0000033152 00000 n 
+0000033254 00000 n 
+0000033359 00000 n 
+0000033623 00000 n 
+0000033867 00000 n 
+0000034122 00000 n 
+trailer
+<<
+/Size 25
+/Root 24 0 R
+/Info 23 0 R
+>>
+startxref
+34226
+%%EOF

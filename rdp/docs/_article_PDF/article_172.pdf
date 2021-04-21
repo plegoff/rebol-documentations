@@ -1,0 +1,2799 @@
+%PDF-1.3
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 4 0 R>>
+endobj
+4 0 obj
+<</Length 1658>>
+stream
+2 J
+0.57 w
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (Les mots de REBOL et leur contexte, ou la Bindologie) Tj ET Q
+0.57 w
+BT /F2 26.00 Tf ET
+q 0.502 g BT 118.24 656.92 Td (The REBOL Documentation) Tj ET Q
+q 0.502 g BT 243.04 631.41 Td (Project) Tj ET Q
+BT /F1 8.00 Tf ET
+q 0.502 g BT 201.17 616.97 Td (-- FR - Documentation REBOL - Articles Techniques --) Tj ET Q
+0.85 w
+BT /F2 20.00 Tf ET
+q 0.502 g BT 73.70 423.45 Td (Articles) Tj ET Q
+q 0.502 g BT 73.70 397.94 Td (Techniques) Tj ET Q
+BT /F3 22.00 Tf ET
+297.64 411.02 m 297.64 388.35 l S q 0.000 g BT 300.47 393.09 Td (Les mots de REBOL et) Tj ET Q
+297.64 388.35 m 297.64 365.67 l S q 0.000 g BT 300.47 370.41 Td (leur contexte, ou la) Tj ET Q
+297.64 365.67 m 297.64 342.99 l S q 0.000 g BT 300.47 347.73 Td (Bindologie) Tj ET Q
+297.64 342.99 m 297.64 320.32 l S 
+BT /F4 16.00 Tf ET
+297.64 320.32 m 297.64 303.31 l S q 0.000 g BT 451.35 307.01 Td (REBOLtof) Tj ET Q
+BT /F4 12.00 Tf ET
+297.64 303.31 m 297.64 286.30 l S q 0.000 g BT 303.59 291.20 Td (Première publication : 1er juillet 2005, et mis) Tj ET Q
+297.64 286.30 m 297.64 269.29 l S q 0.000 g BT 347.27 274.20 Td (en ligne le  vendredi 1er juillet 2005) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 73.70 228.02 Td (Résumé :) Tj ET 73.70 227.02 45.01 -0.50 re f Q
+BT /F4 8.00 Tf ET
+q 0.000 g BT 73.70 214.45 Td (Cette article constitue une traduction de l'article DE référence en matière de mots et de contexte en REBOL.) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 1/28) Tj ET Q
+
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [152.61 717.91 244.56 707.91] /Border [0 0 0] /A <</S /URI /URI (article.php3?id_article=171)>>>><</Type /Annot /Subtype /Link /Rect [93.54 641.38 146.89 631.38] /Border [0 0 0] /A <</S /URI /URI (#1)>>>><</Type /Annot /Subtype /Link /Rect [93.54 627.20 171.89 617.20] /Border [0 0 0] /A <</S /URI /URI (#2)>>>><</Type /Annot /Subtype /Link /Rect [93.54 613.03 149.12 603.03] /Border [0 0 0] /A <</S /URI /URI (#3)>>>><</Type /Annot /Subtype /Link /Rect [93.54 598.86 123.55 588.86] /Border [0 0 0] /A <</S /URI /URI (#4)>>>><</Type /Annot /Subtype /Link /Rect [93.54 584.69 158.02 574.69] /Border [0 0 0] /A <</S /URI /URI (#5)>>>><</Type /Annot /Subtype /Link /Rect [93.54 570.51 123.55 560.51] /Border [0 0 0] /A <</S /URI /URI (#6)>>>><</Type /Annot /Subtype /Link /Rect [93.54 556.34 311.97 546.34] /Border [0 0 0] /A <</S /URI /URI (#7)>>>><</Type /Annot /Subtype /Link /Rect [93.54 542.17 259.74 532.17] /Border [0 0 0] /A <</S /URI /URI (#8)>>>><</Type /Annot /Subtype /Link /Rect [93.54 527.99 176.91 517.99] /Border [0 0 0] /A <</S /URI /URI (#9)>>>><</Type /Annot /Subtype /Link /Rect [93.54 513.82 212.48 503.82] /Border [0 0 0] /A <</S /URI /URI (#10)>>>><</Type /Annot /Subtype /Link /Rect [93.54 499.65 193.58 489.65] /Border [0 0 0] /A <</S /URI /URI (#11)>>>><</Type /Annot /Subtype /Link /Rect [113.39 485.47 261.81 475.47] /Border [0 0 0] /A <</S /URI /URI (#11.1)>>>><</Type /Annot /Subtype /Link /Rect [113.39 471.30 358.17 461.30] /Border [0 0 0] /A <</S /URI /URI (#11.2)>>>><</Type /Annot /Subtype /Link /Rect [113.39 457.13 339.29 447.13] /Border [0 0 0] /A <</S /URI /URI (#11.3)>>>><</Type /Annot /Subtype /Link /Rect [93.54 428.78 278.08 418.78] /Border [0 0 0] /A <</S /URI /URI (#12)>>>><</Type /Annot /Subtype /Link /Rect [93.54 414.61 211.92 404.61] /Border [0 0 0] /A <</S /URI /URI (#13)>>>><</Type /Annot /Subtype /Link /Rect [93.54 400.43 205.25 390.43] /Border [0 0 0] /A <</S /URI /URI (#14)>>>><</Type /Annot /Subtype /Link /Rect [93.54 386.26 220.27 376.26] /Border [0 0 0] /A <</S /URI /URI (#15)>>>><</Type /Annot /Subtype /Link /Rect [93.54 372.09 209.40 362.09] /Border [0 0 0] /A <</S /URI /URI (#16)>>>><</Type /Annot /Subtype /Link /Rect [93.54 357.91 310.86 347.91] /Border [0 0 0] /A <</S /URI /URI (#17)>>>><</Type /Annot /Subtype /Link /Rect [93.54 343.74 259.71 333.74] /Border [0 0 0] /A <</S /URI /URI (#18)>>>><</Type /Annot /Subtype /Link /Rect [93.54 329.57 328.11 319.57] /Border [0 0 0] /A <</S /URI /URI (#19)>>>><</Type /Annot /Subtype /Link /Rect [93.54 315.39 183.58 305.39] /Border [0 0 0] /A <</S /URI /URI (#20)>>>><</Type /Annot /Subtype /Link /Rect [93.54 301.22 202.48 291.22] /Border [0 0 0] /A <</S /URI /URI (#21)>>>><</Type /Annot /Subtype /Link /Rect [93.54 287.05 128.00 277.05] /Border [0 0 0] /A <</S /URI /URI (#22)>>>><</Type /Annot /Subtype /Link /Rect [93.54 272.87 183.57 262.87] /Border [0 0 0] /A <</S /URI /URI (#23)>>>><</Type /Annot /Subtype /Link /Rect [93.54 258.70 174.12 248.70] /Border [0 0 0] /A <</S /URI /URI (#24)>>>><</Type /Annot /Subtype /Link /Rect [93.54 244.53 446.42 234.53] /Border [0 0 0] /A <</S /URI /URI (#25)>>>><</Type /Annot /Subtype /Link /Rect [93.54 230.35 228.61 220.35] /Border [0 0 0] /A <</S /URI /URI (#26)>>>><</Type /Annot /Subtype /Link /Rect [93.54 216.18 251.38 206.18] /Border [0 0 0] /A <</S /URI /URI (#27)>>>><</Type /Annot /Subtype /Link /Rect [93.54 202.01 247.76 192.01] /Border [0 0 0] /A <</S /URI /URI (#28)>>>><</Type /Annot /Subtype /Link /Rect [93.54 187.83 278.60 177.83] /Border [0 0 0] /A <</S /URI /URI (#29)>>>><</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 6 0 R>>
+endobj
+6 0 obj
+<</Length 8871>>
+stream
+2 J
+0.85 w
+BT /F4 8.00 Tf ET
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (Les mots de REBOL et leur contexte, ou la Bindologie) Tj ET Q
+BT /F4 8.00 Tf ET
+BT /F5 10.00 Tf ET
+q 0.000 g BT 73.70 780.78 Td ( Cette article constitue une traduction de l'article DE référence en matière de mots et de) Tj ET Q
+q 0.000 g BT 73.70 766.61 Td (contexte en REBOL.) Tj ET Q
+q 0.000 g BT 73.70 752.43 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 738.26 Td (Auteur : Ladislav Mecir ) Tj ET Q
+q 0.000 g BT 73.70 724.09 Td (Traducteur : Christophe Coussement ) Tj ET Q
+q 0.000 g BT 73.70 709.91 Td (Article original : ) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 0.000 1.000 rg BT 152.61 709.91 Td (sur le site de l'auteur) Tj ET 152.61 708.91 91.95 -0.50 re f Q
+q 0.000 g BT 73.70 647.55 Td (  ) Tj ET Q
+q 0.000 g BT 93.54 647.55 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 633.38 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 633.38 Td (1 Historique) Tj ET 93.54 632.38 53.35 -0.50 re f Q
+q 0.000 g BT 146.89 633.38 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 619.20 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 619.20 Td (2 Remerciements) Tj ET 93.54 618.20 78.35 -0.50 re f Q
+q 0.000 g BT 171.89 619.20 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 605.03 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 605.03 Td (3 références) Tj ET 93.54 604.03 55.58 -0.50 re f Q
+q 0.000 g BT 149.12 605.03 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 590.86 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 590.86 Td (4 Mots) Tj ET 93.54 589.86 30.01 -0.50 re f Q
+q 0.000 g BT 123.55 590.86 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 576.69 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 576.69 Td (5 Orthographe) Tj ET 93.54 575.69 64.48 -0.50 re f Q
+q 0.000 g BT 158.02 576.69 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 562.51 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 562.51 Td (6 Alias) Tj ET 93.54 561.51 30.01 -0.50 re f Q
+q 0.000 g BT 123.55 562.51 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 548.34 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 548.34 Td (7 Les mots peuvent référer à des valeurs REBOL) Tj ET 93.54 547.34 218.43 -0.50 re f Q
+q 0.000 g BT 311.97 548.34 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 534.17 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 534.17 Td (8 Les mots peuvent avoir un contexte) Tj ET 93.54 533.17 166.20 -0.50 re f Q
+q 0.000 g BT 259.74 534.17 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 519.99 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 519.99 Td (9 Liaison des mots) Tj ET 93.54 518.99 83.37 -0.50 re f Q
+q 0.000 g BT 176.91 519.99 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 505.82 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 505.82 Td (10 Généralisation du BIND) Tj ET 93.54 504.82 118.94 -0.50 re f Q
+q 0.000 g BT 212.48 505.82 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 491.65 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 491.65 Td (11 Propriétés de BIND) Tj ET 93.54 490.65 100.04 -0.50 re f Q
+q 0.000 g BT 193.58 491.65 Td ( ) Tj ET Q
+q 0.000 g BT 98.88 477.47 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 113.39 477.47 Td (11.1 Liaison avec aucun contexte) Tj ET 113.39 476.47 148.42 -0.50 re f Q
+q 0.000 g BT 261.81 477.47 Td ( ) Tj ET Q
+q 0.000 g BT 98.88 463.30 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 113.39 463.30 Td (11.2 Liaison quand l'argument WORDS est un WORD !) Tj ET 113.39 462.30 244.78 -0.50 re f Q
+q 0.000 g BT 358.17 463.30 Td ( ) Tj ET Q
+q 0.000 g BT 98.88 449.13 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 113.39 449.13 Td (11.3 Liaison quand l'argument WORDS est un bloc) Tj ET 113.39 448.13 225.90 -0.50 re f Q
+q 0.000 g BT 339.29 449.13 Td ( ) Tj ET Q
+q 0.000 g BT 93.54 434.95 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 420.78 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 420.78 Td (12 Mots égaux avec une liaison différente) Tj ET 93.54 419.78 184.54 -0.50 re f Q
+q 0.000 g BT 278.08 420.78 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 406.61 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 406.61 Td (13 Comparaison de liaison) Tj ET 93.54 405.61 118.38 -0.50 re f Q
+q 0.000 g BT 211.92 406.61 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 392.43 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 392.43 Td (14 Comparaison de mots) Tj ET 93.54 391.43 111.71 -0.50 re f Q
+q 0.000 g BT 205.25 392.43 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 378.26 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 378.26 Td (15 Visualisations et contexte) Tj ET 93.54 377.26 126.73 -0.50 re f Q
+q 0.000 g BT 220.27 378.26 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 364.09 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 364.09 Td (16 Visualisation d'un objet) Tj ET 93.54 363.09 115.86 -0.50 re f Q
+q 0.000 g BT 209.40 364.09 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 349.91 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 349.91 Td (17 Les fonctions MAKE, TO et les mots de Rebol) Tj ET 93.54 348.91 217.32 -0.50 re f Q
+q 0.000 g BT 310.86 349.91 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 335.74 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 335.74 Td (18 Mots locaux, visualisations locales) Tj ET 93.54 334.74 166.17 -0.50 re f Q
+q 0.000 g BT 259.71 335.74 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 321.57 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 321.57 Td (19 Visualisation du contexte des fonctions et de USE) Tj ET 93.54 320.57 234.57 -0.50 re f Q
+q 0.000 g BT 328.11 321.57 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 307.39 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 307.39 Td (20 Liaison calculées) Tj ET 93.54 306.39 90.04 -0.50 re f Q
+q 0.000 g BT 183.58 307.39 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 293.22 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 293.22 Td (21 Portée Définitionnelle) Tj ET 93.54 292.22 108.94 -0.50 re f Q
+q 0.000 g BT 202.48 293.22 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 279.05 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 279.05 Td (22 USE) Tj ET 93.54 278.05 34.46 -0.50 re f Q
+q 0.000 g BT 128.00 279.05 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 264.87 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 264.87 Td (23 MAKE OBJECT !) Tj ET 93.54 263.87 90.03 -0.50 re f Q
+q 0.000 g BT 183.57 264.87 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 250.70 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 250.70 Td (24 MAKE PROTO) Tj ET 93.54 249.70 80.58 -0.50 re f Q
+q 0.000 g BT 174.12 250.70 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 236.53 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 236.53 Td (25 Fonctions avec une manière simili-MAKE-OBJECT de traiter les mots locaux) Tj ET 93.54 235.53 352.88 -0.50 re f Q
+q 0.000 g BT 446.42 236.53 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 222.35 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 222.35 Td (26 Modèle de fonction REBOL) Tj ET 93.54 221.35 135.07 -0.50 re f Q
+q 0.000 g BT 228.61 222.35 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 208.18 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 208.18 Td (27 Modèle de fonction Rebol FUNC) Tj ET 93.54 207.18 157.84 -0.50 re f Q
+q 0.000 g BT 251.38 208.18 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 194.01 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 194.01 Td (28 Modèle d'évaluation de fonction) Tj ET 93.54 193.01 154.22 -0.50 re f Q
+q 0.000 g BT 247.76 194.01 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 179.83 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 93.54 179.83 Td (29 Fonctions avec liaisons calculées \(Fin\)) Tj ET 93.54 178.83 185.06 -0.50 re f Q
+q 0.000 g BT 278.60 179.83 Td ( ) Tj ET Q
+q 0.000 g BT 73.70 151.49 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 73.70 107.77 Td (1 Historique) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 94.80 Td ( ) Tj ET Q
+q 0.000 g BT 76.48 94.80 Td ( ) Tj ET Q
+q 0.000 g BT 79.26 94.80 Td ( 					) Tj ET Q
+q 0.000 g BT 95.94 94.80 Td ( ) Tj ET Q
+q 0.000 g BT 98.72 94.80 Td ( ) Tj ET Q
+q 0.000 g BT 101.50 94.80 Td ( ) Tj ET Q
+q 0.000 g BT 104.28 94.80 Td ( ) Tj ET Q
+q 0.000 g BT 107.06 94.80 Td ( ) Tj ET Q
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F5 9.00 Tf ET
+BT /F1 9.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F5 8.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F5 8.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F5 8.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F5 8.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F1 7.00 Tf ET
+BT /F5 7.00 Tf ET
+BT /F1 7.00 Tf ET
+BT /F5 7.00 Tf ET
+BT /F1 7.00 Tf ET
+BT /F5 7.00 Tf ET
+BT /F1 7.00 Tf ET
+BT /F5 7.00 Tf ET
+BT /F1 7.00 Tf ET
+BT /F5 7.00 Tf ET
+1.000 1.000 0.000 rg
+87.58 104.88 38.07 -14.17 re B q 0.000 g BT 90.41 95.70 Td ( Version ) Tj ET Q
+BT /F1 7.00 Tf ET
+1.000 g
+BT /F5 7.00 Tf ET
+1.000 1.000 0.000 rg
+125.65 104.88 40.80 -14.17 re B q 0.000 g BT 128.49 95.70 Td ( Date ) Tj ET Q
+BT /F1 7.00 Tf ET
+1.000 g
+BT /F5 7.00 Tf ET
+1.000 1.000 0.000 rg
+166.45 104.88 240.15 -14.17 re B q 0.000 g BT 169.29 95.70 Td ( Commentaire ) Tj ET Q
+BT /F1 7.00 Tf ET
+1.000 g
+BT /F5 7.00 Tf ET
+1.000 1.000 0.000 rg
+406.61 104.88 101.09 -14.17 re B q 0.000 g BT 409.44 95.70 Td ( Auteur ) Tj ET Q
+BT /F1 7.00 Tf ET
+1.000 g
+0.902 0.902 0.902 rg
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 2/28) Tj ET Q
+
+endstream
+endobj
+7 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [180.91 576.18 250.37 566.18] /Border [0 0 0] /A <</S /URI /URI (http://www.fm.vslib.cz/ ladislav/rebol/index.html)>>>><</Type /Annot /Subtype /Link /Rect [70.87 406.10 110.32 396.10] /Border [0 0 0] /A <</S /URI /URI (http://www.fm.vslib.cz/ ladislav/rebol/nm-use.r)>>>><</Type /Annot /Subtype /Link /Rect [159.80 406.10 189.81 396.10] /Border [0 0 0] /A <</S /URI /URI (http://www.fm.vslib.cz/ ladislav/rebol/cfunc.r)>>>><</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 8 0 R>>
+endobj
+8 0 obj
+<</Length 5259>>
+stream
+2 J
+0.85 w
+BT /F1 7.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (Les mots de REBOL et leur contexte, ou la Bindologie) Tj ET Q
+BT /F1 7.00 Tf ET
+87.58 805.04 38.07 -14.17 re B q 0.000 g BT 90.41 795.85 Td ( 1.0 ) Tj ET Q
+125.65 805.04 40.80 -14.17 re B q 0.000 g BT 128.49 795.85 Td ( 01 Jul 05 ) Tj ET Q
+166.45 805.04 240.15 -14.17 re B q 0.000 g BT 169.29 795.85 Td ( Initial ) Tj ET Q
+406.61 805.04 101.09 -14.17 re B q 0.000 g BT 409.44 795.85 Td ( REBOLtof-at-yahoo-dot-com ) Tj ET Q
+87.58 790.87 38.07 -14.17 re S q 0.000 g BT 90.41 781.68 Td ( 1.1 ) Tj ET Q
+125.65 790.87 40.80 -14.17 re S q 0.000 g BT 128.49 781.68 Td ( 07 Jul 05 ) Tj ET Q
+166.45 790.87 240.15 -14.17 re S q 0.000 g BT 169.29 781.68 Td ( Correction de typos et ajout d'améliorations suggérées par Ladislav Mecir ) Tj ET Q
+406.61 790.87 101.09 -14.17 re S q 0.000 g BT 409.44 781.68 Td ( REBOLtof-at-yahoo-dot-com ) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 766.61 Td ( ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 722.89 Td (2 Remerciements) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 709.91 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 695.74 Td (Je souhaite remercier tous ceux qui ont contribués à cet article. En particulier Galt Barber, Mark) Tj ET Q
+q 0.000 g BT 70.87 681.57 Td (Dickson, Elan Goldman, Brian Hawley, Gregg Irwin, Thomas Jensen, Holger Kruse, Larry Palmiter,) Tj ET Q
+q 0.000 g BT 70.87 667.39 Td (Patrick Philipot, Gabriele Santilli, Frank Sievertsen et Romano Paolo Tenca. Les erreurs éventuelles) Tj ET Q
+q 0.000 g BT 70.87 653.22 Td (sont de mon fait..) Tj ET Q
+q 0.000 g BT 70.87 639.05 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 595.33 Td (3 références) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 582.35 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 568.18 Td (Les articles de Ladislav \() Tj ET Q
+q 0.000 0.000 1.000 rg BT 180.91 568.18 Td (REBOL Articles) Tj ET 180.91 567.18 69.46 -0.50 re f Q
+q 0.000 g BT 250.37 568.18 Td (\) où vous trouverez d'autres références utiles.) Tj ET Q
+q 0.000 g BT 70.87 554.01 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 539.83 Td (Le code de cet article a été testé sous REBOL/View 1.2.8. Il est possible que des versions plus) Tj ET Q
+q 0.000 g BT 70.87 525.66 Td (anciennes engendrent des résultats diffèrents.) Tj ET Q
+q 0.000 g BT 70.87 511.49 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 497.32 Td (Un lecteur intéressé par le test du code proposé en exemple, peut procéder de la sorte :) Tj ET Q
+q 0.000 g BT 70.87 483.14 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 469.57 Td (do http://www.fm.vslib.cz/~ladislav/rebol/contexts.r) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 454.80 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 440.62 Td (ce qui définira automatiquement toutes les fonctions servant à illustrer cet article.) Tj ET Q
+q 0.000 g BT 70.87 426.45 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 412.28 Td (Les dernières versions des fonctions NM-USE et de CFUNC peuvent être retrouvées dans les fichiers ) Tj ET Q
+q 0.000 0.000 1.000 rg BT 70.87 398.10 Td (nm-use.r) Tj ET 70.87 397.10 39.45 -0.50 re f Q
+q 0.000 g BT 110.32 398.10 Td ( and in the ) Tj ET Q
+q 0.000 0.000 1.000 rg BT 159.80 398.10 Td (cfunc.r) Tj ET 159.80 397.10 30.01 -0.50 re f Q
+q 0.000 g BT 189.81 398.10 Td (.) Tj ET Q
+q 0.000 g BT 70.87 383.93 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 340.21 Td (4 Mots) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 327.24 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 313.06 Td (Cet article traite des mots REBOL. Les mots REBOL, ainsi que les autres valeurs de REBOL,) Tj ET Q
+q 0.000 g BT 70.87 298.89 Td (possédent un type. Voyons à présent les différentes valeurs possibles de mots :) Tj ET Q
+q 0.000 g BT 70.87 284.72 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.65 285.32 Td (type? first [rebol] ; == word!) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 271.14 Td ( type? first [rebol:] ; == set-word!) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 256.97 Td ( type? first [:rebol] ; == get-word!) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 242.80 Td ( type? first ['rebol] ; == lit-word!) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 228.62 Td ( type? first [/rebol] ; == refinement!) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 213.85 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 199.68 Td (Tous ces mots REBOL ont en commun un pseudo-type appelé ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 351.56 199.68 Td (ANY-WORD!) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 410.99 199.68 Td ( :) Tj ET Q
+q 0.000 g BT 70.87 185.50 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.65 186.10 Td (any-word? first [rebol] ; == true) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 171.93 Td ( any-word? first [rebol:] ; == true) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 157.76 Td ( any-word? first [:rebol] ; == true) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 143.58 Td ( any-word? first ['rebol] ; == true) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 129.41 Td ( any-word? first [/rebol] ; == true) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 114.64 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 3/28) Tj ET Q
+
+endstream
+endobj
+9 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 10 0 R>>
+endobj
+10 0 obj
+<</Length 4197>>
+stream
+2 J
+0.85 w
+BT /F5 14.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 70.87 819.05 Td (Les mots de REBOL et leur contexte, ou la Bindologie) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 793.75 Td (5 Orthographe) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 780.78 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 766.61 Td (La propriété intéressante suivante de REBOL est l'orthographe \(NdT : ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 382.37 766.61 Td (spelling) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 416.27 766.61 Td ( \). Nous la définissons) Tj ET Q
+q 0.000 g BT 70.87 752.43 Td (de la manière suivante :) Tj ET Q
+q 0.000 g BT 70.87 738.26 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.65 738.86 Td (spelling: func [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 724.69 Td (     {retourne l'orthographe d'un mot}) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 710.51 Td (     word [any-word!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 696.34 Td ( ] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 682.17 Td (     if word? :word [return mold word]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 667.99 Td (     if set-word? :word [return head remove back tail mold :word]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 653.82 Td (     next mold :word) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 639.65 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 624.87 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 610.70 Td (L'orthographe d'un mot est une chaîne et est une des propriétés que les exemples ci-dessus ont en) Tj ET Q
+q 0.000 g BT 70.87 596.53 Td (commun :) Tj ET Q
+q 0.000 g BT 70.87 582.35 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.65 582.95 Td (spelling first [rebol] ; == "rebol") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 568.78 Td ( spelling first [rebol:] ; == "rebol") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 554.61 Td ( spelling first [:rebol] ; == "rebol") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 540.43 Td ( spelling first ['rebol] ; == "rebol") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 526.26 Td ( spelling first [/rebol] ; == "rebol") Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 511.49 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 483.14 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 468.97 Td (Observation \(Orthographe et Egalité\) :) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 454.80 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 440.62 Td (Les mots ayant une orthographe égale sont égaux, même s'ils ont des datatypes différents ) Tj ET Q
+q 0.000 g BT 70.87 426.45 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 412.28 Td (Illustration :) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 398.10 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 384.53 Td (equal? first [rebol] first [rebol:] ; == true) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 369.76 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 341.41 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 327.24 Td (Observation \(Orthographe irrégulière\) :) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 313.06 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 298.89 Td (Normalement, les mots n'ont pas une orthographe contenant des espaces, commençant par un point,) Tj ET Q
+q 0.000 g BT 70.87 284.72 Td (etc... D'autre part, il est possible de créer un mot possédant n'importe quelle orthographe, de la) Tj ET Q
+q 0.000 g BT 70.87 270.54 Td (manière suivante :) Tj ET Q
+q 0.000 g BT 70.87 256.37 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 242.80 Td ( unusual: make word! ":unusual word:") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 228.62 Td ( type? unusual ; == word!) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 214.45 Td ( spelling unusual ; == ":unusual word:") Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 199.68 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 171.33 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 127.61 Td (6 Alias) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 114.64 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 100.46 Td (Qu'est-ce qui est nécessaire pour que deux mots soient égaux ? ) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 4/28) Tj ET Q
+
+endstream
+endobj
+11 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 12 0 R>>
+endobj
+12 0 obj
+<</Length 4351>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (Les mots de REBOL et leur contexte, ou la Bindologie) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 780.78 Td (Observation \(Egalité et Alias\) :) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 766.61 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 752.43 Td (Deux mots sont égaux s'ils disposent de la même orthographe ou s'ils sont des alias. ) Tj ET Q
+q 0.000 g BT 70.87 738.26 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 724.09 Td (Illustration :) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 709.91 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 696.34 Td ( ; créons un alias "revolutionary" au mot 'rebol) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 682.17 Td ( alias 'rebol "revolutionary") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 667.99 Td ( ;'rebol et 'revolutionary seront des mots égaux avec une orthographe différente:) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 653.82 Td ( equal? 'rebol 'revolutionary ; == true) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 639.65 Td ( equal? spelling 'rebol spelling 'revolutionary ; == false) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 624.87 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 610.70 Td (Cette connaissance peut être utilisée afin de définir une fonction REBOL qui va nous dire si deux mots) Tj ET Q
+q 0.000 g BT 70.87 596.53 Td (sont des alias :) Tj ET Q
+q 0.000 g BT 70.87 582.35 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.65 582.95 Td (aliases?: func [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 568.78 Td (     {trouve si word1 et word2 sont des alias}) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 554.61 Td (     word1 [any-word!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 540.43 Td (     word2 [any-word!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 526.26 Td ( ] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 512.09 Td (     found? all [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 497.92 Td (         equal? :word1 :word2) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 483.74 Td (         not equal? spelling :word1 spelling :word2) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 469.57 Td (     ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 455.40 Td ( ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 441.22 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 427.05 Td ( aliases? 'rebol 'mean ; == false) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 412.88 Td ( aliases? 'rebol 'rebol ; == false) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 398.70 Td ( aliases? 'rebol 'revolutionary ; == true) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 383.93 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 340.21 Td (7 Les mots peuvent référer à des valeurs REBOL) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 327.24 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 313.06 Td (Une propriété importante des mots est leur capacité de référer des valeurs REBOL. Ainsi, afin) Tj ET Q
+q 0.000 g BT 70.87 298.89 Td (d'obliger un mot 'rebolution à référer à une chaîne "uprising", nous pouvons faire :) Tj ET Q
+q 0.000 g BT 70.87 284.72 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.65 285.32 Td (rebolution: "uprising") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 271.14 Td ( set 'rebolution "uprising") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 256.97 Td ( set/any 'rebolution "uprising") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 242.80 Td ( set first [rebolution:] "uprising") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 228.62 Td ( set first [:rebolution] "uprising") Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 213.85 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 199.68 Td (etc...) Tj ET Q
+q 0.000 g BT 70.87 185.50 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 171.33 Td (Pour obtenir la valeur référée par un mot, nous pouvons faire :) Tj ET Q
+q 0.000 g BT 70.87 157.16 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.65 157.76 Td (:rebolution) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 143.58 Td ( get 'rebolution) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 129.41 Td ( get/any 'rebolution) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 114.64 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 100.46 Td (etc...) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 5/28) Tj ET Q
+
+endstream
+endobj
+13 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 14 0 R>>
+endobj
+14 0 obj
+<</Length 4115>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (Les mots de REBOL et leur contexte, ou la Bindologie) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 751.23 Td (8 Les mots peuvent avoir un contexte) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 738.26 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 724.09 Td (La capacité de référer des valeurs REBOL est très proche d'une propriété des mots REBOL nommées) Tj ET Q
+q 0.000 g BT 70.87 709.91 Td ("liaison" \(NdT : ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 139.65 709.91 Td (binding) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 171.89 709.91 Td (\). Seuls les mots liés à un contexte \(mots possédant un contexte\) peuvent) Tj ET Q
+q 0.000 g BT 70.87 695.74 Td (référer des valeurs REBOL.) Tj ET Q
+q 0.000 g BT 70.87 681.57 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.65 682.17 Td (; a refinement) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 667.99 Td ( get/any /rebol) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 653.82 Td ( ** Script Error: rebol word has no context) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 639.65 Td ( ** Near: get/any /rebol) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 624.87 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 610.70 Td (Il peut être utile de découvrir si un mot dispose d'un contexte. Voici une manière de procéder :) Tj ET Q
+q 0.000 g BT 70.87 596.53 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.65 597.13 Td (has-context?: function [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 582.95 Td (      {le word dispose-t-il d'un contexte?}) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 568.78 Td (      word [any-word!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 554.61 Td (  ] [err] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 540.43 Td (      not all [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 526.26 Td (          error? err: try [any-type? get/any :word]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 512.09 Td (          err: disarm err) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 497.92 Td (          equal? err/id 'not-defined) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 483.74 Td (      ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 469.57 Td (  ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 454.80 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 440.62 Td (Tests :) Tj ET Q
+q 0.000 g BT 70.87 426.45 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.65 427.05 Td (has-context? 'rebol ; == true) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 412.88 Td ( has-context? /rebol ; == false) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 398.10 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 369.76 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 355.58 Td (Définition \(Mots sans liens\) :) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 341.41 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 327.24 Td (Les mots ne disposant pas de contexte sont appelés mots sans liens Words having no context we call) Tj ET Q
+q 0.000 g BT 70.87 313.06 Td (unbound words. ) Tj ET Q
+q 0.000 g BT 70.87 298.89 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 255.17 Td (9 Liaison des mots) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 242.20 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 228.02 Td (Il est facile de trouver un mot ayant une orthographe et un type spécifiques.) Tj ET Q
+q 0.000 g BT 70.87 213.85 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 199.68 Td (Parfois, nous souhaiterons disposer d'un mot de ce genre, dans un contexte particulier.) Tj ET Q
+q 0.000 g BT 70.87 185.50 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 171.33 Td (Ce travail consiste en général à trouver un mot ayant l'orthographe et le type d'un mot WORDS donné) Tj ET Q
+q 0.000 g BT 70.87 157.16 Td (et le contexte d'un KNOWN-WORD donné.) Tj ET Q
+q 0.000 g BT 70.87 142.98 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 128.81 Td (Afin de trouver un tel mot, nous pouvons utiliser la fonction BIND.) Tj ET Q
+q 0.000 g BT 70.87 114.64 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 6/28) Tj ET Q
+
+endstream
+endobj
+15 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 16 0 R>>
+endobj
+16 0 obj
+<</Length 4173>>
+stream
+2 J
+0.85 w
+BT /F5 14.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 70.87 819.05 Td (Les mots de REBOL et leur contexte, ou la Bindologie) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 793.75 Td (10 Généralisation du BIND) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 780.78 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 766.61 Td (La fonction BIND accepte uniquement une valeur du type WORD! au lieu d'un ANY-WORD! comme) Tj ET Q
+q 0.000 g BT 70.87 752.43 Td (argument WORDS. Cela est pareil pour l'argument KNOWN-WORD. Si nous souhaitons obtenir un) Tj ET Q
+q 0.000 g BT 70.87 738.26 Td (résultat pour une argument du type ANY-WORD!, nous pouvons utiliser la généralisation suivante de) Tj ET Q
+q 0.000 g BT 70.87 724.09 Td (la fonction BIND :) Tj ET Q
+q 0.000 g BT 70.87 709.91 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.65 710.51 Td (bindany: function [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 696.34 Td (     {) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 682.17 Td (         trouve un mot à l'orthographe égale) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 667.99 Td (         et au type égal à WORD) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 653.82 Td (         et d'une liaison égale à KNOWN-WORD) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 639.65 Td (     }) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 625.47 Td (     [catch]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 611.30 Td (     word [any-word!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 597.13 Td (     known-word [any-word!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 582.95 Td ( ] [wordt knownt words knowns spec result] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 568.78 Td (     spec: third :bind) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 554.61 Td (     words: next find spec 'words) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 540.43 Td (     wordt: first words) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 526.26 Td (     change/only words reduce [any-word!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 512.09 Td (     knowns: next find spec 'known-word) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 497.92 Td (     knownt: first knowns) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 483.74 Td (     change/only knowns reduce [any-word!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 469.57 Td (     error? result: try [bind :word :known-word]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 455.40 Td (     change/only words wordt) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 441.22 Td (     change/only knowns knownt) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 427.05 Td (     if error? result [throw result]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 412.88 Td (     :result) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 398.70 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 383.93 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 340.21 Td (11 Propriétés de BIND) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 327.24 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 313.06 Td (Il est important de connaître les propriétés de la fonction BIND car elles sont intimement liées aux) Tj ET Q
+q 0.000 g BT 70.87 298.89 Td (propriétés des mots.) Tj ET Q
+q 0.000 g BT 70.87 284.72 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 241.00 Td (11.1 Liaison avec aucun contexte) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 228.02 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 199.68 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 185.50 Td (Observation \(Liaison avec aucun contexte\) :) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 171.33 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 157.16 Td (Si le KNOWN-WORD n'a pas de contexte, BIND déclenche une erreur. ) Tj ET Q
+q 0.000 g BT 70.87 142.98 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 128.81 Td (Illustration :) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 114.64 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.65 115.24 Td (a-word: second first context [rebol: 1] ; == rebol) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 101.06 Td ( has-context? a-word ; == false) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 7/28) Tj ET Q
+
+endstream
+endobj
+17 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 18 0 R>>
+endobj
+18 0 obj
+<</Length 4312>>
+stream
+2 J
+0.85 w
+BT /F2 8.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 70.87 819.05 Td (Les mots de REBOL et leur contexte, ou la Bindologie) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 795.55 Td ( bind 'a a-word) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 781.38 Td ( ** Script Error: rebol word has no context) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 767.21 Td ( ** Near: bind 'a a-word) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 752.43 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 708.71 Td (11.2 Liaison quand l'argument WORDS est un WORD !) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 695.74 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 667.39 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 653.22 Td (Observation \(Cas trivial\) :) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 639.05 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 624.87 Td (Si l'argument WORDS et l'argument KNOWN-WORD ont une liaison \(NdT : ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 406.99 624.87 Td (binding) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 439.23 624.87 Td (\) égale, le BIND) Tj ET Q
+q 0.000 g BT 70.87 610.70 Td (retourne l'argument WORDS. ) Tj ET Q
+q 0.000 g BT 70.87 596.53 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 582.35 Td (Illustration :) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 568.18 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.65 568.78 Td (known-word: words: 'a ; == a) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 554.61 Td ( result: bind words known-word) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 540.43 Td ( same? words result ; == true) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 525.66 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 497.32 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 483.14 Td (Observation \(Liaison effective\) :) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 468.97 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 454.80 Td (S'il existe un mot ayant une orthographe égale et un type identique à celui de l'argument WORDS et le) Tj ET Q
+q 0.000 g BT 70.87 440.62 Td (même contexte que l'argument KNOWN-WORD, alors BIND retourne ce mot. ) Tj ET Q
+q 0.000 g BT 70.87 426.45 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 412.28 Td (Illustration :) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 398.10 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.65 398.70 Td (words: 'a ; == a) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 384.53 Td ( known-word: use [a b] ['b] ; == b) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 370.36 Td ( result: bind words known-word ; == a) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 356.18 Td ( same? words result ; == false) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 341.41 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 327.24 Td (Nous pouvons constater que le résultat dispose de la même orthographe et du même type que le mot) Tj ET Q
+q 0.000 g BT 70.87 313.06 Td (WORDS, mais qu'il n'est pas le mot WORDS.) Tj ET Q
+q 0.000 g BT 70.87 298.89 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 270.54 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 256.37 Td (Observation \(Liaison inefficace\) :) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 242.20 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 228.02 Td (S'il n'existe pas de mot ayant les mêmes orthographe et type que l'argument WORDS et une liaison) Tj ET Q
+q 0.000 g BT 70.87 213.85 Td (égale à celle de l'argument KNOWN-WORD, BIND retourne l'argument WORDS. ) Tj ET Q
+q 0.000 g BT 70.87 199.68 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 185.50 Td (Illustration) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 121.99 185.50 Td ( :) Tj ET Q
+q 0.000 g BT 70.87 171.33 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.65 171.93 Td (words: 'c ; == c) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 157.76 Td ( known-word: use [a b] ['b] ; == b) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 143.58 Td ( result: bind words known-word ; == c) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 129.41 Td ( same? words result ; == true) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 114.64 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 100.46 Td (Dans ce cas, BIND retourne simplement le mot WORDS.) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 8/28) Tj ET Q
+
+endstream
+endobj
+19 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 20 0 R>>
+endobj
+20 0 obj
+<</Length 4353>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (Les mots de REBOL et leur contexte, ou la Bindologie) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 751.23 Td (11.3 Liaison quand l'argument WORDS est un bloc) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 738.26 Td (  ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 724.69 Td (Observation \(Liaison avec un bloc, sans copie\):) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 709.91 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 695.74 Td (Si le raffinement /COPY n'est pas utilisé, BIND remplace les éléments du block par le résultat de leur) Tj ET Q
+q 0.000 g BT 70.87 681.57 Td (liaison. Il existe cependant une exception à cette règle : BIND ne lie pas les raffinements contenus) Tj ET Q
+q 0.000 g BT 70.87 667.39 Td (dans le bloc.) Tj ET Q
+q 0.000 g BT 70.87 653.22 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 609.50 Td (12 Mots égaux avec une liaison différente) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 596.53 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 582.35 Td (Des mots égaux ne doivent pas nécessairement avoir une même liaison. En fait, l'opposé est vrai :) Tj ET Q
+q 0.000 g BT 70.87 568.18 Td (pour tous les mots, nous pouvons créer un mot avec une orthographe égale et une liaison différente.) Tj ET Q
+q 0.000 g BT 70.87 554.01 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.65 554.61 Td (nonsame: function [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 540.43 Td (     {) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 526.26 Td (         pour un mot donné, crée un mot) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 512.09 Td (         d'une orthographe égale) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 497.92 Td (        et une liaison différente) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 483.74 Td (     }) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 469.57 Td (     word [any-word!] {the given word}) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 455.40 Td ( ] [w] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 441.22 Td (     w: any [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 427.05 Td (         all [lit-word? :word do reduce [:word]]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 412.88 Td (         all [get-word? :word to word! :word]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 398.70 Td (         all [refinement? :word to word! :word]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 384.53 Td (         :word) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 370.36 Td (     ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 356.18 Td (     first use reduce [:w] reduce [reduce [:w]]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 342.01 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 327.24 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 313.06 Td (Voyons si cette fonction fait ce pour quoi elle est créée :) Tj ET Q
+q 0.000 g BT 70.87 298.89 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.65 299.49 Td (word1: 'a ; == a) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 285.32 Td ( word2: nonsame word1 ; == a) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 271.14 Td ( equal? spelling word1 spelling word2 ; == true) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 256.97 Td ( set word1 1) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 242.80 Td ( set word2 2) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 228.62 Td ( get word1 ; == 1) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 214.45 Td ( get word2 ; == 2) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 200.28 Td ( same? word1 word2 ; == false) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 185.50 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 171.33 Td (Le test démontre que WORD1 et WORD2 ont la même orthographe. Leur liaisons sont différentes,) Tj ET Q
+q 0.000 g BT 70.87 157.16 Td (elles peuvent référer à des valeurs différentes en même temps. Un autre test :) Tj ET Q
+q 0.000 g BT 70.87 142.98 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.65 143.58 Td (word1: /a ; == /a) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 129.41 Td ( word2: nonsame word1 ; == a) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 115.24 Td ( same? word1 word2 ; == false) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 100.46 Td ( ) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 9/28) Tj ET Q
+
+endstream
+endobj
+21 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 22 0 R>>
+endobj
+22 0 obj
+<</Length 3655>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (Les mots de REBOL et leur contexte, ou la Bindologie) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 780.78 Td (Observation \(Orthographe et liaison\) :) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 766.61 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 752.43 Td (Deux mots avec la même orthographe ont la même liaison si et seulement s'ils sont les mêmes. ) Tj ET Q
+q 0.000 g BT 70.87 738.26 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 694.54 Td (13 Comparaison de liaison) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 681.57 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 667.39 Td (Nous en connaissons maintenant suffisamment afin de comparer les liaisons des mots :) Tj ET Q
+q 0.000 g BT 70.87 653.22 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.65 653.82 Td (equal-binding?: func [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 639.65 Td (     {word1 et word2 ont-ils la même liaison ?}) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 625.47 Td (     word1 [any-word!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 611.30 Td (     word2 [any-word!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 597.13 Td ( ] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 582.95 Td (     if not has-context? :word2 [return not has-context? :word1]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 568.78 Td (     same? :word1 bindany nonsame :word1 :word2) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 554.61 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 539.83 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 496.12 Td (14 Comparaison de mots) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 483.14 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 454.80 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 440.62 Td (Observation \(Ressemblance des mots\) :) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 426.45 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 412.28 Td (Deux mots sont les mêmes, si leur orthographe et leur liaison sont égales. ) Tj ET Q
+q 0.000 g BT 70.87 398.10 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 369.76 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 355.58 Td (Observation \(Ressemblance du référentiel\) :) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 341.41 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 327.24 Td (Deux mots utilisent une même référence s'ils sont égaux et si leurs liaisons sont égales. Ce cas traite) Tj ET Q
+q 0.000 g BT 70.87 313.06 Td (de la situation de deux alias qui sont différents mais qui utilisent une référence. ) Tj ET Q
+q 0.000 g BT 70.87 298.89 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.65 299.49 Td (same-references?: func [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 285.32 Td (     word1 [any-word!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 271.14 Td (     word2 [any-word!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 256.97 Td ( ] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 242.80 Td (     found? all [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 228.62 Td (         equal? :word1 :word2) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 214.45 Td (         equal-binding? :word1 :word2) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 200.28 Td (     ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 186.10 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 171.33 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 127.61 Td (15 Visualisations et contexte) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 114.64 Td (  ) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 501.28 45.79 Td (Page 10/28) Tj ET Q
+
+endstream
+endobj
+23 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 24 0 R>>
+endobj
+24 0 obj
+<</Length 3961>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (Les mots de REBOL et leur contexte, ou la Bindologie) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 780.78 Td (Définition :) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 766.61 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 752.43 Td (Une collection non-vide de mots est une visualisation \(ou un contexte\), si : ) Tj ET Q
+q 7.56 0 0 10.39 70.87 740.55 cm /I1 Do Q
+q 0.000 g BT 82.20 738.26 Td (  tous les mots de la collection ont une liaison égale ) Tj ET Q
+q 7.56 0 0 10.39 70.87 726.38 cm /I1 Do Q
+q 0.000 g BT 82.20 724.09 Td (  tout mot n'appartenant pas à la collection a une liaison différente de celle des mots dans la) Tj ET Q
+q 0.000 g BT 70.87 709.91 Td (collection ) Tj ET Q
+q 0.000 g BT 70.87 695.74 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 667.39 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 653.22 Td (Observation \(Hiérarchie de contexte\) :) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 639.05 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 624.87 Td (De cette définition, nous pouvons déduire qu'aucune visualisation ne peut être une partie d'une autre) Tj ET Q
+q 0.000 g BT 70.87 610.70 Td (visualisation. ) Tj ET Q
+q 0.000 g BT 70.87 596.53 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 568.18 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 554.01 Td (Observation \(Visualisation du contexte d'un mot\) :) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 539.83 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 525.66 Td (Pour chaque mot, il existe une visualisation qui contient ce mot. J'appellerai celle-ci la visualisation du) Tj ET Q
+q 0.000 g BT 70.87 511.49 Td (contexte du mot. ) Tj ET Q
+q 0.000 g BT 70.87 497.32 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 483.14 Td (Preuve) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 104.22 483.14 Td ( :) Tj ET Q
+q 0.000 g BT 70.87 468.97 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 454.80 Td (Prenons un KNOWN-WORD. La visualisation de ce contexte sera une collection de tous les mots qui) Tj ET Q
+q 0.000 g BT 70.87 440.62 Td (ont une liaison égale à celle que le KNOWN-WORD a.) Tj ET Q
+q 0.000 g BT 70.87 426.45 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 412.28 Td (La fonction suivante, basée sur le code de Thomas Jensen, illustre la preuve, bien qu'elle n'est pas) Tj ET Q
+q 0.000 g BT 70.87 398.10 Td ("complète" :) Tj ET Q
+q 0.000 g BT 70.87 383.93 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.65 384.53 Td (visualize-context: function [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 370.36 Td (     known-word [any-word!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 356.18 Td ( ] [result] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 342.01 Td (     if not has-context? :known-word [return first system/words]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 327.84 Td (     result: make block! 0) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 313.66 Td (     foreach word first system/words [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 299.49 Td (         if not same? word bindany word :known-word [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 285.32 Td (             append result word) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 271.14 Td (         ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 256.97 Td (     ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 242.80 Td (     result) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 228.62 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 213.85 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 170.13 Td (16 Visualisation d'un objet) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 157.16 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 128.81 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 114.64 Td (Définition :) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 100.46 Td ( ) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 501.28 45.79 Td (Page 11/28) Tj ET Q
+
+endstream
+endobj
+25 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 26 0 R>>
+endobj
+26 0 obj
+<</Length 3954>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (Les mots de REBOL et leur contexte, ou la Bindologie) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td (La visualisation d'un objet O est la visualisation du \(in o 'self\) contexte du mot.) Tj ET Q
+q 0.000 g BT 70.87 780.78 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 766.61 Td (Comme la fonction BIND, la fonction IN n'est pas aussi générale que nous souhaiterions l'avoir. Mais il) Tj ET Q
+q 0.000 g BT 70.87 752.43 Td (est possible de modifier les spécifications de la fonction IN afin de poivoir utiliser un ANY-WORD) Tj ET Q
+q 0.000 g BT 70.87 738.26 Td (comme argument : ) Tj ET Q
+q 0.000 g BT 70.87 724.09 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.65 724.69 Td (inany: function [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 710.51 Td (     {) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 696.34 Td (         returns a word in OBJECT) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 682.17 Td (         having equal spelling and equal type) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 667.99 Td (         as WORD) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 653.82 Td (     }) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 639.65 Td (     object [object!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 625.47 Td (     word [any-word!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 611.30 Td ( ] [wordt words spec result] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 597.13 Td (     spec: third :in) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 582.95 Td (     words: next find spec 'word) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 568.78 Td (     wordt: first words) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 554.61 Td (     change/only words reduce [any-word!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 540.43 Td (     result: in object :word) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 526.26 Td (     change/only words wordt) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 512.09 Td (     :result) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 497.92 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 483.14 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 454.80 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 440.62 Td (Observation \(Visualisation d'un objet\) :) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 426.45 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 412.28 Td (La visualisation d'un objet O est la collection de tous les mots qui peuvent être obtenus comme) Tj ET Q
+q 0.000 g BT 70.87 398.10 Td (résultat de l'expression \(inany o :word\). ) Tj ET Q
+q 0.000 g BT 70.87 383.93 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 355.58 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 341.41 Td (Définition :) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 327.24 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 313.06 Td (A la place de dire "un mot est dans la visualisation d'un objet", je dirai "un mot est dans un objet". ) Tj ET Q
+q 0.000 g BT 70.87 298.89 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 270.54 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 256.37 Td (Observation \(Mots d'objet\) :) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 242.20 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 228.02 Td (Pour chaque objet O et pour chaque mot que WORD contient, ce WORD est dans O si et seulement) Tj ET Q
+q 0.000 g BT 70.87 213.85 Td (si l'expression \(same ? :word inany o :word\) est vraie. ) Tj ET Q
+q 0.000 g BT 70.87 199.68 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 171.33 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 157.16 Td (Définition :) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 142.98 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 128.81 Td (J'appellerai "contexte global" l'objet REBOL/WORDS. Les mots contenus dans ce contexte global) Tj ET Q
+q 0.000 g BT 70.87 114.64 Td (seront des mots globaux. ) Tj ET Q
+q 0.000 g BT 70.87 100.46 Td ( ) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 501.28 45.79 Td (Page 12/28) Tj ET Q
+
+endstream
+endobj
+27 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 28 0 R>>
+endobj
+28 0 obj
+<</Length 4525>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (Les mots de REBOL et leur contexte, ou la Bindologie) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td (La fonction suivante nous aide à trouver si un mot se trouve dans le contexte global :) Tj ET Q
+q 0.000 g BT 70.87 780.78 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.65 781.38 Td (global?: func [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 767.21 Td (     {trouve si un mot est global}) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 753.03 Td (     word [any-word!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 738.86 Td ( ] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 724.69 Td (     same? :word inany rebol/words :word) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 710.51 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 695.74 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 667.39 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 653.22 Td (Observation \(Visualisation simplifiée\) :) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 639.05 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 624.87 Td (Le bloc obtenu comme le résultat de l'expression \(first object\) est une visualisation simplifiée de) Tj ET Q
+q 0.000 g BT 70.87 610.70 Td (l'OBJECT. Au contraire de la visualisation complète, il contient des mots non-liés. De plus, il ne) Tj ET Q
+q 0.000 g BT 70.87 596.53 Td (contient pas tous les alias de ses mots et ne contient que des mots du type WORD! ) Tj ET Q
+q 0.000 g BT 70.87 582.35 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 568.18 Td (Illustration) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 121.99 568.18 Td ( :) Tj ET Q
+q 0.000 g BT 70.87 554.01 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.65 554.61 Td (alias 'rebol "rebellious") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 540.43 Td ( o: make object! [rebellious: 1]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 526.26 Td ( first o ; == [self rebellious]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 512.09 Td ( not has-context? first first o ; == true) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 497.92 Td ( in o 'rebol ; == rebol) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 483.14 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 468.97 Td (La tâche inverse à la recherche de la visualisation d'un objet est de trouver l'objet dans lequel se) Tj ET Q
+q 0.000 g BT 70.87 454.80 Td (trouve un mot. La fonction suivante, basée sur l'idée de Romano Paolo Tenca retourne l'objet régulier) Tj ET Q
+q 0.000 g BT 70.87 440.62 Td (\(objet pour lequel l'attribut SELF est l'objet lui-même\) dans lequel le mot se trouve. Dans le cas d'un) Tj ET Q
+q 0.000 g BT 70.87 426.45 Td (objet irrégulier, la fonction retourne NONE.) Tj ET Q
+q 0.000 g BT 70.87 412.28 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.65 412.88 Td (in-object?: function [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 398.70 Td (     {trouve l'objet régulier dans lequel le mot se trouve}) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 384.53 Td (     word [any-word!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 370.36 Td ( ] [self] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 356.18 Td (     all [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 342.01 Td (         has-context? :word) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 327.84 Td (         not same? 'self self: bindany 'self :word) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 313.66 Td (         object? set/any 'self get/any self) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 299.49 Td (         same? :word inany self :word) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 285.32 Td (         self) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 271.14 Td (     ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 256.97 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 242.20 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 198.48 Td (17 Les fonctions MAKE, TO et les mots de Rebol) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 185.50 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 157.16 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 142.98 Td (Observation \(MAKE, TO et mots globaux\) :) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 128.81 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 114.64 Td (Les mots créés par MAKE WORD !, MAKE SET-WORD !, MAKE GET-WORD !, MAKE LIT-WORD !,) Tj ET Q
+q 0.000 g BT 70.87 100.46 Td (MAKE REFINEMENT !, TO WORD !, TO SET-WORD !, TO GET-WORD !, TO LIT-WORD !, TO) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 501.28 45.79 Td (Page 13/28) Tj ET Q
+
+endstream
+endobj
+29 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 30 0 R>>
+endobj
+30 0 obj
+<</Length 4033>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (Les mots de REBOL et leur contexte, ou la Bindologie) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td (REFINEMENT ! sont globaux. ) Tj ET Q
+q 0.000 g BT 70.87 780.78 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 766.61 Td (Illustration :) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 752.43 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.65 753.03 Td (global? make word! first first rebol/words ; == true) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 738.86 Td ( global? to word! first first rebol/words ; == true) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 724.09 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 695.74 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 681.57 Td (Observation \(Elargissement automatique\) :) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 667.39 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 653.22 Td (Le contexte global est élargi quand les fonctions MAKE, TO et LOAD créent un nouveau mot. Par) Tj ET Q
+q 0.000 g BT 70.87 639.05 Td (contre, la fonction BIND n'élargi pas le contexte global, comme nous l'avons décrit dans l'Observation) Tj ET Q
+q 0.000 g BT 70.87 624.87 Td (\(Liaison inefficace\). Identiquement, la fonction IN n'élargi pas le contexte global.) Tj ET Q
+q 0.000 g BT 70.87 610.70 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 596.53 Td (Observation \(MAKE, TO and Unbound Words\) : All words contained in the result of MAKE BLOCK !) Tj ET Q
+q 0.000 g BT 70.87 582.35 Td (and TO BLOCK ! and in its subblocks are unbound, if the SPEC argument is a string. ) Tj ET Q
+q 0.000 g BT 70.87 568.18 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 554.01 Td (Illustration :) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 539.83 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.65 540.43 Td (has-context? first make block! "unbound" ; == false) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 526.26 Td ( has-context? first first first make block! "[[unbound-too]]" ; == false) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 511.49 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 467.77 Td (18 Mots locaux, visualisations locales) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 454.80 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 426.45 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 412.28 Td (Définition :) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 398.10 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 383.93 Td (J'appelle mots locaux les mots qui sont liés et qui ne sont pas globaux. ) Tj ET Q
+q 0.000 g BT 70.87 369.76 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.65 370.36 Td (local?: func [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 356.18 Td (     {find out, if a given word is local}) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 342.01 Td (     word [any-word!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 327.84 Td ( ] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 313.66 Td (     not any [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 299.49 Td (         not has-context? :word) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 285.32 Td (         global? :word) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 271.14 Td (     ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 256.97 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 242.20 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 213.85 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 199.68 Td (Définition :) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 185.50 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 171.33 Td (Une visualisation est appelée "visualisaion d'un contexte" local si elle ne contient que des mots) Tj ET Q
+q 0.000 g BT 70.87 157.16 Td (locaux. ) Tj ET Q
+q 0.000 g BT 70.87 142.98 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 114.64 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 100.46 Td (Observation \(Visualisdation de contexte locaux\) :) Tj ET Q
+BT /F1 10.00 Tf ET
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 501.28 45.79 Td (Page 14/28) Tj ET Q
+
+endstream
+endobj
+31 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 32 0 R>>
+endobj
+32 0 obj
+<</Length 4203>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (Les mots de REBOL et leur contexte, ou la Bindologie) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 780.78 Td (Exception faite des visulisations de contextes globaux et de la collection de tous les mots non liés,) Tj ET Q
+q 0.000 g BT 70.87 766.61 Td (chaque visualisation est une visualisation de de contexte local. ) Tj ET Q
+q 0.000 g BT 70.87 752.43 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 724.09 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 709.91 Td (Observation \(Elargissement des contexte locaux\) :) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 695.74 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 681.57 Td (Les contextes locaux ne peuvent pas être élargis. ) Tj ET Q
+q 0.000 g BT 70.87 667.39 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 623.67 Td (19 Visualisation du contexte des fonctions et de USE) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 610.70 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 596.53 Td (En plus des visualisations d'objets définis par les utilisateurs, il existe des visualisation de contexte de) Tj ET Q
+q 0.000 g BT 70.87 582.35 Td (fonction et des visualisation de contexte de USE \(NdT : use est mis en majuscule pour la clarté du) Tj ET Q
+q 0.000 g BT 70.87 568.18 Td (propos\). Une différence entre la visualisation d'un objet et celle des fonctionset de USE, est que ces) Tj ET Q
+q 0.000 g BT 70.87 554.01 Td (dernières ne contiennent pas de mot égal au mot 'self.) Tj ET Q
+q 0.000 g BT 70.87 539.83 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 496.12 Td (20 Liaison calculées) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 483.14 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 468.97 Td (Explorons le comportement du code REBOL.) Tj ET Q
+q 0.000 g BT 70.87 454.80 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.65 455.40 Td (code-string: {) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 441.22 Td (     checkpoint 1) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 427.05 Td (     'f 'g 'h) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 412.88 Td (     use [g h] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 398.70 Td (         checkpoint 2) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 384.53 Td (         'f 'g 'h) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 370.36 Td (         use [h] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 356.18 Td (             checkpoint 3) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 342.01 Td (             'f 'g 'h) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 327.84 Td (         ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 313.66 Td (     ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 299.49 Td ( }) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 284.72 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 270.54 Td (La fonction CHECKPOINT va colorier le code de la manière suivante : les mots non liés seront en) Tj ET Q
+q 0.000 g BT 70.87 256.37 Td (jaune, les mots globaux en bleu, les mots liés par le premier USE seront en rouge et ceux liés au) Tj ET Q
+q 0.000 g BT 70.87 242.20 Td (contexte créé par le second USE seront en magenta :) Tj ET Q
+q 0.000 g BT 70.87 228.02 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.65 228.62 Td (checkpoint: func [i] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 214.45 Td (     append result rejoin ["^/^/    Checkpoint " i "^/    "]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 200.28 Td (     parse code rule: [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 186.10 Td (         \(append result #"["\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 171.93 Td (         any [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 157.76 Td (             \(append result #" "\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 143.58 Td (             set word any-word! \() Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 129.41 Td (                 any [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 115.24 Td (                     if not has-context? :word [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 101.06 Td (                         append result ) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 501.28 45.79 Td (Page 15/28) Tj ET Q
+
+endstream
+endobj
+33 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 34 0 R>>
+endobj
+34 0 obj
+<</Length 10553>>
+stream
+2 J
+0.85 w
+BT /F2 8.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 70.87 819.05 Td (Les mots de REBOL et leur contexte, ou la Bindologie) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 795.55 Td (                         append result mold :word) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 781.38 Td (                         append result ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 767.21 Td (                     ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 753.03 Td (                     if global? :word [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 738.86 Td (                         append result ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 724.69 Td (                         append result mold :word) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 710.51 Td (                         append result ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 696.34 Td (                     ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 682.17 Td (                     if equal-binding? :word code/8/4 [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 667.99 Td (                         append result ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 653.82 Td (                         append result mold :word) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 639.65 Td (                         append result ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 625.47 Td (                     ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 611.30 Td (                     if equal-binding? :word code/8/8/5 [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 597.13 Td (                         append result ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 582.95 Td (                         append result mold :word) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 568.78 Td (                         append result ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 554.61 Td (                     ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 540.43 Td (                 ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 526.26 Td (             \) | into rule | set word skip \() Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 512.09 Td (                 append result mold :word) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 497.92 Td (             \)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 483.74 Td (         ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 469.57 Td (         \(append result #"]"\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 455.40 Td (     ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 441.22 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 426.45 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 412.28 Td (Ceci est la description de comment ce code REBOLest interprété :) Tj ET Q
+q 0.000 g BT 70.87 398.10 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.65 398.70 Td (;L'interpréteur REBOL crée d'abord un block de code) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 384.53 Td ( code: make block! code-string) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 370.36 Td ( result: ") Tj ET Q
+q 1.000 0.000 0.000 rg BT 118.87 370.36 Td (") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 356.18 Td ( ; marquons le code) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 342.01 Td ( checkpoint 0) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 327.84 Td ( ; ensuite, le code est lié au contexte global) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 313.66 Td ( code: bind code 'rebol) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 299.49 Td ( ;et enfin, le code est interprété) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 285.32 Td ( do code) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 271.14 Td ( append result ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 256.97 Td ( print result) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 242.20 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 228.02 Td (Le résultat sera :) Tj ET Q
+q 0.000 g BT 70.87 213.85 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 199.68 Td (Checkpoint 0 [ ) Tj ET Q
+q 0.000 g BT 137.57 199.68 Td (checkpoint) Tj ET Q
+q 0.000 g BT 185.37 199.68 Td ( 1 ) Tj ET Q
+q 0.000 g BT 196.49 199.68 Td ('f) Tj ET Q
+q 0.000 g BT 201.18 199.68 Td ( ) Tj ET Q
+q 0.000 g BT 203.96 199.68 Td ('g) Tj ET Q
+q 0.000 g BT 211.43 199.68 Td ( ) Tj ET Q
+q 0.000 g BT 214.21 199.68 Td ('h) Tj ET Q
+q 0.000 g BT 221.68 199.68 Td ( ) Tj ET Q
+q 0.000 g BT 224.46 199.68 Td (use) Tj ET Q
+q 0.000 g BT 240.58 199.68 Td ( [ ) Tj ET Q
+q 0.000 g BT 248.92 199.68 Td (g) Tj ET Q
+q 0.000 g BT 254.48 199.68 Td ( ) Tj ET Q
+q 0.000 g BT 257.26 199.68 Td (h) Tj ET Q
+q 0.000 g BT 262.82 199.68 Td ( ] [ ) Tj ET Q
+q 0.000 g BT 276.72 199.68 Td (checkpoint) Tj ET Q
+q 0.000 g BT 324.52 199.68 Td ( 2 ) Tj ET Q
+q 0.000 g BT 335.64 199.68 Td ('f) Tj ET Q
+q 0.000 g BT 340.33 199.68 Td ( ) Tj ET Q
+q 0.000 g BT 343.11 199.68 Td ('g) Tj ET Q
+q 0.000 g BT 350.58 199.68 Td ( ) Tj ET Q
+q 0.000 g BT 353.36 199.68 Td ('h) Tj ET Q
+q 0.000 g BT 360.83 199.68 Td ( ) Tj ET Q
+q 0.000 g BT 363.61 199.68 Td (use) Tj ET Q
+q 0.000 g BT 379.73 199.68 Td ( [ ) Tj ET Q
+q 0.000 g BT 388.07 199.68 Td (h) Tj ET Q
+q 0.000 g BT 393.63 199.68 Td ( ] [ ) Tj ET Q
+q 0.000 g BT 407.53 199.68 Td (checkpoint) Tj ET Q
+q 0.000 g BT 455.33 199.68 Td ( 3 ) Tj ET Q
+q 0.000 g BT 466.45 199.68 Td ('f) Tj ET Q
+q 0.000 g BT 471.14 199.68 Td ( ) Tj ET Q
+q 0.000 g BT 473.92 199.68 Td ('g) Tj ET Q
+q 0.000 g BT 481.39 199.68 Td ( ) Tj ET Q
+q 0.000 g BT 484.17 199.68 Td ('h) Tj ET Q
+q 0.000 g BT 491.64 199.68 Td ( ] ] ]) Tj ET Q
+q 0.000 g BT 70.87 185.50 Td (Checkpoint 1 [ ) Tj ET Q
+q 0.000 g BT 137.57 185.50 Td (checkpoint) Tj ET Q
+q 0.000 g BT 185.37 185.50 Td ( 1 ) Tj ET Q
+q 0.000 g BT 196.49 185.50 Td ('f) Tj ET Q
+q 0.000 g BT 201.18 185.50 Td ( ) Tj ET Q
+q 0.000 g BT 203.96 185.50 Td ('g) Tj ET Q
+q 0.000 g BT 211.43 185.50 Td ( ) Tj ET Q
+q 0.000 g BT 214.21 185.50 Td ('h) Tj ET Q
+q 0.000 g BT 221.68 185.50 Td ( ) Tj ET Q
+q 0.000 g BT 224.46 185.50 Td (use) Tj ET Q
+q 0.000 g BT 240.58 185.50 Td ( [ ) Tj ET Q
+q 0.000 g BT 248.92 185.50 Td (g) Tj ET Q
+q 0.000 g BT 254.48 185.50 Td ( ) Tj ET Q
+q 0.000 g BT 257.26 185.50 Td (h) Tj ET Q
+q 0.000 g BT 262.82 185.50 Td ( ] [ ) Tj ET Q
+q 0.000 g BT 276.72 185.50 Td (checkpoint) Tj ET Q
+q 0.000 g BT 324.52 185.50 Td ( 2 ) Tj ET Q
+q 0.000 g BT 335.64 185.50 Td ('f) Tj ET Q
+q 0.000 g BT 340.33 185.50 Td ( ) Tj ET Q
+q 0.000 g BT 343.11 185.50 Td ('g) Tj ET Q
+q 0.000 g BT 350.58 185.50 Td ( ) Tj ET Q
+q 0.000 g BT 353.36 185.50 Td ('h) Tj ET Q
+q 0.000 g BT 360.83 185.50 Td ( ) Tj ET Q
+q 0.000 g BT 363.61 185.50 Td (use) Tj ET Q
+q 0.000 g BT 379.73 185.50 Td ( [ ) Tj ET Q
+q 0.000 g BT 388.07 185.50 Td (h) Tj ET Q
+q 0.000 g BT 393.63 185.50 Td ( ] [ ) Tj ET Q
+q 0.000 g BT 407.53 185.50 Td (checkpoint) Tj ET Q
+q 0.000 g BT 455.33 185.50 Td ( 3 ) Tj ET Q
+q 0.000 g BT 466.45 185.50 Td ('f) Tj ET Q
+q 0.000 g BT 471.14 185.50 Td ( ) Tj ET Q
+q 0.000 g BT 473.92 185.50 Td ('g) Tj ET Q
+q 0.000 g BT 481.39 185.50 Td ( ) Tj ET Q
+q 0.000 g BT 484.17 185.50 Td ('h) Tj ET Q
+q 0.000 g BT 491.64 185.50 Td ( ] ] ]) Tj ET Q
+q 0.000 g BT 70.87 171.33 Td (Checkpoint 2 [ ) Tj ET Q
+q 0.000 g BT 137.57 171.33 Td (checkpoint) Tj ET Q
+q 0.000 g BT 185.37 171.33 Td ( 1 ) Tj ET Q
+q 0.000 g BT 196.49 171.33 Td ('f) Tj ET Q
+q 0.000 g BT 201.18 171.33 Td ( ) Tj ET Q
+q 0.000 g BT 203.96 171.33 Td ('g) Tj ET Q
+q 0.000 g BT 211.43 171.33 Td ( ) Tj ET Q
+q 0.000 g BT 214.21 171.33 Td ('h) Tj ET Q
+q 0.000 g BT 221.68 171.33 Td ( ) Tj ET Q
+q 0.000 g BT 224.46 171.33 Td (use) Tj ET Q
+q 0.000 g BT 240.58 171.33 Td ( [ ) Tj ET Q
+q 0.000 g BT 248.92 171.33 Td (g) Tj ET Q
+q 0.000 g BT 254.48 171.33 Td ( ) Tj ET Q
+q 0.000 g BT 257.26 171.33 Td (h) Tj ET Q
+q 0.000 g BT 262.82 171.33 Td ( ] [ ) Tj ET Q
+q 0.000 g BT 276.72 171.33 Td (checkpoint) Tj ET Q
+q 0.000 g BT 324.52 171.33 Td ( 2 ) Tj ET Q
+q 0.000 g BT 335.64 171.33 Td ('f) Tj ET Q
+q 0.000 g BT 340.33 171.33 Td ( ) Tj ET Q
+q 0.000 g BT 343.11 171.33 Td ('g) Tj ET Q
+q 0.000 g BT 350.58 171.33 Td ( ) Tj ET Q
+q 0.000 g BT 353.36 171.33 Td ('h) Tj ET Q
+q 0.000 g BT 360.83 171.33 Td ( ) Tj ET Q
+q 0.000 g BT 363.61 171.33 Td (use) Tj ET Q
+q 0.000 g BT 379.73 171.33 Td ( [ ) Tj ET Q
+q 0.000 g BT 388.07 171.33 Td (h) Tj ET Q
+q 0.000 g BT 393.63 171.33 Td ( ] [ ) Tj ET Q
+q 0.000 g BT 407.53 171.33 Td (checkpoint) Tj ET Q
+q 0.000 g BT 455.33 171.33 Td ( 3 ) Tj ET Q
+q 0.000 g BT 466.45 171.33 Td ('f) Tj ET Q
+q 0.000 g BT 471.14 171.33 Td ( ) Tj ET Q
+q 0.000 g BT 473.92 171.33 Td ('g) Tj ET Q
+q 0.000 g BT 481.39 171.33 Td ( ) Tj ET Q
+q 0.000 g BT 484.17 171.33 Td ('h) Tj ET Q
+q 0.000 g BT 491.64 171.33 Td ( ] ] ]) Tj ET Q
+q 0.000 g BT 70.87 157.16 Td (Checkpoint 3 [ ) Tj ET Q
+q 0.000 g BT 137.57 157.16 Td (checkpoint) Tj ET Q
+q 0.000 g BT 185.37 157.16 Td ( 1 ) Tj ET Q
+q 0.000 g BT 196.49 157.16 Td ('f) Tj ET Q
+q 0.000 g BT 201.18 157.16 Td ( ) Tj ET Q
+q 0.000 g BT 203.96 157.16 Td ('g) Tj ET Q
+q 0.000 g BT 211.43 157.16 Td ( ) Tj ET Q
+q 0.000 g BT 214.21 157.16 Td ('h) Tj ET Q
+q 0.000 g BT 221.68 157.16 Td ( ) Tj ET Q
+q 0.000 g BT 224.46 157.16 Td (use) Tj ET Q
+q 0.000 g BT 240.58 157.16 Td ( [ ) Tj ET Q
+q 0.000 g BT 248.92 157.16 Td (g) Tj ET Q
+q 0.000 g BT 254.48 157.16 Td ( ) Tj ET Q
+q 0.000 g BT 257.26 157.16 Td (h) Tj ET Q
+q 0.000 g BT 262.82 157.16 Td ( ] [ ) Tj ET Q
+q 0.000 g BT 276.72 157.16 Td (checkpoint) Tj ET Q
+q 0.000 g BT 324.52 157.16 Td ( 2 ) Tj ET Q
+q 0.000 g BT 335.64 157.16 Td ('f) Tj ET Q
+q 0.000 g BT 340.33 157.16 Td ( ) Tj ET Q
+q 0.000 g BT 343.11 157.16 Td ('g) Tj ET Q
+q 0.000 g BT 350.58 157.16 Td ( ) Tj ET Q
+q 0.000 g BT 353.36 157.16 Td ('h) Tj ET Q
+q 0.000 g BT 360.83 157.16 Td ( ) Tj ET Q
+q 0.000 g BT 363.61 157.16 Td (use) Tj ET Q
+q 0.000 g BT 379.73 157.16 Td ( [ ) Tj ET Q
+q 0.000 g BT 388.07 157.16 Td (h) Tj ET Q
+q 0.000 g BT 393.63 157.16 Td ( ] [ ) Tj ET Q
+q 0.000 g BT 407.53 157.16 Td (checkpoint) Tj ET Q
+q 0.000 g BT 455.33 157.16 Td ( 3 ) Tj ET Q
+q 0.000 g BT 466.45 157.16 Td ('f) Tj ET Q
+q 0.000 g BT 471.14 157.16 Td ( ) Tj ET Q
+q 0.000 g BT 473.92 157.16 Td ('g) Tj ET Q
+q 0.000 g BT 481.39 157.16 Td ( ) Tj ET Q
+q 0.000 g BT 484.17 157.16 Td ('h) Tj ET Q
+q 0.000 g BT 491.64 157.16 Td ( ] ] ] ) Tj ET Q
+q 0.000 g BT 70.87 142.98 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 128.81 Td (Ceci prouve que : ) Tj ET Q
+q 7.56 0 0 10.39 70.87 116.93 cm /I1 Do Q
+q 0.000 g BT 82.20 114.64 Td (  au point de contrôle initial, tous les mots dans CODE ne sont pas liés ) Tj ET Q
+q 7.56 0 0 10.39 70.87 102.76 cm /I1 Do Q
+q 0.000 g BT 82.20 100.46 Td (  au premier point de contrôle, tous les mots sont globaux ) Tj ET Q
+q 7.56 0 0 10.39 70.87 88.58 cm /I1 Do Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 501.28 45.79 Td (Page 16/28) Tj ET Q
+
+endstream
+endobj
+35 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 36 0 R>>
+endobj
+36 0 obj
+<</Length 4423>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (Les mots de REBOL et leur contexte, ou la Bindologie) Tj ET Q
+q 0.000 g BT 82.20 794.95 Td (  au second point de contrôle, le premier appel à USE a remplacé tous les mots 'g et 'h de son bloc) Tj ET Q
+q 0.000 g BT 70.87 780.78 Td (de corps et de ses sous-blocs par des mots locaux de USE1 ) Tj ET Q
+q 7.56 0 0 10.39 70.87 768.90 cm /I1 Do Q
+q 0.000 g BT 82.20 766.61 Td (  au troisième point de contrôle, le second USE a remplacé le 'h dans le bloc le plus intérieur par le) Tj ET Q
+q 0.000 g BT 70.87 752.43 Td (mot local de USE2) Tj ET Q
+q 0.000 g BT 70.87 738.26 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 709.91 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 695.74 Td (Observation \(Liaison calculée\) :) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 681.57 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 667.39 Td (Durant l'interprétation, la liaison des mots REBOL contenus dans le code est changée \(les mots sont) Tj ET Q
+q 0.000 g BT 70.87 653.22 Td (remplacés par des mots avec une liaison différente\) jusqu'à ce qu'il soient correctement liés et) Tj ET Q
+q 0.000 g BT 70.87 639.05 Td (évalués. C'est pourquoi le créateur de REBOL nomme ce comportement la liaison calculée. ) Tj ET Q
+q 0.000 g BT 70.87 624.87 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 581.15 Td (21 Portée Définitionnelle) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 568.18 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 554.01 Td (Nous pouvons observer quelque chose comme une "hiérarchie de portée" durant l'exécution du code) Tj ET Q
+q 0.000 g BT 70.87 539.83 Td (\(voir la section précédente\). Comme nous l'vaons vu, ceci n'est qu'un effet collatéral de la liaison) Tj ET Q
+q 0.000 g BT 70.87 525.66 Td (calculée.) Tj ET Q
+q 0.000 g BT 70.87 511.49 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 497.32 Td (Avec l'aide de la liaison calculée, nous pouvons simplement créer un extrait de code qui ne présente) Tj ET Q
+q 0.000 g BT 70.87 483.14 Td (pas cette "hiérarchie de portée".) Tj ET Q
+q 0.000 g BT 70.87 468.97 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.65 469.57 Td (; crée un bloc CODE-BLK contenant un mot 'a) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 455.40 Td ( code-blk: copy [a]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 441.22 Td ( a: 12) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 427.05 Td ( ;ajoute maintenant un autre mot 'a dans CODE-BLK) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 412.88 Td ( make object! [append code-blk 'a a: 13]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 398.70 Td ( code-blk ; == [a a]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 384.53 Td ( ; teste si CODE-BLK contient des mots égaux) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 370.36 Td ( equal? first code-blk second code-blk ; == true) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 356.18 Td ( ;teste  si CODE-BLK est un bloc avec une portée mixte) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 342.01 Td ( same? first code-blk second code-blk ; == false) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 327.24 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 313.06 Td (Le code ci-dessus peut servir à prouver qu'il n'existe pas de "contexte courant" en REBOL.) Tj ET Q
+q 0.000 g BT 70.87 298.89 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 255.17 Td (22 USE) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 242.20 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 228.02 Td (Afin d'être aussi précis que possible, nous allons écrire la définition de la fonction USE en Rebol.) Tj ET Q
+q 0.000 g BT 70.87 213.85 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 199.68 Td (La fonction suivante crée un nouveau contexte inaccessible et retourne un mot le représentant.) Tj ET Q
+q 0.000 g BT 70.87 185.50 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.65 186.10 Td (sim-make-context: func [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 171.93 Td (     words [block!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 157.76 Td ( ] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 143.58 Td (     first use words reduce [reduce [first words]]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 129.41 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 114.64 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 100.46 Td (La description de USE :) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 501.28 45.79 Td (Page 17/28) Tj ET Q
+
+endstream
+endobj
+37 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 38 0 R>>
+endobj
+38 0 obj
+<</Length 4198>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (Les mots de REBOL et leur contexte, ou la Bindologie) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 781.38 Td ( sim-use: function [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 767.21 Td (     "simulation de USE") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 753.03 Td (     [throw]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 738.86 Td (     words [block!] "Local word\(s\) to the block") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 724.69 Td (     body [block!] "Block to evaluate") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 710.51 Td ( ] [new-context] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 696.34 Td (     if word? words [words: reduce [words]]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 682.17 Td (     if not empty? words [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 667.99 Td (         ; crée un nouveau contexte) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 653.82 Td (         new-context: sim-make-context words) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 639.65 Td (         ; lie le corps au nouveau contexte) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 625.47 Td (         bind body new-context) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 611.30 Td (     ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 597.13 Td (     do body) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 582.95 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 568.18 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 539.83 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 525.66 Td (Observation \(SIM-USE et BODY\) :) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 511.49 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 497.32 Td (SIM-USE modifie son argument BODY quand il se lie au nouveau contexte. Si nous souhaitons laisser) Tj ET Q
+q 0.000 g BT 70.87 483.14 Td (l'argument BODY inchangé, nous devons utiliser BIND/COPY au lieu de BIND. ) Tj ET Q
+q 0.000 g BT 70.87 468.97 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 454.80 Td (Comparons le comportement de SIM-USE et celui de USE :) Tj ET Q
+q 0.000 g BT 70.87 440.62 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.65 441.22 Td (body: ['a]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 427.05 Td ( body-copy: copy body) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 412.88 Td ( same? first body first body-copy ; == true) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 398.70 Td ( use [a] body) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 384.53 Td ( same? first body first body-copy ; == false) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 369.76 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 355.58 Td (Comme nous venons de la montrer, la même chose est vraie pour SIM-USE et pour le USE original.) Tj ET Q
+q 0.000 g BT 70.87 341.41 Td (Nous pouvons constater que la simulation est si précise qu'elle nous a aidé à révéler un bogue dans) Tj ET Q
+q 0.000 g BT 70.87 327.24 Td (le code suivant :) Tj ET Q
+q 0.000 g BT 70.87 313.06 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.65 313.66 Td (f: func [x] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 299.49 Td (     use [a] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 285.32 Td (         either x = 1 [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 271.14 Td (             a: "OK") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 256.97 Td (             f 2) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 242.80 Td (             a) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 228.62 Td (         ] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 214.45 Td (             a: "BUG!") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 200.28 Td (             "OK") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 186.10 Td (         ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 171.93 Td (     ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 157.76 Td ( ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 143.58 Td ( f 1 ; == "BUG!") Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 128.81 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 114.64 Td (Explication/correction :) Tj ET Q
+q 0.000 g BT 70.87 100.46 Td ( ) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 501.28 45.79 Td (Page 18/28) Tj ET Q
+
+endstream
+endobj
+39 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 40 0 R>>
+endobj
+40 0 obj
+<</Length 4445>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (Les mots de REBOL et leur contexte, ou la Bindologie) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td (La propriété USE observée change le corps de la fonction F durant la seconde exécution du USE.) Tj ET Q
+q 0.000 g BT 70.87 780.78 Td (Après cette modification, il ne contient plus le mot 'a qui était déjà mis sur "OK" pendant le premier) Tj ET Q
+q 0.000 g BT 70.87 766.61 Td (appel de F. Au lieu de cela, il contient seulement le mot 'a qui était mis sur "BUG !" durant le second) Tj ET Q
+q 0.000 g BT 70.87 752.43 Td (appel de F.) Tj ET Q
+q 0.000 g BT 70.87 738.26 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 724.09 Td (Si nous pouvons conserver le corps de F, alors nous obtenons le comportement correct :) Tj ET Q
+q 0.000 g BT 70.87 709.91 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.65 710.51 Td (f: func [x] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 696.34 Td (     use [a] copy/deep [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 682.17 Td (         either x = 1 [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 667.99 Td (             a: "OK") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 653.82 Td (             f 2) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 639.65 Td (             a) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 625.47 Td (         ] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 611.30 Td (             a: "BUG!") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 597.13 Td (             "OK") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 582.95 Td (         ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 568.78 Td (     ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 554.61 Td ( ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 540.43 Td ( f 1 ; == "OK") Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 525.66 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 511.49 Td (Une autre manière de corriger ce comportement est d'utiliser notre propre version de USE, qui ne) Tj ET Q
+q 0.000 g BT 70.87 497.32 Td (modifiera pas son propre argument BODY :) Tj ET Q
+q 0.000 g BT 70.87 483.14 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.65 483.74 Td (nm-use: func [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 469.57 Td (     {) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 455.40 Td (         Défini les mots locaux au bloc.) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 441.22 Td (         Ne modifie pas l'argument BODY.) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 427.05 Td (     }) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 412.88 Td (     [throw]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 398.70 Td (     words [block!] {Local words to the block}) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 384.53 Td (     body [block!] {Block to evaluate}) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 370.36 Td ( ] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 356.18 Td (     use words copy/deep body) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 342.01 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 327.24 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 283.52 Td (23 MAKE OBJECT !) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 270.54 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 256.37 Td (Nous utiliserons la même méthode que pour la description du USE. La première partie de la) Tj ET Q
+q 0.000 g BT 70.87 242.20 Td (simulation sera une fonction créant un objet "blanc", c'est à dire un objet contenant les mots locaux) Tj ET Q
+q 0.000 g BT 70.87 228.02 Td (désirés, mais pas mis à un contenu. Parce qu'un telle fonction n'existe pas en REBOL, nous allons) Tj ET Q
+q 0.000 g BT 70.87 213.85 Td (créer la nôtre pour le besoin de la simulation :) Tj ET Q
+q 0.000 g BT 70.87 199.68 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.65 200.28 Td (blank-object: function [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 186.10 Td (     {crée un objet blanc}) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 171.93 Td (     set-words [block!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 157.76 Td ( ] [object] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 143.58 Td (    unset in object: context compose [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 129.41 Td (        return self \(set-words\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 115.24 Td (    ] 'self) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 101.06 Td (    object) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 501.28 45.79 Td (Page 19/28) Tj ET Q
+
+endstream
+endobj
+41 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 42 0 R>>
+endobj
+42 0 obj
+<</Length 4475>>
+stream
+2 J
+0.85 w
+BT /F2 8.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 70.87 819.05 Td (Les mots de REBOL et leur contexte, ou la Bindologie) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 795.55 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 780.78 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 766.61 Td (En plus, nous avons besoin d'une fonction qui évalue l'argument SPEC de la même manière que) Tj ET Q
+q 0.000 g BT 70.87 752.43 Td (MAKE OBJECT ! le fait, c'est à dire en interceptant RETURN, THROW ou BREAK :) Tj ET Q
+q 0.000 g BT 70.87 738.26 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.65 738.86 Td (spec-eval: func [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 724.69 Td (     {évalue SPEC comme MAKE OBJECT! le fait}) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 710.51 Td (     spec [block!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 696.34 Td ( ] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 682.17 Td (     any-type? catch [loop 1 spec]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 667.99 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 653.22 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 639.05 Td (La simulation MAKE OBJECT ! :) Tj ET Q
+q 0.000 g BT 70.87 624.87 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.65 625.47 Td (sim-make-object!: function [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 611.30 Td (     {MAKE OBJECT! simulation}) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 597.13 Td (     spec [block!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 582.95 Td ( ] [set-words object sw] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 568.78 Td (     ; trouve tous les set-words dans SPEC) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 554.61 Td (     set-words: copy []) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 540.43 Td (     parse spec [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 526.26 Td (         any [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 512.09 Td (             copy sw set-word! \(append set-words sw\) |) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 497.92 Td (             skip) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 483.74 Td (         ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 469.57 Td (     ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 455.40 Td (     ; crée un objet blanc avec les mots locaux désirés) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 441.22 Td (     object: blank-object set-words) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 427.05 Td (     ; fait référer le 'self de l'objet vers l'objet) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 412.88 Td (     object/self: object) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 398.70 Td (     ; lie la SPEC à l'objet blanc) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 384.53 Td (     bind spec in object 'self) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 370.36 Td (     ; evaluation) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 356.18 Td (     spec-eval spec) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 342.01 Td (     ; retourne la valeur de 'self comme résultat) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 327.84 Td (     return get/any in object 'self) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 313.66 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 298.89 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 270.54 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 256.37 Td (Observation \(SIM-MAKE-OBJECT ! et SPEC\) :) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 242.20 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 228.02 Td (SIM-MAKE-OBJECT ! modifie son argument SPEC quand il est lié au nouveau contexte. Si nous) Tj ET Q
+q 0.000 g BT 70.87 213.85 Td (désirons laissé l'argiment SPEC inchangé, nous devons utiliser le BIND/CPOPY à la place du BIND.) Tj ET Q
+q 0.000 g BT 70.87 199.68 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 185.50 Td (Ce comportement nous méne à découvrir un bug similaire à celui décrit dans la section traitant du) Tj ET Q
+q 0.000 g BT 70.87 171.33 Td (USE :) Tj ET Q
+q 0.000 g BT 70.87 157.16 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.65 157.76 Td (f: func [x] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 143.58 Td (     get in sim-make-object! [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 129.41 Td (         a: "OK") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 115.24 Td (         if x = 1 [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 101.06 Td (             a: "BUG!") Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 501.28 45.79 Td (Page 20/28) Tj ET Q
+
+endstream
+endobj
+43 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 44 0 R>>
+endobj
+44 0 obj
+<</Length 4391>>
+stream
+2 J
+0.85 w
+BT /F2 8.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 70.87 819.05 Td (Les mots de REBOL et leur contexte, ou la Bindologie) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 795.55 Td (             f 2) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 781.38 Td (             a: "OK") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 767.21 Td (         ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 753.03 Td (     ] 'a) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 738.86 Td ( ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 724.69 Td ( f 1 ; == "BUG!") Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 709.91 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 695.74 Td (L'explication et la correction son similiare à la fonction USE. Le mot a : dans a : "OK" créé après) Tj ET Q
+q 0.000 g BT 70.87 681.57 Td (l'appel récursif à F et lié à l'objet F créé le premier, a été remplacé par le mot a : lié à l'objet F créé) Tj ET Q
+q 0.000 g BT 70.87 667.39 Td (pendant l'appel récursif.) Tj ET Q
+q 0.000 g BT 70.87 653.22 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 639.05 Td (Cela signifie que l'expression a : "OK" n'a pas d'effet sur l'objet F créé le premier, et donc la dernière) Tj ET Q
+q 0.000 g BT 70.87 624.87 Td (valeur de 'a est retenue, c'est à dire "BUG". Si nous conservons le coprs de F, nous pouvons obtenir) Tj ET Q
+q 0.000 g BT 70.87 610.70 Td (le comportement correct :) Tj ET Q
+q 0.000 g BT 70.87 596.53 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.65 597.13 Td (f: func [x] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 582.95 Td (     get in make object! copy/deep [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 568.78 Td (         a: "OK") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 554.61 Td (         if x = 1 [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 540.43 Td (             a: "BUG!") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 526.26 Td (             f 2) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 512.09 Td (             a: "OK") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 497.92 Td (         ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 483.74 Td (     ] 'a) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 469.57 Td ( ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 455.40 Td ( f 1 ; == "OK") Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 440.62 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 426.45 Td (Comme vous pouvez le constater, le code ci-dessus copie le bloc BODY avant de le lier au contexte.) Tj ET Q
+q 0.000 g BT 70.87 412.28 Td (Des bugs semblables furent découverts quand le "deep copy" n'était pas utilisé lorsque la fonction) Tj ET Q
+q 0.000 g BT 70.87 398.10 Td (FUNC créait des fonctions REBOL.) Tj ET Q
+q 0.000 g BT 70.87 383.93 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 340.21 Td (24 MAKE PROTO) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 327.24 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 313.06 Td (Ceci est la simulation de la situation où la fonction MAKE obtient n prototype de l'objet à créer.) Tj ET Q
+q 0.000 g BT 70.87 298.89 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 284.72 Td (tout d'abord, nous avons besoin d'un fonction BIND-LINE particulière :) Tj ET Q
+q 0.000 g BT 70.87 270.54 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.65 271.14 Td (specbind: function [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 256.97 Td (     {lie seulement les known-words}) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 242.80 Td (     block [block!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 228.62 Td (     known-words [block!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 214.45 Td ( ] [p w bind-one kw] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 200.28 Td (     bind-one: [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 186.10 Td (         p:) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 171.93 Td (         [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 157.76 Td (             copy w any-word! \() Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 143.58 Td (                 if kw: find known-words first w [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 129.41 Td (                     change p bind w first kw) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 115.24 Td (                 ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 101.06 Td (             \) | copy w [path! | set-path! | lit-path!] \() Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 501.28 45.79 Td (Page 21/28) Tj ET Q
+
+endstream
+endobj
+45 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 46 0 R>>
+endobj
+46 0 obj
+<</Length 4650>>
+stream
+2 J
+0.85 w
+BT /F2 8.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 70.87 819.05 Td (Les mots de REBOL et leur contexte, ou la Bindologie) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 795.55 Td (                 if kw: find known-words first first w [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 781.38 Td (                     change p bind w first kw) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 767.21 Td (                 ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 753.03 Td (             \) | into [any bind-one] | skip) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 738.86 Td (         ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 724.69 Td (     ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 710.51 Td (     parse block [any bind-one]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 696.34 Td (     block) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 682.17 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 667.39 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 653.22 Td (Et voici la simulation :) Tj ET Q
+q 0.000 g BT 70.87 639.05 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.65 639.65 Td (make-proto: function [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 625.47 Td (     {simulation MAKE PROTO}) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 611.30 Td (     proto [object!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 597.13 Td (     spec [block!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 582.95 Td ( ] [set-words object sw word value spc body pwords] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 568.78 Td (     set-words: copy []) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 554.61 Td (     ; prend les mots locaux de proto) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 540.43 Td (     foreach word next first proto [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 526.26 Td (         append set-words to set-word! word) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 512.09 Td (     ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 497.92 Td (     ; prend tous les set-words de SPEC) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 483.74 Td (     parse spec [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 469.57 Td (         any [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 455.40 Td (             copy sw set-word! \(append set-words sw\) |) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 441.22 Td (             skip) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 427.05 Td (         ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 412.88 Td (     ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 398.70 Td (     ; crée un objet blanc avec les mots locaux désirés) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 384.53 Td (     object: blank-object set-words) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 370.36 Td (     ; fait pointer le 'self de l'objet vers l'objet) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 356.18 Td (     object/self: object) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 342.01 Td (     ; cpie le contenu de proto) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 327.84 Td (     pwoords: bind first proto in object 'self) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 313.66 Td (     repeat i \(length? first proto\) - 1 [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 299.49 Td (         word: pick next first proto i) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 285.32 Td (         any-type? set/any 'value pick next second proto i) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 271.14 Td (         any [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 256.97 Td (             all [string? get/any 'value set in object word copy value]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 242.80 Td (             all [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 228.62 Td (                 block? get/any 'value) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 214.45 Td (                 value: specbind copy/deep value pwords) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 200.28 Td (                 set in object word value) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 186.10 Td (             ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 171.93 Td (             all [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 157.76 Td (                 function? get/any 'value) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 143.58 Td (                 spc: load mold third :value) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 129.41 Td (                 body: specbind copy/deep second :value pwords) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 115.24 Td (                 set in object word func spc body) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 101.06 Td (             ]) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 501.28 45.79 Td (Page 22/28) Tj ET Q
+
+endstream
+endobj
+47 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 48 0 R>>
+endobj
+48 0 obj
+<</Length 4214>>
+stream
+2 J
+0.85 w
+BT /F2 8.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 70.87 819.05 Td (Les mots de REBOL et leur contexte, ou la Bindologie) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 795.55 Td (             any-type? set/any in object word get/any 'value) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 781.38 Td (         ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 767.21 Td (     ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 753.03 Td (     ; lie PEC) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 738.86 Td (     bind spec in object 'self) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 724.69 Td (     ; evalue) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 710.51 Td (     spec-eval spec) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 696.34 Td (     ; retourne la valeur de 'self comme résultat) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 682.17 Td (     return get/any in object 'self) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 667.99 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 653.22 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 609.50 Td (25 Fonctions avec une manière simili-MAKE-OBJECT de traiter les) Tj ET Q
+q 0.000 g BT 70.87 595.33 Td (mots locaux) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 582.35 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 568.18 Td (Avant de nous lancer dans l'évaluation de fonctions, nous pouvons nous demander si nous pouvons) Tj ET Q
+q 0.000 g BT 70.87 554.01 Td (utiliser la même méthode de traitement des mots locaux que celle utilisée par la fonction CONTEXT.) Tj ET Q
+q 0.000 g BT 70.87 539.83 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 525.66 Td (La réponse est positive et la fonction le démontrant est définie ci-dessous.) Tj ET Q
+q 0.000 g BT 70.87 511.49 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 497.32 Td (D'abord, créons une fonction pouvant extraire tous les mots locaux des SPEC d'une fonction :) Tj ET Q
+q 0.000 g BT 70.87 483.14 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.65 483.74 Td (locals?: function [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 469.57 Td (     {extrait le mots locaux des specs}) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 455.40 Td (     spec [block!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 441.22 Td ( ] [locals] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 427.05 Td (     locals: make block! length? spec) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 412.88 Td (     parse spec [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 398.70 Td (         any [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 384.53 Td (             set item any-word! \() Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 370.36 Td (                 append locals to word! :item) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 356.18 Td (             \) | skip) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 342.01 Td (         ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 327.84 Td (     ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 313.66 Td (     locals) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 299.49 Td ( ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 285.32 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 271.14 Td ( lfunc: function [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 256.97 Td (     {défini une fonction avec des set-word! implicitement locaux}) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 242.80 Td (     [catch]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 228.62 Td (     spec [block!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 214.45 Td (     body [block!] "La bloc de corps de la fonction") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 200.28 Td ( ] [vars sw] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 186.10 Td (     vars: copy []) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 171.93 Td (     parse body [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 157.76 Td (         any [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 143.58 Td (             set sw set-word! \(append vars to word! :sw\) |) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 129.41 Td (             skip) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 115.24 Td (         ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 101.06 Td (     ]) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 501.28 45.79 Td (Page 23/28) Tj ET Q
+
+endstream
+endobj
+49 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 50 0 R>>
+endobj
+50 0 obj
+<</Length 4460>>
+stream
+2 J
+0.85 w
+BT /F2 8.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 70.87 819.05 Td (Les mots de REBOL et leur contexte, ou la Bindologie) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 795.55 Td (     vars: exclude vars locals? spec) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 781.38 Td (     spec: head insert insert tail copy spec /local vars) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 767.21 Td (     throw-on-error [make function! spec body]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 753.03 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 738.26 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 694.54 Td (26 Modèle de fonction REBOL) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 681.57 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 667.39 Td (Notre modèle de fonction Rebol sera un objet Rebol SIM-FUNCTION! disposant des attributs) Tj ET Q
+q 0.000 g BT 70.87 653.22 Td (nécessaires. Les attributs absolument nécessaires sont SPEC et BODY.) Tj ET Q
+q 0.000 g BT 70.87 639.05 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 624.87 Td (Afin de modéliser précisément le comportement des fonctions Rebol, notre SIM_FUNCTION !) Tj ET Q
+q 0.000 g BT 70.87 610.70 Td (nécessite un autre attribut nommé CONTEXT et deux autres attributs : STACK et) Tj ET Q
+q 0.000 g BT 70.87 596.53 Td (RECURSION-LEVEL pour rendre le comportement des fonctions Rebol durant les appels récursifs :) Tj ET Q
+q 0.000 g BT 70.87 582.35 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.65 582.95 Td (sim-function!: make object! [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 568.78 Td (     spec: none) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 554.61 Td (     body: none) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 540.43 Td (     context: none) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 526.26 Td (     stack: none) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 512.09 Td (     recursion-level: none) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 497.92 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 483.14 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 439.42 Td (27 Modèle de fonction Rebol FUNC) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 426.45 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 412.28 Td (Cette fonction reçoit les attributs SPEC et BODY et crée une nouvelle SIM-FUNCTION! et l'initialise :) Tj ET Q
+q 0.000 g BT 70.87 398.10 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.65 398.70 Td (sim-func: function [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 384.53 Td (     {crée une Sim-function!}) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 370.36 Td (     spec [block!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 356.18 Td (     body [block!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 342.01 Td ( ] [result aw] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 327.84 Td (     ; un nouveau SIM-FUNCTION! est créé) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 313.66 Td (     result: make sim-function! []) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 299.49 Td (     ; SPEC et BODY sont copiés en profondeur) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 285.32 Td (     result/spec: copy/deep spec) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 271.14 Td (     result/body: copy/deep body) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 256.97 Td (     ; les mots de contexte sont récupérés de SPEC) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 242.80 Td (     result/context: locals? spec) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 228.62 Td (     if not empty? result/context [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 214.45 Td (         ; le contexte est créé) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 200.28 Td (         result/context: sim-make-context result/context) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 186.10 Td (         ; le corps de fonction est lié au contexte) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 171.93 Td (         bind result/body first result/context) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 157.76 Td (     ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 143.58 Td (     ; une pile vide est créée) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 129.41 Td (     result/stack: make block! 0) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 115.24 Td (     ; RECURSION-LEVEL est mis à zéro) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 101.06 Td (     result/recursion-level: 0) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 501.28 45.79 Td (Page 24/28) Tj ET Q
+
+endstream
+endobj
+51 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 52 0 R>>
+endobj
+52 0 obj
+<</Length 4802>>
+stream
+2 J
+0.85 w
+BT /F2 8.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 70.87 819.05 Td (Les mots de REBOL et leur contexte, ou la Bindologie) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 795.55 Td (     result) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 781.38 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 766.61 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 722.89 Td (28 Modèle d'évaluation de fonction) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 709.91 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 695.74 Td (La première action de l'évaluation d'une fonction est de collecter les arguments \(évalués et non) Tj ET Q
+q 0.000 g BT 70.87 681.57 Td (évalués\) de la fonction et de contrôler leur type etc... Nous sauterons cette partie car cela) Tj ET Q
+q 0.000 g BT 70.87 667.39 Td (compliquerait inutilement les choses \(beaucoup de méthodes différentes pour évaluer, contrôler les) Tj ET Q
+q 0.000 g BT 70.87 653.22 Td (arguments, faire intervenir des arguments optionnels etc...\). Cet effort supplémentaire ne semble ni) Tj ET Q
+q 0.000 g BT 70.87 639.05 Td (nécessaire ni indiqué dans notre cas.) Tj ET Q
+q 0.000 g BT 70.87 624.87 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 610.70 Td (Notre fonction d'évaluation obtient une SIM-FUNCTION ! ensemble avec un bloc de valeurs qu'elle) Tj ET Q
+q 0.000 g BT 70.87 596.53 Td (stockera dans son contexte de mots locaux \(entre autres toutes les valeurs de ses arguments,) Tj ET Q
+q 0.000 g BT 70.87 582.35 Td (arguments optionnels, raffinements et autres\).) Tj ET Q
+q 0.000 g BT 70.87 568.18 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 554.01 Td (Nous allons modéliser le cas le plus fréquent d'une fonction, sans l'attribut THROW.) Tj ET Q
+q 0.000 g BT 70.87 539.83 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 525.66 Td (La première partie de notre modèle exécute le BODY :) Tj ET Q
+q 0.000 g BT 70.87 511.49 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 497.92 Td (exec: func [body] [do body]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 483.14 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 468.97 Td (La simulation :) Tj ET Q
+q 0.000 g BT 70.87 454.80 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.65 455.40 Td (sim-evaluate: function [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 441.22 Td (     {evalue une sim-function!}) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 427.05 Td (     sim-f {the evaluated sim-function!}) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 412.88 Td (     values [block!] {the supplied values}) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 398.70 Td ( ] [old-values result] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 384.53 Td (     ; repère l'appel récurcif) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 370.36 Td (     if \(sim-f/recursion-level: sim-f/recursion-level + 1\) > 1 [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 356.18 Td (         ; récupére les anciennes valeurs des mots du contexte    ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 342.01 Td (         old-values: make block! length? sim-f/context) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 327.84 Td (         foreach word sim-f/context [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 313.66 Td (             insert/only tail old-values get/any word) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 299.49 Td (         ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 285.32 Td (         ; met ces anciennes valeurs sur la pile) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 271.14 Td (         sim-f/stack: head insert/only sim-f/stack old-values) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 256.97 Td (     ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 242.80 Td (     ; stocke les valeurs données dans des mots de contextes locaux) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 228.62 Td (     set/any sim-f/context values) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 214.45 Td (     ; execute le corps de la fonction) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 200.28 Td (     error? set/any 'result exec sim-f/body) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 186.10 Td (     ; rétablit les valeurs précédentes à partir de la pile, si nécessaire) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 171.93 Td (     if \(sim-f/recursion-level: sim-f/recursion-level - 1\) > 0 [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 157.76 Td (         set/any sim-f/context first sim-f/stack) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 143.58 Td (         ; termine la pile) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 129.41 Td (         sim-f/stack: remove sim-f/stack) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 115.24 Td (     ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 101.06 Td (     return get/any 'result) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 501.28 45.79 Td (Page 25/28) Tj ET Q
+
+endstream
+endobj
+53 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 54 0 R>>
+endobj
+54 0 obj
+<</Length 4783>>
+stream
+2 J
+0.85 w
+BT /F2 8.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 70.87 819.05 Td (Les mots de REBOL et leur contexte, ou la Bindologie) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 795.55 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 780.78 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 766.61 Td (Notre modèle utilise juste un contexte pour toute la durée de vie de la SIM-FUNCTION !, sans devoir) Tj ET Q
+q 0.000 g BT 70.87 752.43 Td (changer les liaisons de son BODY. J'appelle ce comportement la Rustine de la Récursion Dynamique) Tj ET Q
+q 0.000 g BT 70.87 738.26 Td (\(NdT ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 95.87 738.26 Td (Dynamic Recursion Patch) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 210.90 738.26 Td (, je n'ai pas trouvé de meilleure traduction\).) Tj ET Q
+q 0.000 g BT 70.87 724.09 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 709.91 Td (Quelques tests :) Tj ET Q
+q 0.000 g BT 70.87 695.74 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.65 696.34 Td (probeblk: func [] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 682.17 Td (     prin mold blk) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 667.99 Td (     prin ": ") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 653.82 Td (     print mold reduce blk) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 639.65 Td ( ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 625.47 Td ( ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 611.30 Td ( recfun: sim-func [x] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 597.13 Td (     append blk 'x) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 582.95 Td (     either x = 2 [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 568.78 Td (         probeblk) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 554.61 Td (     ] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 540.43 Td (         sim-evaluate recfun [2]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 526.26 Td (     ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 512.09 Td ( ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 497.92 Td ( blk: copy []) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 483.74 Td ( sim-evaluate recfun [1] ; [x x]: [2 2]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 469.57 Td ( probeblk ; [x x]: [1 1]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 454.80 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 440.62 Td (Si nous comparons le comportement simulé à celui de fonctions Rebol réelles, nous obtenons :) Tj ET Q
+q 0.000 g BT 70.87 426.45 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.65 427.05 Td (recfun: func [x] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 412.88 Td (     append blk 'x) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 398.70 Td (     either x = 2 [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 384.53 Td (         probeblk) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 370.36 Td (     ] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 356.18 Td (         recfun 2) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 342.01 Td (     ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 327.84 Td ( ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 313.66 Td ( blk: copy []) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 299.49 Td ( recfun 1 ; [x x]: [2 2]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 285.32 Td ( probeblk ; [x x]: [1 1]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 270.54 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 256.37 Td (Ceci démontre que la simulation est vraiment précise et que les fonctions Rebol utilisent également la) Tj ET Q
+q 0.000 g BT 70.87 242.20 Td (Rustine de la Récursion Dynamique \(NdT ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 258.15 242.20 Td (Dynamic Recursion Patch) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 373.18 242.20 Td (\).) Tj ET Q
+q 0.000 g BT 70.87 228.02 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 213.85 Td (Bien que la Rustine de la Récursion Dynamique \(NdT ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 310.96 213.85 Td (Dynamic Recursion Patch) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 425.99 213.85 Td (\) puisse accélerer) Tj ET Q
+q 0.000 g BT 70.87 199.68 Td (l'évaluation dans certains cas, elle présente des désavantages :) Tj ET Q
+q 0.000 g BT 70.87 185.50 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.65 186.10 Td (f-returning-x: func [x] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 171.93 Td (     func [] [x]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 157.76 Td ( ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 143.58 Td ( f-returning-ok: f-returning-x "OK") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 129.41 Td ( f-returning-ok ; == "OK") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 115.24 Td ( f-returning-bug: f-returning-x "BUG!") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 101.06 Td ( ; so far so good, but now:) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 501.28 45.79 Td (Page 26/28) Tj ET Q
+
+endstream
+endobj
+55 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 56 0 R>>
+endobj
+56 0 obj
+<</Length 4772>>
+stream
+2 J
+0.85 w
+BT /F2 8.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 70.87 819.05 Td (Les mots de REBOL et leur contexte, ou la Bindologie) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 795.55 Td ( f-returning-ok ; == "BUG!") Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 780.78 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 737.06 Td (29 Fonctions avec liaisons calculées \(Fin\)) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 724.09 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 709.91 Td (Comme nous l'avons vu ci-dessus, les liaisons calculées ont leurs mérites, alors que la Rustine de la) Tj ET Q
+q 0.000 g BT 70.87 695.74 Td (Recursion Dynamique \(NdT ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 197.01 695.74 Td (Dynamic Recursion Patch) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 312.04 695.74 Td (\) n'est pas idéale. Les résultats m'ont inspiré) Tj ET Q
+q 0.000 g BT 70.87 681.57 Td (l'implémentation des Fonctions avec liaisons calculées et leur comparaison avec le comportement des) Tj ET Q
+q 0.000 g BT 70.87 667.39 Td (Rustines de Récursion Dynamique \(NdT ) Tj ET Q
+BT /F6 10.00 Tf ET
+q 0.000 g BT 252.59 667.39 Td (Dynamic Recursion Patch) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 367.62 667.39 Td (\)) Tj ET Q
+q 0.000 g BT 70.87 653.22 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 639.05 Td (Les fonctions avec liaisons calculées créent un nouveau contexte à chaque fois qu'elles sont) Tj ET Q
+q 0.000 g BT 70.87 624.87 Td (appelées, et lient leur corps en conséquence. Nous pouvons utiliser une partie de la dernière) Tj ET Q
+q 0.000 g BT 70.87 610.70 Td (simulation afin de les implémenter :) Tj ET Q
+q 0.000 g BT 70.87 596.53 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.65 597.13 Td (cfunc: function [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 582.95 Td (     {crée une conclusion}) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 568.78 Td (     [catch]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 554.61 Td (     spec [block!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 540.43 Td (     body [block!]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 526.26 Td ( ] [locals in-new-context body2 i item] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 512.09 Td (     locals: copy []) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 497.92 Td (     body2: reduce [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 483.74 Td (         'set [new-locals new-body] 'use 'locals 'copy/deep reduce [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 469.57 Td (             reduce [locals copy/deep body]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 455.40 Td (         ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 441.22 Td (     ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 427.05 Td (     i: 1) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 412.88 Td (     parse spec [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 398.70 Td (         any [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 384.53 Td (             set-word! | set item any-word! \() Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 370.36 Td (                 append locals to word! :item) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 356.18 Td (                 append body2 compose [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 342.01 Td (                     error? set/any pick new-locals \(i\) get/any pick locals \(i\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 327.84 Td (                 ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 313.66 Td (                 i: i + 1) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 299.49 Td (             \) | skip) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 285.32 Td (         ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 271.14 Td (     ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 256.97 Td (     in-new-context: function [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 242.80 Td (         {do body with locals in new context}) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 228.62 Td (         [throw]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 214.45 Td (         locals) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 200.28 Td (     ] [new-body new-locals] append body2 [do new-body]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 186.10 Td (     throw-on-error [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 171.93 Td (         func spec reduce [:in-new-context locals]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 157.76 Td (     ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 143.58 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 128.81 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 114.64 Td (Le premier test :) Tj ET Q
+q 0.000 g BT 70.87 100.46 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.65 101.06 Td (recfun: cfunc [x] [) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 501.28 45.79 Td (Page 27/28) Tj ET Q
+
+endstream
+endobj
+57 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 58 0 R>>
+endobj
+58 0 obj
+<</Length 2184>>
+stream
+2 J
+0.85 w
+BT /F2 8.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 70.87 819.05 Td (Les mots de REBOL et leur contexte, ou la Bindologie) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 795.55 Td (     append blk 'x) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 781.38 Td (     either x = 2 [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 767.21 Td (         probeblk) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 753.03 Td (     ] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 738.86 Td (         recfun 2) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 724.69 Td (     ]                                                                                        ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 710.51 Td (                        ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 696.34 Td ( ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 682.17 Td ( blk: copy []) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 667.99 Td ( recfun 1 ; [x x]: [1 2]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 653.82 Td ( probeblk ; [x x]: [1 2]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 639.05 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 624.87 Td (Ce qui donne quand même un meilleur résultat. Le second test :) Tj ET Q
+q 0.000 g BT 70.87 610.70 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 73.65 611.30 Td (f-returning-x: cfunc [x] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 597.13 Td (     func [] [x]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 582.95 Td ( ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 568.78 Td ( f-returning-ok: f-returning-x "OK") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 554.61 Td ( f-returning-ok ; == "OK") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 540.43 Td ( f-returning-bug: f-returning-x "BUG!") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 526.26 Td ( ; so far so good, but now:) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 512.09 Td ( f-returning-ok ; == "OK") Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 497.32 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 483.14 Td (La fin.) Tj ET Q
+BT /F6 8.00 Tf ET
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 501.28 45.79 Td (Page 28/28) Tj ET Q
+
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R 27 0 R 29 0 R 31 0 R 33 0 R 35 0 R 37 0 R 39 0 R 41 0 R 43 0 R 45 0 R 47 0 R 49 0 R 51 0 R 53 0 R 55 0 R 57 0 R ]
+/Count 28
+/MediaBox [0 0 595.28 841.89]
+>>
+endobj
+59 0 obj
+<</Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+60 0 obj
+<</Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+61 0 obj
+<</Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+62 0 obj
+<</Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+63 0 obj
+<</Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+64 0 obj
+<</Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+65 0 obj
+<</Type /XObject
+/Subtype /Image
+/Width 8
+/Height 11
+/ColorSpace [/Indexed /DeviceRGB 7 66 0 R]
+/BitsPerComponent 8
+/Mask [7 7 ]
+/Length 88>>
+stream
+              
+endstream
+endobj
+66 0 obj
+<</Length 24>>
+stream
+===åååJJJ±±±qqq¤¤¤FFF   
+endstream
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 59 0 R
+/F2 60 0 R
+/F3 61 0 R
+/F4 62 0 R
+/F5 63 0 R
+/F6 64 0 R
+>>
+/XObject <<
+/I1 65 0 R
+>>
+>>
+endobj
+67 0 obj
+<<
+/Producer (FPDF 1.53)
+/Title (Les mots de REBOL et leur contexte, ou la Bindologie)
+/Subject (Articles Techniques)
+/Author (REBOLtof)
+/Keywords (DOCUMENTATION, mot, bind, context, word)
+/Creator (The REBOL Documentation Project)
+/CreationDate (D:20051226062914)
+>>
+endobj
+68 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 69
+0000000000 65535 f 
+0000139466 00000 n 
+0000140673 00000 n 
+0000000009 00000 n 
+0000000222 00000 n 
+0000001930 00000 n 
+0000005732 00000 n 
+0000014653 00000 n 
+0000015325 00000 n 
+0000020634 00000 n 
+0000020848 00000 n 
+0000025096 00000 n 
+0000025311 00000 n 
+0000029713 00000 n 
+0000029928 00000 n 
+0000034094 00000 n 
+0000034309 00000 n 
+0000038533 00000 n 
+0000038748 00000 n 
+0000043111 00000 n 
+0000043326 00000 n 
+0000047730 00000 n 
+0000047945 00000 n 
+0000051651 00000 n 
+0000051866 00000 n 
+0000055878 00000 n 
+0000056093 00000 n 
+0000060098 00000 n 
+0000060313 00000 n 
+0000064889 00000 n 
+0000065104 00000 n 
+0000069188 00000 n 
+0000069403 00000 n 
+0000073657 00000 n 
+0000073872 00000 n 
+0000084477 00000 n 
+0000084692 00000 n 
+0000089166 00000 n 
+0000089381 00000 n 
+0000093630 00000 n 
+0000093845 00000 n 
+0000098341 00000 n 
+0000098556 00000 n 
+0000103082 00000 n 
+0000103297 00000 n 
+0000107739 00000 n 
+0000107954 00000 n 
+0000112655 00000 n 
+0000112870 00000 n 
+0000117135 00000 n 
+0000117350 00000 n 
+0000121861 00000 n 
+0000122076 00000 n 
+0000126929 00000 n 
+0000127144 00000 n 
+0000131978 00000 n 
+0000132193 00000 n 
+0000137016 00000 n 
+0000137231 00000 n 
+0000139740 00000 n 
+0000139837 00000 n 
+0000139932 00000 n 
+0000140030 00000 n 
+0000140129 00000 n 
+0000140231 00000 n 
+0000140336 00000 n 
+0000140600 00000 n 
+0000140844 00000 n 
+0000141128 00000 n 
+trailer
+<<
+/Size 69
+/Root 68 0 R
+/Info 67 0 R
+>>
+startxref
+141232
+%%EOF

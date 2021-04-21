@@ -1,0 +1,312 @@
+<!doctype html public "-//W3C//DTD HTML 4.0 Transitional//FR">
+<html>
+<head>
+<title>Introduction au parsing</title>
+<meta http-equiv="content-type" content="text/html;CHARSET=iso-8859-15">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="expires" content="-1"> 
+<META NAME="KEYWORDS" CONTENT="REBOL, rebel, distributed computing, X Internet, X-Internet, xnet, executable internet, distributed applications, distributed platform, internet platform, internet programming, client-side computing, distributed desktop, platform independent, system independent, machine independent, operating system, programming language, scripting language, scripting, messaging, dialect, dialecting, e-content, direct Internet delivery, command">
+<META NAME="Description" CONTENT="REBOL Technologies provides advanced, system-independent communication technology for the X Internet.">
+<title>Introduction au parsing</title>
+<style type="text/css">
+
+body, p, td {font-family: arial, sans-serif, helvetica; font-size: 9pt;}
+
+tt {font-family: "courier new", monospace, courier; font-size: 9pt;}
+.title {Font-Size: 16 pt; Font-Weight: bold;}
+
+/* style du header présentant le doc */
+.header { padding: 10pt; padding-left: 20pt; margin-right: 30pt; width:"660px"; background-color: #e5e5e5; 
+font-family: arial, sans-serif, helvetica; font-size: 9pt; font-weight: normal;}
+
+/*  Le style du lien pour remonter à la Table des Matières  */
+.top { font-size:8pt; text-align: right; color: #872C2C; width: 100%; }
+/*  Le style des Notes  */
+.note {
+	margin: 1em 2em;
+	padding: 1em;
+	width: 85%;
+	color: white;
+	background-color: #B16C62;
+	border: solid gray 1px;
+	text-align:justify;
+}
+/*  Les styles des items de la table des matières  */
+.toc1 {margin-left: 1cm; font-size: 10pt; font-weight: bold;}
+.toc2 {margin-left: 2cm; font-size: 9pt; font-weight: bold; text-decoration: none;}
+.toc3 {margin-left: 3cm; font-size: 8pt; text-decoration: none;}
+.toc4 {margin-left: 4cm; font-size: 8pt; color: grey; text-decoration: none;}
+
+
+h1 {font-size: 12pt;}
+h2 {font-size: 10pt; color: #2030a0; width: 100%; border-bottom: 1px solid #c09060;}
+h3 {font-size: 10pt; color: #2030a0;}
+h4 {font-size: 9pt; color: #2030a0; font-weight: bold;}
+h5 {font-size: 9pt; font-weight: bold;}
+
+/*  Les styles du code et des outputs  */
+pre {font: bold 9pt "courier new", monospace, console; color: #000000;
+    background-color: #e0e0e0; padding: 16px; border: solid #a0a0a0 1px;}
+.output {color: #000080; font-weight: normal;}
+
+/*  Les styles des tableaux  */
+.md-table table {font-family: verdana, arial, sans-serif, helvetica; 
+border: solid black 1px;}
+
+.md-header td {font-family: verdana, arial, sans-serif, helvetica; 
+border: solid black 1px; background-color: silver;
+font: bold 8pt; color: black; text-align: center;}
+
+.md-cell td {font-family: verdana, arial, sans-serif, helvetica; 
+border: solid #454545 1px;
+font-size: 8pt; color: black; text-align: top}
+
+/* style de la mention finale */
+.tail {color: gray; font-size: 8pt;}
+
+</style>
+</head>
+<body bgcolor="white">
+<SCRIPT language="JavaScript1.2" src="../lib/menus.txt"></SCRIPT>
+<SCRIPT language="JavaScript1.2" src="../lib/menu_param_rebol.js"></SCRIPT>
+<br><br><hr>
+
+<br><br>
+<center>
+<table width="660" cellpadding="4" cellspacing="0" border="0">
+<tr>
+<td>
+<a href="http://www.rebol.com/docs.html">
+<img src="http://www.rebol.com/graphics/doc-bar.gif" width="680" height="28" align="bottom" alt="rebol document" border="0" usemap="#bar-map" ismap>
+</a>
+</td>
+
+</tr>
+<tr height="10"><td></td></tr>
+<tr><td>
+<p><h1 class="title" >Introduction au parsing</h1>
+<div class="header">
+Ce document a pour objet de présenter quelques  notions simples <br />en guise d'introduction au parsing.<br />Le  Parsing est l'une des grandes forces de REBOL, notamment dans la possiblité <br />de définir des dialectes dédiés.<br />Ce document nécessite au minimum d'avoir des bases en programmation avec Rebol, <br />ou au moins une autre expérience du parsing, comme avec Perl <br />et les expressions régulières par exemple.
+</div>
+
+
+
+
+<h2 class="toc-title" >Contenu </h2>
+<a class="toc1" href="#section-1">1. Historique</a><br />
+<a class="toc1" href="#section-2">2. Introduction</a><br />
+<a class="toc2" href="#section-2.1">2.1 Une définition du parsing ?</a><br />
+<a class="toc2" href="#section-2.2">2.2 Un flux de données</a><br />
+<a class="toc1" href="#section-3">3. Fonctionnement</a><br />
+<a class="toc2" href="#section-3.1">3.1 Progression dans la série fournie en input</a><br />
+<a class="toc2" href="#section-3.2">3.2 Structure de la série</a><br />
+<a class="toc1" href="#section-4">4. Quelques exemples</a><br />
+<a class="toc2" href="#section-4.1">4.1 La fonction parse-url</a><br />
+<a class="toc2" href="#section-4.2">4.2 La fonction Layout</a><br />
+<p>
+<div class="top">[ <a href="#top">Retour au sommaire</a> ]</div>
+
+
+<h2 id="section-1">1. Historique</h2>
+<blockquote>
+<table class="md-table" border=1 cellspacing="1" cellpadding="4" >
+        <tr class="md-header"><td><b>
+<p>Date</p>
+</b></td><td><b>
+<p>Version</p>
+</b></td><td><b>
+<p>Commentaires</p>
+</b></td><td><b>
+<p>Auteur</p>
+</b></td><td><b>
+<p>Email</p>
+</td></tr><tr class="md-cell" ><td>
+<p>1 avril 2005 17:52</p>
+</td><td>
+<p>0.0.1</p>
+</td><td>
+<p>Draft initial</p>
+</td><td>
+<p>Philippe Le Goff</p>
+</td><td>
+<p>lp--legoff--free--fr</p>
+</td></tr><tr class="md-cell" ><td>
+<p>10 avril 2005 21:03</p>
+</td><td>
+<p>1.0.0</p>
+</td><td>
+<p>Version stabilisée</p>
+</td><td>
+<p>Philippe Le Goff</p>
+</td><td>
+<p>lp--legoff--free--fr</p>
+</td></tr></table>
+<p>
+</blockquote>
+<p>
+<div class="top">[ <a href="#top">Retour au sommaire</a> ]</div>
+
+
+<h2 id="section-2">2. Introduction</h2>
+<blockquote>
+</blockquote>
+<p>
+<h3 id="section-2.1">2.1 Une définition du parsing ?</h3>
+<blockquote>
+<p>Le parsing est une technique qui consiste à analyser un flux de caractères, fourni en input.
+Le parsing peut conduire soit à segmenter le flux fourni en entrée, en éléments plus petits et caractéristiques,
+soit à utiliser un motif, un modéle ou plusieurs (patterns) servant à extraire du flux exclusivement les données 
+qui correspondent au motif, en vue de les manipuler.
+Le parsing va donc être très utile pour :</p>
+<ul>
+<li>tester l'existence de données</li>
+<li>manipuler un flux de données</li>
+<li>extraire des informations choisies de ce flux de données.</li>
+</ul>
+</blockquote>
+<p>
+<h3 id="section-2.2">2.2 Un flux de données</h3>
+<blockquote>
+<p>Par flux de données, on entend par exemple : une chaîne de caractères (pouvant petite ou très grande), 
+une série de blocs, quelque chose qui se présente comme une suite d'élèments.
+Je vous suggère de relire au passage la documentation REBOL concernant les séries et les déplacements dans les séries.</p>
+<p>Par exemple :</p>
+<p>Une chaîne de caractères telle qu'une phrase : "ceci est mon jour de chance", 
+est une suite de caractères alphanumériques.
+Un fichier est aussi une suite de caractères vus soit au niveau binaire (des octets), ou soit comme des caractères 
+alphanumériques.</p>
+<p>De la même manière, un fichier "réseau" (page web, par exemple) ou des informations transitant via un port 
+sont des séries potentielles pour le parsing.</p>
+<p>Il est aussi possible avec REBOL de manipuler un ensemble de blocs.</p>
+</blockquote>
+<p>
+<div class="top">[ <a href="#top">Retour au sommaire</a> ]</div>
+
+
+<h2 id="section-3">3. Fonctionnement</h2>
+<blockquote>
+<p>Comme indiqué dans la documentation REBOL (User Guide de REBOL/Core, chapitre 15), la forme générale du parsing est 
+la suivante :</p>
+<pre>
+parse series rule
+</pre>
+<p>L'argument "series" est la suite d'élément à parser. En général, une chaîne de caractères.
+Le second argument "rule" est la régle ou le bloc de régles à appliquer lors de l'analyse de l'argument "series".</p>
+</blockquote>
+<p>
+<h3 id="section-3.1">3.1 Progression dans la série fournie en input</h3>
+<blockquote>
+<p>Le parsing va s'appliquer séquentiellement à la chaîne.
+On retrouvera donc des notions REBOL propres aux séries :</p>
+<pre>
+début -&gt; head
+position -&gt; index
+fin -&gt; tail -&gt; end
+</pre>
+<p>Et aussi la possibilité d'invoquer des fonctions comme insert, change, avec leurs raffinements respectifs.</p>
+</blockquote>
+<p>
+<h3 id="section-3.2">3.2 Structure de la série</h3>
+<blockquote>
+<p>La parsing est utilisé le plus souvent pour rechercher ou discriminer des informations.</p>
+<p>Par exemple : dans un fichier, une chaîne de caractères, une série où l'on souhaite manipuler des informations.</p>
+<p>De fait, la structure de l'input est souvent connue.
+Par exemple, si on cherche à extraire le contenu (sans les tags) d'une page Web.
+Ou encore, si on veut extraire d'un fichier séquentiel ou de données arrivant sur un port, certaines informations.</p>
+<p>C'est à partir de cette structure que s'élabore le raisonnement permettant d'établir les régles .
+Il s'agit de répondre à la question : quelle stratégie mettre en place pour extraire l'information souhaitée ?</p>
+<pre>
+* Les enregistrements sont-ils fixes ou de longueur variables ?
+</pre>
+<ul>
+<li>l'input est-il en binaire ou en texte ?</li>
+<li>Les données ont-elles un type (datatype) particulier (time! money! tuple! ??)</li>
+<li>quels sont les sortes d'espacements ? Les séparateurs de champs ? espaces, tabulations, point-virgules (csv) ou autres ?</li>
+<li>etc..</li>
+</ul>
+<p>Pour créer les régles permettant au parsing d'identifier et de manipuler les informations souhaitées, 
+il est nécessaire d'avoir ce minimum de connaissance sur la structure de l'input.</p>
+<p>A présent, vous pouvez aller lire la traduction française du chapître consacré au parsing, du User Guide de REBOL/Core.
+C'est ici : <a href="./rebol/ch15-page-parsing.html">le Parsing</a>.</p>
+</blockquote>
+<p>
+<div class="top">[ <a href="#top">Retour au sommaire</a> ]</div>
+
+
+<h2 id="section-4">4. Quelques exemples</h2>
+<blockquote>
+</blockquote>
+<p>
+<h3 id="section-4.1">4.1 La fonction parse-url</h3>
+<blockquote>
+<p>Cette fonction est décrite dans le fichier source proto-utils.r, du Rebol/SDK.</p>
+<p>Elle sert à parser une URL générique.</p>
+<p>Tout d'abord les régles adaptées à chaque partie de l'URL, et ensuite la fonction elle-même :</p>
+<pre>
+;-- URL Grammar:
+url-rules:   [scheme-part user-part host-part path-part file-part tag-part]
+scheme-part: [copy scheme some scheme-char #":" ["//" | none]]
+user-part:   [copy user uchars [#":" pass-part | none] #"@" | none (user: pass: none)]
+pass-part:   [copy pass to #"@" [skip copy p2 to "@" (append append pass "@" p2) | none]]
+host-part:   [copy host uchars [#":" copy port-id digits | none]]
+path-part:   [slash copy path path-node | none]
+path-node:   [pchars slash path-node | none]
+file-part:   [copy target pchars | none]
+tag-part:    [#"#" copy tag pchars | none]
+uchars:      [some user-char | none]
+pchars:      [some path-char | none]
+digits:      [1 5 digit]
+
+;-- Parse Function:
+parse-url: func [
+    "Return url dataset or cause an error if not a valid URL"
+    port [object! port!]
+    url
+    /set-scheme "Set port scheme"
+    /no-error "Do not throw an error, return NONE instead."
+][  
+    set vars none
+    either parse/all url url-rules [
+    if net-watch [print ["URL Parse:" reduce vars]]
+    ;-- Does not overwrite existing port values if new value not provided.
+    if user [ port/user: user ]
+    if pass [ port/pass: pass ]
+    if host [ port/host: host ]
+    if port-id [ port/port-id: to-integer port-id ]
+    if path [ port/path: path ]
+    if target [ port/target: target ]
+    if all [set-scheme scheme] [port/scheme: to-word scheme]
+    port
+    ][if not no-error [net-error reform ["URL error:" url]]]
+]
+</pre>
+</blockquote>
+<p>
+<h3 id="section-4.2">4.2 La fonction Layout</h3>
+<blockquote>
+<p>Cette fonction est largement utilisée dans REBOL/VIEW, avec le VID (Visual Interface Dialect).</p>
+<p>Elle reçoit un bloc en argument et renvoie un objet de type 'face (objet graphique).
+Le code de layout peut être récupéré via :</p>
+<pre>
+source layout
+</pre>
+<p>A vous de l'étudier !</p>
+</blockquote><br><br><hr><br><center><span class="tail"> 7-Avil-2005 - Formatted with MakeDoc2 - by Philippe Le Goff</span></center><blockquote>
+</blockquote>
+</p>
+</td></tr>
+</table>
+</center>
+
+
+<map name="bar-map">
+<area shape="rect" coords="0,0,150,28"   href="http://www.rebol.com" alt="REBOL.com">
+<area shape="rect" coords="175,0,275,28" href="http://www.rebol.com/docs.html" alt="Documents">
+<area shape="rect" coords="285,0,365,28" href="http://www.rebol.com/docs/core23/rebolcore.html" alt="Manual">
+<area shape="rect" coords="375,0,445,28" href="http://www.rebol.com/docs/dictionary.html" alt="Dictionary">
+<area shape="rect" coords="452,0,500,28" href="http://www.rebol.com/library.html" alt="Library">
+<area shape="rect" coords="510,0,575,28" href="http://www.rebol.com/feedback.html" alt="Feedback">
+</map>
+
+</body>
+</html>

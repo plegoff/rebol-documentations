@@ -1,0 +1,285 @@
+<!doctype html public "-//W3C//DTD HTML 4.0 Transitional//FR">
+<html>
+<head>
+<title>Les contextes et les objets avec Rebol</title>
+<meta http-equiv="content-type" content="text/html;CHARSET=iso-8859-15">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="expires" content="-1"> 
+<META NAME="KEYWORDS" CONTENT="REBOL, rebel, distributed computing, X Internet, X-Internet, xnet, executable internet, distributed applications, distributed platform, internet platform, internet programming, client-side computing, distributed desktop, platform independent, system independent, machine independent, operating system, programming language, scripting language, scripting, messaging, dialect, dialecting, e-content, direct Internet delivery, command">
+<META NAME="Description" CONTENT="REBOL Technologies provides advanced, system-independent communication technology for the X Internet.">
+<title>Les contextes et les objets avec Rebol</title>
+<style type="text/css">
+
+body, p, td {font-family: arial, sans-serif, helvetica; font-size: 9pt;}
+
+tt {font-family: "courier new", monospace, courier; font-size: 9pt;}
+.title {Font-Size: 16pt; Font-Weight: bold;}
+
+/* style du header présentant le doc */
+.header { padding: 10pt; padding-left: 20pt; margin-right: 30pt; width: 660px; background-color: #e5e5e5; 
+font-family: arial, sans-serif, helvetica; font-size: 9pt; font-weight: normal;}
+
+/*  Le style du lien pour remonter à la Table des Matières  */
+.top { font-size:8pt; text-align: right; color: #872C2C; width: 100%; }
+/*  Le style des Notes  */
+.note {
+	margin: 1em 2em;
+	padding: 1em;
+	width: 85%;
+	color: white;
+	background-color: #B16C62;
+	border: solid gray 1px;
+	text-align:justify;
+}
+/*  Les styles des items de la table des matières  */
+.toc1 {margin-left: 1cm; font-size: 10pt; font-weight: bold;}
+.toc2 {margin-left: 2cm; font-size: 9pt; font-weight: bold; text-decoration: none;}
+.toc3 {margin-left: 3cm; font-size: 8pt; text-decoration: none;}
+.toc4 {margin-left: 4cm; font-size: 8pt; color: grey; text-decoration: none;}
+
+
+h1 {font-size: 12pt;}
+h2 {font-size: 10pt; color: #2030a0; width: 100%; border-bottom: 1px solid #c09060;}
+h3 {font-size: 10pt; color: #2030a0;}
+h4 {font-size: 9pt; color: #2030a0; font-weight: bold;}
+h5 {font-size: 9pt; font-weight: bold;}
+
+/*  Les styles du code et des outputs  */
+pre {font: bold 9pt "courier new", monospace, console; color: #000000;
+    background-color: #e0e0e0; padding: 16px; border: solid #a0a0a0 1px;}
+.output {color: #000080; font-weight: normal;}
+
+/*  Les styles des tableaux  */
+.md-table table {font-family: verdana, arial, sans-serif, helvetica; 
+border: solid black 1px;}
+
+.md-header td {font-family: verdana, arial, sans-serif, helvetica; 
+border: thin solid black; background-color: silver;
+font-weight: bold ; font-size: 8pt; color: black; text-align: center;}
+
+.md-cell td {font-family: verdana, arial, sans-serif, helvetica; 
+border: solid #454545 1px;
+font-size: 8pt; color: black; text-align: justify}
+
+/* style de la mention finale */
+.tail {color: gray; font-size: 8pt;}
+
+</style>
+</head>
+<body bgcolor="white">
+<SCRIPT language="JavaScript1.2" src="../lib/menus.txt"></SCRIPT>
+<SCRIPT language="JavaScript1.2" src="../lib/menu_param_rebol.js"></SCRIPT>
+<br><br><hr>
+
+<center>
+<table width="660" cellpadding="4" cellspacing="0" border="0">
+<tr>
+<td>
+<a href="http://www.rebol.com/docs.html">
+<img src="http://www.rebol.com/graphics/doc-bar.gif" width="680" height="28" align="bottom" alt="rebol document" border="0" usemap="#bar-map" ismap>
+</a>
+</td>
+
+</tr>
+<tr height="10"><td></td></tr>
+<tr><td>
+<p><h1 class="title" >Les contextes et les objets avec Rebol</h1>
+<div class="header">
+Titre: Les contextes et les objets avec Rebol<br />Auteur: Philippe Le Goff<br />Mail: lp--legoff--free-fr<br />Date: 20 Sep 2004
+</div>
+
+
+
+
+<h2 class="toc-title" >Contenu </h2>
+<a class="toc1" href="#section-1">1. Présentation</a><br />
+<a class="toc2" href="#section-1.1">1.1 Les contextes</a><br />
+<a class="toc2" href="#section-1.2">1.2 Usage d'une fonction dans le contexte global</a><br />
+<a class="toc2" href="#section-1.3">1.3 SET, GET et IN</a><br />
+<a class="toc2" href="#section-1.4">1.4 La fonction GET</a><br />
+<a class="toc2" href="#section-1.5">1.5 BIND</a><br />
+<a class="toc1" href="#section-2">2. Les objets</a><br />
+<a class="toc1" href="#section-3">3. Des objets particuliers : les Faces</a><br />
+<p>
+<div class="top">[ <a href="#top">Retour au sommaire</a> ]</div>
+
+
+<h2 id="section-1">1. Présentation</h2>
+<blockquote>
+<p>REBOL signifie : "Relative-Expression based Object Langage".</p>
+<p>Ce n'est pas un langage objet au sens strict, (cf références ML), mais Rebol peut manipuler des objets.
+En fait plutôt que des objets, Rebol est un langage à contextes.</p>
+</blockquote>
+<p>
+<h3 id="section-1.1">1.1 Les contextes</h3>
+<blockquote>
+<p>Un contexte est un espace particulier et unique déclaré de la façon suivante :</p>
+<pre>
+context: [ ... le code ...]
+</pre>
+<p>Rebol définit un contexte global, auquel peuvent être rajouté des contextes locaux.</p>
+<p>Toutes les mots Rebol définis dans le contexte Global (Rebol/words) sont connus dans les autres contextes.
+Mais dans le contexte local, ils peuvent être redéfinis.
+Rebol connait le contexte des mots au moment de leur exécution, par contre, il ne peut pas connaitre le contexte des 
+blocs, chaînes,...</p>
+<p>Par contre, il est suggéré au programmeur de définir leur code à l'intérieur d'un contexte.</p>
+<p>En effet, les variables définies au sein du contexte ne sont pas connues dans le contexte global.</p>
+<p align="center"><img src="http://pl.legoff.free.fr/docs/informatique/rebol/img/contextes1.png"></p>
+<p>L'intérêt est par exemple d'éviter les conflits de noms de variables.</p>
+<p>Un contexte déclaré dans un script compte par ailleurs pour UN mot Rebol, 
+même si le nombre de variable qu'il définit est très important.</p>
+</blockquote>
+<p>
+<h3 id="section-1.2">1.2 Usage d'une fonction dans le contexte global</h3>
+<blockquote>
+<p>Si un contexte est déclaré ainsi :</p>
+<pre>
+mon-contexte: context [ 
+    toto: "test" 
+    zap: func [inf /prob ][ 
+    print inf
+    if prob [probe type? inf]
+    ]
+    ... mon code ...
+    ]
+</pre>
+<p>Dans ce dernier cas, le mot 'mon-context sera connu du contexte global.</p>
+<p>Toutes les variables définies dans le contexte 'mon-context peuvent être appelées via le chemin (path) :</p>
+<pre>
+mon-contexte/toto,
+</pre>
+<p>ou encore :</p>
+<pre>
+mon-contexte/zap/prob "coucou"
+</pre>
+</blockquote>
+<p>
+<h3 id="section-1.3">1.3 SET, GET et IN</h3>
+<blockquote>
+<p>La fonction <b>SET</b> permet de définir un mot dans le contexte global.
+Même si ce mot est défini au sein d'un contexte particulier, 
+l'usage de <b>set</b> crée un lien implicite dans le contexte global. 
+Ceci permet d'utiliser le référencement d'une fonction dans le contexte global.</p>
+<p>Si la fonction SET est associée à la fonction IN, alors on peut déclarer un mot d'un contexte à un autre.</p>
+</blockquote>
+<p>
+<h3 id="section-1.4">1.4 La fonction GET</h3>
+<blockquote>
+<p>Elle permet de définir :</p>
+<p>Usage de Get in :</p>
+<p>"prend dans l'objet ou le contexte  machin la valeur du mot truc" :</p>
+<pre>
+get in machin 'truc
+</pre>
+<p>Exemple :</p>
+<pre>
+get in system/view/vid/vid-feel/button 'engage
+</pre>
+<p>qui renvoie :</p>
+<pre>
+func [face action event][
+    switch action [
+    time [if not face/state [face/blinker: not face/blinker]]
+    down [face/state: on]
+    alt-down [face/state: on]
+    up [if face/state [do-face face face/text] face/state: off]
+    alt-up [if face/state [do-face-alt face face/text] face/state: off]
+    over [face/state: on]
+    away [face/state: off]]
+    cue face action
+    show face
+    ]
+</pre>
+</blockquote>
+<p>
+<h3 id="section-1.5">1.5 BIND</h3>
+<blockquote>
+<p>Une autre façon de faire connaître une fonction d'un contexte à un autre est d'utiliser le mot "BIND".</p>
+<p>Typiquement, certaines variables (exemple : dans des boucles foreach, ou dans 
+la déclaration d'un contexte) ne sont pas connus hors de la boucle.</p>
+<p>Si on reprend l'exemple ci-dessus :</p>
+<pre>
+mon-contexte: context [ 
+    toto: "test" 
+    zap: func [inf /prob ][ 
+            print inf
+            if prob [probe type? inf]
+        ]
+    ]
+&gt;&gt; probe zap
+<span class="output">** Script Error: zap has no value
+** Near: probe zap</span>
+</pre>
+<p>En effet, la fonction zap n'est pas connue dans le contexte global.</p>
+<p>Comment connaître cette fonction dans le contexte Rebol ?
+Il faut lier (to BIND) cette fonction au contexte global</p>
+<pre>
+do bind 'zap 'print
+</pre>
+<p>Ladislav Mecir a écrit un article complet sur la Bindologie, traduit par 
+Christophe Coussemnt, sur Rebol Documentation Project :</p>
+<pre>
+// Source de la fonction s-c? (same context?) :
+s-c?: func [
+    {Are word1 and word2 bound to the same context?}
+    word1 [word!]
+    word2 [word!]
+] [
+    found? any [
+    all [
+        undefined? word1
+        undefined? word2
+    ]
+    all [
+        not undefined? word2
+        same? word1 bind use reduce [word1] reduce [
+        'first reduce [word1]
+        ] word2
+    ]
+    ]
+]
+</pre>
+</blockquote>
+<p>
+<div class="top">[ <a href="#top">Retour au sommaire</a> ]</div>
+
+
+<h2 id="section-2">2. Les objets</h2>
+<blockquote>
+<p>Un objet est un contexte dans l'espace de l'utilisateur. (dixit Romano Paolo Tenca)</p>
+<p>Ainsi un objet peut être déclaré de la manière suivante :</p>
+<pre>
+mon-objet: make object [
+... ici mon code ...
+]
+</pre>
+<p>La traduction française du chapitre 10 (consacré aux Objets) du User Guide 
+de REBOL/Core pour tout savoir sur les objets : <a href="./doc/ch10-page-objets.html">La suite ICI</a></p>
+</blockquote>
+<p>
+<div class="top">[ <a href="#top">Retour au sommaire</a> ]</div>
+
+
+<h2 id="section-3">3. Des objets particuliers : les Faces</h2>
+<blockquote>
+<p>Tous les figures (btn, box, text,..) sont des objets.</p>
+<p>Avec le Visual Interface Dialect, et la fonction LAYOUT, on manipule des objets particuliers, 
+pour générer des Interfaces Graphiques : <a href="./rebol/rebol-view-first-steps.html">revue de texte ici</a>.</p>
+</blockquote>
+</p>
+</td></tr>
+</table>
+</center>
+
+
+<map name="bar-map">
+<area shape="rect" coords="0,0,150,28"   href="http://www.rebol.com" alt="REBOL.com">
+<area shape="rect" coords="175,0,275,28" href="http://www.rebol.com/docs.html" alt="Documents">
+<area shape="rect" coords="285,0,365,28" href="http://www.rebol.com/docs/core23/rebolcore.html" alt="Manual">
+<area shape="rect" coords="375,0,445,28" href="http://www.rebol.com/docs/dictionary.html" alt="Dictionary">
+<area shape="rect" coords="452,0,500,28" href="http://www.rebol.com/library.html" alt="Library">
+<area shape="rect" coords="510,0,575,28" href="http://www.rebol.com/feedback.html" alt="Feedback">
+</map>
+
+</body>
+</html>

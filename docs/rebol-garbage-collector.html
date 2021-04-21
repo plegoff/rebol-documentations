@@ -1,0 +1,213 @@
+<!doctype html public "-//W3C//DTD HTML 4.0 Transitional//FR">
+<html>
+<head>
+<title>Sur la gestion de la m&eacute;moire dans Rebol, avec le garbage collector (GC)</title>
+<meta http-equiv="content-type" content="text/html;CHARSET=iso-8859-15">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="expires" content="-1"> 
+<META NAME="KEYWORDS" CONTENT="REBOL, rebel, distributed computing, X Internet, X-Internet, xnet, executable internet, distributed applications, distributed platform, internet platform, internet programming, client-side computing, distributed desktop, platform independent, system independent, machine independent, operating system, programming language, scripting language, scripting, messaging, dialect, dialecting, e-content, direct Internet delivery, command">
+<META NAME="Description" CONTENT="REBOL Technologies provides advanced, system-independent communication technology for the X Internet.">
+<title>Sur la gestion de la m&eacute;moire dans Rebol, avec le garbage collector (GC)</title>
+<style type="text/css">
+
+body, p, td {font-family: arial, sans-serif, helvetica; font-size: 9pt;}
+
+tt {font-family: "courier new", monospace, courier; font-size: 9pt;}
+.title {Font-Size: 16 pt; Font-Weight: bold;}
+
+/* style du header présentant le doc */
+.header { padding: 10pt; padding-left: 20pt; margin-right: 30pt; width:"660px"; background-color: #e5e5e5; 
+font-family: arial, sans-serif, helvetica; font-size: 9pt; font-weight: normal;}
+
+/*  Le style du lien pour remonter à la Table des Matières  */
+.top { font-size:8pt; text-align: right; color: #872C2C; width: 100%; }
+/*  Le style des Notes  */
+.note {
+	margin: 1em 2em;
+	padding: 1em;
+	width: 85%;
+	color: white;
+	background-color: #B16C62;
+	border: solid gray 1px;
+	text-align:justify;
+}
+/*  Les styles des items de la table des matières  */
+.toc1 {margin-left: 1cm; font-size: 10pt; font-weight: bold;}
+.toc2 {margin-left: 2cm; font-size: 9pt; font-weight: bold; text-decoration: none;}
+.toc3 {margin-left: 3cm; font-size: 8pt; text-decoration: none;}
+.toc4 {margin-left: 4cm; font-size: 8pt; color: grey; text-decoration: none;}
+
+
+h1 {font-size: 12pt;}
+h2 {font-size: 10pt; color: #2030a0; width: 100%; border-bottom: 1px solid #c09060;}
+h3 {font-size: 10pt; color: #2030a0;}
+h4 {font-size: 9pt; color: #2030a0; font-weight: bold;}
+h5 {font-size: 9pt; font-weight: bold;}
+
+/*  Les styles du code et des outputs  */
+pre {font: bold 9pt "courier new", monospace, console; color: #000000;
+    background-color: #e0e0e0; padding: 16px; border: solid #a0a0a0 1px;}
+.output {color: #000080; font-weight: normal;}
+
+/*  Les styles des tableaux  */
+.md-table table {font-family: verdana, arial, sans-serif, helvetica; 
+border: solid black 1px;}
+
+.md-header td {font-family: verdana, arial, sans-serif, helvetica; 
+border: solid black 1px; background-color: silver;
+font: bold 8pt; color: black; text-align: center;}
+
+.md-cell td {font-family: verdana, arial, sans-serif, helvetica; 
+border: solid #454545 1px;
+font-size: 8pt; color: black; text-align: top}
+
+/* style de la mention finale */
+.tail {color: gray; font-size: 8pt;}
+
+</style>
+</head>
+<body bgcolor="white">
+<SCRIPT language="JavaScript1.2" src="../lib/menus.txt"></SCRIPT>
+<SCRIPT language="JavaScript1.2" src="../lib/menu_param_rebol.js"></SCRIPT>
+<br><br><hr>
+
+<br><br>
+<center>
+<table width="660" cellpadding="4" cellspacing="0" border="0">
+<tr>
+<td>
+<a href="http://www.rebol.com/docs.html">
+<img src="http://www.rebol.com/graphics/doc-bar.gif" width="680" height="28" align="bottom" alt="rebol document" border="0" usemap="#bar-map" ismap>
+</a>
+</td>
+
+</tr>
+<tr height="10"><td></td></tr>
+<tr><td>
+<p><h1 class="title" >Sur la gestion de la m&eacute;moire dans Rebol, avec le garbage collector (GC)</h1>
+<div class="header">
+Titre: Gestion de la m&eacute;moire sous Rebol<br />Auteur: Philippe Le Goff, d'apr&egrave;s un article de Carl Sassenrath<br />Mail: lp--legoff--free-fr<br />Date: 20 Aout 2004
+</div>
+
+
+
+
+<h2 class="toc-title" >Contenu </h2>
+<a class="toc1" href="#section-1">1. Sur la gestion de la m&eacute;moire dans Rebol, avec le garbage collector (GC)</a><br />
+<a class="toc2" href="#section-1.1">1.1 Principe g&eacute;n&eacute;ral</a><br />
+<a class="toc1" href="#section-2">2. Fonctionnement de REBOL vs m&eacute;moire</a><br />
+<a class="toc2" href="#section-2.1">2.1 R&eacute;gles de programmation</a><br />
+<a class="toc2" href="#section-2.2">2.2 Note importante</a><br />
+<p>
+<div class="top">[ <a href="#top">Retour au sommaire</a> ]</div>
+
+
+<h2 id="section-1">1. Sur la gestion de la m&eacute;moire dans Rebol, avec le garbage collector (GC)</h2>
+<blockquote>
+</blockquote>
+<p>
+<h3 id="section-1.1">1.1 Principe g&eacute;n&eacute;ral</h3>
+<blockquote>
+<p>La logique de programmation est assez compliqu&eacute;e, mais elle est &eacute;galement rapide. 
+Par exemple, vous pourriez consommer 50 Mo de m&eacute;moire, 
+mais ne pas savoir quand le garbage collector (GC) s'active.</p>
+<p>Il y a beaucoup de programmes de REBOL qui fonctionnent depuis des mois (des ann&eacute;es ?) 
+sans arr&ecirc;t, ainsi nous savons que la GC est stable. Il y a quelques exceptions, 
+en fonctionnement, pour des op&eacute;rations d'ouverture avec gestion d'erreur comme TRY,OPEN, etc. 
+Si vous souhaitez conna&icirc;tre la consommation de la m&eacute;moire utilis&eacute;e 
+par votre code, mettez celui-ci dans une boucle et imprimez les statistiques 
+de m&eacute;moire &agrave; chaque it&eacute;ration. 
+(employez une version r&eacute;cente de REBOL pour une meilleure exactitude sur les statistiques)</p>
+<pre>
+loop 10000 [ votre code 
+print ["Mem:" stats] 
+]
+</pre>
+<p>Vous verrez les statistiques d'utilisation de m&eacute;moire apr&egrave;s un moment (&agrave; 
+moins que vous ne fassiez des choses comme ajouter des &eacute;l&eacute;ments 
+sans interruption &agrave; une s&eacute;rie, ou conserver une trace dans un log).</p>
+</blockquote>
+<p>
+<div class="top">[ <a href="#top">Retour au sommaire</a> ]</div>
+
+
+<h2 id="section-2">2. Fonctionnement de REBOL vs m&eacute;moire</h2>
+<blockquote>
+<p>Les deux m&eacute;thodes de base de m&eacute;moire dans REBOL sont :</p>
+<ul>
+<li>Petites allocations (valeurs, blocs, etc...) : 
+elles sont contr&ocirc;l&eacute;s par REBOL pour des raisons de vitesse. 
+Elles sont efficacement r&eacute;utilis&eacute;es.</li>
+<li>Grandes allocations (fichiers, images, sons, grands blocs, etc...) : 
+elles sont r&eacute;alis&eacute;es par l'OS de la machine , 
+parce que nous figurons qu'il sait mieux les caract&eacute;ristiques 
+de son mod&egrave;le de pagination de m&eacute;moire virtuelle et peut en optimiser l'attribution.</li>
+</ul>
+</blockquote>
+<p>
+<h3 id="section-2.1">2.1 R&eacute;gles de programmation</h3>
+<blockquote>
+<p>Ainsi, voici ce que les programmeurs doivent se rappeler :</p>
+<ul>
+<li>Si vous utilisez des valeurs courantes de REBOL et des petites s&eacute;ries, relax, d&eacute;tendez-vous.</li>
+<li>Si vous assignez des objets de grande taille en m&eacute;moire (cha&icirc;nes , images, blocs, etc.), 
+vous pouvez vouloir d&eacute;r&eacute;f&eacute;rencer ces objets quand vous avez fini avec eux.</li>
+</ul>
+<p>Par exemple :</p>
+<pre>
+file: read %large-file.txt 
+do some-stuff-on-file 
+file: none 
+; permet au GC de r&amp;eacute;allouer la mémoire de la variable file
+</pre>
+<p>Ceci n'est pas obligatoire, mais aidera &agrave; r&eacute;duire l'utilisation de m&eacute;moire.</p>
+</blockquote>
+<p>
+<h3 id="section-2.2">2.2 Note importante</h3>
+<blockquote>
+<div class="note"><p><b></b></p>
+<p><u>IMPORTANT</u> :</p>
+<p>Dans l'exemple ci-dessus, si la variable  <i>file</i> est une variable locale &agrave; une fonction, 
+*NE PENSEZ PAS* qu'elle sera d&eacute;r&eacute;f&eacute;renc&eacute;e automatiquement.</p>
+<p>Par d&eacute;faut, le premier appel des variables locales pour une fonction reste en m&eacute;moire. 
+Ainsi, si vous avez une fonction :</p>
+<pre>
+foo: has [file] [ 
+file: read %large-file.txt
+print length? file 
+]
+</pre>
+<p>La m&eacute;moire allou&eacute;e &agrave; la variable <i>file</i>  ne sera pas lib&eacute;r&eacute;e, 
+tant que la valeur de cette variable ne sera pas remplac&eacute;e par une valeur diff&eacute;rente 
+(par un deuxi&egrave;me appel &agrave; la fonction foo, 
+qui conservera alors la m&eacute;moire de la variable <i>file</i>  jusqu'au prochain appel, etc...) 
+Pour changer cela et r&eacute;duire la consommation m&eacute;moire, allouer &agrave; 
+la variable locale <i>file</i> la valeur <b>none</b> :</p>
+<pre>
+foo: has [file] [ 
+file: read %large-file.txt
+print length? file 
+file: none 
+]
+</pre>
+</div>
+<p><b><i>Carl Sessenrath, traduction d'apr&egrave;s un article paru dans la ML Rebol : <br> 
+http://www.escribe.com/internet/rebol/m32106.html R&eacute;f&eacute;rence article de Carl </i></b></p>
+</blockquote>
+</p>
+</td></tr>
+</table>
+</center>
+
+
+<map name="bar-map">
+<area shape="rect" coords="0,0,150,28"   href="http://www.rebol.com" alt="REBOL.com">
+<area shape="rect" coords="175,0,275,28" href="http://www.rebol.com/docs.html" alt="Documents">
+<area shape="rect" coords="285,0,365,28" href="http://www.rebol.com/docs/core23/rebolcore.html" alt="Manual">
+<area shape="rect" coords="375,0,445,28" href="http://www.rebol.com/docs/dictionary.html" alt="Dictionary">
+<area shape="rect" coords="452,0,500,28" href="http://www.rebol.com/library.html" alt="Library">
+<area shape="rect" coords="510,0,575,28" href="http://www.rebol.com/feedback.html" alt="Feedback">
+</map>
+
+</body>
+</html>

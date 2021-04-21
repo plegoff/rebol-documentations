@@ -1,0 +1,1079 @@
+%PDF-1.3
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [73.70 52.19 199.97 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 4 0 R>>
+endobj
+4 0 obj
+<</Length 1845>>
+stream
+2 J
+0.57 w
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (REBOL/Services pour les nuls \(4\) : Analyse de l'évaluation d'une requête) Tj ET Q
+0.57 w
+BT /F2 26.00 Tf ET
+q 0.502 g BT 118.24 656.92 Td (The REBOL Documentation) Tj ET Q
+q 0.502 g BT 243.04 631.41 Td (Project) Tj ET Q
+BT /F1 8.00 Tf ET
+q 0.502 g BT 220.74 616.97 Td (-- FR - Documentation REBOL - Tutoriels --) Tj ET Q
+0.85 w
+BT /F2 20.00 Tf ET
+q 0.502 g BT 73.70 423.45 Td (Tutoriels) Tj ET Q
+BT /F3 22.00 Tf ET
+297.64 436.54 m 297.64 413.86 l S q 0.000 g BT 300.47 418.60 Td (REBOL/Services pour) Tj ET Q
+297.64 413.86 m 297.64 391.18 l S q 0.000 g BT 300.47 395.92 Td (les nuls \(4\) : Analyse de) Tj ET Q
+297.64 391.18 m 297.64 368.50 l S q 0.000 g BT 300.47 373.24 Td (l'évaluation d'une) Tj ET Q
+297.64 368.50 m 297.64 345.83 l S q 0.000 g BT 300.47 350.57 Td (requête) Tj ET Q
+297.64 345.83 m 297.64 323.15 l S 
+BT /F4 16.00 Tf ET
+297.64 323.15 m 297.64 306.14 l S q 0.000 g BT 451.35 309.85 Td (REBOLtof) Tj ET Q
+BT /F4 12.00 Tf ET
+297.64 306.14 m 297.64 289.13 l S q 0.000 g BT 307.27 294.04 Td (Première publication : 26 novembre 2005, et) Tj ET Q
+297.64 289.13 m 297.64 272.13 l S q 0.000 g BT 310.27 277.03 Td (mis en ligne le  vendredi 25 novembre 2005) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 73.70 253.54 Td (Résumé :) Tj ET 73.70 252.54 45.01 -0.50 re f Q
+BT /F4 8.00 Tf ET
+q 0.000 g BT 73.70 239.96 Td (Souhaitant, pour des raisons professionnelles, comprendre les mécanismes internes à REBOL/services, je n'ai pas voulu garder mes) Tj ET Q
+q 0.000 g BT 73.70 225.79 Td (découvertes pour moi, et je les propose sous la forme de cet article.) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 73.70 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 1/9) Tj ET Q
+
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [90.71 570.51 156.83 560.51] /Border [0 0 0] /A <</S /URI /URI (#1)>>>><</Type /Annot /Subtype /Link /Rect [90.71 556.34 269.13 546.34] /Border [0 0 0] /A <</S /URI /URI (#2)>>>><</Type /Annot /Subtype /Link /Rect [90.71 542.17 207.99 532.17] /Border [0 0 0] /A <</S /URI /URI (#3)>>>><</Type /Annot /Subtype /Link /Rect [90.71 527.99 222.44 517.99] /Border [0 0 0] /A <</S /URI /URI (#4)>>>><</Type /Annot /Subtype /Link /Rect [90.71 513.82 230.46 503.82] /Border [0 0 0] /A <</S /URI /URI (#5)>>>><</Type /Annot /Subtype /Link /Rect [90.71 499.65 222.44 489.65] /Border [0 0 0] /A <</S /URI /URI (#6)>>>><</Type /Annot /Subtype /Link /Rect [90.71 485.47 274.36 475.47] /Border [0 0 0] /A <</S /URI /URI (#7)>>>><</Type /Annot /Subtype /Link /Rect [90.71 471.30 197.98 461.30] /Border [0 0 0] /A <</S /URI /URI (#8)>>>><</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 6 0 R>>
+endobj
+6 0 obj
+<</Length 5986>>
+stream
+2 J
+0.85 w
+BT /F4 8.00 Tf ET
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 73.70 819.05 Td (REBOL/Services pour les nuls \(4\) : Analyse de l'évaluation d'une requête) Tj ET Q
+BT /F4 8.00 Tf ET
+BT /F5 10.00 Tf ET
+q 0.000 g BT 73.70 794.95 Td (Souhaitant, pour des raisons professionnelles, comprendre les mécanismes internes à) Tj ET Q
+q 0.000 g BT 73.70 780.78 Td (REBOL/services, je n'ai pas voulu garder mes découvertes pour moi, et je les propose sous la) Tj ET Q
+q 0.000 g BT 73.70 766.61 Td (forme de cet article. N'hésitez pas à me faire part de vos remarques ou corrections !) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 718.42 Td ( Version : 1.0 ) Tj ET Q
+q 0.000 g BT 73.70 704.24 Td (Date : 18-nov-2005) Tj ET Q
+q 0.000 g BT 73.70 690.07 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 73.70 646.35 Td (Historique) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 73.70 633.38 Td ( ) Tj ET Q
+q 0.000 g BT 76.48 633.38 Td ( ) Tj ET Q
+q 0.000 g BT 79.26 633.38 Td ( ) Tj ET Q
+q 0.000 g BT 82.04 633.38 Td ( ) Tj ET Q
+q 0.000 g BT 84.82 633.38 Td ( ) Tj ET Q
+q 0.000 g BT 87.60 633.38 Td ( ) Tj ET Q
+q 0.000 g BT 90.38 633.38 Td ( ) Tj ET Q
+BT /F1 9.00 Tf ET
+BT /F1 8.00 Tf ET
+BT /F1 7.00 Tf ET
+90.32 643.46 51.69 -14.17 re S q 0.000 g BT 93.16 634.28 Td ( Date ) Tj ET Q
+142.01 643.46 36.13 -14.17 re S q 0.000 g BT 144.85 634.28 Td ( Version ) Tj ET Q
+178.14 643.46 247.17 -14.17 re S q 0.000 g BT 180.98 634.28 Td ( Commentaires ) Tj ET Q
+425.31 643.46 43.91 -14.17 re S q 0.000 g BT 428.14 634.28 Td ( Auteur ) Tj ET Q
+469.22 643.46 35.74 -14.17 re S q 0.000 g BT 472.05 634.28 Td ( Email ) Tj ET Q
+0.902 0.902 0.902 rg
+90.32 629.29 51.69 -14.17 re B q 0.000 g BT 93.16 620.10 Td ( 18-nov-2005 ) Tj ET Q
+142.01 629.29 36.13 -14.17 re B q 0.000 g BT 144.85 620.10 Td ( 1.0 ) Tj ET Q
+178.14 629.29 247.17 -14.17 re B q 0.000 g BT 180.98 620.10 Td ( initial ) Tj ET Q
+425.31 629.29 43.91 -14.17 re B q 0.000 g BT 428.14 620.10 Td ( REBOLtof ) Tj ET Q
+469.22 629.29 35.74 -14.17 re B q 0.000 g BT 472.05 620.10 Td ( reboltof ) Tj ET Q
+90.32 615.12 51.69 -14.17 re S q 0.000 g BT 93.16 605.93 Td ( 26-nov-2005 ) Tj ET Q
+142.01 615.12 36.13 -14.17 re S q 0.000 g BT 144.85 605.93 Td ( 1.1 ) Tj ET Q
+178.14 615.12 247.17 -14.17 re S q 0.000 g BT 180.98 605.93 Td ( correction du code du service : j'avais copy/passed une ancienne version :-\( ) Tj ET Q
+425.31 615.12 43.91 -14.17 re S q 0.000 g BT 428.14 605.93 Td ( REBOLtof ) Tj ET Q
+469.22 615.12 35.74 -14.17 re S q 0.000 g BT 472.05 605.93 Td ( reboltof ) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 590.86 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 576.69 Td ( ) Tj ET Q
+q 0.000 g BT 90.71 576.69 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 562.51 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 90.71 562.51 Td (1 Préliminaires) Tj ET 90.71 561.51 66.12 -0.50 re f Q
+q 0.000 g BT 156.83 562.51 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 548.34 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 90.71 548.34 Td (2 Réception de la requête par le serveur) Tj ET 90.71 547.34 178.42 -0.50 re f Q
+q 0.000 g BT 269.13 548.34 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 534.17 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 90.71 534.17 Td (3 Traitement de la requête) Tj ET 90.71 533.17 117.28 -0.50 re f Q
+q 0.000 g BT 207.99 534.17 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 519.99 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 90.71 519.99 Td (4 Evaluation de la commande) Tj ET 90.71 518.99 131.73 -0.50 re f Q
+q 0.000 g BT 222.44 519.99 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 505.82 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 90.71 505.82 Td (5 Création des règles d'analyse) Tj ET 90.71 504.82 139.75 -0.50 re f Q
+q 0.000 g BT 230.46 505.82 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 491.65 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 90.71 491.65 Td (6 Evaluation de la commande) Tj ET 90.71 490.65 131.73 -0.50 re f Q
+q 0.000 g BT 222.44 491.65 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 477.47 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 90.71 477.47 Td (7 Transmission du résultat de l'évaluation) Tj ET 90.71 476.47 183.65 -0.50 re f Q
+q 0.000 g BT 274.36 477.47 Td ( ) Tj ET Q
+q 0.000 g BT 79.04 463.30 Td (•) Tj ET Q
+q 0.000 0.000 1.000 rg BT 90.71 463.30 Td (8 Réception par le client) Tj ET 90.71 462.30 107.27 -0.50 re f Q
+q 0.000 g BT 197.98 463.30 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 434.95 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 391.23 Td (1 Préliminaires) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 378.26 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 364.09 Td (Soit le service :) Tj ET Q
+q 0.000 g BT 70.87 349.91 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 336.34 Td ( rebol []) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 322.17 Td ( name: 'shell                   ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 307.99 Td ( title: "Shell Server") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 293.82 Td ( commands: [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 279.65 Td (     'do-it ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 265.47 Td (     "execute passed command" ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 251.30 Td (     arg: block!) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 237.13 Td (     \(result: do arg/1\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 222.95 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 208.18 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 194.01 Td (le serveur qui l'implémente :) Tj ET Q
+q 0.000 g BT 70.87 179.83 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 166.26 Td ( rebol []) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 152.09 Td ( do %server.r) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 137.92 Td ( service: start-service/options tcp://:8000 [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 123.74 Td (     services: [%shell-sv.r]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 109.57 Td ( ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 95.40 Td ( wait []) Tj ET Q
+BT /F1 10.00 Tf ET
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 2/9) Tj ET Q
+
+endstream
+endobj
+7 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 8 0 R>>
+endobj
+8 0 obj
+<</Length 5710>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (REBOL/Services pour les nuls \(4\) : Analyse de l'évaluation d'une requête) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 780.78 Td (et le client qui lance la requête :) Tj ET Q
+q 0.000 g BT 70.87 766.61 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 753.03 Td ( rebol []) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 738.86 Td ( do %client.r) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 724.69 Td ( port: open-service tcp://localhost:8000) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 710.51 Td ( result: do-service port [shell/do-it [1 + 1] ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 696.34 Td ( probe result) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 681.57 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 637.85 Td (2 Réception de la requête par le serveur) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 624.87 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 610.70 Td (Le serveur implémente des handlers pour tous les protocoles supportés. Nous allons nous intéresser) Tj ET Q
+q 0.000 g BT 70.87 596.53 Td (plus particulièrement au protocole TCP, afin de réaliser une architecture Client/Serveur.) Tj ET Q
+q 0.000 g BT 70.87 582.35 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 568.18 Td (Au lancement du serveur, la fonction ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 235.95 568.18 Td ('opener) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 271.67 568.18 Td ( ouvre un port en mode asynchrone, sans buffer. Un) Tj ET Q
+q 0.000 g BT 70.87 554.01 Td (afflux de données sur ce port invoque la fonction ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 288.77 554.01 Td ('on-connect) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 345.04 554.01 Td (.) Tj ET Q
+q 0.000 g BT 70.87 539.83 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 525.66 Td (Cette fonction ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 135.35 525.66 Td ('on-connect) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 191.62 525.66 Td ( reste à l'écoute du port ouvert. Une activité sur le port déclenche alors la) Tj ET Q
+q 0.000 g BT 70.87 511.49 Td (fonction ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 108.67 511.49 Td ('on-data) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 147.16 511.49 Td (.) Tj ET Q
+q 0.000 g BT 70.87 497.32 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 483.14 Td ('on-data) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 109.36 483.14 Td ( va examiner le contenu du port et éventuellement déclencher une erreur en cas de) Tj ET Q
+q 0.000 g BT 70.87 468.97 Td (problème. Si tous se passe bien, les données trouvées sur le port \(donc la requête\) sont transmises à) Tj ET Q
+q 0.000 g BT 70.87 454.80 Td (la fonction en charge du traitement des requêtes : ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 293.77 454.80 Td ('do-request) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 347.82 454.80 Td ( :) Tj ET Q
+q 0.000 g BT 70.87 440.62 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 427.05 Td ( data: do-request port/user-data data) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 412.28 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 368.56 Td (3 Traitement de la requête) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 355.58 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 341.41 Td (La fonction ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 122.57 341.41 Td ('do-request) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 176.62 341.41 Td ( attend deux arguments : ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 290.02 341.41 Td ('session) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 329.64 341.41 Td ( et ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 343.54 341.41 Td ('request) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 382.04 341.41 Td ( :) Tj ET Q
+q 0.000 g BT 70.87 327.24 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 313.06 Td (Le premier, ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 124.22 313.06 Td ('session) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 163.84 313.06 Td ( est un objet contenant tous les paramètres de la session en cours, y compris,) Tj ET Q
+q 0.000 g BT 70.87 298.89 Td (dans ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 95.33 298.89 Td ('session/config) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 167.73 298.89 Td (, les services chargé lors du lancement du serveur. Parmi ces services, nous y) Tj ET Q
+q 0.000 g BT 70.87 284.72 Td (retrouverons le service par défaut \(home\) mais également le\(s\) service\(s\) que nous avons créé\(s\)) Tj ET Q
+q 0.000 g BT 70.87 270.54 Td (\(shell dans notre cas\) :) Tj ET Q
+q 0.000 g BT 70.87 256.37 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 242.80 Td ( id              integer!  1) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 228.62 Td ( seq             integer!  1) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 214.45 Td ( config          object!   [flags service-info services  service-l...) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 200.28 Td ( flags           block!    length: 0) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 186.10 Td ( changed         block!    length: 0) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 171.93 Td ( remote-ip       tuple!    127.0.0.1) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 157.76 Td ( port            port!     make object! [ scheme: 'tcp host: 127....) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 143.58 Td ( recv-buf        binary!   #{}) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 129.41 Td ( port-timeout    integer!  20) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 115.24 Td ( send-queue      block!    length: 0) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 101.06 Td ( sent-queue      block!    length: 0) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 3/9) Tj ET Q
+
+endstream
+endobj
+9 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 10 0 R>>
+endobj
+10 0 obj
+<</Length 5568>>
+stream
+2 J
+0.85 w
+BT /F2 8.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 70.87 819.05 Td (REBOL/Services pour les nuls \(4\) : Analyse de l'évaluation d'une requête) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 795.55 Td ( callback        none!     none) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 781.38 Td ( header          none!     none) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 767.21 Td ( request         block!    length: 2) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 753.03 Td ( results         block!    length: 0) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 738.86 Td ( this-service    none!     none) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 724.69 Td ( max-header      integer!  2000) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 710.51 Td ( max-request     integer!  100000) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 696.34 Td ( max-payload     integer!  8000000) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 682.17 Td ( user-id         integer!  0) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 667.99 Td ( encode          integer!  1) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 653.82 Td ( challenge       none!     none) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 639.65 Td ( crypt-key       binary!   #{08395286B702BCDD3AD79FF7FA4DDADE382AB189}) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 625.47 Td ( crypt-len       integer!  0) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 611.30 Td ( rsa-key         none!     none) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 597.13 Td ( encrypt-port    none!     none) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 582.95 Td ( decrypt-port    none!     none) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 568.78 Td ( language        none!     none) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 554.61 Td ( start-date      date!     18-Nov-2005/14:02:56+1:00) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 540.43 Td ( access-date     date!     18-Nov-2005/14:02:56+1:00) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 526.26 Td ( login-date      none!     none) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 511.49 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 497.32 Td (Le second, ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 122.57 497.32 Td ('request) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 161.07 497.32 Td (, est un block contenant un header \(exigé par le protocole de communication) Tj ET Q
+q 0.000 g BT 70.87 483.14 Td (utilisé par /Service\) et notre requête :) Tj ET Q
+q 0.000 g BT 70.87 468.97 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 455.40 Td ( [[request seq 1] [shell/do-it [1 + 1]]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 440.62 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 426.45 Td ('do-request) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 124.92 426.45 Td ( va parcourir ce block afin d'en extraire les commandes transmises, c'est-à-dire chacun) Tj ET Q
+q 0.000 g BT 70.87 412.28 Td (des blocs contenus dans la requête, sauf le premier.) Tj ET Q
+q 0.000 g BT 70.87 398.10 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 383.93 Td (Chaque commande trouvée est ensuite transmise à la fonction ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 351.00 383.93 Td ('do-command) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 416.16 383.93 Td (, pour exécution :) Tj ET Q
+q 0.000 g BT 70.87 369.76 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 356.18 Td ( catch [result: do-command session command none]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 341.41 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 297.69 Td (4 Evaluation de la commande) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 284.72 Td (  ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 270.54 Td ('do-command) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 136.03 270.54 Td ( est chargé d'évaluer la commande et de retourner le résultat ou de déclencher, le cas) Tj ET Q
+q 0.000 g BT 70.87 256.37 Td (échéant, une erreur. Cette fonction est importante pour la bonne compréhension des mécanismes qui) Tj ET Q
+q 0.000 g BT 70.87 242.20 Td (régissent /Services. Nous allons donc en analyser les détails.) Tj ET Q
+q 0.000 g BT 70.87 228.02 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 213.85 Td (La fonction prend deux arguments : ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 230.96 213.85 Td ('session) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 270.58 213.85 Td (, qui est un objet comprenant les paramètres de la) Tj ET Q
+q 0.000 g BT 70.87 199.68 Td (session \(voir point précédent\) et ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 215.93 199.68 Td ('command) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 265.54 199.68 Td ( qui est un bloc contenant notre commande :) Tj ET Q
+q 0.000 g BT 70.87 185.50 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 171.93 Td ( [shell/do-it [1 + 1]]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 157.16 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 142.98 Td (Dans un premier temps, les services par défaut dans le contexte de nom ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 394.90 142.98 Td ('home) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 423.95 142.98 Td (, vont être chargés) Tj ET Q
+q 0.000 g BT 70.87 128.81 Td (dans un mot ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 128.68 128.81 Td ('servs) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 157.19 128.81 Td ( :) Tj ET Q
+q 0.000 g BT 70.87 114.64 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 101.06 Td ( servs: reduce ['home find-service session/config 'home]) Tj ET Q
+BT /F1 10.00 Tf ET
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 4/9) Tj ET Q
+
+endstream
+endobj
+11 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 12 0 R>>
+endobj
+12 0 obj
+<</Length 5310>>
+stream
+2 J
+0.85 w
+BT /F1 10.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+q 0.502 g BT 70.87 819.05 Td (REBOL/Services pour les nuls \(4\) : Analyse de l'évaluation d'une requête) Tj ET Q
+q 0.000 g BT 70.87 794.95 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 780.78 Td (Après réduction, le bloc ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 178.14 780.78 Td ('servs) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 206.65 780.78 Td ( devient :) Tj ET Q
+q 0.000 g BT 70.87 766.61 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 753.03 Td ( [home make object! [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 738.86 Td (    name: 'home) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 724.69 Td (    title: "Home Service") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 710.51 Td (    description: {Implements the home service \(it is always available\).}) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 696.34 Td (    dispatch: func [session command /local args result][) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 682.17 Td (        \(...\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 667.99 Td (    ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 653.82 Td (    \(...\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 639.65 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 624.87 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 610.70 Td (soit le nom du contexte suivi de la définition du service...) Tj ET Q
+q 0.000 g BT 70.87 596.53 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 582.35 Td (Nous allons alors établir un mapping entre les variables de travail ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 362.65 582.35 Td ('name) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 391.15 582.35 Td ( et ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 405.05 582.35 Td ('command) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 454.66 582.35 Td ( et les valeurs) Tj ET Q
+q 0.000 g BT 70.87 568.18 Td (que l'on retrouve dans le path ! de notre commande :) Tj ET Q
+q 0.000 g BT 70.87 554.01 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 540.43 Td ( if path? command/1 [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 526.26 Td (     name: command/1/1 ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 512.09 Td (     change command command/1/2) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 497.92 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 483.14 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 468.97 Td (Dans notre cas, nous obtiendrons :) Tj ET Q
+q 0.000 g BT 70.87 454.80 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 441.22 Td ( NAME is a word of value: shell) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 427.05 Td ( COMMAND is a block of value: [do-it [1 + 1]]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 412.28 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 398.10 Td (Une valeur est donc attribuée au mot ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 237.62 398.10 Td ('name) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 266.12 398.10 Td (. Cela permet de valider le test suivant, et d'en exécuter le) Tj ET Q
+q 0.000 g BT 70.87 383.93 Td (code :) Tj ET Q
+q 0.000 g BT 70.87 369.76 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 356.18 Td ( if name [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 342.01 Td (     spec: find-service session/config name ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 327.84 Td (     if not spec [bad-service name] ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 313.66 Td (     insert servs reduce [name spec]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 299.49 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 284.72 Td ( ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 270.54 Td ('spec) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 96.04 270.54 Td ( va donc contenir la définition de notre service, sous forme d'objet, et le nom du service, suivi de) Tj ET Q
+q 0.000 g BT 70.87 256.37 Td (ces spécifications, va être inséré avant le service ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 290.40 256.37 Td ('home) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 319.45 256.37 Td ( par défaut, dans le bloc contenu dans) Tj ET Q
+q 0.000 g BT 70.87 242.20 Td (variable ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 108.66 242.20 Td ('servs) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 137.17 242.20 Td (. Nous retrouverons donc dans ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 276.68 242.20 Td ('servs) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 305.19 242.20 Td ( :) Tj ET Q
+q 0.000 g BT 70.87 228.02 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 214.45 Td ( [shell make object! [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 200.28 Td (     name: 'shell) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 186.10 Td (     title: "Shell Server") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 171.93 Td (     description: "An empty service.") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 157.76 Td (     dispatch: func [session command /local args result][) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 143.58 Td (         debug service ['dispatch name command]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 129.41 Td (         if not rules [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 115.24 Td (             rules: make-service-rules commands) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 101.06 Td (             bind rules 'args) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 5/9) Tj ET Q
+
+endstream
+endobj
+13 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 14 0 R>>
+endobj
+14 0 obj
+<</Length 5165>>
+stream
+2 J
+0.85 w
+BT /F2 8.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 70.87 819.05 Td (REBOL/Services pour les nuls \(4\) : Analyse de l'évaluation d'une requête) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 795.55 Td (         ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 781.38 Td (         if not parse command rules [throw 'bad-command]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 767.21 Td (         result) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 753.03 Td (     ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 738.86 Td (     rules: none) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 724.69 Td (     allow: none) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 710.51 Td (     commands: [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 696.34 Td (         'do-it) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 682.17 Td (         "execute passed command") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 667.99 Td (         arg: block!) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 653.82 Td (         \(result: do arg/1\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 639.65 Td (     ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 625.47 Td ( ]    ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 611.30 Td ( home make object! [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 597.13 Td (     name: 'home) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 582.95 Td (     title: "Home Service") Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 568.78 Td (     description: {Implements the home service \(it is always available\).}) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 554.61 Td (     dispatch: func [session command /local args result][) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 540.43 Td (         \(...\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 526.26 Td (     ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 512.09 Td (     \(...\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 497.92 Td (  ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 483.14 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 468.97 Td (Nous remarquons que lors du chargement du service au démarrage du serveur, la fonction ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 475.49 468.97 Td ('dispatch) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 454.80 Td (lui a été ajoutée. Cette fonction va servir à la création d'un bloc de règles d'analyse pour le parsing de) Tj ET Q
+q 0.000 g BT 70.87 440.62 Td (notre commande. Examinons cela en détail.) Tj ET Q
+q 0.000 g BT 70.87 426.45 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 382.73 Td (5 Création des règles d'analyse) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 369.76 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 355.58 Td (Dans la suite du code de la fonction ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 232.07 355.58 Td ('do-command) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 297.23 355.58 Td (, nous trouvons :) Tj ET Q
+q 0.000 g BT 70.87 341.41 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 327.84 Td ( fail: catch [result: spec/dispatch session command none]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 313.06 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 298.89 Td (Nous allons maintenant faire appel à la fonction ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 284.31 298.89 Td ('dispatch) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 327.81 298.89 Td ( de notre service, en lui passant deux) Tj ET Q
+q 0.000 g BT 70.87 284.72 Td (arguments : notre ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 152.02 284.72 Td ('session) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 191.64 284.72 Td ( et la ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 216.10 284.72 Td ('command) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 265.71 284.72 Td (. Remarquez que le ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 355.75 284.72 Td ('none) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 382.02 284.72 Td ( n'est là que pour s'assurer que) Tj ET Q
+q 0.000 g BT 70.87 270.54 Td (dans tous les cas, une valeur sera attribuée au mot 'result, et donc qu'une erreur non traitée ne sera) Tj ET Q
+q 0.000 g BT 70.87 256.37 Td (pas déclenchée.) Tj ET Q
+q 0.000 g BT 70.87 242.20 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 228.02 Td (Si aucune règle d'analyse n'existe, ce qui est le cas lors du premier usage du service, le code suivant) Tj ET Q
+q 0.000 g BT 70.87 213.85 Td (est exécuté, faisant appel à la fonction ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 243.75 213.85 Td ('make-service-rules) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 336.73 213.85 Td ( :) Tj ET Q
+q 0.000 g BT 70.87 199.68 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 186.10 Td ( if not rules [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 171.93 Td (     rules: make-service-rules commands) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 157.76 Td (     bind rules 'args) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 143.58 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 128.81 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 114.64 Td (Cette fonction assure la mise en forme des règles d'analyse qui seront appliquées. Examinons-la :) Tj ET Q
+q 0.000 g BT 70.87 100.46 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 6/9) Tj ET Q
+
+endstream
+endobj
+15 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 16 0 R>>
+endobj
+16 0 obj
+<</Length 5380>>
+stream
+2 J
+0.85 w
+BT /F2 8.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 70.87 819.05 Td (REBOL/Services pour les nuls \(4\) : Analyse de l'évaluation d'une requête) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 795.55 Td ( make-service-rules: func [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 781.38 Td (     "Create parse rules from main command dialect" ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 767.21 Td (     commands [block!] ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 753.03 Td (     /local val blk) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 738.86 Td ( ] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 724.69 Td (     blk: make block! \(length? commands\) / 2 ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 710.51 Td (     parse commands [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 696.34 Td (         some [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 682.17 Td (             val: ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 667.99 Td (             #doc block! ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 653.82 Td (             | #need [word! | block!] ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 639.65 Td (             \(append/only blk to-paren compose/only [need-permission session \(val/2\)]\) ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 625.47 Td (             | string! ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 611.30 Td (             | block! \(append/only blk make-service-rules first val\) ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 597.13 Td (             | skip \(append/only blk first val\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 582.95 Td (         ]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 568.78 Td (     ] ) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 554.61 Td (     blk) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 540.43 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 525.66 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 511.49 Td (La création des régles d'analyse est donc issue elle-même d'une analyse \(parsing\) ! Les régles) Tj ET Q
+q 0.000 g BT 70.87 497.32 Td (utilisées dans la fonction spécifient, dans l'ordre : ) Tj ET Q
+q 7.56 0 0 10.39 70.87 485.43 cm /I1 Do Q
+q 0.000 g BT 82.20 483.14 Td (  si l'on rencontre la balise "#doc" suivi d'un block !, ne rien faire, OU ) Tj ET Q
+q 7.56 0 0 10.39 70.87 471.26 cm /I1 Do Q
+q 0.000 g BT 82.20 468.97 Td (  si l'on rencontre la balise "#need" suivi d'un word ! OU d'un block !, rajouter au bloc ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 457.42 468.97 Td ('blk) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 474.25 468.97 Td ( le résultat) Tj ET Q
+q 0.000 g BT 70.87 454.80 Td (issu de la fonction 'need-permission \(nous n'entrerons pas dans les détails ici\) OU ) Tj ET Q
+q 7.56 0 0 10.39 70.87 442.91 cm /I1 Do Q
+q 0.000 g BT 82.20 440.62 Td (  si l'on rencontre une string ! \(issue de la documentation que l'on peut rajouter au commandes\), ne) Tj ET Q
+q 0.000 g BT 70.87 426.45 Td (rien faire, OU ) Tj ET Q
+q 7.56 0 0 10.39 70.87 414.57 cm /I1 Do Q
+q 0.000 g BT 82.20 412.28 Td (  si l'on rencontre un block !, appliquer la même règle de manière récursive, OU ) Tj ET Q
+q 7.56 0 0 10.39 70.87 400.39 cm /I1 Do Q
+q 0.000 g BT 82.20 398.10 Td (  dans tous les autres cas, rajouter l'élément trouvé à notre bloc ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 365.91 398.10 Td ('blk) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 383.93 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 369.76 Td (Dans notre cas, seul le point 5 va être appliqué, afin d'obtenir un ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 358.49 369.76 Td ('blk) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 375.32 369.76 Td ( contenant :) Tj ET Q
+q 0.000 g BT 70.87 355.58 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 342.01 Td ( [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 327.84 Td (     'do-it) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 313.66 Td (     arg: block!) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 299.49 Td (     \(result: do arg/1\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 285.32 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 270.54 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 256.37 Td (Ce bloc est retourné à la fonction appelante, et il est placé dans le mot ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 385.48 256.37 Td ('rules) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 411.76 256.37 Td ( défini dans la fonction ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 242.20 Td ('dispatch) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 114.37 242.20 Td ( \(voir plus haut\).) Tj ET Q
+q 0.000 g BT 70.87 228.02 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 213.85 Td (A la ligne suivante de la fonction ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 217.06 213.85 Td ('dispatch) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 260.56 213.85 Td (, un binding est réalisé :) Tj ET Q
+q 0.000 g BT 70.87 199.68 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 186.10 Td ( bind rules 'args) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 171.33 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 157.16 Td (Le but est ici de lier les régles d'analyse que nous venons de produire, au contexte local de la fonction) Tj ET Q
+q 0.000 g BT 70.87 142.98 Td (\('args est déclaré comme /local à la fonction\).) Tj ET Q
+q 0.000 g BT 70.87 128.81 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 7/9) Tj ET Q
+
+endstream
+endobj
+17 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 18 0 R>>
+endobj
+18 0 obj
+<</Length 5313>>
+stream
+2 J
+0.85 w
+BT /F5 14.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 70.87 819.05 Td (REBOL/Services pour les nuls \(4\) : Analyse de l'évaluation d'une requête) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 793.75 Td (4 Evaluation de la commande) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 780.78 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 766.61 Td (Nous disposons à présent de la commande à exécuter, et des régles de parsing. La ligne suivante de) Tj ET Q
+q 0.000 g BT 70.87 752.43 Td (la fonction ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 119.23 752.43 Td ('dispatch) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 162.73 752.43 Td ( assure alors l'évaluation de la commande :) Tj ET Q
+q 0.000 g BT 70.87 738.26 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 724.69 Td ( if not parse command rules [throw 'bad-command]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 709.91 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 695.74 Td (Dans notre cas nous obtiendrons donc le parsing suivant :) Tj ET Q
+q 0.000 g BT 70.87 681.57 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 667.99 Td ( parse [do-it [1 + 1]] [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 653.82 Td (     'do-it) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 639.65 Td (     arg: block!) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 625.47 Td (     \(result: do arg/1\)) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 611.30 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 596.53 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 582.35 Td (Ce parsing est à interpréter comme suis : ) Tj ET Q
+q 7.56 0 0 10.39 70.87 570.47 cm /I1 Do Q
+q 0.000 g BT 82.20 568.18 Td (  si l'on rencontre le mot ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 190.82 568.18 Td ('do-it) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 214.86 568.18 Td ( ) Tj ET Q
+q 7.56 0 0 10.39 70.87 556.30 cm /I1 Do Q
+q 0.000 g BT 82.20 554.01 Td (  suivi d'un block ! ) Tj ET Q
+q 7.56 0 0 10.39 70.87 542.13 cm /I1 Do Q
+q 0.000 g BT 82.20 539.83 Td (  mettre cette valeur dans la variable ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 246.16 539.83 Td ('arg) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 264.10 539.83 Td ( ) Tj ET Q
+q 7.56 0 0 10.39 70.87 527.95 cm /I1 Do Q
+q 0.000 g BT 82.20 525.66 Td (  et enfin exécuter le code entre parenthèses) Tj ET Q
+q 0.000 g BT 70.87 511.49 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 497.32 Td (L'exécution de ce code aura pour effet de mettre le résultat de l'évaluation \(soit : 2\) dans la variable ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 483.14 Td ('result) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 100.48 483.14 Td (, qui est retournée à la fonction appelante : ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 292.82 483.14 Td ('do-command) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 357.98 483.14 Td (.) Tj ET Q
+q 0.000 g BT 70.87 468.97 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 425.25 Td (7 Transmission du résultat de l'évaluation) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 412.28 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 398.10 Td (Aucune erreur n'ayant été déclenchée dans ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 266.78 398.10 Td ('do-command) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 331.94 398.10 Td (, c'est également la valeur contenue dans ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 70.87 383.93 Td ('result) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 100.48 383.93 Td ( \(soit toujours : 2\) qui est transmise à la fonction appelante ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 362.27 383.93 Td ('do-request) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 416.32 383.93 Td (... Rappelez-vous le) Tj ET Q
+q 0.000 g BT 70.87 369.76 Td (code en question :) Tj ET Q
+q 0.000 g BT 70.87 355.58 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 342.01 Td ( result: do-command session command none) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 327.24 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 313.06 Td (Quelques lignes plus loin, nous trouvons :) Tj ET Q
+q 0.000 g BT 70.87 298.89 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 285.32 Td ( append-reply session 'ok cmd result) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 270.54 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 256.37 Td (La fonction ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 122.57 256.37 Td ('append-reply) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 187.74 256.37 Td ( va donc former la réponse à notre requête, et placer celle-ci dans notre) Tj ET Q
+q 0.000 g BT 70.87 242.20 Td (session, pour transmission vers le client.) Tj ET Q
+q 0.000 g BT 70.87 228.02 Td (  ) Tj ET Q
+BT /F5 14.00 Tf ET
+q 0.000 g BT 70.87 184.30 Td (8 Réception par le client) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 171.33 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 157.16 Td (Enfin, à l'autre bout du fil du réseau, notre client reçoit le résultat de la commande :) Tj ET Q
+q 0.000 g BT 70.87 142.98 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 129.41 Td ( [) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 115.24 Td (     done [reply seq 1 service "Generic REBOL Service" commands 1 time 0:00:00.01]) Tj ET Q
+q 1.000 0.000 0.000 rg BT 70.87 101.06 Td (     ok [shell/do-it 2]) Tj ET Q
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+BT /F6 8.00 Tf ET
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 8/9) Tj ET Q
+
+endstream
+endobj
+19 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [70.87 52.19 197.14 44.19] /Border [0 0 0] /A <</S /URI /URI (http://rebdocproj.org)>>>>]
+/Contents 20 0 R>>
+endobj
+20 0 obj
+<</Length 2728>>
+stream
+2 J
+0.85 w
+BT /F2 8.00 Tf ET
+0.902 0.902 0.902 rg
+0.85 w
+56.69 805.04 m 538.59 805.04 l S
+BT /F1 10.00 Tf ET
+q 0.502 g BT 70.87 819.05 Td (REBOL/Services pour les nuls \(4\) : Analyse de l'évaluation d'une requête) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 795.55 Td ( ]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 780.78 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 766.61 Td (où nous retrouvons deux paires word !/block !) Tj ET Q
+q 0.000 g BT 70.87 752.43 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 738.26 Td (La première :) Tj ET Q
+q 0.000 g BT 70.87 724.09 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 710.51 Td ( done [reply seq 1 service "Generic REBOL Service" commands 1 time 0:00:00.01]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 695.74 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 681.57 Td (est un résumé de la requête. Le mot ) Tj ET Q
+BT /F5 10.00 Tf ET
+q 0.000 g BT 234.29 681.57 Td ('done) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 260.56 681.57 Td ( indique qu'aucune erreur ne s'est produite et que la) Tj ET Q
+q 0.000 g BT 70.87 667.39 Td (requête a été complètement traitée. Nous y retrouvons différentes informations, ainsi que le temps mis) Tj ET Q
+q 0.000 g BT 70.87 653.22 Td (par la commande pour être exécutée.) Tj ET Q
+q 0.000 g BT 70.87 639.05 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 624.87 Td (La seconde paire :) Tj ET Q
+q 0.000 g BT 70.87 610.70 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 597.13 Td ( ok [shell/do-it 2]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 582.35 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 568.18 Td (nous indique que la commande s'est bien exécutée \("ok"\), rappelle le nom de la commande) Tj ET Q
+q 0.000 g BT 70.87 554.01 Td (\("shell/do-it"\) et donne le résultat obtenu \("2"\).) Tj ET Q
+q 0.000 g BT 70.87 539.83 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 525.66 Td (Une alternative aurait été, en imaginant que nous n'avions pas les permissions nécessaires à) Tj ET Q
+q 0.000 g BT 70.87 511.49 Td (l'exécution de la commande :) Tj ET Q
+q 0.000 g BT 70.87 497.32 Td ( ) Tj ET Q
+BT /F2 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 70.87 483.74 Td ( fail [shell/do-it not-allowed]) Tj ET Q
+BT /F1 10.00 Tf ET
+q 0.000 g BT 70.87 468.97 Td (  ) Tj ET Q
+q 0.000 g BT 76.43 468.97 Td (  ) Tj ET Q
+q 0.000 g BT 70.87 454.80 Td (J'espère que ces quelques lignes ont pu vous aider dans la voie de la compréhension de ces) Tj ET Q
+q 0.000 g BT 70.87 440.62 Td (magnifiques /Services :-\)) Tj ET Q
+q 0.000 g BT 70.87 426.45 Td ( ) Tj ET Q
+q 0.000 g BT 70.87 412.28 Td (Merci de m'avoir lu !) Tj ET Q
+BT /F6 8.00 Tf ET
+0.85 w
+56.69 56.69 m 538.59 56.69 l S
+q 0.000 g BT 70.87 45.79 Td (The REBOL Documentation Project) Tj ET Q
+q 0.000 g BT 503.51 45.79 Td (Page 9/9) Tj ET Q
+
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R ]
+/Count 9
+/MediaBox [0 0 595.28 841.89]
+>>
+endobj
+21 0 obj
+<</Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+22 0 obj
+<</Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+23 0 obj
+<</Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+24 0 obj
+<</Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+25 0 obj
+<</Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+26 0 obj
+<</Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+27 0 obj
+<</Type /XObject
+/Subtype /Image
+/Width 8
+/Height 11
+/ColorSpace [/Indexed /DeviceRGB 7 28 0 R]
+/BitsPerComponent 8
+/Mask [7 7 ]
+/Length 88>>
+stream
+              
+endstream
+endobj
+28 0 obj
+<</Length 24>>
+stream
+===åååJJJ±±±qqq¤¤¤FFF   
+endstream
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 21 0 R
+/F2 22 0 R
+/F3 23 0 R
+/F4 24 0 R
+/F5 25 0 R
+/F6 26 0 R
+>>
+/XObject <<
+/I1 27 0 R
+>>
+>>
+endobj
+29 0 obj
+<<
+/Producer (FPDF 1.53)
+/Title (REBOL/Services pour les nuls \(4\) : Analyse de l'évaluation d'une requête)
+/Subject (Tutoriels)
+/Author (REBOLtof)
+/Keywords (DOCUMENTATION, service)
+/Creator (The REBOL Documentation Project)
+/CreationDate (D:20060107065146)
+>>
+endobj
+30 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 31
+0000000000 65535 f 
+0000046254 00000 n 
+0000047327 00000 n 
+0000000009 00000 n 
+0000000222 00000 n 
+0000002117 00000 n 
+0000003186 00000 n 
+0000009222 00000 n 
+0000009435 00000 n 
+0000015195 00000 n 
+0000015409 00000 n 
+0000021028 00000 n 
+0000021243 00000 n 
+0000026604 00000 n 
+0000026819 00000 n 
+0000032035 00000 n 
+0000032250 00000 n 
+0000037681 00000 n 
+0000037896 00000 n 
+0000043260 00000 n 
+0000043475 00000 n 
+0000046394 00000 n 
+0000046491 00000 n 
+0000046586 00000 n 
+0000046684 00000 n 
+0000046783 00000 n 
+0000046885 00000 n 
+0000046990 00000 n 
+0000047254 00000 n 
+0000047498 00000 n 
+0000047777 00000 n 
+trailer
+<<
+/Size 31
+/Root 30 0 R
+/Info 29 0 R
+>>
+startxref
+47881
+%%EOF
